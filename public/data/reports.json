@@ -1,19 +1,4036 @@
 {
-  "generatedAt": null,
-  "username": null,
+  "generatedAt": "2026-02-20T19:11:41.498Z",
+  "username": "GoXLd",
   "followBackWindowDays": 7,
   "counts": {
-    "followers": 0,
-    "following": 0,
-    "followerGainedSinceLast": 0,
+    "followers": 261,
+    "following": 655,
+    "followerGainedSinceLast": 261,
     "followerLostSinceLast": 0,
-    "followingAddedSinceLast": 0,
+    "followingAddedSinceLast": 655,
     "followingRemovedSinceLast": 0,
-    "nonReciprocalNow": 0,
+    "nonReciprocalNow": 502,
     "staleCandidates": 0,
     "ignored": 0
   },
   "staleCandidates": [],
-  "nonReciprocalNow": [],
+  "nonReciprocalNow": [
+    {
+      "login": "0xC0DED0D0",
+      "htmlUrl": "https://github.com/0xC0DED0D0",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "18KEagle",
+      "htmlUrl": "https://github.com/18KEagle",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "1minds3t",
+      "htmlUrl": "https://github.com/1minds3t",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "4ian",
+      "htmlUrl": "https://github.com/4ian",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "4ndrs",
+      "htmlUrl": "https://github.com/4ndrs",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "5uguru",
+      "htmlUrl": "https://github.com/5uguru",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Abderrafea",
+      "htmlUrl": "https://github.com/Abderrafea",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Abdul-Rasheed-Talal",
+      "htmlUrl": "https://github.com/Abdul-Rasheed-Talal",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "AbdullahGM1",
+      "htmlUrl": "https://github.com/AbdullahGM1",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "abedalrahmandarsheikh",
+      "htmlUrl": "https://github.com/abedalrahmandarsheikh",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "abhishekrch",
+      "htmlUrl": "https://github.com/abhishekrch",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "abizovnuralem",
+      "htmlUrl": "https://github.com/abizovnuralem",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "AcedHearts",
+      "htmlUrl": "https://github.com/AcedHearts",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "acrosman",
+      "htmlUrl": "https://github.com/acrosman",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "adamsappIe",
+      "htmlUrl": "https://github.com/adamsappIe",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "addict4vsxs",
+      "htmlUrl": "https://github.com/addict4vsxs",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "AidennKai",
+      "htmlUrl": "https://github.com/AidennKai",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "airtin010",
+      "htmlUrl": "https://github.com/airtin010",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "aishalieva0",
+      "htmlUrl": "https://github.com/aishalieva0",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Akhilesh-github-7",
+      "htmlUrl": "https://github.com/Akhilesh-github-7",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "albinpoignot",
+      "htmlUrl": "https://github.com/albinpoignot",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "alltoy24",
+      "htmlUrl": "https://github.com/alltoy24",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "alpikanarwekar",
+      "htmlUrl": "https://github.com/alpikanarwekar",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "altorocito",
+      "htmlUrl": "https://github.com/altorocito",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "amad3i",
+      "htmlUrl": "https://github.com/amad3i",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "amazing-soft-dev",
+      "htmlUrl": "https://github.com/amazing-soft-dev",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "amingholipoor5327-oss",
+      "htmlUrl": "https://github.com/amingholipoor5327-oss",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "amsorrytola",
+      "htmlUrl": "https://github.com/amsorrytola",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "angaming102734-design",
+      "htmlUrl": "https://github.com/angaming102734-design",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "AngelicGlow-Till",
+      "htmlUrl": "https://github.com/AngelicGlow-Till",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "AnjaliPatel301",
+      "htmlUrl": "https://github.com/AnjaliPatel301",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "anjonas",
+      "htmlUrl": "https://github.com/anjonas",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "anonimus678",
+      "htmlUrl": "https://github.com/anonimus678",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "anqelicstatic",
+      "htmlUrl": "https://github.com/anqelicstatic",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "AntoineAugusti",
+      "htmlUrl": "https://github.com/AntoineAugusti",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "antoinebisch",
+      "htmlUrl": "https://github.com/antoinebisch",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Antoinebr",
+      "htmlUrl": "https://github.com/Antoinebr",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "aqqlesauxe",
+      "htmlUrl": "https://github.com/aqqlesauxe",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "aquacommander",
+      "htmlUrl": "https://github.com/aquacommander",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "AravindReghunath011",
+      "htmlUrl": "https://github.com/AravindReghunath011",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ari0211",
+      "htmlUrl": "https://github.com/ari0211",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ArifEmreYaman",
+      "htmlUrl": "https://github.com/ArifEmreYaman",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Arinr1n",
+      "htmlUrl": "https://github.com/Arinr1n",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Arnavce",
+      "htmlUrl": "https://github.com/Arnavce",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ArpitaGanatra",
+      "htmlUrl": "https://github.com/ArpitaGanatra",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Asifmahmud436",
+      "htmlUrl": "https://github.com/Asifmahmud436",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "aspatil0",
+      "htmlUrl": "https://github.com/aspatil0",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "aspirinoo",
+      "htmlUrl": "https://github.com/aspirinoo",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "atgreen",
+      "htmlUrl": "https://github.com/atgreen",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Atlasswims",
+      "htmlUrl": "https://github.com/Atlasswims",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "augustineorlov",
+      "htmlUrl": "https://github.com/augustineorlov",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "AungKaung1928",
+      "htmlUrl": "https://github.com/AungKaung1928",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "AvinashXDev",
+      "htmlUrl": "https://github.com/AvinashXDev",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ayand269",
+      "htmlUrl": "https://github.com/ayand269",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Ayush277",
+      "htmlUrl": "https://github.com/Ayush277",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "azizbek747nayimov",
+      "htmlUrl": "https://github.com/azizbek747nayimov",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "baileybitez",
+      "htmlUrl": "https://github.com/baileybitez",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "basit1215",
+      "htmlUrl": "https://github.com/basit1215",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "bassant2005",
+      "htmlUrl": "https://github.com/bassant2005",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "batuhansalkim",
+      "htmlUrl": "https://github.com/batuhansalkim",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "bdsazzad3",
+      "htmlUrl": "https://github.com/bdsazzad3",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "benwerd",
+      "htmlUrl": "https://github.com/benwerd",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Bigmakkiepie",
+      "htmlUrl": "https://github.com/Bigmakkiepie",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Binivert",
+      "htmlUrl": "https://github.com/Binivert",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "BogdanVladevski",
+      "htmlUrl": "https://github.com/BogdanVladevski",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "BowieHsu",
+      "htmlUrl": "https://github.com/BowieHsu",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "BPerrat",
+      "htmlUrl": "https://github.com/BPerrat",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Brethrenking",
+      "htmlUrl": "https://github.com/Brethrenking",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "brgkdm",
+      "htmlUrl": "https://github.com/brgkdm",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "brodreskift",
+      "htmlUrl": "https://github.com/brodreskift",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Bryhan-Benitez",
+      "htmlUrl": "https://github.com/Bryhan-Benitez",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Bubhux",
+      "htmlUrl": "https://github.com/Bubhux",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "budaivisita",
+      "htmlUrl": "https://github.com/budaivisita",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "buddy0323",
+      "htmlUrl": "https://github.com/buddy0323",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "buddy1276",
+      "htmlUrl": "https://github.com/buddy1276",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "buraksocial",
+      "htmlUrl": "https://github.com/buraksocial",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ByteCrister",
+      "htmlUrl": "https://github.com/ByteCrister",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "candidovitu",
+      "htmlUrl": "https://github.com/candidovitu",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Canop",
+      "htmlUrl": "https://github.com/Canop",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "CarinaMendesDev",
+      "htmlUrl": "https://github.com/CarinaMendesDev",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "carlgieringer",
+      "htmlUrl": "https://github.com/carlgieringer",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "CARMEN-SANDEIGOO",
+      "htmlUrl": "https://github.com/CARMEN-SANDEIGOO",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "cas1m1r",
+      "htmlUrl": "https://github.com/cas1m1r",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "charIies",
+      "htmlUrl": "https://github.com/charIies",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Charles-Chrismann",
+      "htmlUrl": "https://github.com/Charles-Chrismann",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Chege-772",
+      "htmlUrl": "https://github.com/Chege-772",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Chocapikk",
+      "htmlUrl": "https://github.com/Chocapikk",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "chriskunda",
+      "htmlUrl": "https://github.com/chriskunda",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ChronoDK",
+      "htmlUrl": "https://github.com/ChronoDK",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "chrucci",
+      "htmlUrl": "https://github.com/chrucci",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "cjnnekwelugo-debug",
+      "htmlUrl": "https://github.com/cjnnekwelugo-debug",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "coda-coda-23",
+      "htmlUrl": "https://github.com/coda-coda-23",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "codebyhuman",
+      "htmlUrl": "https://github.com/codebyhuman",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "CodePixel744",
+      "htmlUrl": "https://github.com/CodePixel744",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Coder-Dude10",
+      "htmlUrl": "https://github.com/Coder-Dude10",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "codewizard1004",
+      "htmlUrl": "https://github.com/codewizard1004",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Colkimi",
+      "htmlUrl": "https://github.com/Colkimi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "colourmeinkindness",
+      "htmlUrl": "https://github.com/colourmeinkindness",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "confetti-canon",
+      "htmlUrl": "https://github.com/confetti-canon",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Connor9994",
+      "htmlUrl": "https://github.com/Connor9994",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "constrz",
+      "htmlUrl": "https://github.com/constrz",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "CoreyMSchafer",
+      "htmlUrl": "https://github.com/CoreyMSchafer",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "coverinblood",
+      "htmlUrl": "https://github.com/coverinblood",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "curtosis",
+      "htmlUrl": "https://github.com/curtosis",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "cutedeadguys",
+      "htmlUrl": "https://github.com/cutedeadguys",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "cyberglot",
+      "htmlUrl": "https://github.com/cyberglot",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Cypher-KE",
+      "htmlUrl": "https://github.com/Cypher-KE",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "d0sc4u",
+      "htmlUrl": "https://github.com/d0sc4u",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "dana-akesh",
+      "htmlUrl": "https://github.com/dana-akesh",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "dapd",
+      "htmlUrl": "https://github.com/dapd",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Darrenvandervelde",
+      "htmlUrl": "https://github.com/Darrenvandervelde",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "datagutt",
+      "htmlUrl": "https://github.com/datagutt",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "datalab-to",
+      "htmlUrl": "https://github.com/datalab-to",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "davidjhaa",
+      "htmlUrl": "https://github.com/davidjhaa",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Daxxtropezz",
+      "htmlUrl": "https://github.com/Daxxtropezz",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Dead-Dove",
+      "htmlUrl": "https://github.com/Dead-Dove",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "deep-abhyudaya",
+      "htmlUrl": "https://github.com/deep-abhyudaya",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "deIiverer",
+      "htmlUrl": "https://github.com/deIiverer",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Dennis-Ngambi",
+      "htmlUrl": "https://github.com/Dennis-Ngambi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "derrickgitonga",
+      "htmlUrl": "https://github.com/derrickgitonga",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "devesfulmakingout",
+      "htmlUrl": "https://github.com/devesfulmakingout",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "devnullxyz",
+      "htmlUrl": "https://github.com/devnullxyz",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Dhanushzyz",
+      "htmlUrl": "https://github.com/Dhanushzyz",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "dhoffmann",
+      "htmlUrl": "https://github.com/dhoffmann",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "diorwave",
+      "htmlUrl": "https://github.com/diorwave",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "djalamin4565-cmyk",
+      "htmlUrl": "https://github.com/djalamin4565-cmyk",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "DPrakashh",
+      "htmlUrl": "https://github.com/DPrakashh",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "dracoloveforall-crypto",
+      "htmlUrl": "https://github.com/dracoloveforall-crypto",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "duongvancuong",
+      "htmlUrl": "https://github.com/duongvancuong",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "eaglecodes1996",
+      "htmlUrl": "https://github.com/eaglecodes1996",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "eatingmycomputer",
+      "htmlUrl": "https://github.com/eatingmycomputer",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ecthoz",
+      "htmlUrl": "https://github.com/ecthoz",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "EimanTahir071",
+      "htmlUrl": "https://github.com/EimanTahir071",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "elemenceOR",
+      "htmlUrl": "https://github.com/elemenceOR",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "emo-till",
+      "htmlUrl": "https://github.com/emo-till",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "entrylabs",
+      "htmlUrl": "https://github.com/entrylabs",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "erencoskun11",
+      "htmlUrl": "https://github.com/erencoskun11",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Eunimon",
+      "htmlUrl": "https://github.com/Eunimon",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "euuii",
+      "htmlUrl": "https://github.com/euuii",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "exit-jbr",
+      "htmlUrl": "https://github.com/exit-jbr",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "fake-oskars",
+      "htmlUrl": "https://github.com/fake-oskars",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "fanielle",
+      "htmlUrl": "https://github.com/fanielle",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "fatemebabaei3813-oss",
+      "htmlUrl": "https://github.com/fatemebabaei3813-oss",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "fatroom",
+      "htmlUrl": "https://github.com/fatroom",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "FedeBertos",
+      "htmlUrl": "https://github.com/FedeBertos",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "felipescola",
+      "htmlUrl": "https://github.com/felipescola",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "femboytiger",
+      "htmlUrl": "https://github.com/femboytiger",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "femrot",
+      "htmlUrl": "https://github.com/femrot",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "fiercew1ngs",
+      "htmlUrl": "https://github.com/fiercew1ngs",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Filip0",
+      "htmlUrl": "https://github.com/Filip0",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "florian-lefebvre",
+      "htmlUrl": "https://github.com/florian-lefebvre",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "flozz",
+      "htmlUrl": "https://github.com/flozz",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "forevertears",
+      "htmlUrl": "https://github.com/forevertears",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Fortunatah",
+      "htmlUrl": "https://github.com/Fortunatah",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "frangelbarrera",
+      "htmlUrl": "https://github.com/frangelbarrera",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "franky47",
+      "htmlUrl": "https://github.com/franky47",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "fur1nairl",
+      "htmlUrl": "https://github.com/fur1nairl",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "fusiondev117-boop",
+      "htmlUrl": "https://github.com/fusiondev117-boop",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "GabrielTrifoni",
+      "htmlUrl": "https://github.com/GabrielTrifoni",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Gabrinevski",
+      "htmlUrl": "https://github.com/Gabrinevski",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "gafarnoot",
+      "htmlUrl": "https://github.com/gafarnoot",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Gague35",
+      "htmlUrl": "https://github.com/Gague35",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "GAMBLEGHOST",
+      "htmlUrl": "https://github.com/GAMBLEGHOST",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "gamemann",
+      "htmlUrl": "https://github.com/gamemann",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Ganesh-2003",
+      "htmlUrl": "https://github.com/Ganesh-2003",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "gardenofashes",
+      "htmlUrl": "https://github.com/gardenofashes",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "GauravKesh",
+      "htmlUrl": "https://github.com/GauravKesh",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "gferreira-valcann",
+      "htmlUrl": "https://github.com/gferreira-valcann",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "GGGK",
+      "htmlUrl": "https://github.com/GGGK",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "gipsy777",
+      "htmlUrl": "https://github.com/gipsy777",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "girlykei",
+      "htmlUrl": "https://github.com/girlykei",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "glamouroustea",
+      "htmlUrl": "https://github.com/glamouroustea",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "glinso",
+      "htmlUrl": "https://github.com/glinso",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "goldhorsedev0101",
+      "htmlUrl": "https://github.com/goldhorsedev0101",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "GR13F3R-2010",
+      "htmlUrl": "https://github.com/GR13F3R-2010",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "gracie007-cloud",
+      "htmlUrl": "https://github.com/gracie007-cloud",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Gurpreet2204",
+      "htmlUrl": "https://github.com/Gurpreet2204",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "gurveeer",
+      "htmlUrl": "https://github.com/gurveeer",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "guswnsxodlf",
+      "htmlUrl": "https://github.com/guswnsxodlf",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "HACHlWARE",
+      "htmlUrl": "https://github.com/HACHlWARE",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "hamed-iam",
+      "htmlUrl": "https://github.com/hamed-iam",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "hamse122",
+      "htmlUrl": "https://github.com/hamse122",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Haroenv",
+      "htmlUrl": "https://github.com/Haroenv",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "harshkumarjangir",
+      "htmlUrl": "https://github.com/harshkumarjangir",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Harshul23",
+      "htmlUrl": "https://github.com/Harshul23",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "haythemgalelem",
+      "htmlUrl": "https://github.com/haythemgalelem",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "heroslender",
+      "htmlUrl": "https://github.com/heroslender",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "hiopes",
+      "htmlUrl": "https://github.com/hiopes",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "hoda223",
+      "htmlUrl": "https://github.com/hoda223",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "homestuckDisease",
+      "htmlUrl": "https://github.com/homestuckDisease",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "iam-prabha",
+      "htmlUrl": "https://github.com/iam-prabha",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "iampi31415",
+      "htmlUrl": "https://github.com/iampi31415",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ibragimov-owner",
+      "htmlUrl": "https://github.com/ibragimov-owner",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "iCarly2007",
+      "htmlUrl": "https://github.com/iCarly2007",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ideaLighthouse4661",
+      "htmlUrl": "https://github.com/ideaLighthouse4661",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "impulsivepersona",
+      "htmlUrl": "https://github.com/impulsivepersona",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "INJECTIONSHOT",
+      "htmlUrl": "https://github.com/INJECTIONSHOT",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "innocentmuk",
+      "htmlUrl": "https://github.com/innocentmuk",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Iorcist",
+      "htmlUrl": "https://github.com/Iorcist",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "irrationalfraction",
+      "htmlUrl": "https://github.com/irrationalfraction",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "IRSPlays",
+      "htmlUrl": "https://github.com/IRSPlays",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Isezu",
+      "htmlUrl": "https://github.com/Isezu",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ishan-rightmo",
+      "htmlUrl": "https://github.com/ishan-rightmo",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "IshuKrPathak",
+      "htmlUrl": "https://github.com/IshuKrPathak",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ismaely",
+      "htmlUrl": "https://github.com/ismaely",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Itscasca",
+      "htmlUrl": "https://github.com/Itscasca",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "j3llyf1shs",
+      "htmlUrl": "https://github.com/j3llyf1shs",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jackasshunt",
+      "htmlUrl": "https://github.com/jackasshunt",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jacobbe",
+      "htmlUrl": "https://github.com/jacobbe",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jagodekor",
+      "htmlUrl": "https://github.com/jagodekor",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "javed-ak",
+      "htmlUrl": "https://github.com/javed-ak",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jbilcke-hf",
+      "htmlUrl": "https://github.com/jbilcke-hf",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jcottam",
+      "htmlUrl": "https://github.com/jcottam",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jdb8",
+      "htmlUrl": "https://github.com/jdb8",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jedisct1",
+      "htmlUrl": "https://github.com/jedisct1",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "JeevithasHetty",
+      "htmlUrl": "https://github.com/JeevithasHetty",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jellykatss",
+      "htmlUrl": "https://github.com/jellykatss",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jeremichaeI",
+      "htmlUrl": "https://github.com/jeremichaeI",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jimed-rand",
+      "htmlUrl": "https://github.com/jimed-rand",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "joaocarpim",
+      "htmlUrl": "https://github.com/joaocarpim",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "JoaoPauloDel",
+      "htmlUrl": "https://github.com/JoaoPauloDel",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jonchenn",
+      "htmlUrl": "https://github.com/jonchenn",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Joosibaeri",
+      "htmlUrl": "https://github.com/Joosibaeri",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jossym17",
+      "htmlUrl": "https://github.com/jossym17",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "JoydeepMallick",
+      "htmlUrl": "https://github.com/JoydeepMallick",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "joyfulplayer",
+      "htmlUrl": "https://github.com/joyfulplayer",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jponge",
+      "htmlUrl": "https://github.com/jponge",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "jrutheiser",
+      "htmlUrl": "https://github.com/jrutheiser",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "k4yfourr",
+      "htmlUrl": "https://github.com/k4yfourr",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "kangmincho1",
+      "htmlUrl": "https://github.com/kangmincho1",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "karlgvuts",
+      "htmlUrl": "https://github.com/karlgvuts",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "kasanetetoo",
+      "htmlUrl": "https://github.com/kasanetetoo",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "katzeruu70",
+      "htmlUrl": "https://github.com/katzeruu70",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "kenjinote",
+      "htmlUrl": "https://github.com/kenjinote",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "KernelShark",
+      "htmlUrl": "https://github.com/KernelShark",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Keruspe",
+      "htmlUrl": "https://github.com/Keruspe",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "kittvz0nkyy",
+      "htmlUrl": "https://github.com/kittvz0nkyy",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "kittydummy",
+      "htmlUrl": "https://github.com/kittydummy",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "kndbvortex",
+      "htmlUrl": "https://github.com/kndbvortex",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Krivaan8762",
+      "htmlUrl": "https://github.com/Krivaan8762",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ksh-20",
+      "htmlUrl": "https://github.com/ksh-20",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ktsoaela",
+      "htmlUrl": "https://github.com/ktsoaela",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "KubanjaElijahEldred",
+      "htmlUrl": "https://github.com/KubanjaElijahEldred",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "L4ZARIN3",
+      "htmlUrl": "https://github.com/L4ZARIN3",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ladsong",
+      "htmlUrl": "https://github.com/ladsong",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "laimonas2g",
+      "htmlUrl": "https://github.com/laimonas2g",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "LazarShockX",
+      "htmlUrl": "https://github.com/LazarShockX",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "LeandroSB96",
+      "htmlUrl": "https://github.com/LeandroSB96",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "leoxien",
+      "htmlUrl": "https://github.com/leoxien",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "lil-brumski",
+      "htmlUrl": "https://github.com/lil-brumski",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Lithien",
+      "htmlUrl": "https://github.com/Lithien",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ljharb",
+      "htmlUrl": "https://github.com/ljharb",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ljunior23",
+      "htmlUrl": "https://github.com/ljunior23",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "llenotre",
+      "htmlUrl": "https://github.com/llenotre",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "locfaker",
+      "htmlUrl": "https://github.com/locfaker",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "lorde-enigma",
+      "htmlUrl": "https://github.com/lorde-enigma",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "lostpebble",
+      "htmlUrl": "https://github.com/lostpebble",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "lovinglist",
+      "htmlUrl": "https://github.com/lovinglist",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "lshariprasad",
+      "htmlUrl": "https://github.com/lshariprasad",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "LucasMSCaetano",
+      "htmlUrl": "https://github.com/LucasMSCaetano",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "LucrecioZ",
+      "htmlUrl": "https://github.com/LucrecioZ",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "lujb",
+      "htmlUrl": "https://github.com/lujb",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "LyanhVini",
+      "htmlUrl": "https://github.com/LyanhVini",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "M-O0O-M",
+      "htmlUrl": "https://github.com/M-O0O-M",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "m0z3nn",
+      "htmlUrl": "https://github.com/m0z3nn",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mac-r",
+      "htmlUrl": "https://github.com/mac-r",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "madhavgadge01",
+      "htmlUrl": "https://github.com/madhavgadge01",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mafgleidiot",
+      "htmlUrl": "https://github.com/mafgleidiot",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "maguirrem",
+      "htmlUrl": "https://github.com/maguirrem",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "maheshper",
+      "htmlUrl": "https://github.com/maheshper",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "maiorii",
+      "htmlUrl": "https://github.com/maiorii",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "majnemer",
+      "htmlUrl": "https://github.com/majnemer",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Makio64",
+      "htmlUrl": "https://github.com/Makio64",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mangleirl",
+      "htmlUrl": "https://github.com/mangleirl",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Manzi-Elvis",
+      "htmlUrl": "https://github.com/Manzi-Elvis",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Mardochee-Kanushipi",
+      "htmlUrl": "https://github.com/Mardochee-Kanushipi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "markshenry1",
+      "htmlUrl": "https://github.com/markshenry1",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "MarkTGeary",
+      "htmlUrl": "https://github.com/MarkTGeary",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Martin322s",
+      "htmlUrl": "https://github.com/Martin322s",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "martinschierle",
+      "htmlUrl": "https://github.com/martinschierle",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Martyrsuper",
+      "htmlUrl": "https://github.com/Martyrsuper",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "matfyz",
+      "htmlUrl": "https://github.com/matfyz",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "MatheusRuivo365",
+      "htmlUrl": "https://github.com/MatheusRuivo365",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "MD-J1",
+      "htmlUrl": "https://github.com/MD-J1",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mdrijoanmaruf",
+      "htmlUrl": "https://github.com/mdrijoanmaruf",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "meltyshev",
+      "htmlUrl": "https://github.com/meltyshev",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "merrymercy",
+      "htmlUrl": "https://github.com/merrymercy",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mh-mansouri",
+      "htmlUrl": "https://github.com/mh-mansouri",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mickey0103",
+      "htmlUrl": "https://github.com/mickey0103",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mikeysway1882",
+      "htmlUrl": "https://github.com/mikeysway1882",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "MILES-FAIRCHILD",
+      "htmlUrl": "https://github.com/MILES-FAIRCHILD",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mincong-h",
+      "htmlUrl": "https://github.com/mincong-h",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "minouou",
+      "htmlUrl": "https://github.com/minouou",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mintoFhtagn",
+      "htmlUrl": "https://github.com/mintoFhtagn",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "monotunedcinder",
+      "htmlUrl": "https://github.com/monotunedcinder",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Moonelle-del",
+      "htmlUrl": "https://github.com/Moonelle-del",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mortalpain",
+      "htmlUrl": "https://github.com/mortalpain",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "motanelson",
+      "htmlUrl": "https://github.com/motanelson",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "moul",
+      "htmlUrl": "https://github.com/moul",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mounesh-p",
+      "htmlUrl": "https://github.com/mounesh-p",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mp-k9",
+      "htmlUrl": "https://github.com/mp-k9",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "MrDrMcNinja",
+      "htmlUrl": "https://github.com/MrDrMcNinja",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "MrIronik",
+      "htmlUrl": "https://github.com/MrIronik",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mrunali0204",
+      "htmlUrl": "https://github.com/mrunali0204",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "mumekonin",
+      "htmlUrl": "https://github.com/mumekonin",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "muuirie",
+      "htmlUrl": "https://github.com/muuirie",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "muzaffarbekmustafayev",
+      "htmlUrl": "https://github.com/muzaffarbekmustafayev",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "n30dyn4m1c",
+      "htmlUrl": "https://github.com/n30dyn4m1c",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "NamesMT",
+      "htmlUrl": "https://github.com/NamesMT",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "NapoleaoJunior",
+      "htmlUrl": "https://github.com/NapoleaoJunior",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "negativeplane",
+      "htmlUrl": "https://github.com/negativeplane",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Neha-Niphade",
+      "htmlUrl": "https://github.com/Neha-Niphade",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "nesredinm",
+      "htmlUrl": "https://github.com/nesredinm",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Netta08",
+      "htmlUrl": "https://github.com/Netta08",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "neverwhere",
+      "htmlUrl": "https://github.com/neverwhere",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "nfroidure",
+      "htmlUrl": "https://github.com/nfroidure",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "nghuy2008",
+      "htmlUrl": "https://github.com/nghuy2008",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "nightguarding",
+      "htmlUrl": "https://github.com/nightguarding",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "nilovna",
+      "htmlUrl": "https://github.com/nilovna",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "nitinkumar30",
+      "htmlUrl": "https://github.com/nitinkumar30",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "NoLongerHumanHQ",
+      "htmlUrl": "https://github.com/NoLongerHumanHQ",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "NoorAbdullah02",
+      "htmlUrl": "https://github.com/NoorAbdullah02",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "normallyblu",
+      "htmlUrl": "https://github.com/normallyblu",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Nya128",
+      "htmlUrl": "https://github.com/Nya128",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "okoloboga",
+      "htmlUrl": "https://github.com/okoloboga",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Olachoppa",
+      "htmlUrl": "https://github.com/Olachoppa",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "olegshyshkov",
+      "htmlUrl": "https://github.com/olegshyshkov",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "oliviertassinari",
+      "htmlUrl": "https://github.com/oliviertassinari",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ongezeIIig",
+      "htmlUrl": "https://github.com/ongezeIIig",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "OnlyYennvy",
+      "htmlUrl": "https://github.com/OnlyYennvy",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ornicar",
+      "htmlUrl": "https://github.com/ornicar",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ortonrendy621-beep",
+      "htmlUrl": "https://github.com/ortonrendy621-beep",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ossa-ma",
+      "htmlUrl": "https://github.com/ossa-ma",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Otienoakello",
+      "htmlUrl": "https://github.com/Otienoakello",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ParisNeo",
+      "htmlUrl": "https://github.com/ParisNeo",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "parusite",
+      "htmlUrl": "https://github.com/parusite",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "pedrobianco1",
+      "htmlUrl": "https://github.com/pedrobianco1",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "pettybunny",
+      "htmlUrl": "https://github.com/pettybunny",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "phainonirl",
+      "htmlUrl": "https://github.com/phainonirl",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "pierreguillot",
+      "htmlUrl": "https://github.com/pierreguillot",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "pinklampshade",
+      "htmlUrl": "https://github.com/pinklampshade",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "plantclone",
+      "htmlUrl": "https://github.com/plantclone",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "pohonisotlorigi",
+      "htmlUrl": "https://github.com/pohonisotlorigi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "poly-thene",
+      "htmlUrl": "https://github.com/poly-thene",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "popuIi",
+      "htmlUrl": "https://github.com/popuIi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "PranavSDevan",
+      "htmlUrl": "https://github.com/PranavSDevan",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "prasoonkandel",
+      "htmlUrl": "https://github.com/prasoonkandel",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "premarafael108-jpg",
+      "htmlUrl": "https://github.com/premarafael108-jpg",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Prenliham",
+      "htmlUrl": "https://github.com/Prenliham",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "prhxntaiii",
+      "htmlUrl": "https://github.com/prhxntaiii",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "princedauntless",
+      "htmlUrl": "https://github.com/princedauntless",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "professorguanabara",
+      "htmlUrl": "https://github.com/professorguanabara",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "prosper-codes",
+      "htmlUrl": "https://github.com/prosper-codes",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "pupsamoyed",
+      "htmlUrl": "https://github.com/pupsamoyed",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "PURECACA0",
+      "htmlUrl": "https://github.com/PURECACA0",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "puzzlecollector",
+      "htmlUrl": "https://github.com/puzzlecollector",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "pve-docs",
+      "htmlUrl": "https://github.com/pve-docs",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Quantum1377",
+      "htmlUrl": "https://github.com/Quantum1377",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "radio-twin",
+      "htmlUrl": "https://github.com/radio-twin",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "raerae1718",
+      "htmlUrl": "https://github.com/raerae1718",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Raessan",
+      "htmlUrl": "https://github.com/Raessan",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rakib141117",
+      "htmlUrl": "https://github.com/rakib141117",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rap2hpoutre",
+      "htmlUrl": "https://github.com/rap2hpoutre",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rasidi3112",
+      "htmlUrl": "https://github.com/rasidi3112",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "READ-BYI-PLEASE",
+      "htmlUrl": "https://github.com/READ-BYI-PLEASE",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "RealNubarh",
+      "htmlUrl": "https://github.com/RealNubarh",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "redfieId",
+      "htmlUrl": "https://github.com/redfieId",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "redroses8",
+      "htmlUrl": "https://github.com/redroses8",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "revolunet",
+      "htmlUrl": "https://github.com/revolunet",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rgbkrk",
+      "htmlUrl": "https://github.com/rgbkrk",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ribbonstreee",
+      "htmlUrl": "https://github.com/ribbonstreee",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rinsagi",
+      "htmlUrl": "https://github.com/rinsagi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rivtiding",
+      "htmlUrl": "https://github.com/rivtiding",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Rixlette",
+      "htmlUrl": "https://github.com/Rixlette",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rlouf",
+      "htmlUrl": "https://github.com/rlouf",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rlvy0513",
+      "htmlUrl": "https://github.com/rlvy0513",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "robotslop",
+      "htmlUrl": "https://github.com/robotslop",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rogernascimento-dev",
+      "htmlUrl": "https://github.com/rogernascimento-dev",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "romainfrancois",
+      "htmlUrl": "https://github.com/romainfrancois",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Romakita",
+      "htmlUrl": "https://github.com/Romakita",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ronmylove",
+      "htmlUrl": "https://github.com/ronmylove",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rosakan",
+      "htmlUrl": "https://github.com/rosakan",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "rossriserose",
+      "htmlUrl": "https://github.com/rossriserose",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "RUDIE-IRL",
+      "htmlUrl": "https://github.com/RUDIE-IRL",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "RUSERtr",
+      "htmlUrl": "https://github.com/RUSERtr",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Rxmas1lly",
+      "htmlUrl": "https://github.com/Rxmas1lly",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Rythm18",
+      "htmlUrl": "https://github.com/Rythm18",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "s1llyjester",
+      "htmlUrl": "https://github.com/s1llyjester",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "SachanAnand",
+      "htmlUrl": "https://github.com/SachanAnand",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sadaqhassan",
+      "htmlUrl": "https://github.com/sadaqhassan",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "saichandan181",
+      "htmlUrl": "https://github.com/saichandan181",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "saintsc0rpse",
+      "htmlUrl": "https://github.com/saintsc0rpse",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "samkuhlmann",
+      "htmlUrl": "https://github.com/samkuhlmann",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sampathkumar1312",
+      "htmlUrl": "https://github.com/sampathkumar1312",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "SamukelisiweMaphumulo",
+      "htmlUrl": "https://github.com/SamukelisiweMaphumulo",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sanghishivam",
+      "htmlUrl": "https://github.com/sanghishivam",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "SapFrox",
+      "htmlUrl": "https://github.com/SapFrox",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sasvkei",
+      "htmlUrl": "https://github.com/sasvkei",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "savindumahasen",
+      "htmlUrl": "https://github.com/savindumahasen",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "schneider-jimi",
+      "htmlUrl": "https://github.com/schneider-jimi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "schullegerhard",
+      "htmlUrl": "https://github.com/schullegerhard",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "scottpeat",
+      "htmlUrl": "https://github.com/scottpeat",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "scrollify-sound",
+      "htmlUrl": "https://github.com/scrollify-sound",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sdeleuze",
+      "htmlUrl": "https://github.com/sdeleuze",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sdoundakov",
+      "htmlUrl": "https://github.com/sdoundakov",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sfgg10788-crypto",
+      "htmlUrl": "https://github.com/sfgg10788-crypto",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "SharanKalyan",
+      "htmlUrl": "https://github.com/SharanKalyan",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ShauryaRahlon",
+      "htmlUrl": "https://github.com/ShauryaRahlon",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "shed-letsky",
+      "htmlUrl": "https://github.com/shed-letsky",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "shenwonybest2",
+      "htmlUrl": "https://github.com/shenwonybest2",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "shinseiko",
+      "htmlUrl": "https://github.com/shinseiko",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Shivaji-Shill",
+      "htmlUrl": "https://github.com/Shivaji-Shill",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Shrijeeth",
+      "htmlUrl": "https://github.com/Shrijeeth",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "shshahank",
+      "htmlUrl": "https://github.com/shshahank",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "shuklatushar226",
+      "htmlUrl": "https://github.com/shuklatushar226",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "siddhantshukla108",
+      "htmlUrl": "https://github.com/siddhantshukla108",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sivasankar55",
+      "htmlUrl": "https://github.com/sivasankar55",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "slavaGanzin",
+      "htmlUrl": "https://github.com/slavaGanzin",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sniperlangosta147",
+      "htmlUrl": "https://github.com/sniperlangosta147",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "SonJM",
+      "htmlUrl": "https://github.com/SonJM",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "SoullessJam",
+      "htmlUrl": "https://github.com/SoullessJam",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "spacetronity",
+      "htmlUrl": "https://github.com/spacetronity",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "squanto",
+      "htmlUrl": "https://github.com/squanto",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "stephentoub",
+      "htmlUrl": "https://github.com/stephentoub",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sterecra",
+      "htmlUrl": "https://github.com/sterecra",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "StevenKamwaza",
+      "htmlUrl": "https://github.com/StevenKamwaza",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Stormix",
+      "htmlUrl": "https://github.com/Stormix",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "STRIDER-STYLE",
+      "htmlUrl": "https://github.com/STRIDER-STYLE",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sturm-afk",
+      "htmlUrl": "https://github.com/sturm-afk",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "SudharshanAIML",
+      "htmlUrl": "https://github.com/SudharshanAIML",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sukrankaya",
+      "htmlUrl": "https://github.com/sukrankaya",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Swayamadvani",
+      "htmlUrl": "https://github.com/Swayamadvani",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "syedbilalalam1",
+      "htmlUrl": "https://github.com/syedbilalalam1",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sylveonkidd",
+      "htmlUrl": "https://github.com/sylveonkidd",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "T-rustdev",
+      "htmlUrl": "https://github.com/T-rustdev",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "taahabz",
+      "htmlUrl": "https://github.com/taahabz",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "tahmidalvee6",
+      "htmlUrl": "https://github.com/tahmidalvee6",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "tarunsharmawee",
+      "htmlUrl": "https://github.com/tarunsharmawee",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "tcapelle",
+      "htmlUrl": "https://github.com/tcapelle",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "teacgt",
+      "htmlUrl": "https://github.com/teacgt",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "tech-hov-gm",
+      "htmlUrl": "https://github.com/tech-hov-gm",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "TensorDev215",
+      "htmlUrl": "https://github.com/TensorDev215",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "tfmurad",
+      "htmlUrl": "https://github.com/tfmurad",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "tgodzik",
+      "htmlUrl": "https://github.com/tgodzik",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "th5831621-ux",
+      "htmlUrl": "https://github.com/th5831621-ux",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Thatskykid0435",
+      "htmlUrl": "https://github.com/Thatskykid0435",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "thebreakingpoint",
+      "htmlUrl": "https://github.com/thebreakingpoint",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "TheHuntersHusband",
+      "htmlUrl": "https://github.com/TheHuntersHusband",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "tinevez",
+      "htmlUrl": "https://github.com/tinevez",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "tirgery123",
+      "htmlUrl": "https://github.com/tirgery123",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "tnakagaw",
+      "htmlUrl": "https://github.com/tnakagaw",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "TopSoftdeveloper",
+      "htmlUrl": "https://github.com/TopSoftdeveloper",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "TR0UBADIX",
+      "htmlUrl": "https://github.com/TR0UBADIX",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "turbo-services-org",
+      "htmlUrl": "https://github.com/turbo-services-org",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "typjtk",
+      "htmlUrl": "https://github.com/typjtk",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Tyson580",
+      "htmlUrl": "https://github.com/Tyson580",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Ujjans",
+      "htmlUrl": "https://github.com/Ujjans",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ukusyaoi",
+      "htmlUrl": "https://github.com/ukusyaoi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "unixfox",
+      "htmlUrl": "https://github.com/unixfox",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "urbanclimatefr",
+      "htmlUrl": "https://github.com/urbanclimatefr",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "userElaina",
+      "htmlUrl": "https://github.com/userElaina",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "valentin-phoenix",
+      "htmlUrl": "https://github.com/valentin-phoenix",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Varunbingi",
+      "htmlUrl": "https://github.com/Varunbingi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Vectorpackengine",
+      "htmlUrl": "https://github.com/Vectorpackengine",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "VenancioFuentes",
+      "htmlUrl": "https://github.com/VenancioFuentes",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "vijayshikhare",
+      "htmlUrl": "https://github.com/vijayshikhare",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "vikreii",
+      "htmlUrl": "https://github.com/vikreii",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "vindarel",
+      "htmlUrl": "https://github.com/vindarel",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "vito-ysl",
+      "htmlUrl": "https://github.com/vito-ysl",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "vivekbnair",
+      "htmlUrl": "https://github.com/vivekbnair",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "vladimirzubc",
+      "htmlUrl": "https://github.com/vladimirzubc",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Vocula",
+      "htmlUrl": "https://github.com/Vocula",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "voidstar01",
+      "htmlUrl": "https://github.com/voidstar01",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "voixbug",
+      "htmlUrl": "https://github.com/voixbug",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "volcanicsilo",
+      "htmlUrl": "https://github.com/volcanicsilo",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "vomc",
+      "htmlUrl": "https://github.com/vomc",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "voxcestyaoi",
+      "htmlUrl": "https://github.com/voxcestyaoi",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "walaaa80",
+      "htmlUrl": "https://github.com/walaaa80",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "wasxy47",
+      "htmlUrl": "https://github.com/wasxy47",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "waveop",
+      "htmlUrl": "https://github.com/waveop",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "wdsdwsh1135-del",
+      "htmlUrl": "https://github.com/wdsdwsh1135-del",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "wesalee83-dev",
+      "htmlUrl": "https://github.com/wesalee83-dev",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "WildGenie",
+      "htmlUrl": "https://github.com/WildGenie",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "willwangcc",
+      "htmlUrl": "https://github.com/willwangcc",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "wishlizx",
+      "htmlUrl": "https://github.com/wishlizx",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "wowny",
+      "htmlUrl": "https://github.com/wowny",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "x2yDevs",
+      "htmlUrl": "https://github.com/x2yDevs",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "XIA0-YAO",
+      "htmlUrl": "https://github.com/XIA0-YAO",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "xRomory",
+      "htmlUrl": "https://github.com/xRomory",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Xuan-Qian",
+      "htmlUrl": "https://github.com/Xuan-Qian",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "y-india",
+      "htmlUrl": "https://github.com/y-india",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Yamo406",
+      "htmlUrl": "https://github.com/Yamo406",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "yamyamelyssoha",
+      "htmlUrl": "https://github.com/yamyamelyssoha",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Yariyyaroslav",
+      "htmlUrl": "https://github.com/Yariyyaroslav",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "yassnemo",
+      "htmlUrl": "https://github.com/yassnemo",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "yeahdeth",
+      "htmlUrl": "https://github.com/yeahdeth",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "yubelsrevenge",
+      "htmlUrl": "https://github.com/yubelsrevenge",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Z9RTM",
+      "htmlUrl": "https://github.com/Z9RTM",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Zaki-goumri",
+      "htmlUrl": "https://github.com/Zaki-goumri",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Zay-M3",
+      "htmlUrl": "https://github.com/Zay-M3",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "ZekoZen",
+      "htmlUrl": "https://github.com/ZekoZen",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "zohranoori-coder",
+      "htmlUrl": "https://github.com/zohranoori-coder",
+      "firstSeenFollowingAt": "2026-02-20T19:11:41.498Z",
+      "firstSeenNonReciprocalAt": "2026-02-20T19:11:41.498Z",
+      "daysWaiting": 0,
+      "ignored": false
+    }
+  ],
   "recentFollowerLosses": []
 }
