@@ -1,0 +1,217 @@
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.hero {
+  border-radius: 24px;
+  padding: 1.8rem;
+  background: linear-gradient(120deg, rgba(255, 246, 226, 0.95), rgba(247, 222, 185, 0.8));
+  border: 1px solid rgba(169, 115, 38, 0.2);
+  box-shadow: 0 10px 30px rgba(88, 52, 13, 0.12);
+}
+
+.eyebrow {
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #7e5526;
+}
+
+.hero h1 {
+  margin: 0.4rem 0;
+  font-size: clamp(1.6rem, 5vw, 2.5rem);
+  line-height: 1.1;
+  color: #2f1f0e;
+}
+
+.hero-subtitle,
+.hero-meta {
+  margin: 0.2rem 0;
+  color: #5f4529;
+}
+
+.state-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(88, 52, 13, 0.2);
+  background: #fff6e5;
+}
+
+.state-box.error {
+  border-color: rgba(164, 28, 28, 0.35);
+  background: #fde9e9;
+  color: #7d1010;
+}
+
+.stats-grid {
+  margin-top: 1.1rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.stat-card {
+  border-radius: 16px;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid rgba(58, 35, 16, 0.1);
+  box-shadow: 0 8px 24px rgba(71, 45, 21, 0.08);
+}
+
+.stat-card p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #6d5135;
+}
+
+.stat-card strong {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 1.9rem;
+  color: #2f1f0e;
+}
+
+.stat-card.alert {
+  background: #fff8ea;
+}
+
+.stat-card.danger {
+  background: #ffeceb;
+}
+
+.panel {
+  margin-top: 1rem;
+  border-radius: 18px;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid rgba(58, 35, 16, 0.1);
+  box-shadow: 0 8px 24px rgba(71, 45, 21, 0.08);
+}
+
+.panel h2 {
+  margin: 0 0 0.9rem;
+  color: #2f1f0e;
+  font-size: 1.12rem;
+}
+
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.7rem 0.4rem;
+  border-bottom: 1px solid #efdfc8;
+}
+
+th {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #8d6a43;
+}
+
+a {
+  color: #944d00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.empty-text {
+  margin: 0;
+  color: #886646;
+}
+
+.event-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.event-list li {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem;
+  border-radius: 10px;
+  background: #fff8ea;
+}
+
+.event-tag {
+  justify-self: start;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.74rem;
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  background: #f5e4cb;
+  color: #6c4a25;
+}
+
+.event-tag.follower_lost {
+  background: #ffd9d7;
+  color: #82211b;
+}
+
+.event-tag.follower_gained {
+  background: #d9f7df;
+  color: #216531;
+}
+
+.event-tag.you_followed,
+.event-tag.you_unfollowed {
+  background: #dceefd;
+  color: #164f87;
+}
+
+time {
+  color: #745938;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .event-list li {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+}
+
+@media (max-width: 580px) {
+  .app-shell {
+    padding: 1rem 0.8rem 2rem;
+  }
+
+  .hero {
+    padding: 1.15rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
