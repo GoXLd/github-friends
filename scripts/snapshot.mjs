@@ -5,13 +5,10 @@ const API_BASE = 'https://api.github.com'
 const DATA_DIR = path.resolve(process.cwd(), 'public/data')
 const SNAPSHOT_DIR = path.join(DATA_DIR, 'snapshots')
 
-const username = process.env.GITHUB_USERNAME
+const configuredUsername =
+  process.env.GH_USERNAME ?? process.env.GITHUB_USERNAME ?? process.env.GITHUB_REPOSITORY_OWNER
 const token = process.env.GITHUB_TOKEN
 const followBackWindowDays = Number.parseInt(process.env.FOLLOW_BACK_WINDOW_DAYS ?? '7', 10)
-
-if (!username) {
-  throw new Error('GITHUB_USERNAME is required')
-}
 
 if (!token) {
   throw new Error('GITHUB_TOKEN is required')
@@ -33,8 +30,31 @@ const headers = {
   Accept: 'application/vnd.github+json',
   Authorization: `Bearer ${token}`,
   'X-GitHub-Api-Version': '2022-11-28',
-  'User-Agent': `github-friends-snapshot/${username}`,
+  'User-Agent': 'github-friends-snapshot',
 }
+
+async function resolveUsername() {
+  if (configuredUsername) {
+    return configuredUsername
+  }
+
+  const response = await fetch(`${API_BASE}/user`, { headers })
+
+  if (!response.ok) {
+    const body = await response.text()
+    throw new Error(`Unable to resolve username from token (${response.status}): ${body}`)
+  }
+
+  const payload = await response.json()
+
+  if (!payload?.login) {
+    throw new Error('Unable to resolve username from token: login field is missing')
+  }
+
+  return payload.login
+}
+
+const username = await resolveUsername()
 
 async function fetchPagedUsers(resource) {
   const users = []
@@ -157,8 +177,6 @@ const [followers, following, previousLatest, previousEvents, previousTracker, ra
 ])
 
 const followerLookup = toLookup(followers)
-const followingLookup = toLookup(following)
-
 const latestSnapshot = {
   snapshotId,
   generatedAt: nowIso,

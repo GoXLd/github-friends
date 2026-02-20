@@ -33,7 +33,7 @@ npm run dev
 ## Локальный snapshot
 
 ```bash
-GITHUB_USERNAME=<your_login> \
+GH_USERNAME=<your_login> \
 GITHUB_TOKEN=<github_pat> \
 FOLLOW_BACK_WINDOW_DAYS=7 \
 npm run snapshot
@@ -45,7 +45,7 @@ npm run snapshot
 
 Добавьте в `Settings -> Secrets and variables -> Actions`:
 
-- `Variables`: `GITHUB_USERNAME` - ваш GitHub логин
+- `Variables`: `GH_USERNAME` - ваш GitHub логин (если не задан, берется `repository_owner`)
 - `Secrets`: `GH_PAT` - PAT токен (опционально, если нужен более высокий лимит API)
 
 Если `GH_PAT` не задан, workflow использует встроенный `github.token` (подходит для публичных данных, но с ограничениями).
@@ -64,6 +64,9 @@ npm run snapshot
 
 1. В `Settings -> Pages` выберите `Source: GitHub Actions`.
 2. Убедитесь, что default branch называется `main` (или поменяйте в workflow).
+3. Если используете кастомный домен, добавьте `Variable: VITE_BASE_PATH=/`.
+
+Если в workflow `deploy-pages` ошибка `Failed to create deployment (status: 404)`, это почти всегда означает, что Pages еще не включен для репозитория в `Settings -> Pages`.
 
 ## Ignore list
 
