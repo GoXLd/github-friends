@@ -64,7 +64,8 @@ npm run snapshot
 
 1. В `Settings -> Pages` выберите `Source: GitHub Actions`.
 2. Убедитесь, что default branch называется `main` (или поменяйте в workflow).
-3. Если используете кастомный домен, добавьте `Variable: VITE_BASE_PATH=/`.
+3. При наличии `public/CNAME` base path ставится автоматически в `/`.
+4. Если нужен ручной override, задайте `Variable: VITE_BASE_PATH` (например `/` или `/repo-name/`).
 
 Если в workflow `deploy-pages` ошибка `Failed to create deployment (status: 404)`, это почти всегда означает, что Pages еще не включен для репозитория в `Settings -> Pages`.
 
