@@ -473,6 +473,12 @@ a:hover {
   color: #0550ae;
 }
 
+.event-filter-button.filter-you_unfollowed {
+  border-color: rgba(130, 80, 223, 0.3);
+  background: #f1eaff;
+  color: #6b3dc4;
+}
+
 .event-filter-button.active {
   box-shadow: inset 0 0 0 1px currentColor;
 }
@@ -495,6 +501,11 @@ a:hover {
 .event-filter-button.filter-you_followed.active {
   border-color: #0969da;
   background: #cfe8ff;
+}
+
+.event-filter-button.filter-you_unfollowed.active {
+  border-color: #6b3dc4;
+  background: #e7dcff;
 }
 
 .event-list {

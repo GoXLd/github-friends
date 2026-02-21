@@ -13,6 +13,7 @@ const EVENT_FILTERS = [
   { id: 'follower_lost', label: 'Отписался от вас' },
   { id: 'follower_gained', label: 'Подписался на вас' },
   { id: 'you_followed', label: 'Вы подписались' },
+  { id: 'you_unfollowed', label: 'Вы отписались' },
 ]
 
 const TAB_NON_RECIPROCAL = 'non_reciprocal'
@@ -97,6 +98,18 @@ function formatDate(value) {
     dateStyle: 'medium',
     timeStyle: 'short',
   }).format(new Date(value))
+}
+
+function formatStaleReason(reason) {
+  if (reason === 'no_contribution_data') {
+    return 'нет данных активности'
+  }
+
+  if (reason === 'inactive_contribution_window') {
+    return 'нет активности'
+  }
+
+  return 'неактивен'
 }
 
 function formatDays(value) {
@@ -303,6 +316,45 @@ function MutualFollowersTable({ users, sortOrder, onSortDays }) {
   )
 }
 
+function FriendsCleanupTable({ users, thresholdDays }) {
+  if (!users.length) {
+    return <p className="empty-text">Кандидатов на очистку друзей пока нет.</p>
+  }
+
+  return (
+    <div className="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Пользователь</th>
+            <th>В списке с</th>
+            <th>Last contribute</th>
+            <th>Неактивен (дней)</th>
+            <th>Причина</th>
+          </tr>
+        </thead>
+        <tbody>
+          {users.map((user) => (
+            <tr key={`${user.login}-stale`}>
+              <td>
+                <a href={user.htmlUrl} target="_blank" rel="noreferrer">
+                  @{user.login}
+                </a>
+              </td>
+              <td>{formatDate(user.firstSeenMutualAt)}</td>
+              <td>{formatDate(user.lastContributionAt)}</td>
+              <td>{formatDays(user.inactiveDays)}</td>
+              <td>
+                {formatStaleReason(user.reason)} ({thresholdDays}+ дн.)
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 function EventsFilter({ value, onChange }) {
   return (
     <div className="event-filters">
@@ -382,6 +434,11 @@ function App() {
     return list.filter((user) => !excludedSet.has(normalizeLogin(user.login)))
   }, [reports?.mutualFollowersNow, excludedSet])
 
+  const filteredStaleFriendSource = useMemo(() => {
+    const list = reports?.staleFriendCandidates ?? []
+    return list.filter((user) => !excludedSet.has(normalizeLogin(user.login)))
+  }, [reports?.staleFriendCandidates, excludedSet])
+
   const filteredEventsSource = useMemo(() => {
     const source = Array.isArray(events) ? events : []
     return source.filter((event) => !excludedSet.has(normalizeLogin(event.login)))
@@ -401,6 +458,10 @@ function App() {
   const visibleMutualFollowers = useMemo(() => {
     return sortMutualByDays(filteredMutualSource, mutualSortOrder).slice(0, mutualLimit)
   }, [filteredMutualSource, mutualSortOrder, mutualLimit])
+
+  const visibleStaleFriends = useMemo(() => {
+    return filteredStaleFriendSource.slice(0, mutualLimit)
+  }, [filteredStaleFriendSource, mutualLimit])
 
   const visibleEvents = useMemo(() => {
     const filtered =
@@ -536,6 +597,7 @@ function App() {
   const followersMutual = filteredMutualSource.length
   const followersOnly = filteredFollowersOnlySource.length
   const nonReciprocalCount = filteredNonReciprocalSource.length
+  const friendInactiveDays = reports?.friendInactiveDays ?? 60
 
   const handleNonReciprocalSort = (field) => {
     setNonReciprocalSortField((prevField) => {
@@ -690,25 +752,28 @@ function App() {
               role="tab"
               aria-selected={activeTab === TAB_NON_RECIPROCAL}
               className={`tab-button ${activeTab === TAB_NON_RECIPROCAL ? 'active' : ''}`}
+              title="Users you follow, but they do not follow back."
               onClick={() => setActiveTab(TAB_NON_RECIPROCAL)}
             >
-              Невзаимные подписки сейчас
+              Not Followback
             </button>
             <button
               role="tab"
               aria-selected={activeTab === TAB_FOLLOWERS_ONLY}
               className={`tab-button ${activeTab === TAB_FOLLOWERS_ONLY ? 'active' : ''}`}
+              title="Users who follow you, but you do not follow them."
               onClick={() => setActiveTab(TAB_FOLLOWERS_ONLY)}
             >
-              Подписаны на вас, но вы не подписаны
+              Followers
             </button>
             <button
               role="tab"
               aria-selected={activeTab === TAB_MUTUAL}
               className={`tab-button ${activeTab === TAB_MUTUAL ? 'active' : ''}`}
+              title="Mutual follows (friends): both sides follow each other."
               onClick={() => setActiveTab(TAB_MUTUAL)}
             >
-              Взаимные подписчики: last contribute
+              Friends
             </button>
             <button
               role="tab"
@@ -723,7 +788,13 @@ function App() {
           <section key={activeTab} className="panel tab-panel">
             {activeTab === TAB_NON_RECIPROCAL && (
               <>
-                <h2>Невзаимные подписки сейчас</h2>
+                <h2 className="heading-with-tip">
+                  Not Followback
+                  <InfoTooltip
+                    label="Подсказка по разделу Not Followback"
+                    text="Список пользователей, на которых вы подписаны, но они не подписались в ответ. Используйте для анализа невзаимных подписок."
+                  />
+                </h2>
                 <NonReciprocalTable
                   users={visibleNonReciprocal}
                   sortField={nonReciprocalSortField}
@@ -737,7 +808,13 @@ function App() {
 
             {activeTab === TAB_FOLLOWERS_ONLY && (
               <>
-                <h2>Подписаны на вас, но вы не подписаны</h2>
+                <h2 className="heading-with-tip">
+                  Followers
+                  <InfoTooltip
+                    label="Подсказка по разделу Followers"
+                    text="Пользователи, которые подписаны на вас, но вы не подписаны на них."
+                  />
+                </h2>
                 <FollowersOnlyTable users={visibleFollowersOnly} />
                 <LimitSelector value={followersOnlyLimit} onChange={setFollowersOnlyLimit} />
               </>
@@ -746,10 +823,10 @@ function App() {
             {activeTab === TAB_MUTUAL && (
               <>
                 <h2 className="heading-with-tip">
-                  Взаимные подписчики: last contribute
+                  Friends
                   <InfoTooltip
                     label="Подсказка по диапазону last contribute"
-                    text="Проверяется до 100 последних публичных событий пользователя через /users/{login}/events/public и берутся только contribution-события. Обычно покрывает около 90 дней, но зависит от активности."
+                    text="Это взаимные подписки: вы подписаны друг на друга. Last contribute берется из последних 100 публичных событий (только contribution-события)."
                   />
                 </h2>
                 <MutualFollowersTable
@@ -757,6 +834,8 @@ function App() {
                   sortOrder={mutualSortOrder}
                   onSortDays={() => setMutualSortOrder((prev) => (prev === 'desc' ? 'asc' : 'desc'))}
                 />
+                <h3 className="sub-heading">Кандидаты на очистку Friends (неактивность {friendInactiveDays}+ дней)</h3>
+                <FriendsCleanupTable users={visibleStaleFriends} thresholdDays={friendInactiveDays} />
                 <LimitSelector value={mutualLimit} onChange={setMutualLimit} />
               </>
             )}

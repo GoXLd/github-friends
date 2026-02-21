@@ -9,6 +9,8 @@ const configuredUsername =
   process.env.GH_USERNAME ?? process.env.GITHUB_USERNAME ?? process.env.GITHUB_REPOSITORY_OWNER
 const token = process.env.GITHUB_TOKEN
 const followBackWindowDays = Number.parseInt(process.env.FOLLOW_BACK_WINDOW_DAYS ?? '7', 10)
+const friendInactiveDaysParsed = Number.parseInt(process.env.FRIEND_INACTIVE_DAYS ?? '60', 10)
+const friendInactiveDays = Number.isNaN(friendInactiveDaysParsed) ? 60 : Math.max(1, friendInactiveDaysParsed)
 
 const activityRefreshHoursParsed = Number.parseInt(process.env.ACTIVITY_REFRESH_HOURS ?? '24', 10)
 const activityRefreshHours = Number.isNaN(activityRefreshHoursParsed)
@@ -452,6 +454,7 @@ for (const user of following) {
     firstSeenFollowingAt: nowIso,
     followedBackAt: null,
     firstSeenNonReciprocalAt: nowIso,
+    firstSeenMutualAt: null,
   }
 
   const followsBack = followerLookup.has(key)
@@ -470,8 +473,12 @@ for (const user of following) {
 
   if (followsBack) {
     existing.firstSeenNonReciprocalAt = null
+    if (!existing.firstSeenMutualAt) {
+      existing.firstSeenMutualAt = nowIso
+    }
   } else if (!existing.firstSeenNonReciprocalAt) {
     existing.firstSeenNonReciprocalAt = nowIso
+    existing.firstSeenMutualAt = null
   }
 
   tracker.users[key] = existing
@@ -482,6 +489,10 @@ for (const [key, entry] of Object.entries(tracker.users)) {
     const stillFollower = followerLookup.has(key)
     entry.isFollowerNow = stillFollower
     entry.lastCheckedAt = nowIso
+  }
+
+  if (!(entry.isFollowingNow && entry.isFollowerNow)) {
+    entry.firstSeenMutualAt = null
   }
 }
 
@@ -531,6 +542,12 @@ const mutualFollowersBase = followers.filter((user) => followingLookup.has(user.
 const mutualFollowersNow = await mapWithConcurrency(mutualFollowersBase, 8, async (user) => {
   const key = user.login.toLowerCase()
   const cached = activityCache.users?.[key]
+  const trackerEntry = tracker.users?.[key]
+  const firstSeenMutualAt = trackerEntry?.firstSeenMutualAt ?? nowIso
+
+  if (trackerEntry && !trackerEntry.firstSeenMutualAt) {
+    trackerEntry.firstSeenMutualAt = firstSeenMutualAt
+  }
 
   let lastContributionAt = cached?.lastContributionAt ?? null
   let lastContributionType = cached?.lastContributionType ?? null
@@ -557,9 +574,11 @@ const mutualFollowersNow = await mapWithConcurrency(mutualFollowersBase, 8, asyn
     login: user.login,
     htmlUrl: user.htmlUrl,
     githubId: user.id,
+    firstSeenMutualAt,
     lastContributionAt,
     lastContributionType,
     daysSinceLastContribution: toDays(lastContributionAt),
+    daysInFriendsList: toDays(firstSeenMutualAt),
   }
 })
 
@@ -579,10 +598,33 @@ mutualFollowersNow.sort((a, b) => {
 
 activityCache.updatedAt = nowIso
 
+const staleFriendCandidates = mutualFollowersNow
+  .filter((entry) => {
+    if (entry.daysSinceLastContribution !== null) {
+      return entry.daysSinceLastContribution >= friendInactiveDays
+    }
+
+    return (entry.daysInFriendsList ?? 0) >= friendInactiveDays
+  })
+  .map((entry) => {
+    const inactiveDays = entry.daysSinceLastContribution ?? entry.daysInFriendsList
+
+    return {
+      ...entry,
+      inactiveDays,
+      reason:
+        entry.daysSinceLastContribution === null
+          ? 'no_contribution_data'
+          : 'inactive_contribution_window',
+    }
+  })
+  .sort((a, b) => (b.inactiveDays ?? 0) - (a.inactiveDays ?? 0))
+
 const reports = {
   generatedAt: nowIso,
   username,
   followBackWindowDays,
+  friendInactiveDays,
   counts: {
     followers: followers.length,
     following: following.length,
@@ -593,6 +635,7 @@ const reports = {
     nonReciprocalNow: nonReciprocalNow.length,
     followersNotFollowingNow: followersNotFollowingNow.length,
     mutualFollowersNow: mutualFollowersNow.length,
+    staleFriendCandidates: staleFriendCandidates.length,
     deletedAccountsSinceLast: [...disappearedAccountStatuses.values()].filter((status) => status === 'deleted').length,
     staleCandidates: staleCandidates.length,
     ignored: ignoreLogins.length,
@@ -601,6 +644,7 @@ const reports = {
   nonReciprocalNow,
   followersNotFollowingNow,
   mutualFollowersNow,
+  staleFriendCandidates,
   recentFollowerLosses: events.filter((event) => event.type === 'follower_lost').slice(0, 50),
 }
 
@@ -619,6 +663,7 @@ const summary = {
   followers: followers.length,
   following: following.length,
   mutualFollowers: mutualFollowersNow.length,
+  staleFriends: staleFriendCandidates.length,
   newEvents: newEvents.length,
   staleCandidates: staleCandidates.length,
 }
