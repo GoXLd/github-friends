@@ -184,6 +184,10 @@ function eventId(type, login, happenedAt) {
   return `${type}:${login.toLowerCase()}:${happenedAt}`
 }
 
+function buildPairKey(login, happenedAt) {
+  return `${String(login).toLowerCase()}:${happenedAt}`
+}
+
 function isFreshCache(entry, refreshWindowMs) {
   const fetchedAt = entry?.lastFetchedAt
 
@@ -262,6 +266,64 @@ async function resolveDisappearedAccountStatuses(users) {
   })
 
   return new Map(checks)
+}
+
+function collectPairedDisappearanceCandidates(events) {
+  const groups = new Map()
+
+  for (const event of events) {
+    if (event.type !== 'follower_lost' && event.type !== 'you_unfollowed') {
+      continue
+    }
+
+    if (!event.login || !event.happenedAt) {
+      continue
+    }
+
+    const key = buildPairKey(event.login, event.happenedAt)
+    const group = groups.get(key) ?? {
+      login: event.login,
+      happenedAt: event.happenedAt,
+      types: new Set(),
+      resolved: false,
+    }
+
+    group.types.add(event.type)
+
+    if (event.accountStatus === 'deleted' || event.accountStatus === 'active' || event.accountStatus === 'unknown') {
+      group.resolved = true
+    }
+
+    groups.set(key, group)
+  }
+
+  const candidates = []
+
+  for (const [key, group] of groups) {
+    if (group.types.has('follower_lost') && group.types.has('you_unfollowed') && !group.resolved) {
+      candidates.push({ key, login: group.login })
+    }
+  }
+
+  return candidates
+}
+
+function applyPairedStatuses(events, statusMap, candidateKeySet) {
+  for (const event of events) {
+    if (!event.login || !event.happenedAt) {
+      continue
+    }
+
+    const key = buildPairKey(event.login, event.happenedAt)
+
+    if (!candidateKeySet.has(key)) {
+      continue
+    }
+
+    const status = statusMap.get(String(event.login).toLowerCase()) ?? 'unknown'
+    event.accountStatus = status
+    event.isDeleted = status === 'deleted'
+  }
 }
 
 async function mapWithConcurrency(items, concurrency, mapper) {
@@ -356,11 +418,20 @@ const newEvents = [
 
 const uniqueEvents = new Map()
 
-for (const event of [...newEvents, ...(Array.isArray(previousEvents) ? previousEvents : [])]) {
+for (const event of [...(Array.isArray(previousEvents) ? previousEvents : []), ...newEvents]) {
   uniqueEvents.set(event.id, event)
 }
 
 const events = [...uniqueEvents.values()].sort((a, b) => b.happenedAt.localeCompare(a.happenedAt))
+
+const pairedCandidates = collectPairedDisappearanceCandidates(events)
+const candidateKeySet = new Set(pairedCandidates.map((candidate) => candidate.key))
+
+if (pairedCandidates.length > 0) {
+  const uniqueUsers = [...new Map(pairedCandidates.map((candidate) => [candidate.login.toLowerCase(), candidate])).values()]
+  const statusMap = await resolveDisappearedAccountStatuses(uniqueUsers)
+  applyPairedStatuses(events, statusMap, candidateKeySet)
+}
 
 const tracker = previousTracker && typeof previousTracker === 'object' && previousTracker.users
   ? previousTracker
