@@ -28,6 +28,16 @@ const LIMIT_OPTIONS = [10, 25, 50, 100, 500]
 const FIXED_REPO_OWNER = 'GoXLd'
 const FIXED_REPO_NAME = 'github-friends'
 const FIXED_REPO_URL = `https://github.com/${FIXED_REPO_OWNER}/${FIXED_REPO_NAME}`
+const FIXED_REPO_API_URL = `https://api.github.com/repos/${FIXED_REPO_OWNER}/${FIXED_REPO_NAME}`
+const FIXED_REPO_FORK_URL = `${FIXED_REPO_URL}/fork`
+
+function formatCount(value) {
+  if (typeof value !== 'number') {
+    return '...'
+  }
+
+  return new Intl.NumberFormat('ru-RU').format(value)
+}
 
 function formatDate(value) {
   if (!value) {
@@ -286,6 +296,7 @@ function App() {
   const [followersOnlyLimit, setFollowersOnlyLimit] = useState(100)
   const [mutualLimit, setMutualLimit] = useState(100)
   const [eventsLimit, setEventsLimit] = useState(100)
+  const [repoStats, setRepoStats] = useState({ stars: null, forks: null })
 
   const baseUrl = useMemo(() => import.meta.env.BASE_URL, [])
 
@@ -375,6 +386,39 @@ function App() {
     }
   }, [baseUrl, refreshNonce])
 
+  useEffect(() => {
+    let active = true
+
+    async function loadRepoStats() {
+      try {
+        const response = await fetch(FIXED_REPO_API_URL, { cache: 'force-cache' })
+
+        if (!response.ok) {
+          return
+        }
+
+        const payload = await response.json()
+
+        if (!active) {
+          return
+        }
+
+        setRepoStats({
+          stars: payload?.stargazers_count ?? null,
+          forks: payload?.forks_count ?? null,
+        })
+      } catch {
+        // Silent fallback to placeholders if API is unavailable.
+      }
+    }
+
+    loadRepoStats()
+
+    return () => {
+      active = false
+    }
+  }, [])
+
   const counts = reports?.counts ?? {}
   const title = reports?.username ? `GitHub Friends Tracker - @${reports.username}` : 'GitHub Friends Tracker'
   const followersMutual = counts.mutualFollowersNow ?? 0
@@ -401,18 +445,12 @@ function App() {
             <a href={FIXED_REPO_URL} target="_blank" rel="noreferrer" className="repo-link">
               Repo
             </a>
-            <iframe
-              title="GitHub Stars"
-              src={`https://ghbtns.com/github-btn.html?user=${FIXED_REPO_OWNER}&repo=${FIXED_REPO_NAME}&type=star&count=true`}
-              width="110"
-              height="20"
-            />
-            <iframe
-              title="GitHub Forks"
-              src={`https://ghbtns.com/github-btn.html?user=${FIXED_REPO_OWNER}&repo=${FIXED_REPO_NAME}&type=fork&count=true`}
-              width="110"
-              height="20"
-            />
+            <a href={FIXED_REPO_URL} target="_blank" rel="noreferrer" className="repo-stat-button">
+              Stars <span>{formatCount(repoStats.stars)}</span>
+            </a>
+            <a href={FIXED_REPO_FORK_URL} target="_blank" rel="noreferrer" className="repo-stat-button">
+              Forks <span>{formatCount(repoStats.forks)}</span>
+            </a>
           </div>
         </div>
         <p className="hero-meta">Последнее обновление: {formatDate(reports?.generatedAt)}</p>
