@@ -1,5 +1,33 @@
 [
   {
+    "id": "follower_gained:0xspryo:2026-02-21T11:42:52.016Z",
+    "type": "follower_gained",
+    "login": "0xspryo",
+    "htmlUrl": "https://github.com/0xspryo",
+    "happenedAt": "2026-02-21T11:42:52.016Z"
+  },
+  {
+    "id": "follower_lost:gagaguguk:2026-02-21T11:42:52.016Z",
+    "type": "follower_lost",
+    "login": "gagaguguk",
+    "htmlUrl": "https://github.com/gagaguguk",
+    "happenedAt": "2026-02-21T11:42:52.016Z"
+  },
+  {
+    "id": "you_followed:0xspryo:2026-02-21T11:42:52.016Z",
+    "type": "you_followed",
+    "login": "0xspryo",
+    "htmlUrl": "https://github.com/0xspryo",
+    "happenedAt": "2026-02-21T11:42:52.016Z"
+  },
+  {
+    "id": "you_unfollowed:gagaguguk:2026-02-21T11:42:52.016Z",
+    "type": "you_unfollowed",
+    "login": "gagaguguk",
+    "htmlUrl": "https://github.com/gagaguguk",
+    "happenedAt": "2026-02-21T11:42:52.016Z"
+  },
+  {
     "id": "follower_gained:songofhealing:2026-02-21T07:02:58.456Z",
     "type": "follower_gained",
     "login": "songofhealing",
