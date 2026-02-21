@@ -218,11 +218,17 @@ async function fetchLatestPublicContribution(login) {
     }
 
     const contributionEvent = payload.find((event) => contributionEventTypes.has(event.type))
-    const selectedEvent = contributionEvent ?? payload[0]
+
+    if (!contributionEvent) {
+      return {
+        lastContributionAt: null,
+        lastContributionType: null,
+      }
+    }
 
     return {
-      lastContributionAt: selectedEvent?.created_at ?? null,
-      lastContributionType: selectedEvent?.type ?? null,
+      lastContributionAt: contributionEvent.created_at ?? null,
+      lastContributionType: contributionEvent.type ?? null,
     }
   } catch {
     return null

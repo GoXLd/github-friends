@@ -19,7 +19,15 @@ const TAB_NON_RECIPROCAL = 'non_reciprocal'
 const TAB_FOLLOWERS_ONLY = 'followers_only'
 const TAB_MUTUAL = 'mutual'
 const TAB_EVENTS = 'events'
+
+const NON_RECIPROCAL_SORT_TRACKED = 'tracked_since'
+const NON_RECIPROCAL_SORT_WAITING = 'waiting'
+
 const LIMIT_OPTIONS = [10, 25, 50, 100, 500]
+
+const FIXED_REPO_OWNER = 'GoXLd'
+const FIXED_REPO_NAME = 'github-friends'
+const FIXED_REPO_URL = `https://github.com/${FIXED_REPO_OWNER}/${FIXED_REPO_NAME}`
 
 function formatDate(value) {
   if (!value) {
@@ -45,11 +53,35 @@ function toTimestamp(value) {
   return Number.isNaN(timestamp) ? 0 : timestamp
 }
 
-function sortByTrackedSince(users, order) {
+function sortNonReciprocal(users, field, order) {
   const multiplier = order === 'asc' ? 1 : -1
 
   return [...users].sort((a, b) => {
-    const diff = (toTimestamp(a.firstSeenFollowingAt) - toTimestamp(b.firstSeenFollowingAt)) * multiplier
+    let primary = 0
+
+    if (field === NON_RECIPROCAL_SORT_WAITING) {
+      const aValue = a.daysWaiting ?? -1
+      const bValue = b.daysWaiting ?? -1
+      primary = (aValue - bValue) * multiplier
+    } else {
+      primary = (toTimestamp(a.firstSeenFollowingAt) - toTimestamp(b.firstSeenFollowingAt)) * multiplier
+    }
+
+    if (primary !== 0) {
+      return primary
+    }
+
+    return a.login.localeCompare(b.login, 'en', { sensitivity: 'base' })
+  })
+}
+
+function sortMutualByDays(users, order) {
+  const multiplier = order === 'asc' ? 1 : -1
+
+  return [...users].sort((a, b) => {
+    const aValue = a.daysSinceLastContribution ?? -1
+    const bValue = b.daysSinceLastContribution ?? -1
+    const diff = (aValue - bValue) * multiplier
 
     if (diff !== 0) {
       return diff
@@ -76,7 +108,15 @@ function LimitSelector({ value, onChange }) {
   )
 }
 
-function NonReciprocalTable({ users, sortOrder, onSortClick }) {
+function SortHeaderButton({ label, active, order, onClick }) {
+  return (
+    <button className={`th-sort-button ${active ? 'active' : ''}`} onClick={onClick}>
+      {label} {active ? (order === 'desc' ? '↓' : '↑') : '↕'}
+    </button>
+  )
+}
+
+function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSortWaiting }) {
   if (!users.length) {
     return <p className="empty-text">Список пуст.</p>
   }
@@ -87,11 +127,21 @@ function NonReciprocalTable({ users, sortOrder, onSortClick }) {
         <thead>
           <tr>
             <th>Пользователь</th>
-            <th>Ожидание</th>
             <th>
-              <button className="th-sort-button" onClick={onSortClick}>
-                Слежение с {sortOrder === 'desc' ? '↓' : '↑'}
-              </button>
+              <SortHeaderButton
+                label="Ожидание"
+                active={sortField === NON_RECIPROCAL_SORT_WAITING}
+                order={sortOrder}
+                onClick={onSortWaiting}
+              />
+            </th>
+            <th>
+              <SortHeaderButton
+                label="Слежение с"
+                active={sortField === NON_RECIPROCAL_SORT_TRACKED}
+                order={sortOrder}
+                onClick={onSortTracked}
+              />
             </th>
           </tr>
         </thead>
@@ -144,7 +194,7 @@ function FollowersOnlyTable({ users }) {
   )
 }
 
-function MutualFollowersTable({ users }) {
+function MutualFollowersTable({ users, sortOrder, onSortDays }) {
   if (!users.length) {
     return <p className="empty-text">Пока нет данных по взаимным подписчикам.</p>
   }
@@ -157,7 +207,9 @@ function MutualFollowersTable({ users }) {
             <th>Пользователь</th>
             <th>Last contribute</th>
             <th>Тип события</th>
-            <th>Сколько дней назад</th>
+            <th>
+              <SortHeaderButton label="Сколько дней назад" active order={sortOrder} onClick={onSortDays} />
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -226,7 +278,9 @@ function App() {
   const [refreshNonce, setRefreshNonce] = useState(0)
   const [lastLoadedAt, setLastLoadedAt] = useState(null)
   const [activeTab, setActiveTab] = useState(TAB_NON_RECIPROCAL)
-  const [trackedSinceSortOrder, setTrackedSinceSortOrder] = useState('desc')
+  const [nonReciprocalSortField, setNonReciprocalSortField] = useState(NON_RECIPROCAL_SORT_TRACKED)
+  const [nonReciprocalSortOrder, setNonReciprocalSortOrder] = useState('desc')
+  const [mutualSortOrder, setMutualSortOrder] = useState('desc')
   const [eventsFilter, setEventsFilter] = useState('all')
   const [nonReciprocalLimit, setNonReciprocalLimit] = useState(100)
   const [followersOnlyLimit, setFollowersOnlyLimit] = useState(100)
@@ -237,8 +291,8 @@ function App() {
 
   const visibleNonReciprocal = useMemo(() => {
     const list = reports?.nonReciprocalNow ?? []
-    return sortByTrackedSince(list, trackedSinceSortOrder).slice(0, nonReciprocalLimit)
-  }, [reports?.nonReciprocalNow, trackedSinceSortOrder, nonReciprocalLimit])
+    return sortNonReciprocal(list, nonReciprocalSortField, nonReciprocalSortOrder).slice(0, nonReciprocalLimit)
+  }, [reports?.nonReciprocalNow, nonReciprocalSortField, nonReciprocalSortOrder, nonReciprocalLimit])
 
   const visibleFollowersOnly = useMemo(() => {
     const list = reports?.followersNotFollowingNow ?? []
@@ -247,8 +301,8 @@ function App() {
 
   const visibleMutualFollowers = useMemo(() => {
     const list = reports?.mutualFollowersNow ?? []
-    return list.slice(0, mutualLimit)
-  }, [reports?.mutualFollowersNow, mutualLimit])
+    return sortMutualByDays(list, mutualSortOrder).slice(0, mutualLimit)
+  }, [reports?.mutualFollowersNow, mutualSortOrder, mutualLimit])
 
   const visibleEvents = useMemo(() => {
     const source = Array.isArray(events) ? events : []
@@ -326,10 +380,41 @@ function App() {
   const followersMutual = counts.mutualFollowersNow ?? 0
   const followersOnly = counts.followersNotFollowingNow ?? 0
 
+  const handleNonReciprocalSort = (field) => {
+    setNonReciprocalSortField((prevField) => {
+      if (prevField === field) {
+        setNonReciprocalSortOrder((prevOrder) => (prevOrder === 'desc' ? 'asc' : 'desc'))
+        return prevField
+      }
+
+      setNonReciprocalSortOrder('desc')
+      return field
+    })
+  }
+
   return (
     <main className="app-shell">
       <header className="hero">
-        <h1 className="title-line">{title}</h1>
+        <div className="title-row">
+          <h1 className="title-line">{title}</h1>
+          <div className="repo-actions" title="Фиксированный репозиторий: GoXLd/github-friends">
+            <a href={FIXED_REPO_URL} target="_blank" rel="noreferrer" className="repo-link">
+              Repo
+            </a>
+            <iframe
+              title="GitHub Stars"
+              src={`https://ghbtns.com/github-btn.html?user=${FIXED_REPO_OWNER}&repo=${FIXED_REPO_NAME}&type=star&count=true`}
+              width="110"
+              height="20"
+            />
+            <iframe
+              title="GitHub Forks"
+              src={`https://ghbtns.com/github-btn.html?user=${FIXED_REPO_OWNER}&repo=${FIXED_REPO_NAME}&type=fork&count=true`}
+              width="110"
+              height="20"
+            />
+          </div>
+        </div>
         <p className="hero-meta">Последнее обновление: {formatDate(reports?.generatedAt)}</p>
         <p className="hero-meta">Последняя загрузка в браузере: {formatDate(lastLoadedAt)}</p>
       </header>
@@ -343,7 +428,8 @@ function App() {
             <article className="stat-card">
               <p>Followers</p>
               <strong>{counts.followers ?? 0}</strong>
-              <small className="stat-details">взаимные: {followersMutual} · Подписчики: {followersOnly}</small>
+              <small className="stat-details">Взаимные: {followersMutual}</small>
+              <small className="stat-details">Подписчики: {followersOnly}</small>
             </article>
             <article className="stat-card">
               <p>Following</p>
@@ -404,8 +490,10 @@ function App() {
                 <h2>Невзаимные подписки сейчас</h2>
                 <NonReciprocalTable
                   users={visibleNonReciprocal}
-                  sortOrder={trackedSinceSortOrder}
-                  onSortClick={() => setTrackedSinceSortOrder((prev) => (prev === 'desc' ? 'asc' : 'desc'))}
+                  sortField={nonReciprocalSortField}
+                  sortOrder={nonReciprocalSortOrder}
+                  onSortTracked={() => handleNonReciprocalSort(NON_RECIPROCAL_SORT_TRACKED)}
+                  onSortWaiting={() => handleNonReciprocalSort(NON_RECIPROCAL_SORT_WAITING)}
                 />
                 <LimitSelector value={nonReciprocalLimit} onChange={setNonReciprocalLimit} />
               </>
@@ -421,15 +509,37 @@ function App() {
 
             {activeTab === TAB_MUTUAL && (
               <>
-                <h2>Взаимные подписчики: last contribute</h2>
-                <MutualFollowersTable users={visibleMutualFollowers} />
+                <h2 className="heading-with-tip">
+                  Взаимные подписчики: last contribute
+                  <span
+                    className="info-tip"
+                    title="Проверяется до 100 последних публичных событий пользователя через /users/{login}/events/public и берутся только contribution-события. Обычно покрывает около 90 дней, но зависит от активности."
+                    aria-label="Подсказка по диапазону last contribute"
+                  >
+                    i
+                  </span>
+                </h2>
+                <MutualFollowersTable
+                  users={visibleMutualFollowers}
+                  sortOrder={mutualSortOrder}
+                  onSortDays={() => setMutualSortOrder((prev) => (prev === 'desc' ? 'asc' : 'desc'))}
+                />
                 <LimitSelector value={mutualLimit} onChange={setMutualLimit} />
               </>
             )}
 
             {activeTab === TAB_EVENTS && (
               <>
-                <h2>Последние события</h2>
+                <h2 className="heading-with-tip">
+                  Последние события
+                  <span
+                    className="info-tip"
+                    title="Метка «Удаленный» ставится только если пользователь исчез одновременно из followers и following, и API /users/{login} вернул 404. Иначе это может быть блокировка или ограничение."
+                    aria-label="Подсказка по логике метки Удаленный"
+                  >
+                    i
+                  </span>
+                </h2>
                 <EventsFilter value={eventsFilter} onChange={setEventsFilter} />
                 <EventsList events={visibleEvents} />
                 <LimitSelector value={eventsLimit} onChange={setEventsLimit} />
