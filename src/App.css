@@ -235,6 +235,25 @@
   border: 1px solid #d0d7de;
 }
 
+.stat-card-button {
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+}
+
+.stat-card-button:hover {
+  border-color: #cf222e;
+}
+
+.stat-card-button:focus-visible {
+  outline: none;
+  border-color: #cf222e;
+  box-shadow: 0 0 0 2px rgba(207, 34, 46, 0.2);
+  transform: translateY(-1px);
+}
+
 .stat-card p {
   margin: 0;
   font-size: 0.84rem;

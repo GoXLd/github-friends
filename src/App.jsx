@@ -17,6 +17,7 @@ const EVENT_FILTERS = [
 ]
 
 const TAB_NON_RECIPROCAL = 'non_reciprocal'
+const TAB_CANDIDATES = 'candidates'
 const TAB_FOLLOWERS_ONLY = 'followers_only'
 const TAB_MUTUAL = 'mutual'
 const TAB_EVENTS = 'events'
@@ -355,6 +356,43 @@ function FriendsCleanupTable({ users, thresholdDays }) {
   )
 }
 
+function DeletedFollowerLossesTable({ events }) {
+  if (!events.length) {
+    return <p className="empty-text">Удаленных аккаунтов среди последних отписок пока нет.</p>
+  }
+
+  return (
+    <div className="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Пользователь</th>
+            <th>Событие</th>
+            <th>Статус</th>
+            <th>Действие</th>
+          </tr>
+        </thead>
+        <tbody>
+          {events.map((event) => (
+            <tr key={event.id}>
+              <td>
+                <a href={event.htmlUrl} target="_blank" rel="noreferrer">
+                  @{event.login}
+                </a>
+              </td>
+              <td>{formatDate(event.happenedAt)}</td>
+              <td>
+                <span className="event-badge deleted">Удаленный</span>
+              </td>
+              <td>Убрать из наблюдения на следующей проверке</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 function EventsFilter({ value, onChange }) {
   return (
     <div className="event-filters">
@@ -410,6 +448,7 @@ function App() {
   const [excludedLogins, setExcludedLogins] = useState(getInitialExcludedLogins)
   const [excludedInput, setExcludedInput] = useState('')
   const [nonReciprocalLimit, setNonReciprocalLimit] = useState(defaultPageSize)
+  const [candidateLimit, setCandidateLimit] = useState(defaultPageSize)
   const [followersOnlyLimit, setFollowersOnlyLimit] = useState(defaultPageSize)
   const [mutualLimit, setMutualLimit] = useState(defaultPageSize)
   const [eventsLimit, setEventsLimit] = useState(defaultPageSize)
@@ -423,6 +462,11 @@ function App() {
     const list = reports?.nonReciprocalNow ?? []
     return list.filter((user) => !excludedSet.has(normalizeLogin(user.login)))
   }, [reports?.nonReciprocalNow, excludedSet])
+
+  const filteredStaleNonReciprocalSource = useMemo(() => {
+    const list = reports?.staleCandidates ?? []
+    return list.filter((user) => !excludedSet.has(normalizeLogin(user.login)))
+  }, [reports?.staleCandidates, excludedSet])
 
   const filteredFollowersOnlySource = useMemo(() => {
     const list = reports?.followersNotFollowingNow ?? []
@@ -444,12 +488,39 @@ function App() {
     return source.filter((event) => !excludedSet.has(normalizeLogin(event.login)))
   }, [events, excludedSet])
 
+  const filteredDeletedFollowerLossSource = useMemo(() => {
+    const latestByLogin = new Map()
+
+    for (const event of filteredEventsSource) {
+      if (event.type !== 'follower_lost' || !event.isDeleted || !event.login) {
+        continue
+      }
+
+      const key = normalizeLogin(event.login)
+
+      if (!key || latestByLogin.has(key)) {
+        continue
+      }
+
+      latestByLogin.set(key, event)
+    }
+
+    return [...latestByLogin.values()]
+  }, [filteredEventsSource])
+
   const visibleNonReciprocal = useMemo(() => {
     return sortNonReciprocal(filteredNonReciprocalSource, nonReciprocalSortField, nonReciprocalSortOrder).slice(
       0,
       nonReciprocalLimit,
     )
   }, [filteredNonReciprocalSource, nonReciprocalSortField, nonReciprocalSortOrder, nonReciprocalLimit])
+
+  const visibleStaleNonReciprocal = useMemo(() => {
+    return sortNonReciprocal(filteredStaleNonReciprocalSource, nonReciprocalSortField, nonReciprocalSortOrder).slice(
+      0,
+      candidateLimit,
+    )
+  }, [filteredStaleNonReciprocalSource, nonReciprocalSortField, nonReciprocalSortOrder, candidateLimit])
 
   const visibleFollowersOnly = useMemo(() => {
     return filteredFollowersOnlySource.slice(0, followersOnlyLimit)
@@ -462,6 +533,14 @@ function App() {
   const visibleStaleFriends = useMemo(() => {
     return filteredStaleFriendSource.slice(0, mutualLimit)
   }, [filteredStaleFriendSource, mutualLimit])
+
+  const visibleCandidateStaleFriends = useMemo(() => {
+    return filteredStaleFriendSource.slice(0, candidateLimit)
+  }, [filteredStaleFriendSource, candidateLimit])
+
+  const visibleDeletedFollowerLosses = useMemo(() => {
+    return filteredDeletedFollowerLossSource.slice(0, candidateLimit)
+  }, [filteredDeletedFollowerLossSource, candidateLimit])
 
   const visibleEvents = useMemo(() => {
     const filtered =
@@ -554,6 +633,7 @@ function App() {
 
   useEffect(() => {
     setNonReciprocalLimit(defaultPageSize)
+    setCandidateLimit(defaultPageSize)
     setFollowersOnlyLimit(defaultPageSize)
     setMutualLimit(defaultPageSize)
     setEventsLimit(defaultPageSize)
@@ -594,10 +674,15 @@ function App() {
 
   const counts = reports?.counts ?? {}
   const title = reports?.username ? `GitHub Friends Tracker - @${reports.username}` : 'GitHub Friends Tracker'
+  const followBackWindowDays = reports?.followBackWindowDays ?? 7
   const followersMutual = filteredMutualSource.length
   const followersOnly = filteredFollowersOnlySource.length
   const nonReciprocalCount = filteredNonReciprocalSource.length
   const friendInactiveDays = reports?.friendInactiveDays ?? 60
+  const staleNonReciprocalCount = filteredStaleNonReciprocalSource.length
+  const staleFriendsCount = filteredStaleFriendSource.length
+  const deletedLossesCount = filteredDeletedFollowerLossSource.length
+  const unfollowCandidatesCount = staleNonReciprocalCount + staleFriendsCount + deletedLossesCount
 
   const handleNonReciprocalSort = (field) => {
     setNonReciprocalSortField((prevField) => {
@@ -739,10 +824,19 @@ function App() {
               <p>Взаимные подписчики</p>
               <strong>{followersMutual}</strong>
             </article>
-            <article className="stat-card accent-red">
-              <p>7+ дней без ответа</p>
-              <strong>{counts.staleCandidates ?? 0}</strong>
-            </article>
+            <button
+              type="button"
+              className="stat-card accent-red stat-card-button"
+              onClick={() => setActiveTab(TAB_CANDIDATES)}
+              title="Перейти на вкладку кандидатов на отписку"
+            >
+              <p>Кандидаты на отписку</p>
+              <strong>{unfollowCandidatesCount}</strong>
+              <span className="stat-details">
+                Not Followback: {staleNonReciprocalCount} · Friends: {staleFriendsCount} · Удаленные:{' '}
+                {deletedLossesCount}
+              </span>
+            </button>
           </section>
 
           <section className="tabs" role="tablist" aria-label="Sections">
@@ -764,6 +858,16 @@ function App() {
             >
               <span>Followers</span>
               <span className="tab-badge">{followersOnly}</span>
+            </button>
+            <button
+              role="tab"
+              aria-selected={activeTab === TAB_CANDIDATES}
+              className={`tab-button ${activeTab === TAB_CANDIDATES ? 'active' : ''}`}
+              title="Сводный список кандидатов на отписку."
+              onClick={() => setActiveTab(TAB_CANDIDATES)}
+            >
+              <span>Кандидаты на отписку</span>
+              <span className="tab-badge">{unfollowCandidatesCount}</span>
             </button>
             <button
               role="tab"
@@ -817,6 +921,31 @@ function App() {
                 </h2>
                 <FollowersOnlyTable users={visibleFollowersOnly} />
                 <LimitSelector value={followersOnlyLimit} onChange={setFollowersOnlyLimit} />
+              </>
+            )}
+
+            {activeTab === TAB_CANDIDATES && (
+              <>
+                <h2 className="heading-with-tip">
+                  Кандидаты на отписку
+                  <InfoTooltip
+                    label="Подсказка по разделу кандидатов на отписку"
+                    text="Сводный список для очистки: долгий Not Followback, неактивные Friends и удаленные аккаунты, которые отписались."
+                  />
+                </h2>
+                <h3 className="sub-heading">Not Followback ({followBackWindowDays}+ дней)</h3>
+                <NonReciprocalTable
+                  users={visibleStaleNonReciprocal}
+                  sortField={nonReciprocalSortField}
+                  sortOrder={nonReciprocalSortOrder}
+                  onSortTracked={() => handleNonReciprocalSort(NON_RECIPROCAL_SORT_TRACKED)}
+                  onSortWaiting={() => handleNonReciprocalSort(NON_RECIPROCAL_SORT_WAITING)}
+                />
+                <h3 className="sub-heading">Friends без активности ({friendInactiveDays}+ дней)</h3>
+                <FriendsCleanupTable users={visibleCandidateStaleFriends} thresholdDays={friendInactiveDays} />
+                <h3 className="sub-heading">Отписался от вас и аккаунт удален</h3>
+                <DeletedFollowerLossesTable events={visibleDeletedFollowerLosses} />
+                <LimitSelector value={candidateLimit} onChange={setCandidateLimit} />
               </>
             )}
 
