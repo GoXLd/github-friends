@@ -114,7 +114,7 @@
 }
 
 .settings-row {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 0.5rem;
   color: #57606a;
@@ -140,6 +140,10 @@
   color: #24292f;
   padding: 0.24rem 0.4rem;
   font-family: inherit;
+}
+
+.settings-language-select-wrap {
+  display: inline-flex;
 }
 
 .settings-divider {

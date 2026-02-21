@@ -963,13 +963,17 @@ function App() {
               onClick={() => setSettingsOpen((prev) => !prev)}
             >
               <svg className="settings-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  d="M10.33 2.31a1 1 0 0 1 1.34 0l1.17 1.04a1 1 0 0 0 1.03.2l1.48-.56a1 1 0 0 1 1.26.57l.63 1.45a1 1 0 0 0 .84.6l1.56.18a1 1 0 0 1 .89 1l.02 1.56a1 1 0 0 0 .52.92l1.36.79a1 1 0 0 1 .38 1.33l-.72 1.38a1 1 0 0 0 0 .98l.72 1.38a1 1 0 0 1-.38 1.33l-1.36.79a1 1 0 0 0-.52.92l-.02 1.56a1 1 0 0 1-.89 1l-1.56.18a1 1 0 0 0-.84.6l-.63 1.45a1 1 0 0 1-1.26.57l-1.48-.56a1 1 0 0 0-1.03.2l-1.17 1.04a1 1 0 0 1-1.34 0l-1.17-1.04a1 1 0 0 0-1.03-.2l-1.48.56a1 1 0 0 1-1.26-.57l-.63-1.45a1 1 0 0 0-.84-.6l-1.56-.18a1 1 0 0 1-.89-1l-.02-1.56a1 1 0 0 0-.52-.92l-1.36-.79a1 1 0 0 1-.38-1.33l.72-1.38a1 1 0 0 0 0-.98l-.72-1.38a1 1 0 0 1 .38-1.33l1.36-.79a1 1 0 0 0 .52-.92l.02-1.56a1 1 0 0 1 .89-1l1.56-.18a1 1 0 0 0 .84-.6l.63-1.45a1 1 0 0 1 1.26-.57l1.48.56a1 1 0 0 0 1.03-.2z"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.4"
-                />
-                <circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" strokeWidth="1.4" />
+                <g fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 21v-7" />
+                  <path d="M4 10V3" />
+                  <path d="M12 21v-9" />
+                  <path d="M12 8V3" />
+                  <path d="M20 21v-3" />
+                  <path d="M20 14V3" />
+                  <path d="M1 14h6" />
+                  <path d="M9 8h6" />
+                  <path d="M17 18h6" />
+                </g>
               </svg>
             </button>
           </div>
@@ -994,12 +998,14 @@ function App() {
                 ))}
               </select>
             </label>
-            <label className="settings-row">
+            <label className="settings-row settings-row-stack">
               {i18n.languageLabel}
-              <select value={language} onChange={(event) => setLanguage(event.target.value)}>
-                <option value="en">{i18n.languageEnglish}</option>
-                <option value="ru">{i18n.languageRussian}</option>
-              </select>
+              <div className="settings-language-select-wrap">
+                <select value={language} onChange={(event) => setLanguage(event.target.value)}>
+                  <option value="en">{i18n.languageEnglish}</option>
+                  <option value="ru">{i18n.languageRussian}</option>
+                </select>
+              </div>
             </label>
             <div className="settings-divider" />
             <label className="settings-row settings-row-stack">
@@ -1071,14 +1077,20 @@ function App() {
             >
               <p>{i18n.unfollowCandidates}</p>
               <strong>{unfollowCandidatesCount}</strong>
-              <span className="stat-details">
-                {i18n.nonReciprocalShort}: {staleNonReciprocalCount} · {i18n.friendsShort}: {staleFriendsCount} ·{' '}
-                {i18n.deletedShort}: {deletedLossesCount}
-              </span>
             </button>
           </section>
 
           <section className="tabs" role="tablist" aria-label={i18n.tabsAriaLabel}>
+            <button
+              role="tab"
+              aria-selected={activeTab === TAB_CANDIDATES}
+              className={`tab-button ${activeTab === TAB_CANDIDATES ? 'active' : ''}`}
+              title={i18n.tabTitleCandidates}
+              onClick={() => setActiveTab(TAB_CANDIDATES)}
+            >
+              <span>{i18n.tabCandidates}</span>
+              <span className="tab-badge">{unfollowCandidatesCount}</span>
+            </button>
             <button
               role="tab"
               aria-selected={activeTab === TAB_NON_RECIPROCAL}
@@ -1097,16 +1109,6 @@ function App() {
             >
               <span>{i18n.tabFollowers}</span>
               <span className="tab-badge">{followersOnly}</span>
-            </button>
-            <button
-              role="tab"
-              aria-selected={activeTab === TAB_CANDIDATES}
-              className={`tab-button ${activeTab === TAB_CANDIDATES ? 'active' : ''}`}
-              title={i18n.tabTitleCandidates}
-              onClick={() => setActiveTab(TAB_CANDIDATES)}
-            >
-              <span>{i18n.tabCandidates}</span>
-              <span className="tab-badge">{unfollowCandidatesCount}</span>
             </button>
             <button
               role="tab"
