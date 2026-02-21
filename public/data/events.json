@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:songofhealing:2026-02-21T07:02:58.456Z",
+    "type": "follower_gained",
+    "login": "songofhealing",
+    "htmlUrl": "https://github.com/songofhealing",
+    "happenedAt": "2026-02-21T07:02:58.456Z"
+  },
+  {
+    "id": "follower_lost:alttp:2026-02-21T07:02:58.456Z",
+    "type": "follower_lost",
+    "login": "ALttP",
+    "htmlUrl": "https://github.com/ALttP",
+    "happenedAt": "2026-02-21T07:02:58.456Z"
+  },
+  {
     "id": "follower_gained:scottpeat:2026-02-21T03:04:09.471Z",
     "type": "follower_gained",
     "login": "scottpeat",
