@@ -5,6 +5,8 @@ A React + GitHub Actions service that tracks your GitHub `followers` / `followin
 - Demo: https://github-friends.nlo.ovh/
 - Russian docs: `README_RU.md`
 
+![GitHub Friends Tracker Demo](github-friends.gif)
+
 ## What It Does
 
 - Collects `followers` and `following` snapshots on a schedule (every 6 hours by default).

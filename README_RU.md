@@ -5,6 +5,8 @@
 - Демо: https://github-friends.nlo.ovh/
 - English docs: `README.md`
 
+![Демо GitHub Friends Tracker](github-friends.gif)
+
 ## Что делает сервис
 
 - По расписанию (по умолчанию каждые 6 часов) собирает `followers` и `following` через GitHub API.
