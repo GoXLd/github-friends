@@ -1,21 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 
-const EVENT_LABELS = {
-  follower_gained: 'Подписался на вас',
-  follower_lost: 'Отписался от вас',
-  you_followed: 'Вы подписались',
-  you_unfollowed: 'Вы отписались',
-}
-
-const EVENT_FILTERS = [
-  { id: 'all', label: 'Все события' },
-  { id: 'follower_lost', label: 'Отписался от вас' },
-  { id: 'follower_gained', label: 'Подписался на вас' },
-  { id: 'you_followed', label: 'Вы подписались' },
-  { id: 'you_unfollowed', label: 'Вы отписались' },
-]
-
 const TAB_NON_RECIPROCAL = 'non_reciprocal'
 const TAB_CANDIDATES = 'candidates'
 const TAB_FOLLOWERS_ONLY = 'followers_only'
@@ -29,6 +14,7 @@ const LIMIT_OPTIONS = [10, 25, 50, 100, 500]
 const DEFAULT_PAGE_SIZE_FALLBACK = 100
 const SETTINGS_STORAGE_KEY = 'gh_friends_default_page_size'
 const EXCLUSIONS_STORAGE_KEY = 'gh_friends_excluded_logins'
+const LANGUAGE_STORAGE_KEY = 'gh_friends_language'
 
 const FIXED_REPO_OWNER = 'GoXLd'
 const FIXED_REPO_NAME = 'github-friends'
@@ -36,12 +22,227 @@ const FIXED_REPO_URL = `https://github.com/${FIXED_REPO_OWNER}/${FIXED_REPO_NAME
 const FIXED_REPO_API_URL = `https://api.github.com/repos/${FIXED_REPO_OWNER}/${FIXED_REPO_NAME}`
 const FIXED_REPO_FORK_URL = `${FIXED_REPO_URL}/fork`
 
-function formatCount(value) {
+const I18N = {
+  en: {
+    locale: 'en-US',
+    languageLabel: 'Language:',
+    languageEnglish: 'English',
+    languageRussian: 'Russian',
+    showRecords: 'Show records:',
+    sortWaiting: 'Waiting',
+    sortTrackedSince: 'Following since',
+    sortDaysAgo: 'Days ago',
+    userCol: 'User',
+    profileCol: 'Profile',
+    eventCol: 'Event',
+    statusCol: 'Status',
+    actionCol: 'Action',
+    inFriendsSinceCol: 'In Friends since',
+    inactiveDaysCol: 'Inactive (days)',
+    reasonCol: 'Reason',
+    lastContributeCol: 'Last contribute',
+    eventTypeCol: 'Event type',
+    emptyList: 'List is empty.',
+    followersOnlyEmpty: 'No followers in this category right now.',
+    mutualEmpty: 'No mutual followers data yet.',
+    friendsCleanupEmpty: 'No cleanup candidates in Friends yet.',
+    deletedFollowerLossesEmpty: 'No deleted accounts in recent losses.',
+    eventsEmpty: 'No events for this filter.',
+    deletedBadge: 'Deleted',
+    deletedAction: 'Remove from watchlist at the next check',
+    staleReasonNoContributionData: 'no activity data',
+    staleReasonInactiveContributionWindow: 'no recent activity',
+    staleReasonDefault: 'inactive',
+    loading: 'Loading data...',
+    unknownLoadError: 'Unknown data loading error',
+    failedToLoadReports: (status) => `Failed to load reports.json (${status})`,
+    failedToLoadEvents: (status) => `Failed to load events.json (${status})`,
+    settingsAriaLabel: 'Open page settings',
+    settingsDefaultPageSize: 'Default records shown:',
+    settingsExclusions: 'Excluded users:',
+    settingsAdd: 'Add',
+    settingsRemove: 'Remove',
+    settingsExclusionNote: 'Exclusions are applied locally in this browser.',
+    settingsExclusionEmpty: 'Exclusions list is empty.',
+    settingsInputPlaceholder: '@username',
+    lastUpdate: 'Last update',
+    browserLoad: 'Last browser load',
+    followers: 'Followers',
+    following: 'Following',
+    nonReciprocal: 'Not Followback',
+    mutualFollowers: 'Mutual followers',
+    unfollowCandidates: 'Unfollow candidates',
+    nonReciprocalShort: 'Not Followback',
+    friendsShort: 'Friends',
+    deletedShort: 'Deleted',
+    goToCandidates: 'Go to unfollow candidates',
+    tabsAriaLabel: 'Sections',
+    tabNotFollowback: 'Not Followback',
+    tabFollowers: 'Followers',
+    tabCandidates: 'Unfollow candidates',
+    tabFriends: 'Friends',
+    tabEvents: 'Recent events',
+    tabTitleNotFollowback: 'Users you follow, but they do not follow back.',
+    tabTitleFollowers: 'Users who follow you, but you do not follow them.',
+    tabTitleCandidates: 'Combined list of unfollow candidates.',
+    tabTitleFriends: 'Mutual follows: both sides follow each other.',
+    headingNotFollowback: 'Not Followback',
+    headingFollowers: 'Followers',
+    headingCandidates: 'Unfollow candidates',
+    headingFriends: 'Friends',
+    headingEvents: 'Recent events',
+    tooltipNotFollowbackLabel: 'Help for Not Followback section',
+    tooltipNotFollowbackText:
+      'Users you follow, but they do not follow back. Use this list to review one-sided follows.',
+    tooltipFollowersLabel: 'Help for Followers section',
+    tooltipFollowersText: 'Users who follow you, but you do not follow them.',
+    tooltipCandidatesLabel: 'Help for Unfollow candidates section',
+    tooltipCandidatesText:
+      'Combined cleanup list: long Not Followback, inactive Friends, and deleted accounts that unfollowed you.',
+    tooltipFriendsLabel: 'Help for Friends last contribute range',
+    tooltipFriendsText:
+      'Mutual follows only. Last contribute is based on the latest 100 public events (contribution events only).',
+    tooltipEventsLabel: 'Help for Deleted badge logic',
+    tooltipEventsText:
+      'Deleted badge is set only when account disappeared from both followers and following, and /users/{login} returned 404. Otherwise it may be a block or restriction.',
+    sectionCandidatesNotFollowback: (days) => `Not Followback (${days}+ days)`,
+    sectionCandidatesFriends: (days) => `Friends inactive (${days}+ days)`,
+    sectionCandidatesDeleted: 'Unfollowed you and account is deleted',
+    sectionFriendsCleanup: (days) => `Friends cleanup candidates (inactivity ${days}+ days)`,
+    riskTitle: 'Ethical/technical risk of account restrictions',
+    riskTextOne:
+      'Use this script at your own risk. There is no guarantee that API calls or mass follow analysis will not trigger GitHub limits or restrictions.',
+    riskTextTwo:
+      'No liability: the author is not responsible for outcomes. If your account is limited or blocked, do not contact the author with claims.',
+    eventLabels: {
+      follower_gained: 'Followed you',
+      follower_lost: 'Unfollowed you',
+      you_followed: 'You followed',
+      you_unfollowed: 'You unfollowed',
+    },
+    eventFilters: [
+      { id: 'all', label: 'All events' },
+      { id: 'follower_lost', label: 'Unfollowed you' },
+      { id: 'follower_gained', label: 'Followed you' },
+      { id: 'you_followed', label: 'You followed' },
+      { id: 'you_unfollowed', label: 'You unfollowed' },
+    ],
+    daysSuffix: 'd',
+  },
+  ru: {
+    locale: 'ru-RU',
+    languageLabel: 'Язык:',
+    languageEnglish: 'Английский',
+    languageRussian: 'Русский',
+    showRecords: 'Показывать записей:',
+    sortWaiting: 'Ожидание',
+    sortTrackedSince: 'Слежение с',
+    sortDaysAgo: 'Сколько дней назад',
+    userCol: 'Пользователь',
+    profileCol: 'Профиль',
+    eventCol: 'Событие',
+    statusCol: 'Статус',
+    actionCol: 'Действие',
+    inFriendsSinceCol: 'В списке с',
+    inactiveDaysCol: 'Неактивен (дней)',
+    reasonCol: 'Причина',
+    lastContributeCol: 'Last contribute',
+    eventTypeCol: 'Тип события',
+    emptyList: 'Список пуст.',
+    followersOnlyEmpty: 'Таких подписчиков сейчас нет.',
+    mutualEmpty: 'Пока нет данных по взаимным подписчикам.',
+    friendsCleanupEmpty: 'Кандидатов на очистку друзей пока нет.',
+    deletedFollowerLossesEmpty: 'Удаленных аккаунтов среди последних отписок пока нет.',
+    eventsEmpty: 'Событий по фильтру нет.',
+    deletedBadge: 'Удаленный',
+    deletedAction: 'Убрать из наблюдения на следующей проверке',
+    staleReasonNoContributionData: 'нет данных активности',
+    staleReasonInactiveContributionWindow: 'нет активности',
+    staleReasonDefault: 'неактивен',
+    loading: 'Загружаю данные...',
+    unknownLoadError: 'Неизвестная ошибка загрузки данных',
+    failedToLoadReports: (status) => `Не удалось загрузить reports.json (${status})`,
+    failedToLoadEvents: (status) => `Не удалось загрузить events.json (${status})`,
+    settingsAriaLabel: 'Открыть настройки страницы',
+    settingsDefaultPageSize: 'Показывать записей (по умолчанию):',
+    settingsExclusions: 'Исключения из обработки:',
+    settingsAdd: 'Добавить',
+    settingsRemove: 'Убрать',
+    settingsExclusionNote: 'Исключения применяются локально в этом браузере.',
+    settingsExclusionEmpty: 'Список исключений пуст.',
+    settingsInputPlaceholder: '@username',
+    lastUpdate: 'Последнее обновление',
+    browserLoad: 'Последняя загрузка в браузере',
+    followers: 'Followers',
+    following: 'Following',
+    nonReciprocal: 'Невзаимные подписки',
+    mutualFollowers: 'Взаимные подписчики',
+    unfollowCandidates: 'Кандидаты на отписку',
+    nonReciprocalShort: 'Not Followback',
+    friendsShort: 'Friends',
+    deletedShort: 'Удаленные',
+    goToCandidates: 'Перейти на вкладку кандидатов на отписку',
+    tabsAriaLabel: 'Sections',
+    tabNotFollowback: 'Not Followback',
+    tabFollowers: 'Followers',
+    tabCandidates: 'Кандидаты на отписку',
+    tabFriends: 'Friends',
+    tabEvents: 'Последние события',
+    tabTitleNotFollowback: 'Users you follow, but they do not follow back.',
+    tabTitleFollowers: 'Users who follow you, but you do not follow them.',
+    tabTitleCandidates: 'Сводный список кандидатов на отписку.',
+    tabTitleFriends: 'Mutual follows (friends): both sides follow each other.',
+    headingNotFollowback: 'Not Followback',
+    headingFollowers: 'Followers',
+    headingCandidates: 'Кандидаты на отписку',
+    headingFriends: 'Friends',
+    headingEvents: 'Последние события',
+    tooltipNotFollowbackLabel: 'Подсказка по разделу Not Followback',
+    tooltipNotFollowbackText:
+      'Список пользователей, на которых вы подписаны, но они не подписались в ответ. Используйте для анализа невзаимных подписок.',
+    tooltipFollowersLabel: 'Подсказка по разделу Followers',
+    tooltipFollowersText: 'Пользователи, которые подписаны на вас, но вы не подписаны на них.',
+    tooltipCandidatesLabel: 'Подсказка по разделу кандидатов на отписку',
+    tooltipCandidatesText:
+      'Сводный список для очистки: долгий Not Followback, неактивные Friends и удаленные аккаунты, которые отписались.',
+    tooltipFriendsLabel: 'Подсказка по диапазону last contribute',
+    tooltipFriendsText:
+      'Это взаимные подписки: вы подписаны друг на друга. Last contribute берется из последних 100 публичных событий (только contribution-события).',
+    tooltipEventsLabel: 'Подсказка по логике метки Удаленный',
+    tooltipEventsText:
+      'Метка «Удаленный» ставится только если пользователь исчез одновременно из followers и following, и API /users/{login} вернул 404. Иначе это может быть блокировка или ограничение.',
+    sectionCandidatesNotFollowback: (days) => `Not Followback (${days}+ дней)`,
+    sectionCandidatesFriends: (days) => `Friends без активности (${days}+ дней)`,
+    sectionCandidatesDeleted: 'Отписался от вас и аккаунт удален',
+    sectionFriendsCleanup: (days) => `Кандидаты на очистку Friends (неактивность ${days}+ дней)`,
+    riskTitle: 'Этический/технический риск бана',
+    riskTextOne:
+      'Использование этого скрипта вы выполняете полностью на свой риск. Нет гарантий, что действия с API или массовый анализ подписок не приведут к ограничениям или блокировкам.',
+    riskTextTwo:
+      'Полное снятие ответственности: автор сервиса не несет ответственности за последствия использования.',
+    eventLabels: {
+      follower_gained: 'Подписался на вас',
+      follower_lost: 'Отписался от вас',
+      you_followed: 'Вы подписались',
+      you_unfollowed: 'Вы отписались',
+    },
+    eventFilters: [
+      { id: 'all', label: 'Все события' },
+      { id: 'follower_lost', label: 'Отписался от вас' },
+      { id: 'follower_gained', label: 'Подписался на вас' },
+      { id: 'you_followed', label: 'Вы подписались' },
+      { id: 'you_unfollowed', label: 'Вы отписались' },
+    ],
+    daysSuffix: 'дн.',
+  },
+}
+
+function formatCount(value, locale) {
   if (typeof value !== 'number') {
     return '...'
   }
 
-  return new Intl.NumberFormat('ru-RU').format(value)
+  return new Intl.NumberFormat(locale).format(value)
 }
 
 function getInitialDefaultPageSize() {
@@ -90,35 +291,44 @@ function getInitialExcludedLogins() {
   }
 }
 
-function formatDate(value) {
+function getInitialLanguage() {
+  if (typeof window === 'undefined') {
+    return 'en'
+  }
+
+  const stored = window.localStorage.getItem(LANGUAGE_STORAGE_KEY)
+  return stored === 'ru' || stored === 'en' ? stored : 'en'
+}
+
+function formatDate(value, locale) {
   if (!value) {
     return '—'
   }
 
-  return new Intl.DateTimeFormat('ru-RU', {
+  return new Intl.DateTimeFormat(locale, {
     dateStyle: 'medium',
     timeStyle: 'short',
   }).format(new Date(value))
 }
 
-function formatStaleReason(reason) {
+function formatStaleReason(reason, i18n) {
   if (reason === 'no_contribution_data') {
-    return 'нет данных активности'
+    return i18n.staleReasonNoContributionData
   }
 
   if (reason === 'inactive_contribution_window') {
-    return 'нет активности'
+    return i18n.staleReasonInactiveContributionWindow
   }
 
-  return 'неактивен'
+  return i18n.staleReasonDefault
 }
 
-function formatDays(value) {
+function formatDays(value, i18n) {
   if (value === null || value === undefined) {
     return '—'
   }
 
-  return `${value.toFixed(1)} дн.`
+  return `${value.toFixed(1)} ${i18n.daysSuffix}`
 }
 
 function toTimestamp(value) {
@@ -164,11 +374,11 @@ function sortMutualByDays(users, order) {
   })
 }
 
-function LimitSelector({ value, onChange }) {
+function LimitSelector({ value, onChange, i18n }) {
   return (
     <div className="limit-row">
       <label className="limit-control">
-        Показывать записей:
+        {i18n.showRecords}
         <select value={value} onChange={(event) => onChange(Number(event.target.value))}>
           {LIMIT_OPTIONS.map((option) => (
             <option key={option} value={option}>
@@ -202,9 +412,9 @@ function InfoTooltip({ text, label }) {
   )
 }
 
-function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSortWaiting }) {
+function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSortWaiting, i18n, locale }) {
   if (!users.length) {
-    return <p className="empty-text">Список пуст.</p>
+    return <p className="empty-text">{i18n.emptyList}</p>
   }
 
   return (
@@ -212,10 +422,10 @@ function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSort
       <table>
         <thead>
           <tr>
-            <th>Пользователь</th>
+            <th>{i18n.userCol}</th>
             <th>
               <SortHeaderButton
-                label="Ожидание"
+                label={i18n.sortWaiting}
                 active={sortField === NON_RECIPROCAL_SORT_WAITING}
                 order={sortOrder}
                 onClick={onSortWaiting}
@@ -223,7 +433,7 @@ function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSort
             </th>
             <th>
               <SortHeaderButton
-                label="Слежение с"
+                label={i18n.sortTrackedSince}
                 active={sortField === NON_RECIPROCAL_SORT_TRACKED}
                 order={sortOrder}
                 onClick={onSortTracked}
@@ -239,8 +449,8 @@ function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSort
                   @{user.login}
                 </a>
               </td>
-              <td>{formatDays(user.daysWaiting)}</td>
-              <td>{formatDate(user.firstSeenFollowingAt)}</td>
+              <td>{formatDays(user.daysWaiting, i18n)}</td>
+              <td>{formatDate(user.firstSeenFollowingAt, locale)}</td>
             </tr>
           ))}
         </tbody>
@@ -249,9 +459,9 @@ function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSort
   )
 }
 
-function FollowersOnlyTable({ users }) {
+function FollowersOnlyTable({ users, i18n }) {
   if (!users.length) {
-    return <p className="empty-text">Таких подписчиков сейчас нет.</p>
+    return <p className="empty-text">{i18n.followersOnlyEmpty}</p>
   }
 
   return (
@@ -259,8 +469,8 @@ function FollowersOnlyTable({ users }) {
       <table>
         <thead>
           <tr>
-            <th>Пользователь</th>
-            <th>Профиль</th>
+            <th>{i18n.userCol}</th>
+            <th>{i18n.profileCol}</th>
           </tr>
         </thead>
         <tbody>
@@ -280,9 +490,9 @@ function FollowersOnlyTable({ users }) {
   )
 }
 
-function MutualFollowersTable({ users, sortOrder, onSortDays }) {
+function MutualFollowersTable({ users, sortOrder, onSortDays, i18n, locale }) {
   if (!users.length) {
-    return <p className="empty-text">Пока нет данных по взаимным подписчикам.</p>
+    return <p className="empty-text">{i18n.mutualEmpty}</p>
   }
 
   return (
@@ -290,11 +500,11 @@ function MutualFollowersTable({ users, sortOrder, onSortDays }) {
       <table>
         <thead>
           <tr>
-            <th>Пользователь</th>
-            <th>Last contribute</th>
-            <th>Тип события</th>
+            <th>{i18n.userCol}</th>
+            <th>{i18n.lastContributeCol}</th>
+            <th>{i18n.eventTypeCol}</th>
             <th>
-              <SortHeaderButton label="Сколько дней назад" active order={sortOrder} onClick={onSortDays} />
+              <SortHeaderButton label={i18n.sortDaysAgo} active order={sortOrder} onClick={onSortDays} />
             </th>
           </tr>
         </thead>
@@ -306,9 +516,9 @@ function MutualFollowersTable({ users, sortOrder, onSortDays }) {
                   @{user.login}
                 </a>
               </td>
-              <td>{formatDate(user.lastContributionAt)}</td>
+              <td>{formatDate(user.lastContributionAt, locale)}</td>
               <td>{user.lastContributionType ?? '—'}</td>
-              <td>{formatDays(user.daysSinceLastContribution)}</td>
+              <td>{formatDays(user.daysSinceLastContribution, i18n)}</td>
             </tr>
           ))}
         </tbody>
@@ -317,9 +527,9 @@ function MutualFollowersTable({ users, sortOrder, onSortDays }) {
   )
 }
 
-function FriendsCleanupTable({ users, thresholdDays }) {
+function FriendsCleanupTable({ users, thresholdDays, i18n, locale }) {
   if (!users.length) {
-    return <p className="empty-text">Кандидатов на очистку друзей пока нет.</p>
+    return <p className="empty-text">{i18n.friendsCleanupEmpty}</p>
   }
 
   return (
@@ -327,11 +537,11 @@ function FriendsCleanupTable({ users, thresholdDays }) {
       <table>
         <thead>
           <tr>
-            <th>Пользователь</th>
-            <th>В списке с</th>
-            <th>Last contribute</th>
-            <th>Неактивен (дней)</th>
-            <th>Причина</th>
+            <th>{i18n.userCol}</th>
+            <th>{i18n.inFriendsSinceCol}</th>
+            <th>{i18n.lastContributeCol}</th>
+            <th>{i18n.inactiveDaysCol}</th>
+            <th>{i18n.reasonCol}</th>
           </tr>
         </thead>
         <tbody>
@@ -342,11 +552,11 @@ function FriendsCleanupTable({ users, thresholdDays }) {
                   @{user.login}
                 </a>
               </td>
-              <td>{formatDate(user.firstSeenMutualAt)}</td>
-              <td>{formatDate(user.lastContributionAt)}</td>
-              <td>{formatDays(user.inactiveDays)}</td>
+              <td>{formatDate(user.firstSeenMutualAt, locale)}</td>
+              <td>{formatDate(user.lastContributionAt, locale)}</td>
+              <td>{formatDays(user.inactiveDays, i18n)}</td>
               <td>
-                {formatStaleReason(user.reason)} ({thresholdDays}+ дн.)
+                {formatStaleReason(user.reason, i18n)} ({thresholdDays}+ {i18n.daysSuffix})
               </td>
             </tr>
           ))}
@@ -356,9 +566,9 @@ function FriendsCleanupTable({ users, thresholdDays }) {
   )
 }
 
-function DeletedFollowerLossesTable({ events }) {
+function DeletedFollowerLossesTable({ events, i18n, locale }) {
   if (!events.length) {
-    return <p className="empty-text">Удаленных аккаунтов среди последних отписок пока нет.</p>
+    return <p className="empty-text">{i18n.deletedFollowerLossesEmpty}</p>
   }
 
   return (
@@ -366,10 +576,10 @@ function DeletedFollowerLossesTable({ events }) {
       <table>
         <thead>
           <tr>
-            <th>Пользователь</th>
-            <th>Событие</th>
-            <th>Статус</th>
-            <th>Действие</th>
+            <th>{i18n.userCol}</th>
+            <th>{i18n.eventCol}</th>
+            <th>{i18n.statusCol}</th>
+            <th>{i18n.actionCol}</th>
           </tr>
         </thead>
         <tbody>
@@ -380,11 +590,11 @@ function DeletedFollowerLossesTable({ events }) {
                   @{event.login}
                 </a>
               </td>
-              <td>{formatDate(event.happenedAt)}</td>
+              <td>{formatDate(event.happenedAt, locale)}</td>
               <td>
-                <span className="event-badge deleted">Удаленный</span>
+                <span className="event-badge deleted">{i18n.deletedBadge}</span>
               </td>
-              <td>Убрать из наблюдения на следующей проверке</td>
+              <td>{i18n.deletedAction}</td>
             </tr>
           ))}
         </tbody>
@@ -393,10 +603,10 @@ function DeletedFollowerLossesTable({ events }) {
   )
 }
 
-function EventsFilter({ value, onChange }) {
+function EventsFilter({ value, onChange, filters }) {
   return (
     <div className="event-filters">
-      {EVENT_FILTERS.map((filter) => (
+      {filters.map((filter) => (
         <button
           key={filter.id}
           className={`event-filter-button filter-${filter.id} ${value === filter.id ? 'active' : ''}`}
@@ -409,9 +619,9 @@ function EventsFilter({ value, onChange }) {
   )
 }
 
-function EventsList({ events }) {
+function EventsList({ events, i18n, locale }) {
   if (!events.length) {
-    return <p className="empty-text">Событий по фильтру нет.</p>
+    return <p className="empty-text">{i18n.eventsEmpty}</p>
   }
 
   return (
@@ -419,13 +629,13 @@ function EventsList({ events }) {
       {events.map((event) => (
         <li key={event.id}>
           <div className="event-tags">
-            <span className={`event-tag ${event.type}`}>{EVENT_LABELS[event.type] ?? event.type}</span>
-            {event.isDeleted && <span className="event-badge deleted">Удаленный</span>}
+            <span className={`event-tag ${event.type}`}>{i18n.eventLabels[event.type] ?? event.type}</span>
+            {event.isDeleted && <span className="event-badge deleted">{i18n.deletedBadge}</span>}
           </div>
           <a href={event.htmlUrl} target="_blank" rel="noreferrer">
             @{event.login}
           </a>
-          <time>{formatDate(event.happenedAt)}</time>
+          <time>{formatDate(event.happenedAt, locale)}</time>
         </li>
       ))}
     </ul>
@@ -433,6 +643,7 @@ function EventsList({ events }) {
 }
 
 function App() {
+  const [language, setLanguage] = useState(getInitialLanguage)
   const [reports, setReports] = useState(null)
   const [events, setEvents] = useState([])
   const [loading, setLoading] = useState(true)
@@ -456,6 +667,8 @@ function App() {
   const [repoStats, setRepoStats] = useState({ stars: null, forks: null })
 
   const baseUrl = useMemo(() => import.meta.env.BASE_URL, [])
+  const i18n = I18N[language] ?? I18N.en
+  const locale = i18n.locale
   const excludedSet = useMemo(() => new Set(excludedLogins.map((login) => normalizeLogin(login))), [excludedLogins])
 
   const filteredNonReciprocalSource = useMemo(() => {
@@ -576,11 +789,11 @@ function App() {
         ])
 
         if (!reportsResponse.ok) {
-          throw new Error(`Не удалось загрузить reports.json (${reportsResponse.status})`)
+          throw new Error(i18n.failedToLoadReports(reportsResponse.status))
         }
 
         if (!eventsResponse.ok) {
-          throw new Error(`Не удалось загрузить events.json (${eventsResponse.status})`)
+          throw new Error(i18n.failedToLoadEvents(eventsResponse.status))
         }
 
         const [reportsJson, eventsJson] = await Promise.all([
@@ -600,7 +813,7 @@ function App() {
           return
         }
 
-        setError(loadError instanceof Error ? loadError.message : 'Неизвестная ошибка загрузки данных')
+        setError(loadError instanceof Error ? loadError.message : i18n.unknownLoadError)
       } finally {
         if (active) {
           setLoading(false)
@@ -613,7 +826,7 @@ function App() {
     return () => {
       active = false
     }
-  }, [baseUrl, refreshNonce])
+  }, [baseUrl, refreshNonce, i18n])
 
   useEffect(() => {
     if (typeof window === 'undefined') {
@@ -622,6 +835,15 @@ function App() {
 
     window.localStorage.setItem(SETTINGS_STORAGE_KEY, String(defaultPageSize))
   }, [defaultPageSize])
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+
+    window.localStorage.setItem(LANGUAGE_STORAGE_KEY, language)
+    document.documentElement.lang = language
+  }, [language])
 
   useEffect(() => {
     if (typeof window === 'undefined') {
@@ -723,34 +945,44 @@ function App() {
       <header className="hero">
         <div className="title-row">
           <h1 className="title-line">{title}</h1>
-          <div className="repo-actions" title="Фиксированный репозиторий: GoXLd/github-friends">
+          <div className="repo-actions" title="Fixed repository: GoXLd/github-friends">
             <a href={FIXED_REPO_URL} target="_blank" rel="noreferrer" className="repo-link">
               Repo
             </a>
             <a href={FIXED_REPO_URL} target="_blank" rel="noreferrer" className="repo-stat-button">
-              Stars <span>{formatCount(repoStats.stars)}</span>
+              Stars <span>{formatCount(repoStats.stars, locale)}</span>
             </a>
             <a href={FIXED_REPO_FORK_URL} target="_blank" rel="noreferrer" className="repo-stat-button">
-              Forks <span>{formatCount(repoStats.forks)}</span>
+              Forks <span>{formatCount(repoStats.forks, locale)}</span>
             </a>
             <button
               type="button"
               className={`settings-toggle ${settingsOpen ? 'active' : ''}`}
-              aria-label="Открыть настройки страницы"
+              aria-label={i18n.settingsAriaLabel}
               aria-expanded={settingsOpen}
               onClick={() => setSettingsOpen((prev) => !prev)}
             >
-              ⚙
+              <svg className="settings-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M10.33 2.31a1 1 0 0 1 1.34 0l1.17 1.04a1 1 0 0 0 1.03.2l1.48-.56a1 1 0 0 1 1.26.57l.63 1.45a1 1 0 0 0 .84.6l1.56.18a1 1 0 0 1 .89 1l.02 1.56a1 1 0 0 0 .52.92l1.36.79a1 1 0 0 1 .38 1.33l-.72 1.38a1 1 0 0 0 0 .98l.72 1.38a1 1 0 0 1-.38 1.33l-1.36.79a1 1 0 0 0-.52.92l-.02 1.56a1 1 0 0 1-.89 1l-1.56.18a1 1 0 0 0-.84.6l-.63 1.45a1 1 0 0 1-1.26.57l-1.48-.56a1 1 0 0 0-1.03.2l-1.17 1.04a1 1 0 0 1-1.34 0l-1.17-1.04a1 1 0 0 0-1.03-.2l-1.48.56a1 1 0 0 1-1.26-.57l-.63-1.45a1 1 0 0 0-.84-.6l-1.56-.18a1 1 0 0 1-.89-1l-.02-1.56a1 1 0 0 0-.52-.92l-1.36-.79a1 1 0 0 1-.38-1.33l.72-1.38a1 1 0 0 0 0-.98l-.72-1.38a1 1 0 0 1 .38-1.33l1.36-.79a1 1 0 0 0 .52-.92l.02-1.56a1 1 0 0 1 .89-1l1.56-.18a1 1 0 0 0 .84-.6l.63-1.45a1 1 0 0 1 1.26-.57l1.48.56a1 1 0 0 0 1.03-.2z"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.4"
+                />
+                <circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" strokeWidth="1.4" />
+              </svg>
             </button>
           </div>
         </div>
-        <p className="hero-meta">Последнее обновление: {formatDate(reports?.generatedAt)}</p>
-        <p className="hero-meta">Последняя загрузка в браузере: {formatDate(lastLoadedAt)}</p>
+        <p className="hero-meta hero-meta-inline">
+          {i18n.lastUpdate}: {formatDate(reports?.generatedAt, locale)} · {i18n.browserLoad}:{' '}
+          {formatDate(lastLoadedAt, locale)}
+        </p>
 
         {settingsOpen && (
           <section className="settings-panel">
             <label className="settings-row">
-              Показывать записей (по умолчанию):
+              {i18n.settingsDefaultPageSize}
               <select
                 value={defaultPageSize}
                 onChange={(event) => setDefaultPageSize(Number(event.target.value))}
@@ -762,9 +994,16 @@ function App() {
                 ))}
               </select>
             </label>
+            <label className="settings-row">
+              {i18n.languageLabel}
+              <select value={language} onChange={(event) => setLanguage(event.target.value)}>
+                <option value="en">{i18n.languageEnglish}</option>
+                <option value="ru">{i18n.languageRussian}</option>
+              </select>
+            </label>
             <div className="settings-divider" />
             <label className="settings-row settings-row-stack">
-              Исключения из обработки:
+              {i18n.settingsExclusions}
               <div className="settings-inline">
                 <input
                   type="text"
@@ -776,23 +1015,23 @@ function App() {
                       handleAddExcludedLogin()
                     }
                   }}
-                  placeholder="@username"
+                  placeholder={i18n.settingsInputPlaceholder}
                   className="settings-input"
                 />
                 <button type="button" className="settings-add-button" onClick={handleAddExcludedLogin}>
-                  Добавить
+                  {i18n.settingsAdd}
                 </button>
               </div>
             </label>
-            <p className="settings-note">Исключения применяются локально в этом браузере.</p>
-            {!excludedLogins.length && <p className="settings-empty">Список исключений пуст.</p>}
+            <p className="settings-note">{i18n.settingsExclusionNote}</p>
+            {!excludedLogins.length && <p className="settings-empty">{i18n.settingsExclusionEmpty}</p>}
             {!!excludedLogins.length && (
               <ul className="excluded-list">
                 {excludedLogins.map((login) => (
                   <li key={login}>
                     <span>@{login}</span>
                     <button type="button" onClick={() => handleRemoveExcludedLogin(login)}>
-                      Убрать
+                      {i18n.settingsRemove}
                     </button>
                   </li>
                 ))}
@@ -802,81 +1041,81 @@ function App() {
         )}
       </header>
 
-      {loading && <p className="state-box">Загружаю данные...</p>}
+      {loading && <p className="state-box">{i18n.loading}</p>}
       {error && <p className="state-box error">{error}</p>}
 
       {!loading && !error && reports && (
         <>
           <section className="stats-grid">
             <article className="stat-card">
-              <p>Followers</p>
+              <p>{i18n.followers}</p>
               <strong>{counts.followers ?? 0}</strong>
             </article>
             <article className="stat-card">
-              <p>Following</p>
+              <p>{i18n.following}</p>
               <strong>{counts.following ?? 0}</strong>
             </article>
             <article className="stat-card accent-blue">
-              <p>Невзаимные подписки</p>
+              <p>{i18n.nonReciprocal}</p>
               <strong>{nonReciprocalCount}</strong>
             </article>
             <article className="stat-card accent-green">
-              <p>Взаимные подписчики</p>
+              <p>{i18n.mutualFollowers}</p>
               <strong>{followersMutual}</strong>
             </article>
             <button
               type="button"
               className="stat-card accent-red stat-card-button"
               onClick={() => setActiveTab(TAB_CANDIDATES)}
-              title="Перейти на вкладку кандидатов на отписку"
+              title={i18n.goToCandidates}
             >
-              <p>Кандидаты на отписку</p>
+              <p>{i18n.unfollowCandidates}</p>
               <strong>{unfollowCandidatesCount}</strong>
               <span className="stat-details">
-                Not Followback: {staleNonReciprocalCount} · Friends: {staleFriendsCount} · Удаленные:{' '}
-                {deletedLossesCount}
+                {i18n.nonReciprocalShort}: {staleNonReciprocalCount} · {i18n.friendsShort}: {staleFriendsCount} ·{' '}
+                {i18n.deletedShort}: {deletedLossesCount}
               </span>
             </button>
           </section>
 
-          <section className="tabs" role="tablist" aria-label="Sections">
+          <section className="tabs" role="tablist" aria-label={i18n.tabsAriaLabel}>
             <button
               role="tab"
               aria-selected={activeTab === TAB_NON_RECIPROCAL}
               className={`tab-button ${activeTab === TAB_NON_RECIPROCAL ? 'active' : ''}`}
-              title="Users you follow, but they do not follow back."
+              title={i18n.tabTitleNotFollowback}
               onClick={() => setActiveTab(TAB_NON_RECIPROCAL)}
             >
-              Not Followback
+              {i18n.tabNotFollowback}
             </button>
             <button
               role="tab"
               aria-selected={activeTab === TAB_FOLLOWERS_ONLY}
               className={`tab-button ${activeTab === TAB_FOLLOWERS_ONLY ? 'active' : ''}`}
-              title="Users who follow you, but you do not follow them."
+              title={i18n.tabTitleFollowers}
               onClick={() => setActiveTab(TAB_FOLLOWERS_ONLY)}
             >
-              <span>Followers</span>
+              <span>{i18n.tabFollowers}</span>
               <span className="tab-badge">{followersOnly}</span>
             </button>
             <button
               role="tab"
               aria-selected={activeTab === TAB_CANDIDATES}
               className={`tab-button ${activeTab === TAB_CANDIDATES ? 'active' : ''}`}
-              title="Сводный список кандидатов на отписку."
+              title={i18n.tabTitleCandidates}
               onClick={() => setActiveTab(TAB_CANDIDATES)}
             >
-              <span>Кандидаты на отписку</span>
+              <span>{i18n.tabCandidates}</span>
               <span className="tab-badge">{unfollowCandidatesCount}</span>
             </button>
             <button
               role="tab"
               aria-selected={activeTab === TAB_MUTUAL}
               className={`tab-button ${activeTab === TAB_MUTUAL ? 'active' : ''}`}
-              title="Mutual follows (friends): both sides follow each other."
+              title={i18n.tabTitleFriends}
               onClick={() => setActiveTab(TAB_MUTUAL)}
             >
-              <span>Friends</span>
+              <span>{i18n.tabFriends}</span>
               <span className="tab-badge">{followersMutual}</span>
             </button>
             <button
@@ -885,7 +1124,7 @@ function App() {
               className={`tab-button ${activeTab === TAB_EVENTS ? 'active' : ''}`}
               onClick={() => setActiveTab(TAB_EVENTS)}
             >
-              Последние события
+              {i18n.tabEvents}
             </button>
           </section>
 
@@ -893,10 +1132,10 @@ function App() {
             {activeTab === TAB_NON_RECIPROCAL && (
               <>
                 <h2 className="heading-with-tip">
-                  Not Followback
+                  {i18n.headingNotFollowback}
                   <InfoTooltip
-                    label="Подсказка по разделу Not Followback"
-                    text="Список пользователей, на которых вы подписаны, но они не подписались в ответ. Используйте для анализа невзаимных подписок."
+                    label={i18n.tooltipNotFollowbackLabel}
+                    text={i18n.tooltipNotFollowbackText}
                   />
                 </h2>
                 <NonReciprocalTable
@@ -905,82 +1144,98 @@ function App() {
                   sortOrder={nonReciprocalSortOrder}
                   onSortTracked={() => handleNonReciprocalSort(NON_RECIPROCAL_SORT_TRACKED)}
                   onSortWaiting={() => handleNonReciprocalSort(NON_RECIPROCAL_SORT_WAITING)}
+                  i18n={i18n}
+                  locale={locale}
                 />
-                <LimitSelector value={nonReciprocalLimit} onChange={setNonReciprocalLimit} />
+                <LimitSelector value={nonReciprocalLimit} onChange={setNonReciprocalLimit} i18n={i18n} />
               </>
             )}
 
             {activeTab === TAB_FOLLOWERS_ONLY && (
               <>
                 <h2 className="heading-with-tip">
-                  Followers
+                  {i18n.headingFollowers}
                   <InfoTooltip
-                    label="Подсказка по разделу Followers"
-                    text="Пользователи, которые подписаны на вас, но вы не подписаны на них."
+                    label={i18n.tooltipFollowersLabel}
+                    text={i18n.tooltipFollowersText}
                   />
                 </h2>
-                <FollowersOnlyTable users={visibleFollowersOnly} />
-                <LimitSelector value={followersOnlyLimit} onChange={setFollowersOnlyLimit} />
+                <FollowersOnlyTable users={visibleFollowersOnly} i18n={i18n} />
+                <LimitSelector value={followersOnlyLimit} onChange={setFollowersOnlyLimit} i18n={i18n} />
               </>
             )}
 
             {activeTab === TAB_CANDIDATES && (
               <>
                 <h2 className="heading-with-tip">
-                  Кандидаты на отписку
+                  {i18n.headingCandidates}
                   <InfoTooltip
-                    label="Подсказка по разделу кандидатов на отписку"
-                    text="Сводный список для очистки: долгий Not Followback, неактивные Friends и удаленные аккаунты, которые отписались."
+                    label={i18n.tooltipCandidatesLabel}
+                    text={i18n.tooltipCandidatesText}
                   />
                 </h2>
-                <h3 className="sub-heading">Not Followback ({followBackWindowDays}+ дней)</h3>
+                <h3 className="sub-heading">{i18n.sectionCandidatesNotFollowback(followBackWindowDays)}</h3>
                 <NonReciprocalTable
                   users={visibleStaleNonReciprocal}
                   sortField={nonReciprocalSortField}
                   sortOrder={nonReciprocalSortOrder}
                   onSortTracked={() => handleNonReciprocalSort(NON_RECIPROCAL_SORT_TRACKED)}
                   onSortWaiting={() => handleNonReciprocalSort(NON_RECIPROCAL_SORT_WAITING)}
+                  i18n={i18n}
+                  locale={locale}
                 />
-                <h3 className="sub-heading">Friends без активности ({friendInactiveDays}+ дней)</h3>
-                <FriendsCleanupTable users={visibleCandidateStaleFriends} thresholdDays={friendInactiveDays} />
-                <h3 className="sub-heading">Отписался от вас и аккаунт удален</h3>
-                <DeletedFollowerLossesTable events={visibleDeletedFollowerLosses} />
-                <LimitSelector value={candidateLimit} onChange={setCandidateLimit} />
+                <h3 className="sub-heading">{i18n.sectionCandidatesFriends(friendInactiveDays)}</h3>
+                <FriendsCleanupTable
+                  users={visibleCandidateStaleFriends}
+                  thresholdDays={friendInactiveDays}
+                  i18n={i18n}
+                  locale={locale}
+                />
+                <h3 className="sub-heading">{i18n.sectionCandidatesDeleted}</h3>
+                <DeletedFollowerLossesTable events={visibleDeletedFollowerLosses} i18n={i18n} locale={locale} />
+                <LimitSelector value={candidateLimit} onChange={setCandidateLimit} i18n={i18n} />
               </>
             )}
 
             {activeTab === TAB_MUTUAL && (
               <>
                 <h2 className="heading-with-tip">
-                  Friends
+                  {i18n.headingFriends}
                   <InfoTooltip
-                    label="Подсказка по диапазону last contribute"
-                    text="Это взаимные подписки: вы подписаны друг на друга. Last contribute берется из последних 100 публичных событий (только contribution-события)."
+                    label={i18n.tooltipFriendsLabel}
+                    text={i18n.tooltipFriendsText}
                   />
                 </h2>
                 <MutualFollowersTable
                   users={visibleMutualFollowers}
                   sortOrder={mutualSortOrder}
                   onSortDays={() => setMutualSortOrder((prev) => (prev === 'desc' ? 'asc' : 'desc'))}
+                  i18n={i18n}
+                  locale={locale}
                 />
-                <h3 className="sub-heading">Кандидаты на очистку Friends (неактивность {friendInactiveDays}+ дней)</h3>
-                <FriendsCleanupTable users={visibleStaleFriends} thresholdDays={friendInactiveDays} />
-                <LimitSelector value={mutualLimit} onChange={setMutualLimit} />
+                <h3 className="sub-heading">{i18n.sectionFriendsCleanup(friendInactiveDays)}</h3>
+                <FriendsCleanupTable
+                  users={visibleStaleFriends}
+                  thresholdDays={friendInactiveDays}
+                  i18n={i18n}
+                  locale={locale}
+                />
+                <LimitSelector value={mutualLimit} onChange={setMutualLimit} i18n={i18n} />
               </>
             )}
 
             {activeTab === TAB_EVENTS && (
               <>
                 <h2 className="heading-with-tip">
-                  Последние события
+                  {i18n.headingEvents}
                   <InfoTooltip
-                    label="Подсказка по логике метки Удаленный"
-                    text="Метка «Удаленный» ставится только если пользователь исчез одновременно из followers и following, и API /users/{login} вернул 404. Иначе это может быть блокировка или ограничение."
+                    label={i18n.tooltipEventsLabel}
+                    text={i18n.tooltipEventsText}
                   />
                 </h2>
-                <EventsFilter value={eventsFilter} onChange={setEventsFilter} />
-                <EventsList events={visibleEvents} />
-                <LimitSelector value={eventsLimit} onChange={setEventsLimit} />
+                <EventsFilter value={eventsFilter} onChange={setEventsFilter} filters={i18n.eventFilters} />
+                <EventsList events={visibleEvents} i18n={i18n} locale={locale} />
+                <LimitSelector value={eventsLimit} onChange={setEventsLimit} i18n={i18n} />
               </>
             )}
           </section>
@@ -988,15 +1243,9 @@ function App() {
       )}
 
       <footer className="risk-disclaimer">
-        <p className="risk-title">Этический/технический риск бана</p>
-        <p>
-          Использование этого скрипта вы выполняете полностью на свой риск. Нет гарантий, что действия с API или
-          массовый анализ подписок не приведут к ограничениям, блокировкам или иным санкциям со стороны GitHub.
-        </p>
-        <p>
-          Полное снятие ответственности: автор сервиса не несет ответственности за последствия использования. Если ваш
-          аккаунт будет ограничен или заблокирован, с вопросами и претензиями к автору обращаться не нужно.
-        </p>
+        <p className="risk-title">{i18n.riskTitle}</p>
+        <p>{i18n.riskTextOne}</p>
+        <p>{i18n.riskTextTwo}</p>
       </footer>
     </main>
   )

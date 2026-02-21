@@ -74,14 +74,19 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.85rem;
-  height: 1.85rem;
+  width: 2.25rem;
+  height: 2.25rem;
   border: 1px solid #d0d7de;
   border-radius: 999px;
   background: #f6f8fa;
   color: #24292f;
-  font-size: 0.95rem;
   cursor: pointer;
+  padding: 0;
+}
+
+.settings-icon {
+  width: 1.22rem;
+  height: 1.22rem;
 }
 
 .settings-toggle.active {
@@ -94,6 +99,10 @@
   margin: 0.25rem 0 0;
   color: #57606a;
   font-size: 0.95rem;
+}
+
+.hero-meta-inline {
+  margin-top: 0.35rem;
 }
 
 .settings-panel {
@@ -110,6 +119,10 @@
   gap: 0.5rem;
   color: #57606a;
   font-size: 0.92rem;
+}
+
+.settings-panel .settings-row + .settings-row {
+  margin-top: 0.45rem;
 }
 
 .settings-row-stack {
@@ -649,18 +662,19 @@ time {
   border: 1px solid rgba(207, 34, 46, 0.28);
   background: #fff5f5;
   color: #5a1a1f;
-  border-radius: 12px;
-  padding: 0.85rem 0.95rem;
+  border-radius: 10px;
+  padding: 0.62rem 0.75rem;
 }
 
 .risk-disclaimer p {
-  margin: 0.35rem 0 0;
-  font-size: 0.9rem;
+  margin: 0.24rem 0 0;
+  font-size: 0.79rem;
+  line-height: 1.34;
 }
 
 .risk-disclaimer .risk-title {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.84rem;
   font-weight: 700;
 }
 
