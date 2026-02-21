@@ -413,6 +413,26 @@ time {
   font-family: inherit;
 }
 
+.risk-disclaimer {
+  margin-top: 1.1rem;
+  border: 1px solid rgba(207, 34, 46, 0.28);
+  background: #fff5f5;
+  color: #5a1a1f;
+  border-radius: 12px;
+  padding: 0.85rem 0.95rem;
+}
+
+.risk-disclaimer p {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+}
+
+.risk-disclaimer .risk-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
 @media (max-width: 1000px) {
   .stats-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
