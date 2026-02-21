@@ -1,86 +1,102 @@
-# GitHub Friends
+# GitHub Friends Tracker
 
-React + GitHub Actions сервис для отслеживания `followers` / `following` с хранением истории в JSON.
+A React + GitHub Actions service that tracks your GitHub `followers` / `following`, stores history in JSON, and highlights cleanup candidates.
 
-## Что делает
+- Demo: https://github-friends.nlo.ovh/
+- Russian docs: `README_RU.md`
 
-- Каждые несколько часов получает список `followers` и `following` через GitHub API.
-- Сохраняет снапшот в `public/data/snapshots/`.
-- Считает события:
+## What It Does
+
+- Collects `followers` and `following` snapshots on a schedule (every 6 hours by default).
+- Stores historical JSON snapshots in the repository (`public/data/`).
+- Builds event history:
   - `follower_gained`
   - `follower_lost`
   - `you_followed`
   - `you_unfollowed`
-- Строит отчеты:
-  - текущие невзаимные подписки
-  - кандидаты на отписку (кто не подписался взаимно в течение `N` дней)
+- Builds practical cleanup reports:
+  - `Not Followback` (you follow them, they do not follow back)
+  - `Followers` (they follow you, you do not follow them)
+  - `Friends` (mutual follows + last contribution activity)
+  - `Unfollow candidates`:
+    - Not Followback for 7+ days
+    - Friends inactive for 60+ days
+    - Accounts that unfollowed you and are marked as deleted
 
-## Структура данных
+## Current UI/Workflow
 
-- `public/data/latest.json`: последний снапшот
-- `public/data/events.json`: история событий
-- `public/data/follow-tracker.json`: трекинг взаимности по пользователям
-- `public/data/reports.json`: готовый отчет для UI
-- `public/data/ignore.json`: логины, которые нужно игнорировать
-- `public/data/activity-cache.json`: кэш активности взаимных подписчиков
+- Tabs: `Unfollow candidates`, `Not Followback`, `Followers`, `Friends`, `Recent events`.
+- Sorting for key columns (waiting time, followed-since, days since last contribution).
+- Per-tab display limits (`10/25/50/100/500`).
+- Page settings (gear icon):
+  - default records count
+  - language switch (`English` default, `Russian` optional)
+  - local exclusions list
+- No database required: JSON files are committed by workflow and served via GitHub Pages.
 
-## Локальный запуск
+## Data Files
+
+- `public/data/latest.json` - latest raw snapshot
+- `public/data/events.json` - event history
+- `public/data/follow-tracker.json` - per-user follow state tracking
+- `public/data/reports.json` - precomputed UI report
+- `public/data/ignore.json` - ignore list source for snapshot logic
+- `public/data/activity-cache.json` - cached mutual activity
+- `public/data/snapshots/*.json` - historical snapshots
+
+## Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Локальный snapshot
+## Run Snapshot Locally
 
 ```bash
 GH_USERNAME=<your_login> \
 GITHUB_TOKEN=<github_pat> \
 FOLLOW_BACK_WINDOW_DAYS=7 \
+FRIEND_INACTIVE_DAYS=60 \
 ACTIVITY_REFRESH_HOURS=24 \
 npm run snapshot
 ```
 
 ## GitHub Actions
 
-### 1) Секреты репозитория
+### `update-follow-data.yml`
 
-Добавьте в `Settings -> Secrets and variables -> Actions`:
+- Trigger:
+  - schedule: `17 */6 * * *`
+  - manual (`workflow_dispatch`)
+- Runs `npm run snapshot`
+- Commits updated JSON under `public/data`
 
-- `Variables`: `GH_USERNAME` - ваш GitHub логин (если не задан, берется `repository_owner`)
-- `Secrets`: `GH_PAT` - PAT токен (опционально, если нужен более высокий лимит API)
+### `deploy-pages.yml`
 
-Если `GH_PAT` не задан, workflow использует встроенный `github.token` (подходит для публичных данных, но с ограничениями).
+- Trigger: push to `main` + manual run
+- Builds Vite app and deploys to GitHub Pages
+- Resolves `VITE_BASE_PATH` automatically for custom domain vs repo pages
 
-`last contribute` для взаимных подписчиков определяется по последнему публичному contribution-event (например `PushEvent`, `PullRequestEvent`) и обновляется с кэшем (`ACTIVITY_REFRESH_HOURS`).
+## Repository Settings
 
-### 2) Workflows
+In `Settings -> Secrets and variables -> Actions`:
 
-- `update-follow-data.yml`
-  - `schedule` каждые 6 часов
-  - обновляет JSON в `public/data`
-  - коммитит изменения обратно в репозиторий
-- `deploy-pages.yml`
-  - собирает React приложение
-  - деплоит в GitHub Pages
+- Variable: `GH_USERNAME` (optional; fallback is `github.repository_owner`)
+- Secret: `GH_PAT` (optional; fallback is `github.token`)
 
-## Настройка GitHub Pages
+## GitHub Pages
 
-1. В `Settings -> Pages` выберите `Source: GitHub Actions`.
-2. Убедитесь, что default branch называется `main` (или поменяйте в workflow).
-3. При наличии `public/CNAME` base path ставится автоматически в `/`.
-4. Если нужен ручной override, задайте `Variable: VITE_BASE_PATH` (например `/` или `/repo-name/`).
+1. Enable Pages in `Settings -> Pages`
+2. Set source to `GitHub Actions`
+3. Keep `public/CNAME` for custom domain deployments
 
-Если в workflow `deploy-pages` ошибка `Failed to create deployment (status: 404)`, это почти всегда означает, что Pages еще не включен для репозитория в `Settings -> Pages`.
+If deploy returns `Failed to create deployment (404)`, Pages is usually not enabled yet.
 
-## Ignore list
+## Favicons
 
-Файл `public/data/ignore.json`:
+Project icons are stored in `public/favicons/` and wired in `index.html`.
 
-```json
-{
-  "logins": ["example-user"]
-}
-```
+## Risk Notice
 
-Игнорируемые логины не попадают в список кандидатов на отписку.
+Use at your own risk. There is no guarantee that automation patterns or API usage will not trigger GitHub limits/restrictions.
