@@ -26,6 +26,7 @@ const NON_RECIPROCAL_SORT_WAITING = 'waiting'
 const LIMIT_OPTIONS = [10, 25, 50, 100, 500]
 const DEFAULT_PAGE_SIZE_FALLBACK = 100
 const SETTINGS_STORAGE_KEY = 'gh_friends_default_page_size'
+const EXCLUSIONS_STORAGE_KEY = 'gh_friends_excluded_logins'
 
 const FIXED_REPO_OWNER = 'GoXLd'
 const FIXED_REPO_NAME = 'github-friends'
@@ -54,6 +55,37 @@ function getInitialDefaultPageSize() {
   }
 
   return DEFAULT_PAGE_SIZE_FALLBACK
+}
+
+function normalizeLogin(rawLogin) {
+  return String(rawLogin ?? '')
+    .trim()
+    .replace(/^@+/, '')
+    .toLowerCase()
+}
+
+function isValidLogin(login) {
+  return /^[a-z\d](?:[a-z\d-]{0,38})$/i.test(login)
+}
+
+function getInitialExcludedLogins() {
+  if (typeof window === 'undefined') {
+    return []
+  }
+
+  try {
+    const rawValue = window.localStorage.getItem(EXCLUSIONS_STORAGE_KEY)
+    const parsed = JSON.parse(rawValue ?? '[]')
+
+    if (!Array.isArray(parsed)) {
+      return []
+    }
+
+    const unique = [...new Set(parsed.map((value) => normalizeLogin(value)).filter(Boolean))]
+    return unique
+  } catch {
+    return []
+  }
 }
 
 function formatDate(value) {
@@ -140,6 +172,19 @@ function SortHeaderButton({ label, active, order, onClick }) {
     <button className={`th-sort-button ${active ? 'active' : ''}`} onClick={onClick}>
       {label} {active ? (order === 'desc' ? '↓' : '↑') : '↕'}
     </button>
+  )
+}
+
+function InfoTooltip({ text, label }) {
+  return (
+    <span className="info-tip-wrap">
+      <button type="button" className="info-tip-btn" aria-label={label}>
+        i
+      </button>
+      <span className="info-tip-bubble" role="tooltip">
+        {text}
+      </span>
+    </span>
   )
 }
 
@@ -310,6 +355,8 @@ function App() {
   const [mutualSortOrder, setMutualSortOrder] = useState('desc')
   const [eventsFilter, setEventsFilter] = useState('all')
   const [defaultPageSize, setDefaultPageSize] = useState(getInitialDefaultPageSize)
+  const [excludedLogins, setExcludedLogins] = useState(getInitialExcludedLogins)
+  const [excludedInput, setExcludedInput] = useState('')
   const [nonReciprocalLimit, setNonReciprocalLimit] = useState(defaultPageSize)
   const [followersOnlyLimit, setFollowersOnlyLimit] = useState(defaultPageSize)
   const [mutualLimit, setMutualLimit] = useState(defaultPageSize)
@@ -318,28 +365,51 @@ function App() {
   const [repoStats, setRepoStats] = useState({ stars: null, forks: null })
 
   const baseUrl = useMemo(() => import.meta.env.BASE_URL, [])
+  const excludedSet = useMemo(() => new Set(excludedLogins.map((login) => normalizeLogin(login))), [excludedLogins])
+
+  const filteredNonReciprocalSource = useMemo(() => {
+    const list = reports?.nonReciprocalNow ?? []
+    return list.filter((user) => !excludedSet.has(normalizeLogin(user.login)))
+  }, [reports?.nonReciprocalNow, excludedSet])
+
+  const filteredFollowersOnlySource = useMemo(() => {
+    const list = reports?.followersNotFollowingNow ?? []
+    return list.filter((user) => !excludedSet.has(normalizeLogin(user.login)))
+  }, [reports?.followersNotFollowingNow, excludedSet])
+
+  const filteredMutualSource = useMemo(() => {
+    const list = reports?.mutualFollowersNow ?? []
+    return list.filter((user) => !excludedSet.has(normalizeLogin(user.login)))
+  }, [reports?.mutualFollowersNow, excludedSet])
+
+  const filteredEventsSource = useMemo(() => {
+    const source = Array.isArray(events) ? events : []
+    return source.filter((event) => !excludedSet.has(normalizeLogin(event.login)))
+  }, [events, excludedSet])
 
   const visibleNonReciprocal = useMemo(() => {
-    const list = reports?.nonReciprocalNow ?? []
-    return sortNonReciprocal(list, nonReciprocalSortField, nonReciprocalSortOrder).slice(0, nonReciprocalLimit)
-  }, [reports?.nonReciprocalNow, nonReciprocalSortField, nonReciprocalSortOrder, nonReciprocalLimit])
+    return sortNonReciprocal(filteredNonReciprocalSource, nonReciprocalSortField, nonReciprocalSortOrder).slice(
+      0,
+      nonReciprocalLimit,
+    )
+  }, [filteredNonReciprocalSource, nonReciprocalSortField, nonReciprocalSortOrder, nonReciprocalLimit])
 
   const visibleFollowersOnly = useMemo(() => {
-    const list = reports?.followersNotFollowingNow ?? []
-    return list.slice(0, followersOnlyLimit)
-  }, [reports?.followersNotFollowingNow, followersOnlyLimit])
+    return filteredFollowersOnlySource.slice(0, followersOnlyLimit)
+  }, [filteredFollowersOnlySource, followersOnlyLimit])
 
   const visibleMutualFollowers = useMemo(() => {
-    const list = reports?.mutualFollowersNow ?? []
-    return sortMutualByDays(list, mutualSortOrder).slice(0, mutualLimit)
-  }, [reports?.mutualFollowersNow, mutualSortOrder, mutualLimit])
+    return sortMutualByDays(filteredMutualSource, mutualSortOrder).slice(0, mutualLimit)
+  }, [filteredMutualSource, mutualSortOrder, mutualLimit])
 
   const visibleEvents = useMemo(() => {
-    const source = Array.isArray(events) ? events : []
-    const filtered = eventsFilter === 'all' ? source : source.filter((event) => event.type === eventsFilter)
+    const filtered =
+      eventsFilter === 'all'
+        ? filteredEventsSource
+        : filteredEventsSource.filter((event) => event.type === eventsFilter)
 
     return filtered.slice(0, eventsLimit)
-  }, [events, eventsFilter, eventsLimit])
+  }, [filteredEventsSource, eventsFilter, eventsLimit])
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -414,6 +484,14 @@ function App() {
   }, [defaultPageSize])
 
   useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+
+    window.localStorage.setItem(EXCLUSIONS_STORAGE_KEY, JSON.stringify(excludedLogins))
+  }, [excludedLogins])
+
+  useEffect(() => {
     setNonReciprocalLimit(defaultPageSize)
     setFollowersOnlyLimit(defaultPageSize)
     setMutualLimit(defaultPageSize)
@@ -455,8 +533,9 @@ function App() {
 
   const counts = reports?.counts ?? {}
   const title = reports?.username ? `GitHub Friends Tracker - @${reports.username}` : 'GitHub Friends Tracker'
-  const followersMutual = counts.mutualFollowersNow ?? 0
-  const followersOnly = counts.followersNotFollowingNow ?? 0
+  const followersMutual = filteredMutualSource.length
+  const followersOnly = filteredFollowersOnlySource.length
+  const nonReciprocalCount = filteredNonReciprocalSource.length
 
   const handleNonReciprocalSort = (field) => {
     setNonReciprocalSortField((prevField) => {
@@ -468,6 +547,28 @@ function App() {
       setNonReciprocalSortOrder('desc')
       return field
     })
+  }
+
+  const handleAddExcludedLogin = () => {
+    const normalized = normalizeLogin(excludedInput)
+
+    if (!isValidLogin(normalized)) {
+      return
+    }
+
+    setExcludedLogins((prev) => {
+      if (prev.includes(normalized)) {
+        return prev
+      }
+
+      return [...prev, normalized].sort()
+    })
+    setExcludedInput('')
+  }
+
+  const handleRemoveExcludedLogin = (login) => {
+    const normalized = normalizeLogin(login)
+    setExcludedLogins((prev) => prev.filter((item) => item !== normalized))
   }
 
   return (
@@ -514,6 +615,42 @@ function App() {
                 ))}
               </select>
             </label>
+            <div className="settings-divider" />
+            <label className="settings-row settings-row-stack">
+              Исключения из обработки:
+              <div className="settings-inline">
+                <input
+                  type="text"
+                  value={excludedInput}
+                  onChange={(event) => setExcludedInput(event.target.value)}
+                  onKeyDown={(event) => {
+                    if (event.key === 'Enter') {
+                      event.preventDefault()
+                      handleAddExcludedLogin()
+                    }
+                  }}
+                  placeholder="@username"
+                  className="settings-input"
+                />
+                <button type="button" className="settings-add-button" onClick={handleAddExcludedLogin}>
+                  Добавить
+                </button>
+              </div>
+            </label>
+            <p className="settings-note">Исключения применяются локально в этом браузере.</p>
+            {!excludedLogins.length && <p className="settings-empty">Список исключений пуст.</p>}
+            {!!excludedLogins.length && (
+              <ul className="excluded-list">
+                {excludedLogins.map((login) => (
+                  <li key={login}>
+                    <span>@{login}</span>
+                    <button type="button" onClick={() => handleRemoveExcludedLogin(login)}>
+                      Убрать
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
           </section>
         )}
       </header>
@@ -536,7 +673,7 @@ function App() {
             </article>
             <article className="stat-card accent-blue">
               <p>Невзаимные подписки</p>
-              <strong>{counts.nonReciprocalNow ?? 0}</strong>
+              <strong>{nonReciprocalCount}</strong>
             </article>
             <article className="stat-card accent-green">
               <p>Взаимные подписчики</p>
@@ -610,13 +747,10 @@ function App() {
               <>
                 <h2 className="heading-with-tip">
                   Взаимные подписчики: last contribute
-                  <span
-                    className="info-tip"
-                    title="Проверяется до 100 последних публичных событий пользователя через /users/{login}/events/public и берутся только contribution-события. Обычно покрывает около 90 дней, но зависит от активности."
-                    aria-label="Подсказка по диапазону last contribute"
-                  >
-                    i
-                  </span>
+                  <InfoTooltip
+                    label="Подсказка по диапазону last contribute"
+                    text="Проверяется до 100 последних публичных событий пользователя через /users/{login}/events/public и берутся только contribution-события. Обычно покрывает около 90 дней, но зависит от активности."
+                  />
                 </h2>
                 <MutualFollowersTable
                   users={visibleMutualFollowers}
@@ -631,13 +765,10 @@ function App() {
               <>
                 <h2 className="heading-with-tip">
                   Последние события
-                  <span
-                    className="info-tip"
-                    title="Метка «Удаленный» ставится только если пользователь исчез одновременно из followers и following, и API /users/{login} вернул 404. Иначе это может быть блокировка или ограничение."
-                    aria-label="Подсказка по логике метки Удаленный"
-                  >
-                    i
-                  </span>
+                  <InfoTooltip
+                    label="Подсказка по логике метки Удаленный"
+                    text="Метка «Удаленный» ставится только если пользователь исчез одновременно из followers и following, и API /users/{login} вернул 404. Иначе это может быть блокировка или ограничение."
+                  />
                 </h2>
                 <EventsFilter value={eventsFilter} onChange={setEventsFilter} />
                 <EventsList events={visibleEvents} />
