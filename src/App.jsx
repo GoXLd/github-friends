@@ -8,6 +8,13 @@ const EVENT_LABELS = {
   you_unfollowed: 'Вы отписались',
 }
 
+const EVENT_FILTERS = [
+  { id: 'all', label: 'Все события' },
+  { id: 'follower_lost', label: 'Отписался от вас' },
+  { id: 'follower_gained', label: 'Подписался на вас' },
+  { id: 'you_followed', label: 'Вы подписались' },
+]
+
 const TAB_NON_RECIPROCAL = 'non_reciprocal'
 const TAB_EVENTS = 'events'
 const LIMIT_OPTIONS = [10, 25, 50, 100]
@@ -69,7 +76,7 @@ function LimitSelector({ value, onChange }) {
 
 function NonReciprocalTable({ users, sortOrder, onSortClick }) {
   if (!users.length) {
-    return <p className="empty-text">Все взаимно или список пуст.</p>
+    return <p className="empty-text">Список пуст.</p>
   }
 
   return (
@@ -104,9 +111,56 @@ function NonReciprocalTable({ users, sortOrder, onSortClick }) {
   )
 }
 
+function FollowersOnlyTable({ users }) {
+  if (!users.length) {
+    return <p className="empty-text">Таких подписчиков сейчас нет.</p>
+  }
+
+  return (
+    <div className="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Пользователь</th>
+            <th>Профиль</th>
+          </tr>
+        </thead>
+        <tbody>
+          {users.map((user) => (
+            <tr key={user.login}>
+              <td>@{user.login}</td>
+              <td>
+                <a href={user.htmlUrl} target="_blank" rel="noreferrer">
+                  {user.htmlUrl}
+                </a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+function EventsFilter({ value, onChange }) {
+  return (
+    <div className="event-filters">
+      {EVENT_FILTERS.map((filter) => (
+        <button
+          key={filter.id}
+          className={`event-filter-button ${value === filter.id ? 'active' : ''}`}
+          onClick={() => onChange(filter.id)}
+        >
+          {filter.label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 function EventsList({ events }) {
   if (!events.length) {
-    return <p className="empty-text">Событий пока нет.</p>
+    return <p className="empty-text">Событий по фильтру нет.</p>
   }
 
   return (
@@ -133,6 +187,7 @@ function App() {
   const [lastLoadedAt, setLastLoadedAt] = useState(null)
   const [activeTab, setActiveTab] = useState(TAB_NON_RECIPROCAL)
   const [trackedSinceSortOrder, setTrackedSinceSortOrder] = useState('desc')
+  const [eventsFilter, setEventsFilter] = useState('all')
   const [nonReciprocalLimit, setNonReciprocalLimit] = useState(25)
   const [eventsLimit, setEventsLimit] = useState(25)
 
@@ -143,10 +198,17 @@ function App() {
     return sortByTrackedSince(list, trackedSinceSortOrder).slice(0, nonReciprocalLimit)
   }, [reports?.nonReciprocalNow, trackedSinceSortOrder, nonReciprocalLimit])
 
-  const visibleEvents = useMemo(
-    () => (Array.isArray(events) ? events.slice(0, eventsLimit) : []),
-    [events, eventsLimit],
-  )
+  const visibleFollowersOnly = useMemo(() => {
+    const list = reports?.followersNotFollowingNow ?? []
+    return list.slice(0, nonReciprocalLimit)
+  }, [reports?.followersNotFollowingNow, nonReciprocalLimit])
+
+  const visibleEvents = useMemo(() => {
+    const source = Array.isArray(events) ? events : []
+    const filtered = eventsFilter === 'all' ? source : source.filter((event) => event.type === eventsFilter)
+
+    return filtered.slice(0, eventsLimit)
+  }, [events, eventsFilter, eventsLimit])
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -212,22 +274,15 @@ function App() {
     }
   }, [baseUrl, refreshNonce])
 
+  const counts = reports?.counts ?? {}
+  const title = reports?.username ? `GitHub Friends Tracker - @${reports.username}` : 'GitHub Friends Tracker'
+
   return (
     <main className="app-shell">
       <header className="hero">
-        <p className="eyebrow">GitHub Friends Tracker</p>
-        <h1>Контроль подписок и отписок</h1>
-        <p className="hero-subtitle">
-          {reports?.username ? `Профиль: @${reports.username}` : 'Профиль будет показан после первого snapshot'}
-        </p>
+        <h1 className="title-line">{title}</h1>
         <p className="hero-meta">Последнее обновление: {formatDate(reports?.generatedAt)}</p>
         <p className="hero-meta">Последняя загрузка в браузере: {formatDate(lastLoadedAt)}</p>
-
-        <div className="controls-row">
-          <button className="refresh-button" onClick={() => setRefreshNonce((prev) => prev + 1)}>
-            Обновить данные
-          </button>
-        </div>
       </header>
 
       {loading && <p className="state-box">Загружаю данные...</p>}
@@ -238,19 +293,23 @@ function App() {
           <section className="stats-grid">
             <article className="stat-card">
               <p>Followers</p>
-              <strong>{reports.counts.followers}</strong>
+              <strong>{counts.followers ?? 0}</strong>
             </article>
             <article className="stat-card">
               <p>Following</p>
-              <strong>{reports.counts.following}</strong>
+              <strong>{counts.following ?? 0}</strong>
             </article>
-            <article className="stat-card alert">
-              <p>Невзаимные сейчас</p>
-              <strong>{reports.counts.nonReciprocalNow}</strong>
+            <article className="stat-card accent-blue">
+              <p>Невзаимные подписки</p>
+              <strong>{counts.nonReciprocalNow ?? 0}</strong>
             </article>
-            <article className="stat-card danger">
+            <article className="stat-card accent-green">
+              <p>Подписчики без ответа</p>
+              <strong>{counts.followersNotFollowingNow ?? 0}</strong>
+            </article>
+            <article className="stat-card accent-red">
               <p>7+ дней без ответа</p>
-              <strong>{reports.counts.staleCandidates}</strong>
+              <strong>{counts.staleCandidates ?? 0}</strong>
             </article>
           </section>
 
@@ -282,6 +341,10 @@ function App() {
                   sortOrder={trackedSinceSortOrder}
                   onSortClick={() => setTrackedSinceSortOrder((prev) => (prev === 'desc' ? 'asc' : 'desc'))}
                 />
+
+                <h3 className="sub-heading">Подписаны на вас, но вы не подписаны</h3>
+                <FollowersOnlyTable users={visibleFollowersOnly} />
+
                 <LimitSelector value={nonReciprocalLimit} onChange={setNonReciprocalLimit} />
               </>
             )}
@@ -289,6 +352,7 @@ function App() {
             {activeTab === TAB_EVENTS && (
               <>
                 <h2>Последние события</h2>
+                <EventsFilter value={eventsFilter} onChange={setEventsFilter} />
                 <EventsList events={visibleEvents} />
                 <LimitSelector value={eventsLimit} onChange={setEventsLimit} />
               </>

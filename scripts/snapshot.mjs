@@ -177,6 +177,7 @@ const [followers, following, previousLatest, previousEvents, previousTracker, ra
 ])
 
 const followerLookup = toLookup(followers)
+const followingLookup = toLookup(following)
 const latestSnapshot = {
   snapshotId,
   generatedAt: nowIso,
@@ -309,6 +310,15 @@ const staleCandidates = nonReciprocalNow.filter(
   (entry) => !entry.ignored && (entry.daysWaiting ?? 0) >= followBackWindowDays,
 )
 
+const followersNotFollowingNow = followers
+  .filter((user) => !followingLookup.has(user.login.toLowerCase()))
+  .map((user) => ({
+    login: user.login,
+    htmlUrl: user.htmlUrl,
+    githubId: user.id,
+  }))
+  .sort((a, b) => a.login.localeCompare(b.login, 'en', { sensitivity: 'base' }))
+
 const reports = {
   generatedAt: nowIso,
   username,
@@ -321,11 +331,13 @@ const reports = {
     followingAddedSinceLast: followingDelta.added.length,
     followingRemovedSinceLast: followingDelta.removed.length,
     nonReciprocalNow: nonReciprocalNow.length,
+    followersNotFollowingNow: followersNotFollowingNow.length,
     staleCandidates: staleCandidates.length,
     ignored: ignoreLogins.length,
   },
   staleCandidates,
   nonReciprocalNow,
+  followersNotFollowingNow,
   recentFollowerLosses: events.filter((event) => event.type === 'follower_lost').slice(0, 50),
 }
 
