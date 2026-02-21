@@ -1,5 +1,65 @@
 [
   {
+    "id": "follower_gained:ewindmer:2026-02-21T16:38:09.877Z",
+    "type": "follower_gained",
+    "login": "ewindmer",
+    "htmlUrl": "https://github.com/ewindmer",
+    "happenedAt": "2026-02-21T16:38:09.877Z"
+  },
+  {
+    "id": "follower_gained:shards-inc:2026-02-21T16:38:09.877Z",
+    "type": "follower_gained",
+    "login": "Shards-inc",
+    "htmlUrl": "https://github.com/Shards-inc",
+    "happenedAt": "2026-02-21T16:38:09.877Z"
+  },
+  {
+    "id": "follower_lost:deromafilossali:2026-02-21T16:38:09.877Z",
+    "type": "follower_lost",
+    "login": "deromafilossali",
+    "htmlUrl": "https://github.com/deromafilossali",
+    "happenedAt": "2026-02-21T16:38:09.877Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:cjnnekwelugo:2026-02-21T16:38:09.877Z",
+    "type": "you_followed",
+    "login": "cjnnekwelugo",
+    "htmlUrl": "https://github.com/cjnnekwelugo",
+    "happenedAt": "2026-02-21T16:38:09.877Z"
+  },
+  {
+    "id": "you_followed:kritagya123611:2026-02-21T16:38:09.877Z",
+    "type": "you_followed",
+    "login": "Kritagya123611",
+    "htmlUrl": "https://github.com/Kritagya123611",
+    "happenedAt": "2026-02-21T16:38:09.877Z"
+  },
+  {
+    "id": "you_followed:sunlight333:2026-02-21T16:38:09.877Z",
+    "type": "you_followed",
+    "login": "Sunlight333",
+    "htmlUrl": "https://github.com/Sunlight333",
+    "happenedAt": "2026-02-21T16:38:09.877Z"
+  },
+  {
+    "id": "you_followed:vruti26:2026-02-21T16:38:09.877Z",
+    "type": "you_followed",
+    "login": "Vruti26",
+    "htmlUrl": "https://github.com/Vruti26",
+    "happenedAt": "2026-02-21T16:38:09.877Z"
+  },
+  {
+    "id": "you_unfollowed:cjnnekwelugo-debug:2026-02-21T16:38:09.877Z",
+    "type": "you_unfollowed",
+    "login": "cjnnekwelugo-debug",
+    "htmlUrl": "https://github.com/cjnnekwelugo-debug",
+    "happenedAt": "2026-02-21T16:38:09.877Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:prikarsartam:2026-02-21T13:12:11.045Z",
     "type": "follower_gained",
     "login": "prikarsartam",
@@ -60,7 +120,9 @@
     "type": "follower_lost",
     "login": "gagaguguk",
     "htmlUrl": "https://github.com/gagaguguk",
-    "happenedAt": "2026-02-21T11:42:52.016Z"
+    "happenedAt": "2026-02-21T11:42:52.016Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
   },
   {
     "id": "you_followed:0xspryo:2026-02-21T11:42:52.016Z",
@@ -74,7 +136,9 @@
     "type": "you_unfollowed",
     "login": "gagaguguk",
     "htmlUrl": "https://github.com/gagaguguk",
-    "happenedAt": "2026-02-21T11:42:52.016Z"
+    "happenedAt": "2026-02-21T11:42:52.016Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
   },
   {
     "id": "follower_gained:songofhealing:2026-02-21T07:02:58.456Z",
