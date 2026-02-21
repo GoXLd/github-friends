@@ -24,6 +24,8 @@ const NON_RECIPROCAL_SORT_TRACKED = 'tracked_since'
 const NON_RECIPROCAL_SORT_WAITING = 'waiting'
 
 const LIMIT_OPTIONS = [10, 25, 50, 100, 500]
+const DEFAULT_PAGE_SIZE_FALLBACK = 100
+const SETTINGS_STORAGE_KEY = 'gh_friends_default_page_size'
 
 const FIXED_REPO_OWNER = 'GoXLd'
 const FIXED_REPO_NAME = 'github-friends'
@@ -37,6 +39,21 @@ function formatCount(value) {
   }
 
   return new Intl.NumberFormat('ru-RU').format(value)
+}
+
+function getInitialDefaultPageSize() {
+  if (typeof window === 'undefined') {
+    return DEFAULT_PAGE_SIZE_FALLBACK
+  }
+
+  const rawValue = window.localStorage.getItem(SETTINGS_STORAGE_KEY)
+  const parsed = Number.parseInt(rawValue ?? '', 10)
+
+  if (!Number.isNaN(parsed) && LIMIT_OPTIONS.includes(parsed)) {
+    return parsed
+  }
+
+  return DEFAULT_PAGE_SIZE_FALLBACK
 }
 
 function formatDate(value) {
@@ -292,10 +309,12 @@ function App() {
   const [nonReciprocalSortOrder, setNonReciprocalSortOrder] = useState('desc')
   const [mutualSortOrder, setMutualSortOrder] = useState('desc')
   const [eventsFilter, setEventsFilter] = useState('all')
-  const [nonReciprocalLimit, setNonReciprocalLimit] = useState(100)
-  const [followersOnlyLimit, setFollowersOnlyLimit] = useState(100)
-  const [mutualLimit, setMutualLimit] = useState(100)
-  const [eventsLimit, setEventsLimit] = useState(100)
+  const [defaultPageSize, setDefaultPageSize] = useState(getInitialDefaultPageSize)
+  const [nonReciprocalLimit, setNonReciprocalLimit] = useState(defaultPageSize)
+  const [followersOnlyLimit, setFollowersOnlyLimit] = useState(defaultPageSize)
+  const [mutualLimit, setMutualLimit] = useState(defaultPageSize)
+  const [eventsLimit, setEventsLimit] = useState(defaultPageSize)
+  const [settingsOpen, setSettingsOpen] = useState(false)
   const [repoStats, setRepoStats] = useState({ stars: null, forks: null })
 
   const baseUrl = useMemo(() => import.meta.env.BASE_URL, [])
@@ -387,6 +406,21 @@ function App() {
   }, [baseUrl, refreshNonce])
 
   useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+
+    window.localStorage.setItem(SETTINGS_STORAGE_KEY, String(defaultPageSize))
+  }, [defaultPageSize])
+
+  useEffect(() => {
+    setNonReciprocalLimit(defaultPageSize)
+    setFollowersOnlyLimit(defaultPageSize)
+    setMutualLimit(defaultPageSize)
+    setEventsLimit(defaultPageSize)
+  }, [defaultPageSize])
+
+  useEffect(() => {
     let active = true
 
     async function loadRepoStats() {
@@ -451,10 +485,37 @@ function App() {
             <a href={FIXED_REPO_FORK_URL} target="_blank" rel="noreferrer" className="repo-stat-button">
               Forks <span>{formatCount(repoStats.forks)}</span>
             </a>
+            <button
+              type="button"
+              className={`settings-toggle ${settingsOpen ? 'active' : ''}`}
+              aria-label="Открыть настройки страницы"
+              aria-expanded={settingsOpen}
+              onClick={() => setSettingsOpen((prev) => !prev)}
+            >
+              ⚙
+            </button>
           </div>
         </div>
         <p className="hero-meta">Последнее обновление: {formatDate(reports?.generatedAt)}</p>
         <p className="hero-meta">Последняя загрузка в браузере: {formatDate(lastLoadedAt)}</p>
+
+        {settingsOpen && (
+          <section className="settings-panel">
+            <label className="settings-row">
+              Показывать записей (по умолчанию):
+              <select
+                value={defaultPageSize}
+                onChange={(event) => setDefaultPageSize(Number(event.target.value))}
+              >
+                {LIMIT_OPTIONS.map((option) => (
+                  <option key={option} value={option}>
+                    {option}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </section>
+        )}
       </header>
 
       {loading && <p className="state-box">Загружаю данные...</p>}
