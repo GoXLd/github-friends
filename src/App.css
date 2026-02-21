@@ -46,23 +46,6 @@
   align-items: center;
 }
 
-.sort-control {
-  display: inline-flex;
-  gap: 0.45rem;
-  align-items: center;
-  color: #5f4529;
-  font-size: 0.94rem;
-}
-
-.sort-control select {
-  border: 1px solid rgba(88, 52, 13, 0.28);
-  background: #fff8ea;
-  color: #4d3319;
-  border-radius: 9px;
-  padding: 0.3rem 0.45rem;
-  font-family: inherit;
-}
-
 .refresh-button {
   border: 1px solid rgba(88, 52, 13, 0.3);
   background: #fff;
@@ -142,6 +125,44 @@
   font-size: 1.12rem;
 }
 
+.tabs {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  border: 1px solid rgba(88, 52, 13, 0.26);
+  background: #fff8ea;
+  color: #5f4529;
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background: #8f4c00;
+  color: #fff6e8;
+  border-color: #8f4c00;
+}
+
+.tab-panel {
+  animation: tab-enter 260ms ease-out;
+}
+
+@keyframes tab-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .table-wrap {
   width: 100%;
   overflow-x: auto;
@@ -165,6 +186,17 @@ th {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #8d6a43;
+}
+
+.th-sort-button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  font: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  cursor: pointer;
 }
 
 a {
@@ -228,6 +260,29 @@ a:hover {
 time {
   color: #745938;
   font-size: 0.9rem;
+}
+
+.limit-row {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.limit-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #5f4529;
+  font-size: 0.92rem;
+}
+
+.limit-control select {
+  border: 1px solid rgba(88, 52, 13, 0.28);
+  background: #fff8ea;
+  color: #4d3319;
+  border-radius: 9px;
+  padding: 0.3rem 0.45rem;
+  font-family: inherit;
 }
 
 @media (max-width: 900px) {
