@@ -273,13 +273,20 @@ a:hover {
 
 .event-list li {
   display: grid;
-  grid-template-columns: max-content 1fr auto;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 0.55rem;
   padding: 0.65rem;
   border-radius: 10px;
   background: #f6f8fa;
   border: 1px solid #d8dee4;
+}
+
+.event-tags {
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .event-tag {
@@ -306,6 +313,21 @@ a:hover {
 .event-tag.you_unfollowed {
   background: #ddf4ff;
   color: #0550ae;
+}
+
+.event-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  border-radius: 999px;
+  padding: 0.16rem 0.48rem;
+  background: #eaeef2;
+  color: #57606a;
+  white-space: nowrap;
+}
+
+.event-badge.deleted {
+  background: #ffebe9;
+  color: #cf222e;
 }
 
 time {

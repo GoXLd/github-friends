@@ -16,8 +16,10 @@ const EVENT_FILTERS = [
 ]
 
 const TAB_NON_RECIPROCAL = 'non_reciprocal'
+const TAB_FOLLOWERS_ONLY = 'followers_only'
+const TAB_MUTUAL = 'mutual'
 const TAB_EVENTS = 'events'
-const LIMIT_OPTIONS = [10, 25, 50, 100]
+const LIMIT_OPTIONS = [10, 25, 50, 100, 500]
 
 function formatDate(value) {
   if (!value) {
@@ -202,7 +204,10 @@ function EventsList({ events }) {
     <ul className="event-list">
       {events.map((event) => (
         <li key={event.id}>
-          <span className={`event-tag ${event.type}`}>{EVENT_LABELS[event.type] ?? event.type}</span>
+          <div className="event-tags">
+            <span className={`event-tag ${event.type}`}>{EVENT_LABELS[event.type] ?? event.type}</span>
+            {event.isDeleted && <span className="event-badge deleted">Удаленный</span>}
+          </div>
           <a href={event.htmlUrl} target="_blank" rel="noreferrer">
             @{event.login}
           </a>
@@ -223,8 +228,10 @@ function App() {
   const [activeTab, setActiveTab] = useState(TAB_NON_RECIPROCAL)
   const [trackedSinceSortOrder, setTrackedSinceSortOrder] = useState('desc')
   const [eventsFilter, setEventsFilter] = useState('all')
-  const [nonReciprocalLimit, setNonReciprocalLimit] = useState(25)
-  const [eventsLimit, setEventsLimit] = useState(25)
+  const [nonReciprocalLimit, setNonReciprocalLimit] = useState(100)
+  const [followersOnlyLimit, setFollowersOnlyLimit] = useState(100)
+  const [mutualLimit, setMutualLimit] = useState(100)
+  const [eventsLimit, setEventsLimit] = useState(100)
 
   const baseUrl = useMemo(() => import.meta.env.BASE_URL, [])
 
@@ -235,13 +242,13 @@ function App() {
 
   const visibleFollowersOnly = useMemo(() => {
     const list = reports?.followersNotFollowingNow ?? []
-    return list.slice(0, nonReciprocalLimit)
-  }, [reports?.followersNotFollowingNow, nonReciprocalLimit])
+    return list.slice(0, followersOnlyLimit)
+  }, [reports?.followersNotFollowingNow, followersOnlyLimit])
 
   const visibleMutualFollowers = useMemo(() => {
     const list = reports?.mutualFollowersNow ?? []
-    return list.slice(0, nonReciprocalLimit)
-  }, [reports?.mutualFollowersNow, nonReciprocalLimit])
+    return list.slice(0, mutualLimit)
+  }, [reports?.mutualFollowersNow, mutualLimit])
 
   const visibleEvents = useMemo(() => {
     const source = Array.isArray(events) ? events : []
@@ -336,7 +343,7 @@ function App() {
             <article className="stat-card">
               <p>Followers</p>
               <strong>{counts.followers ?? 0}</strong>
-              <small className="stat-details">взаимные: {followersMutual} · без ответа: {followersOnly}</small>
+              <small className="stat-details">взаимные: {followersMutual} · Подписчики: {followersOnly}</small>
             </article>
             <article className="stat-card">
               <p>Following</p>
@@ -367,6 +374,22 @@ function App() {
             </button>
             <button
               role="tab"
+              aria-selected={activeTab === TAB_FOLLOWERS_ONLY}
+              className={`tab-button ${activeTab === TAB_FOLLOWERS_ONLY ? 'active' : ''}`}
+              onClick={() => setActiveTab(TAB_FOLLOWERS_ONLY)}
+            >
+              Подписаны на вас, но вы не подписаны
+            </button>
+            <button
+              role="tab"
+              aria-selected={activeTab === TAB_MUTUAL}
+              className={`tab-button ${activeTab === TAB_MUTUAL ? 'active' : ''}`}
+              onClick={() => setActiveTab(TAB_MUTUAL)}
+            >
+              Взаимные подписчики: last contribute
+            </button>
+            <button
+              role="tab"
               aria-selected={activeTab === TAB_EVENTS}
               className={`tab-button ${activeTab === TAB_EVENTS ? 'active' : ''}`}
               onClick={() => setActiveTab(TAB_EVENTS)}
@@ -384,14 +407,23 @@ function App() {
                   sortOrder={trackedSinceSortOrder}
                   onSortClick={() => setTrackedSinceSortOrder((prev) => (prev === 'desc' ? 'asc' : 'desc'))}
                 />
-
-                <h3 className="sub-heading">Подписаны на вас, но вы не подписаны</h3>
-                <FollowersOnlyTable users={visibleFollowersOnly} />
-
-                <h3 className="sub-heading">Взаимные подписчики: last contribute</h3>
-                <MutualFollowersTable users={visibleMutualFollowers} />
-
                 <LimitSelector value={nonReciprocalLimit} onChange={setNonReciprocalLimit} />
+              </>
+            )}
+
+            {activeTab === TAB_FOLLOWERS_ONLY && (
+              <>
+                <h2>Подписаны на вас, но вы не подписаны</h2>
+                <FollowersOnlyTable users={visibleFollowersOnly} />
+                <LimitSelector value={followersOnlyLimit} onChange={setFollowersOnlyLimit} />
+              </>
+            )}
+
+            {activeTab === TAB_MUTUAL && (
+              <>
+                <h2>Взаимные подписчики: last contribute</h2>
+                <MutualFollowersTable users={visibleMutualFollowers} />
+                <LimitSelector value={mutualLimit} onChange={setMutualLimit} />
               </>
             )}
 

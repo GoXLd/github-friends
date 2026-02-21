@@ -229,6 +229,35 @@ async function fetchLatestPublicContribution(login) {
   }
 }
 
+async function resolveDisappearedAccountStatuses(users) {
+  if (!users.length) {
+    return new Map()
+  }
+
+  const checks = await mapWithConcurrency(users, 6, async (user) => {
+    const login = user.login
+    const key = login.toLowerCase()
+
+    try {
+      const response = await fetch(`${API_BASE}/users/${encodeURIComponent(login)}`, { headers })
+
+      if (response.status === 404) {
+        return [key, 'deleted']
+      }
+
+      if (response.ok) {
+        return [key, 'active']
+      }
+
+      return [key, 'unknown']
+    } catch {
+      return [key, 'unknown']
+    }
+  })
+
+  return new Map(checks)
+}
+
 async function mapWithConcurrency(items, concurrency, mapper) {
   const results = new Array(items.length)
   let cursor = 0
@@ -280,6 +309,10 @@ const latestSnapshot = {
 const followerDelta = buildDelta(previousLatest?.followers, followers)
 const followingDelta = buildDelta(previousLatest?.following, following)
 
+const removedFollowingLogins = new Set(followingDelta.removed.map((user) => user.login.toLowerCase()))
+const removedFromBothSides = followerDelta.removed.filter((user) => removedFollowingLogins.has(user.login.toLowerCase()))
+const disappearedAccountStatuses = await resolveDisappearedAccountStatuses(removedFromBothSides)
+
 const newEvents = [
   ...followerDelta.added.map((user) => ({
     id: eventId('follower_gained', user.login, nowIso),
@@ -294,6 +327,8 @@ const newEvents = [
     login: user.login,
     htmlUrl: user.htmlUrl,
     happenedAt: nowIso,
+    accountStatus: disappearedAccountStatuses.get(user.login.toLowerCase()) ?? null,
+    isDeleted: disappearedAccountStatuses.get(user.login.toLowerCase()) === 'deleted',
   })),
   ...followingDelta.added.map((user) => ({
     id: eventId('you_followed', user.login, nowIso),
@@ -308,6 +343,8 @@ const newEvents = [
     login: user.login,
     htmlUrl: user.htmlUrl,
     happenedAt: nowIso,
+    accountStatus: disappearedAccountStatuses.get(user.login.toLowerCase()) ?? null,
+    isDeleted: disappearedAccountStatuses.get(user.login.toLowerCase()) === 'deleted',
   })),
 ]
 
@@ -479,6 +516,7 @@ const reports = {
     nonReciprocalNow: nonReciprocalNow.length,
     followersNotFollowingNow: followersNotFollowingNow.length,
     mutualFollowersNow: mutualFollowersNow.length,
+    deletedAccountsSinceLast: [...disappearedAccountStatuses.values()].filter((status) => status === 'deleted').length,
     staleCandidates: staleCandidates.length,
     ignored: ignoreLogins.length,
   },
