@@ -27,6 +27,25 @@ function formatDays(value) {
   return `${value.toFixed(1)} дн.`
 }
 
+function toTimestamp(value) {
+  const timestamp = Date.parse(value)
+  return Number.isNaN(timestamp) ? 0 : timestamp
+}
+
+function sortByTrackedSince(users, order) {
+  const direction = order === 'oldest' ? 1 : -1
+
+  return [...users].sort((a, b) => {
+    const dateDiff = (toTimestamp(a.firstSeenFollowingAt) - toTimestamp(b.firstSeenFollowingAt)) * direction
+
+    if (dateDiff !== 0) {
+      return dateDiff
+    }
+
+    return a.login.localeCompare(b.login, 'en', { sensitivity: 'base' })
+  })
+}
+
 function UserRows({ users, emptyText }) {
   if (!users?.length) {
     return <p className="empty-text">{emptyText}</p>
@@ -65,8 +84,31 @@ function App() {
   const [events, setEvents] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
+  const [refreshNonce, setRefreshNonce] = useState(0)
+  const [lastLoadedAt, setLastLoadedAt] = useState(null)
+  const [trackedSinceOrder, setTrackedSinceOrder] = useState('newest')
 
   const baseUrl = useMemo(() => import.meta.env.BASE_URL, [])
+
+  const staleCandidates = useMemo(
+    () => sortByTrackedSince(reports?.staleCandidates ?? [], trackedSinceOrder),
+    [reports?.staleCandidates, trackedSinceOrder],
+  )
+
+  const nonReciprocalNow = useMemo(
+    () => sortByTrackedSince(reports?.nonReciprocalNow ?? [], trackedSinceOrder),
+    [reports?.nonReciprocalNow, trackedSinceOrder],
+  )
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setRefreshNonce((prev) => prev + 1)
+    }, 5 * 60 * 1000)
+
+    return () => {
+      clearInterval(timer)
+    }
+  }, [])
 
   useEffect(() => {
     let active = true
@@ -76,9 +118,10 @@ function App() {
       setError('')
 
       try {
+        const cacheKey = `${Date.now()}-${refreshNonce}`
         const [reportsResponse, eventsResponse] = await Promise.all([
-          fetch(`${baseUrl}data/reports.json`, { cache: 'no-store' }),
-          fetch(`${baseUrl}data/events.json`, { cache: 'no-store' }),
+          fetch(`${baseUrl}data/reports.json?v=${cacheKey}`, { cache: 'no-store' }),
+          fetch(`${baseUrl}data/events.json?v=${cacheKey}`, { cache: 'no-store' }),
         ])
 
         if (!reportsResponse.ok) {
@@ -100,6 +143,7 @@ function App() {
 
         setReports(reportsJson)
         setEvents(Array.isArray(eventsJson) ? eventsJson : [])
+        setLastLoadedAt(new Date().toISOString())
       } catch (loadError) {
         if (!active) {
           return
@@ -118,7 +162,7 @@ function App() {
     return () => {
       active = false
     }
-  }, [baseUrl])
+  }, [baseUrl, refreshNonce])
 
   return (
     <main className="app-shell">
@@ -129,6 +173,20 @@ function App() {
           {reports?.username ? `Профиль: @${reports.username}` : 'Профиль будет показан после первого snapshot'}
         </p>
         <p className="hero-meta">Последнее обновление: {formatDate(reports?.generatedAt)}</p>
+        <p className="hero-meta">Последняя загрузка в браузере: {formatDate(lastLoadedAt)}</p>
+
+        <div className="controls-row">
+          <label className="sort-control">
+            Сортировка «Слежение с»:
+            <select value={trackedSinceOrder} onChange={(event) => setTrackedSinceOrder(event.target.value)}>
+              <option value="newest">сначала новые</option>
+              <option value="oldest">сначала старые</option>
+            </select>
+          </label>
+          <button className="refresh-button" onClick={() => setRefreshNonce((prev) => prev + 1)}>
+            Обновить данные
+          </button>
+        </div>
       </header>
 
       {loading && <p className="state-box">Загружаю данные...</p>}
@@ -157,12 +215,12 @@ function App() {
 
           <section className="panel">
             <h2>Кандидаты на отписку ({reports.followBackWindowDays}+ дней)</h2>
-            <UserRows users={reports.staleCandidates} emptyText="Пока нет кандидатов на чистку." />
+            <UserRows users={staleCandidates} emptyText="Пока нет кандидатов на чистку." />
           </section>
 
           <section className="panel">
             <h2>Невзаимные подписки сейчас</h2>
-            <UserRows users={reports.nonReciprocalNow} emptyText="Все взаимно или список пуст." />
+            <UserRows users={nonReciprocalNow} emptyText="Все взаимно или список пуст." />
           </section>
 
           <section className="panel">

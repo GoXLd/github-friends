@@ -38,6 +38,45 @@
   color: #5f4529;
 }
 
+.controls-row {
+  margin-top: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.sort-control {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+  color: #5f4529;
+  font-size: 0.94rem;
+}
+
+.sort-control select {
+  border: 1px solid rgba(88, 52, 13, 0.28);
+  background: #fff8ea;
+  color: #4d3319;
+  border-radius: 9px;
+  padding: 0.3rem 0.45rem;
+  font-family: inherit;
+}
+
+.refresh-button {
+  border: 1px solid rgba(88, 52, 13, 0.3);
+  background: #fff;
+  color: #4d3319;
+  border-radius: 10px;
+  padding: 0.38rem 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.refresh-button:hover {
+  background: #fff3dc;
+}
+
 .state-box {
   margin-top: 1rem;
   padding: 1rem;
