@@ -22,6 +22,7 @@ React + GitHub Actions сервис для отслеживания `followers` 
 - `public/data/follow-tracker.json`: трекинг взаимности по пользователям
 - `public/data/reports.json`: готовый отчет для UI
 - `public/data/ignore.json`: логины, которые нужно игнорировать
+- `public/data/activity-cache.json`: кэш активности взаимных подписчиков
 
 ## Локальный запуск
 
@@ -36,6 +37,7 @@ npm run dev
 GH_USERNAME=<your_login> \
 GITHUB_TOKEN=<github_pat> \
 FOLLOW_BACK_WINDOW_DAYS=7 \
+ACTIVITY_REFRESH_HOURS=24 \
 npm run snapshot
 ```
 
@@ -49,6 +51,8 @@ npm run snapshot
 - `Secrets`: `GH_PAT` - PAT токен (опционально, если нужен более высокий лимит API)
 
 Если `GH_PAT` не задан, workflow использует встроенный `github.token` (подходит для публичных данных, но с ограничениями).
+
+`last contribute` для взаимных подписчиков определяется по последнему публичному contribution-event (например `PushEvent`, `PullRequestEvent`) и обновляется с кэшем (`ACTIVITY_REFRESH_HOURS`).
 
 ### 2) Workflows
 

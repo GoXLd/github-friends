@@ -10,6 +10,11 @@ const configuredUsername =
 const token = process.env.GITHUB_TOKEN
 const followBackWindowDays = Number.parseInt(process.env.FOLLOW_BACK_WINDOW_DAYS ?? '7', 10)
 
+const activityRefreshHoursParsed = Number.parseInt(process.env.ACTIVITY_REFRESH_HOURS ?? '24', 10)
+const activityRefreshHours = Number.isNaN(activityRefreshHoursParsed)
+  ? 24
+  : Math.max(1, activityRefreshHoursParsed)
+
 if (!token) {
   throw new Error('GITHUB_TOKEN is required')
 }
@@ -23,6 +28,7 @@ const eventsPath = path.join(DATA_DIR, 'events.json')
 const trackerPath = path.join(DATA_DIR, 'follow-tracker.json')
 const reportsPath = path.join(DATA_DIR, 'reports.json')
 const ignorePath = path.join(DATA_DIR, 'ignore.json')
+const activityCachePath = path.join(DATA_DIR, 'activity-cache.json')
 
 await fs.mkdir(SNAPSHOT_DIR, { recursive: true })
 
@@ -32,6 +38,17 @@ const headers = {
   'X-GitHub-Api-Version': '2022-11-28',
   'User-Agent': 'github-friends-snapshot',
 }
+
+const contributionEventTypes = new Set([
+  'PushEvent',
+  'PullRequestEvent',
+  'PullRequestReviewEvent',
+  'PullRequestReviewCommentEvent',
+  'IssueCommentEvent',
+  'IssuesEvent',
+  'CommitCommentEvent',
+  'CreateEvent',
+])
 
 async function resolveUsername() {
   if (configuredUsername) {
@@ -167,14 +184,84 @@ function eventId(type, login, happenedAt) {
   return `${type}:${login.toLowerCase()}:${happenedAt}`
 }
 
-const [followers, following, previousLatest, previousEvents, previousTracker, rawIgnore] = await Promise.all([
-  fetchPagedUsers('followers'),
-  fetchPagedUsers('following'),
-  readJson(latestPath, null),
-  readJson(eventsPath, []),
-  readJson(trackerPath, { updatedAt: null, users: {} }),
-  readJson(ignorePath, { logins: [] }),
-])
+function isFreshCache(entry, refreshWindowMs) {
+  const fetchedAt = entry?.lastFetchedAt
+
+  if (!fetchedAt) {
+    return false
+  }
+
+  const fetchedTimestamp = Date.parse(fetchedAt)
+
+  if (Number.isNaN(fetchedTimestamp)) {
+    return false
+  }
+
+  return now.getTime() - fetchedTimestamp < refreshWindowMs
+}
+
+async function fetchLatestPublicContribution(login) {
+  try {
+    const response = await fetch(`${API_BASE}/users/${login}/events/public?per_page=100`, { headers })
+
+    if (!response.ok) {
+      return null
+    }
+
+    const payload = await response.json()
+
+    if (!Array.isArray(payload) || payload.length === 0) {
+      return {
+        lastContributionAt: null,
+        lastContributionType: null,
+      }
+    }
+
+    const contributionEvent = payload.find((event) => contributionEventTypes.has(event.type))
+    const selectedEvent = contributionEvent ?? payload[0]
+
+    return {
+      lastContributionAt: selectedEvent?.created_at ?? null,
+      lastContributionType: selectedEvent?.type ?? null,
+    }
+  } catch {
+    return null
+  }
+}
+
+async function mapWithConcurrency(items, concurrency, mapper) {
+  const results = new Array(items.length)
+  let cursor = 0
+
+  async function worker() {
+    while (true) {
+      const index = cursor
+      cursor += 1
+
+      if (index >= items.length) {
+        return
+      }
+
+      results[index] = await mapper(items[index], index)
+    }
+  }
+
+  const workers = Array.from({ length: Math.min(concurrency, items.length) }, () => worker())
+  await Promise.all(workers)
+
+  return results
+}
+
+const [followers, following, previousLatest, previousEvents, previousTracker, rawIgnore, previousActivityCache] =
+  await Promise.all([
+    fetchPagedUsers('followers'),
+    fetchPagedUsers('following'),
+    readJson(latestPath, null),
+    readJson(eventsPath, []),
+    readJson(trackerPath, { updatedAt: null, users: {} }),
+    readJson(ignorePath, { logins: [] }),
+    readJson(activityCachePath, { updatedAt: null, users: {} }),
+  ])
 
 const followerLookup = toLookup(followers)
 const followingLookup = toLookup(following)
@@ -319,6 +406,65 @@ const followersNotFollowingNow = followers
   }))
   .sort((a, b) => a.login.localeCompare(b.login, 'en', { sensitivity: 'base' }))
 
+const activityCache = previousActivityCache && typeof previousActivityCache === 'object' && previousActivityCache.users
+  ? previousActivityCache
+  : { updatedAt: null, users: {} }
+
+const refreshWindowMs = activityRefreshHours * 60 * 60 * 1000
+
+const mutualFollowersBase = followers.filter((user) => followingLookup.has(user.login.toLowerCase()))
+
+const mutualFollowersNow = await mapWithConcurrency(mutualFollowersBase, 8, async (user) => {
+  const key = user.login.toLowerCase()
+  const cached = activityCache.users?.[key]
+
+  let lastContributionAt = cached?.lastContributionAt ?? null
+  let lastContributionType = cached?.lastContributionType ?? null
+
+  if (!isFreshCache(cached, refreshWindowMs)) {
+    const fetched = await fetchLatestPublicContribution(user.login)
+
+    if (fetched) {
+      lastContributionAt = fetched.lastContributionAt
+      lastContributionType = fetched.lastContributionType
+    }
+  }
+
+  activityCache.users[key] = {
+    login: user.login,
+    htmlUrl: user.htmlUrl,
+    githubId: user.id,
+    lastContributionAt,
+    lastContributionType,
+    lastFetchedAt: nowIso,
+  }
+
+  return {
+    login: user.login,
+    htmlUrl: user.htmlUrl,
+    githubId: user.id,
+    lastContributionAt,
+    lastContributionType,
+    daysSinceLastContribution: toDays(lastContributionAt),
+  }
+})
+
+mutualFollowersNow.sort((a, b) => {
+  const aTs = Date.parse(a.lastContributionAt ?? '')
+  const bTs = Date.parse(b.lastContributionAt ?? '')
+
+  const aSafe = Number.isNaN(aTs) ? -1 : aTs
+  const bSafe = Number.isNaN(bTs) ? -1 : bTs
+
+  if (aSafe !== bSafe) {
+    return bSafe - aSafe
+  }
+
+  return a.login.localeCompare(b.login, 'en', { sensitivity: 'base' })
+})
+
+activityCache.updatedAt = nowIso
+
 const reports = {
   generatedAt: nowIso,
   username,
@@ -332,12 +478,14 @@ const reports = {
     followingRemovedSinceLast: followingDelta.removed.length,
     nonReciprocalNow: nonReciprocalNow.length,
     followersNotFollowingNow: followersNotFollowingNow.length,
+    mutualFollowersNow: mutualFollowersNow.length,
     staleCandidates: staleCandidates.length,
     ignored: ignoreLogins.length,
   },
   staleCandidates,
   nonReciprocalNow,
   followersNotFollowingNow,
+  mutualFollowersNow,
   recentFollowerLosses: events.filter((event) => event.type === 'follower_lost').slice(0, 50),
 }
 
@@ -348,12 +496,14 @@ await Promise.all([
   writeJson(trackerPath, tracker),
   writeJson(reportsPath, reports),
   writeJson(ignorePath, { logins: ignoreLogins }),
+  writeJson(activityCachePath, activityCache),
 ])
 
 const summary = {
   generatedAt: nowIso,
   followers: followers.length,
   following: following.length,
+  mutualFollowers: mutualFollowersNow.length,
   newEvents: newEvents.length,
   staleCandidates: staleCandidates.length,
 }

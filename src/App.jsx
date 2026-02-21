@@ -142,13 +142,48 @@ function FollowersOnlyTable({ users }) {
   )
 }
 
+function MutualFollowersTable({ users }) {
+  if (!users.length) {
+    return <p className="empty-text">Пока нет данных по взаимным подписчикам.</p>
+  }
+
+  return (
+    <div className="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Пользователь</th>
+            <th>Last contribute</th>
+            <th>Тип события</th>
+            <th>Сколько дней назад</th>
+          </tr>
+        </thead>
+        <tbody>
+          {users.map((user) => (
+            <tr key={user.login}>
+              <td>
+                <a href={user.htmlUrl} target="_blank" rel="noreferrer">
+                  @{user.login}
+                </a>
+              </td>
+              <td>{formatDate(user.lastContributionAt)}</td>
+              <td>{user.lastContributionType ?? '—'}</td>
+              <td>{formatDays(user.daysSinceLastContribution)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 function EventsFilter({ value, onChange }) {
   return (
     <div className="event-filters">
       {EVENT_FILTERS.map((filter) => (
         <button
           key={filter.id}
-          className={`event-filter-button ${value === filter.id ? 'active' : ''}`}
+          className={`event-filter-button filter-${filter.id} ${value === filter.id ? 'active' : ''}`}
           onClick={() => onChange(filter.id)}
         >
           {filter.label}
@@ -202,6 +237,11 @@ function App() {
     const list = reports?.followersNotFollowingNow ?? []
     return list.slice(0, nonReciprocalLimit)
   }, [reports?.followersNotFollowingNow, nonReciprocalLimit])
+
+  const visibleMutualFollowers = useMemo(() => {
+    const list = reports?.mutualFollowersNow ?? []
+    return list.slice(0, nonReciprocalLimit)
+  }, [reports?.mutualFollowersNow, nonReciprocalLimit])
 
   const visibleEvents = useMemo(() => {
     const source = Array.isArray(events) ? events : []
@@ -276,6 +316,8 @@ function App() {
 
   const counts = reports?.counts ?? {}
   const title = reports?.username ? `GitHub Friends Tracker - @${reports.username}` : 'GitHub Friends Tracker'
+  const followersMutual = counts.mutualFollowersNow ?? 0
+  const followersOnly = counts.followersNotFollowingNow ?? 0
 
   return (
     <main className="app-shell">
@@ -294,6 +336,7 @@ function App() {
             <article className="stat-card">
               <p>Followers</p>
               <strong>{counts.followers ?? 0}</strong>
+              <small className="stat-details">взаимные: {followersMutual} · без ответа: {followersOnly}</small>
             </article>
             <article className="stat-card">
               <p>Following</p>
@@ -304,8 +347,8 @@ function App() {
               <strong>{counts.nonReciprocalNow ?? 0}</strong>
             </article>
             <article className="stat-card accent-green">
-              <p>Подписчики без ответа</p>
-              <strong>{counts.followersNotFollowingNow ?? 0}</strong>
+              <p>Взаимные подписчики</p>
+              <strong>{followersMutual}</strong>
             </article>
             <article className="stat-card accent-red">
               <p>7+ дней без ответа</p>
@@ -344,6 +387,9 @@ function App() {
 
                 <h3 className="sub-heading">Подписаны на вас, но вы не подписаны</h3>
                 <FollowersOnlyTable users={visibleFollowersOnly} />
+
+                <h3 className="sub-heading">Взаимные подписчики: last contribute</h3>
+                <MutualFollowersTable users={visibleMutualFollowers} />
 
                 <LimitSelector value={nonReciprocalLimit} onChange={setNonReciprocalLimit} />
               </>

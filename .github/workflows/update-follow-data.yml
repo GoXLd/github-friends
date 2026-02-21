@@ -31,6 +31,7 @@ jobs:
           GH_USERNAME: ${{ vars.GH_USERNAME || github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}
           FOLLOW_BACK_WINDOW_DAYS: '7'
+          ACTIVITY_REFRESH_HOURS: '24'
 
       - name: Commit updated data
         run: |
