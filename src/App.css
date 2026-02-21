@@ -285,12 +285,34 @@
   padding: 0.4rem 0.8rem;
   font-weight: 600;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
 }
 
 .tab-button.active {
   background: #0969da;
   color: #ffffff;
   border-color: #0969da;
+}
+
+.tab-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.65rem;
+  padding: 0.05rem 0.35rem;
+  border-radius: 999px;
+  background: rgba(31, 35, 40, 0.08);
+  color: #57606a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.tab-button.active .tab-badge {
+  background: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
 }
 
 .panel {

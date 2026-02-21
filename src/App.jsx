@@ -726,8 +726,6 @@ function App() {
             <article className="stat-card">
               <p>Followers</p>
               <strong>{counts.followers ?? 0}</strong>
-              <small className="stat-details">Взаимные: {followersMutual}</small>
-              <small className="stat-details">Подписчики: {followersOnly}</small>
             </article>
             <article className="stat-card">
               <p>Following</p>
@@ -764,7 +762,8 @@ function App() {
               title="Users who follow you, but you do not follow them."
               onClick={() => setActiveTab(TAB_FOLLOWERS_ONLY)}
             >
-              Followers
+              <span>Followers</span>
+              <span className="tab-badge">{followersOnly}</span>
             </button>
             <button
               role="tab"
@@ -773,7 +772,8 @@ function App() {
               title="Mutual follows (friends): both sides follow each other."
               onClick={() => setActiveTab(TAB_MUTUAL)}
             >
-              Friends
+              <span>Friends</span>
+              <span className="tab-badge">{followersMutual}</span>
             </button>
             <button
               role="tab"
