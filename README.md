@@ -74,6 +74,7 @@ npm run snapshot
   - manual (`workflow_dispatch`)
 - Runs `npm run snapshot`
 - Commits updated JSON under `public/data`
+- Builds and deploys GitHub Pages in the same workflow run
 - Auto-cleans old data:
   - removes snapshot files older than `DATA_RETENTION_DAYS` (default: 90)
   - trims event history and activity cache entries older than `DATA_RETENTION_DAYS`

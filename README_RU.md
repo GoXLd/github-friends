@@ -74,6 +74,7 @@ npm run snapshot
   - ручной запуск (`workflow_dispatch`)
 - Запускает `npm run snapshot`
 - Коммитит обновленные JSON в `public/data`
+- В этом же запуске собирает и деплоит GitHub Pages
 - Автоочистка старых данных:
   - удаляет снапшоты старше `DATA_RETENTION_DAYS` (по умолчанию: 90)
   - обрезает историю событий и кэш активности старше `DATA_RETENTION_DAYS`
