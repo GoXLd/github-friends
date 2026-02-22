@@ -61,6 +61,7 @@ GITHUB_TOKEN=<github_pat> \
 FOLLOW_BACK_WINDOW_DAYS=7 \
 FRIEND_INACTIVE_DAYS=60 \
 ACTIVITY_REFRESH_HOURS=24 \
+DATA_RETENTION_DAYS=90 \
 npm run snapshot
 ```
 
@@ -73,6 +74,9 @@ npm run snapshot
   - manual (`workflow_dispatch`)
 - Runs `npm run snapshot`
 - Commits updated JSON under `public/data`
+- Auto-cleans old data:
+  - removes snapshot files older than `DATA_RETENTION_DAYS` (default: 90)
+  - trims event history and activity cache entries older than `DATA_RETENTION_DAYS`
 
 ### `deploy-pages.yml`
 
@@ -102,3 +106,11 @@ Project icons are stored in `public/favicons/` and wired in `index.html`.
 ## Risk Notice
 
 Use at your own risk. There is no guarantee that automation patterns or API usage will not trigger GitHub limits/restrictions.
+
+## Security
+
+If you discover a vulnerability, see `SECURITY.md`.
+
+## License
+
+MIT License. See `LICENSE`.

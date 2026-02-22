@@ -61,6 +61,7 @@ GITHUB_TOKEN=<github_pat> \
 FOLLOW_BACK_WINDOW_DAYS=7 \
 FRIEND_INACTIVE_DAYS=60 \
 ACTIVITY_REFRESH_HOURS=24 \
+DATA_RETENTION_DAYS=90 \
 npm run snapshot
 ```
 
@@ -73,6 +74,9 @@ npm run snapshot
   - ручной запуск (`workflow_dispatch`)
 - Запускает `npm run snapshot`
 - Коммитит обновленные JSON в `public/data`
+- Автоочистка старых данных:
+  - удаляет снапшоты старше `DATA_RETENTION_DAYS` (по умолчанию: 90)
+  - обрезает историю событий и кэш активности старше `DATA_RETENTION_DAYS`
 
 ### `deploy-pages.yml`
 
@@ -102,3 +106,11 @@ npm run snapshot
 ## Риск использования
 
 Использование сервиса на ваш риск. Нет гарантии, что паттерны автоматизации/API не приведут к лимитам или ограничениям GitHub.
+
+## Безопасность
+
+Если найдена уязвимость, смотрите `SECURITY.md`.
+
+## Лицензия
+
+MIT License. См. `LICENSE`.

@@ -33,6 +33,7 @@ jobs:
           FOLLOW_BACK_WINDOW_DAYS: '7'
           FRIEND_INACTIVE_DAYS: '60'
           ACTIVITY_REFRESH_HOURS: '24'
+          DATA_RETENTION_DAYS: '90'
 
       - name: Commit updated data
         run: |

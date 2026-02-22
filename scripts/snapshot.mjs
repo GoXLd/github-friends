@@ -16,6 +16,8 @@ const activityRefreshHoursParsed = Number.parseInt(process.env.ACTIVITY_REFRESH_
 const activityRefreshHours = Number.isNaN(activityRefreshHoursParsed)
   ? 24
   : Math.max(1, activityRefreshHoursParsed)
+const dataRetentionDaysParsed = Number.parseInt(process.env.DATA_RETENTION_DAYS ?? '90', 10)
+const dataRetentionDays = Number.isNaN(dataRetentionDaysParsed) ? 90 : Math.max(1, dataRetentionDaysParsed)
 
 if (!token) {
   throw new Error('GITHUB_TOKEN is required')
@@ -24,6 +26,7 @@ if (!token) {
 const now = new Date()
 const nowIso = now.toISOString()
 const snapshotId = nowIso.replaceAll(':', '-').replaceAll('.', '-')
+const retentionCutoffTimestamp = now.getTime() - dataRetentionDays * 24 * 60 * 60 * 1000
 
 const latestPath = path.join(DATA_DIR, 'latest.json')
 const eventsPath = path.join(DATA_DIR, 'events.json')
@@ -204,6 +207,48 @@ function isFreshCache(entry, refreshWindowMs) {
   }
 
   return now.getTime() - fetchedTimestamp < refreshWindowMs
+}
+
+function isWithinRetention(dateString, cutoffTimestamp) {
+  if (!dateString) {
+    return true
+  }
+
+  const timestamp = Date.parse(dateString)
+
+  if (Number.isNaN(timestamp)) {
+    return true
+  }
+
+  return timestamp >= cutoffTimestamp
+}
+
+async function pruneOldSnapshots(snapshotDir, cutoffTimestamp) {
+  let removed = 0
+
+  try {
+    const files = await fs.readdir(snapshotDir, { withFileTypes: true })
+
+    for (const file of files) {
+      if (!file.isFile() || !file.name.endsWith('.json')) {
+        continue
+      }
+
+      const filePath = path.join(snapshotDir, file.name)
+      const stats = await fs.stat(filePath)
+
+      if (stats.mtimeMs < cutoffTimestamp) {
+        await fs.unlink(filePath)
+        removed += 1
+      }
+    }
+  } catch (error) {
+    if (error.code !== 'ENOENT') {
+      throw error
+    }
+  }
+
+  return removed
 }
 
 async function fetchLatestPublicContribution(login) {
@@ -424,7 +469,9 @@ for (const event of [...(Array.isArray(previousEvents) ? previousEvents : []), .
   uniqueEvents.set(event.id, event)
 }
 
-const events = [...uniqueEvents.values()].sort((a, b) => b.happenedAt.localeCompare(a.happenedAt))
+const events = [...uniqueEvents.values()]
+  .filter((event) => isWithinRetention(event.happenedAt, retentionCutoffTimestamp))
+  .sort((a, b) => b.happenedAt.localeCompare(a.happenedAt))
 
 const pairedCandidates = collectPairedDisappearanceCandidates(events)
 const candidateKeySet = new Set(pairedCandidates.map((candidate) => candidate.key))
@@ -597,6 +644,11 @@ mutualFollowersNow.sort((a, b) => {
 })
 
 activityCache.updatedAt = nowIso
+activityCache.users = Object.fromEntries(
+  Object.entries(activityCache.users ?? {}).filter(([, value]) =>
+    isWithinRetention(value?.lastFetchedAt, retentionCutoffTimestamp),
+  ),
+)
 
 const staleFriendCandidates = mutualFollowersNow
   .filter((entry) => {
@@ -658,6 +710,8 @@ await Promise.all([
   writeJson(activityCachePath, activityCache),
 ])
 
+const removedSnapshots = await pruneOldSnapshots(SNAPSHOT_DIR, retentionCutoffTimestamp)
+
 const summary = {
   generatedAt: nowIso,
   followers: followers.length,
@@ -666,6 +720,8 @@ const summary = {
   staleFriends: staleFriendCandidates.length,
   newEvents: newEvents.length,
   staleCandidates: staleCandidates.length,
+  retentionDays: dataRetentionDays,
+  removedSnapshots,
 }
 
 console.log(JSON.stringify(summary, null, 2))
