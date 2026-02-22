@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:devx950415:2026-02-22T03:17:57.968Z",
+    "type": "follower_gained",
+    "login": "devX950415",
+    "htmlUrl": "https://github.com/devX950415",
+    "happenedAt": "2026-02-22T03:17:57.968Z"
+  },
+  {
+    "id": "follower_gained:yassnemo:2026-02-22T03:17:57.968Z",
+    "type": "follower_gained",
+    "login": "yassnemo",
+    "htmlUrl": "https://github.com/yassnemo",
+    "happenedAt": "2026-02-22T03:17:57.968Z"
+  },
+  {
+    "id": "follower_lost:mamun196255:2026-02-22T03:17:57.968Z",
+    "type": "follower_lost",
+    "login": "mamun196255",
+    "htmlUrl": "https://github.com/mamun196255",
+    "happenedAt": "2026-02-22T03:17:57.968Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:murapadev:2026-02-22T03:17:57.968Z",
+    "type": "follower_lost",
+    "login": "murapadev",
+    "htmlUrl": "https://github.com/murapadev",
+    "happenedAt": "2026-02-22T03:17:57.968Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ewindmer:2026-02-21T16:38:09.877Z",
     "type": "follower_gained",
     "login": "ewindmer",
