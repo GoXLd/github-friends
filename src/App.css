@@ -585,6 +585,42 @@ a:hover {
   border: 1px solid #d8dee4;
 }
 
+.event-main {
+  min-width: 0;
+}
+
+.event-actions {
+  margin-top: 0.32rem;
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.event-action-button {
+  border: 1px solid #d0d7de;
+  background: #ffffff;
+  color: #24292f;
+  border-radius: 999px;
+  padding: 0.16rem 0.48rem;
+  font-size: 0.74rem;
+  line-height: 1.2;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.event-action-button:hover {
+  border-color: #0969da;
+  color: #0550ae;
+  text-decoration: none;
+}
+
+.event-action-button:disabled {
+  cursor: default;
+  color: #8c959f;
+  background: #f6f8fa;
+  border-color: #d8dee4;
+}
+
 .event-tags {
   display: inline-flex;
   gap: 0.35rem;

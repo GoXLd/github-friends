@@ -42,6 +42,7 @@ const I18N = {
     reasonCol: 'Reason',
     lastContributeCol: 'Last contribute',
     eventTypeCol: 'Event type',
+    actionsCol: 'Actions',
     emptyList: 'List is empty.',
     followersOnlyEmpty: 'No followers in this category right now.',
     mutualEmpty: 'No mutual followers data yet.',
@@ -49,6 +50,9 @@ const I18N = {
     deletedFollowerLossesEmpty: 'No deleted accounts in recent losses.',
     eventsEmpty: 'No events for this filter.',
     deletedBadge: 'Deleted',
+    openBlockDialog: 'Open block dialog',
+    addToBlacklist: 'Add to blacklist',
+    inBlacklist: 'In blacklist',
     deletedAction: 'Remove from watchlist at the next check',
     staleReasonNoContributionData: 'no activity data',
     staleReasonInactiveContributionWindow: 'no recent activity',
@@ -148,6 +152,7 @@ const I18N = {
     reasonCol: 'Причина',
     lastContributeCol: 'Last contribute',
     eventTypeCol: 'Тип события',
+    actionsCol: 'Действия',
     emptyList: 'Список пуст.',
     followersOnlyEmpty: 'Таких подписчиков сейчас нет.',
     mutualEmpty: 'Пока нет данных по взаимным подписчикам.',
@@ -155,6 +160,9 @@ const I18N = {
     deletedFollowerLossesEmpty: 'Удаленных аккаунтов среди последних отписок пока нет.',
     eventsEmpty: 'Событий по фильтру нет.',
     deletedBadge: 'Удаленный',
+    openBlockDialog: 'Открыть блокировку',
+    addToBlacklist: 'В черный список',
+    inBlacklist: 'В черном списке',
     deletedAction: 'Убрать из наблюдения на следующей проверке',
     staleReasonNoContributionData: 'нет данных активности',
     staleReasonInactiveContributionWindow: 'нет активности',
@@ -333,6 +341,16 @@ function formatDays(value, i18n) {
   }
 
   return `${value.toFixed(1)} ${i18n.daysSuffix}`
+}
+
+function buildBlockIntentUrl(profileUrl) {
+  try {
+    const parsed = new URL(profileUrl)
+    parsed.searchParams.set('block', '1')
+    return parsed.toString()
+  } catch {
+    return profileUrl
+  }
 }
 
 function toTimestamp(value) {
@@ -623,7 +641,7 @@ function EventsFilter({ value, onChange, filters }) {
   )
 }
 
-function EventsList({ events, i18n, locale }) {
+function EventsList({ events, i18n, locale, onBlacklistLogin, excludedSet }) {
   if (!events.length) {
     return <p className="empty-text">{i18n.eventsEmpty}</p>
   }
@@ -636,9 +654,35 @@ function EventsList({ events, i18n, locale }) {
             <span className={`event-tag ${event.type}`}>{i18n.eventLabels[event.type] ?? event.type}</span>
             {event.isDeleted && <span className="event-badge deleted">{i18n.deletedBadge}</span>}
           </div>
-          <a href={event.htmlUrl} target="_blank" rel="noreferrer">
-            @{event.login}
-          </a>
+          <div className="event-main">
+            <a
+              href={event.type === 'follower_lost' ? buildBlockIntentUrl(event.htmlUrl) : event.htmlUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              @{event.login}
+            </a>
+            {event.type === 'follower_lost' && (
+              <div className="event-actions">
+                <a
+                  href={buildBlockIntentUrl(event.htmlUrl)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="event-action-button"
+                >
+                  {i18n.openBlockDialog}
+                </a>
+                <button
+                  type="button"
+                  className="event-action-button"
+                  disabled={excludedSet.has(normalizeLogin(event.login))}
+                  onClick={() => onBlacklistLogin(event.login)}
+                >
+                  {excludedSet.has(normalizeLogin(event.login)) ? i18n.inBlacklist : i18n.addToBlacklist}
+                </button>
+              </div>
+            )}
+          </div>
           <time>{formatDate(event.happenedAt, locale)}</time>
         </li>
       ))}
@@ -955,6 +999,22 @@ function App() {
     setExcludedLogins((prev) => prev.filter((item) => item !== normalized))
   }
 
+  const handleBlacklistLogin = (login) => {
+    const normalized = normalizeLogin(login)
+
+    if (!isValidLogin(normalized)) {
+      return
+    }
+
+    setExcludedLogins((prev) => {
+      if (prev.includes(normalized)) {
+        return prev
+      }
+
+      return [...prev, normalized].sort()
+    })
+  }
+
   return (
     <main className="app-shell">
       <header className="hero">
@@ -1251,7 +1311,13 @@ function App() {
                   />
                 </h2>
                 <EventsFilter value={eventsFilter} onChange={setEventsFilter} filters={i18n.eventFilters} />
-                <EventsList events={visibleEvents} i18n={i18n} locale={locale} />
+                <EventsList
+                  events={visibleEvents}
+                  i18n={i18n}
+                  locale={locale}
+                  onBlacklistLogin={handleBlacklistLogin}
+                  excludedSet={excludedSet}
+                />
                 <LimitSelector value={eventsLimit} onChange={setEventsLimit} i18n={i18n} />
               </>
             )}
