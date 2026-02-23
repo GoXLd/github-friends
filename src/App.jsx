@@ -306,8 +306,12 @@ function formatDate(value, locale) {
   }
 
   return new Intl.DateTimeFormat(locale, {
-    dateStyle: 'medium',
-    timeStyle: 'short',
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
   }).format(new Date(value))
 }
 
@@ -702,10 +706,21 @@ function App() {
   }, [events, excludedSet])
 
   const filteredDeletedFollowerLossSource = useMemo(() => {
+    const currentGeneratedAt = reports?.generatedAt
+
+    if (!currentGeneratedAt) {
+      return []
+    }
+
     const latestByLogin = new Map()
 
     for (const event of filteredEventsSource) {
-      if (event.type !== 'follower_lost' || !event.isDeleted || !event.login) {
+      if (
+        event.type !== 'follower_lost' ||
+        !event.isDeleted ||
+        !event.login ||
+        event.happenedAt !== currentGeneratedAt
+      ) {
         continue
       }
 
@@ -719,7 +734,7 @@ function App() {
     }
 
     return [...latestByLogin.values()]
-  }, [filteredEventsSource])
+  }, [filteredEventsSource, reports?.generatedAt])
 
   const visibleNonReciprocal = useMemo(() => {
     return sortNonReciprocal(filteredNonReciprocalSource, nonReciprocalSortField, nonReciprocalSortOrder).slice(
