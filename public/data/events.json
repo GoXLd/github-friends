@@ -1,5 +1,32 @@
 [
   {
+    "id": "follower_lost:codewizard1004:2026-02-23T06:42:52.326Z",
+    "type": "follower_lost",
+    "login": "codewizard1004",
+    "htmlUrl": "https://github.com/codewizard1004",
+    "happenedAt": "2026-02-23T06:42:52.326Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:qoofa:2026-02-23T06:42:52.326Z",
+    "type": "follower_lost",
+    "login": "qoofa",
+    "htmlUrl": "https://github.com/qoofa",
+    "happenedAt": "2026-02-23T06:42:52.326Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ye231101:2026-02-23T06:42:52.326Z",
+    "type": "follower_lost",
+    "login": "ye231101",
+    "htmlUrl": "https://github.com/ye231101",
+    "happenedAt": "2026-02-23T06:42:52.326Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:annagyeong:2026-02-23T00:53:26.581Z",
     "type": "follower_gained",
     "login": "AnNagyeong",
