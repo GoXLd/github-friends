@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:bigsign:2026-02-24T12:32:03.813Z",
+    "type": "follower_gained",
+    "login": "bigsign",
+    "htmlUrl": "https://github.com/bigsign",
+    "happenedAt": "2026-02-24T12:32:03.813Z"
+  },
+  {
+    "id": "follower_gained:vigilante-irl:2026-02-24T12:32:03.813Z",
+    "type": "follower_gained",
+    "login": "Vigilante-Irl",
+    "htmlUrl": "https://github.com/Vigilante-Irl",
+    "happenedAt": "2026-02-24T12:32:03.813Z"
+  },
+  {
+    "id": "you_followed:fiimred:2026-02-24T12:32:03.813Z",
+    "type": "you_followed",
+    "login": "fiImred",
+    "htmlUrl": "https://github.com/fiImred",
+    "happenedAt": "2026-02-24T12:32:03.813Z"
+  },
+  {
+    "id": "you_unfollowed:k4yfourr:2026-02-24T12:32:03.813Z",
+    "type": "you_unfollowed",
+    "login": "k4yfourr",
+    "htmlUrl": "https://github.com/k4yfourr",
+    "happenedAt": "2026-02-24T12:32:03.813Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:semaybulut:2026-02-24T00:50:06.873Z",
     "type": "follower_gained",
     "login": "semaybulut",
