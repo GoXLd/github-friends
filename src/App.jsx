@@ -51,8 +51,6 @@ const I18N = {
     eventsEmpty: 'No events for this filter.',
     deletedBadge: 'Deleted',
     openBlockDialog: 'Open block dialog',
-    addToBlacklist: 'Add to blacklist',
-    inBlacklist: 'In blacklist',
     deletedAction: 'Remove from watchlist at the next check',
     staleReasonNoContributionData: 'no activity data',
     staleReasonInactiveContributionWindow: 'no recent activity',
@@ -161,8 +159,6 @@ const I18N = {
     eventsEmpty: 'Событий по фильтру нет.',
     deletedBadge: 'Удаленный',
     openBlockDialog: 'Открыть блокировку',
-    addToBlacklist: 'В черный список',
-    inBlacklist: 'В черном списке',
     deletedAction: 'Убрать из наблюдения на следующей проверке',
     staleReasonNoContributionData: 'нет данных активности',
     staleReasonInactiveContributionWindow: 'нет активности',
@@ -341,16 +337,6 @@ function formatDays(value, i18n) {
   }
 
   return `${value.toFixed(1)} ${i18n.daysSuffix}`
-}
-
-function buildBlockIntentUrl(profileUrl) {
-  try {
-    const parsed = new URL(profileUrl)
-    parsed.searchParams.set('block', '1')
-    return parsed.toString()
-  } catch {
-    return profileUrl
-  }
 }
 
 function toTimestamp(value) {
@@ -641,7 +627,7 @@ function EventsFilter({ value, onChange, filters }) {
   )
 }
 
-function EventsList({ events, i18n, locale, onBlacklistLogin, excludedSet }) {
+function EventsList({ events, i18n, locale, onOpenBlockDialog }) {
   if (!events.length) {
     return <p className="empty-text">{i18n.eventsEmpty}</p>
   }
@@ -655,30 +641,17 @@ function EventsList({ events, i18n, locale, onBlacklistLogin, excludedSet }) {
             {event.isDeleted && <span className="event-badge deleted">{i18n.deletedBadge}</span>}
           </div>
           <div className="event-main">
-            <a
-              href={event.type === 'follower_lost' ? buildBlockIntentUrl(event.htmlUrl) : event.htmlUrl}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={event.htmlUrl} target="_blank" rel="noreferrer">
               @{event.login}
             </a>
             {event.type === 'follower_lost' && (
               <div className="event-actions">
-                <a
-                  href={buildBlockIntentUrl(event.htmlUrl)}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="event-action-button"
-                >
-                  {i18n.openBlockDialog}
-                </a>
                 <button
                   type="button"
                   className="event-action-button"
-                  disabled={excludedSet.has(normalizeLogin(event.login))}
-                  onClick={() => onBlacklistLogin(event.login)}
+                  onClick={() => onOpenBlockDialog(event.login)}
                 >
-                  {excludedSet.has(normalizeLogin(event.login)) ? i18n.inBlacklist : i18n.addToBlacklist}
+                  {i18n.openBlockDialog}
                 </button>
               </div>
             )}
@@ -999,20 +972,20 @@ function App() {
     setExcludedLogins((prev) => prev.filter((item) => item !== normalized))
   }
 
-  const handleBlacklistLogin = (login) => {
+  const handleOpenBlockDialog = (login) => {
     const normalized = normalizeLogin(login)
 
-    if (!isValidLogin(normalized)) {
+    if (!normalized) {
       return
     }
 
-    setExcludedLogins((prev) => {
-      if (prev.includes(normalized)) {
-        return prev
-      }
+    if (typeof navigator !== 'undefined' && navigator.clipboard?.writeText) {
+      navigator.clipboard.writeText(normalized).catch(() => {
+        // Ignore clipboard permission errors.
+      })
+    }
 
-      return [...prev, normalized].sort()
-    })
+    window.open('https://github.com/settings/blocked_users', '_blank', 'noopener,noreferrer')
   }
 
   return (
@@ -1315,8 +1288,7 @@ function App() {
                   events={visibleEvents}
                   i18n={i18n}
                   locale={locale}
-                  onBlacklistLogin={handleBlacklistLogin}
-                  excludedSet={excludedSet}
+                  onOpenBlockDialog={handleOpenBlockDialog}
                 />
                 <LimitSelector value={eventsLimit} onChange={setEventsLimit} i18n={i18n} />
               </>
