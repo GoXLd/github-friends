@@ -1,5 +1,48 @@
 [
   {
+    "id": "follower_gained:codewithdhruba01:2026-02-24T18:37:33.017Z",
+    "type": "follower_gained",
+    "login": "codewithdhruba01",
+    "htmlUrl": "https://github.com/codewithdhruba01",
+    "happenedAt": "2026-02-24T18:37:33.017Z"
+  },
+  {
+    "id": "follower_lost:arshvermagit:2026-02-24T18:37:33.017Z",
+    "type": "follower_lost",
+    "login": "ArshVermaGit",
+    "htmlUrl": "https://github.com/ArshVermaGit",
+    "happenedAt": "2026-02-24T18:37:33.017Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:bigsign:2026-02-24T18:37:33.017Z",
+    "type": "follower_lost",
+    "login": "bigsign",
+    "htmlUrl": "https://github.com/bigsign",
+    "happenedAt": "2026-02-24T18:37:33.017Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ewindmer:2026-02-24T18:37:33.017Z",
+    "type": "follower_lost",
+    "login": "ewindmer",
+    "htmlUrl": "https://github.com/ewindmer",
+    "happenedAt": "2026-02-24T18:37:33.017Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:seehiong:2026-02-24T18:37:33.017Z",
+    "type": "follower_lost",
+    "login": "seehiong",
+    "htmlUrl": "https://github.com/seehiong",
+    "happenedAt": "2026-02-24T18:37:33.017Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:bigsign:2026-02-24T12:32:03.813Z",
     "type": "follower_gained",
     "login": "bigsign",
