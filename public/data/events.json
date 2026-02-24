@@ -1,5 +1,39 @@
 [
   {
+    "id": "follower_gained:semaybulut:2026-02-24T00:50:06.873Z",
+    "type": "follower_gained",
+    "login": "semaybulut",
+    "htmlUrl": "https://github.com/semaybulut",
+    "happenedAt": "2026-02-24T00:50:06.873Z"
+  },
+  {
+    "id": "follower_lost:shards-inc:2026-02-24T00:50:06.873Z",
+    "type": "follower_lost",
+    "login": "Shards-inc",
+    "htmlUrl": "https://github.com/Shards-inc",
+    "happenedAt": "2026-02-24T00:50:06.873Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:codewizard1004:2026-02-24T00:50:06.873Z",
+    "type": "you_unfollowed",
+    "login": "codewizard1004",
+    "htmlUrl": "https://github.com/codewizard1004",
+    "happenedAt": "2026-02-24T00:50:06.873Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:iorcist:2026-02-24T00:50:06.873Z",
+    "type": "you_unfollowed",
+    "login": "Iorcist",
+    "htmlUrl": "https://github.com/Iorcist",
+    "happenedAt": "2026-02-24T00:50:06.873Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:sunjoe508:2026-02-23T18:38:47.069Z",
     "type": "follower_gained",
     "login": "sunjoe508",
