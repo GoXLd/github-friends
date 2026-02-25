@@ -44,6 +44,66 @@ const headers = {
   'User-Agent': 'github-friends-snapshot',
 }
 
+let latestRateLimit = null
+
+function updateRateLimitFromResponse(response) {
+  const limit = Number.parseInt(response.headers.get('x-ratelimit-limit') ?? '', 10)
+  const remaining = Number.parseInt(response.headers.get('x-ratelimit-remaining') ?? '', 10)
+  const reset = Number.parseInt(response.headers.get('x-ratelimit-reset') ?? '', 10)
+
+  if (Number.isNaN(limit) || Number.isNaN(remaining) || Number.isNaN(reset)) {
+    return
+  }
+
+  latestRateLimit = {
+    resource: 'core',
+    limit,
+    remaining,
+    used: limit - remaining,
+    resetAt: new Date(reset * 1000).toISOString(),
+  }
+}
+
+async function githubFetch(url, init = {}) {
+  const response = await fetch(url, {
+    ...init,
+    headers: {
+      ...headers,
+      ...(init.headers ?? {}),
+    },
+  })
+
+  updateRateLimitFromResponse(response)
+  return response
+}
+
+async function fetchRateLimitSnapshot() {
+  try {
+    const response = await githubFetch(`${API_BASE}/rate_limit`)
+
+    if (!response.ok) {
+      return latestRateLimit
+    }
+
+    const payload = await response.json()
+    const core = payload?.resources?.core
+
+    if (!core || typeof core.limit !== 'number' || typeof core.remaining !== 'number' || typeof core.reset !== 'number') {
+      return latestRateLimit
+    }
+
+    return {
+      resource: 'core',
+      limit: core.limit,
+      remaining: core.remaining,
+      used: typeof core.used === 'number' ? core.used : core.limit - core.remaining,
+      resetAt: new Date(core.reset * 1000).toISOString(),
+    }
+  } catch {
+    return latestRateLimit
+  }
+}
+
 const contributionEventTypes = new Set([
   'PushEvent',
   'PullRequestEvent',
@@ -60,7 +120,7 @@ async function resolveUsername() {
     return configuredUsername
   }
 
-  const response = await fetch(`${API_BASE}/user`, { headers })
+  const response = await githubFetch(`${API_BASE}/user`)
 
   if (!response.ok) {
     const body = await response.text()
@@ -84,7 +144,7 @@ async function fetchPagedUsers(resource) {
 
   while (true) {
     const url = `${API_BASE}/users/${username}/${resource}?per_page=100&page=${page}`
-    const response = await fetch(url, { headers })
+    const response = await githubFetch(url)
 
     if (!response.ok) {
       const body = await response.text()
@@ -253,7 +313,7 @@ async function pruneOldSnapshots(snapshotDir, cutoffTimestamp) {
 
 async function fetchLatestPublicContribution(login) {
   try {
-    const response = await fetch(`${API_BASE}/users/${login}/events/public?per_page=100`, { headers })
+    const response = await githubFetch(`${API_BASE}/users/${login}/events/public?per_page=100`)
 
     if (!response.ok) {
       return null
@@ -296,7 +356,7 @@ async function resolveDisappearedAccountStatuses(users) {
     const key = login.toLowerCase()
 
     try {
-      const response = await fetch(`${API_BASE}/users/${encodeURIComponent(login)}`, { headers })
+      const response = await githubFetch(`${API_BASE}/users/${encodeURIComponent(login)}`)
 
       if (response.status === 404) {
         return [key, 'deleted']
@@ -672,11 +732,15 @@ const staleFriendCandidates = mutualFollowersNow
   })
   .sort((a, b) => (b.inactiveDays ?? 0) - (a.inactiveDays ?? 0))
 
+const rateLimit = await fetchRateLimitSnapshot()
+
 const reports = {
   generatedAt: nowIso,
   username,
   followBackWindowDays,
   friendInactiveDays,
+  dataRetentionDays,
+  rateLimit,
   counts: {
     followers: followers.length,
     following: following.length,

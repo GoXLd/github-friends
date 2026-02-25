@@ -15,6 +15,12 @@ const DEFAULT_PAGE_SIZE_FALLBACK = 100
 const SETTINGS_STORAGE_KEY = 'gh_friends_default_page_size'
 const EXCLUSIONS_STORAGE_KEY = 'gh_friends_excluded_logins'
 const LANGUAGE_STORAGE_KEY = 'gh_friends_language'
+const FOLLOW_BACK_WINDOW_STORAGE_KEY = 'gh_friends_follow_back_days'
+const FRIEND_INACTIVE_STORAGE_KEY = 'gh_friends_friend_inactive_days'
+const RETENTION_DAYS_STORAGE_KEY = 'gh_friends_retention_days'
+const DEFAULT_FOLLOW_BACK_WINDOW_DAYS = 7
+const DEFAULT_FRIEND_INACTIVE_DAYS = 60
+const DEFAULT_RETENTION_DAYS = 90
 
 const FIXED_REPO_OWNER = 'GoXLd'
 const FIXED_REPO_NAME = 'github-friends'
@@ -61,6 +67,10 @@ const I18N = {
     failedToLoadEvents: (status) => `Failed to load events.json (${status})`,
     settingsAriaLabel: 'Open page settings',
     settingsDefaultPageSize: 'Default records shown:',
+    settingsFollowBackWindowDays: 'Not Followback threshold (days):',
+    settingsFriendInactiveDays: 'Friends inactivity threshold (days):',
+    settingsRetentionDays: 'Data/event window (days):',
+    settingsThresholdHint: 'These thresholds are local to this browser and affect UI recommendations.',
     settingsExclusions: 'Excluded users:',
     settingsAdd: 'Add',
     settingsRemove: 'Remove',
@@ -69,6 +79,9 @@ const I18N = {
     settingsInputPlaceholder: '@username',
     lastUpdate: 'Last update',
     browserLoad: 'Last browser load',
+    apiRateLimit: 'GitHub API rate limit',
+    apiRateLimitReset: 'reset',
+    apiRateLimitUnavailable: 'unavailable',
     followers: 'Followers',
     following: 'Following',
     nonReciprocal: 'Not Followback',
@@ -111,6 +124,10 @@ const I18N = {
     sectionCandidatesFriends: (days) => `Friends inactive (${days}+ days)`,
     sectionCandidatesDeleted: 'Unfollowed you and account is deleted',
     sectionFriendsCleanup: (days) => `Friends cleanup candidates (inactivity ${days}+ days)`,
+    reasonNoFollowback: (daysWaiting, thresholdDays, daysSuffix) =>
+      `No followback for ${daysWaiting.toFixed(1)} ${daysSuffix} (threshold: ${thresholdDays}+ ${daysSuffix})`,
+    reasonDeletedSignal:
+      'Matched paired unfollow signal and GitHub user check returned 404 for this account.',
     riskTitle: 'Ethical/technical risk of account restrictions',
     riskTextOne:
       'Use this script at your own risk. There is no guarantee that API calls or mass follow analysis will not trigger GitHub limits or restrictions.',
@@ -169,6 +186,10 @@ const I18N = {
     failedToLoadEvents: (status) => `Не удалось загрузить events.json (${status})`,
     settingsAriaLabel: 'Открыть настройки страницы',
     settingsDefaultPageSize: 'Показывать записей (по умолчанию):',
+    settingsFollowBackWindowDays: 'Порог Not Followback (дней):',
+    settingsFriendInactiveDays: 'Порог неактивности Friends (дней):',
+    settingsRetentionDays: 'Окно данных/событий (дней):',
+    settingsThresholdHint: 'Эти пороги локальные для браузера и влияют на рекомендации в UI.',
     settingsExclusions: 'Исключения из обработки:',
     settingsAdd: 'Добавить',
     settingsRemove: 'Убрать',
@@ -177,6 +198,9 @@ const I18N = {
     settingsInputPlaceholder: '@username',
     lastUpdate: 'Последнее обновление',
     browserLoad: 'Последняя загрузка в браузере',
+    apiRateLimit: 'GitHub API лимит',
+    apiRateLimitReset: 'сброс',
+    apiRateLimitUnavailable: 'нет данных',
     followers: 'Followers',
     following: 'Following',
     nonReciprocal: 'Невзаимные подписки',
@@ -219,6 +243,10 @@ const I18N = {
     sectionCandidatesFriends: (days) => `Friends без активности (${days}+ дней)`,
     sectionCandidatesDeleted: 'Отписался от вас и аккаунт удален',
     sectionFriendsCleanup: (days) => `Кандидаты на очистку Friends (неактивность ${days}+ дней)`,
+    reasonNoFollowback: (daysWaiting, thresholdDays, daysSuffix) =>
+      `Нет ответной подписки ${daysWaiting.toFixed(1)} ${daysSuffix} (порог: ${thresholdDays}+ ${daysSuffix})`,
+    reasonDeletedSignal:
+      'Совпали парные сигналы отписки, и проверка GitHub /users/{login} вернула 404.',
     riskTitle: 'Этический/технический риск бана',
     riskTextOne:
       'Использование этого скрипта вы выполняете полностью на свой риск. Нет гарантий, что действия с API или массовый анализ подписок не приведут к ограничениям или блокировкам.',
@@ -262,6 +290,21 @@ function getInitialDefaultPageSize() {
   }
 
   return DEFAULT_PAGE_SIZE_FALLBACK
+}
+
+function getInitialThresholdSetting(storageKey, fallbackValue) {
+  if (typeof window === 'undefined') {
+    return fallbackValue
+  }
+
+  const rawValue = window.localStorage.getItem(storageKey)
+  const parsed = Number.parseInt(rawValue ?? '', 10)
+
+  if (!Number.isNaN(parsed) && parsed > 0) {
+    return parsed
+  }
+
+  return fallbackValue
 }
 
 function normalizeLogin(rawLogin) {
@@ -337,6 +380,16 @@ function formatDays(value, i18n) {
   }
 
   return `${value.toFixed(1)} ${i18n.daysSuffix}`
+}
+
+function toDaysFromNow(dateString) {
+  const timestamp = Date.parse(dateString ?? '')
+
+  if (Number.isNaN(timestamp)) {
+    return null
+  }
+
+  return Number(((Date.now() - timestamp) / (24 * 60 * 60 * 1000)).toFixed(2))
 }
 
 function toTimestamp(value) {
@@ -420,7 +473,17 @@ function InfoTooltip({ text, label }) {
   )
 }
 
-function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSortWaiting, i18n, locale }) {
+function NonReciprocalTable({
+  users,
+  sortField,
+  sortOrder,
+  onSortTracked,
+  onSortWaiting,
+  i18n,
+  locale,
+  showReason = false,
+  thresholdDays = DEFAULT_FOLLOW_BACK_WINDOW_DAYS,
+}) {
   if (!users.length) {
     return <p className="empty-text">{i18n.emptyList}</p>
   }
@@ -447,6 +510,7 @@ function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSort
                 onClick={onSortTracked}
               />
             </th>
+            {showReason && <th>{i18n.reasonCol}</th>}
           </tr>
         </thead>
         <tbody>
@@ -459,6 +523,9 @@ function NonReciprocalTable({ users, sortField, sortOrder, onSortTracked, onSort
               </td>
               <td>{formatDays(user.daysWaiting, i18n)}</td>
               <td>{formatDate(user.firstSeenFollowingAt, locale)}</td>
+              {showReason && (
+                <td>{i18n.reasonNoFollowback(user.daysWaiting ?? 0, thresholdDays, i18n.daysSuffix)}</td>
+              )}
             </tr>
           ))}
         </tbody>
@@ -564,7 +631,8 @@ function FriendsCleanupTable({ users, thresholdDays, i18n, locale }) {
               <td>{formatDate(user.lastContributionAt, locale)}</td>
               <td>{formatDays(user.inactiveDays, i18n)}</td>
               <td>
-                {formatStaleReason(user.reason, i18n)} ({thresholdDays}+ {i18n.daysSuffix})
+                {formatStaleReason(user.reason, i18n)}: {formatDays(user.inactiveDays, i18n)} (threshold:{' '}
+                {thresholdDays}+ {i18n.daysSuffix})
               </td>
             </tr>
           ))}
@@ -587,6 +655,7 @@ function DeletedFollowerLossesTable({ events, i18n, locale }) {
             <th>{i18n.userCol}</th>
             <th>{i18n.eventCol}</th>
             <th>{i18n.statusCol}</th>
+            <th>{i18n.reasonCol}</th>
             <th>{i18n.actionCol}</th>
           </tr>
         </thead>
@@ -602,6 +671,7 @@ function DeletedFollowerLossesTable({ events, i18n, locale }) {
               <td>
                 <span className="event-badge deleted">{i18n.deletedBadge}</span>
               </td>
+              <td>{i18n.reasonDeletedSignal}</td>
               <td>{i18n.deletedAction}</td>
             </tr>
           ))}
@@ -677,6 +747,15 @@ function App() {
   const [mutualSortOrder, setMutualSortOrder] = useState('desc')
   const [eventsFilter, setEventsFilter] = useState('all')
   const [defaultPageSize, setDefaultPageSize] = useState(getInitialDefaultPageSize)
+  const [followBackWindowDays, setFollowBackWindowDays] = useState(() =>
+    getInitialThresholdSetting(FOLLOW_BACK_WINDOW_STORAGE_KEY, DEFAULT_FOLLOW_BACK_WINDOW_DAYS),
+  )
+  const [friendInactiveDays, setFriendInactiveDays] = useState(() =>
+    getInitialThresholdSetting(FRIEND_INACTIVE_STORAGE_KEY, DEFAULT_FRIEND_INACTIVE_DAYS),
+  )
+  const [retentionDays, setRetentionDays] = useState(() =>
+    getInitialThresholdSetting(RETENTION_DAYS_STORAGE_KEY, DEFAULT_RETENTION_DAYS),
+  )
   const [excludedLogins, setExcludedLogins] = useState(getInitialExcludedLogins)
   const [excludedInput, setExcludedInput] = useState('')
   const [nonReciprocalLimit, setNonReciprocalLimit] = useState(defaultPageSize)
@@ -698,9 +777,8 @@ function App() {
   }, [reports?.nonReciprocalNow, excludedSet])
 
   const filteredStaleNonReciprocalSource = useMemo(() => {
-    const list = reports?.staleCandidates ?? []
-    return list.filter((user) => !excludedSet.has(normalizeLogin(user.login)))
-  }, [reports?.staleCandidates, excludedSet])
+    return filteredNonReciprocalSource.filter((user) => (user.daysWaiting ?? 0) >= followBackWindowDays)
+  }, [filteredNonReciprocalSource, followBackWindowDays])
 
   const filteredFollowersOnlySource = useMemo(() => {
     const list = reports?.followersNotFollowingNow ?? []
@@ -713,14 +791,45 @@ function App() {
   }, [reports?.mutualFollowersNow, excludedSet])
 
   const filteredStaleFriendSource = useMemo(() => {
-    const list = reports?.staleFriendCandidates ?? []
-    return list.filter((user) => !excludedSet.has(normalizeLogin(user.login)))
-  }, [reports?.staleFriendCandidates, excludedSet])
+    return filteredMutualSource
+      .map((user) => {
+        const daysInFriendsList = user.daysInFriendsList ?? toDaysFromNow(user.firstSeenMutualAt)
+        const inactiveDays =
+          user.daysSinceLastContribution !== null && user.daysSinceLastContribution !== undefined
+            ? user.daysSinceLastContribution
+            : daysInFriendsList
+
+        return {
+          ...user,
+          inactiveDays,
+          reason:
+            user.daysSinceLastContribution === null || user.daysSinceLastContribution === undefined
+              ? 'no_contribution_data'
+              : 'inactive_contribution_window',
+        }
+      })
+      .filter((user) => (user.inactiveDays ?? 0) >= friendInactiveDays)
+      .sort((a, b) => (b.inactiveDays ?? 0) - (a.inactiveDays ?? 0))
+  }, [filteredMutualSource, friendInactiveDays])
 
   const filteredEventsSource = useMemo(() => {
     const source = Array.isArray(events) ? events : []
     return source.filter((event) => !excludedSet.has(normalizeLogin(event.login)))
   }, [events, excludedSet])
+
+  const filteredRecentEventsSource = useMemo(() => {
+    const cutoffTimestamp = Date.now() - retentionDays * 24 * 60 * 60 * 1000
+
+    return filteredEventsSource.filter((event) => {
+      const timestamp = Date.parse(event.happenedAt ?? '')
+
+      if (Number.isNaN(timestamp)) {
+        return true
+      }
+
+      return timestamp >= cutoffTimestamp
+    })
+  }, [filteredEventsSource, retentionDays])
 
   const filteredDeletedFollowerLossSource = useMemo(() => {
     const currentGeneratedAt = reports?.generatedAt
@@ -731,7 +840,7 @@ function App() {
 
     const latestByLogin = new Map()
 
-    for (const event of filteredEventsSource) {
+    for (const event of filteredRecentEventsSource) {
       if (
         event.type !== 'follower_lost' ||
         !event.isDeleted ||
@@ -751,7 +860,7 @@ function App() {
     }
 
     return [...latestByLogin.values()]
-  }, [filteredEventsSource, reports?.generatedAt])
+  }, [filteredRecentEventsSource, reports?.generatedAt])
 
   const visibleNonReciprocal = useMemo(() => {
     return sortNonReciprocal(filteredNonReciprocalSource, nonReciprocalSortField, nonReciprocalSortOrder).slice(
@@ -790,11 +899,11 @@ function App() {
   const visibleEvents = useMemo(() => {
     const filtered =
       eventsFilter === 'all'
-        ? filteredEventsSource
-        : filteredEventsSource.filter((event) => event.type === eventsFilter)
+        ? filteredRecentEventsSource
+        : filteredRecentEventsSource.filter((event) => event.type === eventsFilter)
 
     return filtered.slice(0, eventsLimit)
-  }, [filteredEventsSource, eventsFilter, eventsLimit])
+  }, [filteredRecentEventsSource, eventsFilter, eventsLimit])
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -873,6 +982,30 @@ function App() {
       return
     }
 
+    window.localStorage.setItem(FOLLOW_BACK_WINDOW_STORAGE_KEY, String(followBackWindowDays))
+  }, [followBackWindowDays])
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+
+    window.localStorage.setItem(FRIEND_INACTIVE_STORAGE_KEY, String(friendInactiveDays))
+  }, [friendInactiveDays])
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+
+    window.localStorage.setItem(RETENTION_DAYS_STORAGE_KEY, String(retentionDays))
+  }, [retentionDays])
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+
     window.localStorage.setItem(LANGUAGE_STORAGE_KEY, language)
     document.documentElement.lang = language
   }, [language])
@@ -928,11 +1061,10 @@ function App() {
 
   const counts = reports?.counts ?? {}
   const title = reports?.username ? `GitHub Friends Tracker - @${reports.username}` : 'GitHub Friends Tracker'
-  const followBackWindowDays = reports?.followBackWindowDays ?? 7
+  const rateLimit = reports?.rateLimit ?? null
   const followersMutual = filteredMutualSource.length
   const followersOnly = filteredFollowersOnlySource.length
   const nonReciprocalCount = filteredNonReciprocalSource.length
-  const friendInactiveDays = reports?.friendInactiveDays ?? 60
   const staleNonReciprocalCount = filteredStaleNonReciprocalSource.length
   const staleFriendsCount = filteredStaleFriendSource.length
   const deletedLossesCount = filteredDeletedFollowerLossSource.length
@@ -1030,6 +1162,14 @@ function App() {
           {i18n.lastUpdate}: {formatDate(reports?.generatedAt, locale)} · {i18n.browserLoad}:{' '}
           {formatDate(lastLoadedAt, locale)}
         </p>
+        <p className="hero-meta">
+          {i18n.apiRateLimit}:{' '}
+          {rateLimit
+            ? `${formatCount(rateLimit.remaining, locale)}/${formatCount(rateLimit.limit, locale)} · ${
+                i18n.apiRateLimitReset
+              }: ${formatDate(rateLimit.resetAt, locale)}`
+            : i18n.apiRateLimitUnavailable}
+        </p>
 
         {settingsOpen && (
           <section className="settings-panel">
@@ -1055,6 +1195,41 @@ function App() {
                 </select>
               </div>
             </label>
+            <label className="settings-row">
+              {i18n.settingsFollowBackWindowDays}
+              <input
+                type="number"
+                min={1}
+                value={followBackWindowDays}
+                onChange={(event) =>
+                  setFollowBackWindowDays(Math.max(1, Number.parseInt(event.target.value || '1', 10)))
+                }
+                className="settings-number-input"
+              />
+            </label>
+            <label className="settings-row">
+              {i18n.settingsFriendInactiveDays}
+              <input
+                type="number"
+                min={1}
+                value={friendInactiveDays}
+                onChange={(event) =>
+                  setFriendInactiveDays(Math.max(1, Number.parseInt(event.target.value || '1', 10)))
+                }
+                className="settings-number-input"
+              />
+            </label>
+            <label className="settings-row">
+              {i18n.settingsRetentionDays}
+              <input
+                type="number"
+                min={1}
+                value={retentionDays}
+                onChange={(event) => setRetentionDays(Math.max(1, Number.parseInt(event.target.value || '1', 10)))}
+                className="settings-number-input"
+              />
+            </label>
+            <p className="settings-note">{i18n.settingsThresholdHint}</p>
             <div className="settings-divider" />
             <label className="settings-row settings-row-stack">
               {i18n.settingsExclusions}
@@ -1233,6 +1408,8 @@ function App() {
                   onSortWaiting={() => handleNonReciprocalSort(NON_RECIPROCAL_SORT_WAITING)}
                   i18n={i18n}
                   locale={locale}
+                  showReason
+                  thresholdDays={followBackWindowDays}
                 />
                 <h3 className="sub-heading">{i18n.sectionCandidatesFriends(friendInactiveDays)}</h3>
                 <FriendsCleanupTable

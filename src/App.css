@@ -142,6 +142,16 @@
   font-family: inherit;
 }
 
+.settings-number-input {
+  width: 88px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #24292f;
+  padding: 0.24rem 0.4rem;
+  font-family: inherit;
+}
+
 .settings-language-select-wrap {
   display: inline-flex;
 }
