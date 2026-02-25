@@ -1,5 +1,46 @@
 [
   {
+    "id": "follower_gained:codebuilder0101:2026-02-25T12:32:04.629Z",
+    "type": "follower_gained",
+    "login": "codebuilder0101",
+    "htmlUrl": "https://github.com/codebuilder0101",
+    "happenedAt": "2026-02-25T12:32:04.629Z"
+  },
+  {
+    "id": "follower_lost:lxrbckl:2026-02-25T12:32:04.629Z",
+    "type": "follower_lost",
+    "login": "lxRbckl",
+    "htmlUrl": "https://github.com/lxRbckl",
+    "happenedAt": "2026-02-25T12:32:04.629Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:thaoluon:2026-02-25T12:32:04.629Z",
+    "type": "follower_lost",
+    "login": "thaoluon",
+    "htmlUrl": "https://github.com/thaoluon",
+    "happenedAt": "2026-02-25T12:32:04.629Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:adriandemeter:2026-02-25T12:32:04.629Z",
+    "type": "you_followed",
+    "login": "adriandemeter",
+    "htmlUrl": "https://github.com/adriandemeter",
+    "happenedAt": "2026-02-25T12:32:04.629Z"
+  },
+  {
+    "id": "you_unfollowed:vladimirzubc:2026-02-25T12:32:04.629Z",
+    "type": "you_unfollowed",
+    "login": "vladimirzubc",
+    "htmlUrl": "https://github.com/vladimirzubc",
+    "happenedAt": "2026-02-25T12:32:04.629Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:lxrbckl:2026-02-25T06:41:43.589Z",
     "type": "follower_gained",
     "login": "lxRbckl",
