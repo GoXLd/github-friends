@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:lxrbckl:2026-02-25T06:41:43.589Z",
+    "type": "follower_gained",
+    "login": "lxRbckl",
+    "htmlUrl": "https://github.com/lxRbckl",
+    "happenedAt": "2026-02-25T06:41:43.589Z"
+  },
+  {
+    "id": "follower_lost:d3cryptodreamer:2026-02-25T06:41:43.589Z",
+    "type": "follower_lost",
+    "login": "d3CryptoDreamer",
+    "htmlUrl": "https://github.com/d3CryptoDreamer",
+    "happenedAt": "2026-02-25T06:41:43.589Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:dayanadandachy123:2026-02-25T00:55:19.955Z",
     "type": "follower_gained",
     "login": "dayanadandachy123",
