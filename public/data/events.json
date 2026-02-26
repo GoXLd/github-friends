@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:kylemank:2026-02-26T18:33:08.671Z",
+    "type": "follower_gained",
+    "login": "kylemank",
+    "htmlUrl": "https://github.com/kylemank",
+    "happenedAt": "2026-02-26T18:33:08.671Z"
+  },
+  {
+    "id": "follower_lost:ragibalasad:2026-02-26T18:33:08.671Z",
+    "type": "follower_lost",
+    "login": "ragibalasad",
+    "htmlUrl": "https://github.com/ragibalasad",
+    "happenedAt": "2026-02-26T18:33:08.671Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:metaggdev:2026-02-26T18:33:08.671Z",
+    "type": "you_followed",
+    "login": "metaggdev",
+    "htmlUrl": "https://github.com/metaggdev",
+    "happenedAt": "2026-02-26T18:33:08.671Z"
+  },
+  {
     "id": "follower_gained:kalytamykhailo18-cyber:2026-02-26T12:32:05.268Z",
     "type": "follower_gained",
     "login": "kalytamykhailo18-cyber",
