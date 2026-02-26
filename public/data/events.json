@@ -1,5 +1,14 @@
 [
   {
+    "id": "you_unfollowed:paranoidbull:2026-02-26T06:38:17.637Z",
+    "type": "you_unfollowed",
+    "login": "ParanoidBull",
+    "htmlUrl": "https://github.com/ParanoidBull",
+    "happenedAt": "2026-02-26T06:38:17.637Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:jaydev787748:2026-02-26T00:50:03.447Z",
     "type": "follower_lost",
     "login": "jaydev787748",
