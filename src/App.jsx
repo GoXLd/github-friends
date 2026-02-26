@@ -46,6 +46,7 @@ const I18N = {
     inFriendsSinceCol: 'In Friends since',
     inactiveDaysCol: 'Inactive (days)',
     reasonCol: 'Reason',
+    confidenceCol: 'Confidence',
     lastContributeCol: 'Last contribute',
     eventTypeCol: 'Event type',
     actionsCol: 'Actions',
@@ -128,6 +129,9 @@ const I18N = {
       `No followback for ${daysWaiting.toFixed(1)} ${daysSuffix} (threshold: ${thresholdDays}+ ${daysSuffix})`,
     reasonDeletedSignal:
       'Matched paired unfollow signal and GitHub user check returned 404 for this account.',
+    confidenceLow: 'Low',
+    confidenceMedium: 'Medium',
+    confidenceHigh: 'High',
     riskTitle: 'Ethical/technical risk of account restrictions',
     riskTextOne:
       'Use this script at your own risk. There is no guarantee that API calls or mass follow analysis will not trigger GitHub limits or restrictions.',
@@ -165,6 +169,7 @@ const I18N = {
     inFriendsSinceCol: 'В списке с',
     inactiveDaysCol: 'Неактивен (дней)',
     reasonCol: 'Причина',
+    confidenceCol: 'Уверенность',
     lastContributeCol: 'Last contribute',
     eventTypeCol: 'Тип события',
     actionsCol: 'Действия',
@@ -247,6 +252,9 @@ const I18N = {
       `Нет ответной подписки ${daysWaiting.toFixed(1)} ${daysSuffix} (порог: ${thresholdDays}+ ${daysSuffix})`,
     reasonDeletedSignal:
       'Совпали парные сигналы отписки, и проверка GitHub /users/{login} вернула 404.',
+    confidenceLow: 'Низкая',
+    confidenceMedium: 'Средняя',
+    confidenceHigh: 'Высокая',
     riskTitle: 'Этический/технический риск бана',
     riskTextOne:
       'Использование этого скрипта вы выполняете полностью на свой риск. Нет гарантий, что действия с API или массовый анализ подписок не приведут к ограничениям или блокировкам.',
@@ -397,6 +405,55 @@ function toTimestamp(value) {
   return Number.isNaN(timestamp) ? 0 : timestamp
 }
 
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value))
+}
+
+function getNonReciprocalConfidenceScore(daysWaiting, thresholdDays) {
+  const safeDaysWaiting = Math.max(0, Number(daysWaiting) || 0)
+  const safeThreshold = Math.max(1, Number(thresholdDays) || 1)
+  const ratio = safeDaysWaiting / safeThreshold
+  return clamp(0.45 + Math.min(0.45, Math.max(0, ratio - 1) * 0.18), 0.45, 0.9)
+}
+
+function getFriendCleanupConfidenceScore(inactiveDays, thresholdDays, reason) {
+  const safeInactiveDays = Math.max(0, Number(inactiveDays) || 0)
+  const safeThreshold = Math.max(1, Number(thresholdDays) || 1)
+  const ratio = safeInactiveDays / safeThreshold
+  const base = reason === 'inactive_contribution_window' ? 0.6 : 0.5
+  const growth = reason === 'inactive_contribution_window' ? 0.35 : 0.3
+  return clamp(base + Math.min(growth, Math.max(0, ratio - 1) * 0.14), base, 0.95)
+}
+
+function getDeletedConfidenceScore() {
+  return 0.95
+}
+
+function getConfidenceTone(score) {
+  if (score >= 0.85) {
+    return 'high'
+  }
+
+  if (score >= 0.65) {
+    return 'medium'
+  }
+
+  return 'low'
+}
+
+function formatConfidence(score, i18n) {
+  if (score === null || score === undefined) {
+    return '—'
+  }
+
+  const rounded = Math.round(score * 100)
+  const tone = getConfidenceTone(score)
+  const label =
+    tone === 'high' ? i18n.confidenceHigh : tone === 'medium' ? i18n.confidenceMedium : i18n.confidenceLow
+
+  return `${rounded}% (${label})`
+}
+
 function sortNonReciprocal(users, field, order) {
   const multiplier = order === 'asc' ? 1 : -1
 
@@ -482,6 +539,7 @@ function NonReciprocalTable({
   i18n,
   locale,
   showReason = false,
+  showConfidence = false,
   thresholdDays = DEFAULT_FOLLOW_BACK_WINDOW_DAYS,
 }) {
   if (!users.length) {
@@ -511,6 +569,7 @@ function NonReciprocalTable({
               />
             </th>
             {showReason && <th>{i18n.reasonCol}</th>}
+            {showConfidence && <th>{i18n.confidenceCol}</th>}
           </tr>
         </thead>
         <tbody>
@@ -525,6 +584,13 @@ function NonReciprocalTable({
               <td>{formatDate(user.firstSeenFollowingAt, locale)}</td>
               {showReason && (
                 <td>{i18n.reasonNoFollowback(user.daysWaiting ?? 0, thresholdDays, i18n.daysSuffix)}</td>
+              )}
+              {showConfidence && (
+                <td>
+                  <span className={`confidence-badge ${getConfidenceTone(user.confidenceScore ?? 0)}`}>
+                    {formatConfidence(user.confidenceScore, i18n)}
+                  </span>
+                </td>
               )}
             </tr>
           ))}
@@ -617,6 +683,7 @@ function FriendsCleanupTable({ users, thresholdDays, i18n, locale }) {
             <th>{i18n.lastContributeCol}</th>
             <th>{i18n.inactiveDaysCol}</th>
             <th>{i18n.reasonCol}</th>
+            <th>{i18n.confidenceCol}</th>
           </tr>
         </thead>
         <tbody>
@@ -633,6 +700,11 @@ function FriendsCleanupTable({ users, thresholdDays, i18n, locale }) {
               <td>
                 {formatStaleReason(user.reason, i18n)}: {formatDays(user.inactiveDays, i18n)} (threshold:{' '}
                 {thresholdDays}+ {i18n.daysSuffix})
+              </td>
+              <td>
+                <span className={`confidence-badge ${getConfidenceTone(user.confidenceScore ?? 0)}`}>
+                  {formatConfidence(user.confidenceScore, i18n)}
+                </span>
               </td>
             </tr>
           ))}
@@ -656,6 +728,7 @@ function DeletedFollowerLossesTable({ events, i18n, locale }) {
             <th>{i18n.eventCol}</th>
             <th>{i18n.statusCol}</th>
             <th>{i18n.reasonCol}</th>
+            <th>{i18n.confidenceCol}</th>
             <th>{i18n.actionCol}</th>
           </tr>
         </thead>
@@ -672,6 +745,11 @@ function DeletedFollowerLossesTable({ events, i18n, locale }) {
                 <span className="event-badge deleted">{i18n.deletedBadge}</span>
               </td>
               <td>{i18n.reasonDeletedSignal}</td>
+              <td>
+                <span className={`confidence-badge ${getConfidenceTone(event.confidenceScore ?? 0)}`}>
+                  {formatConfidence(event.confidenceScore, i18n)}
+                </span>
+              </td>
               <td>{i18n.deletedAction}</td>
             </tr>
           ))}
@@ -777,7 +855,12 @@ function App() {
   }, [reports?.nonReciprocalNow, excludedSet])
 
   const filteredStaleNonReciprocalSource = useMemo(() => {
-    return filteredNonReciprocalSource.filter((user) => (user.daysWaiting ?? 0) >= followBackWindowDays)
+    return filteredNonReciprocalSource
+      .filter((user) => (user.daysWaiting ?? 0) >= followBackWindowDays)
+      .map((user) => ({
+        ...user,
+        confidenceScore: getNonReciprocalConfidenceScore(user.daysWaiting, followBackWindowDays),
+      }))
   }, [filteredNonReciprocalSource, followBackWindowDays])
 
   const filteredFollowersOnlySource = useMemo(() => {
@@ -806,6 +889,13 @@ function App() {
             user.daysSinceLastContribution === null || user.daysSinceLastContribution === undefined
               ? 'no_contribution_data'
               : 'inactive_contribution_window',
+          confidenceScore: getFriendCleanupConfidenceScore(
+            inactiveDays,
+            friendInactiveDays,
+            user.daysSinceLastContribution === null || user.daysSinceLastContribution === undefined
+              ? 'no_contribution_data'
+              : 'inactive_contribution_window',
+          ),
         }
       })
       .filter((user) => (user.inactiveDays ?? 0) >= friendInactiveDays)
@@ -859,7 +949,10 @@ function App() {
       latestByLogin.set(key, event)
     }
 
-    return [...latestByLogin.values()]
+    return [...latestByLogin.values()].map((event) => ({
+      ...event,
+      confidenceScore: getDeletedConfidenceScore(),
+    }))
   }, [filteredRecentEventsSource, reports?.generatedAt])
 
   const visibleNonReciprocal = useMemo(() => {
@@ -1409,6 +1502,7 @@ function App() {
                   i18n={i18n}
                   locale={locale}
                   showReason
+                  showConfidence
                   thresholdDays={followBackWindowDays}
                 />
                 <h3 className="sub-heading">{i18n.sectionCandidatesFriends(friendInactiveDays)}</h3>
