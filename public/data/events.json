@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:aminkrbasi:2026-02-27T18:31:11.055Z",
+    "type": "follower_gained",
+    "login": "aminkrbasi",
+    "htmlUrl": "https://github.com/aminkrbasi",
+    "happenedAt": "2026-02-27T18:31:11.055Z"
+  },
+  {
+    "id": "follower_gained:tarcoxy:2026-02-27T18:31:11.055Z",
+    "type": "follower_gained",
+    "login": "tarcoxy",
+    "htmlUrl": "https://github.com/tarcoxy",
+    "happenedAt": "2026-02-27T18:31:11.055Z"
+  },
+  {
+    "id": "you_followed:core-euler:2026-02-27T18:31:11.055Z",
+    "type": "you_followed",
+    "login": "core-euler",
+    "htmlUrl": "https://github.com/core-euler",
+    "happenedAt": "2026-02-27T18:31:11.055Z"
+  },
+  {
+    "id": "you_unfollowed:okoloboga:2026-02-27T18:31:11.055Z",
+    "type": "you_unfollowed",
+    "login": "okoloboga",
+    "htmlUrl": "https://github.com/okoloboga",
+    "happenedAt": "2026-02-27T18:31:11.055Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:dracoloveforall-crypto:2026-02-27T12:31:27.196Z",
     "type": "follower_gained",
     "login": "dracoloveforall-crypto",
