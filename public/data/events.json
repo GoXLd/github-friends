@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:maziathecoder:2026-02-28T12:30:33.686Z",
+    "type": "follower_gained",
+    "login": "maziathecoder",
+    "htmlUrl": "https://github.com/maziathecoder",
+    "happenedAt": "2026-02-28T12:30:33.686Z"
+  },
+  {
+    "id": "follower_gained:rickmanbrown:2026-02-28T12:30:33.686Z",
+    "type": "follower_gained",
+    "login": "RickmanBrown",
+    "htmlUrl": "https://github.com/RickmanBrown",
+    "happenedAt": "2026-02-28T12:30:33.686Z"
+  },
+  {
+    "id": "follower_lost:dayanadandachy123:2026-02-28T12:30:33.686Z",
+    "type": "follower_lost",
+    "login": "dayanadandachy123",
+    "htmlUrl": "https://github.com/dayanadandachy123",
+    "happenedAt": "2026-02-28T12:30:33.686Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:paloma-b-brito:2026-02-28T12:30:33.686Z",
+    "type": "follower_lost",
+    "login": "Paloma-B-Brito",
+    "htmlUrl": "https://github.com/Paloma-B-Brito",
+    "happenedAt": "2026-02-28T12:30:33.686Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:rickmanbrown:2026-02-28T12:30:33.686Z",
+    "type": "you_followed",
+    "login": "RickmanBrown",
+    "htmlUrl": "https://github.com/RickmanBrown",
+    "happenedAt": "2026-02-28T12:30:33.686Z"
+  },
+  {
+    "id": "you_unfollowed:paloma-b-brito:2026-02-28T12:30:33.686Z",
+    "type": "you_unfollowed",
+    "login": "Paloma-B-Brito",
+    "htmlUrl": "https://github.com/Paloma-B-Brito",
+    "happenedAt": "2026-02-28T12:30:33.686Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:scorpiofento:2026-02-28T06:30:20.610Z",
     "type": "follower_gained",
     "login": "ScorpioFento",
