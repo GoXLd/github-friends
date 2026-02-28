@@ -1,5 +1,46 @@
 [
   {
+    "id": "follower_gained:arjtriv:2026-02-28T00:46:29.832Z",
+    "type": "follower_gained",
+    "login": "arjtriv",
+    "htmlUrl": "https://github.com/arjtriv",
+    "happenedAt": "2026-02-28T00:46:29.832Z"
+  },
+  {
+    "id": "follower_lost:sincostin:2026-02-28T00:46:29.832Z",
+    "type": "follower_lost",
+    "login": "sincostin",
+    "htmlUrl": "https://github.com/sincostin",
+    "happenedAt": "2026-02-28T00:46:29.832Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:riversidecowgirl:2026-02-28T00:46:29.832Z",
+    "type": "you_followed",
+    "login": "riversidecowgirl",
+    "htmlUrl": "https://github.com/riversidecowgirl",
+    "happenedAt": "2026-02-28T00:46:29.832Z"
+  },
+  {
+    "id": "you_unfollowed:baileybitez:2026-02-28T00:46:29.832Z",
+    "type": "you_unfollowed",
+    "login": "baileybitez",
+    "htmlUrl": "https://github.com/baileybitez",
+    "happenedAt": "2026-02-28T00:46:29.832Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:sincostin:2026-02-28T00:46:29.832Z",
+    "type": "you_unfollowed",
+    "login": "sincostin",
+    "htmlUrl": "https://github.com/sincostin",
+    "happenedAt": "2026-02-28T00:46:29.832Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:aminkrbasi:2026-02-27T18:31:11.055Z",
     "type": "follower_gained",
     "login": "aminkrbasi",
