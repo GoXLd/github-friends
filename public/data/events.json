@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:scorpiofento:2026-02-28T06:30:20.610Z",
+    "type": "follower_gained",
+    "login": "ScorpioFento",
+    "htmlUrl": "https://github.com/ScorpioFento",
+    "happenedAt": "2026-02-28T06:30:20.610Z"
+  },
+  {
+    "id": "follower_gained:varkrlyie:2026-02-28T06:30:20.610Z",
+    "type": "follower_gained",
+    "login": "varkrlyie",
+    "htmlUrl": "https://github.com/varkrlyie",
+    "happenedAt": "2026-02-28T06:30:20.610Z"
+  },
+  {
+    "id": "follower_lost:arn-c0de:2026-02-28T06:30:20.610Z",
+    "type": "follower_lost",
+    "login": "arn-c0de",
+    "htmlUrl": "https://github.com/arn-c0de",
+    "happenedAt": "2026-02-28T06:30:20.610Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:spokeisherez:2026-02-28T06:30:20.610Z",
+    "type": "follower_lost",
+    "login": "spokeisherez",
+    "htmlUrl": "https://github.com/spokeisherez",
+    "happenedAt": "2026-02-28T06:30:20.610Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:puppyprincessplush:2026-02-28T06:30:20.610Z",
+    "type": "you_followed",
+    "login": "puppyprincessplush",
+    "htmlUrl": "https://github.com/puppyprincessplush",
+    "happenedAt": "2026-02-28T06:30:20.610Z"
+  },
+  {
+    "id": "you_unfollowed:robotslop:2026-02-28T06:30:20.610Z",
+    "type": "you_unfollowed",
+    "login": "robotslop",
+    "htmlUrl": "https://github.com/robotslop",
+    "happenedAt": "2026-02-28T06:30:20.610Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:arjtriv:2026-02-28T00:46:29.832Z",
     "type": "follower_gained",
     "login": "arjtriv",
