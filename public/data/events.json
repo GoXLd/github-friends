@@ -1,5 +1,71 @@
 [
   {
+    "id": "follower_gained:chuckknasty:2026-03-01T18:29:40.467Z",
+    "type": "follower_gained",
+    "login": "chuckknasty",
+    "htmlUrl": "https://github.com/chuckknasty",
+    "happenedAt": "2026-03-01T18:29:40.467Z"
+  },
+  {
+    "id": "follower_gained:oraclebrain:2026-03-01T18:29:40.467Z",
+    "type": "follower_gained",
+    "login": "OracleBrain",
+    "htmlUrl": "https://github.com/OracleBrain",
+    "happenedAt": "2026-03-01T18:29:40.467Z"
+  },
+  {
+    "id": "follower_lost:brandonsueur:2026-03-01T18:29:40.467Z",
+    "type": "follower_lost",
+    "login": "brandonsueur",
+    "htmlUrl": "https://github.com/brandonsueur",
+    "happenedAt": "2026-03-01T18:29:40.467Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:caryfles:2026-03-01T18:29:40.467Z",
+    "type": "follower_lost",
+    "login": "caryfles",
+    "htmlUrl": "https://github.com/caryfles",
+    "happenedAt": "2026-03-01T18:29:40.467Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:fertwis:2026-03-01T18:29:40.467Z",
+    "type": "follower_lost",
+    "login": "fertwis",
+    "htmlUrl": "https://github.com/fertwis",
+    "happenedAt": "2026-03-01T18:29:40.467Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:weirdlone:2026-03-01T18:29:40.467Z",
+    "type": "follower_lost",
+    "login": "weirdlone",
+    "htmlUrl": "https://github.com/weirdlone",
+    "happenedAt": "2026-03-01T18:29:40.467Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:creeiby:2026-03-01T18:29:40.467Z",
+    "type": "you_followed",
+    "login": "creeIby",
+    "htmlUrl": "https://github.com/creeIby",
+    "happenedAt": "2026-03-01T18:29:40.467Z"
+  },
+  {
+    "id": "you_unfollowed:adamsappie:2026-03-01T18:29:40.467Z",
+    "type": "you_unfollowed",
+    "login": "adamsappIe",
+    "htmlUrl": "https://github.com/adamsappIe",
+    "happenedAt": "2026-03-01T18:29:40.467Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:deviousduoz:2026-03-01T12:30:49.362Z",
     "type": "follower_gained",
     "login": "deviousduoz",
