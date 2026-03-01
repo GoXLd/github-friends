@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:deviousduoz:2026-03-01T12:30:49.362Z",
+    "type": "follower_gained",
+    "login": "deviousduoz",
+    "htmlUrl": "https://github.com/deviousduoz",
+    "happenedAt": "2026-03-01T12:30:49.362Z"
+  },
+  {
+    "id": "follower_gained:sungodnlka:2026-03-01T12:30:49.362Z",
+    "type": "follower_gained",
+    "login": "SUNGODNlKA",
+    "htmlUrl": "https://github.com/SUNGODNlKA",
+    "happenedAt": "2026-03-01T12:30:49.362Z"
+  },
+  {
+    "id": "follower_lost:joyboynlka:2026-03-01T12:30:49.362Z",
+    "type": "follower_lost",
+    "login": "JOYBOYNlKA",
+    "htmlUrl": "https://github.com/JOYBOYNlKA",
+    "happenedAt": "2026-03-01T12:30:49.362Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:fredlynsy:2026-02-28T18:29:44.957Z",
     "type": "follower_gained",
     "login": "fredlynsy",
