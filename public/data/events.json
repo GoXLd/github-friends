@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:marcoborto2921:2026-03-02T18:31:31.762Z",
+    "type": "follower_gained",
+    "login": "marcoBorto2921",
+    "htmlUrl": "https://github.com/marcoBorto2921",
+    "happenedAt": "2026-03-02T18:31:31.762Z"
+  },
+  {
+    "id": "follower_lost:gerdwyne:2026-03-02T18:31:31.762Z",
+    "type": "follower_lost",
+    "login": "gerdwyne",
+    "htmlUrl": "https://github.com/gerdwyne",
+    "happenedAt": "2026-03-02T18:31:31.762Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:yehorsamafalov:2026-03-02T18:31:31.762Z",
+    "type": "you_followed",
+    "login": "YehorSamafalov",
+    "htmlUrl": "https://github.com/YehorSamafalov",
+    "happenedAt": "2026-03-02T18:31:31.762Z"
+  },
+  {
+    "id": "you_unfollowed:m-o0o-m:2026-03-02T18:31:31.762Z",
+    "type": "you_unfollowed",
+    "login": "M-O0O-M",
+    "htmlUrl": "https://github.com/M-O0O-M",
+    "happenedAt": "2026-03-02T18:31:31.762Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:sadaqhassan:2026-03-02T12:31:36.636Z",
     "type": "follower_gained",
     "login": "sadaqhassan",
