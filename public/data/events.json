@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:sadaqhassan:2026-03-02T12:31:36.636Z",
+    "type": "follower_gained",
+    "login": "sadaqhassan",
+    "htmlUrl": "https://github.com/sadaqhassan",
+    "happenedAt": "2026-03-02T12:31:36.636Z"
+  },
+  {
+    "id": "you_followed:fjshkun:2026-03-02T12:31:36.636Z",
+    "type": "you_followed",
+    "login": "fjshkun",
+    "htmlUrl": "https://github.com/fjshkun",
+    "happenedAt": "2026-03-02T12:31:36.636Z"
+  },
+  {
+    "id": "you_unfollowed:leoxien:2026-03-02T12:31:36.636Z",
+    "type": "you_unfollowed",
+    "login": "leoxien",
+    "htmlUrl": "https://github.com/leoxien",
+    "happenedAt": "2026-03-02T12:31:36.636Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:nguyendinson:2026-03-02T06:36:59.315Z",
     "type": "follower_gained",
     "login": "nguyendinson",
