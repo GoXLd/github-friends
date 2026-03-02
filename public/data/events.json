@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:nguyendinson:2026-03-02T06:36:59.315Z",
+    "type": "follower_gained",
+    "login": "nguyendinson",
+    "htmlUrl": "https://github.com/nguyendinson",
+    "happenedAt": "2026-03-02T06:36:59.315Z"
+  },
+  {
+    "id": "follower_lost:vladyslavmahdych:2026-03-02T06:36:59.315Z",
+    "type": "follower_lost",
+    "login": "vladyslavmahdych",
+    "htmlUrl": "https://github.com/vladyslavmahdych",
+    "happenedAt": "2026-03-02T06:36:59.315Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:nguyendinson:2026-03-02T06:36:59.315Z",
+    "type": "you_followed",
+    "login": "nguyendinson",
+    "htmlUrl": "https://github.com/nguyendinson",
+    "happenedAt": "2026-03-02T06:36:59.315Z"
+  },
+  {
+    "id": "you_followed:pizzabitess:2026-03-02T06:36:59.315Z",
+    "type": "you_followed",
+    "login": "pizzabitess",
+    "htmlUrl": "https://github.com/pizzabitess",
+    "happenedAt": "2026-03-02T06:36:59.315Z"
+  },
+  {
+    "id": "you_unfollowed:trashppanda:2026-03-02T06:36:59.315Z",
+    "type": "you_unfollowed",
+    "login": "TRASHPPANDA",
+    "htmlUrl": "https://github.com/TRASHPPANDA",
+    "happenedAt": "2026-03-02T06:36:59.315Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:vladyslavmahdych:2026-03-02T06:36:59.315Z",
+    "type": "you_unfollowed",
+    "login": "vladyslavmahdych",
+    "htmlUrl": "https://github.com/vladyslavmahdych",
+    "happenedAt": "2026-03-02T06:36:59.315Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "you_unfollowed:0xc0ded0d0:2026-03-02T00:51:57.690Z",
     "type": "you_unfollowed",
     "login": "0xC0DED0D0",
