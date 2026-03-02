@@ -1,5 +1,41 @@
 [
   {
+    "id": "you_unfollowed:0xc0ded0d0:2026-03-02T00:51:57.690Z",
+    "type": "you_unfollowed",
+    "login": "0xC0DED0D0",
+    "htmlUrl": "https://github.com/0xC0DED0D0",
+    "happenedAt": "2026-03-02T00:51:57.690Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:18keagle:2026-03-02T00:51:57.690Z",
+    "type": "you_unfollowed",
+    "login": "18KEagle",
+    "htmlUrl": "https://github.com/18KEagle",
+    "happenedAt": "2026-03-02T00:51:57.690Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:1minds3t:2026-03-02T00:51:57.690Z",
+    "type": "you_unfollowed",
+    "login": "1minds3t",
+    "htmlUrl": "https://github.com/1minds3t",
+    "happenedAt": "2026-03-02T00:51:57.690Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:4ian:2026-03-02T00:51:57.690Z",
+    "type": "you_unfollowed",
+    "login": "4ian",
+    "htmlUrl": "https://github.com/4ian",
+    "happenedAt": "2026-03-02T00:51:57.690Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:chuckknasty:2026-03-01T18:29:40.467Z",
     "type": "follower_gained",
     "login": "chuckknasty",
