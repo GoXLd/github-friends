@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:jonasarai:2026-03-04T18:31:45.484Z",
+    "type": "you_followed",
+    "login": "jonasarai",
+    "htmlUrl": "https://github.com/jonasarai",
+    "happenedAt": "2026-03-04T18:31:45.484Z"
+  },
+  {
+    "id": "you_unfollowed:dadiloveu:2026-03-04T18:31:45.484Z",
+    "type": "you_unfollowed",
+    "login": "dadiloveu",
+    "htmlUrl": "https://github.com/dadiloveu",
+    "happenedAt": "2026-03-04T18:31:45.484Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ben-scr:2026-03-04T12:31:22.891Z",
     "type": "follower_gained",
     "login": "Ben-Scr",
