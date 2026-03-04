@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:adeptailabs:2026-03-04T00:50:24.094Z",
+    "type": "follower_gained",
+    "login": "AdeptAILabs",
+    "htmlUrl": "https://github.com/AdeptAILabs",
+    "happenedAt": "2026-03-04T00:50:24.094Z"
+  },
+  {
+    "id": "follower_lost:materaclub:2026-03-04T00:50:24.094Z",
+    "type": "follower_lost",
+    "login": "MateraClub",
+    "htmlUrl": "https://github.com/MateraClub",
+    "happenedAt": "2026-03-04T00:50:24.094Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:adeptailabs:2026-03-04T00:50:24.094Z",
+    "type": "you_followed",
+    "login": "AdeptAILabs",
+    "htmlUrl": "https://github.com/AdeptAILabs",
+    "happenedAt": "2026-03-04T00:50:24.094Z"
+  },
+  {
+    "id": "you_followed:hetaliacanada:2026-03-04T00:50:24.094Z",
+    "type": "you_followed",
+    "login": "hetaliacanada",
+    "htmlUrl": "https://github.com/hetaliacanada",
+    "happenedAt": "2026-03-04T00:50:24.094Z"
+  },
+  {
+    "id": "you_unfollowed:materaclub:2026-03-04T00:50:24.094Z",
+    "type": "you_unfollowed",
+    "login": "MateraClub",
+    "htmlUrl": "https://github.com/MateraClub",
+    "happenedAt": "2026-03-04T00:50:24.094Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:pettybunny:2026-03-04T00:50:24.094Z",
+    "type": "you_unfollowed",
+    "login": "pettybunny",
+    "htmlUrl": "https://github.com/pettybunny",
+    "happenedAt": "2026-03-04T00:50:24.094Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:cecilcroc:2026-03-03T18:31:54.265Z",
     "type": "follower_gained",
     "login": "cecilcroc",
