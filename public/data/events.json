@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:vodailocz:2026-03-04T06:31:32.054Z",
+    "type": "follower_lost",
+    "login": "VoDaiLocz",
+    "htmlUrl": "https://github.com/VoDaiLocz",
+    "happenedAt": "2026-03-04T06:31:32.054Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:adeptailabs:2026-03-04T00:50:24.094Z",
     "type": "follower_gained",
     "login": "AdeptAILabs",
