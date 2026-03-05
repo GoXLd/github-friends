@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:applsaufc:2026-03-05T12:31:49.279Z",
+    "type": "you_followed",
+    "login": "applsaufc",
+    "htmlUrl": "https://github.com/applsaufc",
+    "happenedAt": "2026-03-05T12:31:49.279Z"
+  },
+  {
+    "id": "you_unfollowed:aqqlesauxe:2026-03-05T12:31:49.279Z",
+    "type": "you_unfollowed",
+    "login": "aqqlesauxe",
+    "htmlUrl": "https://github.com/aqqlesauxe",
+    "happenedAt": "2026-03-05T12:31:49.279Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:rashmiwijemanna:2026-03-05T06:33:40.068Z",
     "type": "follower_lost",
     "login": "rashmiwijemanna",
