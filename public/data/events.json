@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:wenzhang1oo5:2026-03-06T12:31:19.508Z",
+    "type": "follower_gained",
+    "login": "wenzhang1oo5",
+    "htmlUrl": "https://github.com/wenzhang1oo5",
+    "happenedAt": "2026-03-06T12:31:19.508Z"
+  },
+  {
+    "id": "follower_lost:devx950415:2026-03-06T12:31:19.508Z",
+    "type": "follower_lost",
+    "login": "devX950415",
+    "htmlUrl": "https://github.com/devX950415",
+    "happenedAt": "2026-03-06T12:31:19.508Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:fredhusne:2026-03-06T00:54:52.952Z",
     "type": "follower_gained",
     "login": "Fredhusne",
