@@ -1,5 +1,101 @@
 [
   {
+    "id": "follower_gained:fredhusne:2026-03-06T00:54:52.952Z",
+    "type": "follower_gained",
+    "login": "Fredhusne",
+    "htmlUrl": "https://github.com/Fredhusne",
+    "happenedAt": "2026-03-06T00:54:52.952Z"
+  },
+  {
+    "id": "follower_gained:hemolyticinjector:2026-03-06T00:54:52.952Z",
+    "type": "follower_gained",
+    "login": "hemolyticinjector",
+    "htmlUrl": "https://github.com/hemolyticinjector",
+    "happenedAt": "2026-03-06T00:54:52.952Z"
+  },
+  {
+    "id": "follower_gained:jeffyonk:2026-03-06T00:54:52.952Z",
+    "type": "follower_gained",
+    "login": "jeffyonk",
+    "htmlUrl": "https://github.com/jeffyonk",
+    "happenedAt": "2026-03-06T00:54:52.952Z"
+  },
+  {
+    "id": "follower_gained:jeniflery:2026-03-06T00:54:52.952Z",
+    "type": "follower_gained",
+    "login": "jeniflery",
+    "htmlUrl": "https://github.com/jeniflery",
+    "happenedAt": "2026-03-06T00:54:52.952Z"
+  },
+  {
+    "id": "follower_gained:riseyuka:2026-03-06T00:54:52.952Z",
+    "type": "follower_gained",
+    "login": "riseyuka",
+    "htmlUrl": "https://github.com/riseyuka",
+    "happenedAt": "2026-03-06T00:54:52.952Z"
+  },
+  {
+    "id": "follower_gained:serhatbula:2026-03-06T00:54:52.952Z",
+    "type": "follower_gained",
+    "login": "serhatbula",
+    "htmlUrl": "https://github.com/serhatbula",
+    "happenedAt": "2026-03-06T00:54:52.952Z"
+  },
+  {
+    "id": "follower_lost:gorotet:2026-03-06T00:54:52.952Z",
+    "type": "follower_lost",
+    "login": "Gorotet",
+    "htmlUrl": "https://github.com/Gorotet",
+    "happenedAt": "2026-03-06T00:54:52.952Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:jackoye:2026-03-06T00:54:52.952Z",
+    "type": "follower_lost",
+    "login": "jackoye",
+    "htmlUrl": "https://github.com/jackoye",
+    "happenedAt": "2026-03-06T00:54:52.952Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:loreius:2026-03-06T00:54:52.952Z",
+    "type": "follower_lost",
+    "login": "loreius",
+    "htmlUrl": "https://github.com/loreius",
+    "happenedAt": "2026-03-06T00:54:52.952Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:nerywine:2026-03-06T00:54:52.952Z",
+    "type": "follower_lost",
+    "login": "nerywine",
+    "htmlUrl": "https://github.com/nerywine",
+    "happenedAt": "2026-03-06T00:54:52.952Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:pabwinner:2026-03-06T00:54:52.952Z",
+    "type": "follower_lost",
+    "login": "pabwinner",
+    "htmlUrl": "https://github.com/pabwinner",
+    "happenedAt": "2026-03-06T00:54:52.952Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:panyster:2026-03-06T00:54:52.952Z",
+    "type": "follower_lost",
+    "login": "panyster",
+    "htmlUrl": "https://github.com/panyster",
+    "happenedAt": "2026-03-06T00:54:52.952Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:lokitore:2026-03-05T18:53:37.231Z",
     "type": "follower_gained",
     "login": "lokitore",
