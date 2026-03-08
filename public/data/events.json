@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:unizuka22:2026-03-08T18:29:52.464Z",
+    "type": "follower_gained",
+    "login": "Unizuka22",
+    "htmlUrl": "https://github.com/Unizuka22",
+    "happenedAt": "2026-03-08T18:29:52.464Z"
+  },
+  {
+    "id": "follower_lost:erenjugs:2026-03-08T18:29:52.464Z",
+    "type": "follower_lost",
+    "login": "erenjugs",
+    "htmlUrl": "https://github.com/erenjugs",
+    "happenedAt": "2026-03-08T18:29:52.464Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:unizuka22:2026-03-08T18:29:52.464Z",
+    "type": "you_followed",
+    "login": "Unizuka22",
+    "htmlUrl": "https://github.com/Unizuka22",
+    "happenedAt": "2026-03-08T18:29:52.464Z"
+  },
+  {
+    "id": "you_unfollowed:erenjugs:2026-03-08T18:29:52.464Z",
+    "type": "you_unfollowed",
+    "login": "erenjugs",
+    "htmlUrl": "https://github.com/erenjugs",
+    "happenedAt": "2026-03-08T18:29:52.464Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:chahe-dridi:2026-03-08T06:30:57.347Z",
     "type": "follower_gained",
     "login": "chahe-dridi",
