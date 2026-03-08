@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:chahe-dridi:2026-03-08T06:30:57.347Z",
+    "type": "follower_gained",
+    "login": "chahe-dridi",
+    "htmlUrl": "https://github.com/chahe-dridi",
+    "happenedAt": "2026-03-08T06:30:57.347Z"
+  },
+  {
+    "id": "follower_lost:beytekindavut:2026-03-08T06:30:57.347Z",
+    "type": "follower_lost",
+    "login": "beytekindavut",
+    "htmlUrl": "https://github.com/beytekindavut",
+    "happenedAt": "2026-03-08T06:30:57.347Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:396m6:2026-03-08T00:52:54.083Z",
     "type": "follower_gained",
     "login": "396m6",
