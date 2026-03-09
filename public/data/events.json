@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:cryptoaur4x:2026-03-09T00:52:42.686Z",
+    "type": "follower_gained",
+    "login": "cryptoAur4x",
+    "htmlUrl": "https://github.com/cryptoAur4x",
+    "happenedAt": "2026-03-09T00:52:42.686Z"
+  },
+  {
+    "id": "follower_lost:wenteris:2026-03-09T00:52:42.686Z",
+    "type": "follower_lost",
+    "login": "wenteris",
+    "htmlUrl": "https://github.com/wenteris",
+    "happenedAt": "2026-03-09T00:52:42.686Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:cryptoaur4x:2026-03-09T00:52:42.686Z",
+    "type": "you_followed",
+    "login": "cryptoAur4x",
+    "htmlUrl": "https://github.com/cryptoAur4x",
+    "happenedAt": "2026-03-09T00:52:42.686Z"
+  },
+  {
+    "id": "you_unfollowed:wenteris:2026-03-09T00:52:42.686Z",
+    "type": "you_unfollowed",
+    "login": "wenteris",
+    "htmlUrl": "https://github.com/wenteris",
+    "happenedAt": "2026-03-09T00:52:42.686Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:unizuka22:2026-03-08T18:29:52.464Z",
     "type": "follower_gained",
     "login": "Unizuka22",
