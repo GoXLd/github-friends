@@ -1,5 +1,77 @@
 [
   {
+    "id": "follower_lost:fredlynsy:2026-03-10T12:31:34.477Z",
+    "type": "follower_lost",
+    "login": "fredlynsy",
+    "htmlUrl": "https://github.com/fredlynsy",
+    "happenedAt": "2026-03-10T12:31:34.477Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:gyororo:2026-03-10T12:31:34.477Z",
+    "type": "follower_lost",
+    "login": "gyororo",
+    "htmlUrl": "https://github.com/gyororo",
+    "happenedAt": "2026-03-10T12:31:34.477Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:jebsyns:2026-03-10T12:31:34.477Z",
+    "type": "follower_lost",
+    "login": "jebsyns",
+    "htmlUrl": "https://github.com/jebsyns",
+    "happenedAt": "2026-03-10T12:31:34.477Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:nelokusa:2026-03-10T12:31:34.477Z",
+    "type": "follower_lost",
+    "login": "nelokusa",
+    "htmlUrl": "https://github.com/nelokusa",
+    "happenedAt": "2026-03-10T12:31:34.477Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:neyokata:2026-03-10T12:31:34.477Z",
+    "type": "follower_lost",
+    "login": "neyokata",
+    "htmlUrl": "https://github.com/neyokata",
+    "happenedAt": "2026-03-10T12:31:34.477Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:senoviens:2026-03-10T12:31:34.477Z",
+    "type": "follower_lost",
+    "login": "senoviens",
+    "htmlUrl": "https://github.com/senoviens",
+    "happenedAt": "2026-03-10T12:31:34.477Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:yakinosy:2026-03-10T12:31:34.477Z",
+    "type": "follower_lost",
+    "login": "yakinosy",
+    "htmlUrl": "https://github.com/yakinosy",
+    "happenedAt": "2026-03-10T12:31:34.477Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:zucklys:2026-03-10T12:31:34.477Z",
+    "type": "follower_lost",
+    "login": "zucklys",
+    "htmlUrl": "https://github.com/zucklys",
+    "happenedAt": "2026-03-10T12:31:34.477Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:rose-field:2026-03-10T00:48:03.683Z",
     "type": "follower_gained",
     "login": "Rose-Field",
