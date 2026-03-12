@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:anointedthedeveloper:2026-03-12T00:46:11.981Z",
+    "type": "follower_gained",
+    "login": "anointedthedeveloper",
+    "htmlUrl": "https://github.com/anointedthedeveloper",
+    "happenedAt": "2026-03-12T00:46:11.981Z"
+  },
+  {
+    "id": "follower_gained:raja-qasim:2026-03-12T00:46:11.981Z",
+    "type": "follower_gained",
+    "login": "raja-qasim",
+    "htmlUrl": "https://github.com/raja-qasim",
+    "happenedAt": "2026-03-12T00:46:11.981Z"
+  },
+  {
+    "id": "follower_gained:spaceykozzie:2026-03-12T00:46:11.981Z",
+    "type": "follower_gained",
+    "login": "SpaceyKozzie",
+    "htmlUrl": "https://github.com/SpaceyKozzie",
+    "happenedAt": "2026-03-12T00:46:11.981Z"
+  },
+  {
+    "id": "follower_lost:0xadafang:2026-03-12T00:46:11.981Z",
+    "type": "follower_lost",
+    "login": "0xAdafang",
+    "htmlUrl": "https://github.com/0xAdafang",
+    "happenedAt": "2026-03-12T00:46:11.981Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:koz-space:2026-03-12T00:46:11.981Z",
+    "type": "follower_lost",
+    "login": "Koz-Space",
+    "htmlUrl": "https://github.com/Koz-Space",
+    "happenedAt": "2026-03-12T00:46:11.981Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:pupfjsh:2026-03-11T18:35:23.897Z",
     "type": "follower_gained",
     "login": "pupfjsh",
