@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:sweetfl0wers:2026-03-12T06:35:51.673Z",
+    "type": "you_followed",
+    "login": "SWEETFL0WERS",
+    "htmlUrl": "https://github.com/SWEETFL0WERS",
+    "happenedAt": "2026-03-12T06:35:51.673Z"
+  },
+  {
+    "id": "you_unfollowed:pizzabitess:2026-03-12T06:35:51.673Z",
+    "type": "you_unfollowed",
+    "login": "pizzabitess",
+    "htmlUrl": "https://github.com/pizzabitess",
+    "happenedAt": "2026-03-12T06:35:51.673Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:anointedthedeveloper:2026-03-12T00:46:11.981Z",
     "type": "follower_gained",
     "login": "anointedthedeveloper",
