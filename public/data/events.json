@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:mulandii:2026-03-13T00:51:08.576Z",
+    "type": "follower_gained",
+    "login": "Mulandii",
+    "htmlUrl": "https://github.com/Mulandii",
+    "happenedAt": "2026-03-13T00:51:08.576Z"
+  },
+  {
+    "id": "you_followed:pupcollr:2026-03-13T00:51:08.576Z",
+    "type": "you_followed",
+    "login": "pupcollr",
+    "htmlUrl": "https://github.com/pupcollr",
+    "happenedAt": "2026-03-13T00:51:08.576Z"
+  },
+  {
+    "id": "you_unfollowed:fur1nairl:2026-03-13T00:51:08.576Z",
+    "type": "you_unfollowed",
+    "login": "fur1nairl",
+    "htmlUrl": "https://github.com/fur1nairl",
+    "happenedAt": "2026-03-13T00:51:08.576Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:whiteplaine:2026-03-12T12:31:26.427Z",
     "type": "follower_gained",
     "login": "whiteplaine",
