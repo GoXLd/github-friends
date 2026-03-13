@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:itzskeetylover:2026-03-13T06:34:07.977Z",
+    "type": "follower_gained",
+    "login": "itzskeetylover",
+    "htmlUrl": "https://github.com/itzskeetylover",
+    "happenedAt": "2026-03-13T06:34:07.977Z"
+  },
+  {
+    "id": "follower_lost:themafialover:2026-03-13T06:34:07.977Z",
+    "type": "follower_lost",
+    "login": "themafialover",
+    "htmlUrl": "https://github.com/themafialover",
+    "happenedAt": "2026-03-13T06:34:07.977Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:itzskeetylover:2026-03-13T06:34:07.977Z",
+    "type": "you_followed",
+    "login": "itzskeetylover",
+    "htmlUrl": "https://github.com/itzskeetylover",
+    "happenedAt": "2026-03-13T06:34:07.977Z"
+  },
+  {
+    "id": "you_followed:silentcellar:2026-03-13T06:34:07.977Z",
+    "type": "you_followed",
+    "login": "SILENTCELLAR",
+    "htmlUrl": "https://github.com/SILENTCELLAR",
+    "happenedAt": "2026-03-13T06:34:07.977Z"
+  },
+  {
+    "id": "you_unfollowed:purecaca0:2026-03-13T06:34:07.977Z",
+    "type": "you_unfollowed",
+    "login": "PURECACA0",
+    "htmlUrl": "https://github.com/PURECACA0",
+    "happenedAt": "2026-03-13T06:34:07.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:themafialover:2026-03-13T06:34:07.977Z",
+    "type": "you_unfollowed",
+    "login": "themafialover",
+    "htmlUrl": "https://github.com/themafialover",
+    "happenedAt": "2026-03-13T06:34:07.977Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:mulandii:2026-03-13T00:51:08.576Z",
     "type": "follower_gained",
     "login": "Mulandii",
