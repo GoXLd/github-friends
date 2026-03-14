@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:calciumpuppy:2026-03-14T00:49:14.024Z",
+    "type": "follower_gained",
+    "login": "CalciumPuppy",
+    "htmlUrl": "https://github.com/CalciumPuppy",
+    "happenedAt": "2026-03-14T00:49:14.024Z"
+  },
+  {
+    "id": "follower_lost:cheshirecatful:2026-03-14T00:49:14.024Z",
+    "type": "follower_lost",
+    "login": "CheshireCatful",
+    "htmlUrl": "https://github.com/CheshireCatful",
+    "happenedAt": "2026-03-14T00:49:14.024Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:calciumpuppy:2026-03-14T00:49:14.024Z",
+    "type": "you_followed",
+    "login": "CalciumPuppy",
+    "htmlUrl": "https://github.com/CalciumPuppy",
+    "happenedAt": "2026-03-14T00:49:14.024Z"
+  },
+  {
+    "id": "you_unfollowed:cheshirecatful:2026-03-14T00:49:14.024Z",
+    "type": "you_unfollowed",
+    "login": "CheshireCatful",
+    "htmlUrl": "https://github.com/CheshireCatful",
+    "happenedAt": "2026-03-14T00:49:14.024Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:thew0rldrevolving:2026-03-13T18:30:43.061Z",
     "type": "follower_gained",
     "login": "THEW0RLDREVOLVING",
