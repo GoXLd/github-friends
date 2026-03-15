@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:mardo-k12:2026-03-15T00:59:27.466Z",
+    "type": "you_followed",
+    "login": "Mardo-k12",
+    "htmlUrl": "https://github.com/Mardo-k12",
+    "happenedAt": "2026-03-15T00:59:27.466Z"
+  },
+  {
+    "id": "you_unfollowed:mardochee-kanushipi:2026-03-15T00:59:27.466Z",
+    "type": "you_unfollowed",
+    "login": "Mardochee-Kanushipi",
+    "htmlUrl": "https://github.com/Mardochee-Kanushipi",
+    "happenedAt": "2026-03-15T00:59:27.466Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:majorscythe:2026-03-14T18:30:07.213Z",
     "type": "follower_gained",
     "login": "Majorscythe",
