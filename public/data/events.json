@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:fahmirizalbudi:2026-03-15T06:37:39.201Z",
+    "type": "follower_gained",
+    "login": "fahmirizalbudi",
+    "htmlUrl": "https://github.com/fahmirizalbudi",
+    "happenedAt": "2026-03-15T06:37:39.201Z"
+  },
+  {
+    "id": "you_followed:baileybitez:2026-03-15T06:37:39.201Z",
+    "type": "you_followed",
+    "login": "baileybitez",
+    "htmlUrl": "https://github.com/baileybitez",
+    "happenedAt": "2026-03-15T06:37:39.201Z"
+  },
+  {
+    "id": "you_unfollowed:riversidecowgirl:2026-03-15T06:37:39.201Z",
+    "type": "you_unfollowed",
+    "login": "riversidecowgirl",
+    "htmlUrl": "https://github.com/riversidecowgirl",
+    "happenedAt": "2026-03-15T06:37:39.201Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:mardo-k12:2026-03-15T00:59:27.466Z",
     "type": "you_followed",
     "login": "Mardo-k12",
