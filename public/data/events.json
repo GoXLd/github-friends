@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:engrshuvodas:2026-03-15T18:30:20.316Z",
+    "type": "follower_gained",
+    "login": "engrshuvodas",
+    "htmlUrl": "https://github.com/engrshuvodas",
+    "happenedAt": "2026-03-15T18:30:20.316Z"
+  },
+  {
+    "id": "follower_gained:gedelabulliraju:2026-03-15T18:30:20.316Z",
+    "type": "follower_gained",
+    "login": "gedelabulliraju",
+    "htmlUrl": "https://github.com/gedelabulliraju",
+    "happenedAt": "2026-03-15T18:30:20.316Z"
+  },
+  {
+    "id": "follower_gained:sultonbektoxirboyev:2026-03-15T18:30:20.316Z",
+    "type": "follower_gained",
+    "login": "sultonbektoxirboyev",
+    "htmlUrl": "https://github.com/sultonbektoxirboyev",
+    "happenedAt": "2026-03-15T18:30:20.316Z"
+  },
+  {
+    "id": "follower_lost:shrp69:2026-03-15T18:30:20.316Z",
+    "type": "follower_lost",
+    "login": "ShRP69",
+    "htmlUrl": "https://github.com/ShRP69",
+    "happenedAt": "2026-03-15T18:30:20.316Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:5yvori:2026-03-15T12:31:00.174Z",
     "type": "follower_gained",
     "login": "5yvori",
