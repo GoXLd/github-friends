@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:xenosie:2026-03-17T18:37:14.167Z",
+    "type": "follower_gained",
+    "login": "xenosie",
+    "htmlUrl": "https://github.com/xenosie",
+    "happenedAt": "2026-03-17T18:37:14.167Z"
+  },
+  {
+    "id": "follower_lost:furiousgenius22:2026-03-17T18:37:14.167Z",
+    "type": "follower_lost",
+    "login": "FuriousGenius22",
+    "htmlUrl": "https://github.com/FuriousGenius22",
+    "happenedAt": "2026-03-17T18:37:14.167Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:jabberrwonger:2026-03-17T12:35:11.678Z",
     "type": "follower_gained",
     "login": "JabberrWonger",
