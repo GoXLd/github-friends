@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:rickmanbrown:2026-03-17T00:50:42.449Z",
+    "type": "follower_gained",
+    "login": "RickmanBrown",
+    "htmlUrl": "https://github.com/RickmanBrown",
+    "happenedAt": "2026-03-17T00:50:42.449Z"
+  },
+  {
+    "id": "you_followed:itglrl:2026-03-17T00:50:42.449Z",
+    "type": "you_followed",
+    "login": "ITGlRL",
+    "htmlUrl": "https://github.com/ITGlRL",
+    "happenedAt": "2026-03-17T00:50:42.449Z"
+  },
+  {
+    "id": "you_unfollowed:femrot:2026-03-17T00:50:42.449Z",
+    "type": "you_unfollowed",
+    "login": "femrot",
+    "htmlUrl": "https://github.com/femrot",
+    "happenedAt": "2026-03-17T00:50:42.449Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:rickmanbrown:2026-03-16T18:37:22.750Z",
     "type": "follower_lost",
     "login": "RickmanBrown",
