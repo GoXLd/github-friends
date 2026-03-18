@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:xenosie:2026-03-18T00:54:09.166Z",
+    "type": "follower_lost",
+    "login": "xenosie",
+    "htmlUrl": "https://github.com/xenosie",
+    "happenedAt": "2026-03-18T00:54:09.166Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:xenosie:2026-03-17T18:37:14.167Z",
     "type": "follower_gained",
     "login": "xenosie",
