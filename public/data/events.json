@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:anarchy-hime:2026-03-18T18:37:02.412Z",
+    "type": "follower_gained",
+    "login": "anarchy-hime",
+    "htmlUrl": "https://github.com/anarchy-hime",
+    "happenedAt": "2026-03-18T18:37:02.412Z"
+  },
+  {
+    "id": "follower_lost:kalytamykhailo18-cyber:2026-03-18T18:37:02.412Z",
+    "type": "follower_lost",
+    "login": "kalytamykhailo18-cyber",
+    "htmlUrl": "https://github.com/kalytamykhailo18-cyber",
+    "happenedAt": "2026-03-18T18:37:02.412Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:sunny-days-365:2026-03-18T18:37:02.412Z",
+    "type": "follower_lost",
+    "login": "sunny-days-365",
+    "htmlUrl": "https://github.com/sunny-days-365",
+    "happenedAt": "2026-03-18T18:37:02.412Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:hammad-000:2026-03-18T12:36:01.270Z",
     "type": "follower_lost",
     "login": "Hammad-000",
