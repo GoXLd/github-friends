@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:glitterpupp:2026-03-20T06:35:51.115Z",
+    "type": "you_followed",
+    "login": "glitterpupp",
+    "htmlUrl": "https://github.com/glitterpupp",
+    "happenedAt": "2026-03-20T06:35:51.115Z"
+  },
+  {
+    "id": "you_unfollowed:sweetfl0wers:2026-03-20T06:35:51.115Z",
+    "type": "you_unfollowed",
+    "login": "SWEETFL0WERS",
+    "htmlUrl": "https://github.com/SWEETFL0WERS",
+    "happenedAt": "2026-03-20T06:35:51.115Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:beytekindavut:2026-03-20T00:51:48.826Z",
     "type": "follower_gained",
     "login": "beytekindavut",
