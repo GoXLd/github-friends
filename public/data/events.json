@@ -1,5 +1,46 @@
 [
   {
+    "id": "follower_gained:arch-yunus:2026-03-20T18:31:22.721Z",
+    "type": "follower_gained",
+    "login": "arch-yunus",
+    "htmlUrl": "https://github.com/arch-yunus",
+    "happenedAt": "2026-03-20T18:31:22.721Z"
+  },
+  {
+    "id": "follower_lost:bahattinyunus:2026-03-20T18:31:22.721Z",
+    "type": "follower_lost",
+    "login": "bahattinyunus",
+    "htmlUrl": "https://github.com/bahattinyunus",
+    "happenedAt": "2026-03-20T18:31:22.721Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:s8y:2026-03-20T18:31:22.721Z",
+    "type": "follower_lost",
+    "login": "S8Y",
+    "htmlUrl": "https://github.com/S8Y",
+    "happenedAt": "2026-03-20T18:31:22.721Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:arch-yunus:2026-03-20T18:31:22.721Z",
+    "type": "you_followed",
+    "login": "arch-yunus",
+    "htmlUrl": "https://github.com/arch-yunus",
+    "happenedAt": "2026-03-20T18:31:22.721Z"
+  },
+  {
+    "id": "you_unfollowed:bahattinyunus:2026-03-20T18:31:22.721Z",
+    "type": "you_unfollowed",
+    "login": "bahattinyunus",
+    "htmlUrl": "https://github.com/bahattinyunus",
+    "happenedAt": "2026-03-20T18:31:22.721Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:itr4pp:2026-03-20T12:31:27.045Z",
     "type": "follower_gained",
     "login": "Itr4pp",
