@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:agent-kennedy:2026-03-21T00:49:05.755Z",
+    "type": "you_followed",
+    "login": "AGENT-KENNEDY",
+    "htmlUrl": "https://github.com/AGENT-KENNEDY",
+    "happenedAt": "2026-03-21T00:49:05.755Z"
+  },
+  {
+    "id": "you_unfollowed:anqelicstatic:2026-03-21T00:49:05.755Z",
+    "type": "you_unfollowed",
+    "login": "anqelicstatic",
+    "htmlUrl": "https://github.com/anqelicstatic",
+    "happenedAt": "2026-03-21T00:49:05.755Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:arch-yunus:2026-03-20T18:31:22.721Z",
     "type": "follower_gained",
     "login": "arch-yunus",
