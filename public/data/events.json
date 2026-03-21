@@ -1,5 +1,14 @@
 [
   {
+    "id": "you_unfollowed:kernelshark:2026-03-21T12:30:31.587Z",
+    "type": "you_unfollowed",
+    "login": "KernelShark",
+    "htmlUrl": "https://github.com/KernelShark",
+    "happenedAt": "2026-03-21T12:30:31.587Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:agent-kennedy:2026-03-21T00:49:05.755Z",
     "type": "you_followed",
     "login": "AGENT-KENNEDY",
