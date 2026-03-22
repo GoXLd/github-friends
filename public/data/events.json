@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:chunguslord123:2026-03-22T00:55:15.313Z",
+    "type": "follower_gained",
+    "login": "ChungusLord123",
+    "htmlUrl": "https://github.com/ChungusLord123",
+    "happenedAt": "2026-03-22T00:55:15.313Z"
+  },
+  {
+    "id": "follower_gained:dantesparada:2026-03-22T00:55:15.313Z",
+    "type": "follower_gained",
+    "login": "dantesparada",
+    "htmlUrl": "https://github.com/dantesparada",
+    "happenedAt": "2026-03-22T00:55:15.313Z"
+  },
+  {
+    "id": "follower_lost:theobaidthebird:2026-03-22T00:55:15.313Z",
+    "type": "follower_lost",
+    "login": "theobaIdthebird",
+    "htmlUrl": "https://github.com/theobaIdthebird",
+    "happenedAt": "2026-03-22T00:55:15.313Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:femrot:2026-03-22T00:55:15.313Z",
+    "type": "you_followed",
+    "login": "femrot",
+    "htmlUrl": "https://github.com/femrot",
+    "happenedAt": "2026-03-22T00:55:15.313Z"
+  },
+  {
+    "id": "you_unfollowed:itglrl:2026-03-22T00:55:15.313Z",
+    "type": "you_unfollowed",
+    "login": "ITGlRL",
+    "htmlUrl": "https://github.com/ITGlRL",
+    "happenedAt": "2026-03-22T00:55:15.313Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_unfollowed:kernelshark:2026-03-21T12:30:31.587Z",
     "type": "you_unfollowed",
     "login": "KernelShark",
