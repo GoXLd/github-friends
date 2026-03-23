@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:aquin0by2002:2026-03-23T00:56:11.894Z",
+    "type": "follower_gained",
+    "login": "AQUIN0BY2002",
+    "htmlUrl": "https://github.com/AQUIN0BY2002",
+    "happenedAt": "2026-03-23T00:56:11.894Z"
+  },
+  {
+    "id": "follower_gained:cygden:2026-03-23T00:56:11.894Z",
+    "type": "follower_gained",
+    "login": "CYGDEN",
+    "htmlUrl": "https://github.com/CYGDEN",
+    "happenedAt": "2026-03-23T00:56:11.894Z"
+  },
+  {
+    "id": "follower_lost:soaringkin:2026-03-23T00:56:11.894Z",
+    "type": "follower_lost",
+    "login": "soaringkin",
+    "htmlUrl": "https://github.com/soaringkin",
+    "happenedAt": "2026-03-23T00:56:11.894Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:soaringkin:2026-03-22T18:30:10.917Z",
     "type": "follower_gained",
     "login": "soaringkin",
