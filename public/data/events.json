@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:mukhtarabdulrazaq:2026-03-23T06:45:16.886Z",
+    "type": "follower_gained",
+    "login": "mukhtarabdulrazaq",
+    "htmlUrl": "https://github.com/mukhtarabdulrazaq",
+    "happenedAt": "2026-03-23T06:45:16.886Z"
+  },
+  {
+    "id": "follower_lost:nguyendinson:2026-03-23T06:45:16.886Z",
+    "type": "follower_lost",
+    "login": "nguyendinson",
+    "htmlUrl": "https://github.com/nguyendinson",
+    "happenedAt": "2026-03-23T06:45:16.886Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:mukhtarabdulrazaq:2026-03-23T06:45:16.886Z",
+    "type": "you_followed",
+    "login": "mukhtarabdulrazaq",
+    "htmlUrl": "https://github.com/mukhtarabdulrazaq",
+    "happenedAt": "2026-03-23T06:45:16.886Z"
+  },
+  {
+    "id": "you_unfollowed:nguyendinson:2026-03-23T06:45:16.886Z",
+    "type": "you_unfollowed",
+    "login": "nguyendinson",
+    "htmlUrl": "https://github.com/nguyendinson",
+    "happenedAt": "2026-03-23T06:45:16.886Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:aquin0by2002:2026-03-23T00:56:11.894Z",
     "type": "follower_gained",
     "login": "AQUIN0BY2002",
