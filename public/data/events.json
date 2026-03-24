@@ -1,5 +1,82 @@
 [
   {
+    "id": "follower_gained:4hyeon:2026-03-24T12:35:37.252Z",
+    "type": "follower_gained",
+    "login": "4hyeon",
+    "htmlUrl": "https://github.com/4hyeon",
+    "happenedAt": "2026-03-24T12:35:37.252Z"
+  },
+  {
+    "id": "follower_lost:dariubs:2026-03-24T12:35:37.252Z",
+    "type": "follower_lost",
+    "login": "dariubs",
+    "htmlUrl": "https://github.com/dariubs",
+    "happenedAt": "2026-03-24T12:35:37.252Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:fredhusne:2026-03-24T12:35:37.252Z",
+    "type": "follower_lost",
+    "login": "Fredhusne",
+    "htmlUrl": "https://github.com/Fredhusne",
+    "happenedAt": "2026-03-24T12:35:37.252Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:jeffyonk:2026-03-24T12:35:37.252Z",
+    "type": "follower_lost",
+    "login": "jeffyonk",
+    "htmlUrl": "https://github.com/jeffyonk",
+    "happenedAt": "2026-03-24T12:35:37.252Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:jeniflery:2026-03-24T12:35:37.252Z",
+    "type": "follower_lost",
+    "login": "jeniflery",
+    "htmlUrl": "https://github.com/jeniflery",
+    "happenedAt": "2026-03-24T12:35:37.252Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:riseyuka:2026-03-24T12:35:37.252Z",
+    "type": "follower_lost",
+    "login": "riseyuka",
+    "htmlUrl": "https://github.com/riseyuka",
+    "happenedAt": "2026-03-24T12:35:37.252Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:serhatbula:2026-03-24T12:35:37.252Z",
+    "type": "follower_lost",
+    "login": "serhatbula",
+    "htmlUrl": "https://github.com/serhatbula",
+    "happenedAt": "2026-03-24T12:35:37.252Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:sunnyreo:2026-03-24T12:35:37.252Z",
+    "type": "you_followed",
+    "login": "sunnyreo",
+    "htmlUrl": "https://github.com/sunnyreo",
+    "happenedAt": "2026-03-24T12:35:37.252Z"
+  },
+  {
+    "id": "you_unfollowed:pearl-tower:2026-03-24T12:35:37.252Z",
+    "type": "you_unfollowed",
+    "login": "pearl-tower",
+    "htmlUrl": "https://github.com/pearl-tower",
+    "happenedAt": "2026-03-24T12:35:37.252Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:yuritrait:2026-03-24T06:41:04.239Z",
     "type": "follower_gained",
     "login": "yuritrait",
