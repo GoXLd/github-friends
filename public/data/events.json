@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:hourofrot:2026-03-25T06:41:29.742Z",
+    "type": "follower_gained",
+    "login": "hourofrot",
+    "htmlUrl": "https://github.com/hourofrot",
+    "happenedAt": "2026-03-25T06:41:29.742Z"
+  },
+  {
+    "id": "follower_gained:lucien-valcrest:2026-03-25T06:41:29.742Z",
+    "type": "follower_gained",
+    "login": "LUCIEN-VALCREST",
+    "htmlUrl": "https://github.com/LUCIEN-VALCREST",
+    "happenedAt": "2026-03-25T06:41:29.742Z"
+  },
+  {
+    "id": "follower_lost:beytekindavut:2026-03-25T06:41:29.742Z",
+    "type": "follower_lost",
+    "login": "beytekindavut",
+    "htmlUrl": "https://github.com/beytekindavut",
+    "happenedAt": "2026-03-25T06:41:29.742Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:4hyeon:2026-03-24T12:35:37.252Z",
     "type": "follower_gained",
     "login": "4hyeon",
