@@ -1,5 +1,23 @@
 [
   {
+    "id": "follower_lost:adamwalts:2026-03-26T06:44:21.575Z",
+    "type": "follower_lost",
+    "login": "adamwalts",
+    "htmlUrl": "https://github.com/adamwalts",
+    "happenedAt": "2026-03-26T06:44:21.575Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:garryang:2026-03-26T06:44:21.575Z",
+    "type": "follower_lost",
+    "login": "garryang",
+    "htmlUrl": "https://github.com/garryang",
+    "happenedAt": "2026-03-26T06:44:21.575Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:adamwalts:2026-03-25T18:36:38.873Z",
     "type": "follower_gained",
     "login": "adamwalts",
