@@ -1,5 +1,210 @@
 [
   {
+    "id": "follower_lost:aertsimon90:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "aertsimon90",
+    "htmlUrl": "https://github.com/aertsimon90",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:biyachio:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "biyachio",
+    "htmlUrl": "https://github.com/biyachio",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:davidtoyle:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "davidtoyle",
+    "htmlUrl": "https://github.com/davidtoyle",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:dionvolta:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "dionvolta",
+    "htmlUrl": "https://github.com/dionvolta",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:gyurioka:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "gyurioka",
+    "htmlUrl": "https://github.com/gyurioka",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:joehanchi:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "joehanchi",
+    "htmlUrl": "https://github.com/joehanchi",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:joehubers:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "joehubers",
+    "htmlUrl": "https://github.com/joehubers",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:juanforde:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "juanforde",
+    "htmlUrl": "https://github.com/juanforde",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:knoxryder323:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "knoxryder323",
+    "htmlUrl": "https://github.com/knoxryder323",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:lunehorb:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "lunehorb",
+    "htmlUrl": "https://github.com/lunehorb",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:moereira:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "moereira",
+    "htmlUrl": "https://github.com/moereira",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:nueryn:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "nueryn",
+    "htmlUrl": "https://github.com/nueryn",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:nuychen:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "nuychen",
+    "htmlUrl": "https://github.com/nuychen",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:senamorde:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "senamorde",
+    "htmlUrl": "https://github.com/senamorde",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:tenrukayaba:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "tenrukayaba",
+    "htmlUrl": "https://github.com/tenrukayaba",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:venyholte:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "venyholte",
+    "htmlUrl": "https://github.com/venyholte",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:vineyuka:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "vineyuka",
+    "htmlUrl": "https://github.com/vineyuka",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:viviwister:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "viviwister",
+    "htmlUrl": "https://github.com/viviwister",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:yobecroc:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "yobecroc",
+    "htmlUrl": "https://github.com/yobecroc",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:yumeaika:2026-03-27T18:36:13.413Z",
+    "type": "follower_lost",
+    "login": "yumeaika",
+    "htmlUrl": "https://github.com/yumeaika",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:justfivedev:2026-03-27T18:36:13.413Z",
+    "type": "you_followed",
+    "login": "justFiveDev",
+    "htmlUrl": "https://github.com/justFiveDev",
+    "happenedAt": "2026-03-27T18:36:13.413Z"
+  },
+  {
+    "id": "you_unfollowed:aertsimon90:2026-03-27T18:36:13.413Z",
+    "type": "you_unfollowed",
+    "login": "aertsimon90",
+    "htmlUrl": "https://github.com/aertsimon90",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:metaggdev:2026-03-27T18:36:13.413Z",
+    "type": "you_unfollowed",
+    "login": "metaggdev",
+    "htmlUrl": "https://github.com/metaggdev",
+    "happenedAt": "2026-03-27T18:36:13.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:crisstata:2026-03-27T06:44:45.865Z",
     "type": "follower_gained",
     "login": "crisstata",
