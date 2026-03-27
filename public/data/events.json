@@ -1,5 +1,51 @@
 [
   {
+    "id": "follower_gained:1480p:2026-03-27T00:57:13.746Z",
+    "type": "follower_gained",
+    "login": "1480p",
+    "htmlUrl": "https://github.com/1480p",
+    "happenedAt": "2026-03-27T00:57:13.746Z"
+  },
+  {
+    "id": "follower_gained:priyanahata:2026-03-27T00:57:13.746Z",
+    "type": "follower_gained",
+    "login": "priyanahata",
+    "htmlUrl": "https://github.com/priyanahata",
+    "happenedAt": "2026-03-27T00:57:13.746Z"
+  },
+  {
+    "id": "follower_gained:togetheryouandi:2026-03-27T00:57:13.746Z",
+    "type": "follower_gained",
+    "login": "togetheryouandI",
+    "htmlUrl": "https://github.com/togetheryouandI",
+    "happenedAt": "2026-03-27T00:57:13.746Z"
+  },
+  {
+    "id": "follower_lost:time-bunny:2026-03-27T00:57:13.746Z",
+    "type": "follower_lost",
+    "login": "time-bunny",
+    "htmlUrl": "https://github.com/time-bunny",
+    "happenedAt": "2026-03-27T00:57:13.746Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:togetheryouandi:2026-03-27T00:57:13.746Z",
+    "type": "you_followed",
+    "login": "togetheryouandI",
+    "htmlUrl": "https://github.com/togetheryouandI",
+    "happenedAt": "2026-03-27T00:57:13.746Z"
+  },
+  {
+    "id": "you_unfollowed:time-bunny:2026-03-27T00:57:13.746Z",
+    "type": "you_unfollowed",
+    "login": "time-bunny",
+    "htmlUrl": "https://github.com/time-bunny",
+    "happenedAt": "2026-03-27T00:57:13.746Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "you_unfollowed:idealighthouse4661:2026-03-26T18:38:39.103Z",
     "type": "you_unfollowed",
     "login": "ideaLighthouse4661",
