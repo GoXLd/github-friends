@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:bassiebioomington:2026-03-28T18:31:29.638Z",
+    "type": "follower_gained",
+    "login": "BassieBIoomington",
+    "htmlUrl": "https://github.com/BassieBIoomington",
+    "happenedAt": "2026-03-28T18:31:29.638Z"
+  },
+  {
+    "id": "follower_gained:danielfounder:2026-03-28T18:31:29.638Z",
+    "type": "follower_gained",
+    "login": "danielfounder",
+    "htmlUrl": "https://github.com/danielfounder",
+    "happenedAt": "2026-03-28T18:31:29.638Z"
+  },
+  {
+    "id": "follower_gained:eomseann:2026-03-28T18:31:29.638Z",
+    "type": "follower_gained",
+    "login": "eomseann",
+    "htmlUrl": "https://github.com/eomseann",
+    "happenedAt": "2026-03-28T18:31:29.638Z"
+  },
+  {
+    "id": "follower_lost:dragonoflotus:2026-03-28T18:31:29.638Z",
+    "type": "follower_lost",
+    "login": "DragonOfLotus",
+    "htmlUrl": "https://github.com/DragonOfLotus",
+    "happenedAt": "2026-03-28T18:31:29.638Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:pawerrx:2026-03-28T12:31:04.817Z",
     "type": "follower_gained",
     "login": "pawerrx",
