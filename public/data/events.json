@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:coldifiedd:2026-03-28T00:53:27.440Z",
+    "type": "follower_gained",
+    "login": "coldifiedd",
+    "htmlUrl": "https://github.com/coldifiedd",
+    "happenedAt": "2026-03-28T00:53:27.440Z"
+  },
+  {
+    "id": "follower_lost:aquin0by2002:2026-03-28T00:53:27.440Z",
+    "type": "follower_lost",
+    "login": "AQUIN0BY2002",
+    "htmlUrl": "https://github.com/AQUIN0BY2002",
+    "happenedAt": "2026-03-28T00:53:27.440Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:aertsimon90:2026-03-27T18:36:13.413Z",
     "type": "follower_lost",
     "login": "aertsimon90",
