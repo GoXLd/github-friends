@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:pawerrx:2026-03-28T12:31:04.817Z",
+    "type": "follower_gained",
+    "login": "pawerrx",
+    "htmlUrl": "https://github.com/pawerrx",
+    "happenedAt": "2026-03-28T12:31:04.817Z"
+  },
+  {
+    "id": "follower_gained:spacebeetles:2026-03-28T12:31:04.817Z",
+    "type": "follower_gained",
+    "login": "spacebeetles",
+    "htmlUrl": "https://github.com/spacebeetles",
+    "happenedAt": "2026-03-28T12:31:04.817Z"
+  },
+  {
+    "id": "follower_lost:chwso0u:2026-03-28T12:31:04.817Z",
+    "type": "follower_lost",
+    "login": "chwso0u",
+    "htmlUrl": "https://github.com/chwso0u",
+    "happenedAt": "2026-03-28T12:31:04.817Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ttisha:2026-03-28T12:31:04.817Z",
+    "type": "follower_lost",
+    "login": "ttisha",
+    "htmlUrl": "https://github.com/ttisha",
+    "happenedAt": "2026-03-28T12:31:04.817Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:spacebeetles:2026-03-28T12:31:04.817Z",
+    "type": "you_followed",
+    "login": "spacebeetles",
+    "htmlUrl": "https://github.com/spacebeetles",
+    "happenedAt": "2026-03-28T12:31:04.817Z"
+  },
+  {
+    "id": "you_unfollowed:ttisha:2026-03-28T12:31:04.817Z",
+    "type": "you_unfollowed",
+    "login": "ttisha",
+    "htmlUrl": "https://github.com/ttisha",
+    "happenedAt": "2026-03-28T12:31:04.817Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:es4kai:2026-03-28T06:37:45.122Z",
     "type": "follower_gained",
     "login": "es4kai",
