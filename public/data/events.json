@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:butcherqueen:2026-03-29T12:31:04.605Z",
+    "type": "follower_gained",
+    "login": "butcherqueen",
+    "htmlUrl": "https://github.com/butcherqueen",
+    "happenedAt": "2026-03-29T12:31:04.605Z"
+  },
+  {
+    "id": "follower_lost:wenciair:2026-03-29T12:31:04.605Z",
+    "type": "follower_lost",
+    "login": "wencIair",
+    "htmlUrl": "https://github.com/wencIair",
+    "happenedAt": "2026-03-29T12:31:04.605Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:mukhtarabdulrazaq:2026-03-29T06:42:54.157Z",
     "type": "follower_lost",
     "login": "mukhtarabdulrazaq",
