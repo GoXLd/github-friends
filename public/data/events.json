@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:cypher-ke:2026-03-29T18:31:32.654Z",
+    "type": "follower_gained",
+    "login": "Cypher-KE",
+    "htmlUrl": "https://github.com/Cypher-KE",
+    "happenedAt": "2026-03-29T18:31:32.654Z"
+  },
+  {
+    "id": "you_followed:breadtvguy:2026-03-29T18:31:32.654Z",
+    "type": "you_followed",
+    "login": "breadtvguy",
+    "htmlUrl": "https://github.com/breadtvguy",
+    "happenedAt": "2026-03-29T18:31:32.654Z"
+  },
+  {
+    "id": "you_unfollowed:yamyamelyssoha:2026-03-29T18:31:32.654Z",
+    "type": "you_unfollowed",
+    "login": "yamyamelyssoha",
+    "htmlUrl": "https://github.com/yamyamelyssoha",
+    "happenedAt": "2026-03-29T18:31:32.654Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:butcherqueen:2026-03-29T12:31:04.605Z",
     "type": "follower_gained",
     "login": "butcherqueen",
