@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:mminajael:2026-03-31T18:37:26.716Z",
+    "type": "follower_gained",
+    "login": "mminajael",
+    "htmlUrl": "https://github.com/mminajael",
+    "happenedAt": "2026-03-31T18:37:26.716Z"
+  },
+  {
+    "id": "follower_lost:hourofrot:2026-03-31T18:37:26.716Z",
+    "type": "follower_lost",
+    "login": "hourofrot",
+    "htmlUrl": "https://github.com/hourofrot",
+    "happenedAt": "2026-03-31T18:37:26.716Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:jfullstackdev:2026-03-31T12:38:32.352Z",
     "type": "follower_lost",
     "login": "jfullstackdev",
