@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:jfullstackdev:2026-03-31T12:38:32.352Z",
+    "type": "follower_lost",
+    "login": "jfullstackdev",
+    "htmlUrl": "https://github.com/jfullstackdev",
+    "happenedAt": "2026-03-31T12:38:32.352Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:wetweakintillthemornin:2026-03-31T00:57:43.140Z",
     "type": "follower_gained",
     "login": "wetweakintillthemornin",
