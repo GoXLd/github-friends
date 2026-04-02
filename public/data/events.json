@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:shiyut0:2026-04-02T06:45:38.729Z",
+    "type": "follower_gained",
+    "login": "SHIYUT0",
+    "htmlUrl": "https://github.com/SHIYUT0",
+    "happenedAt": "2026-04-02T06:45:38.729Z"
+  },
+  {
+    "id": "follower_lost:yuel4n:2026-04-02T06:45:38.729Z",
+    "type": "follower_lost",
+    "login": "YUEL4N",
+    "htmlUrl": "https://github.com/YUEL4N",
+    "happenedAt": "2026-04-02T06:45:38.729Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:lottieshauna:2026-04-02T00:55:05.805Z",
     "type": "follower_gained",
     "login": "lottieshauna",
