@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:lottieshauna:2026-04-02T00:55:05.805Z",
+    "type": "follower_gained",
+    "login": "lottieshauna",
+    "htmlUrl": "https://github.com/lottieshauna",
+    "happenedAt": "2026-04-02T00:55:05.805Z"
+  },
+  {
+    "id": "follower_lost:butcherqueen:2026-04-02T00:55:05.805Z",
+    "type": "follower_lost",
+    "login": "butcherqueen",
+    "htmlUrl": "https://github.com/butcherqueen",
+    "happenedAt": "2026-04-02T00:55:05.805Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:darkangel689:2026-04-01T18:37:31.275Z",
     "type": "follower_gained",
     "login": "DARKANGEL689",
