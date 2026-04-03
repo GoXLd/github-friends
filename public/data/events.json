@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:angelicglow:2026-04-03T00:57:42.812Z",
+    "type": "you_followed",
+    "login": "AngelicGlow",
+    "htmlUrl": "https://github.com/AngelicGlow",
+    "happenedAt": "2026-04-03T00:57:42.812Z"
+  },
+  {
+    "id": "you_unfollowed:angelicglow-till:2026-04-03T00:57:42.812Z",
+    "type": "you_unfollowed",
+    "login": "AngelicGlow-Till",
+    "htmlUrl": "https://github.com/AngelicGlow-Till",
+    "happenedAt": "2026-04-03T00:57:42.812Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:bloodbxnny:2026-04-02T18:36:13.102Z",
     "type": "follower_gained",
     "login": "bloodbxnny",
