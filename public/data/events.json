@@ -1,5 +1,23 @@
 [
   {
+    "id": "follower_lost:johnmarston62718:2026-04-04T00:53:50.259Z",
+    "type": "follower_lost",
+    "login": "JohnMarston62718",
+    "htmlUrl": "https://github.com/JohnMarston62718",
+    "happenedAt": "2026-04-04T00:53:50.259Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:johnmarston62718:2026-04-04T00:53:50.259Z",
+    "type": "you_unfollowed",
+    "login": "JohnMarston62718",
+    "htmlUrl": "https://github.com/JohnMarston62718",
+    "happenedAt": "2026-04-04T00:53:50.259Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:yukamanawa:2026-04-03T18:31:20.206Z",
     "type": "follower_gained",
     "login": "yukamanawa",
