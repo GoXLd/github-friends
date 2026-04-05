@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:erdembuyukcinar:2026-04-05T12:31:06.945Z",
+    "type": "follower_gained",
+    "login": "ErdemBuyukcinar",
+    "htmlUrl": "https://github.com/ErdemBuyukcinar",
+    "happenedAt": "2026-04-05T12:31:06.945Z"
+  },
+  {
+    "id": "follower_gained:tuskborn:2026-04-05T12:31:06.945Z",
+    "type": "follower_gained",
+    "login": "tuskborn",
+    "htmlUrl": "https://github.com/tuskborn",
+    "happenedAt": "2026-04-05T12:31:06.945Z"
+  },
+  {
+    "id": "follower_lost:thew0rldrevolving:2026-04-05T12:31:06.945Z",
+    "type": "follower_lost",
+    "login": "THEW0RLDREVOLVING",
+    "htmlUrl": "https://github.com/THEW0RLDREVOLVING",
+    "happenedAt": "2026-04-05T12:31:06.945Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:sanchezcpp:2026-04-05T12:31:06.945Z",
+    "type": "you_followed",
+    "login": "sanchezcpp",
+    "htmlUrl": "https://github.com/sanchezcpp",
+    "happenedAt": "2026-04-05T12:31:06.945Z"
+  },
+  {
+    "id": "you_unfollowed:lorde-enigma:2026-04-05T12:31:06.945Z",
+    "type": "you_unfollowed",
+    "login": "lorde-enigma",
+    "htmlUrl": "https://github.com/lorde-enigma",
+    "happenedAt": "2026-04-05T12:31:06.945Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:daniasno1main:2026-04-05T01:01:08.194Z",
     "type": "follower_gained",
     "login": "daniasno1main",
