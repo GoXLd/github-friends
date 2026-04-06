@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:ardashirards:2026-04-06T01:00:46.252Z",
+    "type": "follower_gained",
+    "login": "ardashirards",
+    "htmlUrl": "https://github.com/ardashirards",
+    "happenedAt": "2026-04-06T01:00:46.252Z"
+  },
+  {
+    "id": "follower_lost:dantesparada:2026-04-06T01:00:46.252Z",
+    "type": "follower_lost",
+    "login": "dantesparada",
+    "htmlUrl": "https://github.com/dantesparada",
+    "happenedAt": "2026-04-06T01:00:46.252Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:lukeskywqlker:2026-04-06T01:00:46.252Z",
+    "type": "you_followed",
+    "login": "LUKESKYWQLKER",
+    "htmlUrl": "https://github.com/LUKESKYWQLKER",
+    "happenedAt": "2026-04-06T01:00:46.252Z"
+  },
+  {
+    "id": "you_unfollowed:silentcellar:2026-04-06T01:00:46.252Z",
+    "type": "you_unfollowed",
+    "login": "SILENTCELLAR",
+    "htmlUrl": "https://github.com/SILENTCELLAR",
+    "happenedAt": "2026-04-06T01:00:46.252Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:percussive-battery:2026-04-05T18:30:34.521Z",
     "type": "follower_gained",
     "login": "percussive-battery",
