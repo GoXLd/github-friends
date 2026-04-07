@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:penelop3e:2026-04-07T06:48:27.383Z",
+    "type": "follower_gained",
+    "login": "penelop3e",
+    "htmlUrl": "https://github.com/penelop3e",
+    "happenedAt": "2026-04-07T06:48:27.383Z"
+  },
+  {
+    "id": "follower_lost:itr4pp:2026-04-07T06:48:27.383Z",
+    "type": "follower_lost",
+    "login": "Itr4pp",
+    "htmlUrl": "https://github.com/Itr4pp",
+    "happenedAt": "2026-04-07T06:48:27.383Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:blessingkanengoni7:2026-04-06T18:36:12.740Z",
     "type": "follower_gained",
     "login": "BlessingKanengoni7",
