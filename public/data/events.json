@@ -1,5 +1,14 @@
 [
   {
+    "id": "you_unfollowed:floweryfriend:2026-04-09T06:50:36.677Z",
+    "type": "you_unfollowed",
+    "login": "FloweryFriend",
+    "htmlUrl": "https://github.com/FloweryFriend",
+    "happenedAt": "2026-04-09T06:50:36.677Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:aliipou:2026-04-09T00:50:38.012Z",
     "type": "follower_gained",
     "login": "Aliipou",
