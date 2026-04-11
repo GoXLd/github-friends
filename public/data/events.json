@@ -1,5 +1,69 @@
 [
   {
+    "id": "follower_gained:beaconcreamm:2026-04-11T12:31:10.753Z",
+    "type": "follower_gained",
+    "login": "BeaconCreamm",
+    "htmlUrl": "https://github.com/BeaconCreamm",
+    "happenedAt": "2026-04-11T12:31:10.753Z"
+  },
+  {
+    "id": "follower_gained:heartpuzzle:2026-04-11T12:31:10.753Z",
+    "type": "follower_gained",
+    "login": "heartpuzzle",
+    "htmlUrl": "https://github.com/heartpuzzle",
+    "happenedAt": "2026-04-11T12:31:10.753Z"
+  },
+  {
+    "id": "follower_gained:parrotfies:2026-04-11T12:31:10.753Z",
+    "type": "follower_gained",
+    "login": "parrotfies",
+    "htmlUrl": "https://github.com/parrotfies",
+    "happenedAt": "2026-04-11T12:31:10.753Z"
+  },
+  {
+    "id": "follower_gained:yakeiore:2026-04-11T12:31:10.753Z",
+    "type": "follower_gained",
+    "login": "yakeIore",
+    "htmlUrl": "https://github.com/yakeIore",
+    "happenedAt": "2026-04-11T12:31:10.753Z"
+  },
+  {
+    "id": "follower_lost:daniasno1main:2026-04-11T12:31:10.753Z",
+    "type": "follower_lost",
+    "login": "daniasno1main",
+    "htmlUrl": "https://github.com/daniasno1main",
+    "happenedAt": "2026-04-11T12:31:10.753Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:m0chiz0u:2026-04-11T12:31:10.753Z",
+    "type": "follower_lost",
+    "login": "M0CHIZ0U",
+    "htmlUrl": "https://github.com/M0CHIZ0U",
+    "happenedAt": "2026-04-11T12:31:10.753Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:queerbaittrio:2026-04-11T12:31:10.753Z",
+    "type": "follower_lost",
+    "login": "QueerbaitTrio",
+    "htmlUrl": "https://github.com/QueerbaitTrio",
+    "happenedAt": "2026-04-11T12:31:10.753Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:shiyut0:2026-04-11T12:31:10.753Z",
+    "type": "follower_lost",
+    "login": "SHIYUT0",
+    "htmlUrl": "https://github.com/SHIYUT0",
+    "happenedAt": "2026-04-11T12:31:10.753Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:peterruler:2026-04-11T00:56:12.867Z",
     "type": "follower_gained",
     "login": "peterruler",
