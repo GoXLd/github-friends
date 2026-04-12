@@ -1,5 +1,126 @@
 [
   {
+    "id": "follower_lost:yakeiore:2026-04-12T12:31:31.646Z",
+    "type": "follower_lost",
+    "login": "yakeIore",
+    "htmlUrl": "https://github.com/yakeIore",
+    "happenedAt": "2026-04-12T12:31:31.646Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:abdusalimsubahielbashi:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "ABDUSALIMSUBAHIELBASHI",
+    "htmlUrl": "https://github.com/ABDUSALIMSUBAHIELBASHI",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:anagha-s-nair:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "Anagha-S-Nair",
+    "htmlUrl": "https://github.com/Anagha-S-Nair",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:arcdirectory:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "arcdirectory",
+    "htmlUrl": "https://github.com/arcdirectory",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:buddy1016:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "buddy1016",
+    "htmlUrl": "https://github.com/buddy1016",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:canpolatcaner:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "canpolatcaner",
+    "htmlUrl": "https://github.com/canpolatcaner",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:frmahon:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "FrMahon",
+    "htmlUrl": "https://github.com/FrMahon",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:idouble:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "IDouble",
+    "htmlUrl": "https://github.com/IDouble",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:jfullstackdev:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "jfullstackdev",
+    "htmlUrl": "https://github.com/jfullstackdev",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:kh-mahmoud:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "kh-mahmoud",
+    "htmlUrl": "https://github.com/kh-mahmoud",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:kritthik2609:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "Kritthik2609",
+    "htmlUrl": "https://github.com/Kritthik2609",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:megha-ranjith:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "megha-ranjith",
+    "htmlUrl": "https://github.com/megha-ranjith",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:nithinamp:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "NithinaMP",
+    "htmlUrl": "https://github.com/NithinaMP",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:sreelakshmijinu03:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "sreelakshmijinu03",
+    "htmlUrl": "https://github.com/sreelakshmijinu03",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:winsiet:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "winsIet",
+    "htmlUrl": "https://github.com/winsIet",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:yakeiore:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "yakeIore",
+    "htmlUrl": "https://github.com/yakeIore",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
+    "id": "you_followed:zuhriddin2010:2026-04-12T12:31:31.646Z",
+    "type": "you_followed",
+    "login": "Zuhriddin2010",
+    "htmlUrl": "https://github.com/Zuhriddin2010",
+    "happenedAt": "2026-04-12T12:31:31.646Z"
+  },
+  {
     "id": "follower_gained:bylernation:2026-04-12T06:49:43.958Z",
     "type": "follower_gained",
     "login": "bylernation",
