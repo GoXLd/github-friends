@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:bylernation:2026-04-12T06:49:43.958Z",
+    "type": "follower_gained",
+    "login": "bylernation",
+    "htmlUrl": "https://github.com/bylernation",
+    "happenedAt": "2026-04-12T06:49:43.958Z"
+  },
+  {
+    "id": "you_followed:f3x-abuserr:2026-04-12T06:49:43.958Z",
+    "type": "you_followed",
+    "login": "f3x-abuserr",
+    "htmlUrl": "https://github.com/f3x-abuserr",
+    "happenedAt": "2026-04-12T06:49:43.958Z"
+  },
+  {
+    "id": "you_unfollowed:amercxnee:2026-04-12T06:49:43.958Z",
+    "type": "you_unfollowed",
+    "login": "AMERCXNEE",
+    "htmlUrl": "https://github.com/AMERCXNEE",
+    "happenedAt": "2026-04-12T06:49:43.958Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:duxorethey:2026-04-12T01:03:29.269Z",
     "type": "follower_gained",
     "login": "duxorethey",
