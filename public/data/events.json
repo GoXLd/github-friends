@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:duxorethey:2026-04-12T01:03:29.269Z",
+    "type": "follower_gained",
+    "login": "duxorethey",
+    "htmlUrl": "https://github.com/duxorethey",
+    "happenedAt": "2026-04-12T01:03:29.269Z"
+  },
+  {
+    "id": "follower_lost:coldifiedd:2026-04-12T01:03:29.269Z",
+    "type": "follower_lost",
+    "login": "coldifiedd",
+    "htmlUrl": "https://github.com/coldifiedd",
+    "happenedAt": "2026-04-12T01:03:29.269Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:pulse712:2026-04-11T18:30:43.593Z",
     "type": "follower_gained",
     "login": "pulse712",
