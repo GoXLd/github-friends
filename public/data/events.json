@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:hetaliayaoi:2026-04-13T12:42:08.822Z",
+    "type": "follower_gained",
+    "login": "hetaliayaoi",
+    "htmlUrl": "https://github.com/hetaliayaoi",
+    "happenedAt": "2026-04-13T12:42:08.822Z"
+  },
+  {
+    "id": "follower_gained:victorpreston:2026-04-13T12:42:08.822Z",
+    "type": "follower_gained",
+    "login": "victorpreston",
+    "htmlUrl": "https://github.com/victorpreston",
+    "happenedAt": "2026-04-13T12:42:08.822Z"
+  },
+  {
+    "id": "follower_lost:hinata-hajime:2026-04-13T12:42:08.822Z",
+    "type": "follower_lost",
+    "login": "hinata-hajime",
+    "htmlUrl": "https://github.com/hinata-hajime",
+    "happenedAt": "2026-04-13T12:42:08.822Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:hetaliayaoi:2026-04-13T12:42:08.822Z",
+    "type": "you_followed",
+    "login": "hetaliayaoi",
+    "htmlUrl": "https://github.com/hetaliayaoi",
+    "happenedAt": "2026-04-13T12:42:08.822Z"
+  },
+  {
+    "id": "you_unfollowed:hinata-hajime:2026-04-13T12:42:08.822Z",
+    "type": "you_unfollowed",
+    "login": "hinata-hajime",
+    "htmlUrl": "https://github.com/hinata-hajime",
+    "happenedAt": "2026-04-13T12:42:08.822Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:arindam-codes:2026-04-13T07:04:22.089Z",
     "type": "follower_gained",
     "login": "arindam-codes",
