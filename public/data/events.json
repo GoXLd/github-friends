@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:semomo12:2026-04-13T18:44:37.121Z",
+    "type": "follower_gained",
+    "login": "semomo12",
+    "htmlUrl": "https://github.com/semomo12",
+    "happenedAt": "2026-04-13T18:44:37.121Z"
+  },
+  {
+    "id": "follower_lost:0xbomb215:2026-04-13T18:44:37.121Z",
+    "type": "follower_lost",
+    "login": "0xbomb215",
+    "htmlUrl": "https://github.com/0xbomb215",
+    "happenedAt": "2026-04-13T18:44:37.121Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:0xbomb215:2026-04-13T18:44:37.121Z",
+    "type": "you_unfollowed",
+    "login": "0xbomb215",
+    "htmlUrl": "https://github.com/0xbomb215",
+    "happenedAt": "2026-04-13T18:44:37.121Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:hetaliayaoi:2026-04-13T12:42:08.822Z",
     "type": "follower_gained",
     "login": "hetaliayaoi",
