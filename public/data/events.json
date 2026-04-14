@@ -1,5 +1,42 @@
 [
   {
+    "id": "follower_gained:zero-dawn-x:2026-04-14T01:03:48.573Z",
+    "type": "follower_gained",
+    "login": "ZERO-DAWN-X",
+    "htmlUrl": "https://github.com/ZERO-DAWN-X",
+    "happenedAt": "2026-04-14T01:03:48.573Z"
+  },
+  {
+    "id": "follower_lost:frmahon:2026-04-14T01:03:48.573Z",
+    "type": "follower_lost",
+    "login": "FrMahon",
+    "htmlUrl": "https://github.com/FrMahon",
+    "happenedAt": "2026-04-14T01:03:48.573Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:ayoub-glitsh:2026-04-14T01:03:48.573Z",
+    "type": "you_followed",
+    "login": "Ayoub-glitsh",
+    "htmlUrl": "https://github.com/Ayoub-glitsh",
+    "happenedAt": "2026-04-14T01:03:48.573Z"
+  },
+  {
+    "id": "you_followed:r4andom1:2026-04-14T01:03:48.573Z",
+    "type": "you_followed",
+    "login": "r4andom1",
+    "htmlUrl": "https://github.com/r4andom1",
+    "happenedAt": "2026-04-14T01:03:48.573Z"
+  },
+  {
+    "id": "you_followed:zero-dawn-x:2026-04-14T01:03:48.573Z",
+    "type": "you_followed",
+    "login": "ZERO-DAWN-X",
+    "htmlUrl": "https://github.com/ZERO-DAWN-X",
+    "happenedAt": "2026-04-14T01:03:48.573Z"
+  },
+  {
     "id": "follower_gained:semomo12:2026-04-13T18:44:37.121Z",
     "type": "follower_gained",
     "login": "semomo12",
