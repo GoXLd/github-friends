@@ -1,5 +1,108 @@
 [
   {
+    "id": "follower_gained:asmelour:2026-04-14T12:41:44.806Z",
+    "type": "follower_gained",
+    "login": "asmelour",
+    "htmlUrl": "https://github.com/asmelour",
+    "happenedAt": "2026-04-14T12:41:44.806Z"
+  },
+  {
+    "id": "follower_gained:avant1010:2026-04-14T12:41:44.806Z",
+    "type": "follower_gained",
+    "login": "avant1010",
+    "htmlUrl": "https://github.com/avant1010",
+    "happenedAt": "2026-04-14T12:41:44.806Z"
+  },
+  {
+    "id": "follower_gained:dansoko22md:2026-04-14T12:41:44.806Z",
+    "type": "follower_gained",
+    "login": "Dansoko22md",
+    "htmlUrl": "https://github.com/Dansoko22md",
+    "happenedAt": "2026-04-14T12:41:44.806Z"
+  },
+  {
+    "id": "follower_gained:hetaliabutt:2026-04-14T12:41:44.806Z",
+    "type": "follower_gained",
+    "login": "hetaliabutt",
+    "htmlUrl": "https://github.com/hetaliabutt",
+    "happenedAt": "2026-04-14T12:41:44.806Z"
+  },
+  {
+    "id": "follower_gained:hourofrot:2026-04-14T12:41:44.806Z",
+    "type": "follower_gained",
+    "login": "hourofrot",
+    "htmlUrl": "https://github.com/hourofrot",
+    "happenedAt": "2026-04-14T12:41:44.806Z"
+  },
+  {
+    "id": "follower_lost:danielfounder:2026-04-14T12:41:44.806Z",
+    "type": "follower_lost",
+    "login": "danielfounder",
+    "htmlUrl": "https://github.com/danielfounder",
+    "happenedAt": "2026-04-14T12:41:44.806Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:eomseann:2026-04-14T12:41:44.806Z",
+    "type": "follower_lost",
+    "login": "eomseann",
+    "htmlUrl": "https://github.com/eomseann",
+    "happenedAt": "2026-04-14T12:41:44.806Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:hetaliayaoi:2026-04-14T12:41:44.806Z",
+    "type": "follower_lost",
+    "login": "hetaliayaoi",
+    "htmlUrl": "https://github.com/hetaliayaoi",
+    "happenedAt": "2026-04-14T12:41:44.806Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:raztchs:2026-04-14T12:41:44.806Z",
+    "type": "follower_lost",
+    "login": "raztchs",
+    "htmlUrl": "https://github.com/raztchs",
+    "happenedAt": "2026-04-14T12:41:44.806Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:asmelour:2026-04-14T12:41:44.806Z",
+    "type": "you_followed",
+    "login": "asmelour",
+    "htmlUrl": "https://github.com/asmelour",
+    "happenedAt": "2026-04-14T12:41:44.806Z"
+  },
+  {
+    "id": "you_followed:hetaliabutt:2026-04-14T12:41:44.806Z",
+    "type": "you_followed",
+    "login": "hetaliabutt",
+    "htmlUrl": "https://github.com/hetaliabutt",
+    "happenedAt": "2026-04-14T12:41:44.806Z"
+  },
+  {
+    "id": "you_unfollowed:eomseann:2026-04-14T12:41:44.806Z",
+    "type": "you_unfollowed",
+    "login": "eomseann",
+    "htmlUrl": "https://github.com/eomseann",
+    "happenedAt": "2026-04-14T12:41:44.806Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:hetaliayaoi:2026-04-14T12:41:44.806Z",
+    "type": "you_unfollowed",
+    "login": "hetaliayaoi",
+    "htmlUrl": "https://github.com/hetaliayaoi",
+    "happenedAt": "2026-04-14T12:41:44.806Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:martinsblucas:2026-04-14T06:56:41.902Z",
     "type": "follower_gained",
     "login": "martinsblucas",
