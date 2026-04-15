@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T12:41:14.416Z",
+  "generatedAt": "2026-04-15T18:45:49.982Z",
   "username": "GoXLd",
   "followBackWindowDays": 7,
   "friendInactiveDays": 60,
@@ -7,20 +7,20 @@
   "rateLimit": {
     "resource": "core",
     "limit": 5000,
-    "remaining": 4992,
-    "used": 8,
-    "resetAt": "2026-04-15T13:41:14.000Z"
+    "remaining": 4991,
+    "used": 9,
+    "resetAt": "2026-04-15T19:45:50.000Z"
   },
   "counts": {
-    "followers": 348,
-    "following": 324,
-    "followerGainedSinceLast": 0,
-    "followerLostSinceLast": 0,
-    "followingAddedSinceLast": 0,
+    "followers": 352,
+    "following": 334,
+    "followerGainedSinceLast": 6,
+    "followerLostSinceLast": 2,
+    "followingAddedSinceLast": 10,
     "followingRemovedSinceLast": 0,
-    "nonReciprocalNow": 139,
-    "followersNotFollowingNow": 163,
-    "mutualFollowersNow": 185,
+    "nonReciprocalNow": 148,
+    "followersNotFollowingNow": 166,
+    "mutualFollowersNow": 186,
     "staleFriendCandidates": 36,
     "deletedAccountsSinceLast": 0,
     "staleCandidates": 23,
@@ -32,7 +32,7 @@
       "htmlUrl": "https://github.com/sanchezcpp",
       "firstSeenFollowingAt": "2026-04-05T12:31:06.945Z",
       "firstSeenNonReciprocalAt": "2026-04-05T12:31:06.945Z",
-      "daysWaiting": 10.01,
+      "daysWaiting": 10.26,
       "ignored": false
     },
     {
@@ -40,7 +40,7 @@
       "htmlUrl": "https://github.com/LUKESKYWQLKER",
       "firstSeenFollowingAt": "2026-04-06T01:00:46.252Z",
       "firstSeenNonReciprocalAt": "2026-04-06T01:00:46.252Z",
-      "daysWaiting": 9.49,
+      "daysWaiting": 9.74,
       "ignored": false
     },
     {
@@ -48,7 +48,7 @@
       "htmlUrl": "https://github.com/AIOSAI",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -56,7 +56,7 @@
       "htmlUrl": "https://github.com/alisonb-commits",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -64,7 +64,7 @@
       "htmlUrl": "https://github.com/aplus-framework",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -72,7 +72,7 @@
       "htmlUrl": "https://github.com/brunobolting",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -80,7 +80,7 @@
       "htmlUrl": "https://github.com/derrysdiariesx",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -88,7 +88,7 @@
       "htmlUrl": "https://github.com/GANGLE-MASK",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -96,7 +96,7 @@
       "htmlUrl": "https://github.com/IDKWHYAMIDOINGTHISLOL",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -104,7 +104,7 @@
       "htmlUrl": "https://github.com/jimmiehansson",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -112,7 +112,7 @@
       "htmlUrl": "https://github.com/Kilian-Pichard",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -120,7 +120,7 @@
       "htmlUrl": "https://github.com/Kota-CH",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -128,7 +128,7 @@
       "htmlUrl": "https://github.com/mankiraful",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -136,7 +136,7 @@
       "htmlUrl": "https://github.com/narutoffee",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -144,7 +144,7 @@
       "htmlUrl": "https://github.com/olexandrfareniu",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -152,7 +152,7 @@
       "htmlUrl": "https://github.com/pageninety9",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -160,7 +160,7 @@
       "htmlUrl": "https://github.com/pneumonoultramicros",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -168,7 +168,7 @@
       "htmlUrl": "https://github.com/rawmenxell",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -176,7 +176,7 @@
       "htmlUrl": "https://github.com/simegnew1213",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -184,7 +184,7 @@
       "htmlUrl": "https://github.com/Sleepytek",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -192,7 +192,7 @@
       "htmlUrl": "https://github.com/VincentLovesTVHeads",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -200,7 +200,7 @@
       "htmlUrl": "https://github.com/ViniciusCode1",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -208,7 +208,7 @@
       "htmlUrl": "https://github.com/WgpArch",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     }
   ],
@@ -218,7 +218,7 @@
       "htmlUrl": "https://github.com/sanchezcpp",
       "firstSeenFollowingAt": "2026-04-05T12:31:06.945Z",
       "firstSeenNonReciprocalAt": "2026-04-05T12:31:06.945Z",
-      "daysWaiting": 10.01,
+      "daysWaiting": 10.26,
       "ignored": false
     },
     {
@@ -226,7 +226,7 @@
       "htmlUrl": "https://github.com/LUKESKYWQLKER",
       "firstSeenFollowingAt": "2026-04-06T01:00:46.252Z",
       "firstSeenNonReciprocalAt": "2026-04-06T01:00:46.252Z",
-      "daysWaiting": 9.49,
+      "daysWaiting": 9.74,
       "ignored": false
     },
     {
@@ -234,7 +234,7 @@
       "htmlUrl": "https://github.com/AIOSAI",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -242,7 +242,7 @@
       "htmlUrl": "https://github.com/alisonb-commits",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -250,7 +250,7 @@
       "htmlUrl": "https://github.com/aplus-framework",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -258,7 +258,7 @@
       "htmlUrl": "https://github.com/brunobolting",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -266,7 +266,7 @@
       "htmlUrl": "https://github.com/derrysdiariesx",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -274,7 +274,7 @@
       "htmlUrl": "https://github.com/GANGLE-MASK",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -282,7 +282,7 @@
       "htmlUrl": "https://github.com/IDKWHYAMIDOINGTHISLOL",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -290,7 +290,7 @@
       "htmlUrl": "https://github.com/jimmiehansson",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -298,7 +298,7 @@
       "htmlUrl": "https://github.com/Kilian-Pichard",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -306,7 +306,7 @@
       "htmlUrl": "https://github.com/Kota-CH",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -314,7 +314,7 @@
       "htmlUrl": "https://github.com/mankiraful",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -322,7 +322,7 @@
       "htmlUrl": "https://github.com/narutoffee",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -330,7 +330,7 @@
       "htmlUrl": "https://github.com/olexandrfareniu",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -338,7 +338,7 @@
       "htmlUrl": "https://github.com/pageninety9",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -346,7 +346,7 @@
       "htmlUrl": "https://github.com/pneumonoultramicros",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -354,7 +354,7 @@
       "htmlUrl": "https://github.com/rawmenxell",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -362,7 +362,7 @@
       "htmlUrl": "https://github.com/simegnew1213",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -370,7 +370,7 @@
       "htmlUrl": "https://github.com/Sleepytek",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -378,7 +378,7 @@
       "htmlUrl": "https://github.com/VincentLovesTVHeads",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -386,7 +386,7 @@
       "htmlUrl": "https://github.com/ViniciusCode1",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -394,7 +394,7 @@
       "htmlUrl": "https://github.com/WgpArch",
       "firstSeenFollowingAt": "2026-04-08T12:39:33.328Z",
       "firstSeenNonReciprocalAt": "2026-04-08T12:39:33.328Z",
-      "daysWaiting": 7,
+      "daysWaiting": 7.25,
       "ignored": false
     },
     {
@@ -402,7 +402,7 @@
       "htmlUrl": "https://github.com/ABHID10",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -410,7 +410,7 @@
       "htmlUrl": "https://github.com/AbhishekStack85",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -418,7 +418,7 @@
       "htmlUrl": "https://github.com/adityaS1712",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -426,7 +426,7 @@
       "htmlUrl": "https://github.com/aftabalam507",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -434,7 +434,7 @@
       "htmlUrl": "https://github.com/ag19bhoomi",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -442,7 +442,7 @@
       "htmlUrl": "https://github.com/AishwaryaAshtekar",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -450,7 +450,7 @@
       "htmlUrl": "https://github.com/aman-ragh",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -458,7 +458,7 @@
       "htmlUrl": "https://github.com/ano1herengineer",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -466,7 +466,7 @@
       "htmlUrl": "https://github.com/Dhoundiyal-Anshul",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -474,7 +474,7 @@
       "htmlUrl": "https://github.com/dishtam",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -482,7 +482,7 @@
       "htmlUrl": "https://github.com/DMNihal65",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -490,7 +490,7 @@
       "htmlUrl": "https://github.com/gi-67",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -498,7 +498,7 @@
       "htmlUrl": "https://github.com/gitanurag02",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -506,7 +506,7 @@
       "htmlUrl": "https://github.com/guptaumang85",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -514,7 +514,7 @@
       "htmlUrl": "https://github.com/HVz11",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -522,7 +522,7 @@
       "htmlUrl": "https://github.com/itzAvihub",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -530,7 +530,7 @@
       "htmlUrl": "https://github.com/mohammadsahil01",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -538,7 +538,7 @@
       "htmlUrl": "https://github.com/NirajanMahara",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -546,7 +546,7 @@
       "htmlUrl": "https://github.com/Ruchir28",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -554,7 +554,7 @@
       "htmlUrl": "https://github.com/ShashankGupta10",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -562,7 +562,7 @@
       "htmlUrl": "https://github.com/Smnthjm08",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -570,7 +570,7 @@
       "htmlUrl": "https://github.com/surendr1a",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -578,7 +578,7 @@
       "htmlUrl": "https://github.com/TejasGaikwad07",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -586,7 +586,7 @@
       "htmlUrl": "https://github.com/vshvjy",
       "firstSeenFollowingAt": "2026-04-09T12:41:53.182Z",
       "firstSeenNonReciprocalAt": "2026-04-09T12:41:53.182Z",
-      "daysWaiting": 6,
+      "daysWaiting": 6.25,
       "ignored": false
     },
     {
@@ -594,7 +594,7 @@
       "htmlUrl": "https://github.com/DlNOS",
       "firstSeenFollowingAt": "2026-04-10T06:27:55.042Z",
       "firstSeenNonReciprocalAt": "2026-04-10T06:27:55.042Z",
-      "daysWaiting": 5.26,
+      "daysWaiting": 5.51,
       "ignored": false
     },
     {
@@ -602,7 +602,7 @@
       "htmlUrl": "https://github.com/hkiceflow",
       "firstSeenFollowingAt": "2026-04-10T06:27:55.042Z",
       "firstSeenNonReciprocalAt": "2026-04-10T06:27:55.042Z",
-      "daysWaiting": 5.26,
+      "daysWaiting": 5.51,
       "ignored": false
     },
     {
@@ -610,7 +610,7 @@
       "htmlUrl": "https://github.com/nayeem-miah",
       "firstSeenFollowingAt": "2026-04-10T06:27:55.042Z",
       "firstSeenNonReciprocalAt": "2026-04-10T06:27:55.042Z",
-      "daysWaiting": 5.26,
+      "daysWaiting": 5.51,
       "ignored": false
     },
     {
@@ -618,7 +618,7 @@
       "htmlUrl": "https://github.com/20santi",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -626,7 +626,7 @@
       "htmlUrl": "https://github.com/Ab2021",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -634,7 +634,7 @@
       "htmlUrl": "https://github.com/decoded-satapathy",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -642,7 +642,7 @@
       "htmlUrl": "https://github.com/doppedheart",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -650,7 +650,7 @@
       "htmlUrl": "https://github.com/drjvtlkr",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -658,7 +658,7 @@
       "htmlUrl": "https://github.com/eggchann",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -666,7 +666,7 @@
       "htmlUrl": "https://github.com/Heismanish",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -674,7 +674,7 @@
       "htmlUrl": "https://github.com/jasonsreid",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -682,7 +682,7 @@
       "htmlUrl": "https://github.com/kav6778",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -690,7 +690,7 @@
       "htmlUrl": "https://github.com/L0ST-UMBRELLA",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -698,7 +698,7 @@
       "htmlUrl": "https://github.com/m-Chetan",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -706,7 +706,7 @@
       "htmlUrl": "https://github.com/manishawhade",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -714,7 +714,7 @@
       "htmlUrl": "https://github.com/MDAshfaqkhan",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -722,7 +722,7 @@
       "htmlUrl": "https://github.com/mehmetseverse387",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -730,7 +730,7 @@
       "htmlUrl": "https://github.com/mmarshmary",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -738,7 +738,7 @@
       "htmlUrl": "https://github.com/nt242298",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -746,7 +746,7 @@
       "htmlUrl": "https://github.com/Parshuu-Hub",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -754,7 +754,7 @@
       "htmlUrl": "https://github.com/PranavYewale",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -762,7 +762,7 @@
       "htmlUrl": "https://github.com/pratyush6717",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -770,7 +770,7 @@
       "htmlUrl": "https://github.com/RahulGIT24",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -778,7 +778,7 @@
       "htmlUrl": "https://github.com/reallywasi",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -786,7 +786,7 @@
       "htmlUrl": "https://github.com/rocker120",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -794,7 +794,7 @@
       "htmlUrl": "https://github.com/Rohan-San",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -802,7 +802,7 @@
       "htmlUrl": "https://github.com/Sahil-K123",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -810,7 +810,7 @@
       "htmlUrl": "https://github.com/sarvagya-singh-pro",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -818,7 +818,7 @@
       "htmlUrl": "https://github.com/sbhydv",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -826,7 +826,7 @@
       "htmlUrl": "https://github.com/Shishank-Baghel",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -834,7 +834,7 @@
       "htmlUrl": "https://github.com/shivam-4-14",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -842,7 +842,7 @@
       "htmlUrl": "https://github.com/somnath9199",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -850,7 +850,7 @@
       "htmlUrl": "https://github.com/spencermarcu-dev",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -858,7 +858,7 @@
       "htmlUrl": "https://github.com/vinayakg04",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -866,7 +866,7 @@
       "htmlUrl": "https://github.com/whoakashpatel",
       "firstSeenFollowingAt": "2026-04-11T18:30:43.593Z",
       "firstSeenNonReciprocalAt": "2026-04-11T18:30:43.593Z",
-      "daysWaiting": 3.76,
+      "daysWaiting": 4.01,
       "ignored": false
     },
     {
@@ -874,7 +874,7 @@
       "htmlUrl": "https://github.com/f3x-abuserr",
       "firstSeenFollowingAt": "2026-04-12T06:49:43.958Z",
       "firstSeenNonReciprocalAt": "2026-04-12T06:49:43.958Z",
-      "daysWaiting": 3.24,
+      "daysWaiting": 3.5,
       "ignored": false
     },
     {
@@ -882,7 +882,7 @@
       "htmlUrl": "https://github.com/ABDUSALIMSUBAHIELBASHI",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -890,7 +890,7 @@
       "htmlUrl": "https://github.com/Anagha-S-Nair",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -898,7 +898,7 @@
       "htmlUrl": "https://github.com/arcdirectory",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -906,7 +906,7 @@
       "htmlUrl": "https://github.com/buddy1016",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -914,7 +914,7 @@
       "htmlUrl": "https://github.com/jfullstackdev",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -922,7 +922,7 @@
       "htmlUrl": "https://github.com/Kritthik2609",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -930,7 +930,7 @@
       "htmlUrl": "https://github.com/megha-ranjith",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -938,7 +938,7 @@
       "htmlUrl": "https://github.com/NithinaMP",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -946,7 +946,7 @@
       "htmlUrl": "https://github.com/sreelakshmijinu03",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -954,7 +954,7 @@
       "htmlUrl": "https://github.com/winsIet",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -962,7 +962,7 @@
       "htmlUrl": "https://github.com/yakeIore",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-12T12:31:31.646Z",
-      "daysWaiting": 3.01,
+      "daysWaiting": 3.26,
       "ignored": false
     },
     {
@@ -970,7 +970,7 @@
       "htmlUrl": "https://github.com/5j4x8htnyd-hash",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -978,7 +978,7 @@
       "htmlUrl": "https://github.com/baveet256",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -986,7 +986,7 @@
       "htmlUrl": "https://github.com/c00llestkidd",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -994,7 +994,7 @@
       "htmlUrl": "https://github.com/carloseduardo44",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1002,7 +1002,7 @@
       "htmlUrl": "https://github.com/Casablanca1010",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1010,7 +1010,7 @@
       "htmlUrl": "https://github.com/defnotutkarsh",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1018,7 +1018,7 @@
       "htmlUrl": "https://github.com/devstful",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1026,7 +1026,7 @@
       "htmlUrl": "https://github.com/diogoramosfns",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1034,7 +1034,7 @@
       "htmlUrl": "https://github.com/dyloshki",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1042,7 +1042,7 @@
       "htmlUrl": "https://github.com/EARodriguezM",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1050,7 +1050,7 @@
       "htmlUrl": "https://github.com/elegyforrobin",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1058,7 +1058,7 @@
       "htmlUrl": "https://github.com/eqe6o",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1066,7 +1066,7 @@
       "htmlUrl": "https://github.com/EvanSaturnus",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1074,7 +1074,7 @@
       "htmlUrl": "https://github.com/funnybunni",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1082,7 +1082,7 @@
       "htmlUrl": "https://github.com/gbzada-afk",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1090,7 +1090,7 @@
       "htmlUrl": "https://github.com/githVVS",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1098,7 +1098,7 @@
       "htmlUrl": "https://github.com/HillbillyNerd",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1106,7 +1106,7 @@
       "htmlUrl": "https://github.com/itanidreams-dev",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1114,7 +1114,7 @@
       "htmlUrl": "https://github.com/Jaybeats931",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1122,7 +1122,7 @@
       "htmlUrl": "https://github.com/jwhong1209",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1130,7 +1130,7 @@
       "htmlUrl": "https://github.com/kaisarrmeoydw",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1138,7 +1138,7 @@
       "htmlUrl": "https://github.com/katiecoin",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1146,7 +1146,7 @@
       "htmlUrl": "https://github.com/Kelly147147",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1154,7 +1154,7 @@
       "htmlUrl": "https://github.com/kleintism",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1162,7 +1162,7 @@
       "htmlUrl": "https://github.com/lepagen511-png",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1170,7 +1170,7 @@
       "htmlUrl": "https://github.com/Lightbulb-bun",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1178,7 +1178,7 @@
       "htmlUrl": "https://github.com/MooseOnDaLoose",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1186,7 +1186,7 @@
       "htmlUrl": "https://github.com/patrickofori310",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1194,7 +1194,7 @@
       "htmlUrl": "https://github.com/Pavan03062006",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1202,7 +1202,7 @@
       "htmlUrl": "https://github.com/Rbrtpv",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1210,7 +1210,7 @@
       "htmlUrl": "https://github.com/realarmaansidhu",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1218,7 +1218,7 @@
       "htmlUrl": "https://github.com/robertmarianmicu-ux",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1226,7 +1226,7 @@
       "htmlUrl": "https://github.com/rrkroms",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1234,7 +1234,7 @@
       "htmlUrl": "https://github.com/self-embodiment-of-perfection",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1242,7 +1242,7 @@
       "htmlUrl": "https://github.com/Spokeizhere",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1250,7 +1250,7 @@
       "htmlUrl": "https://github.com/srinivasrk",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1258,7 +1258,7 @@
       "htmlUrl": "https://github.com/The13r0ken",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1266,7 +1266,7 @@
       "htmlUrl": "https://github.com/ThiagoLPereira",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1274,7 +1274,7 @@
       "htmlUrl": "https://github.com/tristan-renaud",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1282,7 +1282,7 @@
       "htmlUrl": "https://github.com/ULTRA-TRAILER",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1290,7 +1290,7 @@
       "htmlUrl": "https://github.com/vkmalani9",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1298,7 +1298,7 @@
       "htmlUrl": "https://github.com/xx-lydo",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1306,7 +1306,7 @@
       "htmlUrl": "https://github.com/zaydodonovan",
       "firstSeenFollowingAt": "2026-04-13T01:04:34.036Z",
       "firstSeenNonReciprocalAt": "2026-04-13T01:04:34.036Z",
-      "daysWaiting": 2.48,
+      "daysWaiting": 2.74,
       "ignored": false
     },
     {
@@ -1314,7 +1314,7 @@
       "htmlUrl": "https://github.com/FrMahon",
       "firstSeenFollowingAt": "2026-04-12T12:31:31.646Z",
       "firstSeenNonReciprocalAt": "2026-04-14T01:03:48.573Z",
-      "daysWaiting": 1.48,
+      "daysWaiting": 1.74,
       "ignored": false
     },
     {
@@ -1322,7 +1322,79 @@
       "htmlUrl": "https://github.com/r4andom1",
       "firstSeenFollowingAt": "2026-04-14T01:03:48.573Z",
       "firstSeenNonReciprocalAt": "2026-04-14T01:03:48.573Z",
-      "daysWaiting": 1.48,
+      "daysWaiting": 1.74,
+      "ignored": false
+    },
+    {
+      "login": "0xJOSE-DEV",
+      "htmlUrl": "https://github.com/0xJOSE-DEV",
+      "firstSeenFollowingAt": "2026-04-15T18:45:49.982Z",
+      "firstSeenNonReciprocalAt": "2026-04-15T18:45:49.982Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "acherswan",
+      "htmlUrl": "https://github.com/acherswan",
+      "firstSeenFollowingAt": "2026-04-15T18:45:49.982Z",
+      "firstSeenNonReciprocalAt": "2026-04-15T18:45:49.982Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "C10udburst",
+      "htmlUrl": "https://github.com/C10udburst",
+      "firstSeenFollowingAt": "2026-04-15T18:45:49.982Z",
+      "firstSeenNonReciprocalAt": "2026-04-15T18:45:49.982Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "docker-hardened-images",
+      "htmlUrl": "https://github.com/docker-hardened-images",
+      "firstSeenFollowingAt": "2026-04-15T18:45:49.982Z",
+      "firstSeenNonReciprocalAt": "2026-04-15T18:45:49.982Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "engrammed",
+      "htmlUrl": "https://github.com/engrammed",
+      "firstSeenFollowingAt": "2026-04-15T18:45:49.982Z",
+      "firstSeenNonReciprocalAt": "2026-04-15T18:45:49.982Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "oceanasterism",
+      "htmlUrl": "https://github.com/oceanasterism",
+      "firstSeenFollowingAt": "2026-04-15T18:45:49.982Z",
+      "firstSeenNonReciprocalAt": "2026-04-15T18:45:49.982Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "oguricapluvr",
+      "htmlUrl": "https://github.com/oguricapluvr",
+      "firstSeenFollowingAt": "2026-04-15T18:45:49.982Z",
+      "firstSeenNonReciprocalAt": "2026-04-15T18:45:49.982Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "Sumersingpatil2694",
+      "htmlUrl": "https://github.com/Sumersingpatil2694",
+      "firstSeenFollowingAt": "2026-04-15T18:45:49.982Z",
+      "firstSeenNonReciprocalAt": "2026-04-15T18:45:49.982Z",
+      "daysWaiting": 0,
+      "ignored": false
+    },
+    {
+      "login": "sunny-days-365",
+      "htmlUrl": "https://github.com/sunny-days-365",
+      "firstSeenFollowingAt": "2026-04-15T18:45:49.982Z",
+      "firstSeenNonReciprocalAt": "2026-04-15T18:45:49.982Z",
+      "daysWaiting": 0,
       "ignored": false
     }
   ],
@@ -1436,11 +1508,6 @@
       "login": "atadurdyyewserdar",
       "htmlUrl": "https://github.com/atadurdyyewserdar",
       "githubId": 44369230
-    },
-    {
-      "login": "avant1010",
-      "htmlUrl": "https://github.com/avant1010",
-      "githubId": 236570021
     },
     {
       "login": "barrygvuts",
@@ -1568,11 +1635,6 @@
       "githubId": 210113815
     },
     {
-      "login": "duxorethey",
-      "htmlUrl": "https://github.com/duxorethey",
-      "githubId": 241115038
-    },
-    {
       "login": "eatsky1006",
       "htmlUrl": "https://github.com/eatsky1006",
       "githubId": 201119246
@@ -1596,6 +1658,11 @@
       "login": "es4kai",
       "htmlUrl": "https://github.com/es4kai",
       "githubId": 239345663
+    },
+    {
+      "login": "fentrir",
+      "htmlUrl": "https://github.com/fentrir",
+      "githubId": 223508991
     },
     {
       "login": "freakyfied",
@@ -1663,6 +1730,11 @@
       "githubId": 169976903
     },
     {
+      "login": "iRoierr",
+      "htmlUrl": "https://github.com/iRoierr",
+      "githubId": 241115038
+    },
+    {
       "login": "ivanschildhood",
       "htmlUrl": "https://github.com/ivanschildhood",
       "githubId": 203337400
@@ -1691,6 +1763,11 @@
       "login": "kadirbarantan",
       "htmlUrl": "https://github.com/kadirbarantan",
       "githubId": 148151312
+    },
+    {
+      "login": "Kate-mwaura",
+      "htmlUrl": "https://github.com/Kate-mwaura",
+      "githubId": 204184246
     },
     {
       "login": "kidfangs",
@@ -1746,6 +1823,11 @@
       "login": "max-passion",
       "htmlUrl": "https://github.com/max-passion",
       "githubId": 69904132
+    },
+    {
+      "login": "mezentsevs",
+      "htmlUrl": "https://github.com/mezentsevs",
+      "githubId": 31851704
     },
     {
       "login": "mianihtisham99",
@@ -1968,6 +2050,11 @@
       "githubId": 160781484
     },
     {
+      "login": "smartcontract1111",
+      "htmlUrl": "https://github.com/smartcontract1111",
+      "githubId": 236570021
+    },
+    {
       "login": "Snowstorm08",
       "htmlUrl": "https://github.com/Snowstorm08",
       "githubId": 158440611
@@ -2151,8 +2238,8 @@
       "firstSeenMutualAt": "2026-04-14T18:43:41.508Z",
       "lastContributionAt": "2026-04-14T18:24:00Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 0.76,
-      "daysInFriendsList": 0.75
+      "daysSinceLastContribution": 1.02,
+      "daysInFriendsList": 1
     },
     {
       "login": "asmelour",
@@ -2161,8 +2248,8 @@
       "firstSeenMutualAt": "2026-04-14T12:41:44.806Z",
       "lastContributionAt": "2026-04-14T11:13:31Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 1.06,
-      "daysInFriendsList": 1
+      "daysSinceLastContribution": 1.31,
+      "daysInFriendsList": 1.25
     },
     {
       "login": "semomo12",
@@ -2171,8 +2258,8 @@
       "firstSeenMutualAt": "2026-04-13T18:44:37.121Z",
       "lastContributionAt": "2026-04-13T18:24:53Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 1.76,
-      "daysInFriendsList": 1.75
+      "daysSinceLastContribution": 2.01,
+      "daysInFriendsList": 2
     },
     {
       "login": "hetaliabutt",
@@ -2181,8 +2268,8 @@
       "firstSeenMutualAt": "2026-04-14T12:41:44.806Z",
       "lastContributionAt": "2026-04-13T08:07:48Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 2.19,
-      "daysInFriendsList": 1
+      "daysSinceLastContribution": 2.44,
+      "daysInFriendsList": 1.25
     },
     {
       "login": "arindam-codes",
@@ -2191,8 +2278,8 @@
       "firstSeenMutualAt": "2026-04-13T07:04:22.089Z",
       "lastContributionAt": "2026-04-13T05:29:50Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 2.3,
-      "daysInFriendsList": 2.23
+      "daysSinceLastContribution": 2.55,
+      "daysInFriendsList": 2.49
     },
     {
       "login": "utkuhanakar",
@@ -2201,8 +2288,8 @@
       "firstSeenMutualAt": "2026-04-13T01:04:34.036Z",
       "lastContributionAt": "2026-04-12T22:02:56Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 2.61,
-      "daysInFriendsList": 2.48
+      "daysSinceLastContribution": 2.86,
+      "daysInFriendsList": 2.74
     },
     {
       "login": "canpolatcaner",
@@ -2211,8 +2298,8 @@
       "firstSeenMutualAt": "2026-04-12T18:31:04.972Z",
       "lastContributionAt": "2026-04-12T10:05:14Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 3.11,
-      "daysInFriendsList": 2.76
+      "daysSinceLastContribution": 3.36,
+      "daysInFriendsList": 3.01
     },
     {
       "login": "Zuhriddin2010",
@@ -2221,8 +2308,8 @@
       "firstSeenMutualAt": "2026-04-12T12:31:31.646Z",
       "lastContributionAt": "2026-04-12T02:53:15Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 3.41,
-      "daysInFriendsList": 3.01
+      "daysSinceLastContribution": 3.66,
+      "daysInFriendsList": 3.26
     },
     {
       "login": "Dansoko22md",
@@ -2231,8 +2318,8 @@
       "firstSeenMutualAt": "2026-04-14T12:41:44.806Z",
       "lastContributionAt": "2026-04-11T05:56:15Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 4.28,
-      "daysInFriendsList": 1
+      "daysSinceLastContribution": 4.53,
+      "daysInFriendsList": 1.25
     },
     {
       "login": "duzric",
@@ -2241,8 +2328,8 @@
       "firstSeenMutualAt": "2026-04-13T01:04:34.036Z",
       "lastContributionAt": "2026-04-10T14:52:30Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 4.91,
-      "daysInFriendsList": 2.48
+      "daysSinceLastContribution": 5.16,
+      "daysInFriendsList": 2.74
     },
     {
       "login": "RidoanDev",
@@ -2251,8 +2338,8 @@
       "firstSeenMutualAt": "2026-04-13T07:04:22.089Z",
       "lastContributionAt": "2026-04-08T19:03:26Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 6.73,
-      "daysInFriendsList": 2.23
+      "daysSinceLastContribution": 6.99,
+      "daysInFriendsList": 2.49
     },
     {
       "login": "Balamaloth",
@@ -2261,8 +2348,8 @@
       "firstSeenMutualAt": "2026-04-13T07:04:22.089Z",
       "lastContributionAt": "2026-04-06T08:46:38Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 9.16,
-      "daysInFriendsList": 2.23
+      "daysSinceLastContribution": 9.42,
+      "daysInFriendsList": 2.49
     },
     {
       "login": "wetweakintillthemornin",
@@ -2271,8 +2358,8 @@
       "firstSeenMutualAt": "2026-03-31T00:57:43.140Z",
       "lastContributionAt": "2026-03-30T20:54:04Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 15.66,
-      "daysInFriendsList": 15.49
+      "daysSinceLastContribution": 15.91,
+      "daysInFriendsList": 15.74
     },
     {
       "login": "kenjiwizard",
@@ -2281,8 +2368,8 @@
       "firstSeenMutualAt": "2026-03-30T01:00:35.754Z",
       "lastContributionAt": "2026-03-30T00:44:50Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 16.5,
-      "daysInFriendsList": 16.49
+      "daysSinceLastContribution": 16.75,
+      "daysInFriendsList": 16.74
     },
     {
       "login": "spacebeetles",
@@ -2291,8 +2378,8 @@
       "firstSeenMutualAt": "2026-03-28T12:31:04.817Z",
       "lastContributionAt": "2026-03-28T12:02:07Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 18.03,
-      "daysInFriendsList": 18.01
+      "daysSinceLastContribution": 18.28,
+      "daysInFriendsList": 18.26
     },
     {
       "login": "togetheryouandI",
@@ -2301,8 +2388,8 @@
       "firstSeenMutualAt": "2026-03-27T00:57:13.746Z",
       "lastContributionAt": "2026-03-26T22:26:57Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 19.59,
-      "daysInFriendsList": 19.49
+      "daysSinceLastContribution": 19.85,
+      "daysInFriendsList": 19.74
     },
     {
       "login": "arch-yunus",
@@ -2311,8 +2398,8 @@
       "firstSeenMutualAt": "2026-03-20T18:31:22.721Z",
       "lastContributionAt": "2026-03-20T10:33:58Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 26.09,
-      "daysInFriendsList": 25.76
+      "daysSinceLastContribution": 26.34,
+      "daysInFriendsList": 26.01
     },
     {
       "login": "IDouble",
@@ -2321,8 +2408,8 @@
       "firstSeenMutualAt": "2026-04-12T12:31:31.646Z",
       "lastContributionAt": "2026-03-18T12:19:02Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 28.02,
-      "daysInFriendsList": 3.01
+      "daysSinceLastContribution": 28.27,
+      "daysInFriendsList": 3.26
     },
     {
       "login": "gedelabulliraju",
@@ -2331,8 +2418,8 @@
       "firstSeenMutualAt": "2026-03-15T18:30:20.316Z",
       "lastContributionAt": "2026-03-15T17:21:51Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 30.81,
-      "daysInFriendsList": 30.76
+      "daysSinceLastContribution": 31.06,
+      "daysInFriendsList": 31.01
     },
     {
       "login": "CalciumPuppy",
@@ -2341,8 +2428,8 @@
       "firstSeenMutualAt": "2026-03-14T00:49:14.024Z",
       "lastContributionAt": "2026-03-13T19:51:18Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 32.7,
-      "daysInFriendsList": 32.49
+      "daysSinceLastContribution": 32.95,
+      "daysInFriendsList": 32.75
     },
     {
       "login": "VenancioFuentes",
@@ -2351,8 +2438,8 @@
       "firstSeenMutualAt": "2026-03-09T12:31:38.214Z",
       "lastContributionAt": "2026-03-09T01:35:11Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 37.46,
-      "daysInFriendsList": 37.01
+      "daysSinceLastContribution": 37.72,
+      "daysInFriendsList": 37.26
     },
     {
       "login": "Unizuka22",
@@ -2361,8 +2448,8 @@
       "firstSeenMutualAt": "2026-03-08T18:29:52.464Z",
       "lastContributionAt": "2026-03-08T18:24:36Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 37.76,
-      "daysInFriendsList": 37.76
+      "daysSinceLastContribution": 38.01,
+      "daysInFriendsList": 38.01
     },
     {
       "login": "Bubhux",
@@ -2371,8 +2458,8 @@
       "firstSeenMutualAt": "2026-03-04T12:31:22.891Z",
       "lastContributionAt": "2026-03-04T12:20:07Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 42.01,
-      "daysInFriendsList": 42.01
+      "daysSinceLastContribution": 42.27,
+      "daysInFriendsList": 42.26
     },
     {
       "login": "cryptoAur4x",
@@ -2381,8 +2468,8 @@
       "firstSeenMutualAt": "2026-03-09T00:52:42.686Z",
       "lastContributionAt": "2026-03-04T07:24:46Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 42.22,
-      "daysInFriendsList": 37.49
+      "daysSinceLastContribution": 42.47,
+      "daysInFriendsList": 37.75
     },
     {
       "login": "YehorSamafalov",
@@ -2391,8 +2478,8 @@
       "firstSeenMutualAt": "2026-03-11T00:49:15.253Z",
       "lastContributionAt": "2026-03-04T06:15:55Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 42.27,
-      "daysInFriendsList": 35.49
+      "daysSinceLastContribution": 42.52,
+      "daysInFriendsList": 35.75
     },
     {
       "login": "marcoBorto2921",
@@ -2401,8 +2488,8 @@
       "firstSeenMutualAt": "2026-03-02T18:31:31.762Z",
       "lastContributionAt": "2026-03-01T21:03:38Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 44.65,
-      "daysInFriendsList": 43.76
+      "daysSinceLastContribution": 44.9,
+      "daysInFriendsList": 44.01
     },
     {
       "login": "maziathecoder",
@@ -2411,8 +2498,8 @@
       "firstSeenMutualAt": "2026-02-28T12:30:33.686Z",
       "lastContributionAt": "2026-02-28T09:16:06Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 46.14,
-      "daysInFriendsList": 46.01
+      "daysSinceLastContribution": 46.4,
+      "daysInFriendsList": 46.26
     },
     {
       "login": "RickmanBrown",
@@ -2421,8 +2508,8 @@
       "firstSeenMutualAt": "2026-03-17T00:50:42.449Z",
       "lastContributionAt": "2026-02-27T20:23:35Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 46.68,
-      "daysInFriendsList": 29.49
+      "daysSinceLastContribution": 46.93,
+      "daysInFriendsList": 29.75
     },
     {
       "login": "dracoloveforall-crypto",
@@ -2431,8 +2518,8 @@
       "firstSeenMutualAt": "2026-02-27T12:31:27.196Z",
       "lastContributionAt": "2026-02-27T10:47:47Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 47.08,
-      "daysInFriendsList": 47.01
+      "daysSinceLastContribution": 47.33,
+      "daysInFriendsList": 47.26
     },
     {
       "login": "whiteplaine",
@@ -2441,8 +2528,8 @@
       "firstSeenMutualAt": "2026-03-12T12:31:26.427Z",
       "lastContributionAt": "2026-02-26T13:40:26Z",
       "lastContributionType": "PullRequestEvent",
-      "daysSinceLastContribution": 47.96,
-      "daysInFriendsList": 34.01
+      "daysSinceLastContribution": 48.21,
+      "daysInFriendsList": 34.26
     },
     {
       "login": "impulsivepersona",
@@ -2451,8 +2538,8 @@
       "firstSeenMutualAt": "2026-02-27T12:31:27.196Z",
       "lastContributionAt": "2026-02-24T15:48:50Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 49.87,
-      "daysInFriendsList": 47.01
+      "daysSinceLastContribution": 50.12,
+      "daysInFriendsList": 47.26
     },
     {
       "login": "shinseiko",
@@ -2461,8 +2548,8 @@
       "firstSeenMutualAt": "2026-03-03T06:33:29.251Z",
       "lastContributionAt": "2026-02-23T20:02:13Z",
       "lastContributionType": "IssuesEvent",
-      "daysSinceLastContribution": 50.69,
-      "daysInFriendsList": 43.26
+      "daysSinceLastContribution": 50.95,
+      "daysInFriendsList": 43.51
     },
     {
       "login": "logiica",
@@ -2471,8 +2558,8 @@
       "firstSeenMutualAt": "2026-02-27T00:52:12.083Z",
       "lastContributionAt": "2026-02-23T13:55:06Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 50.95,
-      "daysInFriendsList": 47.49
+      "daysSinceLastContribution": 51.2,
+      "daysInFriendsList": 47.75
     },
     {
       "login": "amazing-soft-dev",
@@ -2481,8 +2568,8 @@
       "firstSeenMutualAt": "2026-02-22T18:29:59.614Z",
       "lastContributionAt": "2026-02-22T18:13:05Z",
       "lastContributionType": "IssuesEvent",
-      "daysSinceLastContribution": 51.77,
-      "daysInFriendsList": 51.76
+      "daysSinceLastContribution": 52.02,
+      "daysInFriendsList": 52.01
     },
     {
       "login": "kenjinote",
@@ -2491,8 +2578,8 @@
       "firstSeenMutualAt": "2026-02-22T18:29:59.614Z",
       "lastContributionAt": "2026-02-22T13:41:01Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 51.96,
-      "daysInFriendsList": 51.76
+      "daysSinceLastContribution": 52.21,
+      "daysInFriendsList": 52.01
     },
     {
       "login": "Maher-Elmair",
@@ -2501,8 +2588,8 @@
       "firstSeenMutualAt": "2026-02-23T18:38:47.069Z",
       "lastContributionAt": "2026-02-21T23:00:42Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 52.57,
-      "daysInFriendsList": 50.75
+      "daysSinceLastContribution": 52.82,
+      "daysInFriendsList": 51
     },
     {
       "login": "bugbounted",
@@ -2511,8 +2598,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T11:42:23Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.04,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.29,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "tatsuyafujisaki",
@@ -2521,8 +2608,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T11:27:31Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.05,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.3,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "YusufOkmen",
@@ -2531,8 +2618,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T11:27:26Z",
       "lastContributionType": "IssuesEvent",
-      "daysSinceLastContribution": 53.05,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.3,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "CalebisGross",
@@ -2541,8 +2628,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T11:20:53Z",
       "lastContributionType": "IssueCommentEvent",
-      "daysSinceLastContribution": 53.06,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.31,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "minirang",
@@ -2551,8 +2638,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T11:13:12Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.06,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.31,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "0Darkn",
@@ -2561,8 +2648,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T11:07:07Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 53.07,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.32,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "PTSown0222",
@@ -2571,8 +2658,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T10:48:37Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.08,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.33,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "erogluyusuf",
@@ -2581,8 +2668,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T10:27:08Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.09,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.35,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "KostasSliazas",
@@ -2591,8 +2678,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T09:34:34Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.13,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.38,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Illusivehacks",
@@ -2601,8 +2688,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T09:24:42Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.14,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.39,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "ahnshy",
@@ -2611,8 +2698,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T08:59:47Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.15,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.41,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Chirag314",
@@ -2621,8 +2708,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T08:31:13Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.17,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.43,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "prikarsartam",
@@ -2631,8 +2718,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T08:03:30Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.19,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.45,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "japan1988",
@@ -2641,8 +2728,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T07:57:21Z",
       "lastContributionType": "PullRequestEvent",
-      "daysSinceLastContribution": 53.2,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.45,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "0xspryo",
@@ -2651,8 +2738,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T07:44:05Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.21,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.46,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "anshull-rajput",
@@ -2661,8 +2748,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T07:40:00Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.21,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.46,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "imranmalakzai",
@@ -2671,8 +2758,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T07:13:19Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.23,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.48,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Alex000115",
@@ -2681,8 +2768,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T06:42:09Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.25,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.5,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "odongoarunga-creator",
@@ -2691,8 +2778,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T06:18:21Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.27,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.52,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "eduardoliboriox",
@@ -2701,8 +2788,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T05:34:07Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.3,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.55,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "MOC-G3C",
@@ -2711,8 +2798,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T04:43:49Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.33,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.58,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "guevaraStian",
@@ -2721,8 +2808,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T04:42:51Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.33,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.59,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "jonhealy1",
@@ -2731,8 +2818,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T04:01:41Z",
       "lastContributionType": "PullRequestReviewEvent",
-      "daysSinceLastContribution": 53.36,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.61,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "ephmo",
@@ -2741,8 +2828,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-21T00:08:05Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 53.52,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.78,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "NazmusSayad",
@@ -2751,8 +2838,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T23:04:59Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.57,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.82,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "scottpeat",
@@ -2761,8 +2848,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T22:04:16Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.61,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.86,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "wadecalvin9",
@@ -2771,8 +2858,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T21:56:20Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.61,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.87,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "god-s-only",
@@ -2781,8 +2868,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T21:05:31Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.65,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.9,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "mwakidenis",
@@ -2791,8 +2878,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T20:09:06Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.69,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 53.94,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "abhinavaby",
@@ -2801,8 +2888,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T18:14:01Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.77,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.02,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "franck-gaspoz",
@@ -2811,8 +2898,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T17:46:13Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.79,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.04,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "ronaldo-28",
@@ -2821,8 +2908,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T17:04:05Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.82,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.07,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "PeetlaMahesh123",
@@ -2831,8 +2918,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T16:36:15Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.84,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.09,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "FieldofStrawberries",
@@ -2841,8 +2928,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T16:29:35Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.84,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.09,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "snowflakeworld",
@@ -2851,8 +2938,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T16:23:27Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.85,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.1,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "HeyIamMarasiniAmrit",
@@ -2861,8 +2948,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T16:11:26Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.85,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.11,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "regis-mucyo",
@@ -2871,8 +2958,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T15:37:02Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.88,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.13,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "RafaelaSommer",
@@ -2881,8 +2968,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T15:15:06Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.89,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.15,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "mrwhite4939",
@@ -2891,8 +2978,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T14:50:24Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.91,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.16,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Houessou1",
@@ -2901,8 +2988,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T13:58:19Z",
       "lastContributionType": "ForkEvent",
-      "daysSinceLastContribution": 53.95,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.2,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Ashkan-P88",
@@ -2911,8 +2998,8 @@
       "firstSeenMutualAt": "2026-02-22T18:29:59.614Z",
       "lastContributionAt": "2026-02-20T12:55:11Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.99,
-      "daysInFriendsList": 51.76
+      "daysSinceLastContribution": 54.24,
+      "daysInFriendsList": 52.01
     },
     {
       "login": "OP-88",
@@ -2921,8 +3008,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T12:48:48Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 53.99,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.25,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "CodeWIthAbdullah-007",
@@ -2931,8 +3018,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T11:58:03Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 54.03,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.28,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "1nn0k3sh4",
@@ -2941,8 +3028,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T09:45:24Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 54.12,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.38,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "standardgalactic",
@@ -2951,8 +3038,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T08:04:00Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 54.19,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.45,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "webxos",
@@ -2961,8 +3048,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T04:28:40Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 54.34,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.6,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "VD171",
@@ -2971,8 +3058,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T03:13:29Z",
       "lastContributionType": "PullRequestEvent",
-      "daysSinceLastContribution": 54.39,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.65,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Alex-Unnippillil",
@@ -2981,8 +3068,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-20T02:34:23Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 54.42,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.67,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Franciele-Santos-Silva",
@@ -2991,8 +3078,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-19T23:42:14Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 54.54,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.79,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "ikramagix",
@@ -3001,8 +3088,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-19T21:07:58Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 54.65,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 54.9,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "AleksandrMorozov123",
@@ -3011,8 +3098,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-19T17:17:13Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 54.81,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 55.06,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "hmd37",
@@ -3021,8 +3108,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-19T15:36:15Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 54.88,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 55.13,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "HasanAlasker",
@@ -3031,8 +3118,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-19T11:49:28Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 55.04,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 55.29,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "aka19-76",
@@ -3041,8 +3128,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-18T22:14:02Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 55.6,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 55.86,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "whiskdrinker",
@@ -3051,8 +3138,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-18T15:00:21Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 55.9,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 56.16,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Solyrvv",
@@ -3061,8 +3148,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-18T10:32:30Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.09,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 56.34,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "JohnMwendwa",
@@ -3071,8 +3158,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-18T09:16:00Z",
       "lastContributionType": "IssuesEvent",
-      "daysSinceLastContribution": 56.14,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 56.4,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "JohnAxel04",
@@ -3081,8 +3168,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-18T07:21:22Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.22,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 56.48,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Demonrux",
@@ -3091,8 +3178,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-18T06:59:31Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.24,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 56.49,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "0rion-369",
@@ -3101,8 +3188,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-18T05:51:59Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.28,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 56.54,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "elecbug",
@@ -3111,8 +3198,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-18T01:50:40Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.45,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 56.7,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "viniciusmachadofragamatos",
@@ -3121,8 +3208,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-17T21:31:41Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.63,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 56.88,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "yassnemo",
@@ -3131,8 +3218,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-17T18:43:28Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.75,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 57,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Sandro642",
@@ -3141,8 +3228,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-17T17:50:08Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.79,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 57.04,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "hikusama",
@@ -3151,8 +3238,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-17T15:17:24Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.89,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 57.14,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "etherealelement",
@@ -3161,8 +3248,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-17T13:39:25Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 56.96,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 57.21,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "arnab-muhuri",
@@ -3171,8 +3258,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-17T04:09:05Z",
       "lastContributionType": "ForkEvent",
-      "daysSinceLastContribution": 57.36,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 57.61,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "archanaberry",
@@ -3181,8 +3268,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-17T03:45:50Z",
       "lastContributionType": "IssuesEvent",
-      "daysSinceLastContribution": 57.37,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 57.62,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "retrobullseye",
@@ -3191,8 +3278,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-16T22:32:35Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 57.59,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 57.84,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Lindex54",
@@ -3201,8 +3288,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-16T15:46:39Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 57.87,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 58.12,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "sparkup",
@@ -3211,8 +3298,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-16T14:45:29Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 57.91,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 58.17,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Larimar4you",
@@ -3221,8 +3308,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-15T23:31:33Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 58.55,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 58.8,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "COUNTRY-HUMANS",
@@ -3231,8 +3318,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-15T22:31:12Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 58.59,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 58.84,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "alan0x",
@@ -3241,8 +3328,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-15T11:10:59Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 59.06,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 59.32,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Kairatzh",
@@ -3251,8 +3338,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-15T08:50:23Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 59.16,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 59.41,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "lucianoscarpaci",
@@ -3261,8 +3348,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-15T00:45:54Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 59.5,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 59.75,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "abressiddique",
@@ -3271,8 +3358,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-13T16:55:01Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 60.82,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 61.08,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "techspire0924",
@@ -3281,8 +3368,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-13T14:17:20Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 60.93,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 61.19,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "xcontcom",
@@ -3291,8 +3378,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-13T13:19:18Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 60.97,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 61.23,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "LibanMoo",
@@ -3301,8 +3388,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T20:32:33Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 61.67,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 61.93,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "tot-git27",
@@ -3311,8 +3398,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T19:53:21Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 61.7,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 61.95,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "hyper-ayoub",
@@ -3321,8 +3408,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T18:09:32Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 61.77,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 62.03,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Cardkess-SG",
@@ -3331,8 +3418,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T14:25:48Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 61.93,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 62.18,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "cfrBernard",
@@ -3341,8 +3428,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T09:40:09Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 62.13,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 62.38,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "K-Khe",
@@ -3351,8 +3438,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T07:29:52Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 62.22,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 62.47,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "RohitPatidar0402",
@@ -3361,8 +3448,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-11T15:49:11Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 62.87,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 63.12,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "powernusa",
@@ -3371,8 +3458,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-11T13:33:09Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 62.96,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 63.22,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "A-HA-823",
@@ -3381,8 +3468,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-10T19:31:57Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 63.71,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 63.97,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "nbolok-code",
@@ -3391,8 +3478,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-10T12:02:17Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 64.03,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 64.28,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "kasanetetoo",
@@ -3401,8 +3488,8 @@
       "firstSeenMutualAt": "2026-02-22T10:42:12.898Z",
       "lastContributionAt": "2026-02-09T14:09:14Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 64.94,
-      "daysInFriendsList": 52.08
+      "daysSinceLastContribution": 65.19,
+      "daysInFriendsList": 52.34
     },
     {
       "login": "AnNagyeong",
@@ -3411,8 +3498,8 @@
       "firstSeenMutualAt": "2026-02-23T00:53:26.581Z",
       "lastContributionAt": "2026-02-09T13:11:39Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 64.98,
-      "daysInFriendsList": 51.49
+      "daysSinceLastContribution": 65.23,
+      "daysInFriendsList": 51.74
     },
     {
       "login": "hpachecjose",
@@ -3421,8 +3508,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-08T23:05:27Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 65.57,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 65.82,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "craigderington",
@@ -3431,8 +3518,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-08T13:39:02Z",
       "lastContributionType": "IssueCommentEvent",
-      "daysSinceLastContribution": 65.96,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 66.21,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "shakildevseo",
@@ -3441,8 +3528,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-08T08:42:30Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 66.17,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 66.42,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "joshuanice",
@@ -3451,8 +3538,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-06T21:11:01Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 67.65,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 67.9,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "zeniofia",
@@ -3461,8 +3548,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-06T11:34:18Z",
       "lastContributionType": "PullRequestEvent",
-      "daysSinceLastContribution": 68.05,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 68.3,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "littledandelions",
@@ -3471,8 +3558,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-05T10:13:32Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 69.1,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 69.36,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "azlkiniue",
@@ -3481,8 +3568,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-04T09:52:11Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 70.12,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 70.37,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "panguojun",
@@ -3491,8 +3578,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-03T08:57:31Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 71.16,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 71.41,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "uv-light",
@@ -3501,8 +3588,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-03T02:03:03Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 71.44,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 71.7,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "zaidkhan0099",
@@ -3511,8 +3598,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-01T21:52:30Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 72.62,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 72.87,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "AbSomeone",
@@ -3521,8 +3608,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-01T11:44:46Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 73.04,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 73.29,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "gambling-addict",
@@ -3531,8 +3618,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-30T17:56:16Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 74.78,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 75.03,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "nisargpatel28",
@@ -3541,8 +3628,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-30T06:23:35Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 75.26,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 75.52,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "rikusato0",
@@ -3551,8 +3638,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-28T18:14:30Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 76.77,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 77.02,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Hanae-Iken",
@@ -3561,8 +3648,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-28T16:51:56Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 76.83,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 77.08,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "nam-htran",
@@ -3571,8 +3658,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-26T09:32:40Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 79.13,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 79.38,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Chonapatcc",
@@ -3581,8 +3668,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-25T11:43:32Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 80.04,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 80.29,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "loviette",
@@ -3591,8 +3678,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-25T10:57:02Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 80.07,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 80.33,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "sasha1985y",
@@ -3601,8 +3688,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-23T19:52:02Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 81.7,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 81.95,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "karaflower",
@@ -3611,8 +3698,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-23T11:23:12Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 82.05,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 82.31,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Cotton-Tofu",
@@ -3621,8 +3708,8 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-22T10:42:06Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 83.08,
-      "daysInFriendsList": 52.39
+      "daysSinceLastContribution": 83.34,
+      "daysInFriendsList": 52.64
     },
     {
       "login": "31marcy",
@@ -3632,7 +3719,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 12.25
+      "daysInFriendsList": 12.5
     },
     {
       "login": "Al-Jafarawy",
@@ -3642,7 +3729,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "ansifi",
@@ -3652,7 +3739,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "ANTlDOTE",
@@ -3662,7 +3749,17 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 32.01
+      "daysInFriendsList": 32.26
+    },
+    {
+      "login": "AshiteshSingh",
+      "htmlUrl": "https://github.com/AshiteshSingh",
+      "githubId": 228955865,
+      "firstSeenMutualAt": "2026-04-15T18:45:49.982Z",
+      "lastContributionAt": null,
+      "lastContributionType": null,
+      "daysSinceLastContribution": null,
+      "daysInFriendsList": 0
     },
     {
       "login": "BEPb",
@@ -3672,7 +3769,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "ckonteos80",
@@ -3682,7 +3779,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Cypher-KE",
@@ -3692,7 +3789,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 16.76
+      "daysInFriendsList": 17.01
     },
     {
       "login": "dachi-khelashvili",
@@ -3702,7 +3799,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "destroy-boys",
@@ -3712,7 +3809,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "DYNAM00-ROLLER",
@@ -3722,7 +3819,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "H4zelEyes",
@@ -3732,7 +3829,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "Hamid-Mofidi",
@@ -3742,7 +3839,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "HeannaReis",
@@ -3752,7 +3849,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "iamapuneet",
@@ -3762,7 +3859,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "insivible-knighT",
@@ -3772,7 +3869,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "ismaely",
@@ -3782,7 +3879,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 48.75
+      "daysInFriendsList": 49
     },
     {
       "login": "itzskeetylover",
@@ -3792,7 +3889,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 33.25
+      "daysInFriendsList": 33.51
     },
     {
       "login": "jock-ivan",
@@ -3802,7 +3899,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "jrohitofficial",
@@ -3812,7 +3909,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "katzeruu70",
@@ -3822,7 +3919,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 13
+      "daysInFriendsList": 13.26
     },
     {
       "login": "kh-mahmoud",
@@ -3832,7 +3929,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 3.01
+      "daysInFriendsList": 3.26
     },
     {
       "login": "krishdvsetti",
@@ -3842,7 +3939,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "LazarShockX",
@@ -3852,7 +3949,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 47.01
+      "daysInFriendsList": 47.26
     },
     {
       "login": "martinsblucas",
@@ -3862,7 +3959,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 1.24
+      "daysInFriendsList": 1.49
     },
     {
       "login": "master0fdeceit",
@@ -3872,7 +3969,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "moorocco",
@@ -3882,7 +3979,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "muhammedsaylik",
@@ -3892,7 +3989,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "oatmiIky",
@@ -3902,7 +3999,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "pwnedroot",
@@ -3912,7 +4009,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "relayouter",
@@ -3922,7 +4019,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "schneider-jimi",
@@ -3932,7 +4029,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 9
+      "daysInFriendsList": 9.26
     },
     {
       "login": "shiqingxuanbear",
@@ -3942,7 +4039,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "swbspaac",
@@ -3952,7 +4049,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "tiny-eng",
@@ -3962,7 +4059,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "veiledhalo",
@@ -3972,7 +4069,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "yangilwoo",
@@ -3982,7 +4079,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 52.39
+      "daysInFriendsList": 52.64
     },
     {
       "login": "ZERO-DAWN-X",
@@ -3992,7 +4089,7 @@
       "lastContributionAt": null,
       "lastContributionType": null,
       "daysSinceLastContribution": null,
-      "daysInFriendsList": 1.48
+      "daysInFriendsList": 1.74
     }
   ],
   "staleFriendCandidates": [
@@ -4003,9 +4100,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-22T10:42:06Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 83.08,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 83.08,
+      "daysSinceLastContribution": 83.34,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 83.34,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4015,9 +4112,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-23T11:23:12Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 82.05,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 82.05,
+      "daysSinceLastContribution": 82.31,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 82.31,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4027,9 +4124,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-23T19:52:02Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 81.7,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 81.7,
+      "daysSinceLastContribution": 81.95,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 81.95,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4039,9 +4136,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-25T10:57:02Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 80.07,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 80.07,
+      "daysSinceLastContribution": 80.33,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 80.33,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4051,9 +4148,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-25T11:43:32Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 80.04,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 80.04,
+      "daysSinceLastContribution": 80.29,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 80.29,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4063,9 +4160,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-26T09:32:40Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 79.13,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 79.13,
+      "daysSinceLastContribution": 79.38,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 79.38,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4075,9 +4172,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-28T16:51:56Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 76.83,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 76.83,
+      "daysSinceLastContribution": 77.08,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 77.08,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4087,9 +4184,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-28T18:14:30Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 76.77,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 76.77,
+      "daysSinceLastContribution": 77.02,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 77.02,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4099,9 +4196,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-30T06:23:35Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 75.26,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 75.26,
+      "daysSinceLastContribution": 75.52,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 75.52,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4111,9 +4208,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-01-30T17:56:16Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 74.78,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 74.78,
+      "daysSinceLastContribution": 75.03,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 75.03,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4123,9 +4220,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-01T11:44:46Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 73.04,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 73.04,
+      "daysSinceLastContribution": 73.29,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 73.29,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4135,9 +4232,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-01T21:52:30Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 72.62,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 72.62,
+      "daysSinceLastContribution": 72.87,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 72.87,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4147,9 +4244,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-03T02:03:03Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 71.44,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 71.44,
+      "daysSinceLastContribution": 71.7,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 71.7,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4159,9 +4256,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-03T08:57:31Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 71.16,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 71.16,
+      "daysSinceLastContribution": 71.41,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 71.41,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4171,9 +4268,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-04T09:52:11Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 70.12,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 70.12,
+      "daysSinceLastContribution": 70.37,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 70.37,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4183,9 +4280,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-05T10:13:32Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 69.1,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 69.1,
+      "daysSinceLastContribution": 69.36,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 69.36,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4195,9 +4292,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-06T11:34:18Z",
       "lastContributionType": "PullRequestEvent",
-      "daysSinceLastContribution": 68.05,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 68.05,
+      "daysSinceLastContribution": 68.3,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 68.3,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4207,9 +4304,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-06T21:11:01Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 67.65,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 67.65,
+      "daysSinceLastContribution": 67.9,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 67.9,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4219,9 +4316,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-08T08:42:30Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 66.17,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 66.17,
+      "daysSinceLastContribution": 66.42,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 66.42,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4231,9 +4328,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-08T13:39:02Z",
       "lastContributionType": "IssueCommentEvent",
-      "daysSinceLastContribution": 65.96,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 65.96,
+      "daysSinceLastContribution": 66.21,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 66.21,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4243,9 +4340,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-08T23:05:27Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 65.57,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 65.57,
+      "daysSinceLastContribution": 65.82,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 65.82,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4255,9 +4352,9 @@
       "firstSeenMutualAt": "2026-02-23T00:53:26.581Z",
       "lastContributionAt": "2026-02-09T13:11:39Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 64.98,
-      "daysInFriendsList": 51.49,
-      "inactiveDays": 64.98,
+      "daysSinceLastContribution": 65.23,
+      "daysInFriendsList": 51.74,
+      "inactiveDays": 65.23,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4267,9 +4364,9 @@
       "firstSeenMutualAt": "2026-02-22T10:42:12.898Z",
       "lastContributionAt": "2026-02-09T14:09:14Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 64.94,
-      "daysInFriendsList": 52.08,
-      "inactiveDays": 64.94,
+      "daysSinceLastContribution": 65.19,
+      "daysInFriendsList": 52.34,
+      "inactiveDays": 65.19,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4279,9 +4376,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-10T12:02:17Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 64.03,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 64.03,
+      "daysSinceLastContribution": 64.28,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 64.28,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4291,9 +4388,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-10T19:31:57Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 63.71,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 63.71,
+      "daysSinceLastContribution": 63.97,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 63.97,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4303,9 +4400,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-11T13:33:09Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 62.96,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 62.96,
+      "daysSinceLastContribution": 63.22,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 63.22,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4315,9 +4412,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-11T15:49:11Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 62.87,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 62.87,
+      "daysSinceLastContribution": 63.12,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 63.12,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4327,9 +4424,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T07:29:52Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 62.22,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 62.22,
+      "daysSinceLastContribution": 62.47,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 62.47,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4339,9 +4436,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T09:40:09Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 62.13,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 62.13,
+      "daysSinceLastContribution": 62.38,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 62.38,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4351,9 +4448,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T14:25:48Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 61.93,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 61.93,
+      "daysSinceLastContribution": 62.18,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 62.18,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4363,9 +4460,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T18:09:32Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 61.77,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 61.77,
+      "daysSinceLastContribution": 62.03,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 62.03,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4375,9 +4472,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T19:53:21Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 61.7,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 61.7,
+      "daysSinceLastContribution": 61.95,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 61.95,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4387,9 +4484,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-12T20:32:33Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 61.67,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 61.67,
+      "daysSinceLastContribution": 61.93,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 61.93,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4399,9 +4496,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-13T13:19:18Z",
       "lastContributionType": "WatchEvent",
-      "daysSinceLastContribution": 60.97,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 60.97,
+      "daysSinceLastContribution": 61.23,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 61.23,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4411,9 +4508,9 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-13T14:17:20Z",
       "lastContributionType": "CreateEvent",
-      "daysSinceLastContribution": 60.93,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 60.93,
+      "daysSinceLastContribution": 61.19,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 61.19,
       "reason": "inactive_contribution_window"
     },
     {
@@ -4423,13 +4520,31 @@
       "firstSeenMutualAt": "2026-02-22T03:17:57.968Z",
       "lastContributionAt": "2026-02-13T16:55:01Z",
       "lastContributionType": "PushEvent",
-      "daysSinceLastContribution": 60.82,
-      "daysInFriendsList": 52.39,
-      "inactiveDays": 60.82,
+      "daysSinceLastContribution": 61.08,
+      "daysInFriendsList": 52.64,
+      "inactiveDays": 61.08,
       "reason": "inactive_contribution_window"
     }
   ],
   "recentFollowerLosses": [
+    {
+      "id": "follower_lost:avant1010:2026-04-15T18:45:49.982Z",
+      "type": "follower_lost",
+      "login": "avant1010",
+      "htmlUrl": "https://github.com/avant1010",
+      "happenedAt": "2026-04-15T18:45:49.982Z",
+      "accountStatus": null,
+      "isDeleted": false
+    },
+    {
+      "id": "follower_lost:duxorethey:2026-04-15T18:45:49.982Z",
+      "type": "follower_lost",
+      "login": "duxorethey",
+      "htmlUrl": "https://github.com/duxorethey",
+      "happenedAt": "2026-04-15T18:45:49.982Z",
+      "accountStatus": null,
+      "isDeleted": false
+    },
     {
       "id": "follower_lost:danielfounder:2026-04-14T12:41:44.806Z",
       "type": "follower_lost",
@@ -4858,24 +4973,6 @@
       "type": "follower_lost",
       "login": "gyurioka",
       "htmlUrl": "https://github.com/gyurioka",
-      "happenedAt": "2026-03-27T18:36:13.413Z",
-      "accountStatus": null,
-      "isDeleted": false
-    },
-    {
-      "id": "follower_lost:joehanchi:2026-03-27T18:36:13.413Z",
-      "type": "follower_lost",
-      "login": "joehanchi",
-      "htmlUrl": "https://github.com/joehanchi",
-      "happenedAt": "2026-03-27T18:36:13.413Z",
-      "accountStatus": null,
-      "isDeleted": false
-    },
-    {
-      "id": "follower_lost:joehubers:2026-03-27T18:36:13.413Z",
-      "type": "follower_lost",
-      "login": "joehubers",
-      "htmlUrl": "https://github.com/joehubers",
       "happenedAt": "2026-03-27T18:36:13.413Z",
       "accountStatus": null,
       "isDeleted": false
