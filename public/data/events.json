@@ -1,5 +1,46 @@
 [
   {
+    "id": "you_followed:puppyfes:2026-04-16T12:43:31.117Z",
+    "type": "you_followed",
+    "login": "puppyfes",
+    "htmlUrl": "https://github.com/puppyfes",
+    "happenedAt": "2026-04-16T12:43:31.117Z"
+  },
+  {
+    "id": "you_followed:traumamor:2026-04-16T12:43:31.117Z",
+    "type": "you_followed",
+    "login": "traumamor",
+    "htmlUrl": "https://github.com/traumamor",
+    "happenedAt": "2026-04-16T12:43:31.117Z"
+  },
+  {
+    "id": "you_unfollowed:0xjose-dev:2026-04-16T12:43:31.117Z",
+    "type": "you_unfollowed",
+    "login": "0xJOSE-DEV",
+    "htmlUrl": "https://github.com/0xJOSE-DEV",
+    "happenedAt": "2026-04-16T12:43:31.117Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:oceanasterism:2026-04-16T12:43:31.117Z",
+    "type": "you_unfollowed",
+    "login": "oceanasterism",
+    "htmlUrl": "https://github.com/oceanasterism",
+    "happenedAt": "2026-04-16T12:43:31.117Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:oguricapluvr:2026-04-16T12:43:31.117Z",
+    "type": "you_unfollowed",
+    "login": "oguricapluvr",
+    "htmlUrl": "https://github.com/oguricapluvr",
+    "happenedAt": "2026-04-16T12:43:31.117Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:qafaraz:2026-04-16T01:06:01.884Z",
     "type": "follower_lost",
     "login": "qafaraz",
