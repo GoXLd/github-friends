@@ -1,5 +1,60 @@
 [
   {
+    "id": "follower_gained:benalbano:2026-04-17T18:36:23.595Z",
+    "type": "follower_gained",
+    "login": "benalbano",
+    "htmlUrl": "https://github.com/benalbano",
+    "happenedAt": "2026-04-17T18:36:23.595Z"
+  },
+  {
+    "id": "follower_gained:ihate-terutord:2026-04-17T18:36:23.595Z",
+    "type": "follower_gained",
+    "login": "ihate-terutord",
+    "htmlUrl": "https://github.com/ihate-terutord",
+    "happenedAt": "2026-04-17T18:36:23.595Z"
+  },
+  {
+    "id": "follower_gained:jackweirds:2026-04-17T18:36:23.595Z",
+    "type": "follower_gained",
+    "login": "jackweirds",
+    "htmlUrl": "https://github.com/jackweirds",
+    "happenedAt": "2026-04-17T18:36:23.595Z"
+  },
+  {
+    "id": "follower_gained:yulicwan:2026-04-17T18:36:23.595Z",
+    "type": "follower_gained",
+    "login": "yulicwan",
+    "htmlUrl": "https://github.com/yulicwan",
+    "happenedAt": "2026-04-17T18:36:23.595Z"
+  },
+  {
+    "id": "follower_lost:hourofrot:2026-04-17T18:36:23.595Z",
+    "type": "follower_lost",
+    "login": "hourofrot",
+    "htmlUrl": "https://github.com/hourofrot",
+    "happenedAt": "2026-04-17T18:36:23.595Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:illusivehacks:2026-04-17T18:36:23.595Z",
+    "type": "follower_lost",
+    "login": "Illusivehacks",
+    "htmlUrl": "https://github.com/Illusivehacks",
+    "happenedAt": "2026-04-17T18:36:23.595Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:illusivehacks:2026-04-17T18:36:23.595Z",
+    "type": "you_unfollowed",
+    "login": "Illusivehacks",
+    "htmlUrl": "https://github.com/Illusivehacks",
+    "happenedAt": "2026-04-17T18:36:23.595Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:mehadii-hassan:2026-04-17T12:40:08.258Z",
     "type": "follower_gained",
     "login": "Mehadii-Hassan",
