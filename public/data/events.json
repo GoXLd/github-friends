@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:giewan:2026-04-18T12:31:28.676Z",
+    "type": "follower_gained",
+    "login": "giewan",
+    "htmlUrl": "https://github.com/giewan",
+    "happenedAt": "2026-04-18T12:31:28.676Z"
+  },
+  {
+    "id": "follower_lost:ben-scr:2026-04-18T12:31:28.676Z",
+    "type": "follower_lost",
+    "login": "Ben-Scr",
+    "htmlUrl": "https://github.com/Ben-Scr",
+    "happenedAt": "2026-04-18T12:31:28.676Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:wetweakintillthemornin:2026-04-18T06:44:27.981Z",
     "type": "follower_lost",
     "login": "wetweakintillthemornin",
