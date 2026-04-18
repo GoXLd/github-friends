@@ -1,5 +1,23 @@
 [
   {
+    "id": "follower_lost:wetweakintillthemornin:2026-04-18T06:44:27.981Z",
+    "type": "follower_lost",
+    "login": "wetweakintillthemornin",
+    "htmlUrl": "https://github.com/wetweakintillthemornin",
+    "happenedAt": "2026-04-18T06:44:27.981Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:wetweakintillthemornin:2026-04-18T06:44:27.981Z",
+    "type": "you_unfollowed",
+    "login": "wetweakintillthemornin",
+    "htmlUrl": "https://github.com/wetweakintillthemornin",
+    "happenedAt": "2026-04-18T06:44:27.981Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:benalbano:2026-04-17T18:36:23.595Z",
     "type": "follower_gained",
     "login": "benalbano",
