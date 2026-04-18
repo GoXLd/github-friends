@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:hollowgaze:2026-04-18T18:31:14.157Z",
+    "type": "follower_gained",
+    "login": "HollowGaze",
+    "htmlUrl": "https://github.com/HollowGaze",
+    "happenedAt": "2026-04-18T18:31:14.157Z"
+  },
+  {
+    "id": "follower_lost:solid-met4l:2026-04-18T18:31:14.157Z",
+    "type": "follower_lost",
+    "login": "SOLID-MET4L",
+    "htmlUrl": "https://github.com/SOLID-MET4L",
+    "happenedAt": "2026-04-18T18:31:14.157Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:giewan:2026-04-18T12:31:28.676Z",
     "type": "follower_gained",
     "login": "giewan",
