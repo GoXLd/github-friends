@@ -1,5 +1,39 @@
 [
   {
+    "id": "follower_gained:tordkisser67:2026-04-19T12:31:31.007Z",
+    "type": "follower_gained",
+    "login": "tordkisser67",
+    "htmlUrl": "https://github.com/tordkisser67",
+    "happenedAt": "2026-04-19T12:31:31.007Z"
+  },
+  {
+    "id": "follower_lost:mehadii-hassan:2026-04-19T12:31:31.007Z",
+    "type": "follower_lost",
+    "login": "Mehadii-Hassan",
+    "htmlUrl": "https://github.com/Mehadii-Hassan",
+    "happenedAt": "2026-04-19T12:31:31.007Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:yukamanawa:2026-04-19T12:31:31.007Z",
+    "type": "follower_lost",
+    "login": "yukamanawa",
+    "htmlUrl": "https://github.com/yukamanawa",
+    "happenedAt": "2026-04-19T12:31:31.007Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:yutomiwana:2026-04-19T12:31:31.007Z",
+    "type": "follower_lost",
+    "login": "yutomiwana",
+    "htmlUrl": "https://github.com/yutomiwana",
+    "happenedAt": "2026-04-19T12:31:31.007Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:hollowgaze:2026-04-18T18:31:14.157Z",
     "type": "follower_gained",
     "login": "HollowGaze",
