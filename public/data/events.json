@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:amjadfertassi:2026-04-20T12:45:08.455Z",
+    "type": "follower_gained",
+    "login": "Amjadfertassi",
+    "htmlUrl": "https://github.com/Amjadfertassi",
+    "happenedAt": "2026-04-20T12:45:08.455Z"
+  },
+  {
+    "id": "follower_gained:celadaniel:2026-04-20T12:45:08.455Z",
+    "type": "follower_gained",
+    "login": "CelaDaniel",
+    "htmlUrl": "https://github.com/CelaDaniel",
+    "happenedAt": "2026-04-20T12:45:08.455Z"
+  },
+  {
+    "id": "you_unfollowed:thisames:2026-04-20T12:45:08.455Z",
+    "type": "you_unfollowed",
+    "login": "thisames",
+    "htmlUrl": "https://github.com/thisames",
+    "happenedAt": "2026-04-20T12:45:08.455Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:programmersd21:2026-04-20T07:05:51.483Z",
     "type": "follower_gained",
     "login": "programmersd21",
