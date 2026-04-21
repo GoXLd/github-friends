@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:rnam25:2026-04-21T12:42:32.762Z",
+    "type": "follower_gained",
+    "login": "RNAM25",
+    "htmlUrl": "https://github.com/RNAM25",
+    "happenedAt": "2026-04-21T12:42:32.762Z"
+  },
+  {
+    "id": "follower_lost:victorpreston:2026-04-21T12:42:32.762Z",
+    "type": "follower_lost",
+    "login": "victorpreston",
+    "htmlUrl": "https://github.com/victorpreston",
+    "happenedAt": "2026-04-21T12:42:32.762Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:eimantahir027:2026-04-21T06:58:30.849Z",
     "type": "follower_gained",
     "login": "EimanTahir027",
