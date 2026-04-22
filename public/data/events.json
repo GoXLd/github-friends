@@ -1,5 +1,46 @@
 [
   {
+    "id": "follower_gained:duxorethey:2026-04-22T01:01:01.824Z",
+    "type": "follower_gained",
+    "login": "duxorethey",
+    "htmlUrl": "https://github.com/duxorethey",
+    "happenedAt": "2026-04-22T01:01:01.824Z"
+  },
+  {
+    "id": "follower_gained:gottaru:2026-04-22T01:01:01.824Z",
+    "type": "follower_gained",
+    "login": "Gottaru",
+    "htmlUrl": "https://github.com/Gottaru",
+    "happenedAt": "2026-04-22T01:01:01.824Z"
+  },
+  {
+    "id": "follower_lost:amazing-soft-dev:2026-04-22T01:01:01.824Z",
+    "type": "follower_lost",
+    "login": "amazing-soft-dev",
+    "htmlUrl": "https://github.com/amazing-soft-dev",
+    "happenedAt": "2026-04-22T01:01:01.824Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:parrotfies:2026-04-22T01:01:01.824Z",
+    "type": "follower_lost",
+    "login": "parrotfies",
+    "htmlUrl": "https://github.com/parrotfies",
+    "happenedAt": "2026-04-22T01:01:01.824Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:amazing-soft-dev:2026-04-22T01:01:01.824Z",
+    "type": "you_unfollowed",
+    "login": "amazing-soft-dev",
+    "htmlUrl": "https://github.com/amazing-soft-dev",
+    "happenedAt": "2026-04-22T01:01:01.824Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_lost:yakeiore:2026-04-21T18:41:17.559Z",
     "type": "follower_lost",
     "login": "yakeIore",
