@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:fromtheriver2thesea:2026-04-22T18:41:57.238Z",
+    "type": "follower_gained",
+    "login": "FromTheRiver2TheSea",
+    "htmlUrl": "https://github.com/FromTheRiver2TheSea",
+    "happenedAt": "2026-04-22T18:41:57.238Z"
+  },
+  {
+    "id": "you_followed:heartlesshorizon:2026-04-22T18:41:57.238Z",
+    "type": "you_followed",
+    "login": "HeartlessHorizon",
+    "htmlUrl": "https://github.com/HeartlessHorizon",
+    "happenedAt": "2026-04-22T18:41:57.238Z"
+  },
+  {
+    "id": "you_unfollowed:asrieluo:2026-04-22T18:41:57.238Z",
+    "type": "you_unfollowed",
+    "login": "Asrieluo",
+    "htmlUrl": "https://github.com/Asrieluo",
+    "happenedAt": "2026-04-22T18:41:57.238Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:abeidmdachi21-lgtm:2026-04-22T12:41:34.633Z",
     "type": "you_followed",
     "login": "abeidmdachi21-lgtm",
