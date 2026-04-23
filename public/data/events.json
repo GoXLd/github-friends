@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:magicalgirll:2026-04-23T06:59:32.167Z",
+    "type": "you_followed",
+    "login": "magicalgirll",
+    "htmlUrl": "https://github.com/magicalgirll",
+    "happenedAt": "2026-04-23T06:59:32.167Z"
+  },
+  {
+    "id": "you_unfollowed:f3x-abuserr:2026-04-23T06:59:32.167Z",
+    "type": "you_unfollowed",
+    "login": "f3x-abuserr",
+    "htmlUrl": "https://github.com/f3x-abuserr",
+    "happenedAt": "2026-04-23T06:59:32.167Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:apexcaptain:2026-04-23T01:06:09.368Z",
     "type": "follower_gained",
     "login": "ApexCaptain",
