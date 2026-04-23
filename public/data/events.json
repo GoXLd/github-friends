@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:apexcaptain:2026-04-23T01:06:09.368Z",
+    "type": "follower_gained",
+    "login": "ApexCaptain",
+    "htmlUrl": "https://github.com/ApexCaptain",
+    "happenedAt": "2026-04-23T01:06:09.368Z"
+  },
+  {
+    "id": "you_followed:asrieluo:2026-04-23T01:06:09.368Z",
+    "type": "you_followed",
+    "login": "Asrieluo",
+    "htmlUrl": "https://github.com/Asrieluo",
+    "happenedAt": "2026-04-23T01:06:09.368Z"
+  },
+  {
+    "id": "you_unfollowed:heartlesshorizon:2026-04-23T01:06:09.368Z",
+    "type": "you_unfollowed",
+    "login": "HeartlessHorizon",
+    "htmlUrl": "https://github.com/HeartlessHorizon",
+    "happenedAt": "2026-04-23T01:06:09.368Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:fromtheriver2thesea:2026-04-22T18:41:57.238Z",
     "type": "follower_gained",
     "login": "FromTheRiver2TheSea",
