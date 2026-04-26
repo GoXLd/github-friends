@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:peterruler:2026-04-26T01:07:50.475Z",
+    "type": "follower_lost",
+    "login": "peterruler",
+    "htmlUrl": "https://github.com/peterruler",
+    "happenedAt": "2026-04-26T01:07:50.475Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:vaxerski:2026-04-25T18:31:28.753Z",
     "type": "you_followed",
     "login": "vaxerski",
