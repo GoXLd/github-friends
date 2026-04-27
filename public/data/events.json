@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:ahmed-amo:2026-04-27T01:08:25.423Z",
+    "type": "follower_gained",
+    "login": "ahmed-amo",
+    "htmlUrl": "https://github.com/ahmed-amo",
+    "happenedAt": "2026-04-27T01:08:25.423Z"
+  },
+  {
+    "id": "follower_gained:doggyfies:2026-04-27T01:08:25.423Z",
+    "type": "follower_gained",
+    "login": "doggyfies",
+    "htmlUrl": "https://github.com/doggyfies",
+    "happenedAt": "2026-04-27T01:08:25.423Z"
+  },
+  {
+    "id": "follower_gained:vladsez:2026-04-27T01:08:25.423Z",
+    "type": "follower_gained",
+    "login": "VladSez",
+    "htmlUrl": "https://github.com/VladSez",
+    "happenedAt": "2026-04-27T01:08:25.423Z"
+  },
+  {
+    "id": "follower_lost:duxorethey:2026-04-27T01:08:25.423Z",
+    "type": "follower_lost",
+    "login": "duxorethey",
+    "htmlUrl": "https://github.com/duxorethey",
+    "happenedAt": "2026-04-27T01:08:25.423Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:peterruler:2026-04-26T18:31:34.660Z",
     "type": "follower_gained",
     "login": "peterruler",
