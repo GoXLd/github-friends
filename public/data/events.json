@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:deathl0ck:2026-04-27T18:45:52.340Z",
+    "type": "follower_gained",
+    "login": "Deathl0ck",
+    "htmlUrl": "https://github.com/Deathl0ck",
+    "happenedAt": "2026-04-27T18:45:52.340Z"
+  },
+  {
+    "id": "follower_gained:zha0090:2026-04-27T18:45:52.340Z",
+    "type": "follower_gained",
+    "login": "zha0090",
+    "htmlUrl": "https://github.com/zha0090",
+    "happenedAt": "2026-04-27T18:45:52.340Z"
+  },
+  {
+    "id": "you_followed:natekawa:2026-04-27T18:45:52.340Z",
+    "type": "you_followed",
+    "login": "Natekawa",
+    "htmlUrl": "https://github.com/Natekawa",
+    "happenedAt": "2026-04-27T18:45:52.340Z"
+  },
+  {
+    "id": "you_unfollowed:infinitesourceofrisks:2026-04-27T18:45:52.340Z",
+    "type": "you_unfollowed",
+    "login": "infinitesourceofrisks",
+    "htmlUrl": "https://github.com/infinitesourceofrisks",
+    "happenedAt": "2026-04-27T18:45:52.340Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:spokeizhere:2026-04-27T18:45:52.340Z",
+    "type": "you_unfollowed",
+    "login": "Spokeizhere",
+    "htmlUrl": "https://github.com/Spokeizhere",
+    "happenedAt": "2026-04-27T18:45:52.340Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ishandutta2007:2026-04-27T12:52:36.052Z",
     "type": "follower_gained",
     "login": "ishandutta2007",
