@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:abinash019:2026-04-28T18:51:43.013Z",
+    "type": "follower_gained",
+    "login": "abinash019",
+    "htmlUrl": "https://github.com/abinash019",
+    "happenedAt": "2026-04-28T18:51:43.013Z"
+  },
+  {
+    "id": "follower_gained:vsrupeshkumar:2026-04-28T18:51:43.013Z",
+    "type": "follower_gained",
+    "login": "vsrupeshkumar",
+    "htmlUrl": "https://github.com/vsrupeshkumar",
+    "happenedAt": "2026-04-28T18:51:43.013Z"
+  },
+  {
+    "id": "follower_lost:anointedthedeveloper:2026-04-28T18:51:43.013Z",
+    "type": "follower_lost",
+    "login": "anointedthedeveloper",
+    "htmlUrl": "https://github.com/anointedthedeveloper",
+    "happenedAt": "2026-04-28T18:51:43.013Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:3xtroy:2026-04-28T12:56:19.321Z",
     "type": "follower_gained",
     "login": "3xtroy",
