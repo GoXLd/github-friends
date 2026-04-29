@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:melopics:2026-04-29T01:10:58.163Z",
+    "type": "follower_gained",
+    "login": "melopics",
+    "htmlUrl": "https://github.com/melopics",
+    "happenedAt": "2026-04-29T01:10:58.163Z"
+  },
+  {
+    "id": "follower_lost:iroierr:2026-04-29T01:10:58.163Z",
+    "type": "follower_lost",
+    "login": "iRoierr",
+    "htmlUrl": "https://github.com/iRoierr",
+    "happenedAt": "2026-04-29T01:10:58.163Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:melopics:2026-04-29T01:10:58.163Z",
+    "type": "you_followed",
+    "login": "melopics",
+    "htmlUrl": "https://github.com/melopics",
+    "happenedAt": "2026-04-29T01:10:58.163Z"
+  },
+  {
+    "id": "you_followed:pastryi:2026-04-29T01:10:58.163Z",
+    "type": "you_followed",
+    "login": "Pastryi",
+    "htmlUrl": "https://github.com/Pastryi",
+    "happenedAt": "2026-04-29T01:10:58.163Z"
+  },
+  {
+    "id": "you_unfollowed:holiccal:2026-04-29T01:10:58.163Z",
+    "type": "you_unfollowed",
+    "login": "Holiccal",
+    "htmlUrl": "https://github.com/Holiccal",
+    "happenedAt": "2026-04-29T01:10:58.163Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:iroierr:2026-04-29T01:10:58.163Z",
+    "type": "you_unfollowed",
+    "login": "iRoierr",
+    "htmlUrl": "https://github.com/iRoierr",
+    "happenedAt": "2026-04-29T01:10:58.163Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:abinash019:2026-04-28T18:51:43.013Z",
     "type": "follower_gained",
     "login": "abinash019",
