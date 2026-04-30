@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:rnam25:2026-04-30T12:52:34.892Z",
+    "type": "follower_lost",
+    "login": "RNAM25",
+    "htmlUrl": "https://github.com/RNAM25",
+    "happenedAt": "2026-04-30T12:52:34.892Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:asmajamshidian:2026-04-30T07:11:07.158Z",
     "type": "follower_gained",
     "login": "AsmaJamshidian",
