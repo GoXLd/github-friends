@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:pastryi:2026-04-30T18:48:36.638Z",
+    "type": "follower_gained",
+    "login": "Pastryi",
+    "htmlUrl": "https://github.com/Pastryi",
+    "happenedAt": "2026-04-30T18:48:36.638Z"
+  },
+  {
+    "id": "follower_gained:vibecodinguy:2026-04-30T18:48:36.638Z",
+    "type": "follower_gained",
+    "login": "vibecodinguy",
+    "htmlUrl": "https://github.com/vibecodinguy",
+    "happenedAt": "2026-04-30T18:48:36.638Z"
+  },
+  {
+    "id": "follower_lost:zahracheginy:2026-04-30T18:48:36.638Z",
+    "type": "follower_lost",
+    "login": "zahracheginy",
+    "htmlUrl": "https://github.com/zahracheginy",
+    "happenedAt": "2026-04-30T18:48:36.638Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:vibecodinguy:2026-04-30T18:48:36.638Z",
+    "type": "you_followed",
+    "login": "vibecodinguy",
+    "htmlUrl": "https://github.com/vibecodinguy",
+    "happenedAt": "2026-04-30T18:48:36.638Z"
+  },
+  {
+    "id": "you_unfollowed:zahracheginy:2026-04-30T18:48:36.638Z",
+    "type": "you_unfollowed",
+    "login": "zahracheginy",
+    "htmlUrl": "https://github.com/zahracheginy",
+    "happenedAt": "2026-04-30T18:48:36.638Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_lost:rnam25:2026-04-30T12:52:34.892Z",
     "type": "follower_lost",
     "login": "RNAM25",
