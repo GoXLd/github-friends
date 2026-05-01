@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:alokmavi:2026-05-01T01:15:48.215Z",
+    "type": "follower_gained",
+    "login": "alokmavi",
+    "htmlUrl": "https://github.com/alokmavi",
+    "happenedAt": "2026-05-01T01:15:48.215Z"
+  },
+  {
+    "id": "you_followed:i-love-my-mum:2026-05-01T01:15:48.215Z",
+    "type": "you_followed",
+    "login": "i-love-my-mum",
+    "htmlUrl": "https://github.com/i-love-my-mum",
+    "happenedAt": "2026-05-01T01:15:48.215Z"
+  },
+  {
+    "id": "you_unfollowed:hollanderzz:2026-05-01T01:15:48.215Z",
+    "type": "you_unfollowed",
+    "login": "hollanderzz",
+    "htmlUrl": "https://github.com/hollanderzz",
+    "happenedAt": "2026-05-01T01:15:48.215Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:purple-dyo:2026-05-01T01:15:48.215Z",
+    "type": "you_unfollowed",
+    "login": "purple-dyo",
+    "htmlUrl": "https://github.com/purple-dyo",
+    "happenedAt": "2026-05-01T01:15:48.215Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:pastryi:2026-04-30T18:48:36.638Z",
     "type": "follower_gained",
     "login": "Pastryi",
