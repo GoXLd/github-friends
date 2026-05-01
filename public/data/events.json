@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:04esburxo2:2026-05-01T18:41:26.448Z",
+    "type": "follower_gained",
+    "login": "04esburxo2",
+    "htmlUrl": "https://github.com/04esburxo2",
+    "happenedAt": "2026-05-01T18:41:26.448Z"
+  },
+  {
+    "id": "follower_gained:arn-c0de:2026-05-01T18:41:26.448Z",
+    "type": "follower_gained",
+    "login": "arn-c0de",
+    "htmlUrl": "https://github.com/arn-c0de",
+    "happenedAt": "2026-05-01T18:41:26.448Z"
+  },
+  {
+    "id": "follower_gained:electroshocktherapy:2026-05-01T18:41:26.448Z",
+    "type": "follower_gained",
+    "login": "electroshocktherapy",
+    "htmlUrl": "https://github.com/electroshocktherapy",
+    "happenedAt": "2026-05-01T18:41:26.448Z"
+  },
+  {
+    "id": "follower_lost:nelsonnzou-crypt:2026-05-01T18:41:26.448Z",
+    "type": "follower_lost",
+    "login": "nelsonnzou-crypt",
+    "htmlUrl": "https://github.com/nelsonnzou-crypt",
+    "happenedAt": "2026-05-01T18:41:26.448Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:thebappy:2026-05-01T12:39:20.462Z",
     "type": "follower_gained",
     "login": "theBappy",
