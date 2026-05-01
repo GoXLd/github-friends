@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:thebappy:2026-05-01T12:39:20.462Z",
+    "type": "follower_gained",
+    "login": "theBappy",
+    "htmlUrl": "https://github.com/theBappy",
+    "happenedAt": "2026-05-01T12:39:20.462Z"
+  },
+  {
+    "id": "you_followed:sabrina-carpent3r:2026-05-01T12:39:20.462Z",
+    "type": "you_followed",
+    "login": "SABRINA-CARPENT3R",
+    "htmlUrl": "https://github.com/SABRINA-CARPENT3R",
+    "happenedAt": "2026-05-01T12:39:20.462Z"
+  },
+  {
+    "id": "you_unfollowed:merzonx:2026-05-01T12:39:20.462Z",
+    "type": "you_unfollowed",
+    "login": "merzonx",
+    "htmlUrl": "https://github.com/merzonx",
+    "happenedAt": "2026-05-01T12:39:20.462Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:health-ledger:2026-05-01T07:13:31.502Z",
     "type": "follower_gained",
     "login": "HEALTH-LEDGER",
