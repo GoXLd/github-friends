@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:nayeem-miah:2026-05-02T18:35:36.235Z",
+    "type": "follower_lost",
+    "login": "nayeem-miah",
+    "htmlUrl": "https://github.com/nayeem-miah",
+    "happenedAt": "2026-05-02T18:35:36.235Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:1433215909-coder:2026-05-02T12:35:35.885Z",
     "type": "you_followed",
     "login": "1433215909-coder",
