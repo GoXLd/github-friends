@@ -1,5 +1,41 @@
 [
   {
+    "id": "follower_lost:arn-c0de:2026-05-03T18:35:57.486Z",
+    "type": "follower_lost",
+    "login": "arn-c0de",
+    "htmlUrl": "https://github.com/arn-c0de",
+    "happenedAt": "2026-05-03T18:35:57.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:thebappy:2026-05-03T18:35:57.486Z",
+    "type": "follower_lost",
+    "login": "theBappy",
+    "htmlUrl": "https://github.com/theBappy",
+    "happenedAt": "2026-05-03T18:35:57.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:vsrupeshkumar:2026-05-03T18:35:57.486Z",
+    "type": "follower_lost",
+    "login": "vsrupeshkumar",
+    "htmlUrl": "https://github.com/vsrupeshkumar",
+    "happenedAt": "2026-05-03T18:35:57.486Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:vsrupeshkumar:2026-05-03T18:35:57.486Z",
+    "type": "you_unfollowed",
+    "login": "vsrupeshkumar",
+    "htmlUrl": "https://github.com/vsrupeshkumar",
+    "happenedAt": "2026-05-03T18:35:57.486Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_lost:benalbano:2026-05-03T12:35:44.463Z",
     "type": "follower_lost",
     "login": "benalbano",
