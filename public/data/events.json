@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:fuelisblood:2026-05-05T01:05:57.873Z",
+    "type": "follower_gained",
+    "login": "Fuelisblood",
+    "htmlUrl": "https://github.com/Fuelisblood",
+    "happenedAt": "2026-05-05T01:05:57.873Z"
+  },
+  {
+    "id": "follower_gained:whiskdrinker:2026-05-05T01:05:57.873Z",
+    "type": "follower_gained",
+    "login": "whiskdrinker",
+    "htmlUrl": "https://github.com/whiskdrinker",
+    "happenedAt": "2026-05-05T01:05:57.873Z"
+  },
+  {
+    "id": "follower_lost:jaxxing:2026-05-05T01:05:57.873Z",
+    "type": "follower_lost",
+    "login": "jaxxing",
+    "htmlUrl": "https://github.com/jaxxing",
+    "happenedAt": "2026-05-05T01:05:57.873Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:whiskdrinker:2026-05-05T01:05:57.873Z",
+    "type": "you_followed",
+    "login": "whiskdrinker",
+    "htmlUrl": "https://github.com/whiskdrinker",
+    "happenedAt": "2026-05-05T01:05:57.873Z"
+  },
+  {
+    "id": "you_unfollowed:jaxxing:2026-05-05T01:05:57.873Z",
+    "type": "you_unfollowed",
+    "login": "jaxxing",
+    "htmlUrl": "https://github.com/jaxxing",
+    "happenedAt": "2026-05-05T01:05:57.873Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:ajk-essential:2026-05-04T18:53:23.840Z",
     "type": "follower_gained",
     "login": "AJK-Essential",
