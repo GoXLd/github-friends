@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:roboticsengrriyu:2026-05-06T01:06:47.468Z",
+    "type": "follower_gained",
+    "login": "RoboticsengrRiyu",
+    "htmlUrl": "https://github.com/RoboticsengrRiyu",
+    "happenedAt": "2026-05-06T01:06:47.468Z"
+  },
+  {
+    "id": "follower_gained:thehappydictator:2026-05-06T01:06:47.468Z",
+    "type": "follower_gained",
+    "login": "thehappydictator",
+    "htmlUrl": "https://github.com/thehappydictator",
+    "happenedAt": "2026-05-06T01:06:47.468Z"
+  },
+  {
+    "id": "follower_lost:top-ace-friend:2026-05-06T01:06:47.468Z",
+    "type": "follower_lost",
+    "login": "top-ace-friend",
+    "htmlUrl": "https://github.com/top-ace-friend",
+    "happenedAt": "2026-05-06T01:06:47.468Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:dafi-1:2026-05-05T18:49:06.548Z",
     "type": "follower_gained",
     "login": "DaFi-1",
