@@ -1,5 +1,32 @@
 [
   {
+    "id": "follower_lost:dafi-1:2026-05-06T18:54:27.273Z",
+    "type": "follower_lost",
+    "login": "DaFi-1",
+    "htmlUrl": "https://github.com/DaFi-1",
+    "happenedAt": "2026-05-06T18:54:27.273Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ephmo:2026-05-06T18:54:27.273Z",
+    "type": "follower_lost",
+    "login": "ephmo",
+    "htmlUrl": "https://github.com/ephmo",
+    "happenedAt": "2026-05-06T18:54:27.273Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:ephmo:2026-05-06T18:54:27.273Z",
+    "type": "you_unfollowed",
+    "login": "ephmo",
+    "htmlUrl": "https://github.com/ephmo",
+    "happenedAt": "2026-05-06T18:54:27.273Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:kerollosmagdy:2026-05-06T12:57:56.493Z",
     "type": "follower_gained",
     "login": "KerollosMagdy",
