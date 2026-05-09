@@ -1,5 +1,69 @@
 [
   {
+    "id": "follower_gained:buildduo:2026-05-09T01:09:49.305Z",
+    "type": "follower_gained",
+    "login": "buildduo",
+    "htmlUrl": "https://github.com/buildduo",
+    "happenedAt": "2026-05-09T01:09:49.305Z"
+  },
+  {
+    "id": "follower_gained:jakobporser:2026-05-09T01:09:49.305Z",
+    "type": "follower_gained",
+    "login": "JakobPorser",
+    "htmlUrl": "https://github.com/JakobPorser",
+    "happenedAt": "2026-05-09T01:09:49.305Z"
+  },
+  {
+    "id": "follower_lost:melopics:2026-05-09T01:09:49.305Z",
+    "type": "follower_lost",
+    "login": "melopics",
+    "htmlUrl": "https://github.com/melopics",
+    "happenedAt": "2026-05-09T01:09:49.305Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:stellawinter:2026-05-09T01:09:49.305Z",
+    "type": "follower_lost",
+    "login": "stellawinter",
+    "htmlUrl": "https://github.com/stellawinter",
+    "happenedAt": "2026-05-09T01:09:49.305Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:buildduo:2026-05-09T01:09:49.305Z",
+    "type": "you_followed",
+    "login": "buildduo",
+    "htmlUrl": "https://github.com/buildduo",
+    "happenedAt": "2026-05-09T01:09:49.305Z"
+  },
+  {
+    "id": "you_followed:jakobporser:2026-05-09T01:09:49.305Z",
+    "type": "you_followed",
+    "login": "JakobPorser",
+    "htmlUrl": "https://github.com/JakobPorser",
+    "happenedAt": "2026-05-09T01:09:49.305Z"
+  },
+  {
+    "id": "you_unfollowed:melopics:2026-05-09T01:09:49.305Z",
+    "type": "you_unfollowed",
+    "login": "melopics",
+    "htmlUrl": "https://github.com/melopics",
+    "happenedAt": "2026-05-09T01:09:49.305Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:stellawinter:2026-05-09T01:09:49.305Z",
+    "type": "you_unfollowed",
+    "login": "stellawinter",
+    "htmlUrl": "https://github.com/stellawinter",
+    "happenedAt": "2026-05-09T01:09:49.305Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:francisndirangu:2026-05-08T18:48:00.253Z",
     "type": "follower_gained",
     "login": "FrancisNdirangu",
