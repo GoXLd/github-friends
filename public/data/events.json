@@ -1,5 +1,55 @@
 [
   {
+    "id": "follower_gained:ju912asdf:2026-05-10T01:16:37.003Z",
+    "type": "follower_gained",
+    "login": "Ju912asdf",
+    "htmlUrl": "https://github.com/Ju912asdf",
+    "happenedAt": "2026-05-10T01:16:37.003Z"
+  },
+  {
+    "id": "follower_lost:jakobporser:2026-05-10T01:16:37.003Z",
+    "type": "follower_lost",
+    "login": "JakobPorser",
+    "htmlUrl": "https://github.com/JakobPorser",
+    "happenedAt": "2026-05-10T01:16:37.003Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:whiskdrinker:2026-05-10T01:16:37.003Z",
+    "type": "follower_lost",
+    "login": "whiskdrinker",
+    "htmlUrl": "https://github.com/whiskdrinker",
+    "happenedAt": "2026-05-10T01:16:37.003Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:ju912asdf:2026-05-10T01:16:37.003Z",
+    "type": "you_followed",
+    "login": "Ju912asdf",
+    "htmlUrl": "https://github.com/Ju912asdf",
+    "happenedAt": "2026-05-10T01:16:37.003Z"
+  },
+  {
+    "id": "you_unfollowed:jakobporser:2026-05-10T01:16:37.003Z",
+    "type": "you_unfollowed",
+    "login": "JakobPorser",
+    "htmlUrl": "https://github.com/JakobPorser",
+    "happenedAt": "2026-05-10T01:16:37.003Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:whiskdrinker:2026-05-10T01:16:37.003Z",
+    "type": "you_unfollowed",
+    "login": "whiskdrinker",
+    "htmlUrl": "https://github.com/whiskdrinker",
+    "happenedAt": "2026-05-10T01:16:37.003Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:buildduo:2026-05-09T01:09:49.305Z",
     "type": "follower_gained",
     "login": "buildduo",
