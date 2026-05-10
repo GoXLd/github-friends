@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:veyloradev:2026-05-10T07:12:44.549Z",
+    "type": "follower_gained",
+    "login": "veyloradev",
+    "htmlUrl": "https://github.com/veyloradev",
+    "happenedAt": "2026-05-10T07:12:44.549Z"
+  },
+  {
+    "id": "follower_lost:mafimatiks:2026-05-10T07:12:44.549Z",
+    "type": "follower_lost",
+    "login": "mafimatiks",
+    "htmlUrl": "https://github.com/mafimatiks",
+    "happenedAt": "2026-05-10T07:12:44.549Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ju912asdf:2026-05-10T01:16:37.003Z",
     "type": "follower_gained",
     "login": "Ju912asdf",
