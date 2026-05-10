@@ -1,5 +1,60 @@
 [
   {
+    "id": "follower_gained:g4rkk:2026-05-10T18:37:52.610Z",
+    "type": "follower_gained",
+    "login": "g4rkk",
+    "htmlUrl": "https://github.com/g4rkk",
+    "happenedAt": "2026-05-10T18:37:52.610Z"
+  },
+  {
+    "id": "follower_gained:helallao:2026-05-10T18:37:52.610Z",
+    "type": "follower_gained",
+    "login": "helallao",
+    "htmlUrl": "https://github.com/helallao",
+    "happenedAt": "2026-05-10T18:37:52.610Z"
+  },
+  {
+    "id": "follower_gained:sh0wa:2026-05-10T18:37:52.610Z",
+    "type": "follower_gained",
+    "login": "SH0WA",
+    "htmlUrl": "https://github.com/SH0WA",
+    "happenedAt": "2026-05-10T18:37:52.610Z"
+  },
+  {
+    "id": "follower_lost:iousuz:2026-05-10T18:37:52.610Z",
+    "type": "follower_lost",
+    "login": "iousuz",
+    "htmlUrl": "https://github.com/iousuz",
+    "happenedAt": "2026-05-10T18:37:52.610Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:jovbcorreia:2026-05-10T18:37:52.610Z",
+    "type": "follower_lost",
+    "login": "jovbcorreia",
+    "htmlUrl": "https://github.com/jovbcorreia",
+    "happenedAt": "2026-05-10T18:37:52.610Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:vaelozi:2026-05-10T18:37:52.610Z",
+    "type": "you_followed",
+    "login": "vaelozi",
+    "htmlUrl": "https://github.com/vaelozi",
+    "happenedAt": "2026-05-10T18:37:52.610Z"
+  },
+  {
+    "id": "you_unfollowed:sabrina-carpent3r:2026-05-10T18:37:52.610Z",
+    "type": "you_unfollowed",
+    "login": "SABRINA-CARPENT3R",
+    "htmlUrl": "https://github.com/SABRINA-CARPENT3R",
+    "happenedAt": "2026-05-10T18:37:52.610Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:n012025:2026-05-10T12:38:40.865Z",
     "type": "follower_gained",
     "login": "N012025",
