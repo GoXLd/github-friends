@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:pawun:2026-05-11T07:34:45.121Z",
+    "type": "follower_gained",
+    "login": "pawun",
+    "htmlUrl": "https://github.com/pawun",
+    "happenedAt": "2026-05-11T07:34:45.121Z"
+  },
+  {
+    "id": "follower_lost:narcissisticswag:2026-05-11T07:34:45.121Z",
+    "type": "follower_lost",
+    "login": "NarcissisticSwag",
+    "htmlUrl": "https://github.com/NarcissisticSwag",
+    "happenedAt": "2026-05-11T07:34:45.121Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:g4rkk:2026-05-10T18:37:52.610Z",
     "type": "follower_gained",
     "login": "g4rkk",
