@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:hidariako:2026-05-13T13:04:11.312Z",
+    "type": "follower_gained",
+    "login": "hidariako",
+    "htmlUrl": "https://github.com/hidariako",
+    "happenedAt": "2026-05-13T13:04:11.312Z"
+  },
+  {
+    "id": "follower_gained:iousuz:2026-05-13T13:04:11.312Z",
+    "type": "follower_gained",
+    "login": "iousuz",
+    "htmlUrl": "https://github.com/iousuz",
+    "happenedAt": "2026-05-13T13:04:11.312Z"
+  },
+  {
+    "id": "follower_gained:rob0pup:2026-05-13T13:04:11.312Z",
+    "type": "follower_gained",
+    "login": "rob0pup",
+    "htmlUrl": "https://github.com/rob0pup",
+    "happenedAt": "2026-05-13T13:04:11.312Z"
+  },
+  {
+    "id": "follower_lost:helallao:2026-05-13T13:04:11.312Z",
+    "type": "follower_lost",
+    "login": "helallao",
+    "htmlUrl": "https://github.com/helallao",
+    "happenedAt": "2026-05-13T13:04:11.312Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:nisargpatel28:2026-05-13T13:04:11.312Z",
+    "type": "follower_lost",
+    "login": "nisargpatel28",
+    "htmlUrl": "https://github.com/nisargpatel28",
+    "happenedAt": "2026-05-13T13:04:11.312Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:sh0wa:2026-05-13T13:04:11.312Z",
+    "type": "follower_lost",
+    "login": "SH0WA",
+    "htmlUrl": "https://github.com/SH0WA",
+    "happenedAt": "2026-05-13T13:04:11.312Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:michael-jacksons:2026-05-12T18:58:18.286Z",
     "type": "follower_gained",
     "login": "michael-jacksons",
