@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:swallowmyemotionstill:2026-05-14T12:57:48.563Z",
+    "type": "you_followed",
+    "login": "swallowmyemotionstill",
+    "htmlUrl": "https://github.com/swallowmyemotionstill",
+    "happenedAt": "2026-05-14T12:57:48.563Z"
+  },
+  {
+    "id": "you_unfollowed:vagabondofverity:2026-05-14T12:57:48.563Z",
+    "type": "you_unfollowed",
+    "login": "vagabondofverity",
+    "htmlUrl": "https://github.com/vagabondofverity",
+    "happenedAt": "2026-05-14T12:57:48.563Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:seckinyasar:2026-05-14T07:21:25.370Z",
     "type": "follower_gained",
     "login": "seckinyasar",
