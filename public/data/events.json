@@ -1,5 +1,60 @@
 [
   {
+    "id": "follower_gained:director-fies:2026-05-14T01:16:46.227Z",
+    "type": "follower_gained",
+    "login": "director-fies",
+    "htmlUrl": "https://github.com/director-fies",
+    "happenedAt": "2026-05-14T01:16:46.227Z"
+  },
+  {
+    "id": "follower_gained:jkdevcode:2026-05-14T01:16:46.227Z",
+    "type": "follower_gained",
+    "login": "jkdevcode",
+    "htmlUrl": "https://github.com/jkdevcode",
+    "happenedAt": "2026-05-14T01:16:46.227Z"
+  },
+  {
+    "id": "follower_gained:timebalancedepartment:2026-05-14T01:16:46.227Z",
+    "type": "follower_gained",
+    "login": "timebalancedepartment",
+    "htmlUrl": "https://github.com/timebalancedepartment",
+    "happenedAt": "2026-05-14T01:16:46.227Z"
+  },
+  {
+    "id": "follower_lost:bassiebioomington:2026-05-14T01:16:46.227Z",
+    "type": "follower_lost",
+    "login": "BassieBIoomington",
+    "htmlUrl": "https://github.com/BassieBIoomington",
+    "happenedAt": "2026-05-14T01:16:46.227Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:tordkisser67:2026-05-14T01:16:46.227Z",
+    "type": "follower_lost",
+    "login": "tordkisser67",
+    "htmlUrl": "https://github.com/tordkisser67",
+    "happenedAt": "2026-05-14T01:16:46.227Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:director-fies:2026-05-14T01:16:46.227Z",
+    "type": "you_followed",
+    "login": "director-fies",
+    "htmlUrl": "https://github.com/director-fies",
+    "happenedAt": "2026-05-14T01:16:46.227Z"
+  },
+  {
+    "id": "you_unfollowed:tordkisser67:2026-05-14T01:16:46.227Z",
+    "type": "you_unfollowed",
+    "login": "tordkisser67",
+    "htmlUrl": "https://github.com/tordkisser67",
+    "happenedAt": "2026-05-14T01:16:46.227Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:adindazu:2026-05-13T18:58:27.984Z",
     "type": "follower_gained",
     "login": "adindazu",
