@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:ph1loc4list:2026-05-16T12:40:43.939Z",
+    "type": "you_followed",
+    "login": "ph1loc4list",
+    "htmlUrl": "https://github.com/ph1loc4list",
+    "happenedAt": "2026-05-16T12:40:43.939Z"
+  },
+  {
+    "id": "you_unfollowed:swallowmyemotionstill:2026-05-16T12:40:43.939Z",
+    "type": "you_unfollowed",
+    "login": "swallowmyemotionstill",
+    "htmlUrl": "https://github.com/swallowmyemotionstill",
+    "happenedAt": "2026-05-16T12:40:43.939Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:illusive7ai:2026-05-16T07:05:38.688Z",
     "type": "follower_gained",
     "login": "illusive7ai",
