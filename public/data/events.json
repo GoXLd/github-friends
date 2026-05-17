@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:batcurn:2026-05-17T01:18:10.359Z",
+    "type": "follower_gained",
+    "login": "batcurn",
+    "htmlUrl": "https://github.com/batcurn",
+    "happenedAt": "2026-05-17T01:18:10.359Z"
+  },
+  {
+    "id": "follower_gained:hexninja555:2026-05-17T01:18:10.359Z",
+    "type": "follower_gained",
+    "login": "HexNinja555",
+    "htmlUrl": "https://github.com/HexNinja555",
+    "happenedAt": "2026-05-17T01:18:10.359Z"
+  },
+  {
+    "id": "follower_lost:resolutefemi:2026-05-17T01:18:10.359Z",
+    "type": "follower_lost",
+    "login": "Resolutefemi",
+    "htmlUrl": "https://github.com/Resolutefemi",
+    "happenedAt": "2026-05-17T01:18:10.359Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:thehotelkeeper:2026-05-16T18:38:06.807Z",
     "type": "follower_gained",
     "login": "TheHotelKeeper",
