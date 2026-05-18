@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_lost:aza-ali:2026-05-18T01:20:07.262Z",
+    "type": "follower_lost",
+    "login": "aza-ali",
+    "htmlUrl": "https://github.com/aza-ali",
+    "happenedAt": "2026-05-18T01:20:07.262Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:screamotabi:2026-05-18T01:20:07.262Z",
+    "type": "you_followed",
+    "login": "screamotabi",
+    "htmlUrl": "https://github.com/screamotabi",
+    "happenedAt": "2026-05-18T01:20:07.262Z"
+  },
+  {
+    "id": "you_unfollowed:bloomism:2026-05-18T01:20:07.262Z",
+    "type": "you_unfollowed",
+    "login": "bloomism",
+    "htmlUrl": "https://github.com/bloomism",
+    "happenedAt": "2026-05-18T01:20:07.262Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:c00lkkid:2026-05-17T18:39:06.732Z",
     "type": "follower_gained",
     "login": "C00LKKID",
