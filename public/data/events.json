@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:ddrayko:2026-05-20T19:07:11.319Z",
+    "type": "follower_gained",
+    "login": "ddrayko",
+    "htmlUrl": "https://github.com/ddrayko",
+    "happenedAt": "2026-05-20T19:07:11.319Z"
+  },
+  {
+    "id": "follower_lost:cypher-ke:2026-05-20T19:07:11.319Z",
+    "type": "follower_lost",
+    "login": "Cypher-KE",
+    "htmlUrl": "https://github.com/Cypher-KE",
+    "happenedAt": "2026-05-20T19:07:11.319Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:kgeminic:2026-05-20T19:07:11.319Z",
+    "type": "follower_lost",
+    "login": "Kgeminic",
+    "htmlUrl": "https://github.com/Kgeminic",
+    "happenedAt": "2026-05-20T19:07:11.319Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:hexninja555:2026-05-20T13:18:02.892Z",
     "type": "follower_gained",
     "login": "HexNinja555",
