@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:sumersingpatil2694:2026-05-20T07:32:09.528Z",
+    "type": "follower_gained",
+    "login": "Sumersingpatil2694",
+    "htmlUrl": "https://github.com/Sumersingpatil2694",
+    "happenedAt": "2026-05-20T07:32:09.528Z"
+  },
+  {
+    "id": "follower_lost:hexninja555:2026-05-20T07:32:09.528Z",
+    "type": "follower_lost",
+    "login": "HexNinja555",
+    "htmlUrl": "https://github.com/HexNinja555",
+    "happenedAt": "2026-05-20T07:32:09.528Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:eduardoliboriox:2026-05-20T01:20:52.539Z",
     "type": "follower_gained",
     "login": "eduardoliboriox",
