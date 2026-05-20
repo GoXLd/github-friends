@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:eduardoliboriox:2026-05-20T01:20:52.539Z",
+    "type": "follower_gained",
+    "login": "eduardoliboriox",
+    "htmlUrl": "https://github.com/eduardoliboriox",
+    "happenedAt": "2026-05-20T01:20:52.539Z"
+  },
+  {
+    "id": "you_followed:eduardoliboriox:2026-05-20T01:20:52.539Z",
+    "type": "you_followed",
+    "login": "eduardoliboriox",
+    "htmlUrl": "https://github.com/eduardoliboriox",
+    "happenedAt": "2026-05-20T01:20:52.539Z"
+  },
+  {
     "id": "follower_lost:adindazu:2026-05-19T18:59:08.458Z",
     "type": "follower_lost",
     "login": "adindazu",
