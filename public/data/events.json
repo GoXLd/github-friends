@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:bytemir:2026-05-21T01:21:38.026Z",
+    "type": "follower_gained",
+    "login": "bytemir",
+    "htmlUrl": "https://github.com/bytemir",
+    "happenedAt": "2026-05-21T01:21:38.026Z"
+  },
+  {
+    "id": "follower_gained:chatman-media:2026-05-21T01:21:38.026Z",
+    "type": "follower_gained",
+    "login": "chatman-media",
+    "htmlUrl": "https://github.com/chatman-media",
+    "happenedAt": "2026-05-21T01:21:38.026Z"
+  },
+  {
+    "id": "follower_gained:fluffiestfluffs:2026-05-21T01:21:38.026Z",
+    "type": "follower_gained",
+    "login": "fluffiestfluffs",
+    "htmlUrl": "https://github.com/fluffiestfluffs",
+    "happenedAt": "2026-05-21T01:21:38.026Z"
+  },
+  {
+    "id": "follower_lost:pupfjsh:2026-05-21T01:21:38.026Z",
+    "type": "follower_lost",
+    "login": "pupfjsh",
+    "htmlUrl": "https://github.com/pupfjsh",
+    "happenedAt": "2026-05-21T01:21:38.026Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:veyloradev:2026-05-21T01:21:38.026Z",
+    "type": "follower_lost",
+    "login": "veyloradev",
+    "htmlUrl": "https://github.com/veyloradev",
+    "happenedAt": "2026-05-21T01:21:38.026Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ddrayko:2026-05-20T19:07:11.319Z",
     "type": "follower_gained",
     "login": "ddrayko",
