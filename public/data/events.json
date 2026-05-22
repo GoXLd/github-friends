@@ -1,5 +1,51 @@
 [
   {
+    "id": "follower_gained:3fss:2026-05-22T18:57:37.999Z",
+    "type": "follower_gained",
+    "login": "3fss",
+    "htmlUrl": "https://github.com/3fss",
+    "happenedAt": "2026-05-22T18:57:37.999Z"
+  },
+  {
+    "id": "follower_gained:kaizen12219:2026-05-22T18:57:37.999Z",
+    "type": "follower_gained",
+    "login": "kaizen12219",
+    "htmlUrl": "https://github.com/kaizen12219",
+    "happenedAt": "2026-05-22T18:57:37.999Z"
+  },
+  {
+    "id": "follower_gained:raptr45:2026-05-22T18:57:37.999Z",
+    "type": "follower_gained",
+    "login": "raptr45",
+    "htmlUrl": "https://github.com/raptr45",
+    "happenedAt": "2026-05-22T18:57:37.999Z"
+  },
+  {
+    "id": "follower_gained:rikenpatel20:2026-05-22T18:57:37.999Z",
+    "type": "follower_gained",
+    "login": "rikenpatel20",
+    "htmlUrl": "https://github.com/rikenpatel20",
+    "happenedAt": "2026-05-22T18:57:37.999Z"
+  },
+  {
+    "id": "follower_lost:dulcedotz:2026-05-22T18:57:37.999Z",
+    "type": "follower_lost",
+    "login": "dulcedotz",
+    "htmlUrl": "https://github.com/dulcedotz",
+    "happenedAt": "2026-05-22T18:57:37.999Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:hexninja555:2026-05-22T18:57:37.999Z",
+    "type": "follower_lost",
+    "login": "HexNinja555",
+    "htmlUrl": "https://github.com/HexNinja555",
+    "happenedAt": "2026-05-22T18:57:37.999Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:detectiveslashgenius:2026-05-22T13:12:43.896Z",
     "type": "follower_gained",
     "login": "detectiveslashgenius",
@@ -21869,66 +21915,6 @@
     "login": "murapadev",
     "htmlUrl": "https://github.com/murapadev",
     "happenedAt": "2026-02-22T03:17:57.968Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:ewindmer:2026-02-21T16:38:09.877Z",
-    "type": "follower_gained",
-    "login": "ewindmer",
-    "htmlUrl": "https://github.com/ewindmer",
-    "happenedAt": "2026-02-21T16:38:09.877Z"
-  },
-  {
-    "id": "follower_gained:shards-inc:2026-02-21T16:38:09.877Z",
-    "type": "follower_gained",
-    "login": "Shards-inc",
-    "htmlUrl": "https://github.com/Shards-inc",
-    "happenedAt": "2026-02-21T16:38:09.877Z"
-  },
-  {
-    "id": "follower_lost:deromafilossali:2026-02-21T16:38:09.877Z",
-    "type": "follower_lost",
-    "login": "deromafilossali",
-    "htmlUrl": "https://github.com/deromafilossali",
-    "happenedAt": "2026-02-21T16:38:09.877Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:cjnnekwelugo:2026-02-21T16:38:09.877Z",
-    "type": "you_followed",
-    "login": "cjnnekwelugo",
-    "htmlUrl": "https://github.com/cjnnekwelugo",
-    "happenedAt": "2026-02-21T16:38:09.877Z"
-  },
-  {
-    "id": "you_followed:kritagya123611:2026-02-21T16:38:09.877Z",
-    "type": "you_followed",
-    "login": "Kritagya123611",
-    "htmlUrl": "https://github.com/Kritagya123611",
-    "happenedAt": "2026-02-21T16:38:09.877Z"
-  },
-  {
-    "id": "you_followed:sunlight333:2026-02-21T16:38:09.877Z",
-    "type": "you_followed",
-    "login": "Sunlight333",
-    "htmlUrl": "https://github.com/Sunlight333",
-    "happenedAt": "2026-02-21T16:38:09.877Z"
-  },
-  {
-    "id": "you_followed:vruti26:2026-02-21T16:38:09.877Z",
-    "type": "you_followed",
-    "login": "Vruti26",
-    "htmlUrl": "https://github.com/Vruti26",
-    "happenedAt": "2026-02-21T16:38:09.877Z"
-  },
-  {
-    "id": "you_unfollowed:cjnnekwelugo-debug:2026-02-21T16:38:09.877Z",
-    "type": "you_unfollowed",
-    "login": "cjnnekwelugo-debug",
-    "htmlUrl": "https://github.com/cjnnekwelugo-debug",
-    "happenedAt": "2026-02-21T16:38:09.877Z",
     "accountStatus": null,
     "isDeleted": false
   }
