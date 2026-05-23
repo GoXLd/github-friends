@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:alexndrabarnes:2026-05-23T07:14:07.745Z",
+    "type": "follower_gained",
+    "login": "alexndrabarnes",
+    "htmlUrl": "https://github.com/alexndrabarnes",
+    "happenedAt": "2026-05-23T07:14:07.745Z"
+  },
+  {
+    "id": "follower_lost:yinglantan:2026-05-23T07:14:07.745Z",
+    "type": "follower_lost",
+    "login": "yinglantan",
+    "htmlUrl": "https://github.com/yinglantan",
+    "happenedAt": "2026-05-23T07:14:07.745Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:alexndrabarnes:2026-05-23T07:14:07.745Z",
+    "type": "you_followed",
+    "login": "alexndrabarnes",
+    "htmlUrl": "https://github.com/alexndrabarnes",
+    "happenedAt": "2026-05-23T07:14:07.745Z"
+  },
+  {
+    "id": "you_unfollowed:yinglantan:2026-05-23T07:14:07.745Z",
+    "type": "you_unfollowed",
+    "login": "yinglantan",
+    "htmlUrl": "https://github.com/yinglantan",
+    "happenedAt": "2026-05-23T07:14:07.745Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:boaz-barimen:2026-05-23T01:15:08.295Z",
     "type": "follower_gained",
     "login": "Boaz-Barimen",
@@ -21996,44 +22028,5 @@
     "login": "Zer0-Bug",
     "htmlUrl": "https://github.com/Zer0-Bug",
     "happenedAt": "2026-02-22T10:42:12.898Z"
-  },
-  {
-    "id": "follower_gained:logiica:2026-02-22T06:31:46.399Z",
-    "type": "follower_gained",
-    "login": "logiica",
-    "htmlUrl": "https://github.com/logiica",
-    "happenedAt": "2026-02-22T06:31:46.399Z"
-  },
-  {
-    "id": "follower_gained:devx950415:2026-02-22T03:17:57.968Z",
-    "type": "follower_gained",
-    "login": "devX950415",
-    "htmlUrl": "https://github.com/devX950415",
-    "happenedAt": "2026-02-22T03:17:57.968Z"
-  },
-  {
-    "id": "follower_gained:yassnemo:2026-02-22T03:17:57.968Z",
-    "type": "follower_gained",
-    "login": "yassnemo",
-    "htmlUrl": "https://github.com/yassnemo",
-    "happenedAt": "2026-02-22T03:17:57.968Z"
-  },
-  {
-    "id": "follower_lost:mamun196255:2026-02-22T03:17:57.968Z",
-    "type": "follower_lost",
-    "login": "mamun196255",
-    "htmlUrl": "https://github.com/mamun196255",
-    "happenedAt": "2026-02-22T03:17:57.968Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:murapadev:2026-02-22T03:17:57.968Z",
-    "type": "follower_lost",
-    "login": "murapadev",
-    "htmlUrl": "https://github.com/murapadev",
-    "happenedAt": "2026-02-22T03:17:57.968Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
