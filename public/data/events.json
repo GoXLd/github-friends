@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:sumersingpatil2694:2026-05-24T07:27:16.903Z",
+    "type": "follower_lost",
+    "login": "Sumersingpatil2694",
+    "htmlUrl": "https://github.com/Sumersingpatil2694",
+    "happenedAt": "2026-05-24T07:27:16.903Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:a-partovii:2026-05-23T18:39:33.536Z",
     "type": "follower_gained",
     "login": "a-partovii",
@@ -21801,32 +21810,5 @@
     "login": "yablochki95",
     "htmlUrl": "https://github.com/yablochki95",
     "happenedAt": "2026-02-23T18:38:47.069Z"
-  },
-  {
-    "id": "follower_lost:codewizard1004:2026-02-23T06:42:52.326Z",
-    "type": "follower_lost",
-    "login": "codewizard1004",
-    "htmlUrl": "https://github.com/codewizard1004",
-    "happenedAt": "2026-02-23T06:42:52.326Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:qoofa:2026-02-23T06:42:52.326Z",
-    "type": "follower_lost",
-    "login": "qoofa",
-    "htmlUrl": "https://github.com/qoofa",
-    "happenedAt": "2026-02-23T06:42:52.326Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:ye231101:2026-02-23T06:42:52.326Z",
-    "type": "follower_lost",
-    "login": "ye231101",
-    "htmlUrl": "https://github.com/ye231101",
-    "happenedAt": "2026-02-23T06:42:52.326Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
