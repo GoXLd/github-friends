@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:aishiteitanoni:2026-05-25T07:55:39.666Z",
+    "type": "follower_gained",
+    "login": "aishiteitanoni",
+    "htmlUrl": "https://github.com/aishiteitanoni",
+    "happenedAt": "2026-05-25T07:55:39.666Z"
+  },
+  {
+    "id": "follower_lost:missingdogs:2026-05-25T07:55:39.666Z",
+    "type": "follower_lost",
+    "login": "missingdogs",
+    "htmlUrl": "https://github.com/missingdogs",
+    "happenedAt": "2026-05-25T07:55:39.666Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:aishiteitanoni:2026-05-25T07:55:39.666Z",
+    "type": "you_followed",
+    "login": "aishiteitanoni",
+    "htmlUrl": "https://github.com/aishiteitanoni",
+    "happenedAt": "2026-05-25T07:55:39.666Z"
+  },
+  {
+    "id": "you_followed:lo0nygoon:2026-05-25T07:55:39.666Z",
+    "type": "you_followed",
+    "login": "Lo0nyGoon",
+    "htmlUrl": "https://github.com/Lo0nyGoon",
+    "happenedAt": "2026-05-25T07:55:39.666Z"
+  },
+  {
+    "id": "you_unfollowed:missingdogs:2026-05-25T07:55:39.666Z",
+    "type": "you_unfollowed",
+    "login": "missingdogs",
+    "htmlUrl": "https://github.com/missingdogs",
+    "happenedAt": "2026-05-25T07:55:39.666Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:ph1loc4list:2026-05-25T07:55:39.666Z",
+    "type": "you_unfollowed",
+    "login": "ph1loc4list",
+    "htmlUrl": "https://github.com/ph1loc4list",
+    "happenedAt": "2026-05-25T07:55:39.666Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:anshull-rajput:2026-05-24T18:41:50.439Z",
     "type": "follower_gained",
     "login": "anshull-rajput",
