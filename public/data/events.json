@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:albertolawant:2026-05-25T13:29:04.563Z",
+    "type": "follower_gained",
+    "login": "albertolawant",
+    "htmlUrl": "https://github.com/albertolawant",
+    "happenedAt": "2026-05-25T13:29:04.563Z"
+  },
+  {
+    "id": "follower_gained:sheriffsec:2026-05-25T13:29:04.563Z",
+    "type": "follower_gained",
+    "login": "sheriffsec",
+    "htmlUrl": "https://github.com/sheriffsec",
+    "happenedAt": "2026-05-25T13:29:04.563Z"
+  },
+  {
+    "id": "follower_lost:thephantomdelux:2026-05-25T13:29:04.563Z",
+    "type": "follower_lost",
+    "login": "thephantomdelux",
+    "htmlUrl": "https://github.com/thephantomdelux",
+    "happenedAt": "2026-05-25T13:29:04.563Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:aishiteitanoni:2026-05-25T07:55:39.666Z",
     "type": "follower_gained",
     "login": "aishiteitanoni",
@@ -21682,36 +21705,6 @@
     "login": "seehiong",
     "htmlUrl": "https://github.com/seehiong",
     "happenedAt": "2026-02-24T18:37:33.017Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:bigsign:2026-02-24T12:32:03.813Z",
-    "type": "follower_gained",
-    "login": "bigsign",
-    "htmlUrl": "https://github.com/bigsign",
-    "happenedAt": "2026-02-24T12:32:03.813Z"
-  },
-  {
-    "id": "follower_gained:vigilante-irl:2026-02-24T12:32:03.813Z",
-    "type": "follower_gained",
-    "login": "Vigilante-Irl",
-    "htmlUrl": "https://github.com/Vigilante-Irl",
-    "happenedAt": "2026-02-24T12:32:03.813Z"
-  },
-  {
-    "id": "you_followed:fiimred:2026-02-24T12:32:03.813Z",
-    "type": "you_followed",
-    "login": "fiImred",
-    "htmlUrl": "https://github.com/fiImred",
-    "happenedAt": "2026-02-24T12:32:03.813Z"
-  },
-  {
-    "id": "you_unfollowed:k4yfourr:2026-02-24T12:32:03.813Z",
-    "type": "you_unfollowed",
-    "login": "k4yfourr",
-    "htmlUrl": "https://github.com/k4yfourr",
-    "happenedAt": "2026-02-24T12:32:03.813Z",
     "accountStatus": null,
     "isDeleted": false
   }
