@@ -21625,44 +21625,5 @@
     "happenedAt": "2026-02-25T06:41:43.589Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:dayanadandachy123:2026-02-25T00:55:19.955Z",
-    "type": "follower_gained",
-    "login": "dayanadandachy123",
-    "htmlUrl": "https://github.com/dayanadandachy123",
-    "happenedAt": "2026-02-25T00:55:19.955Z"
-  },
-  {
-    "id": "follower_gained:materaclub:2026-02-25T00:55:19.955Z",
-    "type": "follower_gained",
-    "login": "MateraClub",
-    "htmlUrl": "https://github.com/MateraClub",
-    "happenedAt": "2026-02-25T00:55:19.955Z"
-  },
-  {
-    "id": "follower_lost:susiasa:2026-02-25T00:55:19.955Z",
-    "type": "follower_lost",
-    "login": "susiasa",
-    "htmlUrl": "https://github.com/susiasa",
-    "happenedAt": "2026-02-25T00:55:19.955Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:materaclub:2026-02-25T00:55:19.955Z",
-    "type": "you_followed",
-    "login": "MateraClub",
-    "htmlUrl": "https://github.com/MateraClub",
-    "happenedAt": "2026-02-25T00:55:19.955Z"
-  },
-  {
-    "id": "you_unfollowed:susiasa:2026-02-25T00:55:19.955Z",
-    "type": "you_unfollowed",
-    "login": "susiasa",
-    "htmlUrl": "https://github.com/susiasa",
-    "happenedAt": "2026-02-25T00:55:19.955Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
