@@ -1,5 +1,414 @@
 [
   {
+    "id": "follower_gained:fuyukaxd:2026-05-27T13:35:03.633Z",
+    "type": "follower_gained",
+    "login": "fuyukaXD",
+    "htmlUrl": "https://github.com/fuyukaXD",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "follower_lost:anshull-rajput:2026-05-27T13:35:03.633Z",
+    "type": "follower_lost",
+    "login": "anshull-rajput",
+    "htmlUrl": "https://github.com/anshull-rajput",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": "active",
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:aiqualitylab:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "aiqualitylab",
+    "htmlUrl": "https://github.com/aiqualitylab",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:alonsosegc:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "Alonsosegc",
+    "htmlUrl": "https://github.com/Alonsosegc",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:armandoenrique1010k:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "ArmandoEnrique1010K",
+    "htmlUrl": "https://github.com/ArmandoEnrique1010K",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:bipasasen765-netizen:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "bipasasen765-netizen",
+    "htmlUrl": "https://github.com/bipasasen765-netizen",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:bruna-crist:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "bruna-crist",
+    "htmlUrl": "https://github.com/bruna-crist",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:cacjr:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "cacjr",
+    "htmlUrl": "https://github.com/cacjr",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:cod434:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "COD434",
+    "htmlUrl": "https://github.com/COD434",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:deerbonez:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "deerbonez",
+    "htmlUrl": "https://github.com/deerbonez",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:dimkagithub:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "dimkagithub",
+    "htmlUrl": "https://github.com/dimkagithub",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:ghostintheprompt:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "ghostintheprompt",
+    "htmlUrl": "https://github.com/ghostintheprompt",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:giovanna-cambraia:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "giovanna-cambraia",
+    "htmlUrl": "https://github.com/giovanna-cambraia",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:ifandika:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "ifandika",
+    "htmlUrl": "https://github.com/ifandika",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:joe16000:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "joe16000",
+    "htmlUrl": "https://github.com/joe16000",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:kotola1:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "KOTOLA1",
+    "htmlUrl": "https://github.com/KOTOLA1",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:mahlwanismangaliso67-art:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "mahlwanismangaliso67-art",
+    "htmlUrl": "https://github.com/mahlwanismangaliso67-art",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:maxixler:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "Maxixler",
+    "htmlUrl": "https://github.com/Maxixler",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:mdtaha-dev:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "mdtaha-dev",
+    "htmlUrl": "https://github.com/mdtaha-dev",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:mxpro1996:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "mxpro1996",
+    "htmlUrl": "https://github.com/mxpro1996",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:narawitsuraphan:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "narawitsuraphan",
+    "htmlUrl": "https://github.com/narawitsuraphan",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:nullsaint:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "nullsaint",
+    "htmlUrl": "https://github.com/nullsaint",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:ola4top:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "ola4top",
+    "htmlUrl": "https://github.com/ola4top",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:priyanshhhhhhhh:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "priyanshhhhhhhh",
+    "htmlUrl": "https://github.com/priyanshhhhhhhh",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:ruijindev0801:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "ruijindev0801",
+    "htmlUrl": "https://github.com/ruijindev0801",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_followed:summer-o00o:2026-05-27T13:35:03.633Z",
+    "type": "you_followed",
+    "login": "Summer-o00o",
+    "htmlUrl": "https://github.com/Summer-o00o",
+    "happenedAt": "2026-05-27T13:35:03.633Z"
+  },
+  {
+    "id": "you_unfollowed:abhinavrawat19:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "AbhinavRawat19",
+    "htmlUrl": "https://github.com/AbhinavRawat19",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:alexnice001:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "AlexNice001",
+    "htmlUrl": "https://github.com/AlexNice001",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:anomoly247:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "Anomoly247",
+    "htmlUrl": "https://github.com/Anomoly247",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:anshull-rajput:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "anshull-rajput",
+    "htmlUrl": "https://github.com/anshull-rajput",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": "active",
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:basanta-khatri-0311:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "Basanta-khatri-0311",
+    "htmlUrl": "https://github.com/Basanta-khatri-0311",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:erninteen:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "ERNINTEEN",
+    "htmlUrl": "https://github.com/ERNINTEEN",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:ethanpngbro-prog:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "ethanpngbro-prog",
+    "htmlUrl": "https://github.com/ethanpngbro-prog",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:fmilanese25:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "fmilanese25",
+    "htmlUrl": "https://github.com/fmilanese25",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:fy923-cell:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "fy923-cell",
+    "htmlUrl": "https://github.com/fy923-cell",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:hanane-hbaly:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "hanane-hbaly",
+    "htmlUrl": "https://github.com/hanane-hbaly",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:haurushiro:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "HauruShiro",
+    "htmlUrl": "https://github.com/HauruShiro",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:hr1264818525:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "HR1264818525",
+    "htmlUrl": "https://github.com/HR1264818525",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:icek1m:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "icek1m",
+    "htmlUrl": "https://github.com/icek1m",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:lingeringdream:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "LingeringDream",
+    "htmlUrl": "https://github.com/LingeringDream",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:lirael-410:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "Lirael-410",
+    "htmlUrl": "https://github.com/Lirael-410",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:naszam:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "naszam",
+    "htmlUrl": "https://github.com/naszam",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:nisargpatel28:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "nisargpatel28",
+    "htmlUrl": "https://github.com/nisargpatel28",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:rbsgn:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "rbsgn",
+    "htmlUrl": "https://github.com/rbsgn",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:rommany:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "rommany",
+    "htmlUrl": "https://github.com/rommany",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:saumya1singh:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "saumya1singh",
+    "htmlUrl": "https://github.com/saumya1singh",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:seojaeohcode:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "seojaeohcode",
+    "htmlUrl": "https://github.com/seojaeohcode",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:soroushsoleimani:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "SoroushSoleimani",
+    "htmlUrl": "https://github.com/SoroushSoleimani",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:vaelozi:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "vaelozi",
+    "htmlUrl": "https://github.com/vaelozi",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:vitaodeveloper:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "VitaoDeveloper",
+    "htmlUrl": "https://github.com/VitaoDeveloper",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:yashukalkar:2026-05-27T13:35:03.633Z",
+    "type": "you_unfollowed",
+    "login": "yashUkalkar",
+    "htmlUrl": "https://github.com/yashUkalkar",
+    "happenedAt": "2026-05-27T13:35:03.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:eduardoliboriox:2026-05-27T01:22:02.314Z",
     "type": "follower_lost",
     "login": "eduardoliboriox",
@@ -21520,12 +21929,5 @@
     "login": "metaggdev",
     "htmlUrl": "https://github.com/metaggdev",
     "happenedAt": "2026-02-26T18:33:08.671Z"
-  },
-  {
-    "id": "follower_gained:kalytamykhailo18-cyber:2026-02-26T12:32:05.268Z",
-    "type": "follower_gained",
-    "login": "kalytamykhailo18-cyber",
-    "htmlUrl": "https://github.com/kalytamykhailo18-cyber",
-    "happenedAt": "2026-02-26T12:32:05.268Z"
   }
 ]
