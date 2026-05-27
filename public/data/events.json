@@ -1,5 +1,58 @@
 [
   {
+    "id": "follower_gained:cod434:2026-05-27T19:06:05.542Z",
+    "type": "follower_gained",
+    "login": "COD434",
+    "htmlUrl": "https://github.com/COD434",
+    "happenedAt": "2026-05-27T19:06:05.542Z"
+  },
+  {
+    "id": "follower_gained:deerbonez:2026-05-27T19:06:05.542Z",
+    "type": "follower_gained",
+    "login": "deerbonez",
+    "htmlUrl": "https://github.com/deerbonez",
+    "happenedAt": "2026-05-27T19:06:05.542Z"
+  },
+  {
+    "id": "follower_gained:logika002:2026-05-27T19:06:05.542Z",
+    "type": "follower_gained",
+    "login": "logika002",
+    "htmlUrl": "https://github.com/logika002",
+    "happenedAt": "2026-05-27T19:06:05.542Z"
+  },
+  {
+    "id": "follower_gained:mdtaha-dev:2026-05-27T19:06:05.542Z",
+    "type": "follower_gained",
+    "login": "mdtaha-dev",
+    "htmlUrl": "https://github.com/mdtaha-dev",
+    "happenedAt": "2026-05-27T19:06:05.542Z"
+  },
+  {
+    "id": "follower_lost:logiica:2026-05-27T19:06:05.542Z",
+    "type": "follower_lost",
+    "login": "logiica",
+    "htmlUrl": "https://github.com/logiica",
+    "happenedAt": "2026-05-27T19:06:05.542Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:logika002:2026-05-27T19:06:05.542Z",
+    "type": "you_followed",
+    "login": "logika002",
+    "htmlUrl": "https://github.com/logika002",
+    "happenedAt": "2026-05-27T19:06:05.542Z"
+  },
+  {
+    "id": "you_unfollowed:logiica:2026-05-27T19:06:05.542Z",
+    "type": "you_unfollowed",
+    "login": "logiica",
+    "htmlUrl": "https://github.com/logiica",
+    "happenedAt": "2026-05-27T19:06:05.542Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:fuyukaxd:2026-05-27T13:35:03.633Z",
     "type": "follower_gained",
     "login": "fuyukaXD",
@@ -21906,28 +21959,5 @@
     "login": "vladyslavmahdych",
     "htmlUrl": "https://github.com/vladyslavmahdych",
     "happenedAt": "2026-02-27T00:52:12.083Z"
-  },
-  {
-    "id": "follower_gained:kylemank:2026-02-26T18:33:08.671Z",
-    "type": "follower_gained",
-    "login": "kylemank",
-    "htmlUrl": "https://github.com/kylemank",
-    "happenedAt": "2026-02-26T18:33:08.671Z"
-  },
-  {
-    "id": "follower_lost:ragibalasad:2026-02-26T18:33:08.671Z",
-    "type": "follower_lost",
-    "login": "ragibalasad",
-    "htmlUrl": "https://github.com/ragibalasad",
-    "happenedAt": "2026-02-26T18:33:08.671Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:metaggdev:2026-02-26T18:33:08.671Z",
-    "type": "you_followed",
-    "login": "metaggdev",
-    "htmlUrl": "https://github.com/metaggdev",
-    "happenedAt": "2026-02-26T18:33:08.671Z"
   }
 ]
