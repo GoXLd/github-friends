@@ -1,5 +1,33 @@
 [
   {
+    "id": "follower_gained:anointedthedeveloper:2026-05-28T19:12:57.037Z",
+    "type": "follower_gained",
+    "login": "anointedthedeveloper",
+    "htmlUrl": "https://github.com/anointedthedeveloper",
+    "happenedAt": "2026-05-28T19:12:57.037Z"
+  },
+  {
+    "id": "follower_gained:buzz8year:2026-05-28T19:12:57.037Z",
+    "type": "follower_gained",
+    "login": "buzz8year",
+    "htmlUrl": "https://github.com/buzz8year",
+    "happenedAt": "2026-05-28T19:12:57.037Z"
+  },
+  {
+    "id": "follower_gained:geritafrot:2026-05-28T19:12:57.037Z",
+    "type": "follower_gained",
+    "login": "geritafrot",
+    "htmlUrl": "https://github.com/geritafrot",
+    "happenedAt": "2026-05-28T19:12:57.037Z"
+  },
+  {
+    "id": "follower_gained:yanrieru:2026-05-28T19:12:57.037Z",
+    "type": "follower_gained",
+    "login": "yanrieru",
+    "htmlUrl": "https://github.com/yanrieru",
+    "happenedAt": "2026-05-28T19:12:57.037Z"
+  },
+  {
     "id": "follower_gained:aiqualitylab:2026-05-28T13:37:46.981Z",
     "type": "follower_gained",
     "login": "aiqualitylab",
@@ -22181,35 +22209,5 @@
     "happenedAt": "2026-02-28T00:46:29.832Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:aminkrbasi:2026-02-27T18:31:11.055Z",
-    "type": "follower_gained",
-    "login": "aminkrbasi",
-    "htmlUrl": "https://github.com/aminkrbasi",
-    "happenedAt": "2026-02-27T18:31:11.055Z"
-  },
-  {
-    "id": "follower_gained:tarcoxy:2026-02-27T18:31:11.055Z",
-    "type": "follower_gained",
-    "login": "tarcoxy",
-    "htmlUrl": "https://github.com/tarcoxy",
-    "happenedAt": "2026-02-27T18:31:11.055Z"
-  },
-  {
-    "id": "you_followed:core-euler:2026-02-27T18:31:11.055Z",
-    "type": "you_followed",
-    "login": "core-euler",
-    "htmlUrl": "https://github.com/core-euler",
-    "happenedAt": "2026-02-27T18:31:11.055Z"
-  },
-  {
-    "id": "you_unfollowed:okoloboga:2026-02-27T18:31:11.055Z",
-    "type": "you_unfollowed",
-    "login": "okoloboga",
-    "htmlUrl": "https://github.com/okoloboga",
-    "happenedAt": "2026-02-27T18:31:11.055Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
