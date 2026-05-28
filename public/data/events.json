@@ -1,5 +1,42 @@
 [
   {
+    "id": "follower_gained:anajulialeite:2026-05-28T07:41:37.109Z",
+    "type": "follower_gained",
+    "login": "anajulialeite",
+    "htmlUrl": "https://github.com/anajulialeite",
+    "happenedAt": "2026-05-28T07:41:37.109Z"
+  },
+  {
+    "id": "follower_gained:codwithyc:2026-05-28T07:41:37.109Z",
+    "type": "follower_gained",
+    "login": "codwithyc",
+    "htmlUrl": "https://github.com/codwithyc",
+    "happenedAt": "2026-05-28T07:41:37.109Z"
+  },
+  {
+    "id": "follower_gained:hacrex:2026-05-28T07:41:37.109Z",
+    "type": "follower_gained",
+    "login": "hacrex",
+    "htmlUrl": "https://github.com/hacrex",
+    "happenedAt": "2026-05-28T07:41:37.109Z"
+  },
+  {
+    "id": "follower_gained:t3ardrop:2026-05-28T07:41:37.109Z",
+    "type": "follower_gained",
+    "login": "T3ARDROP",
+    "htmlUrl": "https://github.com/T3ARDROP",
+    "happenedAt": "2026-05-28T07:41:37.109Z"
+  },
+  {
+    "id": "follower_lost:scorchingfire:2026-05-28T07:41:37.109Z",
+    "type": "follower_lost",
+    "login": "scorchingfire",
+    "htmlUrl": "https://github.com/scorchingfire",
+    "happenedAt": "2026-05-28T07:41:37.109Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:logika024:2026-05-28T01:13:41.296Z",
     "type": "follower_gained",
     "login": "logika024",
@@ -21990,107 +22027,5 @@
     "login": "vladyslavmahdych",
     "htmlUrl": "https://github.com/vladyslavmahdych",
     "happenedAt": "2026-02-27T12:31:27.196Z"
-  },
-  {
-    "id": "follower_gained:caryfles:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "caryfles",
-    "htmlUrl": "https://github.com/caryfles",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:fertwis:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "fertwis",
-    "htmlUrl": "https://github.com/fertwis",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:gerdwyne:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "gerdwyne",
-    "htmlUrl": "https://github.com/gerdwyne",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:gorotet:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "Gorotet",
-    "htmlUrl": "https://github.com/Gorotet",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:ivanschildhood:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "ivanschildhood",
-    "htmlUrl": "https://github.com/ivanschildhood",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:jackoye:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "jackoye",
-    "htmlUrl": "https://github.com/jackoye",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:loreius:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "loreius",
-    "htmlUrl": "https://github.com/loreius",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:nerywine:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "nerywine",
-    "htmlUrl": "https://github.com/nerywine",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:pabwinner:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "pabwinner",
-    "htmlUrl": "https://github.com/pabwinner",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:panyster:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "panyster",
-    "htmlUrl": "https://github.com/panyster",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_gained:weirdlone:2026-02-27T06:34:52.902Z",
-    "type": "follower_gained",
-    "login": "weirdlone",
-    "htmlUrl": "https://github.com/weirdlone",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "follower_lost:codebuilder0101:2026-02-27T06:34:52.902Z",
-    "type": "follower_lost",
-    "login": "codebuilder0101",
-    "htmlUrl": "https://github.com/codebuilder0101",
-    "happenedAt": "2026-02-27T06:34:52.902Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:vodailocz:2026-02-27T06:34:52.902Z",
-    "type": "you_followed",
-    "login": "VoDaiLocz",
-    "htmlUrl": "https://github.com/VoDaiLocz",
-    "happenedAt": "2026-02-27T06:34:52.902Z"
-  },
-  {
-    "id": "you_unfollowed:locfaker:2026-02-27T06:34:52.902Z",
-    "type": "you_unfollowed",
-    "login": "locfaker",
-    "htmlUrl": "https://github.com/locfaker",
-    "happenedAt": "2026-02-27T06:34:52.902Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
