@@ -1,5 +1,26 @@
 [
   {
+    "id": "follower_gained:dastoikov:2026-05-29T07:39:35.710Z",
+    "type": "follower_gained",
+    "login": "dastoikov",
+    "htmlUrl": "https://github.com/dastoikov",
+    "happenedAt": "2026-05-29T07:39:35.710Z"
+  },
+  {
+    "id": "follower_gained:mznausica3181-gif:2026-05-29T07:39:35.710Z",
+    "type": "follower_gained",
+    "login": "mznausica3181-gif",
+    "htmlUrl": "https://github.com/mznausica3181-gif",
+    "happenedAt": "2026-05-29T07:39:35.710Z"
+  },
+  {
+    "id": "follower_gained:qianyu-08:2026-05-29T07:39:35.710Z",
+    "type": "follower_gained",
+    "login": "qianyu-08",
+    "htmlUrl": "https://github.com/qianyu-08",
+    "happenedAt": "2026-05-29T07:39:35.710Z"
+  },
+  {
     "id": "you_followed:abdulvakeel:2026-05-29T01:21:40.069Z",
     "type": "you_followed",
     "login": "AbdulVakeel",
@@ -22260,53 +22281,5 @@
     "happenedAt": "2026-02-28T12:30:33.686Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:scorpiofento:2026-02-28T06:30:20.610Z",
-    "type": "follower_gained",
-    "login": "ScorpioFento",
-    "htmlUrl": "https://github.com/ScorpioFento",
-    "happenedAt": "2026-02-28T06:30:20.610Z"
-  },
-  {
-    "id": "follower_gained:varkrlyie:2026-02-28T06:30:20.610Z",
-    "type": "follower_gained",
-    "login": "varkrlyie",
-    "htmlUrl": "https://github.com/varkrlyie",
-    "happenedAt": "2026-02-28T06:30:20.610Z"
-  },
-  {
-    "id": "follower_lost:arn-c0de:2026-02-28T06:30:20.610Z",
-    "type": "follower_lost",
-    "login": "arn-c0de",
-    "htmlUrl": "https://github.com/arn-c0de",
-    "happenedAt": "2026-02-28T06:30:20.610Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:spokeisherez:2026-02-28T06:30:20.610Z",
-    "type": "follower_lost",
-    "login": "spokeisherez",
-    "htmlUrl": "https://github.com/spokeisherez",
-    "happenedAt": "2026-02-28T06:30:20.610Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:puppyprincessplush:2026-02-28T06:30:20.610Z",
-    "type": "you_followed",
-    "login": "puppyprincessplush",
-    "htmlUrl": "https://github.com/puppyprincessplush",
-    "happenedAt": "2026-02-28T06:30:20.610Z"
-  },
-  {
-    "id": "you_unfollowed:robotslop:2026-02-28T06:30:20.610Z",
-    "type": "you_unfollowed",
-    "login": "robotslop",
-    "htmlUrl": "https://github.com/robotslop",
-    "happenedAt": "2026-02-28T06:30:20.610Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
