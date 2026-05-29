@@ -1,5 +1,40 @@
 [
   {
+    "id": "follower_gained:eggchann:2026-05-29T13:29:50.896Z",
+    "type": "follower_gained",
+    "login": "eggchann",
+    "htmlUrl": "https://github.com/eggchann",
+    "happenedAt": "2026-05-29T13:29:50.896Z"
+  },
+  {
+    "id": "follower_gained:kayanshah:2026-05-29T13:29:50.896Z",
+    "type": "follower_gained",
+    "login": "KayanShah",
+    "htmlUrl": "https://github.com/KayanShah",
+    "happenedAt": "2026-05-29T13:29:50.896Z"
+  },
+  {
+    "id": "follower_gained:nookery:2026-05-29T13:29:50.896Z",
+    "type": "follower_gained",
+    "login": "nookery",
+    "htmlUrl": "https://github.com/nookery",
+    "happenedAt": "2026-05-29T13:29:50.896Z"
+  },
+  {
+    "id": "follower_gained:tahaelfit17:2026-05-29T13:29:50.896Z",
+    "type": "follower_gained",
+    "login": "tahaelfit17",
+    "htmlUrl": "https://github.com/tahaelfit17",
+    "happenedAt": "2026-05-29T13:29:50.896Z"
+  },
+  {
+    "id": "follower_gained:vladimirnagibin:2026-05-29T13:29:50.896Z",
+    "type": "follower_gained",
+    "login": "VladimirNagibin",
+    "htmlUrl": "https://github.com/VladimirNagibin",
+    "happenedAt": "2026-05-29T13:29:50.896Z"
+  },
+  {
     "id": "follower_gained:dastoikov:2026-05-29T07:39:35.710Z",
     "type": "follower_gained",
     "login": "dastoikov",
@@ -22233,53 +22268,5 @@
     "happenedAt": "2026-02-28T18:29:44.957Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:maziathecoder:2026-02-28T12:30:33.686Z",
-    "type": "follower_gained",
-    "login": "maziathecoder",
-    "htmlUrl": "https://github.com/maziathecoder",
-    "happenedAt": "2026-02-28T12:30:33.686Z"
-  },
-  {
-    "id": "follower_gained:rickmanbrown:2026-02-28T12:30:33.686Z",
-    "type": "follower_gained",
-    "login": "RickmanBrown",
-    "htmlUrl": "https://github.com/RickmanBrown",
-    "happenedAt": "2026-02-28T12:30:33.686Z"
-  },
-  {
-    "id": "follower_lost:dayanadandachy123:2026-02-28T12:30:33.686Z",
-    "type": "follower_lost",
-    "login": "dayanadandachy123",
-    "htmlUrl": "https://github.com/dayanadandachy123",
-    "happenedAt": "2026-02-28T12:30:33.686Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:paloma-b-brito:2026-02-28T12:30:33.686Z",
-    "type": "follower_lost",
-    "login": "Paloma-B-Brito",
-    "htmlUrl": "https://github.com/Paloma-B-Brito",
-    "happenedAt": "2026-02-28T12:30:33.686Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:rickmanbrown:2026-02-28T12:30:33.686Z",
-    "type": "you_followed",
-    "login": "RickmanBrown",
-    "htmlUrl": "https://github.com/RickmanBrown",
-    "happenedAt": "2026-02-28T12:30:33.686Z"
-  },
-  {
-    "id": "you_unfollowed:paloma-b-brito:2026-02-28T12:30:33.686Z",
-    "type": "you_unfollowed",
-    "login": "Paloma-B-Brito",
-    "htmlUrl": "https://github.com/Paloma-B-Brito",
-    "happenedAt": "2026-02-28T12:30:33.686Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
