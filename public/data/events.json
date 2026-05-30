@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:chatman-media:2026-05-30T07:20:18.451Z",
+    "type": "follower_lost",
+    "login": "chatman-media",
+    "htmlUrl": "https://github.com/chatman-media",
+    "happenedAt": "2026-05-30T07:20:18.451Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:rubik3x3:2026-05-30T01:17:27.387Z",
     "type": "follower_gained",
     "login": "Rubik3x3",
