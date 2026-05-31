@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:anseva11:2026-05-31T18:43:51.873Z",
+    "type": "follower_gained",
+    "login": "ANSEVA11",
+    "htmlUrl": "https://github.com/ANSEVA11",
+    "happenedAt": "2026-05-31T18:43:51.873Z"
+  },
+  {
+    "id": "follower_gained:s4vochka:2026-05-31T18:43:51.873Z",
+    "type": "follower_gained",
+    "login": "s4vochka",
+    "htmlUrl": "https://github.com/s4vochka",
+    "happenedAt": "2026-05-31T18:43:51.873Z"
+  },
+  {
+    "id": "follower_gained:userd40:2026-05-31T18:43:51.873Z",
+    "type": "follower_gained",
+    "login": "UserD40",
+    "htmlUrl": "https://github.com/UserD40",
+    "happenedAt": "2026-05-31T18:43:51.873Z"
+  },
+  {
+    "id": "follower_lost:khemssharma:2026-05-31T18:43:51.873Z",
+    "type": "follower_lost",
+    "login": "khemssharma",
+    "htmlUrl": "https://github.com/khemssharma",
+    "happenedAt": "2026-05-31T18:43:51.873Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:jumpjumpfruit:2026-05-31T18:43:51.873Z",
+    "type": "you_unfollowed",
+    "login": "jumpjumpfruit",
+    "htmlUrl": "https://github.com/jumpjumpfruit",
+    "happenedAt": "2026-05-31T18:43:51.873Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:moha008:2026-05-31T12:49:12.705Z",
     "type": "follower_lost",
     "login": "Moha008",
@@ -23246,38 +23285,6 @@
     "login": "arjtriv",
     "htmlUrl": "https://github.com/arjtriv",
     "happenedAt": "2026-03-03T00:52:58.341Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:marcoborto2921:2026-03-02T18:31:31.762Z",
-    "type": "follower_gained",
-    "login": "marcoBorto2921",
-    "htmlUrl": "https://github.com/marcoBorto2921",
-    "happenedAt": "2026-03-02T18:31:31.762Z"
-  },
-  {
-    "id": "follower_lost:gerdwyne:2026-03-02T18:31:31.762Z",
-    "type": "follower_lost",
-    "login": "gerdwyne",
-    "htmlUrl": "https://github.com/gerdwyne",
-    "happenedAt": "2026-03-02T18:31:31.762Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:yehorsamafalov:2026-03-02T18:31:31.762Z",
-    "type": "you_followed",
-    "login": "YehorSamafalov",
-    "htmlUrl": "https://github.com/YehorSamafalov",
-    "happenedAt": "2026-03-02T18:31:31.762Z"
-  },
-  {
-    "id": "you_unfollowed:m-o0o-m:2026-03-02T18:31:31.762Z",
-    "type": "you_unfollowed",
-    "login": "M-O0O-M",
-    "htmlUrl": "https://github.com/M-O0O-M",
-    "happenedAt": "2026-03-02T18:31:31.762Z",
     "accountStatus": null,
     "isDeleted": false
   }
