@@ -1,5 +1,51 @@
 [
   {
+    "id": "follower_gained:muthonigathiithi:2026-05-31T01:25:56.610Z",
+    "type": "follower_gained",
+    "login": "MuthoniGathiithi",
+    "htmlUrl": "https://github.com/MuthoniGathiithi",
+    "happenedAt": "2026-05-31T01:25:56.610Z"
+  },
+  {
+    "id": "follower_gained:schizophreniaenmei:2026-05-31T01:25:56.610Z",
+    "type": "follower_gained",
+    "login": "Schizophreniaenmei",
+    "htmlUrl": "https://github.com/Schizophreniaenmei",
+    "happenedAt": "2026-05-31T01:25:56.610Z"
+  },
+  {
+    "id": "follower_gained:sharpcest:2026-05-31T01:25:56.610Z",
+    "type": "follower_gained",
+    "login": "sharpcest",
+    "htmlUrl": "https://github.com/sharpcest",
+    "happenedAt": "2026-05-31T01:25:56.610Z"
+  },
+  {
+    "id": "follower_lost:aishiteitanoni:2026-05-31T01:25:56.610Z",
+    "type": "follower_lost",
+    "login": "aishiteitanoni",
+    "htmlUrl": "https://github.com/aishiteitanoni",
+    "happenedAt": "2026-05-31T01:25:56.610Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:sharpcest:2026-05-31T01:25:56.610Z",
+    "type": "you_followed",
+    "login": "sharpcest",
+    "htmlUrl": "https://github.com/sharpcest",
+    "happenedAt": "2026-05-31T01:25:56.610Z"
+  },
+  {
+    "id": "you_unfollowed:aishiteitanoni:2026-05-31T01:25:56.610Z",
+    "type": "you_unfollowed",
+    "login": "aishiteitanoni",
+    "htmlUrl": "https://github.com/aishiteitanoni",
+    "happenedAt": "2026-05-31T01:25:56.610Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:khemssharma:2026-05-30T18:41:48.802Z",
     "type": "follower_gained",
     "login": "khemssharma",
@@ -22975,41 +23021,5 @@
     "happenedAt": "2026-03-02T06:36:59.315Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:0xc0ded0d0:2026-03-02T00:51:57.690Z",
-    "type": "you_unfollowed",
-    "login": "0xC0DED0D0",
-    "htmlUrl": "https://github.com/0xC0DED0D0",
-    "happenedAt": "2026-03-02T00:51:57.690Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:18keagle:2026-03-02T00:51:57.690Z",
-    "type": "you_unfollowed",
-    "login": "18KEagle",
-    "htmlUrl": "https://github.com/18KEagle",
-    "happenedAt": "2026-03-02T00:51:57.690Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:1minds3t:2026-03-02T00:51:57.690Z",
-    "type": "you_unfollowed",
-    "login": "1minds3t",
-    "htmlUrl": "https://github.com/1minds3t",
-    "happenedAt": "2026-03-02T00:51:57.690Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:4ian:2026-03-02T00:51:57.690Z",
-    "type": "you_unfollowed",
-    "login": "4ian",
-    "htmlUrl": "https://github.com/4ian",
-    "happenedAt": "2026-03-02T00:51:57.690Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
