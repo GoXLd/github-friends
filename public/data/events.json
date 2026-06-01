@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:mohammedraza17:2026-06-01T14:23:46.590Z",
+    "type": "follower_gained",
+    "login": "mohammedraza17",
+    "htmlUrl": "https://github.com/mohammedraza17",
+    "happenedAt": "2026-06-01T14:23:46.590Z"
+  },
+  {
     "id": "you_followed:adrianomatos:2026-06-01T08:12:47.458Z",
     "type": "you_followed",
     "login": "adrianomatos",
@@ -23430,58 +23437,5 @@
     "login": "VoDaiLocz",
     "htmlUrl": "https://github.com/VoDaiLocz",
     "happenedAt": "2026-03-03T18:31:54.265Z"
-  },
-  {
-    "id": "follower_gained:juleiyuh:2026-03-03T12:31:35.860Z",
-    "type": "follower_gained",
-    "login": "juleiyuh",
-    "htmlUrl": "https://github.com/juleiyuh",
-    "happenedAt": "2026-03-03T12:31:35.860Z"
-  },
-  {
-    "id": "follower_gained:kanachiyu:2026-03-03T12:31:35.860Z",
-    "type": "follower_gained",
-    "login": "kanachiyu",
-    "htmlUrl": "https://github.com/kanachiyu",
-    "happenedAt": "2026-03-03T12:31:35.860Z"
-  },
-  {
-    "id": "follower_gained:moha008:2026-03-03T12:31:35.860Z",
-    "type": "follower_gained",
-    "login": "Moha008",
-    "htmlUrl": "https://github.com/Moha008",
-    "happenedAt": "2026-03-03T12:31:35.860Z"
-  },
-  {
-    "id": "follower_gained:theobaidthebird:2026-03-03T12:31:35.860Z",
-    "type": "follower_gained",
-    "login": "theobaIdthebird",
-    "htmlUrl": "https://github.com/theobaIdthebird",
-    "happenedAt": "2026-03-03T12:31:35.860Z"
-  },
-  {
-    "id": "follower_lost:varkrlyie:2026-03-03T12:31:35.860Z",
-    "type": "follower_lost",
-    "login": "varkrlyie",
-    "htmlUrl": "https://github.com/varkrlyie",
-    "happenedAt": "2026-03-03T12:31:35.860Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:dadiloveu:2026-03-03T12:31:35.860Z",
-    "type": "you_followed",
-    "login": "dadiloveu",
-    "htmlUrl": "https://github.com/dadiloveu",
-    "happenedAt": "2026-03-03T12:31:35.860Z"
-  },
-  {
-    "id": "you_unfollowed:adriandemeter:2026-03-03T12:31:35.860Z",
-    "type": "you_unfollowed",
-    "login": "adriandemeter",
-    "htmlUrl": "https://github.com/adriandemeter",
-    "happenedAt": "2026-03-03T12:31:35.860Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
