@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:h4ckb4s3:2026-06-01T01:29:19.413Z",
+    "type": "follower_gained",
+    "login": "H4ckB4s3",
+    "htmlUrl": "https://github.com/H4ckB4s3",
+    "happenedAt": "2026-06-01T01:29:19.413Z"
+  },
+  {
+    "id": "follower_gained:k00l-ravi:2026-06-01T01:29:19.413Z",
+    "type": "follower_gained",
+    "login": "K00L-Ravi",
+    "htmlUrl": "https://github.com/K00L-Ravi",
+    "happenedAt": "2026-06-01T01:29:19.413Z"
+  },
+  {
+    "id": "follower_gained:muhammad-daniyal-imtiaz:2026-06-01T01:29:19.413Z",
+    "type": "follower_gained",
+    "login": "Muhammad-Daniyal-Imtiaz",
+    "htmlUrl": "https://github.com/Muhammad-Daniyal-Imtiaz",
+    "happenedAt": "2026-06-01T01:29:19.413Z"
+  },
+  {
+    "id": "follower_lost:spaceykozzie:2026-06-01T01:29:19.413Z",
+    "type": "follower_lost",
+    "login": "SpaceyKozzie",
+    "htmlUrl": "https://github.com/SpaceyKozzie",
+    "happenedAt": "2026-06-01T01:29:19.413Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:anseva11:2026-05-31T18:43:51.873Z",
     "type": "follower_gained",
     "login": "ANSEVA11",
@@ -23278,14 +23308,5 @@
     "login": "shinseiko",
     "htmlUrl": "https://github.com/shinseiko",
     "happenedAt": "2026-03-03T06:33:29.251Z"
-  },
-  {
-    "id": "follower_lost:arjtriv:2026-03-03T00:52:58.341Z",
-    "type": "follower_lost",
-    "login": "arjtriv",
-    "htmlUrl": "https://github.com/arjtriv",
-    "happenedAt": "2026-03-03T00:52:58.341Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
