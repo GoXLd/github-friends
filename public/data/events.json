@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:francisndirangu:2026-06-01T19:57:10.579Z",
+    "type": "follower_lost",
+    "login": "FrancisNdirangu",
+    "htmlUrl": "https://github.com/FrancisNdirangu",
+    "happenedAt": "2026-06-01T19:57:10.579Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:mohammedraza17:2026-06-01T14:23:46.590Z",
     "type": "follower_gained",
     "login": "mohammedraza17",
@@ -23416,26 +23425,5 @@
     "happenedAt": "2026-03-04T00:50:24.094Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:cecilcroc:2026-03-03T18:31:54.265Z",
-    "type": "follower_gained",
-    "login": "cecilcroc",
-    "htmlUrl": "https://github.com/cecilcroc",
-    "happenedAt": "2026-03-03T18:31:54.265Z"
-  },
-  {
-    "id": "follower_gained:janemarks:2026-03-03T18:31:54.265Z",
-    "type": "follower_gained",
-    "login": "janemarks",
-    "htmlUrl": "https://github.com/janemarks",
-    "happenedAt": "2026-03-03T18:31:54.265Z"
-  },
-  {
-    "id": "follower_gained:vodailocz:2026-03-03T18:31:54.265Z",
-    "type": "follower_gained",
-    "login": "VoDaiLocz",
-    "htmlUrl": "https://github.com/VoDaiLocz",
-    "happenedAt": "2026-03-03T18:31:54.265Z"
   }
 ]
