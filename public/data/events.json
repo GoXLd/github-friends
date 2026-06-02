@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:nai64:2026-06-02T07:58:47.537Z",
+    "type": "follower_gained",
+    "login": "Nai64",
+    "htmlUrl": "https://github.com/Nai64",
+    "happenedAt": "2026-06-02T07:58:47.537Z"
+  },
+  {
+    "id": "follower_gained:rioryugen:2026-06-02T07:58:47.537Z",
+    "type": "follower_gained",
+    "login": "rioryugen",
+    "htmlUrl": "https://github.com/rioryugen",
+    "happenedAt": "2026-06-02T07:58:47.537Z"
+  },
+  {
+    "id": "follower_gained:vikiferu678:2026-06-02T07:58:47.537Z",
+    "type": "follower_gained",
+    "login": "VikiFeru678",
+    "htmlUrl": "https://github.com/VikiFeru678",
+    "happenedAt": "2026-06-02T07:58:47.537Z"
+  },
+  {
+    "id": "follower_lost:mohammedraza17:2026-06-02T07:58:47.537Z",
+    "type": "follower_lost",
+    "login": "mohammedraza17",
+    "htmlUrl": "https://github.com/mohammedraza17",
+    "happenedAt": "2026-06-02T07:58:47.537Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:abdullahg:2026-06-02T01:27:56.180Z",
     "type": "you_followed",
     "login": "AbdullahG",
@@ -23543,14 +23573,5 @@
     "login": "yuvisevia",
     "htmlUrl": "https://github.com/yuvisevia",
     "happenedAt": "2026-03-04T12:31:22.891Z"
-  },
-  {
-    "id": "follower_lost:vodailocz:2026-03-04T06:31:32.054Z",
-    "type": "follower_lost",
-    "login": "VoDaiLocz",
-    "htmlUrl": "https://github.com/VoDaiLocz",
-    "happenedAt": "2026-03-04T06:31:32.054Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
