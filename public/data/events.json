@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:spokkisalive:2026-06-03T14:01:59.544Z",
+    "type": "follower_gained",
+    "login": "Spokkisalive",
+    "htmlUrl": "https://github.com/Spokkisalive",
+    "happenedAt": "2026-06-03T14:01:59.544Z"
+  },
+  {
+    "id": "follower_lost:penelop3e:2026-06-03T14:01:59.544Z",
+    "type": "follower_lost",
+    "login": "penelop3e",
+    "htmlUrl": "https://github.com/penelop3e",
+    "happenedAt": "2026-06-03T14:01:59.544Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:melau-eddy:2026-06-03T08:03:17.774Z",
     "type": "follower_gained",
     "login": "melau-eddy",
@@ -24233,22 +24249,6 @@
     "login": "yablochki95",
     "htmlUrl": "https://github.com/yablochki95",
     "happenedAt": "2026-03-05T18:53:37.231Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:applsaufc:2026-03-05T12:31:49.279Z",
-    "type": "you_followed",
-    "login": "applsaufc",
-    "htmlUrl": "https://github.com/applsaufc",
-    "happenedAt": "2026-03-05T12:31:49.279Z"
-  },
-  {
-    "id": "you_unfollowed:aqqlesauxe:2026-03-05T12:31:49.279Z",
-    "type": "you_unfollowed",
-    "login": "aqqlesauxe",
-    "htmlUrl": "https://github.com/aqqlesauxe",
-    "happenedAt": "2026-03-05T12:31:49.279Z",
     "accountStatus": null,
     "isDeleted": false
   }
