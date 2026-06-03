@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:melau-eddy:2026-06-03T08:03:17.774Z",
+    "type": "follower_gained",
+    "login": "melau-eddy",
+    "htmlUrl": "https://github.com/melau-eddy",
+    "happenedAt": "2026-06-03T08:03:17.774Z"
+  },
+  {
+    "id": "follower_lost:thehealingcenterllc4-lgtm:2026-06-03T08:03:17.774Z",
+    "type": "follower_lost",
+    "login": "thehealingcenterllc4-lgtm",
+    "htmlUrl": "https://github.com/thehealingcenterllc4-lgtm",
+    "happenedAt": "2026-06-03T08:03:17.774Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:thehealingcenterllc4-lgtm:2026-06-03T08:03:17.774Z",
+    "type": "you_unfollowed",
+    "login": "thehealingcenterllc4-lgtm",
+    "htmlUrl": "https://github.com/thehealingcenterllc4-lgtm",
+    "happenedAt": "2026-06-03T08:03:17.774Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:adewunmi-joshua:2026-06-03T01:31:31.045Z",
     "type": "follower_gained",
     "login": "Adewunmi-Joshua",
@@ -24224,15 +24249,6 @@
     "login": "aqqlesauxe",
     "htmlUrl": "https://github.com/aqqlesauxe",
     "happenedAt": "2026-03-05T12:31:49.279Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:rashmiwijemanna:2026-03-05T06:33:40.068Z",
-    "type": "follower_lost",
-    "login": "rashmiwijemanna",
-    "htmlUrl": "https://github.com/rashmiwijemanna",
-    "happenedAt": "2026-03-05T06:33:40.068Z",
     "accountStatus": null,
     "isDeleted": false
   }
