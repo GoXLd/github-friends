@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:yourwisemaker:2026-06-04T07:57:10.644Z",
+    "type": "follower_gained",
+    "login": "YourWisemaker",
+    "htmlUrl": "https://github.com/YourWisemaker",
+    "happenedAt": "2026-06-04T07:57:10.644Z"
+  },
+  {
+    "id": "follower_lost:qudsiyashaikh:2026-06-04T07:57:10.644Z",
+    "type": "follower_lost",
+    "login": "qudsiyashaikh",
+    "htmlUrl": "https://github.com/qudsiyashaikh",
+    "happenedAt": "2026-06-04T07:57:10.644Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:top-ace-friend:2026-06-04T01:32:59.175Z",
     "type": "follower_lost",
     "login": "top-ace-friend",
