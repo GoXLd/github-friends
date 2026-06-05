@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:eun-yung:2026-06-05T13:23:49.510Z",
+    "type": "follower_gained",
+    "login": "eun-yung",
+    "htmlUrl": "https://github.com/eun-yung",
+    "happenedAt": "2026-06-05T13:23:49.510Z"
+  },
+  {
+    "id": "follower_lost:jabberrwonger:2026-06-05T13:23:49.510Z",
+    "type": "follower_lost",
+    "login": "JabberrWonger",
+    "htmlUrl": "https://github.com/JabberrWonger",
+    "happenedAt": "2026-06-05T13:23:49.510Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:mindmagic-pluse:2026-06-05T07:48:28.776Z",
     "type": "follower_gained",
     "login": "mindmagic-pluse",
@@ -23655,19 +23671,5 @@
     "login": "DragonOfLotus",
     "htmlUrl": "https://github.com/DragonOfLotus",
     "happenedAt": "2026-03-08T00:52:54.083Z"
-  },
-  {
-    "id": "follower_gained:lukestoik:2026-03-07T12:30:31.749Z",
-    "type": "follower_gained",
-    "login": "lukestoik",
-    "htmlUrl": "https://github.com/lukestoik",
-    "happenedAt": "2026-03-07T12:30:31.749Z"
-  },
-  {
-    "id": "follower_gained:zorktys:2026-03-07T12:30:31.749Z",
-    "type": "follower_gained",
-    "login": "zorktys",
-    "htmlUrl": "https://github.com/zorktys",
-    "happenedAt": "2026-03-07T12:30:31.749Z"
   }
 ]
