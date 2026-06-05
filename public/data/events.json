@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:mindmagic-pluse:2026-06-05T07:48:28.776Z",
+    "type": "follower_gained",
+    "login": "mindmagic-pluse",
+    "htmlUrl": "https://github.com/mindmagic-pluse",
+    "happenedAt": "2026-06-05T07:48:28.776Z"
+  },
+  {
+    "id": "follower_lost:sysdp155:2026-06-05T07:48:28.776Z",
+    "type": "follower_lost",
+    "login": "sysdp155",
+    "htmlUrl": "https://github.com/sysdp155",
+    "happenedAt": "2026-06-05T07:48:28.776Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:mindmagic-pluse:2026-06-05T07:48:28.776Z",
+    "type": "you_followed",
+    "login": "mindmagic-pluse",
+    "htmlUrl": "https://github.com/mindmagic-pluse",
+    "happenedAt": "2026-06-05T07:48:28.776Z"
+  },
+  {
+    "id": "you_unfollowed:sysdp155:2026-06-05T07:48:28.776Z",
+    "type": "you_unfollowed",
+    "login": "sysdp155",
+    "htmlUrl": "https://github.com/sysdp155",
+    "happenedAt": "2026-06-05T07:48:28.776Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:freakyjester:2026-06-05T01:23:06.163Z",
     "type": "follower_gained",
     "login": "freakyjester",
@@ -23637,12 +23669,5 @@
     "login": "zorktys",
     "htmlUrl": "https://github.com/zorktys",
     "happenedAt": "2026-03-07T12:30:31.749Z"
-  },
-  {
-    "id": "follower_gained:supervnova:2026-03-07T06:30:30.437Z",
-    "type": "follower_gained",
-    "login": "supervnova",
-    "htmlUrl": "https://github.com/supervnova",
-    "happenedAt": "2026-03-07T06:30:30.437Z"
   }
 ]
