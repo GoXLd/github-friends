@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:freakyjester:2026-06-05T01:23:06.163Z",
+    "type": "follower_gained",
+    "login": "freakyjester",
+    "htmlUrl": "https://github.com/freakyjester",
+    "happenedAt": "2026-06-05T01:23:06.163Z"
+  },
+  {
+    "id": "follower_lost:master0fdeceit:2026-06-05T01:23:06.163Z",
+    "type": "follower_lost",
+    "login": "master0fdeceit",
+    "htmlUrl": "https://github.com/master0fdeceit",
+    "happenedAt": "2026-06-05T01:23:06.163Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:freakyjester:2026-06-05T01:23:06.163Z",
+    "type": "you_followed",
+    "login": "freakyjester",
+    "htmlUrl": "https://github.com/freakyjester",
+    "happenedAt": "2026-06-05T01:23:06.163Z"
+  },
+  {
+    "id": "you_unfollowed:master0fdeceit:2026-06-05T01:23:06.163Z",
+    "type": "you_unfollowed",
+    "login": "master0fdeceit",
+    "htmlUrl": "https://github.com/master0fdeceit",
+    "happenedAt": "2026-06-05T01:23:06.163Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:yourwisemaker:2026-06-04T07:57:10.644Z",
     "type": "follower_gained",
     "login": "YourWisemaker",
@@ -23612,12 +23644,5 @@
     "login": "supervnova",
     "htmlUrl": "https://github.com/supervnova",
     "happenedAt": "2026-03-07T06:30:30.437Z"
-  },
-  {
-    "id": "follower_gained:scorchingfire:2026-03-07T00:49:07.096Z",
-    "type": "follower_gained",
-    "login": "scorchingfire",
-    "htmlUrl": "https://github.com/scorchingfire",
-    "happenedAt": "2026-03-07T00:49:07.096Z"
   }
 ]
