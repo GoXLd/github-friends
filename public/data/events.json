@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:wifiescest:2026-06-06T01:18:20.426Z",
+    "type": "follower_gained",
+    "login": "wifiescest",
+    "htmlUrl": "https://github.com/wifiescest",
+    "happenedAt": "2026-06-06T01:18:20.426Z"
+  },
+  {
+    "id": "follower_lost:sharpcest:2026-06-06T01:18:20.426Z",
+    "type": "follower_lost",
+    "login": "sharpcest",
+    "htmlUrl": "https://github.com/sharpcest",
+    "happenedAt": "2026-06-06T01:18:20.426Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:wifiescest:2026-06-06T01:18:20.426Z",
+    "type": "you_followed",
+    "login": "wifiescest",
+    "htmlUrl": "https://github.com/wifiescest",
+    "happenedAt": "2026-06-06T01:18:20.426Z"
+  },
+  {
+    "id": "you_unfollowed:sharpcest:2026-06-06T01:18:20.426Z",
+    "type": "you_unfollowed",
+    "login": "sharpcest",
+    "htmlUrl": "https://github.com/sharpcest",
+    "happenedAt": "2026-06-06T01:18:20.426Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:eun-yung:2026-06-05T13:23:49.510Z",
     "type": "follower_gained",
     "login": "eun-yung",
@@ -23657,19 +23689,5 @@
     "happenedAt": "2026-03-08T06:30:57.347Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:396m6:2026-03-08T00:52:54.083Z",
-    "type": "follower_gained",
-    "login": "396m6",
-    "htmlUrl": "https://github.com/396m6",
-    "happenedAt": "2026-03-08T00:52:54.083Z"
-  },
-  {
-    "id": "follower_gained:dragonoflotus:2026-03-08T00:52:54.083Z",
-    "type": "follower_gained",
-    "login": "DragonOfLotus",
-    "htmlUrl": "https://github.com/DragonOfLotus",
-    "happenedAt": "2026-03-08T00:52:54.083Z"
   }
 ]
