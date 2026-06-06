@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:puppycornz:2026-06-06T18:45:24.118Z",
+    "type": "follower_gained",
+    "login": "PUPPYCORNZ",
+    "htmlUrl": "https://github.com/PUPPYCORNZ",
+    "happenedAt": "2026-06-06T18:45:24.118Z"
+  },
+  {
+    "id": "follower_gained:ryan-d-graham:2026-06-06T18:45:24.118Z",
+    "type": "follower_gained",
+    "login": "ryan-d-graham",
+    "htmlUrl": "https://github.com/ryan-d-graham",
+    "happenedAt": "2026-06-06T18:45:24.118Z"
+  },
+  {
+    "id": "follower_lost:spacebeetles:2026-06-06T18:45:24.118Z",
+    "type": "follower_lost",
+    "login": "spacebeetles",
+    "htmlUrl": "https://github.com/spacebeetles",
+    "happenedAt": "2026-06-06T18:45:24.118Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:puppycornz:2026-06-06T18:45:24.118Z",
+    "type": "you_followed",
+    "login": "PUPPYCORNZ",
+    "htmlUrl": "https://github.com/PUPPYCORNZ",
+    "happenedAt": "2026-06-06T18:45:24.118Z"
+  },
+  {
+    "id": "you_unfollowed:spacebeetles:2026-06-06T18:45:24.118Z",
+    "type": "you_unfollowed",
+    "login": "spacebeetles",
+    "htmlUrl": "https://github.com/spacebeetles",
+    "happenedAt": "2026-06-06T18:45:24.118Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:raivings:2026-06-06T12:47:36.205Z",
     "type": "follower_gained",
     "login": "raivings",
@@ -23970,38 +24009,6 @@
     "login": "wenteris",
     "htmlUrl": "https://github.com/wenteris",
     "happenedAt": "2026-03-09T00:52:42.686Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_gained:unizuka22:2026-03-08T18:29:52.464Z",
-    "type": "follower_gained",
-    "login": "Unizuka22",
-    "htmlUrl": "https://github.com/Unizuka22",
-    "happenedAt": "2026-03-08T18:29:52.464Z"
-  },
-  {
-    "id": "follower_lost:erenjugs:2026-03-08T18:29:52.464Z",
-    "type": "follower_lost",
-    "login": "erenjugs",
-    "htmlUrl": "https://github.com/erenjugs",
-    "happenedAt": "2026-03-08T18:29:52.464Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:unizuka22:2026-03-08T18:29:52.464Z",
-    "type": "you_followed",
-    "login": "Unizuka22",
-    "htmlUrl": "https://github.com/Unizuka22",
-    "happenedAt": "2026-03-08T18:29:52.464Z"
-  },
-  {
-    "id": "you_unfollowed:erenjugs:2026-03-08T18:29:52.464Z",
-    "type": "you_unfollowed",
-    "login": "erenjugs",
-    "htmlUrl": "https://github.com/erenjugs",
-    "happenedAt": "2026-03-08T18:29:52.464Z",
     "accountStatus": "deleted",
     "isDeleted": true
   }
