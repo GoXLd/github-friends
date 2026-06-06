@@ -23673,21 +23673,5 @@
     "happenedAt": "2026-03-08T18:29:52.464Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:chahe-dridi:2026-03-08T06:30:57.347Z",
-    "type": "follower_gained",
-    "login": "chahe-dridi",
-    "htmlUrl": "https://github.com/chahe-dridi",
-    "happenedAt": "2026-03-08T06:30:57.347Z"
-  },
-  {
-    "id": "follower_lost:beytekindavut:2026-03-08T06:30:57.347Z",
-    "type": "follower_lost",
-    "login": "beytekindavut",
-    "htmlUrl": "https://github.com/beytekindavut",
-    "happenedAt": "2026-03-08T06:30:57.347Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
