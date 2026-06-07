@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:q1anyuyang:2026-06-07T01:27:12.246Z",
+    "type": "follower_gained",
+    "login": "q1anyuyang",
+    "htmlUrl": "https://github.com/q1anyuyang",
+    "happenedAt": "2026-06-07T01:27:12.246Z"
+  },
+  {
+    "id": "follower_lost:qianyu-08:2026-06-07T01:27:12.246Z",
+    "type": "follower_lost",
+    "login": "qianyu-08",
+    "htmlUrl": "https://github.com/qianyu-08",
+    "happenedAt": "2026-06-07T01:27:12.246Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:q1anyuyang:2026-06-07T01:27:12.246Z",
+    "type": "you_followed",
+    "login": "q1anyuyang",
+    "htmlUrl": "https://github.com/q1anyuyang",
+    "happenedAt": "2026-06-07T01:27:12.246Z"
+  },
+  {
+    "id": "you_unfollowed:qianyu-08:2026-06-07T01:27:12.246Z",
+    "type": "you_unfollowed",
+    "login": "qianyu-08",
+    "htmlUrl": "https://github.com/qianyu-08",
+    "happenedAt": "2026-06-07T01:27:12.246Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:puppycornz:2026-06-06T18:45:24.118Z",
     "type": "follower_gained",
     "login": "PUPPYCORNZ",
@@ -23979,37 +24011,5 @@
     "happenedAt": "2026-03-09T06:39:32.094Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:cryptoaur4x:2026-03-09T00:52:42.686Z",
-    "type": "follower_gained",
-    "login": "cryptoAur4x",
-    "htmlUrl": "https://github.com/cryptoAur4x",
-    "happenedAt": "2026-03-09T00:52:42.686Z"
-  },
-  {
-    "id": "follower_lost:wenteris:2026-03-09T00:52:42.686Z",
-    "type": "follower_lost",
-    "login": "wenteris",
-    "htmlUrl": "https://github.com/wenteris",
-    "happenedAt": "2026-03-09T00:52:42.686Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:cryptoaur4x:2026-03-09T00:52:42.686Z",
-    "type": "you_followed",
-    "login": "cryptoAur4x",
-    "htmlUrl": "https://github.com/cryptoAur4x",
-    "happenedAt": "2026-03-09T00:52:42.686Z"
-  },
-  {
-    "id": "you_unfollowed:wenteris:2026-03-09T00:52:42.686Z",
-    "type": "you_unfollowed",
-    "login": "wenteris",
-    "htmlUrl": "https://github.com/wenteris",
-    "happenedAt": "2026-03-09T00:52:42.686Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
