@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:aaavictor:2026-06-07T07:42:03.102Z",
+    "type": "follower_gained",
+    "login": "AAAvictor",
+    "htmlUrl": "https://github.com/AAAvictor",
+    "happenedAt": "2026-06-07T07:42:03.102Z"
+  },
+  {
+    "id": "follower_gained:boraaita:2026-06-07T07:42:03.102Z",
+    "type": "follower_gained",
+    "login": "BoraAITA",
+    "htmlUrl": "https://github.com/BoraAITA",
+    "happenedAt": "2026-06-07T07:42:03.102Z"
+  },
+  {
+    "id": "follower_lost:solidityx-x:2026-06-07T07:42:03.102Z",
+    "type": "follower_lost",
+    "login": "SolidityX-X",
+    "htmlUrl": "https://github.com/SolidityX-X",
+    "happenedAt": "2026-06-07T07:42:03.102Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:q1anyuyang:2026-06-07T01:27:12.246Z",
     "type": "follower_gained",
     "login": "q1anyuyang",
@@ -23993,23 +24016,5 @@
     "login": "VenancioFuentes",
     "htmlUrl": "https://github.com/VenancioFuentes",
     "happenedAt": "2026-03-09T12:31:38.214Z"
-  },
-  {
-    "id": "follower_lost:mithzzx:2026-03-09T06:39:32.094Z",
-    "type": "follower_lost",
-    "login": "Mithzzx",
-    "htmlUrl": "https://github.com/Mithzzx",
-    "happenedAt": "2026-03-09T06:39:32.094Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:scorpiofento:2026-03-09T06:39:32.094Z",
-    "type": "follower_lost",
-    "login": "ScorpioFento",
-    "htmlUrl": "https://github.com/ScorpioFento",
-    "happenedAt": "2026-03-09T06:39:32.094Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
