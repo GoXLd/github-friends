@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:kayanshah:2026-06-07T18:45:25.499Z",
+    "type": "follower_lost",
+    "login": "KayanShah",
+    "htmlUrl": "https://github.com/KayanShah",
+    "happenedAt": "2026-06-07T18:45:25.499Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_unfollowed:aryazoormand:2026-06-07T12:50:50.113Z",
     "type": "you_unfollowed",
     "login": "aryazoormand",
