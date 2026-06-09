@@ -1,5 +1,51 @@
 [
   {
+    "id": "follower_gained:adamasnegro:2026-06-09T19:03:09.934Z",
+    "type": "follower_gained",
+    "login": "adamasnegro",
+    "htmlUrl": "https://github.com/adamasnegro",
+    "happenedAt": "2026-06-09T19:03:09.934Z"
+  },
+  {
+    "id": "follower_gained:aobakwe25:2026-06-09T19:03:09.934Z",
+    "type": "follower_gained",
+    "login": "Aobakwe25",
+    "htmlUrl": "https://github.com/Aobakwe25",
+    "happenedAt": "2026-06-09T19:03:09.934Z"
+  },
+  {
+    "id": "follower_gained:selfishclown:2026-06-09T19:03:09.934Z",
+    "type": "follower_gained",
+    "login": "selfishclown",
+    "htmlUrl": "https://github.com/selfishclown",
+    "happenedAt": "2026-06-09T19:03:09.934Z"
+  },
+  {
+    "id": "follower_lost:angelfies:2026-06-09T19:03:09.934Z",
+    "type": "follower_lost",
+    "login": "angelfies",
+    "htmlUrl": "https://github.com/angelfies",
+    "happenedAt": "2026-06-09T19:03:09.934Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:selfishclown:2026-06-09T19:03:09.934Z",
+    "type": "you_followed",
+    "login": "selfishclown",
+    "htmlUrl": "https://github.com/selfishclown",
+    "happenedAt": "2026-06-09T19:03:09.934Z"
+  },
+  {
+    "id": "you_unfollowed:angelfies:2026-06-09T19:03:09.934Z",
+    "type": "you_unfollowed",
+    "login": "angelfies",
+    "htmlUrl": "https://github.com/angelfies",
+    "happenedAt": "2026-06-09T19:03:09.934Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_lost:q1anyuyang:2026-06-09T13:18:31.923Z",
     "type": "follower_lost",
     "login": "q1anyuyang",
@@ -25286,12 +25332,5 @@
     "happenedAt": "2026-03-12T00:46:11.981Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:pupfjsh:2026-03-11T18:35:23.897Z",
-    "type": "follower_gained",
-    "login": "pupfjsh",
-    "htmlUrl": "https://github.com/pupfjsh",
-    "happenedAt": "2026-03-11T18:35:23.897Z"
   }
 ]
