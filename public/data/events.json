@@ -1,5 +1,26 @@
 [
   {
+    "id": "follower_gained:b-user208:2026-06-09T07:33:17.007Z",
+    "type": "follower_gained",
+    "login": "b-user208",
+    "htmlUrl": "https://github.com/b-user208",
+    "happenedAt": "2026-06-09T07:33:17.007Z"
+  },
+  {
+    "id": "follower_gained:dollar25k:2026-06-09T07:33:17.007Z",
+    "type": "follower_gained",
+    "login": "dollar25k",
+    "htmlUrl": "https://github.com/dollar25k",
+    "happenedAt": "2026-06-09T07:33:17.007Z"
+  },
+  {
+    "id": "follower_gained:mikancat1045:2026-06-09T07:33:17.007Z",
+    "type": "follower_gained",
+    "login": "Mikancat1045",
+    "htmlUrl": "https://github.com/Mikancat1045",
+    "happenedAt": "2026-06-09T07:33:17.007Z"
+  },
+  {
     "id": "follower_gained:credkellar-boop:2026-06-09T01:17:56.317Z",
     "type": "follower_gained",
     "login": "credkellar-boop",
@@ -25261,14 +25282,5 @@
     "login": "fushiitaa",
     "htmlUrl": "https://github.com/fushiitaa",
     "happenedAt": "2026-03-11T12:31:33.003Z"
-  },
-  {
-    "id": "follower_lost:sadaqhassan:2026-03-11T06:34:30.662Z",
-    "type": "follower_lost",
-    "login": "sadaqhassan",
-    "htmlUrl": "https://github.com/sadaqhassan",
-    "happenedAt": "2026-03-11T06:34:30.662Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
