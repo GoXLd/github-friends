@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:gaplopez1991:2026-06-10T07:48:40.097Z",
+    "type": "follower_gained",
+    "login": "gaplopez1991",
+    "htmlUrl": "https://github.com/gaplopez1991",
+    "happenedAt": "2026-06-10T07:48:40.097Z"
+  },
+  {
+    "id": "follower_gained:ilovemybf-alot:2026-06-10T07:48:40.097Z",
+    "type": "follower_gained",
+    "login": "ilovemybf-alot",
+    "htmlUrl": "https://github.com/ilovemybf-alot",
+    "happenedAt": "2026-06-10T07:48:40.097Z"
+  },
+  {
+    "id": "follower_lost:theplagueman:2026-06-10T07:48:40.097Z",
+    "type": "follower_lost",
+    "login": "theplagueman",
+    "htmlUrl": "https://github.com/theplagueman",
+    "happenedAt": "2026-06-10T07:48:40.097Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:darnellwashingtonjr94-art:2026-06-10T01:23:05.500Z",
     "type": "follower_gained",
     "login": "darnellwashingtonjr94-art",
@@ -25332,21 +25355,5 @@
     "happenedAt": "2026-03-12T12:31:26.427Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "you_followed:sweetfl0wers:2026-03-12T06:35:51.673Z",
-    "type": "you_followed",
-    "login": "SWEETFL0WERS",
-    "htmlUrl": "https://github.com/SWEETFL0WERS",
-    "happenedAt": "2026-03-12T06:35:51.673Z"
-  },
-  {
-    "id": "you_unfollowed:pizzabitess:2026-03-12T06:35:51.673Z",
-    "type": "you_unfollowed",
-    "login": "pizzabitess",
-    "htmlUrl": "https://github.com/pizzabitess",
-    "happenedAt": "2026-03-12T06:35:51.673Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
