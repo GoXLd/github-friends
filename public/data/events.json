@@ -25323,37 +25323,5 @@
     "happenedAt": "2026-03-13T00:51:08.576Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:whiteplaine:2026-03-12T12:31:26.427Z",
-    "type": "follower_gained",
-    "login": "whiteplaine",
-    "htmlUrl": "https://github.com/whiteplaine",
-    "happenedAt": "2026-03-12T12:31:26.427Z"
-  },
-  {
-    "id": "follower_lost:kylemank:2026-03-12T12:31:26.427Z",
-    "type": "follower_lost",
-    "login": "kylemank",
-    "htmlUrl": "https://github.com/kylemank",
-    "happenedAt": "2026-03-12T12:31:26.427Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:whiteplaine:2026-03-12T12:31:26.427Z",
-    "type": "you_followed",
-    "login": "whiteplaine",
-    "htmlUrl": "https://github.com/whiteplaine",
-    "happenedAt": "2026-03-12T12:31:26.427Z"
-  },
-  {
-    "id": "you_unfollowed:kylemank:2026-03-12T12:31:26.427Z",
-    "type": "you_unfollowed",
-    "login": "kylemank",
-    "htmlUrl": "https://github.com/kylemank",
-    "happenedAt": "2026-03-12T12:31:26.427Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
