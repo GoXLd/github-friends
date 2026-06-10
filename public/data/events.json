@@ -1,5 +1,60 @@
 [
   {
+    "id": "follower_gained:darnellwashingtonjr94-art:2026-06-10T01:23:05.500Z",
+    "type": "follower_gained",
+    "login": "darnellwashingtonjr94-art",
+    "htmlUrl": "https://github.com/darnellwashingtonjr94-art",
+    "happenedAt": "2026-06-10T01:23:05.500Z"
+  },
+  {
+    "id": "follower_gained:derapangi:2026-06-10T01:23:05.500Z",
+    "type": "follower_gained",
+    "login": "derapangi",
+    "htmlUrl": "https://github.com/derapangi",
+    "happenedAt": "2026-06-10T01:23:05.500Z"
+  },
+  {
+    "id": "follower_gained:sweetfies:2026-06-10T01:23:05.500Z",
+    "type": "follower_gained",
+    "login": "sweetfies",
+    "htmlUrl": "https://github.com/sweetfies",
+    "happenedAt": "2026-06-10T01:23:05.500Z"
+  },
+  {
+    "id": "follower_lost:i3i33:2026-06-10T01:23:05.500Z",
+    "type": "follower_lost",
+    "login": "i3i33",
+    "htmlUrl": "https://github.com/i3i33",
+    "happenedAt": "2026-06-10T01:23:05.500Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:selfishclown:2026-06-10T01:23:05.500Z",
+    "type": "follower_lost",
+    "login": "selfishclown",
+    "htmlUrl": "https://github.com/selfishclown",
+    "happenedAt": "2026-06-10T01:23:05.500Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:derapangi:2026-06-10T01:23:05.500Z",
+    "type": "you_followed",
+    "login": "derapangi",
+    "htmlUrl": "https://github.com/derapangi",
+    "happenedAt": "2026-06-10T01:23:05.500Z"
+  },
+  {
+    "id": "you_unfollowed:selfishclown:2026-06-10T01:23:05.500Z",
+    "type": "you_unfollowed",
+    "login": "selfishclown",
+    "htmlUrl": "https://github.com/selfishclown",
+    "happenedAt": "2026-06-10T01:23:05.500Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:adamasnegro:2026-06-09T19:03:09.934Z",
     "type": "follower_gained",
     "login": "adamasnegro",
@@ -25291,45 +25346,6 @@
     "login": "pizzabitess",
     "htmlUrl": "https://github.com/pizzabitess",
     "happenedAt": "2026-03-12T06:35:51.673Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:anointedthedeveloper:2026-03-12T00:46:11.981Z",
-    "type": "follower_gained",
-    "login": "anointedthedeveloper",
-    "htmlUrl": "https://github.com/anointedthedeveloper",
-    "happenedAt": "2026-03-12T00:46:11.981Z"
-  },
-  {
-    "id": "follower_gained:raja-qasim:2026-03-12T00:46:11.981Z",
-    "type": "follower_gained",
-    "login": "raja-qasim",
-    "htmlUrl": "https://github.com/raja-qasim",
-    "happenedAt": "2026-03-12T00:46:11.981Z"
-  },
-  {
-    "id": "follower_gained:spaceykozzie:2026-03-12T00:46:11.981Z",
-    "type": "follower_gained",
-    "login": "SpaceyKozzie",
-    "htmlUrl": "https://github.com/SpaceyKozzie",
-    "happenedAt": "2026-03-12T00:46:11.981Z"
-  },
-  {
-    "id": "follower_lost:0xadafang:2026-03-12T00:46:11.981Z",
-    "type": "follower_lost",
-    "login": "0xAdafang",
-    "htmlUrl": "https://github.com/0xAdafang",
-    "happenedAt": "2026-03-12T00:46:11.981Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:koz-space:2026-03-12T00:46:11.981Z",
-    "type": "follower_lost",
-    "login": "Koz-Space",
-    "htmlUrl": "https://github.com/Koz-Space",
-    "happenedAt": "2026-03-12T00:46:11.981Z",
     "accountStatus": null,
     "isDeleted": false
   }
