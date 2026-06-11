@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:ethereal-fate:2026-06-11T13:42:24.480Z",
+    "type": "follower_gained",
+    "login": "ethereal-fate",
+    "htmlUrl": "https://github.com/ethereal-fate",
+    "happenedAt": "2026-06-11T13:42:24.480Z"
+  },
+  {
+    "id": "follower_gained:realmafioso:2026-06-11T13:42:24.480Z",
+    "type": "follower_gained",
+    "login": "RealMafioso",
+    "htmlUrl": "https://github.com/RealMafioso",
+    "happenedAt": "2026-06-11T13:42:24.480Z"
+  },
+  {
+    "id": "you_followed:d3xx4-thedarklord:2026-06-11T13:42:24.480Z",
+    "type": "you_followed",
+    "login": "d3xx4-TheDarkLord",
+    "htmlUrl": "https://github.com/d3xx4-TheDarkLord",
+    "happenedAt": "2026-06-11T13:42:24.480Z"
+  },
+  {
+    "id": "you_unfollowed:thechosenone-err:2026-06-11T13:42:24.480Z",
+    "type": "you_unfollowed",
+    "login": "TheChosenOne-err",
+    "htmlUrl": "https://github.com/TheChosenOne-err",
+    "happenedAt": "2026-06-11T13:42:24.480Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:c0ret:2026-06-11T08:01:34.727Z",
     "type": "follower_gained",
     "login": "C0RET",
@@ -25607,14 +25637,5 @@
     "login": "THEW0RLDREVOLVING",
     "htmlUrl": "https://github.com/THEW0RLDREVOLVING",
     "happenedAt": "2026-03-13T18:30:43.061Z"
-  },
-  {
-    "id": "follower_lost:gedelabulliraju:2026-03-13T12:31:26.879Z",
-    "type": "follower_lost",
-    "login": "gedelabulliraju",
-    "htmlUrl": "https://github.com/gedelabulliraju",
-    "happenedAt": "2026-03-13T12:31:26.879Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
