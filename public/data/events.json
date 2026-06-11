@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:c0ret:2026-06-11T08:01:34.727Z",
+    "type": "follower_gained",
+    "login": "C0RET",
+    "htmlUrl": "https://github.com/C0RET",
+    "happenedAt": "2026-06-11T08:01:34.727Z"
+  },
+  {
+    "id": "follower_gained:prem759-0:2026-06-11T08:01:34.727Z",
+    "type": "follower_gained",
+    "login": "Prem759-0",
+    "htmlUrl": "https://github.com/Prem759-0",
+    "happenedAt": "2026-06-11T08:01:34.727Z"
+  },
+  {
     "id": "you_followed:plub-supanut:2026-06-11T01:26:02.285Z",
     "type": "you_followed",
     "login": "Plub-Supanut",
@@ -25602,53 +25616,5 @@
     "happenedAt": "2026-03-13T12:31:26.879Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:itzskeetylover:2026-03-13T06:34:07.977Z",
-    "type": "follower_gained",
-    "login": "itzskeetylover",
-    "htmlUrl": "https://github.com/itzskeetylover",
-    "happenedAt": "2026-03-13T06:34:07.977Z"
-  },
-  {
-    "id": "follower_lost:themafialover:2026-03-13T06:34:07.977Z",
-    "type": "follower_lost",
-    "login": "themafialover",
-    "htmlUrl": "https://github.com/themafialover",
-    "happenedAt": "2026-03-13T06:34:07.977Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:itzskeetylover:2026-03-13T06:34:07.977Z",
-    "type": "you_followed",
-    "login": "itzskeetylover",
-    "htmlUrl": "https://github.com/itzskeetylover",
-    "happenedAt": "2026-03-13T06:34:07.977Z"
-  },
-  {
-    "id": "you_followed:silentcellar:2026-03-13T06:34:07.977Z",
-    "type": "you_followed",
-    "login": "SILENTCELLAR",
-    "htmlUrl": "https://github.com/SILENTCELLAR",
-    "happenedAt": "2026-03-13T06:34:07.977Z"
-  },
-  {
-    "id": "you_unfollowed:purecaca0:2026-03-13T06:34:07.977Z",
-    "type": "you_unfollowed",
-    "login": "PURECACA0",
-    "htmlUrl": "https://github.com/PURECACA0",
-    "happenedAt": "2026-03-13T06:34:07.977Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:themafialover:2026-03-13T06:34:07.977Z",
-    "type": "you_unfollowed",
-    "login": "themafialover",
-    "htmlUrl": "https://github.com/themafialover",
-    "happenedAt": "2026-03-13T06:34:07.977Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
