@@ -1,5 +1,33 @@
 [
   {
+    "id": "you_followed:craine01:2026-06-12T01:28:54.194Z",
+    "type": "you_followed",
+    "login": "craine01",
+    "htmlUrl": "https://github.com/craine01",
+    "happenedAt": "2026-06-12T01:28:54.194Z"
+  },
+  {
+    "id": "you_followed:kittyaikoo:2026-06-12T01:28:54.194Z",
+    "type": "you_followed",
+    "login": "kittyaikoo",
+    "htmlUrl": "https://github.com/kittyaikoo",
+    "happenedAt": "2026-06-12T01:28:54.194Z"
+  },
+  {
+    "id": "you_followed:sabbir-noyon:2026-06-12T01:28:54.194Z",
+    "type": "you_followed",
+    "login": "sabbir-noyon",
+    "htmlUrl": "https://github.com/sabbir-noyon",
+    "happenedAt": "2026-06-12T01:28:54.194Z"
+  },
+  {
+    "id": "you_followed:stardev06:2026-06-12T01:28:54.194Z",
+    "type": "you_followed",
+    "login": "STARDEV06",
+    "htmlUrl": "https://github.com/STARDEV06",
+    "happenedAt": "2026-06-12T01:28:54.194Z"
+  },
+  {
     "id": "follower_gained:ethereal-fate:2026-06-11T13:42:24.480Z",
     "type": "follower_gained",
     "login": "ethereal-fate",
@@ -25598,37 +25626,5 @@
     "happenedAt": "2026-03-14T12:30:43.773Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:calciumpuppy:2026-03-14T00:49:14.024Z",
-    "type": "follower_gained",
-    "login": "CalciumPuppy",
-    "htmlUrl": "https://github.com/CalciumPuppy",
-    "happenedAt": "2026-03-14T00:49:14.024Z"
-  },
-  {
-    "id": "follower_lost:cheshirecatful:2026-03-14T00:49:14.024Z",
-    "type": "follower_lost",
-    "login": "CheshireCatful",
-    "htmlUrl": "https://github.com/CheshireCatful",
-    "happenedAt": "2026-03-14T00:49:14.024Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:calciumpuppy:2026-03-14T00:49:14.024Z",
-    "type": "you_followed",
-    "login": "CalciumPuppy",
-    "htmlUrl": "https://github.com/CalciumPuppy",
-    "happenedAt": "2026-03-14T00:49:14.024Z"
-  },
-  {
-    "id": "you_unfollowed:cheshirecatful:2026-03-14T00:49:14.024Z",
-    "type": "you_unfollowed",
-    "login": "CheshireCatful",
-    "htmlUrl": "https://github.com/CheshireCatful",
-    "happenedAt": "2026-03-14T00:49:14.024Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
