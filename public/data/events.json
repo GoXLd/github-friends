@@ -1,5 +1,79 @@
 [
   {
+    "id": "follower_gained:annaveth:2026-06-13T18:48:15.463Z",
+    "type": "follower_gained",
+    "login": "annaveth",
+    "htmlUrl": "https://github.com/annaveth",
+    "happenedAt": "2026-06-13T18:48:15.463Z"
+  },
+  {
+    "id": "follower_gained:blegdor:2026-06-13T18:48:15.463Z",
+    "type": "follower_gained",
+    "login": "blegdor",
+    "htmlUrl": "https://github.com/blegdor",
+    "happenedAt": "2026-06-13T18:48:15.463Z"
+  },
+  {
+    "id": "follower_gained:canesterin:2026-06-13T18:48:15.463Z",
+    "type": "follower_gained",
+    "login": "canesterin",
+    "htmlUrl": "https://github.com/canesterin",
+    "happenedAt": "2026-06-13T18:48:15.463Z"
+  },
+  {
+    "id": "follower_gained:devycyan:2026-06-13T18:48:15.463Z",
+    "type": "follower_gained",
+    "login": "devycyan",
+    "htmlUrl": "https://github.com/devycyan",
+    "happenedAt": "2026-06-13T18:48:15.463Z"
+  },
+  {
+    "id": "follower_gained:duxorethey:2026-06-13T18:48:15.463Z",
+    "type": "follower_gained",
+    "login": "duxorethey",
+    "htmlUrl": "https://github.com/duxorethey",
+    "happenedAt": "2026-06-13T18:48:15.463Z"
+  },
+  {
+    "id": "follower_gained:hyuntayo:2026-06-13T18:48:15.463Z",
+    "type": "follower_gained",
+    "login": "hyuntayo",
+    "htmlUrl": "https://github.com/hyuntayo",
+    "happenedAt": "2026-06-13T18:48:15.463Z"
+  },
+  {
+    "id": "follower_gained:kerryjanes:2026-06-13T18:48:15.463Z",
+    "type": "follower_gained",
+    "login": "kerryjanes",
+    "htmlUrl": "https://github.com/kerryjanes",
+    "happenedAt": "2026-06-13T18:48:15.463Z"
+  },
+  {
+    "id": "follower_lost:derapangi:2026-06-13T18:48:15.463Z",
+    "type": "follower_lost",
+    "login": "derapangi",
+    "htmlUrl": "https://github.com/derapangi",
+    "happenedAt": "2026-06-13T18:48:15.463Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:duxorethey:2026-06-13T18:48:15.463Z",
+    "type": "you_followed",
+    "login": "duxorethey",
+    "htmlUrl": "https://github.com/duxorethey",
+    "happenedAt": "2026-06-13T18:48:15.463Z"
+  },
+  {
+    "id": "you_unfollowed:derapangi:2026-06-13T18:48:15.463Z",
+    "type": "you_unfollowed",
+    "login": "derapangi",
+    "htmlUrl": "https://github.com/derapangi",
+    "happenedAt": "2026-06-13T18:48:15.463Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:taraknath341:2026-06-13T12:55:24.719Z",
     "type": "follower_gained",
     "login": "taraknath341",
@@ -25411,35 +25485,5 @@
     "login": "HereIsMuhammad",
     "htmlUrl": "https://github.com/HereIsMuhammad",
     "happenedAt": "2026-03-16T06:49:37.159Z"
-  },
-  {
-    "id": "follower_gained:engrshuvodas:2026-03-15T18:30:20.316Z",
-    "type": "follower_gained",
-    "login": "engrshuvodas",
-    "htmlUrl": "https://github.com/engrshuvodas",
-    "happenedAt": "2026-03-15T18:30:20.316Z"
-  },
-  {
-    "id": "follower_gained:gedelabulliraju:2026-03-15T18:30:20.316Z",
-    "type": "follower_gained",
-    "login": "gedelabulliraju",
-    "htmlUrl": "https://github.com/gedelabulliraju",
-    "happenedAt": "2026-03-15T18:30:20.316Z"
-  },
-  {
-    "id": "follower_gained:sultonbektoxirboyev:2026-03-15T18:30:20.316Z",
-    "type": "follower_gained",
-    "login": "sultonbektoxirboyev",
-    "htmlUrl": "https://github.com/sultonbektoxirboyev",
-    "happenedAt": "2026-03-15T18:30:20.316Z"
-  },
-  {
-    "id": "follower_lost:shrp69:2026-03-15T18:30:20.316Z",
-    "type": "follower_lost",
-    "login": "ShRP69",
-    "htmlUrl": "https://github.com/ShRP69",
-    "happenedAt": "2026-03-15T18:30:20.316Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
