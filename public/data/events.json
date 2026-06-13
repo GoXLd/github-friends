@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:kilicdev:2026-06-13T01:26:28.094Z",
+    "type": "follower_lost",
+    "login": "kilicdev",
+    "htmlUrl": "https://github.com/kilicdev",
+    "happenedAt": "2026-06-13T01:26:28.094Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:fsrxc2bvv9-ctrl:2026-06-12T18:59:56.378Z",
     "type": "follower_gained",
     "login": "fsrxc2bvv9-ctrl",
@@ -25477,22 +25486,6 @@
     "login": "riversidecowgirl",
     "htmlUrl": "https://github.com/riversidecowgirl",
     "happenedAt": "2026-03-15T06:37:39.201Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:mardo-k12:2026-03-15T00:59:27.466Z",
-    "type": "you_followed",
-    "login": "Mardo-k12",
-    "htmlUrl": "https://github.com/Mardo-k12",
-    "happenedAt": "2026-03-15T00:59:27.466Z"
-  },
-  {
-    "id": "you_unfollowed:mardochee-kanushipi:2026-03-15T00:59:27.466Z",
-    "type": "you_unfollowed",
-    "login": "Mardochee-Kanushipi",
-    "htmlUrl": "https://github.com/Mardochee-Kanushipi",
-    "happenedAt": "2026-03-15T00:59:27.466Z",
     "accountStatus": null,
     "isDeleted": false
   }
