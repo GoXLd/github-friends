@@ -1,5 +1,58 @@
 [
   {
+    "id": "follower_gained:frenwinter:2026-06-13T07:35:49.568Z",
+    "type": "follower_gained",
+    "login": "frenwinter",
+    "htmlUrl": "https://github.com/frenwinter",
+    "happenedAt": "2026-06-13T07:35:49.568Z"
+  },
+  {
+    "id": "follower_gained:furendyna:2026-06-13T07:35:49.568Z",
+    "type": "follower_gained",
+    "login": "furendyna",
+    "htmlUrl": "https://github.com/furendyna",
+    "happenedAt": "2026-06-13T07:35:49.568Z"
+  },
+  {
+    "id": "follower_gained:jokeyhter:2026-06-13T07:35:49.568Z",
+    "type": "follower_gained",
+    "login": "jokeyhter",
+    "htmlUrl": "https://github.com/jokeyhter",
+    "happenedAt": "2026-06-13T07:35:49.568Z"
+  },
+  {
+    "id": "follower_gained:lokiwyler:2026-06-13T07:35:49.568Z",
+    "type": "follower_gained",
+    "login": "lokiwyler",
+    "htmlUrl": "https://github.com/lokiwyler",
+    "happenedAt": "2026-06-13T07:35:49.568Z"
+  },
+  {
+    "id": "follower_gained:spokkkee:2026-06-13T07:35:49.568Z",
+    "type": "follower_gained",
+    "login": "Spokkkee",
+    "htmlUrl": "https://github.com/Spokkkee",
+    "happenedAt": "2026-06-13T07:35:49.568Z"
+  },
+  {
+    "id": "follower_lost:ridoandev:2026-06-13T07:35:49.568Z",
+    "type": "follower_lost",
+    "login": "RidoanDev",
+    "htmlUrl": "https://github.com/RidoanDev",
+    "happenedAt": "2026-06-13T07:35:49.568Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:spokkisalive:2026-06-13T07:35:49.568Z",
+    "type": "follower_lost",
+    "login": "Spokkisalive",
+    "htmlUrl": "https://github.com/Spokkisalive",
+    "happenedAt": "2026-06-13T07:35:49.568Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:kilicdev:2026-06-13T01:26:28.094Z",
     "type": "follower_lost",
     "login": "kilicdev",
@@ -25465,28 +25518,5 @@
     "login": "yobecroc",
     "htmlUrl": "https://github.com/yobecroc",
     "happenedAt": "2026-03-15T12:31:00.174Z"
-  },
-  {
-    "id": "follower_gained:fahmirizalbudi:2026-03-15T06:37:39.201Z",
-    "type": "follower_gained",
-    "login": "fahmirizalbudi",
-    "htmlUrl": "https://github.com/fahmirizalbudi",
-    "happenedAt": "2026-03-15T06:37:39.201Z"
-  },
-  {
-    "id": "you_followed:baileybitez:2026-03-15T06:37:39.201Z",
-    "type": "you_followed",
-    "login": "baileybitez",
-    "htmlUrl": "https://github.com/baileybitez",
-    "happenedAt": "2026-03-15T06:37:39.201Z"
-  },
-  {
-    "id": "you_unfollowed:riversidecowgirl:2026-03-15T06:37:39.201Z",
-    "type": "you_unfollowed",
-    "login": "riversidecowgirl",
-    "htmlUrl": "https://github.com/riversidecowgirl",
-    "happenedAt": "2026-03-15T06:37:39.201Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
