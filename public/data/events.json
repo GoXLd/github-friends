@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:ishandutta2007:2026-06-14T07:54:21.018Z",
+    "type": "follower_lost",
+    "login": "ishandutta2007",
+    "htmlUrl": "https://github.com/ishandutta2007",
+    "happenedAt": "2026-06-14T07:54:21.018Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:selfishprince:2026-06-14T01:29:46.319Z",
     "type": "follower_gained",
     "login": "selfishprince",
@@ -25510,12 +25519,5 @@
     "happenedAt": "2026-03-16T12:36:28.166Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:hereismuhammad:2026-03-16T06:49:37.159Z",
-    "type": "follower_gained",
-    "login": "HereIsMuhammad",
-    "htmlUrl": "https://github.com/HereIsMuhammad",
-    "happenedAt": "2026-03-16T06:49:37.159Z"
   }
 ]
