@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:selfishprince:2026-06-14T01:29:46.319Z",
+    "type": "follower_gained",
+    "login": "selfishprince",
+    "htmlUrl": "https://github.com/selfishprince",
+    "happenedAt": "2026-06-14T01:29:46.319Z"
+  },
+  {
+    "id": "follower_lost:duxorethey:2026-06-14T01:29:46.319Z",
+    "type": "follower_lost",
+    "login": "duxorethey",
+    "htmlUrl": "https://github.com/duxorethey",
+    "happenedAt": "2026-06-14T01:29:46.319Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:selfishprince:2026-06-14T01:29:46.319Z",
+    "type": "you_followed",
+    "login": "selfishprince",
+    "htmlUrl": "https://github.com/selfishprince",
+    "happenedAt": "2026-06-14T01:29:46.319Z"
+  },
+  {
+    "id": "you_unfollowed:duxorethey:2026-06-14T01:29:46.319Z",
+    "type": "you_unfollowed",
+    "login": "duxorethey",
+    "htmlUrl": "https://github.com/duxorethey",
+    "happenedAt": "2026-06-14T01:29:46.319Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:annaveth:2026-06-13T18:48:15.463Z",
     "type": "follower_gained",
     "login": "annaveth",
