@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:algorithmalchemy:2026-06-15T14:28:18.222Z",
+    "type": "follower_gained",
+    "login": "AlgorithmAlchemy",
+    "htmlUrl": "https://github.com/AlgorithmAlchemy",
+    "happenedAt": "2026-06-15T14:28:18.222Z"
+  },
+  {
     "id": "you_followed:dolcette:2026-06-15T08:30:04.736Z",
     "type": "you_followed",
     "login": "dolcette",
@@ -25517,12 +25524,5 @@
     "happenedAt": "2026-03-17T18:37:14.167Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:jabberrwonger:2026-03-17T12:35:11.678Z",
-    "type": "follower_gained",
-    "login": "JabberrWonger",
-    "htmlUrl": "https://github.com/JabberrWonger",
-    "happenedAt": "2026-03-17T12:35:11.678Z"
   }
 ]
