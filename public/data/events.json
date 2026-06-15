@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:dolcette:2026-06-15T08:30:04.736Z",
+    "type": "you_followed",
+    "login": "dolcette",
+    "htmlUrl": "https://github.com/dolcette",
+    "happenedAt": "2026-06-15T08:30:04.736Z"
+  },
+  {
+    "id": "you_unfollowed:timaeustestrifed:2026-06-15T08:30:04.736Z",
+    "type": "you_unfollowed",
+    "login": "timaeustestrifed",
+    "htmlUrl": "https://github.com/timaeustestrifed",
+    "happenedAt": "2026-06-15T08:30:04.736Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:alejaranda:2026-06-15T01:31:36.164Z",
     "type": "follower_gained",
     "login": "alejaranda",
