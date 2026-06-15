@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:alejaranda:2026-06-15T01:31:36.164Z",
+    "type": "follower_gained",
+    "login": "alejaranda",
+    "htmlUrl": "https://github.com/alejaranda",
+    "happenedAt": "2026-06-15T01:31:36.164Z"
+  },
+  {
+    "id": "follower_gained:jkdevcode:2026-06-15T01:31:36.164Z",
+    "type": "follower_gained",
+    "login": "jkdevcode",
+    "htmlUrl": "https://github.com/jkdevcode",
+    "happenedAt": "2026-06-15T01:31:36.164Z"
+  },
+  {
     "id": "follower_gained:threestories:2026-06-14T18:47:25.598Z",
     "type": "follower_gained",
     "login": "threestories",
@@ -25494,28 +25508,5 @@
     "login": "JabberrWonger",
     "htmlUrl": "https://github.com/JabberrWonger",
     "happenedAt": "2026-03-17T12:35:11.678Z"
-  },
-  {
-    "id": "follower_gained:rickmanbrown:2026-03-17T00:50:42.449Z",
-    "type": "follower_gained",
-    "login": "RickmanBrown",
-    "htmlUrl": "https://github.com/RickmanBrown",
-    "happenedAt": "2026-03-17T00:50:42.449Z"
-  },
-  {
-    "id": "you_followed:itglrl:2026-03-17T00:50:42.449Z",
-    "type": "you_followed",
-    "login": "ITGlRL",
-    "htmlUrl": "https://github.com/ITGlRL",
-    "happenedAt": "2026-03-17T00:50:42.449Z"
-  },
-  {
-    "id": "you_unfollowed:femrot:2026-03-17T00:50:42.449Z",
-    "type": "you_unfollowed",
-    "login": "femrot",
-    "htmlUrl": "https://github.com/femrot",
-    "happenedAt": "2026-03-17T00:50:42.449Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
