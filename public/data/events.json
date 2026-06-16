@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:2oio:2026-06-16T01:32:39.296Z",
+    "type": "follower_gained",
+    "login": "2OIO",
+    "htmlUrl": "https://github.com/2OIO",
+    "happenedAt": "2026-06-16T01:32:39.296Z"
+  },
+  {
+    "id": "follower_gained:dolcette:2026-06-16T01:32:39.296Z",
+    "type": "follower_gained",
+    "login": "dolcette",
+    "htmlUrl": "https://github.com/dolcette",
+    "happenedAt": "2026-06-16T01:32:39.296Z"
+  },
+  {
+    "id": "follower_lost:sweetfies:2026-06-16T01:32:39.296Z",
+    "type": "follower_lost",
+    "login": "sweetfies",
+    "htmlUrl": "https://github.com/sweetfies",
+    "happenedAt": "2026-06-16T01:32:39.296Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:algorithmalchemy:2026-06-15T14:28:18.222Z",
     "type": "follower_gained",
     "login": "AlgorithmAlchemy",
@@ -25497,15 +25520,6 @@
     "login": "Hammad-000",
     "htmlUrl": "https://github.com/Hammad-000",
     "happenedAt": "2026-03-18T12:36:01.270Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:xenosie:2026-03-18T00:54:09.166Z",
-    "type": "follower_lost",
-    "login": "xenosie",
-    "htmlUrl": "https://github.com/xenosie",
-    "happenedAt": "2026-03-18T00:54:09.166Z",
     "accountStatus": null,
     "isDeleted": false
   }
