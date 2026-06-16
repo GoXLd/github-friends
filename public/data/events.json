@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:hellen-ansah:2026-06-16T14:08:08.786Z",
+    "type": "follower_gained",
+    "login": "hellen-ansah",
+    "htmlUrl": "https://github.com/hellen-ansah",
+    "happenedAt": "2026-06-16T14:08:08.786Z"
+  },
+  {
+    "id": "follower_lost:devnavodhimsara:2026-06-16T14:08:08.786Z",
+    "type": "follower_lost",
+    "login": "devnavodhimsara",
+    "htmlUrl": "https://github.com/devnavodhimsara",
+    "happenedAt": "2026-06-16T14:08:08.786Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:2oio:2026-06-16T01:32:39.296Z",
     "type": "follower_gained",
     "login": "2OIO",
@@ -25511,15 +25527,6 @@
     "login": "sunny-days-365",
     "htmlUrl": "https://github.com/sunny-days-365",
     "happenedAt": "2026-03-18T18:37:02.412Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:hammad-000:2026-03-18T12:36:01.270Z",
-    "type": "follower_lost",
-    "login": "Hammad-000",
-    "htmlUrl": "https://github.com/Hammad-000",
-    "happenedAt": "2026-03-18T12:36:01.270Z",
     "accountStatus": null,
     "isDeleted": false
   }
