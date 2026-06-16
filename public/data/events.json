@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:mathisjs:2026-06-16T19:30:07.170Z",
+    "type": "follower_lost",
+    "login": "mathisjs",
+    "htmlUrl": "https://github.com/mathisjs",
+    "happenedAt": "2026-06-16T19:30:07.170Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:hellen-ansah:2026-06-16T14:08:08.786Z",
     "type": "follower_gained",
     "login": "hellen-ansah",
@@ -25504,30 +25513,5 @@
     "login": "beytekindavut",
     "htmlUrl": "https://github.com/beytekindavut",
     "happenedAt": "2026-03-20T00:51:48.826Z"
-  },
-  {
-    "id": "follower_gained:anarchy-hime:2026-03-18T18:37:02.412Z",
-    "type": "follower_gained",
-    "login": "anarchy-hime",
-    "htmlUrl": "https://github.com/anarchy-hime",
-    "happenedAt": "2026-03-18T18:37:02.412Z"
-  },
-  {
-    "id": "follower_lost:kalytamykhailo18-cyber:2026-03-18T18:37:02.412Z",
-    "type": "follower_lost",
-    "login": "kalytamykhailo18-cyber",
-    "htmlUrl": "https://github.com/kalytamykhailo18-cyber",
-    "happenedAt": "2026-03-18T18:37:02.412Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:sunny-days-365:2026-03-18T18:37:02.412Z",
-    "type": "follower_lost",
-    "login": "sunny-days-365",
-    "htmlUrl": "https://github.com/sunny-days-365",
-    "happenedAt": "2026-03-18T18:37:02.412Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
