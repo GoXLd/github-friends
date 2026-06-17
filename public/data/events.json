@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:mayas-sun:2026-06-17T01:31:14.624Z",
+    "type": "follower_gained",
+    "login": "Mayas-Sun",
+    "htmlUrl": "https://github.com/Mayas-Sun",
+    "happenedAt": "2026-06-17T01:31:14.624Z"
+  },
+  {
+    "id": "follower_lost:k00l-ravi:2026-06-17T01:31:14.624Z",
+    "type": "follower_lost",
+    "login": "K00L-Ravi",
+    "htmlUrl": "https://github.com/K00L-Ravi",
+    "happenedAt": "2026-06-17T01:31:14.624Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:mathisjs:2026-06-16T19:30:07.170Z",
     "type": "follower_lost",
     "login": "mathisjs",
