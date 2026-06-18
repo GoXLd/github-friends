@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:f-guesswho:2026-06-18T01:28:07.504Z",
+    "type": "follower_gained",
+    "login": "F-guessWho",
+    "htmlUrl": "https://github.com/F-guessWho",
+    "happenedAt": "2026-06-18T01:28:07.504Z"
+  },
+  {
+    "id": "follower_gained:potagoddammnit:2026-06-18T01:28:07.504Z",
+    "type": "follower_gained",
+    "login": "PotaGODDAMMNIT",
+    "htmlUrl": "https://github.com/PotaGODDAMMNIT",
+    "happenedAt": "2026-06-18T01:28:07.504Z"
+  },
+  {
+    "id": "follower_lost:mayas-sun:2026-06-18T01:28:07.504Z",
+    "type": "follower_lost",
+    "login": "Mayas-Sun",
+    "htmlUrl": "https://github.com/Mayas-Sun",
+    "happenedAt": "2026-06-18T01:28:07.504Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:markojovanovic261183:2026-06-17T19:09:56.939Z",
     "type": "follower_gained",
     "login": "MarkoJovanovic261183",
@@ -25545,12 +25568,5 @@
     "happenedAt": "2026-03-20T06:35:51.115Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:beytekindavut:2026-03-20T00:51:48.826Z",
-    "type": "follower_gained",
-    "login": "beytekindavut",
-    "htmlUrl": "https://github.com/beytekindavut",
-    "happenedAt": "2026-03-20T00:51:48.826Z"
   }
 ]
