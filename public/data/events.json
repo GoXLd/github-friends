@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:pbc3998:2026-06-18T19:07:34.172Z",
+    "type": "you_followed",
+    "login": "pbc3998",
+    "htmlUrl": "https://github.com/pbc3998",
+    "happenedAt": "2026-06-18T19:07:34.172Z"
+  },
+  {
+    "id": "you_unfollowed:pbc-dev:2026-06-18T19:07:34.172Z",
+    "type": "you_unfollowed",
+    "login": "pbc-dev",
+    "htmlUrl": "https://github.com/pbc-dev",
+    "happenedAt": "2026-06-18T19:07:34.172Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:algorithmalchemy:2026-06-18T13:29:57.577Z",
     "type": "follower_lost",
     "login": "AlgorithmAlchemy",
@@ -25531,46 +25547,5 @@
     "happenedAt": "2026-03-21T00:49:05.755Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:arch-yunus:2026-03-20T18:31:22.721Z",
-    "type": "follower_gained",
-    "login": "arch-yunus",
-    "htmlUrl": "https://github.com/arch-yunus",
-    "happenedAt": "2026-03-20T18:31:22.721Z"
-  },
-  {
-    "id": "follower_lost:bahattinyunus:2026-03-20T18:31:22.721Z",
-    "type": "follower_lost",
-    "login": "bahattinyunus",
-    "htmlUrl": "https://github.com/bahattinyunus",
-    "happenedAt": "2026-03-20T18:31:22.721Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_lost:s8y:2026-03-20T18:31:22.721Z",
-    "type": "follower_lost",
-    "login": "S8Y",
-    "htmlUrl": "https://github.com/S8Y",
-    "happenedAt": "2026-03-20T18:31:22.721Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:arch-yunus:2026-03-20T18:31:22.721Z",
-    "type": "you_followed",
-    "login": "arch-yunus",
-    "htmlUrl": "https://github.com/arch-yunus",
-    "happenedAt": "2026-03-20T18:31:22.721Z"
-  },
-  {
-    "id": "you_unfollowed:bahattinyunus:2026-03-20T18:31:22.721Z",
-    "type": "you_unfollowed",
-    "login": "bahattinyunus",
-    "htmlUrl": "https://github.com/bahattinyunus",
-    "happenedAt": "2026-03-20T18:31:22.721Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
