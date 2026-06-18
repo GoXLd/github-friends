@@ -1,5 +1,23 @@
 [
   {
+    "id": "follower_lost:algorithmalchemy:2026-06-18T13:29:57.577Z",
+    "type": "follower_lost",
+    "login": "AlgorithmAlchemy",
+    "htmlUrl": "https://github.com/AlgorithmAlchemy",
+    "happenedAt": "2026-06-18T13:29:57.577Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:darasls:2026-06-18T13:29:57.577Z",
+    "type": "follower_lost",
+    "login": "darasls",
+    "htmlUrl": "https://github.com/darasls",
+    "happenedAt": "2026-06-18T13:29:57.577Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:cloud0816:2026-06-18T08:02:08.147Z",
     "type": "follower_lost",
     "login": "cloud0816",
@@ -25554,12 +25572,5 @@
     "happenedAt": "2026-03-20T18:31:22.721Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:itr4pp:2026-03-20T12:31:27.045Z",
-    "type": "follower_gained",
-    "login": "Itr4pp",
-    "htmlUrl": "https://github.com/Itr4pp",
-    "happenedAt": "2026-03-20T12:31:27.045Z"
   }
 ]
