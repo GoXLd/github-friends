@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:cloud0816:2026-06-18T08:02:08.147Z",
+    "type": "follower_lost",
+    "login": "cloud0816",
+    "htmlUrl": "https://github.com/cloud0816",
+    "happenedAt": "2026-06-18T08:02:08.147Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:f-guesswho:2026-06-18T01:28:07.504Z",
     "type": "follower_gained",
     "login": "F-guessWho",
@@ -25552,21 +25561,5 @@
     "login": "Itr4pp",
     "htmlUrl": "https://github.com/Itr4pp",
     "happenedAt": "2026-03-20T12:31:27.045Z"
-  },
-  {
-    "id": "you_followed:glitterpupp:2026-03-20T06:35:51.115Z",
-    "type": "you_followed",
-    "login": "glitterpupp",
-    "htmlUrl": "https://github.com/glitterpupp",
-    "happenedAt": "2026-03-20T06:35:51.115Z"
-  },
-  {
-    "id": "you_unfollowed:sweetfl0wers:2026-03-20T06:35:51.115Z",
-    "type": "you_unfollowed",
-    "login": "SWEETFL0WERS",
-    "htmlUrl": "https://github.com/SWEETFL0WERS",
-    "happenedAt": "2026-03-20T06:35:51.115Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
