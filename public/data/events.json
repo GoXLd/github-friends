@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:fangysdream:2026-06-19T01:33:57.771Z",
+    "type": "follower_gained",
+    "login": "FangysDream",
+    "htmlUrl": "https://github.com/FangysDream",
+    "happenedAt": "2026-06-19T01:33:57.771Z"
+  },
+  {
+    "id": "follower_lost:f-guesswho:2026-06-19T01:33:57.771Z",
+    "type": "follower_lost",
+    "login": "F-guessWho",
+    "htmlUrl": "https://github.com/F-guessWho",
+    "happenedAt": "2026-06-19T01:33:57.771Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:mistydev20220:2026-06-19T01:33:57.771Z",
+    "type": "you_followed",
+    "login": "mistydev20220",
+    "htmlUrl": "https://github.com/mistydev20220",
+    "happenedAt": "2026-06-19T01:33:57.771Z"
+  },
+  {
+    "id": "you_unfollowed:d3xx4-thedarklord:2026-06-19T01:33:57.771Z",
+    "type": "you_unfollowed",
+    "login": "d3xx4-TheDarkLord",
+    "htmlUrl": "https://github.com/d3xx4-TheDarkLord",
+    "happenedAt": "2026-06-19T01:33:57.771Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:pbc3998:2026-06-18T19:07:34.172Z",
     "type": "you_followed",
     "login": "pbc3998",
@@ -25529,22 +25561,6 @@
     "login": "KernelShark",
     "htmlUrl": "https://github.com/KernelShark",
     "happenedAt": "2026-03-21T12:30:31.587Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:agent-kennedy:2026-03-21T00:49:05.755Z",
-    "type": "you_followed",
-    "login": "AGENT-KENNEDY",
-    "htmlUrl": "https://github.com/AGENT-KENNEDY",
-    "happenedAt": "2026-03-21T00:49:05.755Z"
-  },
-  {
-    "id": "you_unfollowed:anqelicstatic:2026-03-21T00:49:05.755Z",
-    "type": "you_unfollowed",
-    "login": "anqelicstatic",
-    "htmlUrl": "https://github.com/anqelicstatic",
-    "happenedAt": "2026-03-21T00:49:05.755Z",
     "accountStatus": null,
     "isDeleted": false
   }
