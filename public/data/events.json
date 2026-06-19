@@ -1,5 +1,75 @@
 [
   {
+    "id": "follower_lost:dollar25k:2026-06-19T08:14:31.376Z",
+    "type": "follower_lost",
+    "login": "dollar25k",
+    "htmlUrl": "https://github.com/dollar25k",
+    "happenedAt": "2026-06-19T08:14:31.376Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:fluffiestfluffs:2026-06-19T08:14:31.376Z",
+    "type": "follower_lost",
+    "login": "fluffiestfluffs",
+    "htmlUrl": "https://github.com/fluffiestfluffs",
+    "happenedAt": "2026-06-19T08:14:31.376Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:frenwinter:2026-06-19T08:14:31.376Z",
+    "type": "follower_lost",
+    "login": "frenwinter",
+    "htmlUrl": "https://github.com/frenwinter",
+    "happenedAt": "2026-06-19T08:14:31.376Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:furendyna:2026-06-19T08:14:31.376Z",
+    "type": "follower_lost",
+    "login": "furendyna",
+    "htmlUrl": "https://github.com/furendyna",
+    "happenedAt": "2026-06-19T08:14:31.376Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:jokeyhter:2026-06-19T08:14:31.376Z",
+    "type": "follower_lost",
+    "login": "jokeyhter",
+    "htmlUrl": "https://github.com/jokeyhter",
+    "happenedAt": "2026-06-19T08:14:31.376Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:lokiwyler:2026-06-19T08:14:31.376Z",
+    "type": "follower_lost",
+    "login": "lokiwyler",
+    "htmlUrl": "https://github.com/lokiwyler",
+    "happenedAt": "2026-06-19T08:14:31.376Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:kittysuki:2026-06-19T08:14:31.376Z",
+    "type": "you_followed",
+    "login": "kittysuki",
+    "htmlUrl": "https://github.com/kittysuki",
+    "happenedAt": "2026-06-19T08:14:31.376Z"
+  },
+  {
+    "id": "you_unfollowed:kittyaikoo:2026-06-19T08:14:31.376Z",
+    "type": "you_unfollowed",
+    "login": "kittyaikoo",
+    "htmlUrl": "https://github.com/kittyaikoo",
+    "happenedAt": "2026-06-19T08:14:31.376Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:fangysdream:2026-06-19T01:33:57.771Z",
     "type": "follower_gained",
     "login": "FangysDream",
