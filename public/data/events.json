@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:hizashiyamada:2026-06-20T12:56:16.300Z",
+    "type": "follower_gained",
+    "login": "HizashiYamada",
+    "htmlUrl": "https://github.com/HizashiYamada",
+    "happenedAt": "2026-06-20T12:56:16.300Z"
+  },
+  {
+    "id": "follower_gained:thatroyaladvisor:2026-06-20T12:56:16.300Z",
+    "type": "follower_gained",
+    "login": "ThatRoyalAdvisor",
+    "htmlUrl": "https://github.com/ThatRoyalAdvisor",
+    "happenedAt": "2026-06-20T12:56:16.300Z"
+  },
+  {
+    "id": "follower_lost:purplesheepisme:2026-06-20T12:56:16.300Z",
+    "type": "follower_lost",
+    "login": "Purplesheepisme",
+    "htmlUrl": "https://github.com/Purplesheepisme",
+    "happenedAt": "2026-06-20T12:56:16.300Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:realmafioso:2026-06-20T12:56:16.300Z",
+    "type": "follower_lost",
+    "login": "RealMafioso",
+    "htmlUrl": "https://github.com/RealMafioso",
+    "happenedAt": "2026-06-20T12:56:16.300Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:chanceduet:2026-06-20T12:56:16.300Z",
+    "type": "you_followed",
+    "login": "chanceduet",
+    "htmlUrl": "https://github.com/chanceduet",
+    "happenedAt": "2026-06-20T12:56:16.300Z"
+  },
+  {
+    "id": "you_unfollowed:luckyh4cker:2026-06-20T12:56:16.300Z",
+    "type": "you_unfollowed",
+    "login": "LUCKYH4CKER",
+    "htmlUrl": "https://github.com/LUCKYH4CKER",
+    "happenedAt": "2026-06-20T12:56:16.300Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:white-night-eco-dev:2026-06-20T07:37:39.610Z",
     "type": "follower_gained",
     "login": "white-night-eco-dev",
