@@ -25631,37 +25631,5 @@
     "login": "MJ-ulia",
     "htmlUrl": "https://github.com/MJ-ulia",
     "happenedAt": "2026-03-23T12:33:33.864Z"
-  },
-  {
-    "id": "follower_gained:mukhtarabdulrazaq:2026-03-23T06:45:16.886Z",
-    "type": "follower_gained",
-    "login": "mukhtarabdulrazaq",
-    "htmlUrl": "https://github.com/mukhtarabdulrazaq",
-    "happenedAt": "2026-03-23T06:45:16.886Z"
-  },
-  {
-    "id": "follower_lost:nguyendinson:2026-03-23T06:45:16.886Z",
-    "type": "follower_lost",
-    "login": "nguyendinson",
-    "htmlUrl": "https://github.com/nguyendinson",
-    "happenedAt": "2026-03-23T06:45:16.886Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:mukhtarabdulrazaq:2026-03-23T06:45:16.886Z",
-    "type": "you_followed",
-    "login": "mukhtarabdulrazaq",
-    "htmlUrl": "https://github.com/mukhtarabdulrazaq",
-    "happenedAt": "2026-03-23T06:45:16.886Z"
-  },
-  {
-    "id": "you_unfollowed:nguyendinson:2026-03-23T06:45:16.886Z",
-    "type": "you_unfollowed",
-    "login": "nguyendinson",
-    "htmlUrl": "https://github.com/nguyendinson",
-    "happenedAt": "2026-03-23T06:45:16.886Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
