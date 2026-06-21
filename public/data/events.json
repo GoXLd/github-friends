@@ -1,5 +1,42 @@
 [
   {
+    "id": "follower_gained:frenwinter:2026-06-21T01:31:53.640Z",
+    "type": "follower_gained",
+    "login": "frenwinter",
+    "htmlUrl": "https://github.com/frenwinter",
+    "happenedAt": "2026-06-21T01:31:53.640Z"
+  },
+  {
+    "id": "follower_gained:furendyna:2026-06-21T01:31:53.640Z",
+    "type": "follower_gained",
+    "login": "furendyna",
+    "htmlUrl": "https://github.com/furendyna",
+    "happenedAt": "2026-06-21T01:31:53.640Z"
+  },
+  {
+    "id": "follower_gained:jokeyhter:2026-06-21T01:31:53.640Z",
+    "type": "follower_gained",
+    "login": "jokeyhter",
+    "htmlUrl": "https://github.com/jokeyhter",
+    "happenedAt": "2026-06-21T01:31:53.640Z"
+  },
+  {
+    "id": "follower_gained:lokiwyler:2026-06-21T01:31:53.640Z",
+    "type": "follower_gained",
+    "login": "lokiwyler",
+    "htmlUrl": "https://github.com/lokiwyler",
+    "happenedAt": "2026-06-21T01:31:53.640Z"
+  },
+  {
+    "id": "follower_lost:chahe-dridi:2026-06-21T01:31:53.640Z",
+    "type": "follower_lost",
+    "login": "chahe-dridi",
+    "htmlUrl": "https://github.com/chahe-dridi",
+    "happenedAt": "2026-06-21T01:31:53.640Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:sahils0:2026-06-20T18:49:11.414Z",
     "type": "follower_gained",
     "login": "sahils0",
@@ -25626,28 +25663,5 @@
     "happenedAt": "2026-03-23T06:45:16.886Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:aquin0by2002:2026-03-23T00:56:11.894Z",
-    "type": "follower_gained",
-    "login": "AQUIN0BY2002",
-    "htmlUrl": "https://github.com/AQUIN0BY2002",
-    "happenedAt": "2026-03-23T00:56:11.894Z"
-  },
-  {
-    "id": "follower_gained:cygden:2026-03-23T00:56:11.894Z",
-    "type": "follower_gained",
-    "login": "CYGDEN",
-    "htmlUrl": "https://github.com/CYGDEN",
-    "happenedAt": "2026-03-23T00:56:11.894Z"
-  },
-  {
-    "id": "follower_lost:soaringkin:2026-03-23T00:56:11.894Z",
-    "type": "follower_lost",
-    "login": "soaringkin",
-    "htmlUrl": "https://github.com/soaringkin",
-    "happenedAt": "2026-03-23T00:56:11.894Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
