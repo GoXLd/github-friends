@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:raptr45:2026-06-23T07:33:51.293Z",
+    "type": "follower_gained",
+    "login": "raptr45",
+    "htmlUrl": "https://github.com/raptr45",
+    "happenedAt": "2026-06-23T07:33:51.293Z"
+  },
+  {
+    "id": "follower_lost:programmersd21:2026-06-23T07:33:51.293Z",
+    "type": "follower_lost",
+    "login": "programmersd21",
+    "htmlUrl": "https://github.com/programmersd21",
+    "happenedAt": "2026-06-23T07:33:51.293Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:angelofdarkn:2026-06-23T01:16:55.624Z",
     "type": "follower_gained",
     "login": "AngelofDarkn",
@@ -26075,29 +26091,6 @@
     "login": "590-00",
     "htmlUrl": "https://github.com/590-00",
     "happenedAt": "2026-03-25T18:36:38.873Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:hourofrot:2026-03-25T06:41:29.742Z",
-    "type": "follower_gained",
-    "login": "hourofrot",
-    "htmlUrl": "https://github.com/hourofrot",
-    "happenedAt": "2026-03-25T06:41:29.742Z"
-  },
-  {
-    "id": "follower_gained:lucien-valcrest:2026-03-25T06:41:29.742Z",
-    "type": "follower_gained",
-    "login": "LUCIEN-VALCREST",
-    "htmlUrl": "https://github.com/LUCIEN-VALCREST",
-    "happenedAt": "2026-03-25T06:41:29.742Z"
-  },
-  {
-    "id": "follower_lost:beytekindavut:2026-03-25T06:41:29.742Z",
-    "type": "follower_lost",
-    "login": "beytekindavut",
-    "htmlUrl": "https://github.com/beytekindavut",
-    "happenedAt": "2026-03-25T06:41:29.742Z",
     "accountStatus": null,
     "isDeleted": false
   }
