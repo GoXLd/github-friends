@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
+  color-scheme: dark;
   font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
   line-height: 1.45;
   font-weight: 500;
-  color: #1f2328;
+  color: #f3f7ff;
   background:
-    radial-gradient(circle at 20% -10%, rgba(9, 105, 218, 0.07), transparent 42%),
-    radial-gradient(circle at 82% 0%, rgba(31, 35, 40, 0.06), transparent 36%),
-    #f6f8fa;
+    radial-gradient(circle at 18% -8%, rgba(103, 179, 255, 0.24), transparent 34%),
+    radial-gradient(circle at 82% 0%, rgba(72, 124, 201, 0.2), transparent 28%),
+    linear-gradient(180deg, #0c1730 0%, #09111f 52%, #050a14 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,4 +24,18 @@
 body {
   margin: 0;
   min-width: 320px;
+  color: inherit;
+  background: transparent;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(103, 179, 255, 0.35);
+  color: #f8fbff;
 }
