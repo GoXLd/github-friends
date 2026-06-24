@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:armin-panahi:2026-06-24T07:30:43.684Z",
+    "type": "follower_gained",
+    "login": "armin-panahi",
+    "htmlUrl": "https://github.com/armin-panahi",
+    "happenedAt": "2026-06-24T07:30:43.684Z"
+  },
+  {
     "id": "follower_gained:aleksei-khvostov:2026-06-24T01:15:08.071Z",
     "type": "follower_gained",
     "login": "aleksei-khvostov",
@@ -26915,24 +26922,6 @@
     "login": "ideaLighthouse4661",
     "htmlUrl": "https://github.com/ideaLighthouse4661",
     "happenedAt": "2026-03-26T18:38:39.103Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:adamwalts:2026-03-26T06:44:21.575Z",
-    "type": "follower_lost",
-    "login": "adamwalts",
-    "htmlUrl": "https://github.com/adamwalts",
-    "happenedAt": "2026-03-26T06:44:21.575Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:garryang:2026-03-26T06:44:21.575Z",
-    "type": "follower_lost",
-    "login": "garryang",
-    "htmlUrl": "https://github.com/garryang",
-    "happenedAt": "2026-03-26T06:44:21.575Z",
     "accountStatus": null,
     "isDeleted": false
   }
