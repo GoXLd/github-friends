@@ -816,6 +816,44 @@ function StatusPill({ icon, label, value, title }) {
   )
 }
 
+function SettingsField({ icon, label, stacked = false, children }) {
+  return (
+    <label className={`settings-row ${stacked ? 'settings-row-stack' : ''}`.trim()}>
+      <span className="settings-label">
+        <AppIcon name={icon} />
+        <span>{label}</span>
+      </span>
+      {children}
+    </label>
+  )
+}
+
+function SettingsSelectField({ icon, label, value, onChange, children }) {
+  return (
+    <SettingsField icon={icon} label={label} stacked>
+      <div className="settings-language-select-wrap">
+        <select value={value} onChange={onChange}>
+          {children}
+        </select>
+      </div>
+    </SettingsField>
+  )
+}
+
+function SettingsNumberField({ icon, label, value, onChange }) {
+  return (
+    <SettingsField icon={icon} label={label}>
+      <input
+        type="number"
+        min={1}
+        value={value}
+        onChange={onChange}
+        className="settings-number-input"
+      />
+    </SettingsField>
+  )
+}
+
 function ConfidenceBadge({ score, i18n }) {
   return (
     <span className={`confidence-badge ${getConfidenceTone(score ?? 0)}`}>{formatConfidence(score, i18n)}</span>
@@ -1617,93 +1655,55 @@ function App() {
 
         {settingsOpen && (
           <section className="settings-panel">
-            <label className="settings-row">
-              <span className="settings-label">
-                <AppIcon name="list" />
-                <span>{i18n.settingsDefaultPageSize}</span>
-              </span>
-              <select
-                value={defaultPageSize}
-                onChange={(event) => setDefaultPageSize(Number(event.target.value))}
-              >
+            <SettingsField icon="list" label={i18n.settingsDefaultPageSize}>
+              <select value={defaultPageSize} onChange={(event) => setDefaultPageSize(Number(event.target.value))}>
                 {LIMIT_OPTIONS.map((option) => (
                   <option key={option} value={option}>
                     {option}
                   </option>
                 ))}
               </select>
-            </label>
-            <label className="settings-row settings-row-stack">
-              <span className="settings-label">
-                <AppIcon name="globe" />
-                <span>{i18n.languageLabel}</span>
-              </span>
-              <div className="settings-language-select-wrap">
-                <select value={language} onChange={(event) => setLanguage(event.target.value)}>
-                  <option value="en">{i18n.languageEnglish}</option>
-                  <option value="ru">{i18n.languageRussian}</option>
-                </select>
-              </div>
-            </label>
-            <label className="settings-row settings-row-stack">
-              <span className="settings-label">
-                <AppIcon name="theme" />
-                <span>{i18n.themeLabel}</span>
-              </span>
-              <div className="settings-language-select-wrap">
-                <select value={themeMode} onChange={(event) => setThemeMode(event.target.value)}>
-                  <option value={THEME_SYSTEM}>{i18n.themeSystem}</option>
-                  <option value={THEME_LIGHT}>{i18n.themeLight}</option>
-                  <option value={THEME_DARK}>{i18n.themeDark}</option>
-                </select>
-              </div>
-            </label>
-            <label className="settings-row">
-              <span className="settings-label">
-                <AppIcon name="nonReciprocal" />
-                <span>{i18n.settingsFollowBackWindowDays}</span>
-              </span>
-              <input
-                type="number"
-                min={1}
-                value={followBackWindowDays}
-                onChange={(event) => setFollowBackWindowDays(parsePositiveIntegerInput(event.target.value))}
-                className="settings-number-input"
-              />
-            </label>
-            <label className="settings-row">
-              <span className="settings-label">
-                <AppIcon name="mutual" />
-                <span>{i18n.settingsFriendInactiveDays}</span>
-              </span>
-              <input
-                type="number"
-                min={1}
-                value={friendInactiveDays}
-                onChange={(event) => setFriendInactiveDays(parsePositiveIntegerInput(event.target.value))}
-                className="settings-number-input"
-              />
-            </label>
-            <label className="settings-row">
-              <span className="settings-label">
-                <AppIcon name="clock" />
-                <span>{i18n.settingsRetentionDays}</span>
-              </span>
-              <input
-                type="number"
-                min={1}
-                value={retentionDays}
-                onChange={(event) => setRetentionDays(parsePositiveIntegerInput(event.target.value))}
-                className="settings-number-input"
-              />
-            </label>
+            </SettingsField>
+            <SettingsSelectField
+              icon="globe"
+              label={i18n.languageLabel}
+              value={language}
+              onChange={(event) => setLanguage(event.target.value)}
+            >
+              <option value="en">{i18n.languageEnglish}</option>
+              <option value="ru">{i18n.languageRussian}</option>
+            </SettingsSelectField>
+            <SettingsSelectField
+              icon="theme"
+              label={i18n.themeLabel}
+              value={themeMode}
+              onChange={(event) => setThemeMode(event.target.value)}
+            >
+              <option value={THEME_SYSTEM}>{i18n.themeSystem}</option>
+              <option value={THEME_LIGHT}>{i18n.themeLight}</option>
+              <option value={THEME_DARK}>{i18n.themeDark}</option>
+            </SettingsSelectField>
+            <SettingsNumberField
+              icon="nonReciprocal"
+              label={i18n.settingsFollowBackWindowDays}
+              value={followBackWindowDays}
+              onChange={(event) => setFollowBackWindowDays(parsePositiveIntegerInput(event.target.value))}
+            />
+            <SettingsNumberField
+              icon="mutual"
+              label={i18n.settingsFriendInactiveDays}
+              value={friendInactiveDays}
+              onChange={(event) => setFriendInactiveDays(parsePositiveIntegerInput(event.target.value))}
+            />
+            <SettingsNumberField
+              icon="clock"
+              label={i18n.settingsRetentionDays}
+              value={retentionDays}
+              onChange={(event) => setRetentionDays(parsePositiveIntegerInput(event.target.value))}
+            />
             <p className="settings-note">{i18n.settingsThresholdHint}</p>
             <div className="settings-divider" />
-            <label className="settings-row settings-row-stack">
-              <span className="settings-label">
-                <AppIcon name="exclude" />
-                <span>{i18n.settingsExclusions}</span>
-              </span>
+            <SettingsField icon="exclude" label={i18n.settingsExclusions} stacked>
               <div className="settings-inline">
                 <input
                   type="text"
@@ -1722,7 +1722,7 @@ function App() {
                   {i18n.settingsAdd}
                 </button>
               </div>
-            </label>
+            </SettingsField>
             <p className="settings-note">{i18n.settingsExclusionNote}</p>
             {!excludedLogins.length && <p className="settings-empty">{i18n.settingsExclusionEmpty}</p>}
             {!!excludedLogins.length && (
