@@ -1148,6 +1148,35 @@ function App() {
   const staleFriendsCount = filteredStaleFriendSource.length
   const deletedLossesCount = filteredDeletedFollowerLossSource.length
   const unfollowCandidatesCount = staleNonReciprocalCount + staleFriendsCount + deletedLossesCount
+  const tabs = [
+    {
+      id: TAB_CANDIDATES,
+      label: i18n.tabCandidates,
+      title: i18n.tabTitleCandidates,
+      badge: unfollowCandidatesCount,
+    },
+    {
+      id: TAB_NON_RECIPROCAL,
+      label: i18n.tabNotFollowback,
+      title: i18n.tabTitleNotFollowback,
+    },
+    {
+      id: TAB_FOLLOWERS_ONLY,
+      label: i18n.tabFollowers,
+      title: i18n.tabTitleFollowers,
+      badge: followersOnly,
+    },
+    {
+      id: TAB_MUTUAL,
+      label: i18n.tabFriends,
+      title: i18n.tabTitleFriends,
+      badge: followersMutual,
+    },
+    {
+      id: TAB_EVENTS,
+      label: i18n.tabEvents,
+    },
+  ]
 
   const handleNonReciprocalSort = (field) => {
     setNonReciprocalSortField((prevField) => {
@@ -1379,53 +1408,19 @@ function App() {
           </section>
 
           <section className="tabs" role="tablist" aria-label={i18n.tabsAriaLabel}>
-            <button
-              role="tab"
-              aria-selected={activeTab === TAB_CANDIDATES}
-              className={`tab-button ${activeTab === TAB_CANDIDATES ? 'active' : ''}`}
-              title={i18n.tabTitleCandidates}
-              onClick={() => setActiveTab(TAB_CANDIDATES)}
-            >
-              <span>{i18n.tabCandidates}</span>
-              <span className="tab-badge">{unfollowCandidatesCount}</span>
-            </button>
-            <button
-              role="tab"
-              aria-selected={activeTab === TAB_NON_RECIPROCAL}
-              className={`tab-button ${activeTab === TAB_NON_RECIPROCAL ? 'active' : ''}`}
-              title={i18n.tabTitleNotFollowback}
-              onClick={() => setActiveTab(TAB_NON_RECIPROCAL)}
-            >
-              {i18n.tabNotFollowback}
-            </button>
-            <button
-              role="tab"
-              aria-selected={activeTab === TAB_FOLLOWERS_ONLY}
-              className={`tab-button ${activeTab === TAB_FOLLOWERS_ONLY ? 'active' : ''}`}
-              title={i18n.tabTitleFollowers}
-              onClick={() => setActiveTab(TAB_FOLLOWERS_ONLY)}
-            >
-              <span>{i18n.tabFollowers}</span>
-              <span className="tab-badge">{followersOnly}</span>
-            </button>
-            <button
-              role="tab"
-              aria-selected={activeTab === TAB_MUTUAL}
-              className={`tab-button ${activeTab === TAB_MUTUAL ? 'active' : ''}`}
-              title={i18n.tabTitleFriends}
-              onClick={() => setActiveTab(TAB_MUTUAL)}
-            >
-              <span>{i18n.tabFriends}</span>
-              <span className="tab-badge">{followersMutual}</span>
-            </button>
-            <button
-              role="tab"
-              aria-selected={activeTab === TAB_EVENTS}
-              className={`tab-button ${activeTab === TAB_EVENTS ? 'active' : ''}`}
-              onClick={() => setActiveTab(TAB_EVENTS)}
-            >
-              {i18n.tabEvents}
-            </button>
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                role="tab"
+                aria-selected={activeTab === tab.id}
+                className={`tab-button ${activeTab === tab.id ? 'active' : ''}`}
+                title={tab.title}
+                onClick={() => setActiveTab(tab.id)}
+              >
+                <span>{tab.label}</span>
+                {typeof tab.badge === 'number' && <span className="tab-badge">{tab.badge}</span>}
+              </button>
+            ))}
           </section>
 
           <section key={activeTab} className="panel tab-panel">
