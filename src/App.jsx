@@ -545,6 +545,29 @@ function InfoTooltip({ text, label }) {
   )
 }
 
+function SectionHeading({ title, tooltipLabel, tooltipText }) {
+  return (
+    <h2 className="heading-with-tip">
+      {title}
+      <InfoTooltip label={tooltipLabel} text={tooltipText} />
+    </h2>
+  )
+}
+
+function ProfileLink({ login, href }) {
+  return (
+    <a href={href} target="_blank" rel="noreferrer">
+      @{login}
+    </a>
+  )
+}
+
+function ConfidenceBadge({ score, i18n }) {
+  return (
+    <span className={`confidence-badge ${getConfidenceTone(score ?? 0)}`}>{formatConfidence(score, i18n)}</span>
+  )
+}
+
 function NonReciprocalTable({
   users,
   sortField,
@@ -590,23 +613,13 @@ function NonReciprocalTable({
         <tbody>
           {users.map((user) => (
             <tr key={user.login}>
-              <td>
-                <a href={user.htmlUrl} target="_blank" rel="noreferrer">
-                  @{user.login}
-                </a>
-              </td>
+              <td><ProfileLink login={user.login} href={user.htmlUrl} /></td>
               <td>{formatDays(user.daysWaiting, i18n)}</td>
               <td>{formatDate(user.firstSeenFollowingAt, locale)}</td>
               {showReason && (
                 <td>{i18n.reasonNoFollowback(user.daysWaiting ?? 0, thresholdDays, i18n.daysSuffix)}</td>
               )}
-              {showConfidence && (
-                <td>
-                  <span className={`confidence-badge ${getConfidenceTone(user.confidenceScore ?? 0)}`}>
-                    {formatConfidence(user.confidenceScore, i18n)}
-                  </span>
-                </td>
-              )}
+              {showConfidence && <td><ConfidenceBadge score={user.confidenceScore} i18n={i18n} /></td>}
             </tr>
           ))}
         </tbody>
@@ -632,7 +645,7 @@ function FollowersOnlyTable({ users, i18n }) {
         <tbody>
           {users.map((user) => (
             <tr key={user.login}>
-              <td>@{user.login}</td>
+              <td><ProfileLink login={user.login} href={user.htmlUrl} /></td>
               <td>
                 <a href={user.htmlUrl} target="_blank" rel="noreferrer">
                   {user.htmlUrl}
@@ -667,11 +680,7 @@ function MutualFollowersTable({ users, sortOrder, onSortDays, i18n, locale }) {
         <tbody>
           {users.map((user) => (
             <tr key={user.login}>
-              <td>
-                <a href={user.htmlUrl} target="_blank" rel="noreferrer">
-                  @{user.login}
-                </a>
-              </td>
+              <td><ProfileLink login={user.login} href={user.htmlUrl} /></td>
               <td>{formatDate(user.lastContributionAt, locale)}</td>
               <td>{user.lastContributionType ?? '—'}</td>
               <td>{formatDays(user.daysSinceLastContribution, i18n)}</td>
@@ -704,11 +713,7 @@ function FriendsCleanupTable({ users, thresholdDays, i18n, locale }) {
         <tbody>
           {users.map((user) => (
             <tr key={`${user.login}-stale`}>
-              <td>
-                <a href={user.htmlUrl} target="_blank" rel="noreferrer">
-                  @{user.login}
-                </a>
-              </td>
+              <td><ProfileLink login={user.login} href={user.htmlUrl} /></td>
               <td>{formatDate(user.firstSeenMutualAt, locale)}</td>
               <td>{formatDate(user.lastContributionAt, locale)}</td>
               <td>{formatDays(user.inactiveDays, i18n)}</td>
@@ -716,11 +721,7 @@ function FriendsCleanupTable({ users, thresholdDays, i18n, locale }) {
                 {formatStaleReason(user.reason, i18n)}: {formatDays(user.inactiveDays, i18n)} (threshold:{' '}
                 {thresholdDays}+ {i18n.daysSuffix})
               </td>
-              <td>
-                <span className={`confidence-badge ${getConfidenceTone(user.confidenceScore ?? 0)}`}>
-                  {formatConfidence(user.confidenceScore, i18n)}
-                </span>
-              </td>
+              <td><ConfidenceBadge score={user.confidenceScore} i18n={i18n} /></td>
             </tr>
           ))}
         </tbody>
@@ -750,21 +751,13 @@ function DeletedFollowerLossesTable({ events, i18n, locale }) {
         <tbody>
           {events.map((event) => (
             <tr key={event.id}>
-              <td>
-                <a href={event.htmlUrl} target="_blank" rel="noreferrer">
-                  @{event.login}
-                </a>
-              </td>
+              <td><ProfileLink login={event.login} href={event.htmlUrl} /></td>
               <td>{formatDate(event.happenedAt, locale)}</td>
               <td>
                 <span className="event-badge deleted">{i18n.deletedBadge}</span>
               </td>
               <td>{i18n.reasonDeletedSignal}</td>
-              <td>
-                <span className={`confidence-badge ${getConfidenceTone(event.confidenceScore ?? 0)}`}>
-                  {formatConfidence(event.confidenceScore, i18n)}
-                </span>
-              </td>
+              <td><ConfidenceBadge score={event.confidenceScore} i18n={i18n} /></td>
               <td>{i18n.deletedAction}</td>
             </tr>
           ))}
@@ -804,9 +797,7 @@ function EventsList({ events, i18n, locale, onOpenBlockDialog }) {
             {event.isDeleted && <span className="event-badge deleted">{i18n.deletedBadge}</span>}
           </div>
           <div className="event-main">
-            <a href={event.htmlUrl} target="_blank" rel="noreferrer">
-              @{event.login}
-            </a>
+            <ProfileLink login={event.login} href={event.htmlUrl} />
             {event.type === 'follower_lost' && (
               <div className="event-actions">
                 <button
@@ -1440,13 +1431,11 @@ function App() {
           <section key={activeTab} className="panel tab-panel">
             {activeTab === TAB_NON_RECIPROCAL && (
               <>
-                <h2 className="heading-with-tip">
-                  {i18n.headingNotFollowback}
-                  <InfoTooltip
-                    label={i18n.tooltipNotFollowbackLabel}
-                    text={i18n.tooltipNotFollowbackText}
-                  />
-                </h2>
+                <SectionHeading
+                  title={i18n.headingNotFollowback}
+                  tooltipLabel={i18n.tooltipNotFollowbackLabel}
+                  tooltipText={i18n.tooltipNotFollowbackText}
+                />
                 <NonReciprocalTable
                   users={visibleNonReciprocal}
                   sortField={nonReciprocalSortField}
@@ -1462,13 +1451,11 @@ function App() {
 
             {activeTab === TAB_FOLLOWERS_ONLY && (
               <>
-                <h2 className="heading-with-tip">
-                  {i18n.headingFollowers}
-                  <InfoTooltip
-                    label={i18n.tooltipFollowersLabel}
-                    text={i18n.tooltipFollowersText}
-                  />
-                </h2>
+                <SectionHeading
+                  title={i18n.headingFollowers}
+                  tooltipLabel={i18n.tooltipFollowersLabel}
+                  tooltipText={i18n.tooltipFollowersText}
+                />
                 <FollowersOnlyTable users={visibleFollowersOnly} i18n={i18n} />
                 <LimitSelector value={followersOnlyLimit} onChange={setFollowersOnlyLimit} i18n={i18n} />
               </>
@@ -1476,13 +1463,11 @@ function App() {
 
             {activeTab === TAB_CANDIDATES && (
               <>
-                <h2 className="heading-with-tip">
-                  {i18n.headingCandidates}
-                  <InfoTooltip
-                    label={i18n.tooltipCandidatesLabel}
-                    text={i18n.tooltipCandidatesText}
-                  />
-                </h2>
+                <SectionHeading
+                  title={i18n.headingCandidates}
+                  tooltipLabel={i18n.tooltipCandidatesLabel}
+                  tooltipText={i18n.tooltipCandidatesText}
+                />
                 <h3 className="sub-heading">{i18n.sectionCandidatesNotFollowback(followBackWindowDays)}</h3>
                 <NonReciprocalTable
                   users={visibleStaleNonReciprocal}
@@ -1511,13 +1496,11 @@ function App() {
 
             {activeTab === TAB_MUTUAL && (
               <>
-                <h2 className="heading-with-tip">
-                  {i18n.headingFriends}
-                  <InfoTooltip
-                    label={i18n.tooltipFriendsLabel}
-                    text={i18n.tooltipFriendsText}
-                  />
-                </h2>
+                <SectionHeading
+                  title={i18n.headingFriends}
+                  tooltipLabel={i18n.tooltipFriendsLabel}
+                  tooltipText={i18n.tooltipFriendsText}
+                />
                 <MutualFollowersTable
                   users={visibleMutualFollowers}
                   sortOrder={mutualSortOrder}
@@ -1538,13 +1521,11 @@ function App() {
 
             {activeTab === TAB_EVENTS && (
               <>
-                <h2 className="heading-with-tip">
-                  {i18n.headingEvents}
-                  <InfoTooltip
-                    label={i18n.tooltipEventsLabel}
-                    text={i18n.tooltipEventsText}
-                  />
-                </h2>
+                <SectionHeading
+                  title={i18n.headingEvents}
+                  tooltipLabel={i18n.tooltipEventsLabel}
+                  tooltipText={i18n.tooltipEventsText}
+                />
                 <EventsFilter value={eventsFilter} onChange={setEventsFilter} filters={i18n.eventFilters} />
                 <EventsList
                   events={visibleEvents}
