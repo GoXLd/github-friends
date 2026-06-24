@@ -90,6 +90,10 @@ const I18N = {
     repoLinkLabel: 'Repo',
     repoStarsLabel: 'Stars',
     repoForksLabel: 'Forks',
+    heroUpdatedShort: 'Updated',
+    heroLoadedShort: 'Loaded',
+    heroApiShort: 'API',
+    heroResetShort: 'Reset',
     lastUpdate: 'Last update',
     browserLoad: 'Last browser load',
     apiRateLimit: 'GitHub API rate limit',
@@ -221,6 +225,10 @@ const I18N = {
     repoLinkLabel: 'Репозиторий',
     repoStarsLabel: 'Звезды',
     repoForksLabel: 'Форки',
+    heroUpdatedShort: 'Обновлено',
+    heroLoadedShort: 'Загружено',
+    heroApiShort: 'API',
+    heroResetShort: 'Сброс',
     lastUpdate: 'Последнее обновление',
     browserLoad: 'Последняя загрузка в браузере',
     apiRateLimit: 'GitHub API лимит',
@@ -525,6 +533,14 @@ function formatConfidence(score, i18n) {
   return `${rounded}% (${label})`
 }
 
+function formatRateLimitSummary(rateLimit, locale, i18n) {
+  if (!rateLimit) {
+    return i18n.apiRateLimitUnavailable
+  }
+
+  return `${formatCount(rateLimit.remaining, locale)}/${formatCount(rateLimit.limit, locale)} · ${i18n.heroResetShort} ${formatDate(rateLimit.resetAt, locale)}`
+}
+
 function sortNonReciprocal(users, field, order) {
   const multiplier = order === 'asc' ? 1 : -1
 
@@ -728,6 +744,31 @@ function AppIcon({ name, className = 'ui-icon' }) {
           <path d="M3 12h4l2.2-5 3.6 10 2.2-5H21" />
         </svg>
       )
+    case 'refresh':
+      return (
+        <svg {...commonProps}>
+          <path d="M20 11a8 8 0 0 0-14.9-3" />
+          <path d="M4 4v5h5" />
+          <path d="M4 13a8 8 0 0 0 14.9 3" />
+          <path d="M20 20v-5h-5" />
+        </svg>
+      )
+    case 'browser':
+      return (
+        <svg {...commonProps}>
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <path d="M3 9h18" />
+          <path d="M7 7h.01" />
+          <path d="M10 7h.01" />
+        </svg>
+      )
+    case 'rate':
+      return (
+        <svg {...commonProps}>
+          <path d="M5 17 9.5 11.5l3 3L19 7" />
+          <path d="M19 12V7h-5" />
+        </svg>
+      )
     default:
       return null
   }
@@ -760,6 +801,18 @@ function ProfileLink({ login, href }) {
     <a href={href} target="_blank" rel="noreferrer">
       @{login}
     </a>
+  )
+}
+
+function StatusPill({ icon, label, value, title }) {
+  return (
+    <div className="hero-pill" title={title}>
+      <span className="hero-pill-label">
+        <AppIcon name={icon} />
+        <span>{label}</span>
+      </span>
+      <span className="hero-pill-value">{value}</span>
+    </div>
   )
 }
 
@@ -1364,6 +1417,26 @@ function App() {
   const staleFriendsCount = filteredStaleFriendSource.length
   const deletedLossesCount = filteredDeletedFollowerLossSource.length
   const unfollowCandidatesCount = staleNonReciprocalCount + staleFriendsCount + deletedLossesCount
+  const heroStatusItems = [
+    {
+      icon: 'refresh',
+      label: i18n.heroUpdatedShort,
+      value: formatDate(reports?.generatedAt, locale),
+      title: i18n.lastUpdate,
+    },
+    {
+      icon: 'browser',
+      label: i18n.heroLoadedShort,
+      value: formatDate(lastLoadedAt, locale),
+      title: i18n.browserLoad,
+    },
+    {
+      icon: 'rate',
+      label: i18n.heroApiShort,
+      value: formatRateLimitSummary(rateLimit, locale, i18n),
+      title: i18n.apiRateLimit,
+    },
+  ]
   const repoActions = [
     {
       href: FIXED_REPO_URL,
@@ -1530,18 +1603,17 @@ function App() {
             </button>
           </div>
         </div>
-        <p className="hero-meta hero-meta-inline">
-          {i18n.lastUpdate}: {formatDate(reports?.generatedAt, locale)} · {i18n.browserLoad}:{' '}
-          {formatDate(lastLoadedAt, locale)}
-        </p>
-        <p className="hero-meta">
-          {i18n.apiRateLimit}:{' '}
-          {rateLimit
-            ? `${formatCount(rateLimit.remaining, locale)}/${formatCount(rateLimit.limit, locale)} · ${
-                i18n.apiRateLimitReset
-              }: ${formatDate(rateLimit.resetAt, locale)}`
-            : i18n.apiRateLimitUnavailable}
-        </p>
+        <div className="hero-status-strip">
+          {heroStatusItems.map((item) => (
+            <StatusPill
+              key={item.label}
+              icon={item.icon}
+              label={item.label}
+              value={item.value}
+              title={item.title}
+            />
+          ))}
+        </div>
 
         {settingsOpen && (
           <section className="settings-panel">

@@ -255,14 +255,38 @@
   background: var(--accent-soft);
 }
 
-.hero-meta {
-  margin: 0.25rem 0 0;
-  color: var(--text-muted);
-  font-size: 0.95rem;
+.hero-status-strip {
+  margin-top: 0.65rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
 }
 
-.hero-meta-inline {
-  margin-top: 0.35rem;
+.hero-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.62rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-default);
+  background: var(--bg-surface-muted);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  line-height: 1.1;
+}
+
+.hero-pill-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.hero-pill-value {
+  color: var(--text-primary);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
 
 .settings-panel {
