@@ -28,12 +28,22 @@ A React + GitHub Actions service that tracks your GitHub `followers` / `followin
 ## Current UI/Workflow
 
 - Tabs: `Unfollow candidates`, `Not Followback`, `Followers`, `Friends`, `Recent events`.
+- Compact hero status pills for:
+  - last update time
+  - last browser load
+  - GitHub API remaining/reset window
+- Inline SVG icons for repo actions, summary cards, tabs, and settings rows.
 - Sorting for key columns (waiting time, followed-since, days since last contribution).
 - Per-tab display limits (`10/25/50/100/500`).
 - Page settings (gear icon):
   - default records count
   - language switch (`English` default, `Russian` optional)
+  - theme mode switch (`System` default, optional `Light` / `Dark`)
+  - local thresholds for follow-back, friend inactivity, and retention window
   - local exclusions list
+- Theme behavior:
+  - default mode follows the OS/browser color scheme
+  - explicit `Light` / `Dark` choice is saved in browser `localStorage`
 - No database required: JSON files are committed by workflow and served via GitHub Pages.
 
 ## Data Files
