@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useEffectEvent, useMemo, useState } from 'react'
 import './App.css'
 
 const TAB_NON_RECIPROCAL = 'non_reciprocal'
@@ -328,6 +328,14 @@ function parsePositiveIntegerInput(rawValue, fallbackValue = 1) {
   }
 
   return fallbackValue
+}
+
+function createLoadError(source, status) {
+  return { source, status }
+}
+
+function isLoadError(error) {
+  return typeof error === 'object' && error !== null && 'source' in error && 'status' in error
 }
 
 function normalizeLogin(rawLogin) {
@@ -854,6 +862,15 @@ function App() {
   const i18n = I18N[language] ?? I18N.en
   const locale = i18n.locale
   const excludedSet = useMemo(() => new Set(excludedLogins.map((login) => normalizeLogin(login))), [excludedLogins])
+  const formatLoadError = useEffectEvent((loadError) => {
+    if (isLoadError(loadError)) {
+      return loadError.source === 'reports'
+        ? i18n.failedToLoadReports(loadError.status)
+        : i18n.failedToLoadEvents(loadError.status)
+    }
+
+    return loadError instanceof Error ? loadError.message : i18n.unknownLoadError
+  })
 
   const filteredNonReciprocalSource = useMemo(() => {
     const list = reports?.nonReciprocalNow ?? []
@@ -1029,11 +1046,11 @@ function App() {
         ])
 
         if (!reportsResponse.ok) {
-          throw new Error(i18n.failedToLoadReports(reportsResponse.status))
+          throw createLoadError('reports', reportsResponse.status)
         }
 
         if (!eventsResponse.ok) {
-          throw new Error(i18n.failedToLoadEvents(eventsResponse.status))
+          throw createLoadError('events', eventsResponse.status)
         }
 
         const [reportsJson, eventsJson] = await Promise.all([
@@ -1053,7 +1070,7 @@ function App() {
           return
         }
 
-        setError(loadError instanceof Error ? loadError.message : i18n.unknownLoadError)
+        setError(formatLoadError(loadError))
       } finally {
         if (active) {
           setLoading(false)
@@ -1066,7 +1083,7 @@ function App() {
     return () => {
       active = false
     }
-  }, [baseUrl, refreshNonce, i18n])
+  }, [baseUrl, refreshNonce])
 
   useEffect(() => {
     setStoredValue(SETTINGS_STORAGE_KEY, String(defaultPageSize))
