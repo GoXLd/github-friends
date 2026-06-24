@@ -202,10 +202,12 @@
   align-items: center;
   gap: 0.45rem;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .settings-input {
   min-width: 180px;
+  flex: 1 1 220px;
   border: 1px solid var(--border-default);
   border-radius: 8px;
   background: var(--bg-surface-raised);
@@ -223,6 +225,7 @@
   padding: 0.26rem 0.55rem;
   font-size: 0.88rem;
   cursor: pointer;
+  white-space: nowrap;
   transition: border-color 120ms ease, background 120ms ease, color 120ms ease;
 }
 
@@ -849,8 +852,34 @@ time {
     padding: 1rem 0.75rem 1.5rem;
   }
 
+  .title-row {
+    align-items: flex-start;
+  }
+
+  .repo-actions {
+    width: 100%;
+  }
+
   .hero {
     padding: 0.9rem;
+  }
+
+  .settings-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .settings-input,
+  .settings-add-button,
+  .settings-row select,
+  .settings-number-input,
+  .limit-control,
+  .limit-control select {
+    width: 100%;
+  }
+
+  .limit-row {
+    justify-content: stretch;
   }
 
   .stats-grid {
