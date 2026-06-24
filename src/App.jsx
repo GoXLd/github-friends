@@ -1148,6 +1148,20 @@ function App() {
   const staleFriendsCount = filteredStaleFriendSource.length
   const deletedLossesCount = filteredDeletedFollowerLossSource.length
   const unfollowCandidatesCount = staleNonReciprocalCount + staleFriendsCount + deletedLossesCount
+  const statCards = [
+    { label: i18n.followers, value: counts.followers ?? 0 },
+    { label: i18n.following, value: counts.following ?? 0 },
+    { label: i18n.nonReciprocal, value: nonReciprocalCount, accent: 'accent-blue' },
+    { label: i18n.mutualFollowers, value: followersMutual, accent: 'accent-green' },
+    {
+      label: i18n.unfollowCandidates,
+      value: unfollowCandidatesCount,
+      accent: 'accent-red',
+      button: true,
+      title: i18n.goToCandidates,
+      onClick: () => setActiveTab(TAB_CANDIDATES),
+    },
+  ]
   const tabs = [
     {
       id: TAB_CANDIDATES,
@@ -1380,31 +1394,25 @@ function App() {
       {!loading && !error && reports && (
         <>
           <section className="stats-grid">
-            <article className="stat-card">
-              <p>{i18n.followers}</p>
-              <strong>{counts.followers ?? 0}</strong>
-            </article>
-            <article className="stat-card">
-              <p>{i18n.following}</p>
-              <strong>{counts.following ?? 0}</strong>
-            </article>
-            <article className="stat-card accent-blue">
-              <p>{i18n.nonReciprocal}</p>
-              <strong>{nonReciprocalCount}</strong>
-            </article>
-            <article className="stat-card accent-green">
-              <p>{i18n.mutualFollowers}</p>
-              <strong>{followersMutual}</strong>
-            </article>
-            <button
-              type="button"
-              className="stat-card accent-red stat-card-button"
-              onClick={() => setActiveTab(TAB_CANDIDATES)}
-              title={i18n.goToCandidates}
-            >
-              <p>{i18n.unfollowCandidates}</p>
-              <strong>{unfollowCandidatesCount}</strong>
-            </button>
+            {statCards.map((card) =>
+              card.button ? (
+                <button
+                  key={card.label}
+                  type="button"
+                  className={`stat-card ${card.accent ?? ''} stat-card-button`}
+                  onClick={card.onClick}
+                  title={card.title}
+                >
+                  <p>{card.label}</p>
+                  <strong>{formatCount(card.value, locale)}</strong>
+                </button>
+              ) : (
+                <article key={card.label} className={`stat-card ${card.accent ?? ''}`.trim()}>
+                  <p>{card.label}</p>
+                  <strong>{formatCount(card.value, locale)}</strong>
+                </article>
+              ),
+            )}
           </section>
 
           <section className="tabs" role="tablist" aria-label={i18n.tabsAriaLabel}>
