@@ -78,6 +78,10 @@ const I18N = {
     settingsExclusionNote: 'Exclusions are applied locally in this browser.',
     settingsExclusionEmpty: 'Exclusions list is empty.',
     settingsInputPlaceholder: '@username',
+    repoFixedTitle: 'Fixed repository: GoXLd/github-friends',
+    repoLinkLabel: 'Repo',
+    repoStarsLabel: 'Stars',
+    repoForksLabel: 'Forks',
     lastUpdate: 'Last update',
     browserLoad: 'Last browser load',
     apiRateLimit: 'GitHub API rate limit',
@@ -201,6 +205,10 @@ const I18N = {
     settingsExclusionNote: 'Исключения применяются локально в этом браузере.',
     settingsExclusionEmpty: 'Список исключений пуст.',
     settingsInputPlaceholder: '@username',
+    repoFixedTitle: 'Фиксированный репозиторий: GoXLd/github-friends',
+    repoLinkLabel: 'Репозиторий',
+    repoStarsLabel: 'Звезды',
+    repoForksLabel: 'Форки',
     lastUpdate: 'Последнее обновление',
     browserLoad: 'Последняя загрузка в браузере',
     apiRateLimit: 'GitHub API лимит',
@@ -1165,6 +1173,25 @@ function App() {
   const staleFriendsCount = filteredStaleFriendSource.length
   const deletedLossesCount = filteredDeletedFollowerLossSource.length
   const unfollowCandidatesCount = staleNonReciprocalCount + staleFriendsCount + deletedLossesCount
+  const repoActions = [
+    {
+      href: FIXED_REPO_URL,
+      className: 'repo-link',
+      label: i18n.repoLinkLabel,
+    },
+    {
+      href: FIXED_REPO_URL,
+      className: 'repo-stat-button',
+      label: i18n.repoStarsLabel,
+      value: formatCount(repoStats.stars, locale),
+    },
+    {
+      href: FIXED_REPO_FORK_URL,
+      className: 'repo-stat-button',
+      label: i18n.repoForksLabel,
+      value: formatCount(repoStats.forks, locale),
+    },
+  ]
   const statCards = [
     { label: i18n.followers, value: counts.followers ?? 0 },
     { label: i18n.following, value: counts.following ?? 0 },
@@ -1264,16 +1291,19 @@ function App() {
       <header className="hero">
         <div className="title-row">
           <h1 className="title-line">{title}</h1>
-          <div className="repo-actions" title="Fixed repository: GoXLd/github-friends">
-            <a href={FIXED_REPO_URL} target="_blank" rel="noreferrer" className="repo-link">
-              Repo
-            </a>
-            <a href={FIXED_REPO_URL} target="_blank" rel="noreferrer" className="repo-stat-button">
-              Stars <span>{formatCount(repoStats.stars, locale)}</span>
-            </a>
-            <a href={FIXED_REPO_FORK_URL} target="_blank" rel="noreferrer" className="repo-stat-button">
-              Forks <span>{formatCount(repoStats.forks, locale)}</span>
-            </a>
+          <div className="repo-actions" title={i18n.repoFixedTitle}>
+            {repoActions.map((action) => (
+              <a
+                key={`${action.className}-${action.label}`}
+                href={action.href}
+                target="_blank"
+                rel="noreferrer"
+                className={action.className}
+              >
+                {action.label}
+                {action.value && <span>{action.value}</span>}
+              </a>
+            ))}
             <button
               type="button"
               className={`settings-toggle ${settingsOpen ? 'active' : ''}`}
