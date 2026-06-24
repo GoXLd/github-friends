@@ -285,28 +285,43 @@ function formatCount(value, locale) {
   return new Intl.NumberFormat(locale).format(value)
 }
 
-function getInitialDefaultPageSize() {
-  if (typeof window === 'undefined') {
-    return DEFAULT_PAGE_SIZE_FALLBACK
-  }
-
-  const rawValue = window.localStorage.getItem(SETTINGS_STORAGE_KEY)
-  const parsed = Number.parseInt(rawValue ?? '', 10)
-
-  if (!Number.isNaN(parsed) && LIMIT_OPTIONS.includes(parsed)) {
-    return parsed
-  }
-
-  return DEFAULT_PAGE_SIZE_FALLBACK
-}
-
-function getInitialThresholdSetting(storageKey, fallbackValue) {
+function getStoredInteger(storageKey, fallbackValue, allowedValues = null) {
   if (typeof window === 'undefined') {
     return fallbackValue
   }
 
   const rawValue = window.localStorage.getItem(storageKey)
   const parsed = Number.parseInt(rawValue ?? '', 10)
+
+  if (Number.isNaN(parsed) || parsed <= 0) {
+    return fallbackValue
+  }
+
+  if (Array.isArray(allowedValues) && !allowedValues.includes(parsed)) {
+    return fallbackValue
+  }
+
+  return parsed
+}
+
+function getInitialDefaultPageSize() {
+  return getStoredInteger(SETTINGS_STORAGE_KEY, DEFAULT_PAGE_SIZE_FALLBACK, LIMIT_OPTIONS)
+}
+
+function getInitialThresholdSetting(storageKey, fallbackValue) {
+  return getStoredInteger(storageKey, fallbackValue)
+}
+
+function setStoredValue(storageKey, value) {
+  if (typeof window === 'undefined') {
+    return
+  }
+
+  window.localStorage.setItem(storageKey, value)
+}
+
+function parsePositiveIntegerInput(rawValue, fallbackValue = 1) {
+  const parsed = Number.parseInt(rawValue || String(fallbackValue), 10)
 
   if (!Number.isNaN(parsed) && parsed > 0) {
     return parsed
@@ -1063,35 +1078,19 @@ function App() {
   }, [baseUrl, refreshNonce, i18n])
 
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return
-    }
-
-    window.localStorage.setItem(SETTINGS_STORAGE_KEY, String(defaultPageSize))
+    setStoredValue(SETTINGS_STORAGE_KEY, String(defaultPageSize))
   }, [defaultPageSize])
 
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return
-    }
-
-    window.localStorage.setItem(FOLLOW_BACK_WINDOW_STORAGE_KEY, String(followBackWindowDays))
+    setStoredValue(FOLLOW_BACK_WINDOW_STORAGE_KEY, String(followBackWindowDays))
   }, [followBackWindowDays])
 
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return
-    }
-
-    window.localStorage.setItem(FRIEND_INACTIVE_STORAGE_KEY, String(friendInactiveDays))
+    setStoredValue(FRIEND_INACTIVE_STORAGE_KEY, String(friendInactiveDays))
   }, [friendInactiveDays])
 
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return
-    }
-
-    window.localStorage.setItem(RETENTION_DAYS_STORAGE_KEY, String(retentionDays))
+    setStoredValue(RETENTION_DAYS_STORAGE_KEY, String(retentionDays))
   }, [retentionDays])
 
   useEffect(() => {
@@ -1099,16 +1098,12 @@ function App() {
       return
     }
 
-    window.localStorage.setItem(LANGUAGE_STORAGE_KEY, language)
+    setStoredValue(LANGUAGE_STORAGE_KEY, language)
     document.documentElement.lang = language
   }, [language])
 
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return
-    }
-
-    window.localStorage.setItem(EXCLUSIONS_STORAGE_KEY, JSON.stringify(excludedLogins))
+    setStoredValue(EXCLUSIONS_STORAGE_KEY, JSON.stringify(excludedLogins))
   }, [excludedLogins])
 
   useEffect(() => {
@@ -1294,9 +1289,7 @@ function App() {
                 type="number"
                 min={1}
                 value={followBackWindowDays}
-                onChange={(event) =>
-                  setFollowBackWindowDays(Math.max(1, Number.parseInt(event.target.value || '1', 10)))
-                }
+                onChange={(event) => setFollowBackWindowDays(parsePositiveIntegerInput(event.target.value))}
                 className="settings-number-input"
               />
             </label>
@@ -1306,9 +1299,7 @@ function App() {
                 type="number"
                 min={1}
                 value={friendInactiveDays}
-                onChange={(event) =>
-                  setFriendInactiveDays(Math.max(1, Number.parseInt(event.target.value || '1', 10)))
-                }
+                onChange={(event) => setFriendInactiveDays(parsePositiveIntegerInput(event.target.value))}
                 className="settings-number-input"
               />
             </label>
@@ -1318,7 +1309,7 @@ function App() {
                 type="number"
                 min={1}
                 value={retentionDays}
-                onChange={(event) => setRetentionDays(Math.max(1, Number.parseInt(event.target.value || '1', 10)))}
+                onChange={(event) => setRetentionDays(parsePositiveIntegerInput(event.target.value))}
                 className="settings-number-input"
               />
             </label>
