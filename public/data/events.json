@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:aleksei-khvostov:2026-06-24T01:15:08.071Z",
+    "type": "follower_gained",
+    "login": "aleksei-khvostov",
+    "htmlUrl": "https://github.com/aleksei-khvostov",
+    "happenedAt": "2026-06-24T01:15:08.071Z"
+  },
+  {
+    "id": "follower_lost:fsrxc2bvv9-ctrl:2026-06-24T01:15:08.071Z",
+    "type": "follower_lost",
+    "login": "fsrxc2bvv9-ctrl",
+    "htmlUrl": "https://github.com/fsrxc2bvv9-ctrl",
+    "happenedAt": "2026-06-24T01:15:08.071Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:aleksei-khvostov:2026-06-24T01:15:08.071Z",
+    "type": "you_followed",
+    "login": "aleksei-khvostov",
+    "htmlUrl": "https://github.com/aleksei-khvostov",
+    "happenedAt": "2026-06-24T01:15:08.071Z"
+  },
+  {
+    "id": "you_unfollowed:fsrxc2bvv9-ctrl:2026-06-24T01:15:08.071Z",
+    "type": "you_unfollowed",
+    "login": "fsrxc2bvv9-ctrl",
+    "htmlUrl": "https://github.com/fsrxc2bvv9-ctrl",
+    "happenedAt": "2026-06-24T01:15:08.071Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:1chigo-kurosaki:2026-06-23T19:00:55.958Z",
     "type": "follower_gained",
     "login": "1CHIGO-KUROSAKI",
