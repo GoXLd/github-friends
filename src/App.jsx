@@ -820,7 +820,7 @@ function App() {
   const [refreshNonce, setRefreshNonce] = useState(0)
   const [lastLoadedAt, setLastLoadedAt] = useState(null)
   const [activeTab, setActiveTab] = useState(TAB_NON_RECIPROCAL)
-  const [nonReciprocalSortField, setNonReciprocalSortField] = useState(NON_RECIPROCAL_SORT_TRACKED)
+  const [nonReciprocalSortField, setNonReciprocalSortField] = useState(NON_RECIPROCAL_SORT_WAITING)
   const [nonReciprocalSortOrder, setNonReciprocalSortOrder] = useState('desc')
   const [mutualSortOrder, setMutualSortOrder] = useState('desc')
   const [eventsFilter, setEventsFilter] = useState('all')
