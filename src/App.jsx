@@ -15,12 +15,16 @@ const DEFAULT_PAGE_SIZE_FALLBACK = 100
 const SETTINGS_STORAGE_KEY = 'gh_friends_default_page_size'
 const EXCLUSIONS_STORAGE_KEY = 'gh_friends_excluded_logins'
 const LANGUAGE_STORAGE_KEY = 'gh_friends_language'
+const THEME_STORAGE_KEY = 'gh_friends_theme_mode'
 const FOLLOW_BACK_WINDOW_STORAGE_KEY = 'gh_friends_follow_back_days'
 const FRIEND_INACTIVE_STORAGE_KEY = 'gh_friends_friend_inactive_days'
 const RETENTION_DAYS_STORAGE_KEY = 'gh_friends_retention_days'
 const DEFAULT_FOLLOW_BACK_WINDOW_DAYS = 7
 const DEFAULT_FRIEND_INACTIVE_DAYS = 60
 const DEFAULT_RETENTION_DAYS = 90
+const THEME_SYSTEM = 'system'
+const THEME_LIGHT = 'light'
+const THEME_DARK = 'dark'
 
 const FIXED_REPO_OWNER = 'GoXLd'
 const FIXED_REPO_NAME = 'github-friends'
@@ -34,6 +38,10 @@ const I18N = {
     languageLabel: 'Language:',
     languageEnglish: 'English',
     languageRussian: 'Russian',
+    themeLabel: 'Theme:',
+    themeSystem: 'System',
+    themeLight: 'Light',
+    themeDark: 'Dark',
     showRecords: 'Show records:',
     sortWaiting: 'Waiting',
     sortTrackedSince: 'Following since',
@@ -47,7 +55,7 @@ const I18N = {
     inactiveDaysCol: 'Inactive (days)',
     reasonCol: 'Reason',
     confidenceCol: 'Confidence',
-    lastContributeCol: 'Последний вклад',
+    lastContributeCol: 'Last contribute',
     eventTypeCol: 'Event type',
     actionsCol: 'Actions',
     emptyList: 'List is empty.',
@@ -161,6 +169,10 @@ const I18N = {
     languageLabel: 'Язык:',
     languageEnglish: 'Английский',
     languageRussian: 'Русский',
+    themeLabel: 'Тема:',
+    themeSystem: 'Системная',
+    themeLight: 'Светлая',
+    themeDark: 'Темная',
     showRecords: 'Показывать записей:',
     sortWaiting: 'Ожидание',
     sortTrackedSince: 'Слежение с',
@@ -174,7 +186,7 @@ const I18N = {
     inactiveDaysCol: 'Неактивен (дней)',
     reasonCol: 'Причина',
     confidenceCol: 'Уверенность',
-    lastContributeCol: 'Last contribute',
+    lastContributeCol: 'Последний вклад',
     eventTypeCol: 'Тип события',
     actionsCol: 'Действия',
     emptyList: 'Список пуст.',
@@ -320,6 +332,15 @@ function getInitialThresholdSetting(storageKey, fallbackValue) {
   return getStoredInteger(storageKey, fallbackValue)
 }
 
+function getInitialThemeMode() {
+  if (typeof window === 'undefined') {
+    return THEME_SYSTEM
+  }
+
+  const stored = window.localStorage.getItem(THEME_STORAGE_KEY)
+  return stored === THEME_LIGHT || stored === THEME_DARK || stored === THEME_SYSTEM ? stored : THEME_SYSTEM
+}
+
 function setStoredValue(storageKey, value) {
   if (typeof window === 'undefined') {
     return
@@ -344,6 +365,25 @@ function createLoadError(source, status) {
 
 function isLoadError(error) {
   return typeof error === 'object' && error !== null && 'source' in error && 'status' in error
+}
+
+function applyThemeMode(themeMode) {
+  if (typeof document === 'undefined') {
+    return
+  }
+
+  const root = document.documentElement
+
+  if (themeMode === THEME_LIGHT || themeMode === THEME_DARK) {
+    root.dataset.theme = themeMode
+    return
+  }
+
+  root.removeAttribute('data-theme')
+}
+
+if (typeof document !== 'undefined') {
+  applyThemeMode(getInitialThemeMode())
 }
 
 function normalizeLogin(rawLogin) {
@@ -546,6 +586,151 @@ function SortHeaderButton({ label, active, order, onClick }) {
       {label} {active ? (order === 'desc' ? '↓' : '↑') : '↕'}
     </button>
   )
+}
+
+function AppIcon({ name, className = 'ui-icon' }) {
+  const commonProps = {
+    className,
+    viewBox: '0 0 24 24',
+    'aria-hidden': 'true',
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: '1.8',
+    strokeLinecap: 'round',
+    strokeLinejoin: 'round',
+  }
+
+  switch (name) {
+    case 'repo':
+      return (
+        <svg {...commonProps}>
+          <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15.5A2.5 2.5 0 0 0 17.5 16H4z" />
+          <path d="M6.5 3v13" />
+          <path d="M8.5 7H16" />
+          <path d="M8.5 11H14" />
+        </svg>
+      )
+    case 'star':
+      return (
+        <svg {...commonProps}>
+          <path d="m12 3 2.7 5.48 6.05.88-4.38 4.27 1.04 6.03L12 16.8l-5.41 2.86 1.04-6.03L3.25 9.36l6.05-.88z" />
+        </svg>
+      )
+    case 'fork':
+      return (
+        <svg {...commonProps}>
+          <path d="M7 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" />
+          <path d="M17 16a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" />
+          <path d="M17 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" />
+          <path d="M7 8v4a6 6 0 0 0 6 6h2" />
+          <path d="M7 8v4a6 6 0 0 1 6-6h2" />
+        </svg>
+      )
+    case 'theme':
+      return (
+        <svg {...commonProps}>
+          <path d="M12 3v2.5" />
+          <path d="M12 18.5V21" />
+          <path d="m5.64 5.64 1.77 1.77" />
+          <path d="m16.59 16.59 1.77 1.77" />
+          <path d="M3 12h2.5" />
+          <path d="M18.5 12H21" />
+          <path d="m5.64 18.36 1.77-1.77" />
+          <path d="m16.59 7.41 1.77-1.77" />
+          <circle cx="12" cy="12" r="3.5" />
+        </svg>
+      )
+    case 'list':
+      return (
+        <svg {...commonProps}>
+          <path d="M8 6h12" />
+          <path d="M8 12h12" />
+          <path d="M8 18h12" />
+          <circle cx="4" cy="6" r="1" fill="currentColor" stroke="none" />
+          <circle cx="4" cy="12" r="1" fill="currentColor" stroke="none" />
+          <circle cx="4" cy="18" r="1" fill="currentColor" stroke="none" />
+        </svg>
+      )
+    case 'globe':
+      return (
+        <svg {...commonProps}>
+          <circle cx="12" cy="12" r="9" />
+          <path d="M3 12h18" />
+          <path d="M12 3a15 15 0 0 1 0 18" />
+          <path d="M12 3a15 15 0 0 0 0 18" />
+        </svg>
+      )
+    case 'clock':
+      return (
+        <svg {...commonProps}>
+          <circle cx="12" cy="12" r="9" />
+          <path d="M12 7v5l3 2" />
+        </svg>
+      )
+    case 'exclude':
+      return (
+        <svg {...commonProps}>
+          <circle cx="12" cy="12" r="9" />
+          <path d="M8.5 8.5l7 7" />
+          <path d="M15.5 8.5l-7 7" />
+        </svg>
+      )
+    case 'followers':
+      return (
+        <svg {...commonProps}>
+          <path d="M16 21v-1.5A3.5 3.5 0 0 0 12.5 16h-4A3.5 3.5 0 0 0 5 19.5V21" />
+          <circle cx="10.5" cy="9" r="3" />
+          <path d="M19 21v-1a3 3 0 0 0-2.4-2.94" />
+          <path d="M15.5 6.2a3 3 0 0 1 0 5.6" />
+        </svg>
+      )
+    case 'following':
+      return (
+        <svg {...commonProps}>
+          <circle cx="9" cy="8" r="3" />
+          <path d="M4.5 20v-1A4.5 4.5 0 0 1 9 14.5h1.5" />
+          <path d="M14 10h7" />
+          <path d="m18 6 3 4-3 4" />
+        </svg>
+      )
+    case 'nonReciprocal':
+      return (
+        <svg {...commonProps}>
+          <path d="M4 7h11" />
+          <path d="m11 4 4 3-4 3" />
+          <path d="M20 17H9" />
+          <path d="m13 14-4 3 4 3" />
+          <path d="m4 4 16 16" />
+        </svg>
+      )
+    case 'mutual':
+      return (
+        <svg {...commonProps}>
+          <path d="M7 7h10" />
+          <path d="m13 3 4 4-4 4" />
+          <path d="M17 17H7" />
+          <path d="m11 13-4 4 4 4" />
+        </svg>
+      )
+    case 'candidates':
+      return (
+        <svg {...commonProps}>
+          <path d="M4 7h16" />
+          <path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2" />
+          <path d="M6 7l1 12a1 1 0 0 0 1 .9h8a1 1 0 0 0 1-.9L18 7" />
+          <path d="M10 11v5" />
+          <path d="M14 11v5" />
+        </svg>
+      )
+    case 'events':
+      return (
+        <svg {...commonProps}>
+          <path d="M3 12h4l2.2-5 3.6 10 2.2-5H21" />
+        </svg>
+      )
+    default:
+      return null
+  }
 }
 
 function InfoTooltip({ text, label }) {
@@ -835,6 +1020,7 @@ function EventsList({ events, i18n, locale, onOpenBlockDialog }) {
 
 function App() {
   const [language, setLanguage] = useState(getInitialLanguage)
+  const [themeMode, setThemeMode] = useState(getInitialThemeMode)
   const [reports, setReports] = useState(null)
   const [events, setEvents] = useState([])
   const [loading, setLoading] = useState(true)
@@ -1098,6 +1284,11 @@ function App() {
   }, [defaultPageSize])
 
   useEffect(() => {
+    setStoredValue(THEME_STORAGE_KEY, themeMode)
+    applyThemeMode(themeMode)
+  }, [themeMode])
+
+  useEffect(() => {
     setStoredValue(FOLLOW_BACK_WINDOW_STORAGE_KEY, String(followBackWindowDays))
   }, [followBackWindowDays])
 
@@ -1178,29 +1369,33 @@ function App() {
       href: FIXED_REPO_URL,
       className: 'repo-link',
       label: i18n.repoLinkLabel,
+      icon: 'repo',
     },
     {
       href: FIXED_REPO_URL,
       className: 'repo-stat-button',
       label: i18n.repoStarsLabel,
+      icon: 'star',
       value: formatCount(repoStats.stars, locale),
     },
     {
       href: FIXED_REPO_FORK_URL,
       className: 'repo-stat-button',
       label: i18n.repoForksLabel,
+      icon: 'fork',
       value: formatCount(repoStats.forks, locale),
     },
   ]
   const statCards = [
-    { label: i18n.followers, value: counts.followers ?? 0 },
-    { label: i18n.following, value: counts.following ?? 0 },
-    { label: i18n.nonReciprocal, value: nonReciprocalCount, accent: 'accent-blue' },
-    { label: i18n.mutualFollowers, value: followersMutual, accent: 'accent-green' },
+    { label: i18n.followers, value: counts.followers ?? 0, icon: 'followers' },
+    { label: i18n.following, value: counts.following ?? 0, icon: 'following' },
+    { label: i18n.nonReciprocal, value: nonReciprocalCount, accent: 'accent-blue', icon: 'nonReciprocal' },
+    { label: i18n.mutualFollowers, value: followersMutual, accent: 'accent-green', icon: 'mutual' },
     {
       label: i18n.unfollowCandidates,
       value: unfollowCandidatesCount,
       accent: 'accent-red',
+      icon: 'candidates',
       button: true,
       title: i18n.goToCandidates,
       onClick: () => setActiveTab(TAB_CANDIDATES),
@@ -1212,27 +1407,32 @@ function App() {
       label: i18n.tabCandidates,
       title: i18n.tabTitleCandidates,
       badge: unfollowCandidatesCount,
+      icon: 'candidates',
     },
     {
       id: TAB_NON_RECIPROCAL,
       label: i18n.tabNotFollowback,
       title: i18n.tabTitleNotFollowback,
+      icon: 'nonReciprocal',
     },
     {
       id: TAB_FOLLOWERS_ONLY,
       label: i18n.tabFollowers,
       title: i18n.tabTitleFollowers,
       badge: followersOnly,
+      icon: 'followers',
     },
     {
       id: TAB_MUTUAL,
       label: i18n.tabFriends,
       title: i18n.tabTitleFriends,
       badge: followersMutual,
+      icon: 'mutual',
     },
     {
       id: TAB_EVENTS,
       label: i18n.tabEvents,
+      icon: 'events',
     },
   ]
 
@@ -1300,7 +1500,10 @@ function App() {
                 rel="noreferrer"
                 className={action.className}
               >
-                {action.label}
+                <span className="label-with-icon">
+                  <AppIcon name={action.icon} />
+                  <span>{action.label}</span>
+                </span>
                 {action.value && <span>{action.value}</span>}
               </a>
             ))}
@@ -1343,7 +1546,10 @@ function App() {
         {settingsOpen && (
           <section className="settings-panel">
             <label className="settings-row">
-              {i18n.settingsDefaultPageSize}
+              <span className="settings-label">
+                <AppIcon name="list" />
+                <span>{i18n.settingsDefaultPageSize}</span>
+              </span>
               <select
                 value={defaultPageSize}
                 onChange={(event) => setDefaultPageSize(Number(event.target.value))}
@@ -1356,7 +1562,10 @@ function App() {
               </select>
             </label>
             <label className="settings-row settings-row-stack">
-              {i18n.languageLabel}
+              <span className="settings-label">
+                <AppIcon name="globe" />
+                <span>{i18n.languageLabel}</span>
+              </span>
               <div className="settings-language-select-wrap">
                 <select value={language} onChange={(event) => setLanguage(event.target.value)}>
                   <option value="en">{i18n.languageEnglish}</option>
@@ -1364,8 +1573,24 @@ function App() {
                 </select>
               </div>
             </label>
+            <label className="settings-row settings-row-stack">
+              <span className="settings-label">
+                <AppIcon name="theme" />
+                <span>{i18n.themeLabel}</span>
+              </span>
+              <div className="settings-language-select-wrap">
+                <select value={themeMode} onChange={(event) => setThemeMode(event.target.value)}>
+                  <option value={THEME_SYSTEM}>{i18n.themeSystem}</option>
+                  <option value={THEME_LIGHT}>{i18n.themeLight}</option>
+                  <option value={THEME_DARK}>{i18n.themeDark}</option>
+                </select>
+              </div>
+            </label>
             <label className="settings-row">
-              {i18n.settingsFollowBackWindowDays}
+              <span className="settings-label">
+                <AppIcon name="nonReciprocal" />
+                <span>{i18n.settingsFollowBackWindowDays}</span>
+              </span>
               <input
                 type="number"
                 min={1}
@@ -1375,7 +1600,10 @@ function App() {
               />
             </label>
             <label className="settings-row">
-              {i18n.settingsFriendInactiveDays}
+              <span className="settings-label">
+                <AppIcon name="mutual" />
+                <span>{i18n.settingsFriendInactiveDays}</span>
+              </span>
               <input
                 type="number"
                 min={1}
@@ -1385,7 +1613,10 @@ function App() {
               />
             </label>
             <label className="settings-row">
-              {i18n.settingsRetentionDays}
+              <span className="settings-label">
+                <AppIcon name="clock" />
+                <span>{i18n.settingsRetentionDays}</span>
+              </span>
               <input
                 type="number"
                 min={1}
@@ -1397,7 +1628,10 @@ function App() {
             <p className="settings-note">{i18n.settingsThresholdHint}</p>
             <div className="settings-divider" />
             <label className="settings-row settings-row-stack">
-              {i18n.settingsExclusions}
+              <span className="settings-label">
+                <AppIcon name="exclude" />
+                <span>{i18n.settingsExclusions}</span>
+              </span>
               <div className="settings-inline">
                 <input
                   type="text"
@@ -1450,12 +1684,18 @@ function App() {
                   onClick={card.onClick}
                   title={card.title}
                 >
-                  <p>{card.label}</p>
+                  <p className="stat-label">
+                    <AppIcon name={card.icon} />
+                    <span>{card.label}</span>
+                  </p>
                   <strong>{formatCount(card.value, locale)}</strong>
                 </button>
               ) : (
                 <article key={card.label} className={`stat-card ${card.accent ?? ''}`.trim()}>
-                  <p>{card.label}</p>
+                  <p className="stat-label">
+                    <AppIcon name={card.icon} />
+                    <span>{card.label}</span>
+                  </p>
                   <strong>{formatCount(card.value, locale)}</strong>
                 </article>
               ),
@@ -1472,7 +1712,10 @@ function App() {
                 title={tab.title}
                 onClick={() => setActiveTab(tab.id)}
               >
-                <span>{tab.label}</span>
+                <span className="label-with-icon">
+                  <AppIcon name={tab.icon} />
+                  <span>{tab.label}</span>
+                </span>
                 {typeof tab.badge === 'number' && <span className="tab-badge">{tab.badge}</span>}
               </button>
             ))}

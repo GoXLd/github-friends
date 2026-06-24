@@ -4,28 +4,138 @@
   --bg-surface-muted: rgba(11, 19, 34, 0.92);
   --bg-surface-raised: rgba(23, 37, 60, 0.96);
   --bg-surface-strong: #08111d;
+  --hero-top: rgba(23, 37, 60, 0.98);
+  --hero-bottom: rgba(15, 24, 40, 0.96);
   --text-primary: #f3f7ff;
   --text-secondary: #b1c2dc;
   --text-muted: #88a0be;
   --border-default: #233754;
   --border-strong: #36527a;
   --shadow-soft: 0 18px 48px rgba(2, 6, 14, 0.38);
+  --table-row-hover: rgba(255, 255, 255, 0.025);
   --accent: #67b3ff;
   --accent-strong: #8ecaff;
   --accent-soft: rgba(103, 179, 255, 0.16);
   --accent-soft-strong: rgba(103, 179, 255, 0.26);
+  --accent-panel-top: rgba(21, 49, 79, 0.92);
+  --accent-panel-bottom: rgba(15, 24, 40, 0.96);
   --success: #7ee0a4;
   --success-soft: rgba(50, 197, 105, 0.16);
   --success-soft-strong: rgba(50, 197, 105, 0.26);
+  --success-panel-top: rgba(18, 52, 34, 0.92);
+  --success-panel-bottom: rgba(15, 24, 40, 0.96);
   --danger: #ff8e8e;
   --danger-strong: #ffb3b3;
   --danger-soft: rgba(255, 107, 107, 0.16);
   --danger-soft-strong: rgba(255, 107, 107, 0.28);
+  --danger-panel-top: rgba(63, 21, 27, 0.92);
+  --danger-panel-bottom: rgba(15, 24, 40, 0.96);
+  --danger-box-bg: rgba(85, 18, 24, 0.5);
+  --danger-disclaimer-bg: rgba(72, 18, 24, 0.52);
+  --danger-disclaimer-text: #ffd6d6;
   --warning: #f4d67a;
   --warning-soft: rgba(244, 214, 122, 0.16);
   --violet: #c4a2ff;
   --violet-soft: rgba(164, 112, 255, 0.16);
   --violet-soft-strong: rgba(164, 112, 255, 0.26);
+  --filter-lost-active-bg: rgba(99, 27, 35, 0.8);
+  --filter-gained-active-bg: rgba(18, 73, 43, 0.8);
+  --filter-followed-active-bg: rgba(21, 65, 110, 0.82);
+  --filter-unfollowed-active-bg: rgba(71, 38, 122, 0.8);
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    --bg-surface: rgba(255, 255, 255, 0.92);
+    --bg-surface-alt: rgba(247, 250, 252, 0.96);
+    --bg-surface-muted: rgba(242, 246, 251, 0.94);
+    --bg-surface-raised: rgba(255, 255, 255, 0.98);
+    --bg-surface-strong: #1f2937;
+    --hero-top: rgba(255, 255, 255, 0.98);
+    --hero-bottom: rgba(242, 246, 251, 0.96);
+    --text-primary: #17212f;
+    --text-secondary: #304256;
+    --text-muted: #66758b;
+    --border-default: #d0d7de;
+    --border-strong: #9fb2c8;
+    --shadow-soft: 0 18px 48px rgba(15, 23, 42, 0.08);
+    --table-row-hover: rgba(9, 105, 218, 0.035);
+    --accent: #0969da;
+    --accent-strong: #0550ae;
+    --accent-soft: rgba(9, 105, 218, 0.12);
+    --accent-soft-strong: rgba(9, 105, 218, 0.24);
+    --accent-panel-top: rgba(240, 246, 255, 0.98);
+    --accent-panel-bottom: rgba(221, 244, 255, 0.92);
+    --success: #1a7f37;
+    --success-soft: rgba(26, 127, 55, 0.12);
+    --success-soft-strong: rgba(26, 127, 55, 0.24);
+    --success-panel-top: rgba(240, 255, 244, 0.98);
+    --success-panel-bottom: rgba(218, 251, 225, 0.92);
+    --danger: #cf222e;
+    --danger-strong: #b62324;
+    --danger-soft: rgba(207, 34, 46, 0.12);
+    --danger-soft-strong: rgba(207, 34, 46, 0.24);
+    --danger-panel-top: rgba(255, 245, 245, 0.98);
+    --danger-panel-bottom: rgba(255, 235, 233, 0.92);
+    --danger-box-bg: rgba(255, 235, 233, 0.86);
+    --danger-disclaimer-bg: rgba(255, 245, 245, 0.96);
+    --danger-disclaimer-text: #5a1a1f;
+    --warning: #9a6700;
+    --warning-soft: rgba(191, 135, 0, 0.14);
+    --violet: #8250df;
+    --violet-soft: rgba(130, 80, 223, 0.12);
+    --violet-soft-strong: rgba(130, 80, 223, 0.24);
+    --filter-lost-active-bg: rgba(255, 219, 216, 0.95);
+    --filter-gained-active-bg: rgba(201, 240, 209, 0.95);
+    --filter-followed-active-bg: rgba(207, 232, 255, 0.95);
+    --filter-unfollowed-active-bg: rgba(231, 220, 255, 0.95);
+  }
+}
+
+:root[data-theme='light'] {
+  --bg-surface: rgba(255, 255, 255, 0.92);
+  --bg-surface-alt: rgba(247, 250, 252, 0.96);
+  --bg-surface-muted: rgba(242, 246, 251, 0.94);
+  --bg-surface-raised: rgba(255, 255, 255, 0.98);
+  --bg-surface-strong: #1f2937;
+  --hero-top: rgba(255, 255, 255, 0.98);
+  --hero-bottom: rgba(242, 246, 251, 0.96);
+  --text-primary: #17212f;
+  --text-secondary: #304256;
+  --text-muted: #66758b;
+  --border-default: #d0d7de;
+  --border-strong: #9fb2c8;
+  --shadow-soft: 0 18px 48px rgba(15, 23, 42, 0.08);
+  --table-row-hover: rgba(9, 105, 218, 0.035);
+  --accent: #0969da;
+  --accent-strong: #0550ae;
+  --accent-soft: rgba(9, 105, 218, 0.12);
+  --accent-soft-strong: rgba(9, 105, 218, 0.24);
+  --accent-panel-top: rgba(240, 246, 255, 0.98);
+  --accent-panel-bottom: rgba(221, 244, 255, 0.92);
+  --success: #1a7f37;
+  --success-soft: rgba(26, 127, 55, 0.12);
+  --success-soft-strong: rgba(26, 127, 55, 0.24);
+  --success-panel-top: rgba(240, 255, 244, 0.98);
+  --success-panel-bottom: rgba(218, 251, 225, 0.92);
+  --danger: #cf222e;
+  --danger-strong: #b62324;
+  --danger-soft: rgba(207, 34, 46, 0.12);
+  --danger-soft-strong: rgba(207, 34, 46, 0.24);
+  --danger-panel-top: rgba(255, 245, 245, 0.98);
+  --danger-panel-bottom: rgba(255, 235, 233, 0.92);
+  --danger-box-bg: rgba(255, 235, 233, 0.86);
+  --danger-disclaimer-bg: rgba(255, 245, 245, 0.96);
+  --danger-disclaimer-text: #5a1a1f;
+  --warning: #9a6700;
+  --warning-soft: rgba(191, 135, 0, 0.14);
+  --violet: #8250df;
+  --violet-soft: rgba(130, 80, 223, 0.12);
+  --violet-soft-strong: rgba(130, 80, 223, 0.24);
+  --filter-lost-active-bg: rgba(255, 219, 216, 0.95);
+  --filter-gained-active-bg: rgba(201, 240, 209, 0.95);
+  --filter-followed-active-bg: rgba(207, 232, 255, 0.95);
+  --filter-unfollowed-active-bg: rgba(231, 220, 255, 0.95);
 }
 
 #root {
@@ -42,7 +152,7 @@
   border-radius: 14px;
   padding: 1.1rem 1.2rem;
   background:
-    linear-gradient(180deg, rgba(23, 37, 60, 0.98), rgba(15, 24, 40, 0.96)),
+    linear-gradient(180deg, var(--hero-top), var(--hero-bottom)),
     var(--bg-surface);
   border: 1px solid var(--border-strong);
   box-shadow: var(--shadow-soft);
@@ -69,6 +179,21 @@
   align-items: center;
   gap: 0.45rem;
   flex-wrap: wrap;
+}
+
+.label-with-icon,
+.settings-label,
+.stat-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  min-width: 0;
+}
+
+.ui-icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  flex: 0 0 auto;
 }
 
 .repo-link {
@@ -151,6 +276,7 @@
 .settings-row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.5rem;
   color: var(--text-secondary);
   font-size: 0.92rem;
@@ -284,7 +410,7 @@
 
 .state-box.error {
   border-color: var(--danger-soft-strong);
-  background: rgba(85, 18, 24, 0.5);
+  background: var(--danger-box-bg);
   color: var(--danger-strong);
 }
 
@@ -344,17 +470,17 @@
 
 .stat-card.accent-blue {
   border-color: var(--accent-soft-strong);
-  background: linear-gradient(180deg, rgba(21, 49, 79, 0.92), rgba(15, 24, 40, 0.96));
+  background: linear-gradient(180deg, var(--accent-panel-top), var(--accent-panel-bottom));
 }
 
 .stat-card.accent-green {
   border-color: var(--success-soft-strong);
-  background: linear-gradient(180deg, rgba(18, 52, 34, 0.92), rgba(15, 24, 40, 0.96));
+  background: linear-gradient(180deg, var(--success-panel-top), var(--success-panel-bottom));
 }
 
 .stat-card.accent-red {
   border-color: var(--danger-soft-strong);
-  background: linear-gradient(180deg, rgba(63, 21, 27, 0.92), rgba(15, 24, 40, 0.96));
+  background: linear-gradient(180deg, var(--danger-panel-top), var(--danger-panel-bottom));
 }
 
 .tabs {
@@ -500,7 +626,7 @@
 }
 
 tbody tr:hover {
-  background: rgba(255, 255, 255, 0.025);
+  background: var(--table-row-hover);
 }
 
 table {
@@ -606,22 +732,22 @@ a:hover {
 
 .event-filter-button.filter-follower_lost.active {
   border-color: var(--danger);
-  background: rgba(99, 27, 35, 0.8);
+  background: var(--filter-lost-active-bg);
 }
 
 .event-filter-button.filter-follower_gained.active {
   border-color: var(--success);
-  background: rgba(18, 73, 43, 0.8);
+  background: var(--filter-gained-active-bg);
 }
 
 .event-filter-button.filter-you_followed.active {
   border-color: var(--accent);
-  background: rgba(21, 65, 110, 0.82);
+  background: var(--filter-followed-active-bg);
 }
 
 .event-filter-button.filter-you_unfollowed.active {
   border-color: var(--violet);
-  background: rgba(71, 38, 122, 0.8);
+  background: var(--filter-unfollowed-active-bg);
 }
 
 .event-list {
@@ -812,8 +938,8 @@ time {
 .risk-disclaimer {
   margin-top: 1.1rem;
   border: 1px solid var(--danger-soft-strong);
-  background: rgba(72, 18, 24, 0.52);
-  color: #ffd6d6;
+  background: var(--danger-disclaimer-bg);
+  color: var(--danger-disclaimer-text);
   border-radius: 10px;
   padding: 0.62rem 0.75rem;
 }
