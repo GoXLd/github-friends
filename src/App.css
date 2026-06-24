@@ -214,14 +214,29 @@
   gap: 0.35rem;
   border: 1px solid var(--border-default);
   border-radius: 6px;
-  padding: 0.05rem 0.45rem;
+  min-height: 2rem;
+  padding: 0.14rem 0.5rem;
   font-size: 0.83rem;
+  line-height: 1;
   background: var(--bg-surface-muted);
   color: var(--text-secondary);
   transition: border-color 120ms ease, background 120ms ease, color 120ms ease;
 }
 
-.repo-stat-button span {
+.repo-link .label-with-icon,
+.repo-stat-button .label-with-icon {
+  align-items: center;
+  line-height: 1;
+}
+
+.repo-link .ui-icon,
+.repo-stat-button .ui-icon {
+  width: 0.88rem;
+  height: 0.88rem;
+  display: block;
+}
+
+.repo-stat-button > span:last-child {
   display: inline-block;
   min-width: 1.8rem;
   text-align: right;
