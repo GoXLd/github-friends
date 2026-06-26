@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:ohmygodduh:2026-06-26T13:03:58.910Z",
+    "type": "follower_gained",
+    "login": "ohmygodduh",
+    "htmlUrl": "https://github.com/ohmygodduh",
+    "happenedAt": "2026-06-26T13:03:58.910Z"
+  },
+  {
+    "id": "follower_lost:blessingkanengoni7:2026-06-26T13:03:58.910Z",
+    "type": "follower_lost",
+    "login": "BlessingKanengoni7",
+    "htmlUrl": "https://github.com/BlessingKanengoni7",
+    "happenedAt": "2026-06-26T13:03:58.910Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:cryfatal:2026-06-26T07:36:50.210Z",
     "type": "follower_gained",
     "login": "cryfatal",
@@ -26804,53 +26820,5 @@
     "happenedAt": "2026-03-28T18:31:29.638Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:pawerrx:2026-03-28T12:31:04.817Z",
-    "type": "follower_gained",
-    "login": "pawerrx",
-    "htmlUrl": "https://github.com/pawerrx",
-    "happenedAt": "2026-03-28T12:31:04.817Z"
-  },
-  {
-    "id": "follower_gained:spacebeetles:2026-03-28T12:31:04.817Z",
-    "type": "follower_gained",
-    "login": "spacebeetles",
-    "htmlUrl": "https://github.com/spacebeetles",
-    "happenedAt": "2026-03-28T12:31:04.817Z"
-  },
-  {
-    "id": "follower_lost:chwso0u:2026-03-28T12:31:04.817Z",
-    "type": "follower_lost",
-    "login": "chwso0u",
-    "htmlUrl": "https://github.com/chwso0u",
-    "happenedAt": "2026-03-28T12:31:04.817Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:ttisha:2026-03-28T12:31:04.817Z",
-    "type": "follower_lost",
-    "login": "ttisha",
-    "htmlUrl": "https://github.com/ttisha",
-    "happenedAt": "2026-03-28T12:31:04.817Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:spacebeetles:2026-03-28T12:31:04.817Z",
-    "type": "you_followed",
-    "login": "spacebeetles",
-    "htmlUrl": "https://github.com/spacebeetles",
-    "happenedAt": "2026-03-28T12:31:04.817Z"
-  },
-  {
-    "id": "you_unfollowed:ttisha:2026-03-28T12:31:04.817Z",
-    "type": "you_unfollowed",
-    "login": "ttisha",
-    "htmlUrl": "https://github.com/ttisha",
-    "happenedAt": "2026-03-28T12:31:04.817Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
