@@ -1,5 +1,62 @@
 [
   {
+    "id": "follower_gained:cryfatal:2026-06-26T07:36:50.210Z",
+    "type": "follower_gained",
+    "login": "cryfatal",
+    "htmlUrl": "https://github.com/cryfatal",
+    "happenedAt": "2026-06-26T07:36:50.210Z"
+  },
+  {
+    "id": "follower_lost:deerbonez:2026-06-26T07:36:50.210Z",
+    "type": "follower_lost",
+    "login": "deerbonez",
+    "htmlUrl": "https://github.com/deerbonez",
+    "happenedAt": "2026-06-26T07:36:50.210Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:gaplopez1991:2026-06-26T07:36:50.210Z",
+    "type": "follower_lost",
+    "login": "gaplopez1991",
+    "htmlUrl": "https://github.com/gaplopez1991",
+    "happenedAt": "2026-06-26T07:36:50.210Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:cryfatal:2026-06-26T07:36:50.210Z",
+    "type": "you_followed",
+    "login": "cryfatal",
+    "htmlUrl": "https://github.com/cryfatal",
+    "happenedAt": "2026-06-26T07:36:50.210Z"
+  },
+  {
+    "id": "you_followed:onyx766:2026-06-26T07:36:50.210Z",
+    "type": "you_followed",
+    "login": "onyx766",
+    "htmlUrl": "https://github.com/onyx766",
+    "happenedAt": "2026-06-26T07:36:50.210Z"
+  },
+  {
+    "id": "you_unfollowed:deerbonez:2026-06-26T07:36:50.210Z",
+    "type": "you_unfollowed",
+    "login": "deerbonez",
+    "htmlUrl": "https://github.com/deerbonez",
+    "happenedAt": "2026-06-26T07:36:50.210Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:oynx001:2026-06-26T07:36:50.210Z",
+    "type": "you_unfollowed",
+    "login": "oynx001",
+    "htmlUrl": "https://github.com/oynx001",
+    "happenedAt": "2026-06-26T07:36:50.210Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:appleburst:2026-06-25T19:00:38.417Z",
     "type": "follower_gained",
     "login": "AppleBurst",
@@ -26795,12 +26852,5 @@
     "happenedAt": "2026-03-28T12:31:04.817Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:es4kai:2026-03-28T06:37:45.122Z",
-    "type": "follower_gained",
-    "login": "es4kai",
-    "htmlUrl": "https://github.com/es4kai",
-    "happenedAt": "2026-03-28T06:37:45.122Z"
   }
 ]
