@@ -1,5 +1,32 @@
 [
   {
+    "id": "follower_lost:fieldofstrawberries:2026-06-26T18:57:08.875Z",
+    "type": "follower_lost",
+    "login": "FieldofStrawberries",
+    "htmlUrl": "https://github.com/FieldofStrawberries",
+    "happenedAt": "2026-06-26T18:57:08.875Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:magicdevstar:2026-06-26T18:57:08.875Z",
+    "type": "follower_lost",
+    "login": "magicdevstar",
+    "htmlUrl": "https://github.com/magicdevstar",
+    "happenedAt": "2026-06-26T18:57:08.875Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:fieldofstrawberries:2026-06-26T18:57:08.875Z",
+    "type": "you_unfollowed",
+    "login": "FieldofStrawberries",
+    "htmlUrl": "https://github.com/FieldofStrawberries",
+    "happenedAt": "2026-06-26T18:57:08.875Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:ohmygodduh:2026-06-26T13:03:58.910Z",
     "type": "follower_gained",
     "login": "ohmygodduh",
@@ -26790,35 +26817,5 @@
     "happenedAt": "2026-03-29T06:42:54.157Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:bassiebioomington:2026-03-28T18:31:29.638Z",
-    "type": "follower_gained",
-    "login": "BassieBIoomington",
-    "htmlUrl": "https://github.com/BassieBIoomington",
-    "happenedAt": "2026-03-28T18:31:29.638Z"
-  },
-  {
-    "id": "follower_gained:danielfounder:2026-03-28T18:31:29.638Z",
-    "type": "follower_gained",
-    "login": "danielfounder",
-    "htmlUrl": "https://github.com/danielfounder",
-    "happenedAt": "2026-03-28T18:31:29.638Z"
-  },
-  {
-    "id": "follower_gained:eomseann:2026-03-28T18:31:29.638Z",
-    "type": "follower_gained",
-    "login": "eomseann",
-    "htmlUrl": "https://github.com/eomseann",
-    "happenedAt": "2026-03-28T18:31:29.638Z"
-  },
-  {
-    "id": "follower_lost:dragonoflotus:2026-03-28T18:31:29.638Z",
-    "type": "follower_lost",
-    "login": "DragonOfLotus",
-    "htmlUrl": "https://github.com/DragonOfLotus",
-    "happenedAt": "2026-03-28T18:31:29.638Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
