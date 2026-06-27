@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:shivamdatainsight:2026-06-27T07:24:45.942Z",
+    "type": "follower_gained",
+    "login": "ShivamDatainSight",
+    "htmlUrl": "https://github.com/ShivamDatainSight",
+    "happenedAt": "2026-06-27T07:24:45.942Z"
+  },
+  {
+    "id": "follower_lost:shrp69:2026-06-27T07:24:45.942Z",
+    "type": "follower_lost",
+    "login": "ShRP69",
+    "htmlUrl": "https://github.com/ShRP69",
+    "happenedAt": "2026-06-27T07:24:45.942Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:abolfazl-shadrouh:2026-06-27T01:17:50.920Z",
     "type": "you_followed",
     "login": "abolfazl-shadrouh",
@@ -27070,32 +27086,5 @@
     "happenedAt": "2026-03-29T12:31:04.605Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_lost:mukhtarabdulrazaq:2026-03-29T06:42:54.157Z",
-    "type": "follower_lost",
-    "login": "mukhtarabdulrazaq",
-    "htmlUrl": "https://github.com/mukhtarabdulrazaq",
-    "happenedAt": "2026-03-29T06:42:54.157Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_lost:semaybulut:2026-03-29T06:42:54.157Z",
-    "type": "follower_lost",
-    "login": "semaybulut",
-    "htmlUrl": "https://github.com/semaybulut",
-    "happenedAt": "2026-03-29T06:42:54.157Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:mukhtarabdulrazaq:2026-03-29T06:42:54.157Z",
-    "type": "you_unfollowed",
-    "login": "mukhtarabdulrazaq",
-    "htmlUrl": "https://github.com/mukhtarabdulrazaq",
-    "happenedAt": "2026-03-29T06:42:54.157Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
