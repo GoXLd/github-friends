@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:merribourne:2026-06-27T18:43:56.251Z",
+    "type": "follower_gained",
+    "login": "Merribourne",
+    "htmlUrl": "https://github.com/Merribourne",
+    "happenedAt": "2026-06-27T18:43:56.251Z"
+  },
+  {
+    "id": "follower_gained:raviwijerathna1:2026-06-27T18:43:56.251Z",
+    "type": "follower_gained",
+    "login": "raviwijerathna1",
+    "htmlUrl": "https://github.com/raviwijerathna1",
+    "happenedAt": "2026-06-27T18:43:56.251Z"
+  },
+  {
+    "id": "follower_lost:majorscythe:2026-06-27T18:43:56.251Z",
+    "type": "follower_lost",
+    "login": "Majorscythe",
+    "htmlUrl": "https://github.com/Majorscythe",
+    "happenedAt": "2026-06-27T18:43:56.251Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:c1felode:2026-06-27T12:47:19.826Z",
     "type": "follower_gained",
     "login": "c1felode",
@@ -27054,28 +27077,5 @@
     "happenedAt": "2026-03-30T01:00:35.754Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:cypher-ke:2026-03-29T18:31:32.654Z",
-    "type": "follower_gained",
-    "login": "Cypher-KE",
-    "htmlUrl": "https://github.com/Cypher-KE",
-    "happenedAt": "2026-03-29T18:31:32.654Z"
-  },
-  {
-    "id": "you_followed:breadtvguy:2026-03-29T18:31:32.654Z",
-    "type": "you_followed",
-    "login": "breadtvguy",
-    "htmlUrl": "https://github.com/breadtvguy",
-    "happenedAt": "2026-03-29T18:31:32.654Z"
-  },
-  {
-    "id": "you_unfollowed:yamyamelyssoha:2026-03-29T18:31:32.654Z",
-    "type": "you_unfollowed",
-    "login": "yamyamelyssoha",
-    "htmlUrl": "https://github.com/yamyamelyssoha",
-    "happenedAt": "2026-03-29T18:31:32.654Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
