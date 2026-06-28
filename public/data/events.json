@@ -1,5 +1,85 @@
 [
   {
+    "id": "follower_gained:bencyriac01:2026-06-28T18:43:56.064Z",
+    "type": "follower_gained",
+    "login": "bencyriac01",
+    "htmlUrl": "https://github.com/bencyriac01",
+    "happenedAt": "2026-06-28T18:43:56.064Z"
+  },
+  {
+    "id": "follower_gained:pridefultraps:2026-06-28T18:43:56.064Z",
+    "type": "follower_gained",
+    "login": "PridefulTraps",
+    "htmlUrl": "https://github.com/PridefulTraps",
+    "happenedAt": "2026-06-28T18:43:56.064Z"
+  },
+  {
+    "id": "follower_gained:treemarker:2026-06-28T18:43:56.064Z",
+    "type": "follower_gained",
+    "login": "TREEMARKER",
+    "htmlUrl": "https://github.com/TREEMARKER",
+    "happenedAt": "2026-06-28T18:43:56.064Z"
+  },
+  {
+    "id": "follower_lost:hidari69:2026-06-28T18:43:56.064Z",
+    "type": "follower_lost",
+    "login": "hidari69",
+    "htmlUrl": "https://github.com/hidari69",
+    "happenedAt": "2026-06-28T18:43:56.064Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:kaomojl:2026-06-28T18:43:56.064Z",
+    "type": "follower_lost",
+    "login": "KAOMOJl",
+    "htmlUrl": "https://github.com/KAOMOJl",
+    "happenedAt": "2026-06-28T18:43:56.064Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:voidestiny:2026-06-28T18:43:56.064Z",
+    "type": "follower_lost",
+    "login": "voidestiny",
+    "htmlUrl": "https://github.com/voidestiny",
+    "happenedAt": "2026-06-28T18:43:56.064Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:pridefultraps:2026-06-28T18:43:56.064Z",
+    "type": "you_followed",
+    "login": "PridefulTraps",
+    "htmlUrl": "https://github.com/PridefulTraps",
+    "happenedAt": "2026-06-28T18:43:56.064Z"
+  },
+  {
+    "id": "you_followed:treemarker:2026-06-28T18:43:56.064Z",
+    "type": "you_followed",
+    "login": "TREEMARKER",
+    "htmlUrl": "https://github.com/TREEMARKER",
+    "happenedAt": "2026-06-28T18:43:56.064Z"
+  },
+  {
+    "id": "you_unfollowed:kaomojl:2026-06-28T18:43:56.064Z",
+    "type": "you_unfollowed",
+    "login": "KAOMOJl",
+    "htmlUrl": "https://github.com/KAOMOJl",
+    "happenedAt": "2026-06-28T18:43:56.064Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:voidestiny:2026-06-28T18:43:56.064Z",
+    "type": "you_unfollowed",
+    "login": "voidestiny",
+    "htmlUrl": "https://github.com/voidestiny",
+    "happenedAt": "2026-06-28T18:43:56.064Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:onyx766:2026-06-28T12:47:30.701Z",
     "type": "follower_gained",
     "login": "onyx766",
