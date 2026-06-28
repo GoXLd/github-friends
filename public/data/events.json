@@ -1,5 +1,46 @@
 [
   {
+    "id": "follower_gained:kaomojl:2026-06-28T01:24:22.914Z",
+    "type": "follower_gained",
+    "login": "KAOMOJl",
+    "htmlUrl": "https://github.com/KAOMOJl",
+    "happenedAt": "2026-06-28T01:24:22.914Z"
+  },
+  {
+    "id": "follower_lost:puppycornz:2026-06-28T01:24:22.914Z",
+    "type": "follower_lost",
+    "login": "PUPPYCORNZ",
+    "htmlUrl": "https://github.com/PUPPYCORNZ",
+    "happenedAt": "2026-06-28T01:24:22.914Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:kaomojl:2026-06-28T01:24:22.914Z",
+    "type": "you_followed",
+    "login": "KAOMOJl",
+    "htmlUrl": "https://github.com/KAOMOJl",
+    "happenedAt": "2026-06-28T01:24:22.914Z"
+  },
+  {
+    "id": "you_unfollowed:puppycornz:2026-06-28T01:24:22.914Z",
+    "type": "you_unfollowed",
+    "login": "PUPPYCORNZ",
+    "htmlUrl": "https://github.com/PUPPYCORNZ",
+    "happenedAt": "2026-06-28T01:24:22.914Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:ridoandev:2026-06-28T01:24:22.914Z",
+    "type": "you_unfollowed",
+    "login": "RidoanDev",
+    "htmlUrl": "https://github.com/RidoanDev",
+    "happenedAt": "2026-06-28T01:24:22.914Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:merribourne:2026-06-27T18:43:56.251Z",
     "type": "follower_gained",
     "login": "Merribourne",
@@ -27043,38 +27084,6 @@
     "login": "semeTill",
     "htmlUrl": "https://github.com/semeTill",
     "happenedAt": "2026-03-31T00:57:43.140Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_gained:kenjiwizard:2026-03-30T01:00:35.754Z",
-    "type": "follower_gained",
-    "login": "kenjiwizard",
-    "htmlUrl": "https://github.com/kenjiwizard",
-    "happenedAt": "2026-03-30T01:00:35.754Z"
-  },
-  {
-    "id": "follower_lost:adeptailabs:2026-03-30T01:00:35.754Z",
-    "type": "follower_lost",
-    "login": "AdeptAILabs",
-    "htmlUrl": "https://github.com/AdeptAILabs",
-    "happenedAt": "2026-03-30T01:00:35.754Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:kenjiwizard:2026-03-30T01:00:35.754Z",
-    "type": "you_followed",
-    "login": "kenjiwizard",
-    "htmlUrl": "https://github.com/kenjiwizard",
-    "happenedAt": "2026-03-30T01:00:35.754Z"
-  },
-  {
-    "id": "you_unfollowed:adeptailabs:2026-03-30T01:00:35.754Z",
-    "type": "you_unfollowed",
-    "login": "AdeptAILabs",
-    "htmlUrl": "https://github.com/AdeptAILabs",
-    "happenedAt": "2026-03-30T01:00:35.754Z",
     "accountStatus": "deleted",
     "isDeleted": true
   }
