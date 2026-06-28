@@ -1,5 +1,60 @@
 [
   {
+    "id": "follower_gained:onyx766:2026-06-28T12:47:30.701Z",
+    "type": "follower_gained",
+    "login": "onyx766",
+    "htmlUrl": "https://github.com/onyx766",
+    "happenedAt": "2026-06-28T12:47:30.701Z"
+  },
+  {
+    "id": "follower_gained:realdragonspike:2026-06-28T12:47:30.701Z",
+    "type": "follower_gained",
+    "login": "RealDragonSpike",
+    "htmlUrl": "https://github.com/RealDragonSpike",
+    "happenedAt": "2026-06-28T12:47:30.701Z"
+  },
+  {
+    "id": "follower_gained:voidestiny:2026-06-28T12:47:30.701Z",
+    "type": "follower_gained",
+    "login": "voidestiny",
+    "htmlUrl": "https://github.com/voidestiny",
+    "happenedAt": "2026-06-28T12:47:30.701Z"
+  },
+  {
+    "id": "follower_lost:director-fies:2026-06-28T12:47:30.701Z",
+    "type": "follower_lost",
+    "login": "director-fies",
+    "htmlUrl": "https://github.com/director-fies",
+    "happenedAt": "2026-06-28T12:47:30.701Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:thatroyaladvisor:2026-06-28T12:47:30.701Z",
+    "type": "follower_lost",
+    "login": "ThatRoyalAdvisor",
+    "htmlUrl": "https://github.com/ThatRoyalAdvisor",
+    "happenedAt": "2026-06-28T12:47:30.701Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:voidestiny:2026-06-28T12:47:30.701Z",
+    "type": "you_followed",
+    "login": "voidestiny",
+    "htmlUrl": "https://github.com/voidestiny",
+    "happenedAt": "2026-06-28T12:47:30.701Z"
+  },
+  {
+    "id": "you_unfollowed:director-fies:2026-06-28T12:47:30.701Z",
+    "type": "you_unfollowed",
+    "login": "director-fies",
+    "htmlUrl": "https://github.com/director-fies",
+    "happenedAt": "2026-06-28T12:47:30.701Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:kaomojl:2026-06-28T01:24:22.914Z",
     "type": "follower_gained",
     "login": "KAOMOJl",
