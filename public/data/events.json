@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:puppyauggie:2026-06-29T08:08:38.720Z",
+    "type": "you_followed",
+    "login": "puppyauggie",
+    "htmlUrl": "https://github.com/puppyauggie",
+    "happenedAt": "2026-06-29T08:08:38.720Z"
+  },
+  {
+    "id": "you_unfollowed:kittysuki:2026-06-29T08:08:38.720Z",
+    "type": "you_unfollowed",
+    "login": "kittysuki",
+    "htmlUrl": "https://github.com/kittysuki",
+    "happenedAt": "2026-06-29T08:08:38.720Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:fazilmmmdzad:2026-06-29T01:25:13.369Z",
     "type": "follower_lost",
     "login": "fazilmmmdzad",
