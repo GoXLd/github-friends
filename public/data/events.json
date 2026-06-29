@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:chrono-stasis:2026-06-29T18:59:58.583Z",
+    "type": "follower_gained",
+    "login": "Chrono-stasis",
+    "htmlUrl": "https://github.com/Chrono-stasis",
+    "happenedAt": "2026-06-29T18:59:58.583Z"
+  },
+  {
+    "id": "follower_lost:merribourne:2026-06-29T18:59:58.583Z",
+    "type": "follower_lost",
+    "login": "Merribourne",
+    "htmlUrl": "https://github.com/Merribourne",
+    "happenedAt": "2026-06-29T18:59:58.583Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:e8slover:2026-06-29T13:47:36.583Z",
     "type": "follower_gained",
     "login": "e8slover",
@@ -27260,21 +27276,5 @@
     "login": "tomas0502",
     "htmlUrl": "https://github.com/tomas0502",
     "happenedAt": "2026-04-01T06:53:35.850Z"
-  },
-  {
-    "id": "follower_gained:mminajael:2026-03-31T18:37:26.716Z",
-    "type": "follower_gained",
-    "login": "mminajael",
-    "htmlUrl": "https://github.com/mminajael",
-    "happenedAt": "2026-03-31T18:37:26.716Z"
-  },
-  {
-    "id": "follower_lost:hourofrot:2026-03-31T18:37:26.716Z",
-    "type": "follower_lost",
-    "login": "hourofrot",
-    "htmlUrl": "https://github.com/hourofrot",
-    "happenedAt": "2026-03-31T18:37:26.716Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
