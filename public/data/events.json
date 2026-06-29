@@ -1,5 +1,67 @@
 [
   {
+    "id": "follower_gained:e8slover:2026-06-29T13:47:36.583Z",
+    "type": "follower_gained",
+    "login": "e8slover",
+    "htmlUrl": "https://github.com/e8slover",
+    "happenedAt": "2026-06-29T13:47:36.583Z"
+  },
+  {
+    "id": "follower_gained:foadteymoori:2026-06-29T13:47:36.583Z",
+    "type": "follower_gained",
+    "login": "FoadTeymoori",
+    "htmlUrl": "https://github.com/FoadTeymoori",
+    "happenedAt": "2026-06-29T13:47:36.583Z"
+  },
+  {
+    "id": "follower_gained:huacheng-zu:2026-06-29T13:47:36.583Z",
+    "type": "follower_gained",
+    "login": "HuaCheng-zu",
+    "htmlUrl": "https://github.com/HuaCheng-zu",
+    "happenedAt": "2026-06-29T13:47:36.583Z"
+  },
+  {
+    "id": "follower_gained:kingfrostii:2026-06-29T13:47:36.583Z",
+    "type": "follower_gained",
+    "login": "KingFrostii",
+    "htmlUrl": "https://github.com/KingFrostii",
+    "happenedAt": "2026-06-29T13:47:36.583Z"
+  },
+  {
+    "id": "follower_gained:nadiraliofficial:2026-06-29T13:47:36.583Z",
+    "type": "follower_gained",
+    "login": "NadirAliOfficial",
+    "htmlUrl": "https://github.com/NadirAliOfficial",
+    "happenedAt": "2026-06-29T13:47:36.583Z"
+  },
+  {
+    "id": "follower_lost:fangysdream:2026-06-29T13:47:36.583Z",
+    "type": "follower_lost",
+    "login": "FangysDream",
+    "htmlUrl": "https://github.com/FangysDream",
+    "happenedAt": "2026-06-29T13:47:36.583Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:laylaamb:2026-06-29T13:47:36.583Z",
+    "type": "follower_lost",
+    "login": "laylaamb",
+    "htmlUrl": "https://github.com/laylaamb",
+    "happenedAt": "2026-06-29T13:47:36.583Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:realdragonspike:2026-06-29T13:47:36.583Z",
+    "type": "follower_lost",
+    "login": "RealDragonSpike",
+    "htmlUrl": "https://github.com/RealDragonSpike",
+    "happenedAt": "2026-06-29T13:47:36.583Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:puppyauggie:2026-06-29T08:08:38.720Z",
     "type": "you_followed",
     "login": "puppyauggie",
@@ -27212,15 +27274,6 @@
     "login": "hourofrot",
     "htmlUrl": "https://github.com/hourofrot",
     "happenedAt": "2026-03-31T18:37:26.716Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:jfullstackdev:2026-03-31T12:38:32.352Z",
-    "type": "follower_lost",
-    "login": "jfullstackdev",
-    "htmlUrl": "https://github.com/jfullstackdev",
-    "happenedAt": "2026-03-31T12:38:32.352Z",
     "accountStatus": null,
     "isDeleted": false
   }
