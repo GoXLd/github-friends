@@ -1,5 +1,23 @@
 [
   {
+    "id": "follower_lost:fazilmmmdzad:2026-06-29T01:25:13.369Z",
+    "type": "follower_lost",
+    "login": "fazilmmmdzad",
+    "htmlUrl": "https://github.com/fazilmmmdzad",
+    "happenedAt": "2026-06-29T01:25:13.369Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:mirainiki:2026-06-29T01:25:13.369Z",
+    "type": "follower_lost",
+    "login": "mirainiki",
+    "htmlUrl": "https://github.com/mirainiki",
+    "happenedAt": "2026-06-29T01:25:13.369Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:bencyriac01:2026-06-28T18:43:56.064Z",
     "type": "follower_gained",
     "login": "bencyriac01",
@@ -27189,37 +27207,5 @@
     "happenedAt": "2026-03-31T12:38:32.352Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:wetweakintillthemornin:2026-03-31T00:57:43.140Z",
-    "type": "follower_gained",
-    "login": "wetweakintillthemornin",
-    "htmlUrl": "https://github.com/wetweakintillthemornin",
-    "happenedAt": "2026-03-31T00:57:43.140Z"
-  },
-  {
-    "id": "follower_lost:semetill:2026-03-31T00:57:43.140Z",
-    "type": "follower_lost",
-    "login": "semeTill",
-    "htmlUrl": "https://github.com/semeTill",
-    "happenedAt": "2026-03-31T00:57:43.140Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:wetweakintillthemornin:2026-03-31T00:57:43.140Z",
-    "type": "you_followed",
-    "login": "wetweakintillthemornin",
-    "htmlUrl": "https://github.com/wetweakintillthemornin",
-    "happenedAt": "2026-03-31T00:57:43.140Z"
-  },
-  {
-    "id": "you_unfollowed:semetill:2026-03-31T00:57:43.140Z",
-    "type": "you_unfollowed",
-    "login": "semeTill",
-    "htmlUrl": "https://github.com/semeTill",
-    "happenedAt": "2026-03-31T00:57:43.140Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
