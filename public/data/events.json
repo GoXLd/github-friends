@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:mahimarawat0707:2026-06-30T18:58:07.632Z",
+    "type": "follower_gained",
+    "login": "mahimarawat0707",
+    "htmlUrl": "https://github.com/mahimarawat0707",
+    "happenedAt": "2026-06-30T18:58:07.632Z"
+  },
+  {
     "id": "follower_gained:arkobyne:2026-06-30T13:01:02.106Z",
     "type": "follower_gained",
     "login": "arkobyne",
@@ -27601,54 +27608,6 @@
     "login": "butcherqueen",
     "htmlUrl": "https://github.com/butcherqueen",
     "happenedAt": "2026-04-02T00:55:05.805Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:darkangel689:2026-04-01T18:37:31.275Z",
-    "type": "follower_gained",
-    "login": "DARKANGEL689",
-    "htmlUrl": "https://github.com/DARKANGEL689",
-    "happenedAt": "2026-04-01T18:37:31.275Z"
-  },
-  {
-    "id": "follower_gained:solid-met4l:2026-04-01T18:37:31.275Z",
-    "type": "follower_gained",
-    "login": "SOLID-MET4L",
-    "htmlUrl": "https://github.com/SOLID-MET4L",
-    "happenedAt": "2026-04-01T18:37:31.275Z"
-  },
-  {
-    "id": "follower_gained:yuel4n:2026-04-01T18:37:31.275Z",
-    "type": "follower_gained",
-    "login": "YUEL4N",
-    "htmlUrl": "https://github.com/YUEL4N",
-    "happenedAt": "2026-04-01T18:37:31.275Z"
-  },
-  {
-    "id": "follower_lost:cyan0-3:2026-04-01T18:37:31.275Z",
-    "type": "follower_lost",
-    "login": "cyan0-3",
-    "htmlUrl": "https://github.com/cyan0-3",
-    "happenedAt": "2026-04-01T18:37:31.275Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:raja-qasim:2026-04-01T18:37:31.275Z",
-    "type": "follower_lost",
-    "login": "raja-qasim",
-    "htmlUrl": "https://github.com/raja-qasim",
-    "happenedAt": "2026-04-01T18:37:31.275Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:rose-field:2026-04-01T18:37:31.275Z",
-    "type": "follower_lost",
-    "login": "Rose-Field",
-    "htmlUrl": "https://github.com/Rose-Field",
-    "happenedAt": "2026-04-01T18:37:31.275Z",
     "accountStatus": null,
     "isDeleted": false
   }
