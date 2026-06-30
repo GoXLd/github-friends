@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:teamnak:2026-06-30T07:37:09.978Z",
+    "type": "follower_lost",
+    "login": "teamnak",
+    "htmlUrl": "https://github.com/teamnak",
+    "happenedAt": "2026-06-30T07:37:09.978Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:teamnak:2026-06-30T01:19:33.285Z",
     "type": "follower_gained",
     "login": "teamnak",
@@ -27493,12 +27502,5 @@
     "happenedAt": "2026-04-01T18:37:31.275Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:tomas0502:2026-04-01T06:53:35.850Z",
-    "type": "follower_gained",
-    "login": "tomas0502",
-    "htmlUrl": "https://github.com/tomas0502",
-    "happenedAt": "2026-04-01T06:53:35.850Z"
   }
 ]
