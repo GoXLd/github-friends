@@ -1,5 +1,26 @@
 [
   {
+    "id": "you_followed:gitesh:2026-07-01T13:15:06.755Z",
+    "type": "you_followed",
+    "login": "Gitesh",
+    "htmlUrl": "https://github.com/Gitesh",
+    "happenedAt": "2026-07-01T13:15:06.755Z"
+  },
+  {
+    "id": "you_followed:mustafagenc:2026-07-01T13:15:06.755Z",
+    "type": "you_followed",
+    "login": "mustafagenc",
+    "htmlUrl": "https://github.com/mustafagenc",
+    "happenedAt": "2026-07-01T13:15:06.755Z"
+  },
+  {
+    "id": "you_followed:sikozonpc:2026-07-01T13:15:06.755Z",
+    "type": "you_followed",
+    "login": "sikozonpc",
+    "htmlUrl": "https://github.com/sikozonpc",
+    "happenedAt": "2026-07-01T13:15:06.755Z"
+  },
+  {
     "id": "follower_lost:mahimarawat0707:2026-07-01T07:49:57.914Z",
     "type": "follower_lost",
     "login": "mahimarawat0707",
@@ -27603,22 +27624,6 @@
     "login": "plantclone",
     "htmlUrl": "https://github.com/plantclone",
     "happenedAt": "2026-04-02T18:36:13.102Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:katzeruu70:2026-04-02T12:37:29.739Z",
-    "type": "follower_gained",
-    "login": "katzeruu70",
-    "htmlUrl": "https://github.com/katzeruu70",
-    "happenedAt": "2026-04-02T12:37:29.739Z"
-  },
-  {
-    "id": "follower_lost:tomas0502:2026-04-02T12:37:29.739Z",
-    "type": "follower_lost",
-    "login": "tomas0502",
-    "htmlUrl": "https://github.com/tomas0502",
-    "happenedAt": "2026-04-02T12:37:29.739Z",
     "accountStatus": null,
     "isDeleted": false
   }
