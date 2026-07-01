@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:bogdan602:2026-07-01T18:58:42.030Z",
+    "type": "follower_gained",
+    "login": "bogdan602",
+    "htmlUrl": "https://github.com/bogdan602",
+    "happenedAt": "2026-07-01T18:58:42.030Z"
+  },
+  {
+    "id": "follower_gained:kohit-z:2026-07-01T18:58:42.030Z",
+    "type": "follower_gained",
+    "login": "kohit-z",
+    "htmlUrl": "https://github.com/kohit-z",
+    "happenedAt": "2026-07-01T18:58:42.030Z"
+  },
+  {
+    "id": "follower_lost:samaysingh1:2026-07-01T18:58:42.030Z",
+    "type": "follower_lost",
+    "login": "samaysingh1",
+    "htmlUrl": "https://github.com/samaysingh1",
+    "happenedAt": "2026-07-01T18:58:42.030Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:zha0090:2026-07-01T18:58:42.030Z",
+    "type": "follower_lost",
+    "login": "zha0090",
+    "htmlUrl": "https://github.com/zha0090",
+    "happenedAt": "2026-07-01T18:58:42.030Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:gitesh:2026-07-01T13:15:06.755Z",
     "type": "you_followed",
     "login": "Gitesh",
@@ -27601,29 +27633,6 @@
     "login": "AngelicGlow-Till",
     "htmlUrl": "https://github.com/AngelicGlow-Till",
     "happenedAt": "2026-04-03T00:57:42.812Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:bloodbxnny:2026-04-02T18:36:13.102Z",
-    "type": "follower_gained",
-    "login": "bloodbxnny",
-    "htmlUrl": "https://github.com/bloodbxnny",
-    "happenedAt": "2026-04-02T18:36:13.102Z"
-  },
-  {
-    "id": "you_followed:31marcy:2026-04-02T18:36:13.102Z",
-    "type": "you_followed",
-    "login": "31marcy",
-    "htmlUrl": "https://github.com/31marcy",
-    "happenedAt": "2026-04-02T18:36:13.102Z"
-  },
-  {
-    "id": "you_unfollowed:plantclone:2026-04-02T18:36:13.102Z",
-    "type": "you_unfollowed",
-    "login": "plantclone",
-    "htmlUrl": "https://github.com/plantclone",
-    "happenedAt": "2026-04-02T18:36:13.102Z",
     "accountStatus": null,
     "isDeleted": false
   }
