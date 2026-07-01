@@ -1,5 +1,39 @@
 [
   {
+    "id": "follower_gained:shamkuei:2026-07-01T01:25:28.234Z",
+    "type": "follower_gained",
+    "login": "shamkuei",
+    "htmlUrl": "https://github.com/shamkuei",
+    "happenedAt": "2026-07-01T01:25:28.234Z"
+  },
+  {
+    "id": "you_unfollowed:chanceduet:2026-07-01T01:25:28.234Z",
+    "type": "you_unfollowed",
+    "login": "chanceduet",
+    "htmlUrl": "https://github.com/chanceduet",
+    "happenedAt": "2026-07-01T01:25:28.234Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:mistydev20220:2026-07-01T01:25:28.234Z",
+    "type": "you_unfollowed",
+    "login": "mistydev20220",
+    "htmlUrl": "https://github.com/mistydev20220",
+    "happenedAt": "2026-07-01T01:25:28.234Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:pbc3998:2026-07-01T01:25:28.234Z",
+    "type": "you_unfollowed",
+    "login": "pbc3998",
+    "htmlUrl": "https://github.com/pbc3998",
+    "happenedAt": "2026-07-01T01:25:28.234Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:mahimarawat0707:2026-06-30T18:58:07.632Z",
     "type": "follower_gained",
     "login": "mahimarawat0707",
@@ -27592,22 +27626,6 @@
     "login": "YUEL4N",
     "htmlUrl": "https://github.com/YUEL4N",
     "happenedAt": "2026-04-02T06:45:38.729Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:lottieshauna:2026-04-02T00:55:05.805Z",
-    "type": "follower_gained",
-    "login": "lottieshauna",
-    "htmlUrl": "https://github.com/lottieshauna",
-    "happenedAt": "2026-04-02T00:55:05.805Z"
-  },
-  {
-    "id": "follower_lost:butcherqueen:2026-04-02T00:55:05.805Z",
-    "type": "follower_lost",
-    "login": "butcherqueen",
-    "htmlUrl": "https://github.com/butcherqueen",
-    "happenedAt": "2026-04-02T00:55:05.805Z",
     "accountStatus": null,
     "isDeleted": false
   }
