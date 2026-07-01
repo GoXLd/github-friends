@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:mahimarawat0707:2026-07-01T07:49:57.914Z",
+    "type": "follower_lost",
+    "login": "mahimarawat0707",
+    "htmlUrl": "https://github.com/mahimarawat0707",
+    "happenedAt": "2026-07-01T07:49:57.914Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:shamkuei:2026-07-01T01:25:28.234Z",
     "type": "follower_gained",
     "login": "shamkuei",
@@ -27610,22 +27619,6 @@
     "login": "tomas0502",
     "htmlUrl": "https://github.com/tomas0502",
     "happenedAt": "2026-04-02T12:37:29.739Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:shiyut0:2026-04-02T06:45:38.729Z",
-    "type": "follower_gained",
-    "login": "SHIYUT0",
-    "htmlUrl": "https://github.com/SHIYUT0",
-    "happenedAt": "2026-04-02T06:45:38.729Z"
-  },
-  {
-    "id": "follower_lost:yuel4n:2026-04-02T06:45:38.729Z",
-    "type": "follower_lost",
-    "login": "YUEL4N",
-    "htmlUrl": "https://github.com/YUEL4N",
-    "happenedAt": "2026-04-02T06:45:38.729Z",
     "accountStatus": null,
     "isDeleted": false
   }
