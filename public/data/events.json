@@ -1,5 +1,26 @@
 [
   {
+    "id": "follower_gained:vsrupeshkumar:2026-07-02T09:34:55.012Z",
+    "type": "follower_gained",
+    "login": "vsrupeshkumar",
+    "htmlUrl": "https://github.com/vsrupeshkumar",
+    "happenedAt": "2026-07-02T09:34:55.012Z"
+  },
+  {
+    "id": "follower_gained:zem00k:2026-07-02T09:34:55.012Z",
+    "type": "follower_gained",
+    "login": "ZEM00K",
+    "htmlUrl": "https://github.com/ZEM00K",
+    "happenedAt": "2026-07-02T09:34:55.012Z"
+  },
+  {
+    "id": "you_followed:vsrupeshkumar:2026-07-02T09:34:55.012Z",
+    "type": "you_followed",
+    "login": "vsrupeshkumar",
+    "htmlUrl": "https://github.com/vsrupeshkumar",
+    "happenedAt": "2026-07-02T09:34:55.012Z"
+  },
+  {
     "id": "follower_gained:bogdan602:2026-07-01T18:58:42.030Z",
     "type": "follower_gained",
     "login": "bogdan602",
@@ -27612,12 +27633,5 @@
     "login": "yutomiwana",
     "htmlUrl": "https://github.com/yutomiwana",
     "happenedAt": "2026-04-03T18:31:20.206Z"
-  },
-  {
-    "id": "follower_gained:31marcy:2026-04-03T06:44:29.901Z",
-    "type": "follower_gained",
-    "login": "31marcy",
-    "htmlUrl": "https://github.com/31marcy",
-    "happenedAt": "2026-04-03T06:44:29.901Z"
   }
 ]
