@@ -1,5 +1,26 @@
 [
   {
+    "id": "you_followed:a-i-c-lab:2026-07-02T19:54:28.178Z",
+    "type": "you_followed",
+    "login": "A-I-C-Lab",
+    "htmlUrl": "https://github.com/A-I-C-Lab",
+    "happenedAt": "2026-07-02T19:54:28.178Z"
+  },
+  {
+    "id": "you_followed:muhammad-zeeshan-chandia:2026-07-02T19:54:28.178Z",
+    "type": "you_followed",
+    "login": "Muhammad-Zeeshan-chandia",
+    "htmlUrl": "https://github.com/Muhammad-Zeeshan-chandia",
+    "happenedAt": "2026-07-02T19:54:28.178Z"
+  },
+  {
+    "id": "you_followed:sheikhaqibsaeed:2026-07-02T19:54:28.178Z",
+    "type": "you_followed",
+    "login": "SheikhAqibSaeed",
+    "htmlUrl": "https://github.com/SheikhAqibSaeed",
+    "happenedAt": "2026-07-02T19:54:28.178Z"
+  },
+  {
     "id": "follower_gained:samiul796:2026-07-02T14:30:30.596Z",
     "type": "follower_gained",
     "login": "samiul796",
@@ -27675,19 +27696,5 @@
     "happenedAt": "2026-04-04T00:53:50.259Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:yukamanawa:2026-04-03T18:31:20.206Z",
-    "type": "follower_gained",
-    "login": "yukamanawa",
-    "htmlUrl": "https://github.com/yukamanawa",
-    "happenedAt": "2026-04-03T18:31:20.206Z"
-  },
-  {
-    "id": "follower_gained:yutomiwana:2026-04-03T18:31:20.206Z",
-    "type": "follower_gained",
-    "login": "yutomiwana",
-    "htmlUrl": "https://github.com/yutomiwana",
-    "happenedAt": "2026-04-03T18:31:20.206Z"
   }
 ]
