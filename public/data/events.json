@@ -1,5 +1,92 @@
 [
   {
+    "id": "follower_gained:bytebunny777:2026-07-03T14:32:55.530Z",
+    "type": "follower_gained",
+    "login": "ByteBunny777",
+    "htmlUrl": "https://github.com/ByteBunny777",
+    "happenedAt": "2026-07-03T14:32:55.530Z"
+  },
+  {
+    "id": "follower_gained:serena-peschiaroli:2026-07-03T14:32:55.530Z",
+    "type": "follower_gained",
+    "login": "serena-peschiaroli",
+    "htmlUrl": "https://github.com/serena-peschiaroli",
+    "happenedAt": "2026-07-03T14:32:55.530Z"
+  },
+  {
+    "id": "follower_gained:sinnerofgrace:2026-07-03T14:32:55.530Z",
+    "type": "follower_gained",
+    "login": "sinnerofgrace",
+    "htmlUrl": "https://github.com/sinnerofgrace",
+    "happenedAt": "2026-07-03T14:32:55.530Z"
+  },
+  {
+    "id": "follower_gained:tutundzhian:2026-07-03T14:32:55.530Z",
+    "type": "follower_gained",
+    "login": "tutundzhian",
+    "htmlUrl": "https://github.com/tutundzhian",
+    "happenedAt": "2026-07-03T14:32:55.530Z"
+  },
+  {
+    "id": "follower_lost:ashiteshsingh:2026-07-03T14:32:55.530Z",
+    "type": "follower_lost",
+    "login": "AshiteshSingh",
+    "htmlUrl": "https://github.com/AshiteshSingh",
+    "happenedAt": "2026-07-03T14:32:55.530Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:doomdestineprophet:2026-07-03T14:32:55.530Z",
+    "type": "follower_lost",
+    "login": "DoomdestineProphet",
+    "htmlUrl": "https://github.com/DoomdestineProphet",
+    "happenedAt": "2026-07-03T14:32:55.530Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:zeniofia:2026-07-03T14:32:55.530Z",
+    "type": "follower_lost",
+    "login": "zeniofia",
+    "htmlUrl": "https://github.com/zeniofia",
+    "happenedAt": "2026-07-03T14:32:55.530Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:sinnerofgrace:2026-07-03T14:32:55.530Z",
+    "type": "you_followed",
+    "login": "sinnerofgrace",
+    "htmlUrl": "https://github.com/sinnerofgrace",
+    "happenedAt": "2026-07-03T14:32:55.530Z"
+  },
+  {
+    "id": "you_followed:tutundzhian:2026-07-03T14:32:55.530Z",
+    "type": "you_followed",
+    "login": "tutundzhian",
+    "htmlUrl": "https://github.com/tutundzhian",
+    "happenedAt": "2026-07-03T14:32:55.530Z"
+  },
+  {
+    "id": "you_unfollowed:doomdestineprophet:2026-07-03T14:32:55.530Z",
+    "type": "you_unfollowed",
+    "login": "DoomdestineProphet",
+    "htmlUrl": "https://github.com/DoomdestineProphet",
+    "happenedAt": "2026-07-03T14:32:55.530Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:zeniofia:2026-07-03T14:32:55.530Z",
+    "type": "you_unfollowed",
+    "login": "zeniofia",
+    "htmlUrl": "https://github.com/zeniofia",
+    "happenedAt": "2026-07-03T14:32:55.530Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:metageoai:2026-07-03T09:37:04.610Z",
     "type": "follower_gained",
     "login": "MetaGeoAI",
