@@ -1,5 +1,46 @@
 [
   {
+    "id": "follower_gained:angelofdarknessm:2026-07-03T04:11:16.688Z",
+    "type": "follower_gained",
+    "login": "AngelofDarknessm",
+    "htmlUrl": "https://github.com/AngelofDarknessm",
+    "happenedAt": "2026-07-03T04:11:16.688Z"
+  },
+  {
+    "id": "follower_lost:angelofdarkn:2026-07-03T04:11:16.688Z",
+    "type": "follower_lost",
+    "login": "AngelofDarkn",
+    "htmlUrl": "https://github.com/AngelofDarkn",
+    "happenedAt": "2026-07-03T04:11:16.688Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:antldote:2026-07-03T04:11:16.688Z",
+    "type": "follower_lost",
+    "login": "ANTlDOTE",
+    "htmlUrl": "https://github.com/ANTlDOTE",
+    "happenedAt": "2026-07-03T04:11:16.688Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:magnowz:2026-07-03T04:11:16.688Z",
+    "type": "you_followed",
+    "login": "Magnowz",
+    "htmlUrl": "https://github.com/Magnowz",
+    "happenedAt": "2026-07-03T04:11:16.688Z"
+  },
+  {
+    "id": "you_unfollowed:siannkit:2026-07-03T04:11:16.688Z",
+    "type": "you_unfollowed",
+    "login": "siannkit",
+    "htmlUrl": "https://github.com/siannkit",
+    "happenedAt": "2026-07-03T04:11:16.688Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:a-i-c-lab:2026-07-02T19:54:28.178Z",
     "type": "you_followed",
     "login": "A-I-C-Lab",
@@ -27678,23 +27719,5 @@
     "login": "daniasno1main",
     "htmlUrl": "https://github.com/daniasno1main",
     "happenedAt": "2026-04-05T01:01:08.194Z"
-  },
-  {
-    "id": "follower_lost:johnmarston62718:2026-04-04T00:53:50.259Z",
-    "type": "follower_lost",
-    "login": "JohnMarston62718",
-    "htmlUrl": "https://github.com/JohnMarston62718",
-    "happenedAt": "2026-04-04T00:53:50.259Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:johnmarston62718:2026-04-04T00:53:50.259Z",
-    "type": "you_unfollowed",
-    "login": "JohnMarston62718",
-    "htmlUrl": "https://github.com/JohnMarston62718",
-    "happenedAt": "2026-04-04T00:53:50.259Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
