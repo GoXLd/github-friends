@@ -1,5 +1,14 @@
 [
   {
+    "id": "you_unfollowed:philipdev5:2026-07-04T04:04:33.963Z",
+    "type": "you_unfollowed",
+    "login": "PhilipDev5",
+    "htmlUrl": "https://github.com/PhilipDev5",
+    "happenedAt": "2026-07-04T04:04:33.963Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ashiteshsingh:2026-07-03T19:52:01.036Z",
     "type": "follower_gained",
     "login": "AshiteshSingh",
@@ -27836,12 +27845,5 @@
     "happenedAt": "2026-04-05T12:31:06.945Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:daniasno1main:2026-04-05T01:01:08.194Z",
-    "type": "follower_gained",
-    "login": "daniasno1main",
-    "htmlUrl": "https://github.com/daniasno1main",
-    "happenedAt": "2026-04-05T01:01:08.194Z"
   }
 ]
