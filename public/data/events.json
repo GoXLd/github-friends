@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:itslie:2026-07-05T04:32:21.798Z",
+    "type": "follower_gained",
+    "login": "itslie",
+    "htmlUrl": "https://github.com/itslie",
+    "happenedAt": "2026-07-05T04:32:21.798Z"
+  },
+  {
+    "id": "follower_gained:junaidahmeddev:2026-07-05T04:32:21.798Z",
+    "type": "follower_gained",
+    "login": "junaidahmeddev",
+    "htmlUrl": "https://github.com/junaidahmeddev",
+    "happenedAt": "2026-07-05T04:32:21.798Z"
+  },
+  {
+    "id": "follower_lost:thedaggerbetween:2026-07-05T04:32:21.798Z",
+    "type": "follower_lost",
+    "login": "thedaggerbetween",
+    "htmlUrl": "https://github.com/thedaggerbetween",
+    "happenedAt": "2026-07-05T04:32:21.798Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:itslie:2026-07-05T04:32:21.798Z",
+    "type": "you_followed",
+    "login": "itslie",
+    "htmlUrl": "https://github.com/itslie",
+    "happenedAt": "2026-07-05T04:32:21.798Z"
+  },
+  {
+    "id": "you_unfollowed:thedaggerbetween:2026-07-05T04:32:21.798Z",
+    "type": "you_unfollowed",
+    "login": "thedaggerbetween",
+    "htmlUrl": "https://github.com/thedaggerbetween",
+    "happenedAt": "2026-07-05T04:32:21.798Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:cosmospice:2026-07-04T19:39:19.949Z",
     "type": "follower_gained",
     "login": "cosmospice",
@@ -28008,37 +28047,5 @@
     "login": "tsyganovvv",
     "htmlUrl": "https://github.com/tsyganovvv",
     "happenedAt": "2026-04-06T12:36:31.070Z"
-  },
-  {
-    "id": "follower_gained:ardashirards:2026-04-06T01:00:46.252Z",
-    "type": "follower_gained",
-    "login": "ardashirards",
-    "htmlUrl": "https://github.com/ardashirards",
-    "happenedAt": "2026-04-06T01:00:46.252Z"
-  },
-  {
-    "id": "follower_lost:dantesparada:2026-04-06T01:00:46.252Z",
-    "type": "follower_lost",
-    "login": "dantesparada",
-    "htmlUrl": "https://github.com/dantesparada",
-    "happenedAt": "2026-04-06T01:00:46.252Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:lukeskywqlker:2026-04-06T01:00:46.252Z",
-    "type": "you_followed",
-    "login": "LUKESKYWQLKER",
-    "htmlUrl": "https://github.com/LUKESKYWQLKER",
-    "happenedAt": "2026-04-06T01:00:46.252Z"
-  },
-  {
-    "id": "you_unfollowed:silentcellar:2026-04-06T01:00:46.252Z",
-    "type": "you_unfollowed",
-    "login": "SILENTCELLAR",
-    "htmlUrl": "https://github.com/SILENTCELLAR",
-    "happenedAt": "2026-04-06T01:00:46.252Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
