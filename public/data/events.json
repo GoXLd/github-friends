@@ -1,5 +1,33 @@
 [
   {
+    "id": "follower_gained:ashish7802:2026-07-07T10:01:51.749Z",
+    "type": "follower_gained",
+    "login": "ashish7802",
+    "htmlUrl": "https://github.com/ashish7802",
+    "happenedAt": "2026-07-07T10:01:51.749Z"
+  },
+  {
+    "id": "follower_gained:milad-hub:2026-07-07T10:01:51.749Z",
+    "type": "follower_gained",
+    "login": "milad-hub",
+    "htmlUrl": "https://github.com/milad-hub",
+    "happenedAt": "2026-07-07T10:01:51.749Z"
+  },
+  {
+    "id": "you_followed:shtirlits1972:2026-07-07T10:01:51.749Z",
+    "type": "you_followed",
+    "login": "Shtirlits1972",
+    "htmlUrl": "https://github.com/Shtirlits1972",
+    "happenedAt": "2026-07-07T10:01:51.749Z"
+  },
+  {
+    "id": "you_followed:speedpidi:2026-07-07T10:01:51.749Z",
+    "type": "you_followed",
+    "login": "speedpidi",
+    "htmlUrl": "https://github.com/speedpidi",
+    "happenedAt": "2026-07-07T10:01:51.749Z"
+  },
+  {
     "id": "follower_gained:resonaa:2026-07-07T04:18:12.010Z",
     "type": "follower_gained",
     "login": "Resonaa",
@@ -26239,30 +26267,5 @@
     "login": "WgpArch",
     "htmlUrl": "https://github.com/WgpArch",
     "happenedAt": "2026-04-08T12:39:33.328Z"
-  },
-  {
-    "id": "follower_gained:save-robloxia:2026-04-08T06:50:48.231Z",
-    "type": "follower_gained",
-    "login": "save-robloxia",
-    "htmlUrl": "https://github.com/save-robloxia",
-    "happenedAt": "2026-04-08T06:50:48.231Z"
-  },
-  {
-    "id": "follower_lost:crisstata:2026-04-08T06:50:48.231Z",
-    "type": "follower_lost",
-    "login": "crisstata",
-    "htmlUrl": "https://github.com/crisstata",
-    "happenedAt": "2026-04-08T06:50:48.231Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:michaeiaftonn:2026-04-08T06:50:48.231Z",
-    "type": "follower_lost",
-    "login": "michaeIaftonn",
-    "htmlUrl": "https://github.com/michaeIaftonn",
-    "happenedAt": "2026-04-08T06:50:48.231Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
