@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:forgerondev:2026-07-08T19:57:12.861Z",
+    "type": "you_followed",
+    "login": "forgerondev",
+    "htmlUrl": "https://github.com/forgerondev",
+    "happenedAt": "2026-07-08T19:57:12.861Z"
+  },
+  {
+    "id": "you_unfollowed:michel66:2026-07-08T19:57:12.861Z",
+    "type": "you_unfollowed",
+    "login": "Michel66",
+    "htmlUrl": "https://github.com/Michel66",
+    "happenedAt": "2026-07-08T19:57:12.861Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:derb1f:2026-07-08T14:42:01.360Z",
     "type": "follower_gained",
     "login": "DERB1F",
