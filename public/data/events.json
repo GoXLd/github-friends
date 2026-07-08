@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:ilikebullworth:2026-07-08T08:45:42.160Z",
+    "type": "follower_gained",
+    "login": "ILIKEBULLWORTH",
+    "htmlUrl": "https://github.com/ILIKEBULLWORTH",
+    "happenedAt": "2026-07-08T08:45:42.160Z"
+  },
+  {
+    "id": "follower_lost:health-ledger:2026-07-08T08:45:42.160Z",
+    "type": "follower_lost",
+    "login": "HEALTH-LEDGER",
+    "htmlUrl": "https://github.com/HEALTH-LEDGER",
+    "happenedAt": "2026-07-08T08:45:42.160Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ahmedabbas52233-a11y:2026-07-08T03:47:49.579Z",
     "type": "follower_gained",
     "login": "ahmedabbas52233-a11y",
@@ -25865,15 +25881,6 @@
     "login": "LucrecioZ",
     "htmlUrl": "https://github.com/LucrecioZ",
     "happenedAt": "2026-04-09T12:41:53.182Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:floweryfriend:2026-04-09T06:50:36.677Z",
-    "type": "you_unfollowed",
-    "login": "FloweryFriend",
-    "htmlUrl": "https://github.com/FloweryFriend",
-    "happenedAt": "2026-04-09T06:50:36.677Z",
     "accountStatus": null,
     "isDeleted": false
   }
