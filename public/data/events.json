@@ -1,5 +1,51 @@
 [
   {
+    "id": "follower_gained:harveyspecters:2026-07-10T09:54:01.123Z",
+    "type": "follower_gained",
+    "login": "harveyspecters",
+    "htmlUrl": "https://github.com/harveyspecters",
+    "happenedAt": "2026-07-10T09:54:01.123Z"
+  },
+  {
+    "id": "follower_gained:mr-mizanur:2026-07-10T09:54:01.123Z",
+    "type": "follower_gained",
+    "login": "mr-mizanur",
+    "htmlUrl": "https://github.com/mr-mizanur",
+    "happenedAt": "2026-07-10T09:54:01.123Z"
+  },
+  {
+    "id": "follower_gained:yosrikhiari:2026-07-10T09:54:01.123Z",
+    "type": "follower_gained",
+    "login": "yosrikhiari",
+    "htmlUrl": "https://github.com/yosrikhiari",
+    "happenedAt": "2026-07-10T09:54:01.123Z"
+  },
+  {
+    "id": "follower_lost:michael-jacksons:2026-07-10T09:54:01.123Z",
+    "type": "follower_lost",
+    "login": "michael-jacksons",
+    "htmlUrl": "https://github.com/michael-jacksons",
+    "happenedAt": "2026-07-10T09:54:01.123Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:onegatypeak:2026-07-10T09:54:01.123Z",
+    "type": "you_followed",
+    "login": "onegatypeak",
+    "htmlUrl": "https://github.com/onegatypeak",
+    "happenedAt": "2026-07-10T09:54:01.123Z"
+  },
+  {
+    "id": "you_unfollowed:scaredboywithagun:2026-07-10T09:54:01.123Z",
+    "type": "you_unfollowed",
+    "login": "scaredboywithagun",
+    "htmlUrl": "https://github.com/scaredboywithagun",
+    "happenedAt": "2026-07-10T09:54:01.123Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:nargestohidloo:2026-07-10T04:17:51.971Z",
     "type": "follower_gained",
     "login": "nargestohidloo",
