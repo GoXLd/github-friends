@@ -1,5 +1,49 @@
 [
   {
+    "id": "follower_gained:ghost-bakery:2026-07-11T03:45:08.290Z",
+    "type": "follower_gained",
+    "login": "Ghost-Bakery",
+    "htmlUrl": "https://github.com/Ghost-Bakery",
+    "happenedAt": "2026-07-11T03:45:08.290Z"
+  },
+  {
+    "id": "follower_gained:invisibleuser321:2026-07-11T03:45:08.290Z",
+    "type": "follower_gained",
+    "login": "invisibleuser321",
+    "htmlUrl": "https://github.com/invisibleuser321",
+    "happenedAt": "2026-07-11T03:45:08.290Z"
+  },
+  {
+    "id": "follower_gained:waelodeh98:2026-07-11T03:45:08.290Z",
+    "type": "follower_gained",
+    "login": "waelodeh98",
+    "htmlUrl": "https://github.com/waelodeh98",
+    "happenedAt": "2026-07-11T03:45:08.290Z"
+  },
+  {
+    "id": "follower_lost:alejaranda:2026-07-11T03:45:08.290Z",
+    "type": "follower_lost",
+    "login": "alejaranda",
+    "htmlUrl": "https://github.com/alejaranda",
+    "happenedAt": "2026-07-11T03:45:08.290Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:ali-hey-0:2026-07-11T03:45:08.290Z",
+    "type": "you_followed",
+    "login": "Ali-hey-0",
+    "htmlUrl": "https://github.com/Ali-hey-0",
+    "happenedAt": "2026-07-11T03:45:08.290Z"
+  },
+  {
+    "id": "you_followed:waelodeh98:2026-07-11T03:45:08.290Z",
+    "type": "you_followed",
+    "login": "waelodeh98",
+    "htmlUrl": "https://github.com/waelodeh98",
+    "happenedAt": "2026-07-11T03:45:08.290Z"
+  },
+  {
     "id": "follower_gained:ryo-arima:2026-07-10T19:53:48.564Z",
     "type": "follower_gained",
     "login": "ryo-arima",
@@ -24542,22 +24586,6 @@
     "login": "AMERCXNEE",
     "htmlUrl": "https://github.com/AMERCXNEE",
     "happenedAt": "2026-04-12T06:49:43.958Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:duxorethey:2026-04-12T01:03:29.269Z",
-    "type": "follower_gained",
-    "login": "duxorethey",
-    "htmlUrl": "https://github.com/duxorethey",
-    "happenedAt": "2026-04-12T01:03:29.269Z"
-  },
-  {
-    "id": "follower_lost:coldifiedd:2026-04-12T01:03:29.269Z",
-    "type": "follower_lost",
-    "login": "coldifiedd",
-    "htmlUrl": "https://github.com/coldifiedd",
-    "happenedAt": "2026-04-12T01:03:29.269Z",
     "accountStatus": null,
     "isDeleted": false
   }
