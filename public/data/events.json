@@ -1,5 +1,40 @@
 [
   {
+    "id": "follower_gained:jzmn-crft:2026-07-11T19:34:17.576Z",
+    "type": "follower_gained",
+    "login": "jzmn-crft",
+    "htmlUrl": "https://github.com/jzmn-crft",
+    "happenedAt": "2026-07-11T19:34:17.576Z"
+  },
+  {
+    "id": "follower_gained:senthil455:2026-07-11T19:34:17.576Z",
+    "type": "follower_gained",
+    "login": "Senthil455",
+    "htmlUrl": "https://github.com/Senthil455",
+    "happenedAt": "2026-07-11T19:34:17.576Z"
+  },
+  {
+    "id": "you_followed:chanakaeshan:2026-07-11T19:34:17.576Z",
+    "type": "you_followed",
+    "login": "chanakaeshan",
+    "htmlUrl": "https://github.com/chanakaeshan",
+    "happenedAt": "2026-07-11T19:34:17.576Z"
+  },
+  {
+    "id": "you_followed:kittyxuan0124:2026-07-11T19:34:17.576Z",
+    "type": "you_followed",
+    "login": "Kittyxuan0124",
+    "htmlUrl": "https://github.com/Kittyxuan0124",
+    "happenedAt": "2026-07-11T19:34:17.576Z"
+  },
+  {
+    "id": "you_followed:setel-engineering:2026-07-11T19:34:17.576Z",
+    "type": "you_followed",
+    "login": "setel-engineering",
+    "htmlUrl": "https://github.com/setel-engineering",
+    "happenedAt": "2026-07-11T19:34:17.576Z"
+  },
+  {
     "id": "follower_gained:anamika-ms:2026-07-11T13:56:44.622Z",
     "type": "follower_gained",
     "login": "anamika-ms",
@@ -24672,33 +24707,5 @@
     "login": "zaydodonovan",
     "htmlUrl": "https://github.com/zaydodonovan",
     "happenedAt": "2026-04-13T01:04:34.036Z"
-  },
-  {
-    "id": "follower_gained:canpolatcaner:2026-04-12T18:31:04.972Z",
-    "type": "follower_gained",
-    "login": "canpolatcaner",
-    "htmlUrl": "https://github.com/canpolatcaner",
-    "happenedAt": "2026-04-12T18:31:04.972Z"
-  },
-  {
-    "id": "follower_gained:duzric:2026-04-12T18:31:04.972Z",
-    "type": "follower_gained",
-    "login": "duzric",
-    "htmlUrl": "https://github.com/duzric",
-    "happenedAt": "2026-04-12T18:31:04.972Z"
-  },
-  {
-    "id": "follower_gained:ravirajavaghade:2026-04-12T18:31:04.972Z",
-    "type": "follower_gained",
-    "login": "RavirajAvaghade",
-    "htmlUrl": "https://github.com/RavirajAvaghade",
-    "happenedAt": "2026-04-12T18:31:04.972Z"
-  },
-  {
-    "id": "follower_gained:suhaibkhan14:2026-04-12T18:31:04.972Z",
-    "type": "follower_gained",
-    "login": "suhaibkhan14",
-    "htmlUrl": "https://github.com/suhaibkhan14",
-    "happenedAt": "2026-04-12T18:31:04.972Z"
   }
 ]
