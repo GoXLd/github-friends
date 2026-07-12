@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:gabrieliam42:2026-07-12T19:33:04.355Z",
+    "type": "follower_gained",
+    "login": "Gabrieliam42",
+    "htmlUrl": "https://github.com/Gabrieliam42",
+    "happenedAt": "2026-07-12T19:33:04.355Z"
+  },
+  {
+    "id": "follower_lost:giladfuchs:2026-07-12T19:33:04.355Z",
+    "type": "follower_lost",
+    "login": "giladfuchs",
+    "htmlUrl": "https://github.com/giladfuchs",
+    "happenedAt": "2026-07-12T19:33:04.355Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:alimovlex:2026-07-12T19:33:04.355Z",
+    "type": "you_unfollowed",
+    "login": "alimovlex",
+    "htmlUrl": "https://github.com/alimovlex",
+    "happenedAt": "2026-07-12T19:33:04.355Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:khemssharma:2026-07-12T13:57:54.897Z",
     "type": "follower_gained",
     "login": "khemssharma",
@@ -24276,30 +24301,5 @@
     "login": "ZERO-DAWN-X",
     "htmlUrl": "https://github.com/ZERO-DAWN-X",
     "happenedAt": "2026-04-14T01:03:48.573Z"
-  },
-  {
-    "id": "follower_gained:semomo12:2026-04-13T18:44:37.121Z",
-    "type": "follower_gained",
-    "login": "semomo12",
-    "htmlUrl": "https://github.com/semomo12",
-    "happenedAt": "2026-04-13T18:44:37.121Z"
-  },
-  {
-    "id": "follower_lost:0xbomb215:2026-04-13T18:44:37.121Z",
-    "type": "follower_lost",
-    "login": "0xbomb215",
-    "htmlUrl": "https://github.com/0xbomb215",
-    "happenedAt": "2026-04-13T18:44:37.121Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:0xbomb215:2026-04-13T18:44:37.121Z",
-    "type": "you_unfollowed",
-    "login": "0xbomb215",
-    "htmlUrl": "https://github.com/0xbomb215",
-    "happenedAt": "2026-04-13T18:44:37.121Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
