@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:buildcompanytogether:2026-07-12T08:32:08.829Z",
+    "type": "follower_gained",
+    "login": "buildcompanytogether",
+    "htmlUrl": "https://github.com/buildcompanytogether",
+    "happenedAt": "2026-07-12T08:32:08.829Z"
+  },
+  {
     "id": "follower_lost:shubh2-0:2026-07-12T04:02:09.013Z",
     "type": "follower_lost",
     "login": "Shubh2-0",
@@ -24317,33 +24324,5 @@
     "happenedAt": "2026-04-13T12:42:08.822Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:arindam-codes:2026-04-13T07:04:22.089Z",
-    "type": "follower_gained",
-    "login": "arindam-codes",
-    "htmlUrl": "https://github.com/arindam-codes",
-    "happenedAt": "2026-04-13T07:04:22.089Z"
-  },
-  {
-    "id": "follower_gained:balamaloth:2026-04-13T07:04:22.089Z",
-    "type": "follower_gained",
-    "login": "Balamaloth",
-    "htmlUrl": "https://github.com/Balamaloth",
-    "happenedAt": "2026-04-13T07:04:22.089Z"
-  },
-  {
-    "id": "follower_gained:dbunt1tled:2026-04-13T07:04:22.089Z",
-    "type": "follower_gained",
-    "login": "dbunt1tled",
-    "htmlUrl": "https://github.com/dbunt1tled",
-    "happenedAt": "2026-04-13T07:04:22.089Z"
-  },
-  {
-    "id": "follower_gained:ridoandev:2026-04-13T07:04:22.089Z",
-    "type": "follower_gained",
-    "login": "RidoanDev",
-    "htmlUrl": "https://github.com/RidoanDev",
-    "happenedAt": "2026-04-13T07:04:22.089Z"
   }
 ]
