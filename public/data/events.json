@@ -24592,28 +24592,5 @@
     "happenedAt": "2026-04-14T12:41:44.806Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:martinsblucas:2026-04-14T06:56:41.902Z",
-    "type": "follower_gained",
-    "login": "martinsblucas",
-    "htmlUrl": "https://github.com/martinsblucas",
-    "happenedAt": "2026-04-14T06:56:41.902Z"
-  },
-  {
-    "id": "follower_gained:raztchs:2026-04-14T06:56:41.902Z",
-    "type": "follower_gained",
-    "login": "raztchs",
-    "htmlUrl": "https://github.com/raztchs",
-    "happenedAt": "2026-04-14T06:56:41.902Z"
-  },
-  {
-    "id": "follower_lost:sseildirectory:2026-04-14T06:56:41.902Z",
-    "type": "follower_lost",
-    "login": "sseildirectory",
-    "htmlUrl": "https://github.com/sseildirectory",
-    "happenedAt": "2026-04-14T06:56:41.902Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
