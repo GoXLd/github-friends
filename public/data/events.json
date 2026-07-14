@@ -1,5 +1,49 @@
 [
   {
+    "id": "follower_gained:zahra-azizi-dev:2026-07-14T03:38:14.007Z",
+    "type": "follower_gained",
+    "login": "zahra-azizi-dev",
+    "htmlUrl": "https://github.com/zahra-azizi-dev",
+    "happenedAt": "2026-07-14T03:38:14.007Z"
+  },
+  {
+    "id": "follower_lost:mr-mizanur:2026-07-14T03:38:14.007Z",
+    "type": "follower_lost",
+    "login": "mr-mizanur",
+    "htmlUrl": "https://github.com/mr-mizanur",
+    "happenedAt": "2026-07-14T03:38:14.007Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:the-walkerrr:2026-07-14T03:38:14.007Z",
+    "type": "you_followed",
+    "login": "the-walkerrr",
+    "htmlUrl": "https://github.com/the-walkerrr",
+    "happenedAt": "2026-07-14T03:38:14.007Z"
+  },
+  {
+    "id": "you_followed:theprimeagen:2026-07-14T03:38:14.007Z",
+    "type": "you_followed",
+    "login": "ThePrimeagen",
+    "htmlUrl": "https://github.com/ThePrimeagen",
+    "happenedAt": "2026-07-14T03:38:14.007Z"
+  },
+  {
+    "id": "you_followed:victormuthomi:2026-07-14T03:38:14.007Z",
+    "type": "you_followed",
+    "login": "Victormuthomi",
+    "htmlUrl": "https://github.com/Victormuthomi",
+    "happenedAt": "2026-07-14T03:38:14.007Z"
+  },
+  {
+    "id": "you_followed:yoyan-dev:2026-07-14T03:38:14.007Z",
+    "type": "you_followed",
+    "login": "yoyan-dev",
+    "htmlUrl": "https://github.com/yoyan-dev",
+    "happenedAt": "2026-07-14T03:38:14.007Z"
+  },
+  {
     "id": "follower_gained:ballwictb:2026-07-13T19:51:53.583Z",
     "type": "follower_gained",
     "login": "Ballwictb",
