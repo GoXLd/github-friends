@@ -1,5 +1,207 @@
 [
   {
+    "id": "follower_lost:arkobyne:2026-07-14T14:15:39.140Z",
+    "type": "follower_lost",
+    "login": "arkobyne",
+    "htmlUrl": "https://github.com/arkobyne",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:dokejaker:2026-07-14T14:15:39.140Z",
+    "type": "follower_lost",
+    "login": "dokejaker",
+    "htmlUrl": "https://github.com/dokejaker",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:glesmyno:2026-07-14T14:15:39.140Z",
+    "type": "follower_lost",
+    "login": "glesmyno",
+    "htmlUrl": "https://github.com/glesmyno",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:hidankimi:2026-07-14T14:15:39.140Z",
+    "type": "follower_lost",
+    "login": "hidankimi",
+    "htmlUrl": "https://github.com/hidankimi",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:nerihamura:2026-07-14T14:15:39.140Z",
+    "type": "follower_lost",
+    "login": "nerihamura",
+    "htmlUrl": "https://github.com/nerihamura",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:neuslobe:2026-07-14T14:15:39.140Z",
+    "type": "follower_lost",
+    "login": "neuslobe",
+    "htmlUrl": "https://github.com/neuslobe",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:uwuncyan:2026-07-14T14:15:39.140Z",
+    "type": "follower_lost",
+    "login": "uwuncyan",
+    "htmlUrl": "https://github.com/uwuncyan",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:yoshican:2026-07-14T14:15:39.140Z",
+    "type": "follower_lost",
+    "login": "yoshican",
+    "htmlUrl": "https://github.com/yoshican",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:yunawyner:2026-07-14T14:15:39.140Z",
+    "type": "follower_lost",
+    "login": "yunawyner",
+    "htmlUrl": "https://github.com/yunawyner",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:0ct0sec:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "0ct0sec",
+    "htmlUrl": "https://github.com/0ct0sec",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:1c7:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "1c7",
+    "htmlUrl": "https://github.com/1c7",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:baltazargallegosj-arch:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "baltazargallegosj-arch",
+    "htmlUrl": "https://github.com/baltazargallegosj-arch",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:dovvnloading:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "dovvnloading",
+    "htmlUrl": "https://github.com/dovvnloading",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:enescxx:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "enescxx",
+    "htmlUrl": "https://github.com/enescxx",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:invisibleuser321:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "invisibleuser321",
+    "htmlUrl": "https://github.com/invisibleuser321",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:julian-dumitrascu:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "Julian-Dumitrascu",
+    "htmlUrl": "https://github.com/Julian-Dumitrascu",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:kaboodie:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "KaboodIe",
+    "htmlUrl": "https://github.com/KaboodIe",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:macrosensor2022:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "macrosensor2022",
+    "htmlUrl": "https://github.com/macrosensor2022",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:mahjiid:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "mahjiid",
+    "htmlUrl": "https://github.com/mahjiid",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:monero-project:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "monero-project",
+    "htmlUrl": "https://github.com/monero-project",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:nai64:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "Nai64",
+    "htmlUrl": "https://github.com/Nai64",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:ojcorzog:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "ojcorzog",
+    "htmlUrl": "https://github.com/ojcorzog",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:seankamugasa:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "seankamugasa",
+    "htmlUrl": "https://github.com/seankamugasa",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:wangjiejacques:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "wangjiejacques",
+    "htmlUrl": "https://github.com/wangjiejacques",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_followed:yamawo:2026-07-14T14:15:39.140Z",
+    "type": "you_followed",
+    "login": "yamawo",
+    "htmlUrl": "https://github.com/yamawo",
+    "happenedAt": "2026-07-14T14:15:39.140Z"
+  },
+  {
+    "id": "you_unfollowed:hidankimi:2026-07-14T14:15:39.140Z",
+    "type": "you_unfollowed",
+    "login": "hidankimi",
+    "htmlUrl": "https://github.com/hidankimi",
+    "happenedAt": "2026-07-14T14:15:39.140Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:zahra-azizi-dev:2026-07-14T03:38:14.007Z",
     "type": "follower_gained",
     "login": "zahra-azizi-dev",
