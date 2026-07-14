@@ -1,5 +1,42 @@
 [
   {
+    "id": "follower_gained:enescxx:2026-07-14T19:45:41.617Z",
+    "type": "follower_gained",
+    "login": "enescxx",
+    "htmlUrl": "https://github.com/enescxx",
+    "happenedAt": "2026-07-14T19:45:41.617Z"
+  },
+  {
+    "id": "follower_gained:hwoats:2026-07-14T19:45:41.617Z",
+    "type": "follower_gained",
+    "login": "hwoats",
+    "htmlUrl": "https://github.com/hwoats",
+    "happenedAt": "2026-07-14T19:45:41.617Z"
+  },
+  {
+    "id": "follower_gained:josejairobaltazargallegos0-star:2026-07-14T19:45:41.617Z",
+    "type": "follower_gained",
+    "login": "josejairobaltazargallegos0-star",
+    "htmlUrl": "https://github.com/josejairobaltazargallegos0-star",
+    "happenedAt": "2026-07-14T19:45:41.617Z"
+  },
+  {
+    "id": "follower_gained:nahid-mahmud555:2026-07-14T19:45:41.617Z",
+    "type": "follower_gained",
+    "login": "Nahid-mahmud555",
+    "htmlUrl": "https://github.com/Nahid-mahmud555",
+    "happenedAt": "2026-07-14T19:45:41.617Z"
+  },
+  {
+    "id": "follower_lost:woattz:2026-07-14T19:45:41.617Z",
+    "type": "follower_lost",
+    "login": "woattz",
+    "htmlUrl": "https://github.com/woattz",
+    "happenedAt": "2026-07-14T19:45:41.617Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:arkobyne:2026-07-14T14:15:39.140Z",
     "type": "follower_lost",
     "login": "arkobyne",
@@ -24665,135 +24702,5 @@
     "happenedAt": "2026-04-16T01:06:01.884Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:ashiteshsingh:2026-04-15T18:45:49.982Z",
-    "type": "follower_gained",
-    "login": "AshiteshSingh",
-    "htmlUrl": "https://github.com/AshiteshSingh",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "follower_gained:fentrir:2026-04-15T18:45:49.982Z",
-    "type": "follower_gained",
-    "login": "fentrir",
-    "htmlUrl": "https://github.com/fentrir",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "follower_gained:iroierr:2026-04-15T18:45:49.982Z",
-    "type": "follower_gained",
-    "login": "iRoierr",
-    "htmlUrl": "https://github.com/iRoierr",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "follower_gained:kate-mwaura:2026-04-15T18:45:49.982Z",
-    "type": "follower_gained",
-    "login": "Kate-mwaura",
-    "htmlUrl": "https://github.com/Kate-mwaura",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "follower_gained:mezentsevs:2026-04-15T18:45:49.982Z",
-    "type": "follower_gained",
-    "login": "mezentsevs",
-    "htmlUrl": "https://github.com/mezentsevs",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "follower_gained:smartcontract1111:2026-04-15T18:45:49.982Z",
-    "type": "follower_gained",
-    "login": "smartcontract1111",
-    "htmlUrl": "https://github.com/smartcontract1111",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "follower_lost:avant1010:2026-04-15T18:45:49.982Z",
-    "type": "follower_lost",
-    "login": "avant1010",
-    "htmlUrl": "https://github.com/avant1010",
-    "happenedAt": "2026-04-15T18:45:49.982Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:duxorethey:2026-04-15T18:45:49.982Z",
-    "type": "follower_lost",
-    "login": "duxorethey",
-    "htmlUrl": "https://github.com/duxorethey",
-    "happenedAt": "2026-04-15T18:45:49.982Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:0xjose-dev:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "0xJOSE-DEV",
-    "htmlUrl": "https://github.com/0xJOSE-DEV",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "you_followed:acherswan:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "acherswan",
-    "htmlUrl": "https://github.com/acherswan",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "you_followed:ashiteshsingh:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "AshiteshSingh",
-    "htmlUrl": "https://github.com/AshiteshSingh",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "you_followed:c10udburst:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "C10udburst",
-    "htmlUrl": "https://github.com/C10udburst",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "you_followed:docker-hardened-images:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "docker-hardened-images",
-    "htmlUrl": "https://github.com/docker-hardened-images",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "you_followed:engrammed:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "engrammed",
-    "htmlUrl": "https://github.com/engrammed",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "you_followed:oceanasterism:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "oceanasterism",
-    "htmlUrl": "https://github.com/oceanasterism",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "you_followed:oguricapluvr:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "oguricapluvr",
-    "htmlUrl": "https://github.com/oguricapluvr",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "you_followed:sumersingpatil2694:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "Sumersingpatil2694",
-    "htmlUrl": "https://github.com/Sumersingpatil2694",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
-  },
-  {
-    "id": "you_followed:sunny-days-365:2026-04-15T18:45:49.982Z",
-    "type": "you_followed",
-    "login": "sunny-days-365",
-    "htmlUrl": "https://github.com/sunny-days-365",
-    "happenedAt": "2026-04-15T18:45:49.982Z"
   }
 ]
