@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:charlescreativecontent:2026-07-15T03:38:57.783Z",
+    "type": "follower_gained",
+    "login": "CharlesCreativeContent",
+    "htmlUrl": "https://github.com/CharlesCreativeContent",
+    "happenedAt": "2026-07-15T03:38:57.783Z"
+  },
+  {
+    "id": "follower_gained:gravetogeek:2026-07-15T03:38:57.783Z",
+    "type": "follower_gained",
+    "login": "GravetoGeek",
+    "htmlUrl": "https://github.com/GravetoGeek",
+    "happenedAt": "2026-07-15T03:38:57.783Z"
+  },
+  {
     "id": "follower_gained:enescxx:2026-07-14T19:45:41.617Z",
     "type": "follower_gained",
     "login": "enescxx",
@@ -24475,231 +24489,6 @@
     "login": "oguricapluvr",
     "htmlUrl": "https://github.com/oguricapluvr",
     "happenedAt": "2026-04-16T12:43:31.117Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:qafaraz:2026-04-16T01:06:01.884Z",
-    "type": "follower_lost",
-    "login": "qafaraz",
-    "htmlUrl": "https://github.com/qafaraz",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:aiosai:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "AIOSAI",
-    "htmlUrl": "https://github.com/AIOSAI",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:alisonb-commits:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "alisonb-commits",
-    "htmlUrl": "https://github.com/alisonb-commits",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:aplus-framework:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "aplus-framework",
-    "htmlUrl": "https://github.com/aplus-framework",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:brunobolting:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "brunobolting",
-    "htmlUrl": "https://github.com/brunobolting",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:derrysdiariesx:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "derrysdiariesx",
-    "htmlUrl": "https://github.com/derrysdiariesx",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:frmahon:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "FrMahon",
-    "htmlUrl": "https://github.com/FrMahon",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:gangle-mask:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "GANGLE-MASK",
-    "htmlUrl": "https://github.com/GANGLE-MASK",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:idkwhyamidoingthislol:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "IDKWHYAMIDOINGTHISLOL",
-    "htmlUrl": "https://github.com/IDKWHYAMIDOINGTHISLOL",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:jimmiehansson:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "jimmiehansson",
-    "htmlUrl": "https://github.com/jimmiehansson",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:kilian-pichard:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "Kilian-Pichard",
-    "htmlUrl": "https://github.com/Kilian-Pichard",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:kota-ch:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "Kota-CH",
-    "htmlUrl": "https://github.com/Kota-CH",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:lukeskywqlker:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "LUKESKYWQLKER",
-    "htmlUrl": "https://github.com/LUKESKYWQLKER",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:mankiraful:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "mankiraful",
-    "htmlUrl": "https://github.com/mankiraful",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:narutoffee:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "narutoffee",
-    "htmlUrl": "https://github.com/narutoffee",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:olexandrfareniu:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "olexandrfareniu",
-    "htmlUrl": "https://github.com/olexandrfareniu",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:pageninety9:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "pageninety9",
-    "htmlUrl": "https://github.com/pageninety9",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:pneumonoultramicros:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "pneumonoultramicros",
-    "htmlUrl": "https://github.com/pneumonoultramicros",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:rawmenxell:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "rawmenxell",
-    "htmlUrl": "https://github.com/rawmenxell",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:sanchezcpp:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "sanchezcpp",
-    "htmlUrl": "https://github.com/sanchezcpp",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:simegnew1213:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "simegnew1213",
-    "htmlUrl": "https://github.com/simegnew1213",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:sleepytek:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "Sleepytek",
-    "htmlUrl": "https://github.com/Sleepytek",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:vincentlovestvheads:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "VincentLovesTVHeads",
-    "htmlUrl": "https://github.com/VincentLovesTVHeads",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:viniciuscode1:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "ViniciusCode1",
-    "htmlUrl": "https://github.com/ViniciusCode1",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:wgparch:2026-04-16T01:06:01.884Z",
-    "type": "you_unfollowed",
-    "login": "WgpArch",
-    "htmlUrl": "https://github.com/WgpArch",
-    "happenedAt": "2026-04-16T01:06:01.884Z",
     "accountStatus": null,
     "isDeleted": false
   }
