@@ -1,5 +1,41 @@
 [
   {
+    "id": "follower_lost:credkellar-boop:2026-07-15T14:13:05.205Z",
+    "type": "follower_lost",
+    "login": "credkellar-boop",
+    "htmlUrl": "https://github.com/credkellar-boop",
+    "happenedAt": "2026-07-15T14:13:05.205Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:fromtheriver2thesea:2026-07-15T14:13:05.205Z",
+    "type": "follower_lost",
+    "login": "FromTheRiver2TheSea",
+    "htmlUrl": "https://github.com/FromTheRiver2TheSea",
+    "happenedAt": "2026-07-15T14:13:05.205Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:kirankumark-sec:2026-07-15T14:13:05.205Z",
+    "type": "follower_lost",
+    "login": "kirankumark-sec",
+    "htmlUrl": "https://github.com/kirankumark-sec",
+    "happenedAt": "2026-07-15T14:13:05.205Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:amertoglu16:2026-07-15T14:13:05.205Z",
+    "type": "you_unfollowed",
+    "login": "amertoglu16",
+    "htmlUrl": "https://github.com/amertoglu16",
+    "happenedAt": "2026-07-15T14:13:05.205Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:charlescreativecontent:2026-07-15T03:38:57.783Z",
     "type": "follower_gained",
     "login": "CharlesCreativeContent",
@@ -24448,47 +24484,6 @@
     "login": "sultonbektoxirboyev",
     "htmlUrl": "https://github.com/sultonbektoxirboyev",
     "happenedAt": "2026-04-16T18:43:43.936Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:puppyfes:2026-04-16T12:43:31.117Z",
-    "type": "you_followed",
-    "login": "puppyfes",
-    "htmlUrl": "https://github.com/puppyfes",
-    "happenedAt": "2026-04-16T12:43:31.117Z"
-  },
-  {
-    "id": "you_followed:traumamor:2026-04-16T12:43:31.117Z",
-    "type": "you_followed",
-    "login": "traumamor",
-    "htmlUrl": "https://github.com/traumamor",
-    "happenedAt": "2026-04-16T12:43:31.117Z"
-  },
-  {
-    "id": "you_unfollowed:0xjose-dev:2026-04-16T12:43:31.117Z",
-    "type": "you_unfollowed",
-    "login": "0xJOSE-DEV",
-    "htmlUrl": "https://github.com/0xJOSE-DEV",
-    "happenedAt": "2026-04-16T12:43:31.117Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:oceanasterism:2026-04-16T12:43:31.117Z",
-    "type": "you_unfollowed",
-    "login": "oceanasterism",
-    "htmlUrl": "https://github.com/oceanasterism",
-    "happenedAt": "2026-04-16T12:43:31.117Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:oguricapluvr:2026-04-16T12:43:31.117Z",
-    "type": "you_unfollowed",
-    "login": "oguricapluvr",
-    "htmlUrl": "https://github.com/oguricapluvr",
-    "happenedAt": "2026-04-16T12:43:31.117Z",
     "accountStatus": null,
     "isDeleted": false
   }
