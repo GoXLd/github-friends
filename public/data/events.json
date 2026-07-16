@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:ooranq:2026-07-16T14:25:23.419Z",
+    "type": "follower_gained",
+    "login": "ooranq",
+    "htmlUrl": "https://github.com/ooranq",
+    "happenedAt": "2026-07-16T14:25:23.419Z"
+  },
+  {
+    "id": "follower_lost:hwoats:2026-07-16T14:25:23.419Z",
+    "type": "follower_lost",
+    "login": "hwoats",
+    "htmlUrl": "https://github.com/hwoats",
+    "happenedAt": "2026-07-16T14:25:23.419Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:zomedd:2026-07-16T08:35:43.255Z",
     "type": "you_followed",
     "login": "ZomEdd",
@@ -24433,26 +24449,5 @@
     "happenedAt": "2026-04-17T18:36:23.595Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:mehadii-hassan:2026-04-17T12:40:08.258Z",
-    "type": "follower_gained",
-    "login": "Mehadii-Hassan",
-    "htmlUrl": "https://github.com/Mehadii-Hassan",
-    "happenedAt": "2026-04-17T12:40:08.258Z"
-  },
-  {
-    "id": "follower_gained:thiagolpereira:2026-04-17T12:40:08.258Z",
-    "type": "follower_gained",
-    "login": "ThiagoLPereira",
-    "htmlUrl": "https://github.com/ThiagoLPereira",
-    "happenedAt": "2026-04-17T12:40:08.258Z"
-  },
-  {
-    "id": "follower_gained:top-ace-friend:2026-04-17T12:40:08.258Z",
-    "type": "follower_gained",
-    "login": "top-ace-friend",
-    "htmlUrl": "https://github.com/top-ace-friend",
-    "happenedAt": "2026-04-17T12:40:08.258Z"
   }
 ]
