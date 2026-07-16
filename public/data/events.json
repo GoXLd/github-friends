@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:zomedd:2026-07-16T08:35:43.255Z",
+    "type": "you_followed",
+    "login": "ZomEdd",
+    "htmlUrl": "https://github.com/ZomEdd",
+    "happenedAt": "2026-07-16T08:35:43.255Z"
+  },
+  {
+    "id": "you_unfollowed:kasperism:2026-07-16T08:35:43.255Z",
+    "type": "you_unfollowed",
+    "login": "Kasperism",
+    "htmlUrl": "https://github.com/Kasperism",
+    "happenedAt": "2026-07-16T08:35:43.255Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:alexwoods711:2026-07-16T03:41:17.756Z",
     "type": "follower_gained",
     "login": "alexwoods711",
