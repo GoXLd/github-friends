@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:advait251206:2026-07-17T19:34:44.435Z",
+    "type": "follower_gained",
+    "login": "Advait251206",
+    "htmlUrl": "https://github.com/Advait251206",
+    "happenedAt": "2026-07-17T19:34:44.435Z"
+  },
+  {
+    "id": "follower_gained:nachoofc:2026-07-17T19:34:44.435Z",
+    "type": "follower_gained",
+    "login": "NachoOFC",
+    "htmlUrl": "https://github.com/NachoOFC",
+    "happenedAt": "2026-07-17T19:34:44.435Z"
+  },
+  {
     "id": "follower_gained:ella-horizon:2026-07-17T14:05:08.429Z",
     "type": "follower_gained",
     "login": "Ella-horizon",
@@ -24565,22 +24579,6 @@
     "login": "yutomiwana",
     "htmlUrl": "https://github.com/yutomiwana",
     "happenedAt": "2026-04-19T12:31:31.007Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:hollowgaze:2026-04-18T18:31:14.157Z",
-    "type": "follower_gained",
-    "login": "HollowGaze",
-    "htmlUrl": "https://github.com/HollowGaze",
-    "happenedAt": "2026-04-18T18:31:14.157Z"
-  },
-  {
-    "id": "follower_lost:solid-met4l:2026-04-18T18:31:14.157Z",
-    "type": "follower_lost",
-    "login": "SOLID-MET4L",
-    "htmlUrl": "https://github.com/SOLID-MET4L",
-    "happenedAt": "2026-04-18T18:31:14.157Z",
     "accountStatus": null,
     "isDeleted": false
   }
