@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:c0ldfl0wer:2026-07-18T08:10:40.625Z",
+    "type": "follower_gained",
+    "login": "C0LDFL0WER",
+    "htmlUrl": "https://github.com/C0LDFL0WER",
+    "happenedAt": "2026-07-18T08:10:40.625Z"
+  },
+  {
+    "id": "follower_lost:cryfatal:2026-07-18T08:10:40.625Z",
+    "type": "follower_lost",
+    "login": "cryfatal",
+    "htmlUrl": "https://github.com/cryfatal",
+    "happenedAt": "2026-07-18T08:10:40.625Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:c0ldfl0wer:2026-07-18T08:10:40.625Z",
+    "type": "you_followed",
+    "login": "C0LDFL0WER",
+    "htmlUrl": "https://github.com/C0LDFL0WER",
+    "happenedAt": "2026-07-18T08:10:40.625Z"
+  },
+  {
+    "id": "you_unfollowed:cryfatal:2026-07-18T08:10:40.625Z",
+    "type": "you_unfollowed",
+    "login": "cryfatal",
+    "htmlUrl": "https://github.com/cryfatal",
+    "happenedAt": "2026-07-18T08:10:40.625Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:dogbriel:2026-07-18T03:36:12.264Z",
     "type": "follower_gained",
     "login": "dogbriel",
