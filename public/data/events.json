@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:dogbriel:2026-07-18T03:36:12.264Z",
+    "type": "follower_gained",
+    "login": "dogbriel",
+    "htmlUrl": "https://github.com/dogbriel",
+    "happenedAt": "2026-07-18T03:36:12.264Z"
+  },
+  {
+    "id": "follower_lost:2ooi:2026-07-18T03:36:12.264Z",
+    "type": "follower_lost",
+    "login": "2OOI",
+    "htmlUrl": "https://github.com/2OOI",
+    "happenedAt": "2026-07-18T03:36:12.264Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:advait251206:2026-07-17T19:34:44.435Z",
     "type": "follower_gained",
     "login": "Advait251206",
