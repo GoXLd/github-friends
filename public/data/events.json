@@ -1,5 +1,51 @@
 [
   {
+    "id": "follower_gained:kaomoti:2026-07-18T13:52:12.193Z",
+    "type": "follower_gained",
+    "login": "kaomoti",
+    "htmlUrl": "https://github.com/kaomoti",
+    "happenedAt": "2026-07-18T13:52:12.193Z"
+  },
+  {
+    "id": "follower_lost:c0ldfl0wer:2026-07-18T13:52:12.193Z",
+    "type": "follower_lost",
+    "login": "C0LDFL0WER",
+    "htmlUrl": "https://github.com/C0LDFL0WER",
+    "happenedAt": "2026-07-18T13:52:12.193Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:christopherlandaverde:2026-07-18T13:52:12.193Z",
+    "type": "you_followed",
+    "login": "ChristopherLandaverde",
+    "htmlUrl": "https://github.com/ChristopherLandaverde",
+    "happenedAt": "2026-07-18T13:52:12.193Z"
+  },
+  {
+    "id": "you_followed:kaomoti:2026-07-18T13:52:12.193Z",
+    "type": "you_followed",
+    "login": "kaomoti",
+    "htmlUrl": "https://github.com/kaomoti",
+    "happenedAt": "2026-07-18T13:52:12.193Z"
+  },
+  {
+    "id": "you_followed:ryan-rhys:2026-07-18T13:52:12.193Z",
+    "type": "you_followed",
+    "login": "Ryan-Rhys",
+    "htmlUrl": "https://github.com/Ryan-Rhys",
+    "happenedAt": "2026-07-18T13:52:12.193Z"
+  },
+  {
+    "id": "you_unfollowed:c0ldfl0wer:2026-07-18T13:52:12.193Z",
+    "type": "you_unfollowed",
+    "login": "C0LDFL0WER",
+    "htmlUrl": "https://github.com/C0LDFL0WER",
+    "happenedAt": "2026-07-18T13:52:12.193Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:c0ldfl0wer:2026-07-18T08:10:40.625Z",
     "type": "follower_gained",
     "login": "C0LDFL0WER",
@@ -24595,39 +24641,5 @@
     "login": "Yannvieira11",
     "htmlUrl": "https://github.com/Yannvieira11",
     "happenedAt": "2026-04-19T18:31:03.832Z"
-  },
-  {
-    "id": "follower_gained:tordkisser67:2026-04-19T12:31:31.007Z",
-    "type": "follower_gained",
-    "login": "tordkisser67",
-    "htmlUrl": "https://github.com/tordkisser67",
-    "happenedAt": "2026-04-19T12:31:31.007Z"
-  },
-  {
-    "id": "follower_lost:mehadii-hassan:2026-04-19T12:31:31.007Z",
-    "type": "follower_lost",
-    "login": "Mehadii-Hassan",
-    "htmlUrl": "https://github.com/Mehadii-Hassan",
-    "happenedAt": "2026-04-19T12:31:31.007Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:yukamanawa:2026-04-19T12:31:31.007Z",
-    "type": "follower_lost",
-    "login": "yukamanawa",
-    "htmlUrl": "https://github.com/yukamanawa",
-    "happenedAt": "2026-04-19T12:31:31.007Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:yutomiwana:2026-04-19T12:31:31.007Z",
-    "type": "follower_lost",
-    "login": "yutomiwana",
-    "htmlUrl": "https://github.com/yutomiwana",
-    "happenedAt": "2026-04-19T12:31:31.007Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
