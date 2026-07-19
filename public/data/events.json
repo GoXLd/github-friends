@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:ashhim:2026-07-19T13:55:40.257Z",
+    "type": "follower_gained",
+    "login": "ashhim",
+    "htmlUrl": "https://github.com/ashhim",
+    "happenedAt": "2026-07-19T13:55:40.257Z"
+  },
+  {
+    "id": "follower_gained:sohaum:2026-07-19T13:55:40.257Z",
+    "type": "follower_gained",
+    "login": "sohaum",
+    "htmlUrl": "https://github.com/sohaum",
+    "happenedAt": "2026-07-19T13:55:40.257Z"
+  },
+  {
+    "id": "follower_lost:enescxx:2026-07-19T13:55:40.257Z",
+    "type": "follower_lost",
+    "login": "enescxx",
+    "htmlUrl": "https://github.com/enescxx",
+    "happenedAt": "2026-07-19T13:55:40.257Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:badguyhalo:2026-07-19T13:55:40.257Z",
+    "type": "you_followed",
+    "login": "BadGuyHalo",
+    "htmlUrl": "https://github.com/BadGuyHalo",
+    "happenedAt": "2026-07-19T13:55:40.257Z"
+  },
+  {
+    "id": "you_unfollowed:kaboodie:2026-07-19T13:55:40.257Z",
+    "type": "you_unfollowed",
+    "login": "KaboodIe",
+    "htmlUrl": "https://github.com/KaboodIe",
+    "happenedAt": "2026-07-19T13:55:40.257Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:valentina-2608:2026-07-19T03:58:20.537Z",
     "type": "follower_gained",
     "login": "Valentina-2608",
@@ -24400,28 +24439,5 @@
     "login": "game-ale",
     "htmlUrl": "https://github.com/game-ale",
     "happenedAt": "2026-04-20T18:39:25.812Z"
-  },
-  {
-    "id": "follower_gained:amjadfertassi:2026-04-20T12:45:08.455Z",
-    "type": "follower_gained",
-    "login": "Amjadfertassi",
-    "htmlUrl": "https://github.com/Amjadfertassi",
-    "happenedAt": "2026-04-20T12:45:08.455Z"
-  },
-  {
-    "id": "follower_gained:celadaniel:2026-04-20T12:45:08.455Z",
-    "type": "follower_gained",
-    "login": "CelaDaniel",
-    "htmlUrl": "https://github.com/CelaDaniel",
-    "happenedAt": "2026-04-20T12:45:08.455Z"
-  },
-  {
-    "id": "you_unfollowed:thisames:2026-04-20T12:45:08.455Z",
-    "type": "you_unfollowed",
-    "login": "thisames",
-    "htmlUrl": "https://github.com/thisames",
-    "happenedAt": "2026-04-20T12:45:08.455Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
