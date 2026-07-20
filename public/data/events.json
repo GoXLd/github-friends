@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:jeallz:2026-07-20T19:58:08.051Z",
+    "type": "follower_gained",
+    "login": "jeallz",
+    "htmlUrl": "https://github.com/jeallz",
+    "happenedAt": "2026-07-20T19:58:08.051Z"
+  },
+  {
     "id": "follower_gained:yonana-sahile:2026-07-20T14:34:21.269Z",
     "type": "follower_gained",
     "login": "yonana-sahile",
@@ -24343,56 +24350,5 @@
     "happenedAt": "2026-04-22T01:01:01.824Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_lost:yakeiore:2026-04-21T18:41:17.559Z",
-    "type": "follower_lost",
-    "login": "yakeIore",
-    "htmlUrl": "https://github.com/yakeIore",
-    "happenedAt": "2026-04-21T18:41:17.559Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:bloodthirstybat:2026-04-21T18:41:17.559Z",
-    "type": "you_followed",
-    "login": "BloodthirstyBat",
-    "htmlUrl": "https://github.com/BloodthirstyBat",
-    "happenedAt": "2026-04-21T18:41:17.559Z"
-  },
-  {
-    "id": "you_followed:c00lfioso:2026-04-21T18:41:17.559Z",
-    "type": "you_followed",
-    "login": "c00lfioso",
-    "htmlUrl": "https://github.com/c00lfioso",
-    "happenedAt": "2026-04-21T18:41:17.559Z"
-  },
-  {
-    "id": "you_followed:iroierr:2026-04-21T18:41:17.559Z",
-    "type": "you_followed",
-    "login": "iRoierr",
-    "htmlUrl": "https://github.com/iRoierr",
-    "happenedAt": "2026-04-21T18:41:17.559Z"
-  },
-  {
-    "id": "you_followed:nirajandhungel:2026-04-21T18:41:17.559Z",
-    "type": "you_followed",
-    "login": "nirajandhungel",
-    "htmlUrl": "https://github.com/nirajandhungel",
-    "happenedAt": "2026-04-21T18:41:17.559Z"
-  },
-  {
-    "id": "you_followed:sfzaw:2026-04-21T18:41:17.559Z",
-    "type": "you_followed",
-    "login": "sfzaw",
-    "htmlUrl": "https://github.com/sfzaw",
-    "happenedAt": "2026-04-21T18:41:17.559Z"
-  },
-  {
-    "id": "you_followed:wobblehiccup:2026-04-21T18:41:17.559Z",
-    "type": "you_followed",
-    "login": "wobblehiccup",
-    "htmlUrl": "https://github.com/wobblehiccup",
-    "happenedAt": "2026-04-21T18:41:17.559Z"
   }
 ]
