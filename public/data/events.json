@@ -1,5 +1,48 @@
 [
   {
+    "id": "follower_gained:yonana-sahile:2026-07-20T14:34:21.269Z",
+    "type": "follower_gained",
+    "login": "yonana-sahile",
+    "htmlUrl": "https://github.com/yonana-sahile",
+    "happenedAt": "2026-07-20T14:34:21.269Z"
+  },
+  {
+    "id": "follower_lost:cansu5806:2026-07-20T14:34:21.269Z",
+    "type": "follower_lost",
+    "login": "CaNSu5806",
+    "htmlUrl": "https://github.com/CaNSu5806",
+    "happenedAt": "2026-07-20T14:34:21.269Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:g1r1shcodes:2026-07-20T14:34:21.269Z",
+    "type": "follower_lost",
+    "login": "G1r1shCodes",
+    "htmlUrl": "https://github.com/G1r1shCodes",
+    "happenedAt": "2026-07-20T14:34:21.269Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ooranq:2026-07-20T14:34:21.269Z",
+    "type": "follower_lost",
+    "login": "ooranq",
+    "htmlUrl": "https://github.com/ooranq",
+    "happenedAt": "2026-07-20T14:34:21.269Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:shemysun-ane:2026-07-20T14:34:21.269Z",
+    "type": "follower_lost",
+    "login": "ShemySUN-ane",
+    "htmlUrl": "https://github.com/ShemySUN-ane",
+    "happenedAt": "2026-07-20T14:34:21.269Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:akobir-s:2026-07-20T09:36:14.090Z",
     "type": "follower_gained",
     "login": "akobir-s",
@@ -24351,21 +24394,5 @@
     "login": "wobblehiccup",
     "htmlUrl": "https://github.com/wobblehiccup",
     "happenedAt": "2026-04-21T18:41:17.559Z"
-  },
-  {
-    "id": "follower_gained:rnam25:2026-04-21T12:42:32.762Z",
-    "type": "follower_gained",
-    "login": "RNAM25",
-    "htmlUrl": "https://github.com/RNAM25",
-    "happenedAt": "2026-04-21T12:42:32.762Z"
-  },
-  {
-    "id": "follower_lost:victorpreston:2026-04-21T12:42:32.762Z",
-    "type": "follower_lost",
-    "login": "victorpreston",
-    "htmlUrl": "https://github.com/victorpreston",
-    "happenedAt": "2026-04-21T12:42:32.762Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
