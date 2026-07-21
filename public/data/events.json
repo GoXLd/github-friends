@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:donaldmorry:2026-07-21T19:53:55.805Z",
+    "type": "follower_gained",
+    "login": "donaldmorry",
+    "htmlUrl": "https://github.com/donaldmorry",
+    "happenedAt": "2026-07-21T19:53:55.805Z"
+  },
+  {
+    "id": "follower_lost:raccoonfacts:2026-07-21T19:53:55.805Z",
+    "type": "follower_lost",
+    "login": "RaccoonFacts",
+    "htmlUrl": "https://github.com/RaccoonFacts",
+    "happenedAt": "2026-07-21T19:53:55.805Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:aeonfun:2026-07-21T14:25:41.183Z",
     "type": "you_followed",
     "login": "aeonfun",
@@ -24382,29 +24398,6 @@
     "login": "HeartlessHorizon",
     "htmlUrl": "https://github.com/HeartlessHorizon",
     "happenedAt": "2026-04-23T01:06:09.368Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:fromtheriver2thesea:2026-04-22T18:41:57.238Z",
-    "type": "follower_gained",
-    "login": "FromTheRiver2TheSea",
-    "htmlUrl": "https://github.com/FromTheRiver2TheSea",
-    "happenedAt": "2026-04-22T18:41:57.238Z"
-  },
-  {
-    "id": "you_followed:heartlesshorizon:2026-04-22T18:41:57.238Z",
-    "type": "you_followed",
-    "login": "HeartlessHorizon",
-    "htmlUrl": "https://github.com/HeartlessHorizon",
-    "happenedAt": "2026-04-22T18:41:57.238Z"
-  },
-  {
-    "id": "you_unfollowed:asrieluo:2026-04-22T18:41:57.238Z",
-    "type": "you_unfollowed",
-    "login": "Asrieluo",
-    "htmlUrl": "https://github.com/Asrieluo",
-    "happenedAt": "2026-04-22T18:41:57.238Z",
     "accountStatus": null,
     "isDeleted": false
   }
