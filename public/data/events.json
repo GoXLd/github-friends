@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:devops2626:2026-07-21T03:49:26.981Z",
+    "type": "follower_gained",
+    "login": "devops2626",
+    "htmlUrl": "https://github.com/devops2626",
+    "happenedAt": "2026-07-21T03:49:26.981Z"
+  },
+  {
+    "id": "follower_gained:martian56:2026-07-21T03:49:26.981Z",
+    "type": "follower_gained",
+    "login": "martian56",
+    "htmlUrl": "https://github.com/martian56",
+    "happenedAt": "2026-07-21T03:49:26.981Z"
+  },
+  {
     "id": "follower_gained:jeallz:2026-07-20T19:58:08.051Z",
     "type": "follower_gained",
     "login": "jeallz",
@@ -24309,46 +24323,5 @@
     "login": "xaintcCirus",
     "htmlUrl": "https://github.com/xaintcCirus",
     "happenedAt": "2026-04-22T12:41:34.633Z"
-  },
-  {
-    "id": "follower_gained:duxorethey:2026-04-22T01:01:01.824Z",
-    "type": "follower_gained",
-    "login": "duxorethey",
-    "htmlUrl": "https://github.com/duxorethey",
-    "happenedAt": "2026-04-22T01:01:01.824Z"
-  },
-  {
-    "id": "follower_gained:gottaru:2026-04-22T01:01:01.824Z",
-    "type": "follower_gained",
-    "login": "Gottaru",
-    "htmlUrl": "https://github.com/Gottaru",
-    "happenedAt": "2026-04-22T01:01:01.824Z"
-  },
-  {
-    "id": "follower_lost:amazing-soft-dev:2026-04-22T01:01:01.824Z",
-    "type": "follower_lost",
-    "login": "amazing-soft-dev",
-    "htmlUrl": "https://github.com/amazing-soft-dev",
-    "happenedAt": "2026-04-22T01:01:01.824Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_lost:parrotfies:2026-04-22T01:01:01.824Z",
-    "type": "follower_lost",
-    "login": "parrotfies",
-    "htmlUrl": "https://github.com/parrotfies",
-    "happenedAt": "2026-04-22T01:01:01.824Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:amazing-soft-dev:2026-04-22T01:01:01.824Z",
-    "type": "you_unfollowed",
-    "login": "amazing-soft-dev",
-    "htmlUrl": "https://github.com/amazing-soft-dev",
-    "happenedAt": "2026-04-22T01:01:01.824Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
