@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:mmmmmmmmmmmppppppppppp:2026-07-22T14:26:12.133Z",
+    "type": "follower_gained",
+    "login": "MMMMMMMMMMMPPPPPPPPPPP",
+    "htmlUrl": "https://github.com/MMMMMMMMMMMPPPPPPPPPPP",
+    "happenedAt": "2026-07-22T14:26:12.133Z"
+  },
+  {
+    "id": "follower_lost:s4vochka:2026-07-22T14:26:12.133Z",
+    "type": "follower_lost",
+    "login": "s4vochka",
+    "htmlUrl": "https://github.com/s4vochka",
+    "happenedAt": "2026-07-22T14:26:12.133Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:aznanseyam:2026-07-22T08:46:20.979Z",
     "type": "follower_lost",
     "login": "AznanSeyam",
@@ -24467,12 +24483,5 @@
     "login": "yaoicollector",
     "htmlUrl": "https://github.com/yaoicollector",
     "happenedAt": "2026-04-23T18:42:57.575Z"
-  },
-  {
-    "id": "follower_gained:kirankumark-sec:2026-04-23T12:42:32.820Z",
-    "type": "follower_gained",
-    "login": "kirankumark-sec",
-    "htmlUrl": "https://github.com/kirankumark-sec",
-    "happenedAt": "2026-04-23T12:42:32.820Z"
   }
 ]
