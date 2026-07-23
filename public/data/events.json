@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:ege-deniz:2026-07-23T03:47:55.400Z",
+    "type": "follower_gained",
+    "login": "Ege-Deniz",
+    "htmlUrl": "https://github.com/Ege-Deniz",
+    "happenedAt": "2026-07-23T03:47:55.400Z"
+  },
+  {
+    "id": "follower_lost:jeallz:2026-07-23T03:47:55.400Z",
+    "type": "follower_lost",
+    "login": "jeallz",
+    "htmlUrl": "https://github.com/jeallz",
+    "happenedAt": "2026-07-23T03:47:55.400Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:arijsayeed:2026-07-23T03:47:55.400Z",
+    "type": "you_followed",
+    "login": "ARIJSAYEED",
+    "htmlUrl": "https://github.com/ARIJSAYEED",
+    "happenedAt": "2026-07-23T03:47:55.400Z"
+  },
+  {
+    "id": "you_followed:maldyaya350-ops:2026-07-23T03:47:55.400Z",
+    "type": "you_followed",
+    "login": "maldyaya350-ops",
+    "htmlUrl": "https://github.com/maldyaya350-ops",
+    "happenedAt": "2026-07-23T03:47:55.400Z"
+  },
+  {
     "id": "follower_gained:chronos-auto:2026-07-22T19:46:26.944Z",
     "type": "follower_gained",
     "login": "chronos-auto",
@@ -24511,33 +24541,5 @@
     "happenedAt": "2026-04-24T07:00:38.475Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:aertsimon90:2026-04-24T01:06:17.772Z",
-    "type": "follower_gained",
-    "login": "aertsimon90",
-    "htmlUrl": "https://github.com/aertsimon90",
-    "happenedAt": "2026-04-24T01:06:17.772Z"
-  },
-  {
-    "id": "follower_gained:junguler:2026-04-24T01:06:17.772Z",
-    "type": "follower_gained",
-    "login": "junguler",
-    "htmlUrl": "https://github.com/junguler",
-    "happenedAt": "2026-04-24T01:06:17.772Z"
-  },
-  {
-    "id": "follower_gained:rubyhelm:2026-04-24T01:06:17.772Z",
-    "type": "follower_gained",
-    "login": "rubyhelm",
-    "htmlUrl": "https://github.com/rubyhelm",
-    "happenedAt": "2026-04-24T01:06:17.772Z"
-  },
-  {
-    "id": "you_followed:aertsimon90:2026-04-24T01:06:17.772Z",
-    "type": "you_followed",
-    "login": "aertsimon90",
-    "htmlUrl": "https://github.com/aertsimon90",
-    "happenedAt": "2026-04-24T01:06:17.772Z"
   }
 ]
