@@ -1,5 +1,33 @@
 [
   {
+    "id": "follower_gained:m7taks:2026-07-23T14:35:07.987Z",
+    "type": "follower_gained",
+    "login": "M7TAKS",
+    "htmlUrl": "https://github.com/M7TAKS",
+    "happenedAt": "2026-07-23T14:35:07.987Z"
+  },
+  {
+    "id": "follower_gained:ntphuc149:2026-07-23T14:35:07.987Z",
+    "type": "follower_gained",
+    "login": "ntphuc149",
+    "htmlUrl": "https://github.com/ntphuc149",
+    "happenedAt": "2026-07-23T14:35:07.987Z"
+  },
+  {
+    "id": "you_followed:m7taks:2026-07-23T14:35:07.987Z",
+    "type": "you_followed",
+    "login": "M7TAKS",
+    "htmlUrl": "https://github.com/M7TAKS",
+    "happenedAt": "2026-07-23T14:35:07.987Z"
+  },
+  {
+    "id": "you_followed:patrick-zippenfenig:2026-07-23T14:35:07.987Z",
+    "type": "you_followed",
+    "login": "patrick-zippenfenig",
+    "htmlUrl": "https://github.com/patrick-zippenfenig",
+    "happenedAt": "2026-07-23T14:35:07.987Z"
+  },
+  {
     "id": "follower_gained:ege-deniz:2026-07-23T03:47:55.400Z",
     "type": "follower_gained",
     "login": "Ege-Deniz",
@@ -24500,22 +24528,6 @@
     "login": "mezentsevs",
     "htmlUrl": "https://github.com/mezentsevs",
     "happenedAt": "2026-04-24T18:32:17.843Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:tordies:2026-04-24T12:40:52.090Z",
-    "type": "follower_gained",
-    "login": "tordies",
-    "htmlUrl": "https://github.com/tordies",
-    "happenedAt": "2026-04-24T12:40:52.090Z"
-  },
-  {
-    "id": "follower_lost:celadaniel:2026-04-24T12:40:52.090Z",
-    "type": "follower_lost",
-    "login": "CelaDaniel",
-    "htmlUrl": "https://github.com/CelaDaniel",
-    "happenedAt": "2026-04-24T12:40:52.090Z",
     "accountStatus": null,
     "isDeleted": false
   }
