@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:ashhim:2026-07-23T19:48:09.199Z",
+    "type": "follower_lost",
+    "login": "ashhim",
+    "htmlUrl": "https://github.com/ashhim",
+    "happenedAt": "2026-07-23T19:48:09.199Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:m7taks:2026-07-23T14:35:07.987Z",
     "type": "follower_gained",
     "login": "M7TAKS",
@@ -24521,14 +24530,5 @@
     "login": "dimkagithub",
     "htmlUrl": "https://github.com/dimkagithub",
     "happenedAt": "2026-04-25T01:00:46.710Z"
-  },
-  {
-    "id": "follower_lost:mezentsevs:2026-04-24T18:32:17.843Z",
-    "type": "follower_lost",
-    "login": "mezentsevs",
-    "htmlUrl": "https://github.com/mezentsevs",
-    "happenedAt": "2026-04-24T18:32:17.843Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
