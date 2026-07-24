@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:ali-hey-0:2026-07-24T08:44:29.971Z",
+    "type": "follower_gained",
+    "login": "Ali-hey-0",
+    "htmlUrl": "https://github.com/Ali-hey-0",
+    "happenedAt": "2026-07-24T08:44:29.971Z"
+  },
+  {
     "id": "follower_gained:ifithrewarock:2026-07-24T03:46:51.975Z",
     "type": "follower_gained",
     "login": "IfIThrewARock",
@@ -24519,22 +24526,6 @@
     "login": "BRAINTtumor",
     "htmlUrl": "https://github.com/BRAINTtumor",
     "happenedAt": "2026-04-25T12:31:49.319Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:qumiuo:2026-04-25T06:47:34.810Z",
-    "type": "follower_gained",
-    "login": "qumiuo",
-    "htmlUrl": "https://github.com/qumiuo",
-    "happenedAt": "2026-04-25T06:47:34.810Z"
-  },
-  {
-    "id": "follower_lost:4hyeon:2026-04-25T06:47:34.810Z",
-    "type": "follower_lost",
-    "login": "4hyeon",
-    "htmlUrl": "https://github.com/4hyeon",
-    "happenedAt": "2026-04-25T06:47:34.810Z",
     "accountStatus": null,
     "isDeleted": false
   }
