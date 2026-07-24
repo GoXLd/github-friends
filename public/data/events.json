@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:ifithrewarock:2026-07-24T03:46:51.975Z",
+    "type": "follower_gained",
+    "login": "IfIThrewARock",
+    "htmlUrl": "https://github.com/IfIThrewARock",
+    "happenedAt": "2026-07-24T03:46:51.975Z"
+  },
+  {
+    "id": "follower_gained:joshuaalbertt:2026-07-24T03:46:51.975Z",
+    "type": "follower_gained",
+    "login": "joshuaalbertt",
+    "htmlUrl": "https://github.com/joshuaalbertt",
+    "happenedAt": "2026-07-24T03:46:51.975Z"
+  },
+  {
     "id": "follower_lost:ashhim:2026-07-23T19:48:09.199Z",
     "type": "follower_lost",
     "login": "ashhim",
@@ -24523,12 +24537,5 @@
     "happenedAt": "2026-04-25T06:47:34.810Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:dimkagithub:2026-04-25T01:00:46.710Z",
-    "type": "follower_gained",
-    "login": "dimkagithub",
-    "htmlUrl": "https://github.com/dimkagithub",
-    "happenedAt": "2026-04-25T01:00:46.710Z"
   }
 ]
