@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:cursivee:2026-07-25T08:25:43.269Z",
+    "type": "follower_gained",
+    "login": "cursivee",
+    "htmlUrl": "https://github.com/cursivee",
+    "happenedAt": "2026-07-25T08:25:43.269Z"
+  },
+  {
+    "id": "follower_lost:1480p:2026-07-25T08:25:43.269Z",
+    "type": "follower_lost",
+    "login": "1480p",
+    "htmlUrl": "https://github.com/1480p",
+    "happenedAt": "2026-07-25T08:25:43.269Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:koklchioma:2026-07-25T08:25:43.269Z",
+    "type": "you_followed",
+    "login": "KOKlCHIOMA",
+    "htmlUrl": "https://github.com/KOKlCHIOMA",
+    "happenedAt": "2026-07-25T08:25:43.269Z"
+  },
+  {
+    "id": "you_unfollowed:nikolaitheclown:2026-07-25T08:25:43.269Z",
+    "type": "you_unfollowed",
+    "login": "nikolaitheclown",
+    "htmlUrl": "https://github.com/nikolaitheclown",
+    "happenedAt": "2026-07-25T08:25:43.269Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:jkk75:2026-07-25T03:41:24.784Z",
     "type": "follower_gained",
     "login": "jkk75",
@@ -24215,12 +24247,5 @@
     "login": "zackingaround",
     "htmlUrl": "https://github.com/zackingaround",
     "happenedAt": "2026-04-26T18:31:34.660Z"
-  },
-  {
-    "id": "follower_gained:truckstoptiger05:2026-04-26T06:58:50.615Z",
-    "type": "follower_gained",
-    "login": "truckstoptiger05",
-    "htmlUrl": "https://github.com/truckstoptiger05",
-    "happenedAt": "2026-04-26T06:58:50.615Z"
   }
 ]
