@@ -1,5 +1,134 @@
 [
   {
+    "id": "follower_gained:jkk75:2026-07-25T03:41:24.784Z",
+    "type": "follower_gained",
+    "login": "jkk75",
+    "htmlUrl": "https://github.com/jkk75",
+    "happenedAt": "2026-07-25T03:41:24.784Z"
+  },
+  {
+    "id": "follower_gained:josejairobaltazargallegos-afk:2026-07-25T03:41:24.784Z",
+    "type": "follower_gained",
+    "login": "josejairobaltazargallegos-afk",
+    "htmlUrl": "https://github.com/josejairobaltazargallegos-afk",
+    "happenedAt": "2026-07-25T03:41:24.784Z"
+  },
+  {
+    "id": "follower_lost:katherinek727:2026-07-25T03:41:24.784Z",
+    "type": "follower_lost",
+    "login": "katherinek727",
+    "htmlUrl": "https://github.com/katherinek727",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:jkk75:2026-07-25T03:41:24.784Z",
+    "type": "you_followed",
+    "login": "jkk75",
+    "htmlUrl": "https://github.com/jkk75",
+    "happenedAt": "2026-07-25T03:41:24.784Z"
+  },
+  {
+    "id": "you_unfollowed:amir-hash19:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "Amir-hash19",
+    "htmlUrl": "https://github.com/Amir-hash19",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:billtsui:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "billtsui",
+    "htmlUrl": "https://github.com/billtsui",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:c0d3st0rm:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "c0d3st0rm",
+    "htmlUrl": "https://github.com/c0d3st0rm",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:etimbukudofia:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "EtimbukUdofia",
+    "htmlUrl": "https://github.com/EtimbukUdofia",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:katherinek727:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "katherinek727",
+    "htmlUrl": "https://github.com/katherinek727",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:keldiyordev:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "KeldiyorDev",
+    "htmlUrl": "https://github.com/KeldiyorDev",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:marcelaferreirar:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "MarcelaFerreiraR",
+    "htmlUrl": "https://github.com/MarcelaFerreiraR",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:marlontyrone:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "marlontyrone",
+    "htmlUrl": "https://github.com/marlontyrone",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:maxamer:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "MaXamer",
+    "htmlUrl": "https://github.com/MaXamer",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:nicolasolmos:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "nicolasolmos",
+    "htmlUrl": "https://github.com/nicolasolmos",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:umer-2k1:2026-07-25T03:41:24.784Z",
+    "type": "you_unfollowed",
+    "login": "umer-2k1",
+    "htmlUrl": "https://github.com/umer-2k1",
+    "happenedAt": "2026-07-25T03:41:24.784Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:arijsayeed:2026-07-24T19:48:52.980Z",
     "type": "follower_gained",
     "login": "ARIJSAYEED",
@@ -24093,14 +24222,5 @@
     "login": "truckstoptiger05",
     "htmlUrl": "https://github.com/truckstoptiger05",
     "happenedAt": "2026-04-26T06:58:50.615Z"
-  },
-  {
-    "id": "follower_lost:peterruler:2026-04-26T01:07:50.475Z",
-    "type": "follower_lost",
-    "login": "peterruler",
-    "htmlUrl": "https://github.com/peterruler",
-    "happenedAt": "2026-04-26T01:07:50.475Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
