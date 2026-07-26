@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:seankamugasa:2026-07-26T03:58:34.695Z",
+    "type": "follower_gained",
+    "login": "seankamugasa",
+    "htmlUrl": "https://github.com/seankamugasa",
+    "happenedAt": "2026-07-26T03:58:34.695Z"
+  },
+  {
+    "id": "follower_lost:gxcoder78:2026-07-26T03:58:34.695Z",
+    "type": "follower_lost",
+    "login": "GXCoder78",
+    "htmlUrl": "https://github.com/GXCoder78",
+    "happenedAt": "2026-07-26T03:58:34.695Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:partypoob:2026-07-25T19:36:39.217Z",
     "type": "you_followed",
     "login": "PartyPoob",
@@ -24084,35 +24100,5 @@
     "login": "zahracheginy",
     "htmlUrl": "https://github.com/zahracheginy",
     "happenedAt": "2026-04-27T07:14:05.903Z"
-  },
-  {
-    "id": "follower_gained:ahmed-amo:2026-04-27T01:08:25.423Z",
-    "type": "follower_gained",
-    "login": "ahmed-amo",
-    "htmlUrl": "https://github.com/ahmed-amo",
-    "happenedAt": "2026-04-27T01:08:25.423Z"
-  },
-  {
-    "id": "follower_gained:doggyfies:2026-04-27T01:08:25.423Z",
-    "type": "follower_gained",
-    "login": "doggyfies",
-    "htmlUrl": "https://github.com/doggyfies",
-    "happenedAt": "2026-04-27T01:08:25.423Z"
-  },
-  {
-    "id": "follower_gained:vladsez:2026-04-27T01:08:25.423Z",
-    "type": "follower_gained",
-    "login": "VladSez",
-    "htmlUrl": "https://github.com/VladSez",
-    "happenedAt": "2026-04-27T01:08:25.423Z"
-  },
-  {
-    "id": "follower_lost:duxorethey:2026-04-27T01:08:25.423Z",
-    "type": "follower_lost",
-    "login": "duxorethey",
-    "htmlUrl": "https://github.com/duxorethey",
-    "happenedAt": "2026-04-27T01:08:25.423Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
