@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:123paynow:2026-07-26T08:40:28.199Z",
+    "type": "follower_gained",
+    "login": "123paynow",
+    "htmlUrl": "https://github.com/123paynow",
+    "happenedAt": "2026-07-26T08:40:28.199Z"
+  },
+  {
     "id": "follower_gained:seankamugasa:2026-07-26T03:58:34.695Z",
     "type": "follower_gained",
     "login": "seankamugasa",
@@ -24079,26 +24086,5 @@
     "login": "Yttek",
     "htmlUrl": "https://github.com/Yttek",
     "happenedAt": "2026-04-27T12:52:36.052Z"
-  },
-  {
-    "id": "follower_gained:fanneyvanny:2026-04-27T07:14:05.903Z",
-    "type": "follower_gained",
-    "login": "FanneyVanny",
-    "htmlUrl": "https://github.com/FanneyVanny",
-    "happenedAt": "2026-04-27T07:14:05.903Z"
-  },
-  {
-    "id": "follower_gained:nayeem-miah:2026-04-27T07:14:05.903Z",
-    "type": "follower_gained",
-    "login": "nayeem-miah",
-    "htmlUrl": "https://github.com/nayeem-miah",
-    "happenedAt": "2026-04-27T07:14:05.903Z"
-  },
-  {
-    "id": "follower_gained:zahracheginy:2026-04-27T07:14:05.903Z",
-    "type": "follower_gained",
-    "login": "zahracheginy",
-    "htmlUrl": "https://github.com/zahracheginy",
-    "happenedAt": "2026-04-27T07:14:05.903Z"
   }
 ]
