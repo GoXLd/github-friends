@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:serdbay:2026-07-27T04:05:10.526Z",
+    "type": "follower_gained",
+    "login": "serdbay",
+    "htmlUrl": "https://github.com/serdbay",
+    "happenedAt": "2026-07-27T04:05:10.526Z"
+  },
+  {
+    "id": "follower_lost:jhoel777ar:2026-07-27T04:05:10.526Z",
+    "type": "follower_lost",
+    "login": "Jhoel777ar",
+    "htmlUrl": "https://github.com/Jhoel777ar",
+    "happenedAt": "2026-07-27T04:05:10.526Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:jhoel777ar:2026-07-27T04:05:10.526Z",
+    "type": "you_unfollowed",
+    "login": "Jhoel777ar",
+    "htmlUrl": "https://github.com/Jhoel777ar",
+    "happenedAt": "2026-07-27T04:05:10.526Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:healercodelabs:2026-07-26T19:37:21.967Z",
     "type": "follower_gained",
     "login": "HealerCodeLabs",
@@ -24851,12 +24876,5 @@
     "login": "zahracheginy",
     "htmlUrl": "https://github.com/zahracheginy",
     "happenedAt": "2026-04-28T12:56:19.321Z"
-  },
-  {
-    "id": "follower_gained:codecraze25:2026-04-28T01:10:14.969Z",
-    "type": "follower_gained",
-    "login": "codecraze25",
-    "htmlUrl": "https://github.com/codecraze25",
-    "happenedAt": "2026-04-28T01:10:14.969Z"
   }
 ]
