@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:akarshi-chaudhary:2026-07-27T19:57:24.918Z",
+    "type": "follower_gained",
+    "login": "Akarshi-Chaudhary",
+    "htmlUrl": "https://github.com/Akarshi-Chaudhary",
+    "happenedAt": "2026-07-27T19:57:24.918Z"
+  },
+  {
+    "id": "follower_gained:jeallz:2026-07-27T19:57:24.918Z",
+    "type": "follower_gained",
+    "login": "jeallz",
+    "htmlUrl": "https://github.com/jeallz",
+    "happenedAt": "2026-07-27T19:57:24.918Z"
+  },
+  {
     "id": "follower_lost:bradleymacdonal:2026-07-27T15:16:17.343Z",
     "type": "follower_lost",
     "login": "bradleymacdonal",
@@ -25696,28 +25710,5 @@
     "happenedAt": "2026-04-29T01:10:58.163Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:abinash019:2026-04-28T18:51:43.013Z",
-    "type": "follower_gained",
-    "login": "abinash019",
-    "htmlUrl": "https://github.com/abinash019",
-    "happenedAt": "2026-04-28T18:51:43.013Z"
-  },
-  {
-    "id": "follower_gained:vsrupeshkumar:2026-04-28T18:51:43.013Z",
-    "type": "follower_gained",
-    "login": "vsrupeshkumar",
-    "htmlUrl": "https://github.com/vsrupeshkumar",
-    "happenedAt": "2026-04-28T18:51:43.013Z"
-  },
-  {
-    "id": "follower_lost:anointedthedeveloper:2026-04-28T18:51:43.013Z",
-    "type": "follower_lost",
-    "login": "anointedthedeveloper",
-    "htmlUrl": "https://github.com/anointedthedeveloper",
-    "happenedAt": "2026-04-28T18:51:43.013Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
