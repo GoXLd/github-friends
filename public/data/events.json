@@ -1,5 +1,59 @@
 [
   {
+    "id": "follower_lost:ahnshy:2026-07-28T09:07:43.127Z",
+    "type": "follower_lost",
+    "login": "ahnshy",
+    "htmlUrl": "https://github.com/ahnshy",
+    "happenedAt": "2026-07-28T09:07:43.127Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:baltazargallegosj-arch:2026-07-28T09:07:43.127Z",
+    "type": "follower_lost",
+    "login": "baltazargallegosj-arch",
+    "htmlUrl": "https://github.com/baltazargallegosj-arch",
+    "happenedAt": "2026-07-28T09:07:43.127Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:ilmtechfoundation:2026-07-28T09:07:43.127Z",
+    "type": "follower_lost",
+    "login": "ilmtechfoundation",
+    "htmlUrl": "https://github.com/ilmtechfoundation",
+    "happenedAt": "2026-07-28T09:07:43.127Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:sauerfriedrich:2026-07-28T09:07:43.127Z",
+    "type": "follower_lost",
+    "login": "sauerfriedrich",
+    "htmlUrl": "https://github.com/sauerfriedrich",
+    "happenedAt": "2026-07-28T09:07:43.127Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:ahnshy:2026-07-28T09:07:43.127Z",
+    "type": "you_unfollowed",
+    "login": "ahnshy",
+    "htmlUrl": "https://github.com/ahnshy",
+    "happenedAt": "2026-07-28T09:07:43.127Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:baltazargallegosj-arch:2026-07-28T09:07:43.127Z",
+    "type": "you_unfollowed",
+    "login": "baltazargallegosj-arch",
+    "htmlUrl": "https://github.com/baltazargallegosj-arch",
+    "happenedAt": "2026-07-28T09:07:43.127Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "you_unfollowed:0ct0sec:2026-07-28T03:40:08.343Z",
     "type": "you_unfollowed",
     "login": "0ct0sec",
@@ -26355,31 +26409,6 @@
     "login": "CheckeredGhvst",
     "htmlUrl": "https://github.com/CheckeredGhvst",
     "happenedAt": "2026-04-29T12:52:26.547Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:narcissisticswag:2026-04-29T07:08:09.747Z",
-    "type": "follower_gained",
-    "login": "NarcissisticSwag",
-    "htmlUrl": "https://github.com/NarcissisticSwag",
-    "happenedAt": "2026-04-29T07:08:09.747Z"
-  },
-  {
-    "id": "follower_lost:doggyfies:2026-04-29T07:08:09.747Z",
-    "type": "follower_lost",
-    "login": "doggyfies",
-    "htmlUrl": "https://github.com/doggyfies",
-    "happenedAt": "2026-04-29T07:08:09.747Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:stanheight:2026-04-29T07:08:09.747Z",
-    "type": "follower_lost",
-    "login": "stanheight",
-    "htmlUrl": "https://github.com/stanheight",
-    "happenedAt": "2026-04-29T07:08:09.747Z",
     "accountStatus": null,
     "isDeleted": false
   }
