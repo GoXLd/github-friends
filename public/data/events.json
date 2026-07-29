@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:spokieshere:2026-07-29T09:12:10.759Z",
+    "type": "follower_gained",
+    "login": "spokieshere",
+    "htmlUrl": "https://github.com/spokieshere",
+    "happenedAt": "2026-07-29T09:12:10.759Z"
+  },
+  {
+    "id": "follower_gained:thakurdivyanshsingh-77:2026-07-29T09:12:10.759Z",
+    "type": "follower_gained",
+    "login": "ThakurDivyanshsingh-77",
+    "htmlUrl": "https://github.com/ThakurDivyanshsingh-77",
+    "happenedAt": "2026-07-29T09:12:10.759Z"
+  },
+  {
+    "id": "follower_gained:yumiaura:2026-07-29T09:12:10.759Z",
+    "type": "follower_gained",
+    "login": "yumiaura",
+    "htmlUrl": "https://github.com/yumiaura",
+    "happenedAt": "2026-07-29T09:12:10.759Z"
+  },
+  {
+    "id": "follower_lost:e8slover:2026-07-29T09:12:10.759Z",
+    "type": "follower_lost",
+    "login": "e8slover",
+    "htmlUrl": "https://github.com/e8slover",
+    "happenedAt": "2026-07-29T09:12:10.759Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:michael-abdo:2026-07-28T19:54:24.336Z",
     "type": "follower_gained",
     "login": "michael-abdo",
@@ -26961,33 +26991,5 @@
     "happenedAt": "2026-04-30T12:52:34.892Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:asmajamshidian:2026-04-30T07:11:07.158Z",
-    "type": "follower_gained",
-    "login": "AsmaJamshidian",
-    "htmlUrl": "https://github.com/AsmaJamshidian",
-    "happenedAt": "2026-04-30T07:11:07.158Z"
-  },
-  {
-    "id": "follower_gained:jovbcorreia:2026-04-30T07:11:07.158Z",
-    "type": "follower_gained",
-    "login": "jovbcorreia",
-    "htmlUrl": "https://github.com/jovbcorreia",
-    "happenedAt": "2026-04-30T07:11:07.158Z"
-  },
-  {
-    "id": "follower_gained:melodyyy-ai:2026-04-30T07:11:07.158Z",
-    "type": "follower_gained",
-    "login": "Melodyyy-ai",
-    "htmlUrl": "https://github.com/Melodyyy-ai",
-    "happenedAt": "2026-04-30T07:11:07.158Z"
-  },
-  {
-    "id": "follower_gained:nelsonnzou-crypt:2026-04-30T07:11:07.158Z",
-    "type": "follower_gained",
-    "login": "nelsonnzou-crypt",
-    "htmlUrl": "https://github.com/nelsonnzou-crypt",
-    "happenedAt": "2026-04-30T07:11:07.158Z"
   }
 ]
