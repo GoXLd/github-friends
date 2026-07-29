@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_lost:elecbug:2026-07-29T14:32:50.860Z",
+    "type": "follower_lost",
+    "login": "elecbug",
+    "htmlUrl": "https://github.com/elecbug",
+    "happenedAt": "2026-07-29T14:32:50.860Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ronaldo-28:2026-07-29T14:32:50.860Z",
+    "type": "follower_lost",
+    "login": "ronaldo-28",
+    "htmlUrl": "https://github.com/ronaldo-28",
+    "happenedAt": "2026-07-29T14:32:50.860Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:valvesoftware:2026-07-29T14:32:50.860Z",
+    "type": "you_followed",
+    "login": "ValveSoftware",
+    "htmlUrl": "https://github.com/ValveSoftware",
+    "happenedAt": "2026-07-29T14:32:50.860Z"
+  },
+  {
     "id": "follower_gained:spokieshere:2026-07-29T09:12:10.759Z",
     "type": "follower_gained",
     "login": "spokieshere",
@@ -26982,14 +27007,5 @@
     "happenedAt": "2026-04-30T18:48:36.638Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_lost:rnam25:2026-04-30T12:52:34.892Z",
-    "type": "follower_lost",
-    "login": "RNAM25",
-    "htmlUrl": "https://github.com/RNAM25",
-    "happenedAt": "2026-04-30T12:52:34.892Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
