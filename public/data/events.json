@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:scottpeat:2026-07-30T14:35:08.633Z",
+    "type": "follower_lost",
+    "login": "scottpeat",
+    "htmlUrl": "https://github.com/scottpeat",
+    "happenedAt": "2026-07-30T14:35:08.633Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:lewickiy:2026-07-30T03:32:47.917Z",
     "type": "follower_gained",
     "login": "Lewickiy",
@@ -27750,29 +27759,6 @@
     "login": "nelsonnzou-crypt",
     "htmlUrl": "https://github.com/nelsonnzou-crypt",
     "happenedAt": "2026-05-01T18:41:26.448Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:thebappy:2026-05-01T12:39:20.462Z",
-    "type": "follower_gained",
-    "login": "theBappy",
-    "htmlUrl": "https://github.com/theBappy",
-    "happenedAt": "2026-05-01T12:39:20.462Z"
-  },
-  {
-    "id": "you_followed:sabrina-carpent3r:2026-05-01T12:39:20.462Z",
-    "type": "you_followed",
-    "login": "SABRINA-CARPENT3R",
-    "htmlUrl": "https://github.com/SABRINA-CARPENT3R",
-    "happenedAt": "2026-05-01T12:39:20.462Z"
-  },
-  {
-    "id": "you_unfollowed:merzonx:2026-05-01T12:39:20.462Z",
-    "type": "you_unfollowed",
-    "login": "merzonx",
-    "htmlUrl": "https://github.com/merzonx",
-    "happenedAt": "2026-05-01T12:39:20.462Z",
     "accountStatus": null,
     "isDeleted": false
   }
