@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:cryptoku39:2026-07-30T19:54:42.313Z",
+    "type": "follower_gained",
+    "login": "cryptoku39",
+    "htmlUrl": "https://github.com/cryptoku39",
+    "happenedAt": "2026-07-30T19:54:42.313Z"
+  },
+  {
+    "id": "follower_gained:jayamurka:2026-07-30T19:54:42.313Z",
+    "type": "follower_gained",
+    "login": "jayamurka",
+    "htmlUrl": "https://github.com/jayamurka",
+    "happenedAt": "2026-07-30T19:54:42.313Z"
+  },
+  {
+    "id": "follower_gained:kiwiconiccbiggestyumeshipper:2026-07-30T19:54:42.313Z",
+    "type": "follower_gained",
+    "login": "KIWICONICCBIGGESTYUMESHIPPER",
+    "htmlUrl": "https://github.com/KIWICONICCBIGGESTYUMESHIPPER",
+    "happenedAt": "2026-07-30T19:54:42.313Z"
+  },
+  {
+    "id": "follower_lost:callmeifyougetlostt:2026-07-30T19:54:42.313Z",
+    "type": "follower_lost",
+    "login": "CALLMEIFYOUGETLOSTT",
+    "htmlUrl": "https://github.com/CALLMEIFYOUGETLOSTT",
+    "happenedAt": "2026-07-30T19:54:42.313Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:tatsuyafujisaki:2026-07-30T19:54:42.313Z",
+    "type": "follower_lost",
+    "login": "tatsuyafujisaki",
+    "htmlUrl": "https://github.com/tatsuyafujisaki",
+    "happenedAt": "2026-07-30T19:54:42.313Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:scottpeat:2026-07-30T14:35:08.633Z",
     "type": "follower_lost",
     "login": "scottpeat",
@@ -27729,36 +27768,6 @@
     "login": "caelum-artifex",
     "htmlUrl": "https://github.com/caelum-artifex",
     "happenedAt": "2026-05-02T01:07:29.409Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:04esburxo2:2026-05-01T18:41:26.448Z",
-    "type": "follower_gained",
-    "login": "04esburxo2",
-    "htmlUrl": "https://github.com/04esburxo2",
-    "happenedAt": "2026-05-01T18:41:26.448Z"
-  },
-  {
-    "id": "follower_gained:arn-c0de:2026-05-01T18:41:26.448Z",
-    "type": "follower_gained",
-    "login": "arn-c0de",
-    "htmlUrl": "https://github.com/arn-c0de",
-    "happenedAt": "2026-05-01T18:41:26.448Z"
-  },
-  {
-    "id": "follower_gained:electroshocktherapy:2026-05-01T18:41:26.448Z",
-    "type": "follower_gained",
-    "login": "electroshocktherapy",
-    "htmlUrl": "https://github.com/electroshocktherapy",
-    "happenedAt": "2026-05-01T18:41:26.448Z"
-  },
-  {
-    "id": "follower_lost:nelsonnzou-crypt:2026-05-01T18:41:26.448Z",
-    "type": "follower_lost",
-    "login": "nelsonnzou-crypt",
-    "htmlUrl": "https://github.com/nelsonnzou-crypt",
-    "happenedAt": "2026-05-01T18:41:26.448Z",
     "accountStatus": null,
     "isDeleted": false
   }
