@@ -27775,44 +27775,5 @@
     "happenedAt": "2026-05-01T12:39:20.462Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:health-ledger:2026-05-01T07:13:31.502Z",
-    "type": "follower_gained",
-    "login": "HEALTH-LEDGER",
-    "htmlUrl": "https://github.com/HEALTH-LEDGER",
-    "happenedAt": "2026-05-01T07:13:31.502Z"
-  },
-  {
-    "id": "follower_gained:thehealingcenterllc4-lgtm:2026-05-01T07:13:31.502Z",
-    "type": "follower_gained",
-    "login": "thehealingcenterllc4-lgtm",
-    "htmlUrl": "https://github.com/thehealingcenterllc4-lgtm",
-    "happenedAt": "2026-05-01T07:13:31.502Z"
-  },
-  {
-    "id": "follower_lost:lucien-valcrest:2026-05-01T07:13:31.502Z",
-    "type": "follower_lost",
-    "login": "LUCIEN-VALCREST",
-    "htmlUrl": "https://github.com/LUCIEN-VALCREST",
-    "happenedAt": "2026-05-01T07:13:31.502Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:americxne-101:2026-05-01T07:13:31.502Z",
-    "type": "you_followed",
-    "login": "Americxne-101",
-    "htmlUrl": "https://github.com/Americxne-101",
-    "happenedAt": "2026-05-01T07:13:31.502Z"
-  },
-  {
-    "id": "you_unfollowed:magicalgirll:2026-05-01T07:13:31.502Z",
-    "type": "you_unfollowed",
-    "login": "magicalgirll",
-    "htmlUrl": "https://github.com/magicalgirll",
-    "happenedAt": "2026-05-01T07:13:31.502Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
