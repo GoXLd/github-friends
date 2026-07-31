@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:sean-din:2026-07-31T09:18:36.606Z",
+    "type": "follower_gained",
+    "login": "Sean-Din",
+    "htmlUrl": "https://github.com/Sean-Din",
+    "happenedAt": "2026-07-31T09:18:36.606Z"
+  },
+  {
+    "id": "follower_lost:bytepil0t:2026-07-31T09:18:36.606Z",
+    "type": "follower_lost",
+    "login": "bytepil0t",
+    "htmlUrl": "https://github.com/bytepil0t",
+    "happenedAt": "2026-07-31T09:18:36.606Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:sean-din:2026-07-31T09:18:36.606Z",
+    "type": "you_followed",
+    "login": "Sean-Din",
+    "htmlUrl": "https://github.com/Sean-Din",
+    "happenedAt": "2026-07-31T09:18:36.606Z"
+  },
+  {
+    "id": "you_unfollowed:bytepil0t:2026-07-31T09:18:36.606Z",
+    "type": "you_unfollowed",
+    "login": "bytepil0t",
+    "htmlUrl": "https://github.com/bytepil0t",
+    "happenedAt": "2026-07-31T09:18:36.606Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_lost:nazmussayad:2026-07-31T03:53:19.326Z",
     "type": "follower_lost",
     "login": "NazmusSayad",
