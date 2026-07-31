@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:nazmussayad:2026-07-31T03:53:19.326Z",
+    "type": "follower_lost",
+    "login": "NazmusSayad",
+    "htmlUrl": "https://github.com/NazmusSayad",
+    "happenedAt": "2026-07-31T03:53:19.326Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:cryptoku39:2026-07-30T19:54:42.313Z",
     "type": "follower_gained",
     "login": "cryptoku39",
@@ -27759,15 +27768,6 @@
     "login": "VenancioFuentes",
     "htmlUrl": "https://github.com/VenancioFuentes",
     "happenedAt": "2026-05-02T12:35:35.885Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:caelum-artifex:2026-05-02T01:07:29.409Z",
-    "type": "follower_lost",
-    "login": "caelum-artifex",
-    "htmlUrl": "https://github.com/caelum-artifex",
-    "happenedAt": "2026-05-02T01:07:29.409Z",
     "accountStatus": null,
     "isDeleted": false
   }
