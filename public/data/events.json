@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:qtdokymi:2026-08-01T19:37:15.251Z",
+    "type": "follower_gained",
+    "login": "qtdokymi",
+    "htmlUrl": "https://github.com/qtdokymi",
+    "happenedAt": "2026-08-01T19:37:15.251Z"
+  },
+  {
+    "id": "follower_lost:3fss:2026-08-01T19:37:15.251Z",
+    "type": "follower_lost",
+    "login": "3fss",
+    "htmlUrl": "https://github.com/3fss",
+    "happenedAt": "2026-08-01T19:37:15.251Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:a-partovii:2026-08-01T19:37:15.251Z",
+    "type": "follower_lost",
+    "login": "a-partovii",
+    "htmlUrl": "https://github.com/a-partovii",
+    "happenedAt": "2026-08-01T19:37:15.251Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:roseheartss:2026-08-01T08:35:02.636Z",
     "type": "follower_gained",
     "login": "Roseheartss",
@@ -27329,41 +27354,5 @@
     "happenedAt": "2026-05-04T12:53:40.104Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_lost:arn-c0de:2026-05-03T18:35:57.486Z",
-    "type": "follower_lost",
-    "login": "arn-c0de",
-    "htmlUrl": "https://github.com/arn-c0de",
-    "happenedAt": "2026-05-03T18:35:57.486Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:thebappy:2026-05-03T18:35:57.486Z",
-    "type": "follower_lost",
-    "login": "theBappy",
-    "htmlUrl": "https://github.com/theBappy",
-    "happenedAt": "2026-05-03T18:35:57.486Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:vsrupeshkumar:2026-05-03T18:35:57.486Z",
-    "type": "follower_lost",
-    "login": "vsrupeshkumar",
-    "htmlUrl": "https://github.com/vsrupeshkumar",
-    "happenedAt": "2026-05-03T18:35:57.486Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:vsrupeshkumar:2026-05-03T18:35:57.486Z",
-    "type": "you_unfollowed",
-    "login": "vsrupeshkumar",
-    "htmlUrl": "https://github.com/vsrupeshkumar",
-    "happenedAt": "2026-05-03T18:35:57.486Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
