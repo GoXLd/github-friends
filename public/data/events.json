@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:haalinghams:2026-08-01T03:53:27.573Z",
+    "type": "follower_gained",
+    "login": "haalinghams",
+    "htmlUrl": "https://github.com/haalinghams",
+    "happenedAt": "2026-08-01T03:53:27.573Z"
+  },
+  {
+    "id": "follower_lost:harveyspecters:2026-08-01T03:53:27.573Z",
+    "type": "follower_lost",
+    "login": "harveyspecters",
+    "htmlUrl": "https://github.com/harveyspecters",
+    "happenedAt": "2026-08-01T03:53:27.573Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:bugbounted:2026-07-31T19:55:06.322Z",
     "type": "follower_lost",
     "login": "bugbounted",
@@ -27392,128 +27408,5 @@
     "happenedAt": "2026-05-03T07:08:51.202Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:dayofthedeparted:2026-05-03T01:14:10.207Z",
-    "type": "follower_gained",
-    "login": "dayofthedeparted",
-    "htmlUrl": "https://github.com/dayofthedeparted",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "follower_gained:jaxxing:2026-05-03T01:14:10.207Z",
-    "type": "follower_gained",
-    "login": "jaxxing",
-    "htmlUrl": "https://github.com/jaxxing",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "follower_gained:mafimatiks:2026-05-03T01:14:10.207Z",
-    "type": "follower_gained",
-    "login": "mafimatiks",
-    "htmlUrl": "https://github.com/mafimatiks",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "follower_gained:prussiairl:2026-05-03T01:14:10.207Z",
-    "type": "follower_gained",
-    "login": "prussiairl",
-    "htmlUrl": "https://github.com/prussiairl",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "follower_gained:spark0914724:2026-05-03T01:14:10.207Z",
-    "type": "follower_gained",
-    "login": "Spark0914724",
-    "htmlUrl": "https://github.com/Spark0914724",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "follower_gained:tomoegozen82:2026-05-03T01:14:10.207Z",
-    "type": "follower_gained",
-    "login": "TomoeGozen82",
-    "htmlUrl": "https://github.com/TomoeGozen82",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "follower_gained:vaibhavv-labs:2026-05-03T01:14:10.207Z",
-    "type": "follower_gained",
-    "login": "vaibhavv-labs",
-    "htmlUrl": "https://github.com/vaibhavv-labs",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "follower_lost:whiskdrinker:2026-05-03T01:14:10.207Z",
-    "type": "follower_lost",
-    "login": "whiskdrinker",
-    "htmlUrl": "https://github.com/whiskdrinker",
-    "happenedAt": "2026-05-03T01:14:10.207Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:amirhosseinhonardoust:2026-05-03T01:14:10.207Z",
-    "type": "you_followed",
-    "login": "AmirhosseinHonardoust",
-    "htmlUrl": "https://github.com/AmirhosseinHonardoust",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "you_followed:dafi-1:2026-05-03T01:14:10.207Z",
-    "type": "you_followed",
-    "login": "DaFi-1",
-    "htmlUrl": "https://github.com/DaFi-1",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "you_followed:dtsola:2026-05-03T01:14:10.207Z",
-    "type": "you_followed",
-    "login": "dtsola",
-    "htmlUrl": "https://github.com/dtsola",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "you_followed:elliotwitness:2026-05-03T01:14:10.207Z",
-    "type": "you_followed",
-    "login": "Elliotwitness",
-    "htmlUrl": "https://github.com/Elliotwitness",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "you_followed:jaxxing:2026-05-03T01:14:10.207Z",
-    "type": "you_followed",
-    "login": "jaxxing",
-    "htmlUrl": "https://github.com/jaxxing",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "you_followed:rim-sha47:2026-05-03T01:14:10.207Z",
-    "type": "you_followed",
-    "login": "Rim-sha47",
-    "htmlUrl": "https://github.com/Rim-sha47",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "you_followed:thehealingcenterllc4-lgtm:2026-05-03T01:14:10.207Z",
-    "type": "you_followed",
-    "login": "thehealingcenterllc4-lgtm",
-    "htmlUrl": "https://github.com/thehealingcenterllc4-lgtm",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "you_followed:vsrupeshkumar:2026-05-03T01:14:10.207Z",
-    "type": "you_followed",
-    "login": "vsrupeshkumar",
-    "htmlUrl": "https://github.com/vsrupeshkumar",
-    "happenedAt": "2026-05-03T01:14:10.207Z"
-  },
-  {
-    "id": "you_unfollowed:whiskdrinker:2026-05-03T01:14:10.207Z",
-    "type": "you_unfollowed",
-    "login": "whiskdrinker",
-    "htmlUrl": "https://github.com/whiskdrinker",
-    "happenedAt": "2026-05-03T01:14:10.207Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
