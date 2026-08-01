@@ -27365,32 +27365,5 @@
     "happenedAt": "2026-05-03T18:35:57.486Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_lost:benalbano:2026-05-03T12:35:44.463Z",
-    "type": "follower_lost",
-    "login": "benalbano",
-    "htmlUrl": "https://github.com/benalbano",
-    "happenedAt": "2026-05-03T12:35:44.463Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:jackweirds:2026-05-03T12:35:44.463Z",
-    "type": "follower_lost",
-    "login": "jackweirds",
-    "htmlUrl": "https://github.com/jackweirds",
-    "happenedAt": "2026-05-03T12:35:44.463Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:yulicwan:2026-05-03T12:35:44.463Z",
-    "type": "follower_lost",
-    "login": "yulicwan",
-    "htmlUrl": "https://github.com/yulicwan",
-    "happenedAt": "2026-05-03T12:35:44.463Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
