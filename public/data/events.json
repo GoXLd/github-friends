@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:roseheartss:2026-08-01T08:35:02.636Z",
+    "type": "follower_gained",
+    "login": "Roseheartss",
+    "htmlUrl": "https://github.com/Roseheartss",
+    "happenedAt": "2026-08-01T08:35:02.636Z"
+  },
+  {
+    "id": "follower_lost:spokkkee:2026-08-01T08:35:02.636Z",
+    "type": "follower_lost",
+    "login": "Spokkkee",
+    "htmlUrl": "https://github.com/Spokkkee",
+    "happenedAt": "2026-08-01T08:35:02.636Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:haalinghams:2026-08-01T03:53:27.573Z",
     "type": "follower_gained",
     "login": "haalinghams",
@@ -27374,38 +27390,6 @@
     "login": "yulicwan",
     "htmlUrl": "https://github.com/yulicwan",
     "happenedAt": "2026-05-03T12:35:44.463Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:berdlyy:2026-05-03T07:08:51.202Z",
-    "type": "follower_gained",
-    "login": "BERDLYY",
-    "htmlUrl": "https://github.com/BERDLYY",
-    "happenedAt": "2026-05-03T07:08:51.202Z"
-  },
-  {
-    "id": "follower_gained:gerivanc:2026-05-03T07:08:51.202Z",
-    "type": "follower_gained",
-    "login": "gerivanc",
-    "htmlUrl": "https://github.com/gerivanc",
-    "happenedAt": "2026-05-03T07:08:51.202Z"
-  },
-  {
-    "id": "follower_lost:olivergrays0n:2026-05-03T07:08:51.202Z",
-    "type": "follower_lost",
-    "login": "OLIVERGRAYS0N",
-    "htmlUrl": "https://github.com/OLIVERGRAYS0N",
-    "happenedAt": "2026-05-03T07:08:51.202Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:pastryi:2026-05-03T07:08:51.202Z",
-    "type": "follower_lost",
-    "login": "Pastryi",
-    "htmlUrl": "https://github.com/Pastryi",
-    "happenedAt": "2026-05-03T07:08:51.202Z",
     "accountStatus": null,
     "isDeleted": false
   }
