@@ -1,5 +1,23 @@
 [
   {
+    "id": "follower_lost:shiqingxuanbear:2026-08-02T13:59:42.421Z",
+    "type": "follower_lost",
+    "login": "shiqingxuanbear",
+    "htmlUrl": "https://github.com/shiqingxuanbear",
+    "happenedAt": "2026-08-02T13:59:42.421Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:veiledhalo:2026-08-02T13:59:42.421Z",
+    "type": "follower_lost",
+    "login": "veiledhalo",
+    "htmlUrl": "https://github.com/veiledhalo",
+    "happenedAt": "2026-08-02T13:59:42.421Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ancaferro:2026-08-02T08:37:45.733Z",
     "type": "follower_gained",
     "login": "ancaferro",
@@ -27348,31 +27366,6 @@
     "login": "v6nillaessence",
     "htmlUrl": "https://github.com/v6nillaessence",
     "happenedAt": "2026-05-04T18:53:23.840Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:d0nqulx0te:2026-05-04T12:53:40.104Z",
-    "type": "follower_gained",
-    "login": "D0NQUlX0TE",
-    "htmlUrl": "https://github.com/D0NQUlX0TE",
-    "happenedAt": "2026-05-04T12:53:40.104Z"
-  },
-  {
-    "id": "follower_lost:ardashlr:2026-05-04T12:53:40.104Z",
-    "type": "follower_lost",
-    "login": "ARDASHlR",
-    "htmlUrl": "https://github.com/ARDASHlR",
-    "happenedAt": "2026-05-04T12:53:40.104Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:pruspole:2026-05-04T12:53:40.104Z",
-    "type": "you_unfollowed",
-    "login": "pruspole",
-    "htmlUrl": "https://github.com/pruspole",
-    "happenedAt": "2026-05-04T12:53:40.104Z",
     "accountStatus": null,
     "isDeleted": false
   }
