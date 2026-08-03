@@ -1,5 +1,39 @@
 [
   {
+    "id": "follower_gained:zack-fa1r:2026-08-03T03:57:47.486Z",
+    "type": "follower_gained",
+    "login": "ZACK-FA1R",
+    "htmlUrl": "https://github.com/ZACK-FA1R",
+    "happenedAt": "2026-08-03T03:57:47.486Z"
+  },
+  {
+    "id": "follower_lost:ddrayko:2026-08-03T03:57:47.486Z",
+    "type": "follower_lost",
+    "login": "ddrayko",
+    "htmlUrl": "https://github.com/ddrayko",
+    "happenedAt": "2026-08-03T03:57:47.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:goof-ex-soldier:2026-08-03T03:57:47.486Z",
+    "type": "follower_lost",
+    "login": "Goof-EX-SOLDIER",
+    "htmlUrl": "https://github.com/Goof-EX-SOLDIER",
+    "happenedAt": "2026-08-03T03:57:47.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:xiaoyouchr:2026-08-03T03:57:47.486Z",
+    "type": "you_unfollowed",
+    "login": "XiaoYouChR",
+    "htmlUrl": "https://github.com/XiaoYouChR",
+    "happenedAt": "2026-08-03T03:57:47.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:shiqingxuanbear:2026-08-02T13:59:42.421Z",
     "type": "follower_lost",
     "login": "shiqingxuanbear",
@@ -26640,44 +26674,5 @@
     "happenedAt": "2026-05-05T18:49:06.548Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:fuelisblood:2026-05-05T01:05:57.873Z",
-    "type": "follower_gained",
-    "login": "Fuelisblood",
-    "htmlUrl": "https://github.com/Fuelisblood",
-    "happenedAt": "2026-05-05T01:05:57.873Z"
-  },
-  {
-    "id": "follower_gained:whiskdrinker:2026-05-05T01:05:57.873Z",
-    "type": "follower_gained",
-    "login": "whiskdrinker",
-    "htmlUrl": "https://github.com/whiskdrinker",
-    "happenedAt": "2026-05-05T01:05:57.873Z"
-  },
-  {
-    "id": "follower_lost:jaxxing:2026-05-05T01:05:57.873Z",
-    "type": "follower_lost",
-    "login": "jaxxing",
-    "htmlUrl": "https://github.com/jaxxing",
-    "happenedAt": "2026-05-05T01:05:57.873Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:whiskdrinker:2026-05-05T01:05:57.873Z",
-    "type": "you_followed",
-    "login": "whiskdrinker",
-    "htmlUrl": "https://github.com/whiskdrinker",
-    "happenedAt": "2026-05-05T01:05:57.873Z"
-  },
-  {
-    "id": "you_unfollowed:jaxxing:2026-05-05T01:05:57.873Z",
-    "type": "you_unfollowed",
-    "login": "jaxxing",
-    "htmlUrl": "https://github.com/jaxxing",
-    "happenedAt": "2026-05-05T01:05:57.873Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
