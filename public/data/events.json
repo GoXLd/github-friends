@@ -1,5 +1,78 @@
 [
   {
+    "id": "follower_gained:alishamari:2026-08-03T15:20:28.095Z",
+    "type": "follower_gained",
+    "login": "alishamari",
+    "htmlUrl": "https://github.com/alishamari",
+    "happenedAt": "2026-08-03T15:20:28.095Z"
+  },
+  {
+    "id": "follower_gained:harrietbrooke:2026-08-03T15:20:28.095Z",
+    "type": "follower_gained",
+    "login": "harrietbrooke",
+    "htmlUrl": "https://github.com/harrietbrooke",
+    "happenedAt": "2026-08-03T15:20:28.095Z"
+  },
+  {
+    "id": "follower_gained:matchingduo:2026-08-03T15:20:28.095Z",
+    "type": "follower_gained",
+    "login": "matchingduo",
+    "htmlUrl": "https://github.com/matchingduo",
+    "happenedAt": "2026-08-03T15:20:28.095Z"
+  },
+  {
+    "id": "follower_gained:sanjanvandijk:2026-08-03T15:20:28.095Z",
+    "type": "follower_gained",
+    "login": "sanjanvandijk",
+    "htmlUrl": "https://github.com/sanjanvandijk",
+    "happenedAt": "2026-08-03T15:20:28.095Z"
+  },
+  {
+    "id": "follower_lost:andrzej43:2026-08-03T15:20:28.095Z",
+    "type": "follower_lost",
+    "login": "Andrzej43",
+    "htmlUrl": "https://github.com/Andrzej43",
+    "happenedAt": "2026-08-03T15:20:28.095Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:averywinston:2026-08-03T15:20:28.095Z",
+    "type": "follower_lost",
+    "login": "averywinston",
+    "htmlUrl": "https://github.com/averywinston",
+    "happenedAt": "2026-08-03T15:20:28.095Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:fushiitaa:2026-08-03T15:20:28.095Z",
+    "type": "follower_lost",
+    "login": "fushiitaa",
+    "htmlUrl": "https://github.com/fushiitaa",
+    "happenedAt": "2026-08-03T15:20:28.095Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:inolog:2026-08-03T15:20:28.095Z",
+    "type": "follower_lost",
+    "login": "inolog",
+    "htmlUrl": "https://github.com/inolog",
+    "happenedAt": "2026-08-03T15:20:28.095Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:jeallz:2026-08-03T15:20:28.095Z",
+    "type": "follower_lost",
+    "login": "jeallz",
+    "htmlUrl": "https://github.com/jeallz",
+    "happenedAt": "2026-08-03T15:20:28.095Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:zack-fa1r:2026-08-03T03:57:47.486Z",
     "type": "follower_gained",
     "login": "ZACK-FA1R",
