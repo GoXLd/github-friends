@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:harukujo227:2026-08-04T03:41:17.044Z",
+    "type": "follower_gained",
+    "login": "harukujo227",
+    "htmlUrl": "https://github.com/harukujo227",
+    "happenedAt": "2026-08-04T03:41:17.044Z"
+  },
+  {
     "id": "follower_gained:alishamari:2026-08-03T15:20:28.095Z",
     "type": "follower_gained",
     "login": "alishamari",
@@ -26270,29 +26277,6 @@
     "login": "yaoicollector",
     "htmlUrl": "https://github.com/yaoicollector",
     "happenedAt": "2026-05-06T12:57:56.493Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:roboticsengrriyu:2026-05-06T01:06:47.468Z",
-    "type": "follower_gained",
-    "login": "RoboticsengrRiyu",
-    "htmlUrl": "https://github.com/RoboticsengrRiyu",
-    "happenedAt": "2026-05-06T01:06:47.468Z"
-  },
-  {
-    "id": "follower_gained:thehappydictator:2026-05-06T01:06:47.468Z",
-    "type": "follower_gained",
-    "login": "thehappydictator",
-    "htmlUrl": "https://github.com/thehappydictator",
-    "happenedAt": "2026-05-06T01:06:47.468Z"
-  },
-  {
-    "id": "follower_lost:top-ace-friend:2026-05-06T01:06:47.468Z",
-    "type": "follower_lost",
-    "login": "top-ace-friend",
-    "htmlUrl": "https://github.com/top-ace-friend",
-    "happenedAt": "2026-05-06T01:06:47.468Z",
     "accountStatus": null,
     "isDeleted": false
   }
