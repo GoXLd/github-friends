@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:peterruler:2026-08-04T19:59:06.145Z",
+    "type": "follower_lost",
+    "login": "peterruler",
+    "htmlUrl": "https://github.com/peterruler",
+    "happenedAt": "2026-08-04T19:59:06.145Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:th3-br41n:2026-08-04T14:41:26.487Z",
     "type": "follower_lost",
     "login": "th3-br41n",
@@ -25850,32 +25859,5 @@
     "happenedAt": "2026-05-07T07:19:46.235Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_lost:dafi-1:2026-05-06T18:54:27.273Z",
-    "type": "follower_lost",
-    "login": "DaFi-1",
-    "htmlUrl": "https://github.com/DaFi-1",
-    "happenedAt": "2026-05-06T18:54:27.273Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:ephmo:2026-05-06T18:54:27.273Z",
-    "type": "follower_lost",
-    "login": "ephmo",
-    "htmlUrl": "https://github.com/ephmo",
-    "happenedAt": "2026-05-06T18:54:27.273Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:ephmo:2026-05-06T18:54:27.273Z",
-    "type": "you_unfollowed",
-    "login": "ephmo",
-    "htmlUrl": "https://github.com/ephmo",
-    "happenedAt": "2026-05-06T18:54:27.273Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
