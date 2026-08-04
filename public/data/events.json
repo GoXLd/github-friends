@@ -1,5 +1,60 @@
 [
   {
+    "id": "follower_gained:antonio-gaskin:2026-08-04T09:11:27.838Z",
+    "type": "follower_gained",
+    "login": "antonio-gaskin",
+    "htmlUrl": "https://github.com/antonio-gaskin",
+    "happenedAt": "2026-08-04T09:11:27.838Z"
+  },
+  {
+    "id": "follower_gained:claerdev:2026-08-04T09:11:27.838Z",
+    "type": "follower_gained",
+    "login": "ClaerDev",
+    "htmlUrl": "https://github.com/ClaerDev",
+    "happenedAt": "2026-08-04T09:11:27.838Z"
+  },
+  {
+    "id": "follower_gained:pursusu:2026-08-04T09:11:27.838Z",
+    "type": "follower_gained",
+    "login": "pursusu",
+    "htmlUrl": "https://github.com/pursusu",
+    "happenedAt": "2026-08-04T09:11:27.838Z"
+  },
+  {
+    "id": "follower_lost:save-robloxia:2026-08-04T09:11:27.838Z",
+    "type": "follower_lost",
+    "login": "save-robloxia",
+    "htmlUrl": "https://github.com/save-robloxia",
+    "happenedAt": "2026-08-04T09:11:27.838Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:tot-dever:2026-08-04T09:11:27.838Z",
+    "type": "follower_lost",
+    "login": "tot-dever",
+    "htmlUrl": "https://github.com/tot-dever",
+    "happenedAt": "2026-08-04T09:11:27.838Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:antonio-gaskin:2026-08-04T09:11:27.838Z",
+    "type": "you_followed",
+    "login": "antonio-gaskin",
+    "htmlUrl": "https://github.com/antonio-gaskin",
+    "happenedAt": "2026-08-04T09:11:27.838Z"
+  },
+  {
+    "id": "you_unfollowed:tot-dever:2026-08-04T09:11:27.838Z",
+    "type": "you_unfollowed",
+    "login": "tot-dever",
+    "htmlUrl": "https://github.com/tot-dever",
+    "happenedAt": "2026-08-04T09:11:27.838Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:harukujo227:2026-08-04T03:41:17.044Z",
     "type": "follower_gained",
     "login": "harukujo227",
