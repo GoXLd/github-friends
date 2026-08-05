@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:gaiaxyisdum:2026-08-05T19:57:07.409Z",
+    "type": "follower_gained",
+    "login": "GaIaxyisdum",
+    "htmlUrl": "https://github.com/GaIaxyisdum",
+    "happenedAt": "2026-08-05T19:57:07.409Z"
+  },
+  {
     "id": "follower_gained:nightmarespoke:2026-08-05T14:35:37.141Z",
     "type": "follower_gained",
     "login": "nightmarespoke",
@@ -25317,29 +25324,6 @@
     "login": "zaydodonovan",
     "htmlUrl": "https://github.com/zaydodonovan",
     "happenedAt": "2026-05-08T01:11:32.217Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:badach6199:2026-05-07T18:55:31.186Z",
-    "type": "follower_gained",
-    "login": "badach6199",
-    "htmlUrl": "https://github.com/badach6199",
-    "happenedAt": "2026-05-07T18:55:31.186Z"
-  },
-  {
-    "id": "follower_gained:xtoshi999:2026-05-07T18:55:31.186Z",
-    "type": "follower_gained",
-    "login": "xtoshi999",
-    "htmlUrl": "https://github.com/xtoshi999",
-    "happenedAt": "2026-05-07T18:55:31.186Z"
-  },
-  {
-    "id": "follower_lost:crazyxdevv:2026-05-07T18:55:31.186Z",
-    "type": "follower_lost",
-    "login": "Crazyxdevv",
-    "htmlUrl": "https://github.com/Crazyxdevv",
-    "happenedAt": "2026-05-07T18:55:31.186Z",
     "accountStatus": null,
     "isDeleted": false
   }
