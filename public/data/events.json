@@ -1,5 +1,46 @@
 [
   {
+    "id": "follower_gained:blingpursuer:2026-08-06T09:08:28.588Z",
+    "type": "follower_gained",
+    "login": "blingpursuer",
+    "htmlUrl": "https://github.com/blingpursuer",
+    "happenedAt": "2026-08-06T09:08:28.588Z"
+  },
+  {
+    "id": "follower_gained:spr1ngb0nnie:2026-08-06T09:08:28.588Z",
+    "type": "follower_gained",
+    "login": "Spr1ngB0nnie",
+    "htmlUrl": "https://github.com/Spr1ngB0nnie",
+    "happenedAt": "2026-08-06T09:08:28.588Z"
+  },
+  {
+    "id": "follower_lost:dogbriel:2026-08-06T09:08:28.588Z",
+    "type": "follower_lost",
+    "login": "dogbriel",
+    "htmlUrl": "https://github.com/dogbriel",
+    "happenedAt": "2026-08-06T09:08:28.588Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:kingfrostii:2026-08-06T09:08:28.588Z",
+    "type": "follower_lost",
+    "login": "KingFrostii",
+    "htmlUrl": "https://github.com/KingFrostii",
+    "happenedAt": "2026-08-06T09:08:28.588Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:pursusu:2026-08-06T09:08:28.588Z",
+    "type": "follower_lost",
+    "login": "pursusu",
+    "htmlUrl": "https://github.com/pursusu",
+    "happenedAt": "2026-08-06T09:08:28.588Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:xcontcom:2026-08-06T03:42:24.157Z",
     "type": "follower_lost",
     "login": "xcontcom",
