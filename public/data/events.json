@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:obraims:2026-08-07T00:17:12.816Z",
+    "type": "follower_lost",
+    "login": "Obraims",
+    "htmlUrl": "https://github.com/Obraims",
+    "happenedAt": "2026-08-07T00:17:12.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:cryptoku39:2026-08-06T14:37:16.199Z",
     "type": "follower_lost",
     "login": "cryptoku39",
@@ -24811,12 +24820,5 @@
     "happenedAt": "2026-05-09T01:09:49.305Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:francisndirangu:2026-05-08T18:48:00.253Z",
-    "type": "follower_gained",
-    "login": "FrancisNdirangu",
-    "htmlUrl": "https://github.com/FrancisNdirangu",
-    "happenedAt": "2026-05-08T18:48:00.253Z"
   }
 ]
