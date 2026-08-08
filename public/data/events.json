@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:coolestsecurity:2026-08-08T07:17:29.829Z",
+    "type": "follower_gained",
+    "login": "CoolestSecurity",
+    "htmlUrl": "https://github.com/CoolestSecurity",
+    "happenedAt": "2026-08-08T07:17:29.829Z"
+  },
+  {
+    "id": "follower_gained:sabbirbinmohiuddin:2026-08-08T07:17:29.829Z",
+    "type": "follower_gained",
+    "login": "sabbirbinmohiuddin",
+    "htmlUrl": "https://github.com/sabbirbinmohiuddin",
+    "happenedAt": "2026-08-08T07:17:29.829Z"
+  },
+  {
+    "id": "follower_lost:kiwiconiccbiggestyumeshipper:2026-08-08T07:17:29.829Z",
+    "type": "follower_lost",
+    "login": "KIWICONICCBIGGESTYUMESHIPPER",
+    "htmlUrl": "https://github.com/KIWICONICCBIGGESTYUMESHIPPER",
+    "happenedAt": "2026-08-08T07:17:29.829Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:zwin-ux:2026-08-08T02:23:17.942Z",
     "type": "follower_gained",
     "login": "Zwin-ux",
@@ -25236,21 +25259,5 @@
     "login": "yashUkalkar",
     "htmlUrl": "https://github.com/yashUkalkar",
     "happenedAt": "2026-05-10T12:38:40.865Z"
-  },
-  {
-    "id": "follower_gained:veyloradev:2026-05-10T07:12:44.549Z",
-    "type": "follower_gained",
-    "login": "veyloradev",
-    "htmlUrl": "https://github.com/veyloradev",
-    "happenedAt": "2026-05-10T07:12:44.549Z"
-  },
-  {
-    "id": "follower_lost:mafimatiks:2026-05-10T07:12:44.549Z",
-    "type": "follower_lost",
-    "login": "mafimatiks",
-    "htmlUrl": "https://github.com/mafimatiks",
-    "happenedAt": "2026-05-10T07:12:44.549Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
