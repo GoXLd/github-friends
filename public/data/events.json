@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:lewickiy:2026-08-09T13:17:45.449Z",
+    "type": "follower_lost",
+    "login": "Lewickiy",
+    "htmlUrl": "https://github.com/Lewickiy",
+    "happenedAt": "2026-08-09T13:17:45.449Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ahsan-khalid01:2026-08-09T02:31:09.836Z",
     "type": "follower_gained",
     "login": "Ahsan-Khalid01",
@@ -25420,22 +25429,6 @@
     "login": "Yogadharshan",
     "htmlUrl": "https://github.com/Yogadharshan",
     "happenedAt": "2026-05-11T13:19:58.985Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:pawun:2026-05-11T07:34:45.121Z",
-    "type": "follower_gained",
-    "login": "pawun",
-    "htmlUrl": "https://github.com/pawun",
-    "happenedAt": "2026-05-11T07:34:45.121Z"
-  },
-  {
-    "id": "follower_lost:narcissisticswag:2026-05-11T07:34:45.121Z",
-    "type": "follower_lost",
-    "login": "NarcissisticSwag",
-    "htmlUrl": "https://github.com/NarcissisticSwag",
-    "happenedAt": "2026-05-11T07:34:45.121Z",
     "accountStatus": null,
     "isDeleted": false
   }
