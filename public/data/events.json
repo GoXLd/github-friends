@@ -1,5 +1,58 @@
 [
   {
+    "id": "follower_gained:ahsan-khalid01:2026-08-09T02:31:09.836Z",
+    "type": "follower_gained",
+    "login": "Ahsan-Khalid01",
+    "htmlUrl": "https://github.com/Ahsan-Khalid01",
+    "happenedAt": "2026-08-09T02:31:09.836Z"
+  },
+  {
+    "id": "follower_gained:dineshsinghdhami:2026-08-09T02:31:09.836Z",
+    "type": "follower_gained",
+    "login": "dineshsinghdhami",
+    "htmlUrl": "https://github.com/dineshsinghdhami",
+    "happenedAt": "2026-08-09T02:31:09.836Z"
+  },
+  {
+    "id": "follower_gained:kyal102:2026-08-09T02:31:09.836Z",
+    "type": "follower_gained",
+    "login": "kyal102",
+    "htmlUrl": "https://github.com/kyal102",
+    "happenedAt": "2026-08-09T02:31:09.836Z"
+  },
+  {
+    "id": "follower_gained:miladjoodi:2026-08-09T02:31:09.836Z",
+    "type": "follower_gained",
+    "login": "MiladJoodi",
+    "htmlUrl": "https://github.com/MiladJoodi",
+    "happenedAt": "2026-08-09T02:31:09.836Z"
+  },
+  {
+    "id": "follower_gained:thecervidaeforest:2026-08-09T02:31:09.836Z",
+    "type": "follower_gained",
+    "login": "TheCervidaeForest",
+    "htmlUrl": "https://github.com/TheCervidaeForest",
+    "happenedAt": "2026-08-09T02:31:09.836Z"
+  },
+  {
+    "id": "follower_lost:vigilante-irl:2026-08-09T02:31:09.836Z",
+    "type": "follower_lost",
+    "login": "Vigilante-Irl",
+    "htmlUrl": "https://github.com/Vigilante-Irl",
+    "happenedAt": "2026-08-09T02:31:09.836Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:valvesoftware:2026-08-09T02:31:09.836Z",
+    "type": "you_unfollowed",
+    "login": "ValveSoftware",
+    "htmlUrl": "https://github.com/ValveSoftware",
+    "happenedAt": "2026-08-09T02:31:09.836Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:hyr4eth:2026-08-08T19:01:03.798Z",
     "type": "follower_gained",
     "login": "hyr4eth",
