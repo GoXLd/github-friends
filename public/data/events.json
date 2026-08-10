@@ -1,5 +1,75 @@
 [
   {
+    "id": "follower_lost:bubhux:2026-08-10T02:36:33.690Z",
+    "type": "follower_lost",
+    "login": "Bubhux",
+    "htmlUrl": "https://github.com/Bubhux",
+    "happenedAt": "2026-08-10T02:36:33.690Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:dracoloveforall-crypto:2026-08-10T02:36:33.690Z",
+    "type": "follower_lost",
+    "login": "dracoloveforall-crypto",
+    "htmlUrl": "https://github.com/dracoloveforall-crypto",
+    "happenedAt": "2026-08-10T02:36:33.690Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:kohzhenjie:2026-08-10T02:36:33.690Z",
+    "type": "follower_lost",
+    "login": "kohzhenjie",
+    "htmlUrl": "https://github.com/kohzhenjie",
+    "happenedAt": "2026-08-10T02:36:33.690Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:kolecheckley:2026-08-10T02:36:33.690Z",
+    "type": "follower_lost",
+    "login": "KoleCheckley",
+    "htmlUrl": "https://github.com/KoleCheckley",
+    "happenedAt": "2026-08-10T02:36:33.690Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:sanjanvandijk:2026-08-10T02:36:33.690Z",
+    "type": "follower_lost",
+    "login": "sanjanvandijk",
+    "htmlUrl": "https://github.com/sanjanvandijk",
+    "happenedAt": "2026-08-10T02:36:33.690Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:aka-riku-arman:2026-08-10T02:36:33.690Z",
+    "type": "you_followed",
+    "login": "aka-riku-arman",
+    "htmlUrl": "https://github.com/aka-riku-arman",
+    "happenedAt": "2026-08-10T02:36:33.690Z"
+  },
+  {
+    "id": "you_unfollowed:aka-codeenamir:2026-08-10T02:36:33.690Z",
+    "type": "you_unfollowed",
+    "login": "aka-CodeenAmir",
+    "htmlUrl": "https://github.com/aka-CodeenAmir",
+    "happenedAt": "2026-08-10T02:36:33.690Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:kohzhenjie:2026-08-10T02:36:33.690Z",
+    "type": "you_unfollowed",
+    "login": "kohzhenjie",
+    "htmlUrl": "https://github.com/kohzhenjie",
+    "happenedAt": "2026-08-10T02:36:33.690Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:kuwakuwa53577:2026-08-09T19:03:45.962Z",
     "type": "follower_gained",
     "login": "kuwakuwa53577",
