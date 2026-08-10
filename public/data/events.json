@@ -1,5 +1,23 @@
 [
   {
+    "id": "follower_lost:alishamari:2026-08-10T08:06:41.193Z",
+    "type": "follower_lost",
+    "login": "alishamari",
+    "htmlUrl": "https://github.com/alishamari",
+    "happenedAt": "2026-08-10T08:06:41.193Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:harrietbrooke:2026-08-10T08:06:41.193Z",
+    "type": "follower_lost",
+    "login": "harrietbrooke",
+    "htmlUrl": "https://github.com/harrietbrooke",
+    "happenedAt": "2026-08-10T08:06:41.193Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:bubhux:2026-08-10T02:36:33.690Z",
     "type": "follower_lost",
     "login": "Bubhux",
@@ -24845,84 +24863,5 @@
     "login": "aashiyaki",
     "htmlUrl": "https://github.com/aashiyaki",
     "happenedAt": "2026-05-12T13:00:49.361Z"
-  },
-  {
-    "id": "follower_gained:canestein:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "canestein",
-    "htmlUrl": "https://github.com/canestein",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_gained:domcomit:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "domcomit",
-    "htmlUrl": "https://github.com/domcomit",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_gained:hanyvert:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "hanyvert",
-    "htmlUrl": "https://github.com/hanyvert",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_gained:hazexone:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "hazexone",
-    "htmlUrl": "https://github.com/hazexone",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_gained:jaderytm:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "jaderytm",
-    "htmlUrl": "https://github.com/jaderytm",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_gained:justint-uh:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "justinT-uH",
-    "htmlUrl": "https://github.com/justinT-uH",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_gained:kylehyne:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "kylehyne",
-    "htmlUrl": "https://github.com/kylehyne",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_gained:lynewinter:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "lynewinter",
-    "htmlUrl": "https://github.com/lynewinter",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_gained:mariwatts:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "mariwatts",
-    "htmlUrl": "https://github.com/mariwatts",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_gained:vierystein:2026-05-12T07:18:56.991Z",
-    "type": "follower_gained",
-    "login": "vierystein",
-    "htmlUrl": "https://github.com/vierystein",
-    "happenedAt": "2026-05-12T07:18:56.991Z"
-  },
-  {
-    "id": "follower_lost:jaiminkansagara1327:2026-05-12T07:18:56.991Z",
-    "type": "follower_lost",
-    "login": "Jaiminkansagara1327",
-    "htmlUrl": "https://github.com/Jaiminkansagara1327",
-    "happenedAt": "2026-05-12T07:18:56.991Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
