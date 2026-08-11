@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:remieiiedan:2026-08-11T07:39:51.342Z",
+    "type": "follower_gained",
+    "login": "remieIIedan",
+    "htmlUrl": "https://github.com/remieIIedan",
+    "happenedAt": "2026-08-11T07:39:51.342Z"
+  },
+  {
+    "id": "follower_lost:oatmiiky:2026-08-11T07:39:51.342Z",
+    "type": "follower_lost",
+    "login": "oatmiIky",
+    "htmlUrl": "https://github.com/oatmiIky",
+    "happenedAt": "2026-08-11T07:39:51.342Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:seo-yeonlee:2026-08-11T02:29:44.233Z",
     "type": "follower_gained",
     "login": "Seo-yeonLee",
