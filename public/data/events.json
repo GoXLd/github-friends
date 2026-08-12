@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:bikramgole:2026-08-12T07:54:33.620Z",
+    "type": "follower_gained",
+    "login": "BikramGole",
+    "htmlUrl": "https://github.com/BikramGole",
+    "happenedAt": "2026-08-12T07:54:33.620Z"
+  },
+  {
+    "id": "follower_gained:brook07:2026-08-12T07:54:33.620Z",
+    "type": "follower_gained",
+    "login": "Brook07",
+    "htmlUrl": "https://github.com/Brook07",
+    "happenedAt": "2026-08-12T07:54:33.620Z"
+  },
+  {
     "id": "follower_gained:lavenganzadelladron:2026-08-12T02:47:02.382Z",
     "type": "follower_gained",
     "login": "LaVenganzaDelLadron",
@@ -25114,12 +25128,5 @@
     "happenedAt": "2026-05-14T12:57:48.563Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:seckinyasar:2026-05-14T07:21:25.370Z",
-    "type": "follower_gained",
-    "login": "seckinyasar",
-    "htmlUrl": "https://github.com/seckinyasar",
-    "happenedAt": "2026-05-14T07:21:25.370Z"
   }
 ]
