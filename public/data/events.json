@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:nour-yahyaoui:2026-08-13T03:01:16.989Z",
+    "type": "follower_gained",
+    "login": "Nour-yahyaoui",
+    "htmlUrl": "https://github.com/Nour-yahyaoui",
+    "happenedAt": "2026-08-13T03:01:16.989Z"
+  },
+  {
+    "id": "follower_lost:seehiong:2026-08-13T03:01:16.989Z",
+    "type": "follower_lost",
+    "login": "seehiong",
+    "htmlUrl": "https://github.com/seehiong",
+    "happenedAt": "2026-08-13T03:01:16.989Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:azkaabds:2026-08-12T19:29:10.385Z",
     "type": "follower_gained",
     "login": "azkaabds",
@@ -25235,26 +25251,5 @@
     "login": "bigmacman1129",
     "htmlUrl": "https://github.com/bigmacman1129",
     "happenedAt": "2026-05-15T07:28:22.669Z"
-  },
-  {
-    "id": "follower_gained:divided099:2026-05-15T01:14:16.833Z",
-    "type": "follower_gained",
-    "login": "divided099",
-    "htmlUrl": "https://github.com/divided099",
-    "happenedAt": "2026-05-15T01:14:16.833Z"
-  },
-  {
-    "id": "follower_gained:resolutefemi:2026-05-15T01:14:16.833Z",
-    "type": "follower_gained",
-    "login": "Resolutefemi",
-    "htmlUrl": "https://github.com/Resolutefemi",
-    "happenedAt": "2026-05-15T01:14:16.833Z"
-  },
-  {
-    "id": "follower_gained:seehiong:2026-05-15T01:14:16.833Z",
-    "type": "follower_gained",
-    "login": "seehiong",
-    "htmlUrl": "https://github.com/seehiong",
-    "happenedAt": "2026-05-15T01:14:16.833Z"
   }
 ]
