@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:mftrferdinand:2026-08-13T07:55:56.879Z",
+    "type": "follower_gained",
+    "login": "Mftrferdinand",
+    "htmlUrl": "https://github.com/Mftrferdinand",
+    "happenedAt": "2026-08-13T07:55:56.879Z"
+  },
+  {
+    "id": "follower_lost:kamil-kucharski:2026-08-13T07:55:56.879Z",
+    "type": "follower_lost",
+    "login": "kamil-kucharski",
+    "htmlUrl": "https://github.com/kamil-kucharski",
+    "happenedAt": "2026-08-13T07:55:56.879Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:nour-yahyaoui:2026-08-13T03:01:16.989Z",
     "type": "follower_gained",
     "login": "Nour-yahyaoui",
@@ -25244,12 +25260,5 @@
     "login": "YukiABCS",
     "htmlUrl": "https://github.com/YukiABCS",
     "happenedAt": "2026-05-15T13:00:41.203Z"
-  },
-  {
-    "id": "follower_gained:bigmacman1129:2026-05-15T07:28:22.669Z",
-    "type": "follower_gained",
-    "login": "bigmacman1129",
-    "htmlUrl": "https://github.com/bigmacman1129",
-    "happenedAt": "2026-05-15T07:28:22.669Z"
   }
 ]
