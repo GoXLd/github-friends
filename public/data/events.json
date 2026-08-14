@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:martian56:2026-08-14T07:52:41.500Z",
+    "type": "follower_lost",
+    "login": "martian56",
+    "htmlUrl": "https://github.com/martian56",
+    "happenedAt": "2026-08-14T07:52:41.500Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ledogael37-dot:2026-08-14T02:48:15.726Z",
     "type": "follower_gained",
     "login": "ledogael37-dot",
@@ -25217,12 +25226,5 @@
     "happenedAt": "2026-05-16T12:40:43.939Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:illusive7ai:2026-05-16T07:05:38.688Z",
-    "type": "follower_gained",
-    "login": "illusive7ai",
-    "htmlUrl": "https://github.com/illusive7ai",
-    "happenedAt": "2026-05-16T07:05:38.688Z"
   }
 ]
