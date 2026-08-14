@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:ledogael37-dot:2026-08-14T02:48:15.726Z",
+    "type": "follower_gained",
+    "login": "ledogael37-dot",
+    "htmlUrl": "https://github.com/ledogael37-dot",
+    "happenedAt": "2026-08-14T02:48:15.726Z"
+  },
+  {
+    "id": "follower_lost:mftrferdinand:2026-08-14T02:48:15.726Z",
+    "type": "follower_lost",
+    "login": "Mftrferdinand",
+    "htmlUrl": "https://github.com/Mftrferdinand",
+    "happenedAt": "2026-08-14T02:48:15.726Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:spr1ngb0nnie:2026-08-13T19:27:47.458Z",
     "type": "follower_lost",
     "login": "Spr1ngB0nnie",
