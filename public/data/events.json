@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:aprildontcry:2026-08-15T13:00:49.238Z",
+    "type": "follower_gained",
+    "login": "aprildontcry",
+    "htmlUrl": "https://github.com/aprildontcry",
+    "happenedAt": "2026-08-15T13:00:49.238Z"
+  },
+  {
+    "id": "follower_lost:qumiuo:2026-08-15T13:00:49.238Z",
+    "type": "follower_lost",
+    "login": "qumiuo",
+    "htmlUrl": "https://github.com/qumiuo",
+    "happenedAt": "2026-08-15T13:00:49.238Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:vodyanista:2026-08-15T06:59:52.482Z",
     "type": "follower_gained",
     "login": "vodyanista",
