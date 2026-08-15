@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:vodyanista:2026-08-15T06:59:52.482Z",
+    "type": "follower_gained",
+    "login": "vodyanista",
+    "htmlUrl": "https://github.com/vodyanista",
+    "happenedAt": "2026-08-15T06:59:52.482Z"
+  },
+  {
+    "id": "follower_lost:ghost-bakery:2026-08-15T06:59:52.482Z",
+    "type": "follower_lost",
+    "login": "Ghost-Bakery",
+    "htmlUrl": "https://github.com/Ghost-Bakery",
+    "happenedAt": "2026-08-15T06:59:52.482Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:saantdahal:2026-08-15T06:59:52.482Z",
+    "type": "follower_lost",
+    "login": "saantdahal",
+    "htmlUrl": "https://github.com/saantdahal",
+    "happenedAt": "2026-08-15T06:59:52.482Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:gumpaws:2026-08-15T01:51:49.305Z",
     "type": "follower_gained",
     "login": "gumpaws",
