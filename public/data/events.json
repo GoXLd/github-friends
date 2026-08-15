@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:gumpaws:2026-08-15T01:51:49.305Z",
+    "type": "follower_gained",
+    "login": "gumpaws",
+    "htmlUrl": "https://github.com/gumpaws",
+    "happenedAt": "2026-08-15T01:51:49.305Z"
+  },
+  {
+    "id": "follower_gained:mesbaulrafi:2026-08-15T01:51:49.305Z",
+    "type": "follower_gained",
+    "login": "mesbaulrafi",
+    "htmlUrl": "https://github.com/mesbaulrafi",
+    "happenedAt": "2026-08-15T01:51:49.305Z"
+  },
+  {
+    "id": "follower_lost:coolestsecurity:2026-08-15T01:51:49.305Z",
+    "type": "follower_lost",
+    "login": "CoolestSecurity",
+    "htmlUrl": "https://github.com/CoolestSecurity",
+    "happenedAt": "2026-08-15T01:51:49.305Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:maher-elmair:2026-08-15T01:51:49.305Z",
+    "type": "follower_lost",
+    "login": "Maher-Elmair",
+    "htmlUrl": "https://github.com/Maher-Elmair",
+    "happenedAt": "2026-08-15T01:51:49.305Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:boomray:2026-08-14T19:16:14.779Z",
     "type": "follower_gained",
     "login": "boomray",
@@ -25287,28 +25319,5 @@
     "login": "C00LKKID",
     "htmlUrl": "https://github.com/C00LKKID",
     "happenedAt": "2026-05-17T18:39:06.732Z"
-  },
-  {
-    "id": "follower_gained:batcurn:2026-05-17T01:18:10.359Z",
-    "type": "follower_gained",
-    "login": "batcurn",
-    "htmlUrl": "https://github.com/batcurn",
-    "happenedAt": "2026-05-17T01:18:10.359Z"
-  },
-  {
-    "id": "follower_gained:hexninja555:2026-05-17T01:18:10.359Z",
-    "type": "follower_gained",
-    "login": "HexNinja555",
-    "htmlUrl": "https://github.com/HexNinja555",
-    "happenedAt": "2026-05-17T01:18:10.359Z"
-  },
-  {
-    "id": "follower_lost:resolutefemi:2026-05-17T01:18:10.359Z",
-    "type": "follower_lost",
-    "login": "Resolutefemi",
-    "htmlUrl": "https://github.com/Resolutefemi",
-    "happenedAt": "2026-05-17T01:18:10.359Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
