@@ -1,5 +1,41 @@
 [
   {
+    "id": "follower_lost:9michael-cooley:2026-08-15T18:48:50.486Z",
+    "type": "follower_lost",
+    "login": "9Michael-Cooley",
+    "htmlUrl": "https://github.com/9Michael-Cooley",
+    "happenedAt": "2026-08-15T18:48:50.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:elvinhasanov3d:2026-08-15T18:48:50.486Z",
+    "type": "follower_lost",
+    "login": "ElvinHasanov3d",
+    "htmlUrl": "https://github.com/ElvinHasanov3d",
+    "happenedAt": "2026-08-15T18:48:50.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:kevinwong455:2026-08-15T18:48:50.486Z",
+    "type": "follower_lost",
+    "login": "KevinWong455",
+    "htmlUrl": "https://github.com/KevinWong455",
+    "happenedAt": "2026-08-15T18:48:50.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:seo-yeonlee:2026-08-15T18:48:50.486Z",
+    "type": "follower_lost",
+    "login": "Seo-yeonLee",
+    "htmlUrl": "https://github.com/Seo-yeonLee",
+    "happenedAt": "2026-08-15T18:48:50.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:aprildontcry:2026-08-15T13:00:49.238Z",
     "type": "follower_gained",
     "login": "aprildontcry",
@@ -25353,12 +25389,5 @@
     "happenedAt": "2026-05-18T01:20:07.262Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:c00lkkid:2026-05-17T18:39:06.732Z",
-    "type": "follower_gained",
-    "login": "C00LKKID",
-    "htmlUrl": "https://github.com/C00LKKID",
-    "happenedAt": "2026-05-17T18:39:06.732Z"
   }
 ]
