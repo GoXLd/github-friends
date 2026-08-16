@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:tokyo-teddy:2026-08-16T01:58:43.468Z",
+    "type": "follower_gained",
+    "login": "tokyo-teddy",
+    "htmlUrl": "https://github.com/tokyo-teddy",
+    "happenedAt": "2026-08-16T01:58:43.468Z"
+  },
+  {
+    "id": "follower_lost:vodyanista:2026-08-16T01:58:43.468Z",
+    "type": "follower_lost",
+    "login": "vodyanista",
+    "htmlUrl": "https://github.com/vodyanista",
+    "happenedAt": "2026-08-16T01:58:43.468Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:9michael-cooley:2026-08-15T18:48:50.486Z",
     "type": "follower_lost",
     "login": "9Michael-Cooley",
@@ -25362,31 +25378,6 @@
     "login": "seckinyasar",
     "htmlUrl": "https://github.com/seckinyasar",
     "happenedAt": "2026-05-18T07:45:27.138Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:aza-ali:2026-05-18T01:20:07.262Z",
-    "type": "follower_lost",
-    "login": "aza-ali",
-    "htmlUrl": "https://github.com/aza-ali",
-    "happenedAt": "2026-05-18T01:20:07.262Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:screamotabi:2026-05-18T01:20:07.262Z",
-    "type": "you_followed",
-    "login": "screamotabi",
-    "htmlUrl": "https://github.com/screamotabi",
-    "happenedAt": "2026-05-18T01:20:07.262Z"
-  },
-  {
-    "id": "you_unfollowed:bloomism:2026-05-18T01:20:07.262Z",
-    "type": "you_unfollowed",
-    "login": "bloomism",
-    "htmlUrl": "https://github.com/bloomism",
-    "happenedAt": "2026-05-18T01:20:07.262Z",
     "accountStatus": null,
     "isDeleted": false
   }
