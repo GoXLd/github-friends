@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:mftrferdinand:2026-08-18T07:07:01.105Z",
+    "type": "follower_gained",
+    "login": "Mftrferdinand",
+    "htmlUrl": "https://github.com/Mftrferdinand",
+    "happenedAt": "2026-08-18T07:07:01.105Z"
+  },
+  {
+    "id": "follower_lost:azkaabds:2026-08-18T07:07:01.105Z",
+    "type": "follower_lost",
+    "login": "azkaabds",
+    "htmlUrl": "https://github.com/azkaabds",
+    "happenedAt": "2026-08-18T07:07:01.105Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:nisyalz01:2026-08-18T07:07:01.105Z",
+    "type": "follower_lost",
+    "login": "Nisyalz01",
+    "htmlUrl": "https://github.com/Nisyalz01",
+    "happenedAt": "2026-08-18T07:07:01.105Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:aibers:2026-08-18T01:52:38.203Z",
     "type": "follower_gained",
     "login": "aibers",
