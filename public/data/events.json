@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:giaquy2000and4:2026-08-18T13:10:46.214Z",
+    "type": "follower_gained",
+    "login": "giaquy2000and4",
+    "htmlUrl": "https://github.com/giaquy2000and4",
+    "happenedAt": "2026-08-18T13:10:46.214Z"
+  },
+  {
+    "id": "follower_gained:godfreyonyinkwa:2026-08-18T13:10:46.214Z",
+    "type": "follower_gained",
+    "login": "godfreyonyinkwa",
+    "htmlUrl": "https://github.com/godfreyonyinkwa",
+    "happenedAt": "2026-08-18T13:10:46.214Z"
+  },
+  {
     "id": "follower_gained:mftrferdinand:2026-08-18T07:07:01.105Z",
     "type": "follower_gained",
     "login": "Mftrferdinand",
@@ -25233,21 +25247,5 @@
     "login": "HexNinja555",
     "htmlUrl": "https://github.com/HexNinja555",
     "happenedAt": "2026-05-20T13:18:02.892Z"
-  },
-  {
-    "id": "follower_gained:sumersingpatil2694:2026-05-20T07:32:09.528Z",
-    "type": "follower_gained",
-    "login": "Sumersingpatil2694",
-    "htmlUrl": "https://github.com/Sumersingpatil2694",
-    "happenedAt": "2026-05-20T07:32:09.528Z"
-  },
-  {
-    "id": "follower_lost:hexninja555:2026-05-20T07:32:09.528Z",
-    "type": "follower_lost",
-    "login": "HexNinja555",
-    "htmlUrl": "https://github.com/HexNinja555",
-    "happenedAt": "2026-05-20T07:32:09.528Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
