@@ -1,5 +1,40 @@
 [
   {
+    "id": "follower_gained:giorgi014:2026-08-19T01:54:34.248Z",
+    "type": "follower_gained",
+    "login": "Giorgi014",
+    "htmlUrl": "https://github.com/Giorgi014",
+    "happenedAt": "2026-08-19T01:54:34.248Z"
+  },
+  {
+    "id": "follower_gained:journaltraces:2026-08-19T01:54:34.248Z",
+    "type": "follower_gained",
+    "login": "journaltraces",
+    "htmlUrl": "https://github.com/journaltraces",
+    "happenedAt": "2026-08-19T01:54:34.248Z"
+  },
+  {
+    "id": "follower_gained:magic-abracadabra:2026-08-19T01:54:34.248Z",
+    "type": "follower_gained",
+    "login": "Magic-Abracadabra",
+    "htmlUrl": "https://github.com/Magic-Abracadabra",
+    "happenedAt": "2026-08-19T01:54:34.248Z"
+  },
+  {
+    "id": "follower_gained:supercodeartisan:2026-08-19T01:54:34.248Z",
+    "type": "follower_gained",
+    "login": "supercodeartisan",
+    "htmlUrl": "https://github.com/supercodeartisan",
+    "happenedAt": "2026-08-19T01:54:34.248Z"
+  },
+  {
+    "id": "follower_gained:superfamily-kents:2026-08-19T01:54:34.248Z",
+    "type": "follower_gained",
+    "login": "Superfamily-kents",
+    "htmlUrl": "https://github.com/Superfamily-kents",
+    "happenedAt": "2026-08-19T01:54:34.248Z"
+  },
+  {
     "id": "follower_gained:lucidspirits:2026-08-18T18:58:58.243Z",
     "type": "follower_gained",
     "login": "lucidspirits",
@@ -25374,69 +25409,5 @@
     "login": "aza-ali",
     "htmlUrl": "https://github.com/aza-ali",
     "happenedAt": "2026-05-21T07:36:27.041Z"
-  },
-  {
-    "id": "follower_gained:bytemir:2026-05-21T01:21:38.026Z",
-    "type": "follower_gained",
-    "login": "bytemir",
-    "htmlUrl": "https://github.com/bytemir",
-    "happenedAt": "2026-05-21T01:21:38.026Z"
-  },
-  {
-    "id": "follower_gained:chatman-media:2026-05-21T01:21:38.026Z",
-    "type": "follower_gained",
-    "login": "chatman-media",
-    "htmlUrl": "https://github.com/chatman-media",
-    "happenedAt": "2026-05-21T01:21:38.026Z"
-  },
-  {
-    "id": "follower_gained:fluffiestfluffs:2026-05-21T01:21:38.026Z",
-    "type": "follower_gained",
-    "login": "fluffiestfluffs",
-    "htmlUrl": "https://github.com/fluffiestfluffs",
-    "happenedAt": "2026-05-21T01:21:38.026Z"
-  },
-  {
-    "id": "follower_lost:pupfjsh:2026-05-21T01:21:38.026Z",
-    "type": "follower_lost",
-    "login": "pupfjsh",
-    "htmlUrl": "https://github.com/pupfjsh",
-    "happenedAt": "2026-05-21T01:21:38.026Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:veyloradev:2026-05-21T01:21:38.026Z",
-    "type": "follower_lost",
-    "login": "veyloradev",
-    "htmlUrl": "https://github.com/veyloradev",
-    "happenedAt": "2026-05-21T01:21:38.026Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:ddrayko:2026-05-20T19:07:11.319Z",
-    "type": "follower_gained",
-    "login": "ddrayko",
-    "htmlUrl": "https://github.com/ddrayko",
-    "happenedAt": "2026-05-20T19:07:11.319Z"
-  },
-  {
-    "id": "follower_lost:cypher-ke:2026-05-20T19:07:11.319Z",
-    "type": "follower_lost",
-    "login": "Cypher-KE",
-    "htmlUrl": "https://github.com/Cypher-KE",
-    "happenedAt": "2026-05-20T19:07:11.319Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:kgeminic:2026-05-20T19:07:11.319Z",
-    "type": "follower_lost",
-    "login": "Kgeminic",
-    "htmlUrl": "https://github.com/Kgeminic",
-    "happenedAt": "2026-05-20T19:07:11.319Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
