@@ -1,5 +1,67 @@
 [
   {
+    "id": "follower_gained:alexandra2888:2026-08-19T18:55:25.779Z",
+    "type": "follower_gained",
+    "login": "Alexandra2888",
+    "htmlUrl": "https://github.com/Alexandra2888",
+    "happenedAt": "2026-08-19T18:55:25.779Z"
+  },
+  {
+    "id": "follower_gained:barissozudogru:2026-08-19T18:55:25.779Z",
+    "type": "follower_gained",
+    "login": "barissozudogru",
+    "htmlUrl": "https://github.com/barissozudogru",
+    "happenedAt": "2026-08-19T18:55:25.779Z"
+  },
+  {
+    "id": "follower_gained:dr3ln4:2026-08-19T18:55:25.779Z",
+    "type": "follower_gained",
+    "login": "DR3LN4",
+    "htmlUrl": "https://github.com/DR3LN4",
+    "happenedAt": "2026-08-19T18:55:25.779Z"
+  },
+  {
+    "id": "follower_gained:toritilla:2026-08-19T18:55:25.779Z",
+    "type": "follower_gained",
+    "login": "toritilla",
+    "htmlUrl": "https://github.com/toritilla",
+    "happenedAt": "2026-08-19T18:55:25.779Z"
+  },
+  {
+    "id": "follower_lost:bylernation:2026-08-19T18:55:25.779Z",
+    "type": "follower_lost",
+    "login": "bylernation",
+    "htmlUrl": "https://github.com/bylernation",
+    "happenedAt": "2026-08-19T18:55:25.779Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ladiesman217onebay:2026-08-19T18:55:25.779Z",
+    "type": "follower_lost",
+    "login": "LadiesMan217onEbay",
+    "htmlUrl": "https://github.com/LadiesMan217onEbay",
+    "happenedAt": "2026-08-19T18:55:25.779Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:dr3ln4:2026-08-19T18:55:25.779Z",
+    "type": "you_followed",
+    "login": "DR3LN4",
+    "htmlUrl": "https://github.com/DR3LN4",
+    "happenedAt": "2026-08-19T18:55:25.779Z"
+  },
+  {
+    "id": "you_unfollowed:ladiesman217onebay:2026-08-19T18:55:25.779Z",
+    "type": "you_unfollowed",
+    "login": "LadiesMan217onEbay",
+    "htmlUrl": "https://github.com/LadiesMan217onEbay",
+    "happenedAt": "2026-08-19T18:55:25.779Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_lost:mftrferdinand:2026-08-19T13:12:08.228Z",
     "type": "follower_lost",
     "login": "Mftrferdinand",
