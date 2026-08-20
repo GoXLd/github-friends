@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:meta-success:2026-08-20T01:53:35.041Z",
+    "type": "follower_gained",
+    "login": "meta-success",
+    "htmlUrl": "https://github.com/meta-success",
+    "happenedAt": "2026-08-20T01:53:35.041Z"
+  },
+  {
     "id": "follower_gained:alexandra2888:2026-08-19T18:55:25.779Z",
     "type": "follower_gained",
     "login": "Alexandra2888",
@@ -25609,37 +25616,5 @@
     "happenedAt": "2026-05-22T07:32:25.317Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:duxorethey:2026-05-22T01:19:55.834Z",
-    "type": "follower_gained",
-    "login": "duxorethey",
-    "htmlUrl": "https://github.com/duxorethey",
-    "happenedAt": "2026-05-22T01:19:55.834Z"
-  },
-  {
-    "id": "follower_lost:buildduo:2026-05-22T01:19:55.834Z",
-    "type": "follower_lost",
-    "login": "buildduo",
-    "htmlUrl": "https://github.com/buildduo",
-    "happenedAt": "2026-05-22T01:19:55.834Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:duxorethey:2026-05-22T01:19:55.834Z",
-    "type": "you_followed",
-    "login": "duxorethey",
-    "htmlUrl": "https://github.com/duxorethey",
-    "happenedAt": "2026-05-22T01:19:55.834Z"
-  },
-  {
-    "id": "you_unfollowed:buildduo:2026-05-22T01:19:55.834Z",
-    "type": "you_unfollowed",
-    "login": "buildduo",
-    "htmlUrl": "https://github.com/buildduo",
-    "happenedAt": "2026-05-22T01:19:55.834Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
