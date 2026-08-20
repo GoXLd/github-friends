@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:abc3dz:2026-08-20T07:08:33.072Z",
+    "type": "follower_gained",
+    "login": "abc3dz",
+    "htmlUrl": "https://github.com/abc3dz",
+    "happenedAt": "2026-08-20T07:08:33.072Z"
+  },
+  {
+    "id": "follower_lost:nour-yahyaoui:2026-08-20T07:08:33.072Z",
+    "type": "follower_lost",
+    "login": "Nour-yahyaoui",
+    "htmlUrl": "https://github.com/Nour-yahyaoui",
+    "happenedAt": "2026-08-20T07:08:33.072Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:meta-success:2026-08-20T01:53:35.041Z",
     "type": "follower_gained",
     "login": "meta-success",
