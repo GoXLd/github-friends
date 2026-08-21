@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:cemdrk:2026-08-21T13:13:16.455Z",
+    "type": "follower_gained",
+    "login": "cemdrk",
+    "htmlUrl": "https://github.com/cemdrk",
+    "happenedAt": "2026-08-21T13:13:16.455Z"
+  },
+  {
+    "id": "follower_gained:teacuplin:2026-08-21T13:13:16.455Z",
+    "type": "follower_gained",
+    "login": "teacuplin",
+    "htmlUrl": "https://github.com/teacuplin",
+    "happenedAt": "2026-08-21T13:13:16.455Z"
+  },
+  {
+    "id": "follower_lost:bd-mutant7:2026-08-21T13:13:16.455Z",
+    "type": "follower_lost",
+    "login": "Bd-Mutant7",
+    "htmlUrl": "https://github.com/Bd-Mutant7",
+    "happenedAt": "2026-08-21T13:13:16.455Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:shylovjin:2026-08-21T13:13:16.455Z",
+    "type": "follower_lost",
+    "login": "shylovjin",
+    "htmlUrl": "https://github.com/shylovjin",
+    "happenedAt": "2026-08-21T13:13:16.455Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:teacuplin:2026-08-21T13:13:16.455Z",
+    "type": "you_followed",
+    "login": "teacuplin",
+    "htmlUrl": "https://github.com/teacuplin",
+    "happenedAt": "2026-08-21T13:13:16.455Z"
+  },
+  {
+    "id": "you_unfollowed:shylovjin:2026-08-21T13:13:16.455Z",
+    "type": "you_unfollowed",
+    "login": "shylovjin",
+    "htmlUrl": "https://github.com/shylovjin",
+    "happenedAt": "2026-08-21T13:13:16.455Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:nazmussayad:2026-08-21T01:59:25.173Z",
     "type": "follower_gained",
     "login": "NazmusSayad",
@@ -25563,54 +25611,6 @@
     "login": "duxorethey",
     "htmlUrl": "https://github.com/duxorethey",
     "happenedAt": "2026-05-23T18:39:33.536Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_gained:i3i33:2026-05-23T12:39:44.227Z",
-    "type": "follower_gained",
-    "login": "i3i33",
-    "htmlUrl": "https://github.com/i3i33",
-    "happenedAt": "2026-05-23T12:39:44.227Z"
-  },
-  {
-    "id": "follower_lost:roicell:2026-05-23T12:39:44.227Z",
-    "type": "follower_lost",
-    "login": "roicell",
-    "htmlUrl": "https://github.com/roicell",
-    "happenedAt": "2026-05-23T12:39:44.227Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:alexndrabarnes:2026-05-23T07:14:07.745Z",
-    "type": "follower_gained",
-    "login": "alexndrabarnes",
-    "htmlUrl": "https://github.com/alexndrabarnes",
-    "happenedAt": "2026-05-23T07:14:07.745Z"
-  },
-  {
-    "id": "follower_lost:yinglantan:2026-05-23T07:14:07.745Z",
-    "type": "follower_lost",
-    "login": "yinglantan",
-    "htmlUrl": "https://github.com/yinglantan",
-    "happenedAt": "2026-05-23T07:14:07.745Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:alexndrabarnes:2026-05-23T07:14:07.745Z",
-    "type": "you_followed",
-    "login": "alexndrabarnes",
-    "htmlUrl": "https://github.com/alexndrabarnes",
-    "happenedAt": "2026-05-23T07:14:07.745Z"
-  },
-  {
-    "id": "you_unfollowed:yinglantan:2026-05-23T07:14:07.745Z",
-    "type": "you_unfollowed",
-    "login": "yinglantan",
-    "htmlUrl": "https://github.com/yinglantan",
-    "happenedAt": "2026-05-23T07:14:07.745Z",
     "accountStatus": "deleted",
     "isDeleted": true
   }
