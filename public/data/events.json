@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:jameswang1010:2026-08-22T01:52:30.651Z",
+    "type": "follower_gained",
+    "login": "jameswang1010",
+    "htmlUrl": "https://github.com/jameswang1010",
+    "happenedAt": "2026-08-22T01:52:30.651Z"
+  },
+  {
+    "id": "follower_gained:teddietokio:2026-08-22T01:52:30.651Z",
+    "type": "follower_gained",
+    "login": "teddietokio",
+    "htmlUrl": "https://github.com/teddietokio",
+    "happenedAt": "2026-08-22T01:52:30.651Z"
+  },
+  {
+    "id": "follower_lost:peterruler:2026-08-22T01:52:30.651Z",
+    "type": "follower_lost",
+    "login": "peterruler",
+    "htmlUrl": "https://github.com/peterruler",
+    "happenedAt": "2026-08-22T01:52:30.651Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:tokyo-teddy:2026-08-22T01:52:30.651Z",
+    "type": "follower_lost",
+    "login": "tokyo-teddy",
+    "htmlUrl": "https://github.com/tokyo-teddy",
+    "happenedAt": "2026-08-22T01:52:30.651Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:cemdrk:2026-08-21T13:13:16.455Z",
     "type": "follower_gained",
     "login": "cemdrk",
