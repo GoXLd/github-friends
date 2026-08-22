@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:natedemoss:2026-08-22T18:50:50.697Z",
+    "type": "follower_gained",
+    "login": "natedemoss",
+    "htmlUrl": "https://github.com/natedemoss",
+    "happenedAt": "2026-08-22T18:50:50.697Z"
+  },
+  {
+    "id": "follower_gained:vikas9892:2026-08-22T18:50:50.697Z",
+    "type": "follower_gained",
+    "login": "Vikas9892",
+    "htmlUrl": "https://github.com/Vikas9892",
+    "happenedAt": "2026-08-22T18:50:50.697Z"
+  },
+  {
     "id": "follower_gained:ettisafxrup:2026-08-22T13:02:57.836Z",
     "type": "follower_gained",
     "login": "ettisafxrup",
@@ -25563,12 +25577,5 @@
     "happenedAt": "2026-05-25T07:55:39.666Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:anshull-rajput:2026-05-24T18:41:50.439Z",
-    "type": "follower_gained",
-    "login": "anshull-rajput",
-    "htmlUrl": "https://github.com/anshull-rajput",
-    "happenedAt": "2026-05-24T18:41:50.439Z"
   }
 ]
