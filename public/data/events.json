@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:bernardowd:2026-08-23T18:50:06.427Z",
+    "type": "follower_gained",
+    "login": "bernardowd",
+    "htmlUrl": "https://github.com/bernardowd",
+    "happenedAt": "2026-08-23T18:50:06.427Z"
+  },
+  {
+    "id": "follower_gained:sarverott:2026-08-23T18:50:06.427Z",
+    "type": "follower_gained",
+    "login": "Sarverott",
+    "htmlUrl": "https://github.com/Sarverott",
+    "happenedAt": "2026-08-23T18:50:06.427Z"
+  },
+  {
+    "id": "follower_gained:wiradifit:2026-08-23T18:50:06.427Z",
+    "type": "follower_gained",
+    "login": "wiradifit",
+    "htmlUrl": "https://github.com/wiradifit",
+    "happenedAt": "2026-08-23T18:50:06.427Z"
+  },
+  {
+    "id": "follower_lost:ettisafxrup:2026-08-23T18:50:06.427Z",
+    "type": "follower_lost",
+    "login": "ettisafxrup",
+    "htmlUrl": "https://github.com/ettisafxrup",
+    "happenedAt": "2026-08-23T18:50:06.427Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:vvxlx:2026-08-23T13:04:09.815Z",
     "type": "follower_gained",
     "login": "vvxlx",
@@ -25699,28 +25729,5 @@
     "login": "mohammadhasanii",
     "htmlUrl": "https://github.com/mohammadhasanii",
     "happenedAt": "2026-05-26T13:22:54.026Z"
-  },
-  {
-    "id": "follower_gained:albertolawant:2026-05-25T13:29:04.563Z",
-    "type": "follower_gained",
-    "login": "albertolawant",
-    "htmlUrl": "https://github.com/albertolawant",
-    "happenedAt": "2026-05-25T13:29:04.563Z"
-  },
-  {
-    "id": "follower_gained:sheriffsec:2026-05-25T13:29:04.563Z",
-    "type": "follower_gained",
-    "login": "sheriffsec",
-    "htmlUrl": "https://github.com/sheriffsec",
-    "happenedAt": "2026-05-25T13:29:04.563Z"
-  },
-  {
-    "id": "follower_lost:thephantomdelux:2026-05-25T13:29:04.563Z",
-    "type": "follower_lost",
-    "login": "thephantomdelux",
-    "htmlUrl": "https://github.com/thephantomdelux",
-    "happenedAt": "2026-05-25T13:29:04.563Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
