@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:vvxlx:2026-08-23T13:04:09.815Z",
+    "type": "follower_gained",
+    "login": "vvxlx",
+    "htmlUrl": "https://github.com/vvxlx",
+    "happenedAt": "2026-08-23T13:04:09.815Z"
+  },
+  {
     "id": "follower_gained:fatemeh231:2026-08-23T07:03:56.197Z",
     "type": "follower_gained",
     "login": "fatemeh231",
@@ -25713,54 +25720,6 @@
     "login": "thephantomdelux",
     "htmlUrl": "https://github.com/thephantomdelux",
     "happenedAt": "2026-05-25T13:29:04.563Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:aishiteitanoni:2026-05-25T07:55:39.666Z",
-    "type": "follower_gained",
-    "login": "aishiteitanoni",
-    "htmlUrl": "https://github.com/aishiteitanoni",
-    "happenedAt": "2026-05-25T07:55:39.666Z"
-  },
-  {
-    "id": "follower_lost:missingdogs:2026-05-25T07:55:39.666Z",
-    "type": "follower_lost",
-    "login": "missingdogs",
-    "htmlUrl": "https://github.com/missingdogs",
-    "happenedAt": "2026-05-25T07:55:39.666Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:aishiteitanoni:2026-05-25T07:55:39.666Z",
-    "type": "you_followed",
-    "login": "aishiteitanoni",
-    "htmlUrl": "https://github.com/aishiteitanoni",
-    "happenedAt": "2026-05-25T07:55:39.666Z"
-  },
-  {
-    "id": "you_followed:lo0nygoon:2026-05-25T07:55:39.666Z",
-    "type": "you_followed",
-    "login": "Lo0nyGoon",
-    "htmlUrl": "https://github.com/Lo0nyGoon",
-    "happenedAt": "2026-05-25T07:55:39.666Z"
-  },
-  {
-    "id": "you_unfollowed:missingdogs:2026-05-25T07:55:39.666Z",
-    "type": "you_unfollowed",
-    "login": "missingdogs",
-    "htmlUrl": "https://github.com/missingdogs",
-    "happenedAt": "2026-05-25T07:55:39.666Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:ph1loc4list:2026-05-25T07:55:39.666Z",
-    "type": "you_unfollowed",
-    "login": "ph1loc4list",
-    "htmlUrl": "https://github.com/ph1loc4list",
-    "happenedAt": "2026-05-25T07:55:39.666Z",
     "accountStatus": null,
     "isDeleted": false
   }
