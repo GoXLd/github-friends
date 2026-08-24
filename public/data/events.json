@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:codeyevsky:2026-08-24T13:16:00.098Z",
+    "type": "follower_gained",
+    "login": "codeyevsky",
+    "htmlUrl": "https://github.com/codeyevsky",
+    "happenedAt": "2026-08-24T13:16:00.098Z"
+  },
+  {
+    "id": "you_unfollowed:techcanvix:2026-08-24T13:16:00.098Z",
+    "type": "you_unfollowed",
+    "login": "TechCanvix",
+    "htmlUrl": "https://github.com/TechCanvix",
+    "happenedAt": "2026-08-24T13:16:00.098Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_unfollowed:carrollcarol:2026-08-24T01:59:06.606Z",
     "type": "you_unfollowed",
     "login": "carrollcarol",
