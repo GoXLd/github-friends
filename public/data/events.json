@@ -1,5 +1,69 @@
 [
   {
+    "id": "follower_gained:omar0219:2026-08-25T07:10:47.654Z",
+    "type": "follower_gained",
+    "login": "omar0219",
+    "htmlUrl": "https://github.com/omar0219",
+    "happenedAt": "2026-08-25T07:10:47.654Z"
+  },
+  {
+    "id": "follower_gained:patch-breaker:2026-08-25T07:10:47.654Z",
+    "type": "follower_gained",
+    "login": "patch-breaker",
+    "htmlUrl": "https://github.com/patch-breaker",
+    "happenedAt": "2026-08-25T07:10:47.654Z"
+  },
+  {
+    "id": "follower_gained:ra3orblade:2026-08-25T07:10:47.654Z",
+    "type": "follower_gained",
+    "login": "ra3orblade",
+    "htmlUrl": "https://github.com/ra3orblade",
+    "happenedAt": "2026-08-25T07:10:47.654Z"
+  },
+  {
+    "id": "follower_lost:christianr108:2026-08-25T07:10:47.654Z",
+    "type": "follower_lost",
+    "login": "christianr108",
+    "htmlUrl": "https://github.com/christianr108",
+    "happenedAt": "2026-08-25T07:10:47.654Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:pridefultraps:2026-08-25T07:10:47.654Z",
+    "type": "follower_lost",
+    "login": "PridefulTraps",
+    "htmlUrl": "https://github.com/PridefulTraps",
+    "happenedAt": "2026-08-25T07:10:47.654Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:saravananbass12-tech:2026-08-25T07:10:47.654Z",
+    "type": "follower_lost",
+    "login": "saravananbass12-tech",
+    "htmlUrl": "https://github.com/saravananbass12-tech",
+    "happenedAt": "2026-08-25T07:10:47.654Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:patch-breaker:2026-08-25T07:10:47.654Z",
+    "type": "you_followed",
+    "login": "patch-breaker",
+    "htmlUrl": "https://github.com/patch-breaker",
+    "happenedAt": "2026-08-25T07:10:47.654Z"
+  },
+  {
+    "id": "you_unfollowed:pridefultraps:2026-08-25T07:10:47.654Z",
+    "type": "you_unfollowed",
+    "login": "PridefulTraps",
+    "htmlUrl": "https://github.com/PridefulTraps",
+    "happenedAt": "2026-08-25T07:10:47.654Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:prowltactics:2026-08-25T01:54:30.158Z",
     "type": "follower_gained",
     "login": "ProwlTactics",
