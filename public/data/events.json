@@ -1,5 +1,51 @@
 [
   {
+    "id": "follower_gained:prowltactics:2026-08-25T01:54:30.158Z",
+    "type": "follower_gained",
+    "login": "ProwlTactics",
+    "htmlUrl": "https://github.com/ProwlTactics",
+    "happenedAt": "2026-08-25T01:54:30.158Z"
+  },
+  {
+    "id": "follower_gained:th3-br41n:2026-08-25T01:54:30.158Z",
+    "type": "follower_gained",
+    "login": "th3-br41n",
+    "htmlUrl": "https://github.com/th3-br41n",
+    "happenedAt": "2026-08-25T01:54:30.158Z"
+  },
+  {
+    "id": "follower_lost:dr3ln4:2026-08-25T01:54:30.158Z",
+    "type": "follower_lost",
+    "login": "DR3LN4",
+    "htmlUrl": "https://github.com/DR3LN4",
+    "happenedAt": "2026-08-25T01:54:30.158Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:prowltactics:2026-08-25T01:54:30.158Z",
+    "type": "you_followed",
+    "login": "ProwlTactics",
+    "htmlUrl": "https://github.com/ProwlTactics",
+    "happenedAt": "2026-08-25T01:54:30.158Z"
+  },
+  {
+    "id": "you_followed:th3-br41n:2026-08-25T01:54:30.158Z",
+    "type": "you_followed",
+    "login": "th3-br41n",
+    "htmlUrl": "https://github.com/th3-br41n",
+    "happenedAt": "2026-08-25T01:54:30.158Z"
+  },
+  {
+    "id": "you_unfollowed:dr3ln4:2026-08-25T01:54:30.158Z",
+    "type": "you_unfollowed",
+    "login": "DR3LN4",
+    "htmlUrl": "https://github.com/DR3LN4",
+    "happenedAt": "2026-08-25T01:54:30.158Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:abdessamed-britah:2026-08-24T19:02:22.255Z",
     "type": "follower_gained",
     "login": "abdessamed-britah",
@@ -25861,23 +25907,5 @@
     "happenedAt": "2026-05-27T13:35:03.633Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_lost:eduardoliboriox:2026-05-27T01:22:02.314Z",
-    "type": "follower_lost",
-    "login": "eduardoliboriox",
-    "htmlUrl": "https://github.com/eduardoliboriox",
-    "happenedAt": "2026-05-27T01:22:02.314Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:eduardoliboriox:2026-05-27T01:22:02.314Z",
-    "type": "you_unfollowed",
-    "login": "eduardoliboriox",
-    "htmlUrl": "https://github.com/eduardoliboriox",
-    "happenedAt": "2026-05-27T01:22:02.314Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
