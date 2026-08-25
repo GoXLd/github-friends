@@ -1,5 +1,51 @@
 [
   {
+    "id": "follower_gained:anaxr:2026-08-25T13:13:34.225Z",
+    "type": "follower_gained",
+    "login": "anaxr",
+    "htmlUrl": "https://github.com/anaxr",
+    "happenedAt": "2026-08-25T13:13:34.225Z"
+  },
+  {
+    "id": "follower_gained:christianr108:2026-08-25T13:13:34.225Z",
+    "type": "follower_gained",
+    "login": "christianr108",
+    "htmlUrl": "https://github.com/christianr108",
+    "happenedAt": "2026-08-25T13:13:34.225Z"
+  },
+  {
+    "id": "follower_gained:knmlabs:2026-08-25T13:13:34.225Z",
+    "type": "follower_gained",
+    "login": "knmlabs",
+    "htmlUrl": "https://github.com/knmlabs",
+    "happenedAt": "2026-08-25T13:13:34.225Z"
+  },
+  {
+    "id": "follower_gained:lumnaire:2026-08-25T13:13:34.225Z",
+    "type": "follower_gained",
+    "login": "lumnaire",
+    "htmlUrl": "https://github.com/lumnaire",
+    "happenedAt": "2026-08-25T13:13:34.225Z"
+  },
+  {
+    "id": "follower_lost:kenjiwizard:2026-08-25T13:13:34.225Z",
+    "type": "follower_lost",
+    "login": "kenjiwizard",
+    "htmlUrl": "https://github.com/kenjiwizard",
+    "happenedAt": "2026-08-25T13:13:34.225Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:omar0219:2026-08-25T13:13:34.225Z",
+    "type": "follower_lost",
+    "login": "omar0219",
+    "htmlUrl": "https://github.com/omar0219",
+    "happenedAt": "2026-08-25T13:13:34.225Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:omar0219:2026-08-25T07:10:47.654Z",
     "type": "follower_gained",
     "login": "omar0219",
