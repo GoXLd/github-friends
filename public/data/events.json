@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:dantroline-sys:2026-08-26T13:19:20.354Z",
+    "type": "follower_gained",
+    "login": "dantroline-sys",
+    "htmlUrl": "https://github.com/dantroline-sys",
+    "happenedAt": "2026-08-26T13:19:20.354Z"
+  },
+  {
+    "id": "follower_lost:rahadbhuiya:2026-08-26T13:19:20.354Z",
+    "type": "follower_lost",
+    "login": "rahadbhuiya",
+    "htmlUrl": "https://github.com/rahadbhuiya",
+    "happenedAt": "2026-08-26T13:19:20.354Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:vvxlx:2026-08-26T13:19:20.354Z",
+    "type": "follower_lost",
+    "login": "vvxlx",
+    "htmlUrl": "https://github.com/vvxlx",
+    "happenedAt": "2026-08-26T13:19:20.354Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:arpitrajjj:2026-08-25T18:59:48.873Z",
     "type": "follower_gained",
     "login": "arpitrajjj",
@@ -25291,42 +25316,5 @@
     "login": "zombietfk",
     "htmlUrl": "https://github.com/zombietfk",
     "happenedAt": "2026-05-28T13:37:46.981Z"
-  },
-  {
-    "id": "follower_gained:anajulialeite:2026-05-28T07:41:37.109Z",
-    "type": "follower_gained",
-    "login": "anajulialeite",
-    "htmlUrl": "https://github.com/anajulialeite",
-    "happenedAt": "2026-05-28T07:41:37.109Z"
-  },
-  {
-    "id": "follower_gained:codwithyc:2026-05-28T07:41:37.109Z",
-    "type": "follower_gained",
-    "login": "codwithyc",
-    "htmlUrl": "https://github.com/codwithyc",
-    "happenedAt": "2026-05-28T07:41:37.109Z"
-  },
-  {
-    "id": "follower_gained:hacrex:2026-05-28T07:41:37.109Z",
-    "type": "follower_gained",
-    "login": "hacrex",
-    "htmlUrl": "https://github.com/hacrex",
-    "happenedAt": "2026-05-28T07:41:37.109Z"
-  },
-  {
-    "id": "follower_gained:t3ardrop:2026-05-28T07:41:37.109Z",
-    "type": "follower_gained",
-    "login": "T3ARDROP",
-    "htmlUrl": "https://github.com/T3ARDROP",
-    "happenedAt": "2026-05-28T07:41:37.109Z"
-  },
-  {
-    "id": "follower_lost:scorchingfire:2026-05-28T07:41:37.109Z",
-    "type": "follower_lost",
-    "login": "scorchingfire",
-    "htmlUrl": "https://github.com/scorchingfire",
-    "happenedAt": "2026-05-28T07:41:37.109Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
