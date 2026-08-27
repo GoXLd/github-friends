@@ -1,5 +1,46 @@
 [
   {
+    "id": "follower_gained:cummesp:2026-08-27T22:18:46.020Z",
+    "type": "follower_gained",
+    "login": "cummesp",
+    "htmlUrl": "https://github.com/cummesp",
+    "happenedAt": "2026-08-27T22:18:46.020Z"
+  },
+  {
+    "id": "follower_gained:haalingham:2026-08-27T22:18:46.020Z",
+    "type": "follower_gained",
+    "login": "Haalingham",
+    "htmlUrl": "https://github.com/Haalingham",
+    "happenedAt": "2026-08-27T22:18:46.020Z"
+  },
+  {
+    "id": "follower_lost:chrono-stasis:2026-08-27T22:18:46.020Z",
+    "type": "follower_lost",
+    "login": "Chrono-stasis",
+    "htmlUrl": "https://github.com/Chrono-stasis",
+    "happenedAt": "2026-08-27T22:18:46.020Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:codeyevsky:2026-08-27T22:18:46.020Z",
+    "type": "follower_lost",
+    "login": "codeyevsky",
+    "htmlUrl": "https://github.com/codeyevsky",
+    "happenedAt": "2026-08-27T22:18:46.020Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ettisafxrup:2026-08-27T22:18:46.020Z",
+    "type": "follower_lost",
+    "login": "ettisafxrup",
+    "htmlUrl": "https://github.com/ettisafxrup",
+    "happenedAt": "2026-08-27T22:18:46.020Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:designsee:2026-08-27T09:55:43.452Z",
     "type": "follower_gained",
     "login": "DesignSee",
@@ -24988,63 +25029,5 @@
     "login": "wuanunet",
     "htmlUrl": "https://github.com/wuanunet",
     "happenedAt": "2026-05-30T01:17:27.387Z"
-  },
-  {
-    "id": "follower_gained:ermi9:2026-05-29T19:12:13.167Z",
-    "type": "follower_gained",
-    "login": "ermi9",
-    "htmlUrl": "https://github.com/ermi9",
-    "happenedAt": "2026-05-29T19:12:13.167Z"
-  },
-  {
-    "id": "follower_gained:greeniskawaii:2026-05-29T19:12:13.167Z",
-    "type": "follower_gained",
-    "login": "greeniskawaii",
-    "htmlUrl": "https://github.com/greeniskawaii",
-    "happenedAt": "2026-05-29T19:12:13.167Z"
-  },
-  {
-    "id": "follower_lost:anointedthedeveloper:2026-05-29T19:12:13.167Z",
-    "type": "follower_lost",
-    "login": "anointedthedeveloper",
-    "htmlUrl": "https://github.com/anointedthedeveloper",
-    "happenedAt": "2026-05-29T19:12:13.167Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:eggchann:2026-05-29T13:29:50.896Z",
-    "type": "follower_gained",
-    "login": "eggchann",
-    "htmlUrl": "https://github.com/eggchann",
-    "happenedAt": "2026-05-29T13:29:50.896Z"
-  },
-  {
-    "id": "follower_gained:kayanshah:2026-05-29T13:29:50.896Z",
-    "type": "follower_gained",
-    "login": "KayanShah",
-    "htmlUrl": "https://github.com/KayanShah",
-    "happenedAt": "2026-05-29T13:29:50.896Z"
-  },
-  {
-    "id": "follower_gained:nookery:2026-05-29T13:29:50.896Z",
-    "type": "follower_gained",
-    "login": "nookery",
-    "htmlUrl": "https://github.com/nookery",
-    "happenedAt": "2026-05-29T13:29:50.896Z"
-  },
-  {
-    "id": "follower_gained:tahaelfit17:2026-05-29T13:29:50.896Z",
-    "type": "follower_gained",
-    "login": "tahaelfit17",
-    "htmlUrl": "https://github.com/tahaelfit17",
-    "happenedAt": "2026-05-29T13:29:50.896Z"
-  },
-  {
-    "id": "follower_gained:vladimirnagibin:2026-05-29T13:29:50.896Z",
-    "type": "follower_gained",
-    "login": "VladimirNagibin",
-    "htmlUrl": "https://github.com/VladimirNagibin",
-    "happenedAt": "2026-05-29T13:29:50.896Z"
   }
 ]
