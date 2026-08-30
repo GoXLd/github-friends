@@ -1,5 +1,21 @@
 [
   {
+    "id": "you_followed:automobileenthusiast:2026-08-30T21:11:17.704Z",
+    "type": "you_followed",
+    "login": "AutomobileEnthusiast",
+    "htmlUrl": "https://github.com/AutomobileEnthusiast",
+    "happenedAt": "2026-08-30T21:11:17.704Z"
+  },
+  {
+    "id": "you_unfollowed:prowltactics:2026-08-30T21:11:17.704Z",
+    "type": "you_unfollowed",
+    "login": "ProwlTactics",
+    "htmlUrl": "https://github.com/ProwlTactics",
+    "happenedAt": "2026-08-30T21:11:17.704Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:bassiebioomington:2026-08-30T16:44:53.543Z",
     "type": "follower_gained",
     "login": "bassiebIoomington",
@@ -23753,14 +23769,5 @@
     "login": "yusranAbd",
     "htmlUrl": "https://github.com/yusranAbd",
     "happenedAt": "2026-06-02T01:27:56.180Z"
-  },
-  {
-    "id": "follower_lost:francisndirangu:2026-06-01T19:57:10.579Z",
-    "type": "follower_lost",
-    "login": "FrancisNdirangu",
-    "htmlUrl": "https://github.com/FrancisNdirangu",
-    "happenedAt": "2026-06-01T19:57:10.579Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
