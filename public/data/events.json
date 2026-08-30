@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:bassiebioomington:2026-08-30T16:44:53.543Z",
+    "type": "follower_gained",
+    "login": "bassiebIoomington",
+    "htmlUrl": "https://github.com/bassiebIoomington",
+    "happenedAt": "2026-08-30T16:44:53.543Z"
+  },
+  {
+    "id": "follower_gained:theroadofstars:2026-08-30T16:44:53.543Z",
+    "type": "follower_gained",
+    "login": "THEROADOFSTARS",
+    "htmlUrl": "https://github.com/THEROADOFSTARS",
+    "happenedAt": "2026-08-30T16:44:53.543Z"
+  },
+  {
+    "id": "follower_lost:timebalancedepartment:2026-08-30T16:44:53.543Z",
+    "type": "follower_lost",
+    "login": "timebalancedepartment",
+    "htmlUrl": "https://github.com/timebalancedepartment",
+    "happenedAt": "2026-08-30T16:44:53.543Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:tixful:2026-08-30T16:44:53.543Z",
+    "type": "follower_lost",
+    "login": "tixful",
+    "htmlUrl": "https://github.com/tixful",
+    "happenedAt": "2026-08-30T16:44:53.543Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:mominyar:2026-08-30T11:58:57.036Z",
     "type": "follower_gained",
     "login": "Mominyar",
@@ -23730,12 +23762,5 @@
     "happenedAt": "2026-06-01T19:57:10.579Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:mohammedraza17:2026-06-01T14:23:46.590Z",
-    "type": "follower_gained",
-    "login": "mohammedraza17",
-    "htmlUrl": "https://github.com/mohammedraza17",
-    "happenedAt": "2026-06-01T14:23:46.590Z"
   }
 ]
