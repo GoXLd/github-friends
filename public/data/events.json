@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:welrd0:2026-08-31T22:53:55.617Z",
+    "type": "follower_gained",
+    "login": "WElRD0",
+    "htmlUrl": "https://github.com/WElRD0",
+    "happenedAt": "2026-08-31T22:53:55.617Z"
+  },
+  {
+    "id": "follower_lost:l0ve-hate:2026-08-31T22:53:55.617Z",
+    "type": "follower_lost",
+    "login": "l0ve-hate",
+    "htmlUrl": "https://github.com/l0ve-hate",
+    "happenedAt": "2026-08-31T22:53:55.617Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:haurushiro:2026-08-31T13:59:49.865Z",
     "type": "follower_gained",
     "login": "HauruShiro",
@@ -22922,60 +22938,5 @@
     "login": "Adewunmi-Joshua",
     "htmlUrl": "https://github.com/Adewunmi-Joshua",
     "happenedAt": "2026-06-03T01:31:31.045Z"
-  },
-  {
-    "id": "follower_gained:autopsiedgore:2026-06-02T19:32:19.713Z",
-    "type": "follower_gained",
-    "login": "AutopsiedGore",
-    "htmlUrl": "https://github.com/AutopsiedGore",
-    "happenedAt": "2026-06-02T19:32:19.713Z"
-  },
-  {
-    "id": "follower_gained:qafaraz:2026-06-02T19:32:19.713Z",
-    "type": "follower_gained",
-    "login": "qafaraz",
-    "htmlUrl": "https://github.com/qafaraz",
-    "happenedAt": "2026-06-02T19:32:19.713Z"
-  },
-  {
-    "id": "follower_gained:swe3tt0oth:2026-06-02T19:32:19.713Z",
-    "type": "follower_gained",
-    "login": "swe3tt0oth",
-    "htmlUrl": "https://github.com/swe3tt0oth",
-    "happenedAt": "2026-06-02T19:32:19.713Z"
-  },
-  {
-    "id": "follower_lost:calciumpuppy:2026-06-02T19:32:19.713Z",
-    "type": "follower_lost",
-    "login": "CalciumPuppy",
-    "htmlUrl": "https://github.com/CalciumPuppy",
-    "happenedAt": "2026-06-02T19:32:19.713Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_lost:raptr45:2026-06-02T19:32:19.713Z",
-    "type": "follower_lost",
-    "login": "raptr45",
-    "htmlUrl": "https://github.com/raptr45",
-    "happenedAt": "2026-06-02T19:32:19.713Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:autopsiedgore:2026-06-02T19:32:19.713Z",
-    "type": "you_followed",
-    "login": "AutopsiedGore",
-    "htmlUrl": "https://github.com/AutopsiedGore",
-    "happenedAt": "2026-06-02T19:32:19.713Z"
-  },
-  {
-    "id": "you_unfollowed:calciumpuppy:2026-06-02T19:32:19.713Z",
-    "type": "you_unfollowed",
-    "login": "CalciumPuppy",
-    "htmlUrl": "https://github.com/CalciumPuppy",
-    "happenedAt": "2026-06-02T19:32:19.713Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
