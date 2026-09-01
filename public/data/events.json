@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:danadrianmirea:2026-09-01T21:05:45.946Z",
+    "type": "follower_gained",
+    "login": "danadrianmirea",
+    "htmlUrl": "https://github.com/danadrianmirea",
+    "happenedAt": "2026-09-01T21:05:45.946Z"
+  },
+  {
     "id": "follower_gained:theogoulart333:2026-09-01T16:43:03.909Z",
     "type": "follower_gained",
     "login": "TheoGoulart333",
@@ -22966,12 +22973,5 @@
     "happenedAt": "2026-06-04T01:32:59.175Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:gale-crypto:2026-06-03T19:36:23.875Z",
-    "type": "follower_gained",
-    "login": "gale-crypto",
-    "htmlUrl": "https://github.com/gale-crypto",
-    "happenedAt": "2026-06-03T19:36:23.875Z"
   }
 ]
