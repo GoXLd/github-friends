@@ -1,5 +1,70 @@
 [
   {
+    "id": "follower_gained:theogoulart333:2026-09-01T16:43:03.909Z",
+    "type": "follower_gained",
+    "login": "TheoGoulart333",
+    "htmlUrl": "https://github.com/TheoGoulart333",
+    "happenedAt": "2026-09-01T16:43:03.909Z"
+  },
+  {
+    "id": "follower_lost:johnmwendwa:2026-09-01T16:43:03.909Z",
+    "type": "follower_lost",
+    "login": "JohnMwendwa",
+    "htmlUrl": "https://github.com/JohnMwendwa",
+    "happenedAt": "2026-09-01T16:43:03.909Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:cahcacah:2026-09-01T16:43:03.909Z",
+    "type": "you_followed",
+    "login": "cahcacah",
+    "htmlUrl": "https://github.com/cahcacah",
+    "happenedAt": "2026-09-01T16:43:03.909Z"
+  },
+  {
+    "id": "you_followed:codespapers6:2026-09-01T16:43:03.909Z",
+    "type": "you_followed",
+    "login": "codespapers6",
+    "htmlUrl": "https://github.com/codespapers6",
+    "happenedAt": "2026-09-01T16:43:03.909Z"
+  },
+  {
+    "id": "you_followed:irenascent:2026-09-01T16:43:03.909Z",
+    "type": "you_followed",
+    "login": "irenascent",
+    "htmlUrl": "https://github.com/irenascent",
+    "happenedAt": "2026-09-01T16:43:03.909Z"
+  },
+  {
+    "id": "you_followed:lxcardoza993:2026-09-01T16:43:03.909Z",
+    "type": "you_followed",
+    "login": "Lxcardoza993",
+    "htmlUrl": "https://github.com/Lxcardoza993",
+    "happenedAt": "2026-09-01T16:43:03.909Z"
+  },
+  {
+    "id": "you_followed:nahladzulula:2026-09-01T16:43:03.909Z",
+    "type": "you_followed",
+    "login": "nahladzulula",
+    "htmlUrl": "https://github.com/nahladzulula",
+    "happenedAt": "2026-09-01T16:43:03.909Z"
+  },
+  {
+    "id": "you_followed:robbydwk:2026-09-01T16:43:03.909Z",
+    "type": "you_followed",
+    "login": "RobbyDwk",
+    "htmlUrl": "https://github.com/RobbyDwk",
+    "happenedAt": "2026-09-01T16:43:03.909Z"
+  },
+  {
+    "id": "you_followed:vinamega:2026-09-01T16:43:03.909Z",
+    "type": "you_followed",
+    "login": "vinamega",
+    "htmlUrl": "https://github.com/vinamega",
+    "happenedAt": "2026-09-01T16:43:03.909Z"
+  },
+  {
     "id": "follower_lost:heyiammarasiniamrit:2026-09-01T11:43:58.585Z",
     "type": "follower_lost",
     "login": "HeyIamMarasiniAmrit",
@@ -22908,21 +22973,5 @@
     "login": "gale-crypto",
     "htmlUrl": "https://github.com/gale-crypto",
     "happenedAt": "2026-06-03T19:36:23.875Z"
-  },
-  {
-    "id": "follower_gained:spokkisalive:2026-06-03T14:01:59.544Z",
-    "type": "follower_gained",
-    "login": "Spokkisalive",
-    "htmlUrl": "https://github.com/Spokkisalive",
-    "happenedAt": "2026-06-03T14:01:59.544Z"
-  },
-  {
-    "id": "follower_lost:penelop3e:2026-06-03T14:01:59.544Z",
-    "type": "follower_lost",
-    "login": "penelop3e",
-    "htmlUrl": "https://github.com/penelop3e",
-    "happenedAt": "2026-06-03T14:01:59.544Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
