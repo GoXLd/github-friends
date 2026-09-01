@@ -1,5 +1,23 @@
 [
   {
+    "id": "follower_lost:heyiammarasiniamrit:2026-09-01T11:43:58.585Z",
+    "type": "follower_lost",
+    "login": "HeyIamMarasiniAmrit",
+    "htmlUrl": "https://github.com/HeyIamMarasiniAmrit",
+    "happenedAt": "2026-09-01T11:43:58.585Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:webbrain-one:2026-09-01T11:43:58.585Z",
+    "type": "follower_lost",
+    "login": "webbrain-one",
+    "htmlUrl": "https://github.com/webbrain-one",
+    "happenedAt": "2026-09-01T11:43:58.585Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:welrd0:2026-08-31T22:53:55.617Z",
     "type": "follower_gained",
     "login": "WElRD0",
@@ -22906,30 +22924,5 @@
     "happenedAt": "2026-06-03T14:01:59.544Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:melau-eddy:2026-06-03T08:03:17.774Z",
-    "type": "follower_gained",
-    "login": "melau-eddy",
-    "htmlUrl": "https://github.com/melau-eddy",
-    "happenedAt": "2026-06-03T08:03:17.774Z"
-  },
-  {
-    "id": "follower_lost:thehealingcenterllc4-lgtm:2026-06-03T08:03:17.774Z",
-    "type": "follower_lost",
-    "login": "thehealingcenterllc4-lgtm",
-    "htmlUrl": "https://github.com/thehealingcenterllc4-lgtm",
-    "happenedAt": "2026-06-03T08:03:17.774Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:thehealingcenterllc4-lgtm:2026-06-03T08:03:17.774Z",
-    "type": "you_unfollowed",
-    "login": "thehealingcenterllc4-lgtm",
-    "htmlUrl": "https://github.com/thehealingcenterllc4-lgtm",
-    "happenedAt": "2026-06-03T08:03:17.774Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
