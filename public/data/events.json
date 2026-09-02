@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:emojif:2026-09-02T11:24:53.490Z",
+    "type": "follower_gained",
+    "login": "emojif",
+    "htmlUrl": "https://github.com/emojif",
+    "happenedAt": "2026-09-02T11:24:53.490Z"
+  },
+  {
+    "id": "follower_lost:zem00k:2026-09-02T11:24:53.490Z",
+    "type": "follower_lost",
+    "login": "ZEM00K",
+    "htmlUrl": "https://github.com/ZEM00K",
+    "happenedAt": "2026-09-02T11:24:53.490Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:abdulwasio2521:2026-09-02T04:41:25.597Z",
     "type": "follower_gained",
     "login": "abdulwasio2521",
@@ -23091,21 +23107,5 @@
     "happenedAt": "2026-06-05T01:23:06.163Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:yourwisemaker:2026-06-04T07:57:10.644Z",
-    "type": "follower_gained",
-    "login": "YourWisemaker",
-    "htmlUrl": "https://github.com/YourWisemaker",
-    "happenedAt": "2026-06-04T07:57:10.644Z"
-  },
-  {
-    "id": "follower_lost:qudsiyashaikh:2026-06-04T07:57:10.644Z",
-    "type": "follower_lost",
-    "login": "qudsiyashaikh",
-    "htmlUrl": "https://github.com/qudsiyashaikh",
-    "happenedAt": "2026-06-04T07:57:10.644Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
