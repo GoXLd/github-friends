@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:mrhx01:2026-09-03T11:21:21.095Z",
+    "type": "follower_lost",
+    "login": "mrhx01",
+    "htmlUrl": "https://github.com/mrhx01",
+    "happenedAt": "2026-09-03T11:21:21.095Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:allentcm:2026-09-03T04:38:12.701Z",
     "type": "you_followed",
     "login": "allentcm",
@@ -23578,37 +23587,5 @@
     "happenedAt": "2026-06-05T13:23:49.510Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:mindmagic-pluse:2026-06-05T07:48:28.776Z",
-    "type": "follower_gained",
-    "login": "mindmagic-pluse",
-    "htmlUrl": "https://github.com/mindmagic-pluse",
-    "happenedAt": "2026-06-05T07:48:28.776Z"
-  },
-  {
-    "id": "follower_lost:sysdp155:2026-06-05T07:48:28.776Z",
-    "type": "follower_lost",
-    "login": "sysdp155",
-    "htmlUrl": "https://github.com/sysdp155",
-    "happenedAt": "2026-06-05T07:48:28.776Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:mindmagic-pluse:2026-06-05T07:48:28.776Z",
-    "type": "you_followed",
-    "login": "mindmagic-pluse",
-    "htmlUrl": "https://github.com/mindmagic-pluse",
-    "happenedAt": "2026-06-05T07:48:28.776Z"
-  },
-  {
-    "id": "you_unfollowed:sysdp155:2026-06-05T07:48:28.776Z",
-    "type": "you_unfollowed",
-    "login": "sysdp155",
-    "htmlUrl": "https://github.com/sysdp155",
-    "happenedAt": "2026-06-05T07:48:28.776Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
