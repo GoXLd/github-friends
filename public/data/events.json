@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:hikaru-saito-dev:2026-09-03T21:05:46.996Z",
+    "type": "follower_gained",
+    "login": "hikaru-saito-dev",
+    "htmlUrl": "https://github.com/hikaru-saito-dev",
+    "happenedAt": "2026-09-03T21:05:46.996Z"
+  },
+  {
+    "id": "follower_lost:aevaev:2026-09-03T21:05:46.996Z",
+    "type": "follower_lost",
+    "login": "aevaev",
+    "htmlUrl": "https://github.com/aevaev",
+    "happenedAt": "2026-09-03T21:05:46.996Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:joelnathan544:2026-09-03T16:29:42.010Z",
     "type": "follower_gained",
     "login": "JOELNATHAN544",
