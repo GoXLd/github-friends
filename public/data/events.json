@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:devx1113:2026-09-04T20:48:38.882Z",
+    "type": "follower_gained",
+    "login": "devx1113",
+    "htmlUrl": "https://github.com/devx1113",
+    "happenedAt": "2026-09-04T20:48:38.882Z"
+  },
+  {
+    "id": "follower_lost:jason15xen:2026-09-04T20:48:38.882Z",
+    "type": "follower_lost",
+    "login": "jason15xen",
+    "htmlUrl": "https://github.com/jason15xen",
+    "happenedAt": "2026-09-04T20:48:38.882Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:op-88:2026-09-04T16:25:55.424Z",
     "type": "follower_lost",
     "login": "OP-88",
@@ -23206,45 +23222,6 @@
     "login": "qianyu-08",
     "htmlUrl": "https://github.com/qianyu-08",
     "happenedAt": "2026-06-07T01:27:12.246Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_gained:puppycornz:2026-06-06T18:45:24.118Z",
-    "type": "follower_gained",
-    "login": "PUPPYCORNZ",
-    "htmlUrl": "https://github.com/PUPPYCORNZ",
-    "happenedAt": "2026-06-06T18:45:24.118Z"
-  },
-  {
-    "id": "follower_gained:ryan-d-graham:2026-06-06T18:45:24.118Z",
-    "type": "follower_gained",
-    "login": "ryan-d-graham",
-    "htmlUrl": "https://github.com/ryan-d-graham",
-    "happenedAt": "2026-06-06T18:45:24.118Z"
-  },
-  {
-    "id": "follower_lost:spacebeetles:2026-06-06T18:45:24.118Z",
-    "type": "follower_lost",
-    "login": "spacebeetles",
-    "htmlUrl": "https://github.com/spacebeetles",
-    "happenedAt": "2026-06-06T18:45:24.118Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:puppycornz:2026-06-06T18:45:24.118Z",
-    "type": "you_followed",
-    "login": "PUPPYCORNZ",
-    "htmlUrl": "https://github.com/PUPPYCORNZ",
-    "happenedAt": "2026-06-06T18:45:24.118Z"
-  },
-  {
-    "id": "you_unfollowed:spacebeetles:2026-06-06T18:45:24.118Z",
-    "type": "you_unfollowed",
-    "login": "spacebeetles",
-    "htmlUrl": "https://github.com/spacebeetles",
-    "happenedAt": "2026-06-06T18:45:24.118Z",
     "accountStatus": "deleted",
     "isDeleted": true
   }
