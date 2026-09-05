@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:drixpoll:2026-09-05T10:41:00.224Z",
+    "type": "follower_gained",
+    "login": "drixpoll",
+    "htmlUrl": "https://github.com/drixpoll",
+    "happenedAt": "2026-09-05T10:41:00.224Z"
+  },
+  {
+    "id": "follower_gained:mrabdulsamaddev:2026-09-05T10:41:00.224Z",
+    "type": "follower_gained",
+    "login": "MrAbdulSamadDEV",
+    "htmlUrl": "https://github.com/MrAbdulSamadDEV",
+    "happenedAt": "2026-09-05T10:41:00.224Z"
+  },
+  {
     "id": "you_unfollowed:feresouerfelli:2026-09-05T04:35:59.816Z",
     "type": "you_unfollowed",
     "login": "feresouerfelli",
@@ -23257,29 +23271,6 @@
     "login": "wuanunet",
     "htmlUrl": "https://github.com/wuanunet",
     "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:aaavictor:2026-06-07T07:42:03.102Z",
-    "type": "follower_gained",
-    "login": "AAAvictor",
-    "htmlUrl": "https://github.com/AAAvictor",
-    "happenedAt": "2026-06-07T07:42:03.102Z"
-  },
-  {
-    "id": "follower_gained:boraaita:2026-06-07T07:42:03.102Z",
-    "type": "follower_gained",
-    "login": "BoraAITA",
-    "htmlUrl": "https://github.com/BoraAITA",
-    "happenedAt": "2026-06-07T07:42:03.102Z"
-  },
-  {
-    "id": "follower_lost:solidityx-x:2026-06-07T07:42:03.102Z",
-    "type": "follower_lost",
-    "login": "SolidityX-X",
-    "htmlUrl": "https://github.com/SolidityX-X",
-    "happenedAt": "2026-06-07T07:42:03.102Z",
     "accountStatus": null,
     "isDeleted": false
   }
