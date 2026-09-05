@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:ahsan-khalid01:2026-09-05T20:26:23.175Z",
+    "type": "follower_lost",
+    "login": "Ahsan-Khalid01",
+    "htmlUrl": "https://github.com/Ahsan-Khalid01",
+    "happenedAt": "2026-09-05T20:26:23.175Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:hlygrace:2026-09-05T15:18:08.486Z",
     "type": "follower_gained",
     "login": "hlygrace",
@@ -23186,15 +23195,6 @@
     "login": "Zhongnuowang",
     "htmlUrl": "https://github.com/Zhongnuowang",
     "happenedAt": "2026-06-08T01:27:24.702Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:kayanshah:2026-06-07T18:45:25.499Z",
-    "type": "follower_lost",
-    "login": "KayanShah",
-    "htmlUrl": "https://github.com/KayanShah",
-    "happenedAt": "2026-06-07T18:45:25.499Z",
     "accountStatus": null,
     "isDeleted": false
   }
