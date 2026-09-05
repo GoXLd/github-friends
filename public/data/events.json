@@ -1,5 +1,95 @@
 [
   {
+    "id": "you_unfollowed:feresouerfelli:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "feresouerfelli",
+    "htmlUrl": "https://github.com/feresouerfelli",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:han-gr:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "Han-GR",
+    "htmlUrl": "https://github.com/Han-GR",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:jaichand20:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "Jaichand20",
+    "htmlUrl": "https://github.com/Jaichand20",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:kartikey-gupta826:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "Kartikey-Gupta826",
+    "htmlUrl": "https://github.com/Kartikey-Gupta826",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:kikonstantin:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "KIKonstantin",
+    "htmlUrl": "https://github.com/KIKonstantin",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:lichanghao:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "lichanghao",
+    "htmlUrl": "https://github.com/lichanghao",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:michael99hernan:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "michael99hernan",
+    "htmlUrl": "https://github.com/michael99hernan",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:paulpierre:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "paulpierre",
+    "htmlUrl": "https://github.com/paulpierre",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:sheetal-patel17:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "Sheetal-Patel17",
+    "htmlUrl": "https://github.com/Sheetal-Patel17",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:zzr-china:2026-09-05T04:35:59.816Z",
+    "type": "you_unfollowed",
+    "login": "ZZR-china",
+    "htmlUrl": "https://github.com/ZZR-china",
+    "happenedAt": "2026-09-05T04:35:59.816Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:devx1113:2026-09-04T20:48:38.882Z",
     "type": "follower_gained",
     "login": "devx1113",
@@ -23192,37 +23282,5 @@
     "happenedAt": "2026-06-07T07:42:03.102Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:q1anyuyang:2026-06-07T01:27:12.246Z",
-    "type": "follower_gained",
-    "login": "q1anyuyang",
-    "htmlUrl": "https://github.com/q1anyuyang",
-    "happenedAt": "2026-06-07T01:27:12.246Z"
-  },
-  {
-    "id": "follower_lost:qianyu-08:2026-06-07T01:27:12.246Z",
-    "type": "follower_lost",
-    "login": "qianyu-08",
-    "htmlUrl": "https://github.com/qianyu-08",
-    "happenedAt": "2026-06-07T01:27:12.246Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:q1anyuyang:2026-06-07T01:27:12.246Z",
-    "type": "you_followed",
-    "login": "q1anyuyang",
-    "htmlUrl": "https://github.com/q1anyuyang",
-    "happenedAt": "2026-06-07T01:27:12.246Z"
-  },
-  {
-    "id": "you_unfollowed:qianyu-08:2026-06-07T01:27:12.246Z",
-    "type": "you_unfollowed",
-    "login": "qianyu-08",
-    "htmlUrl": "https://github.com/qianyu-08",
-    "happenedAt": "2026-06-07T01:27:12.246Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
