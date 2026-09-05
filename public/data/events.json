@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:hlygrace:2026-09-05T15:18:08.486Z",
+    "type": "follower_gained",
+    "login": "hlygrace",
+    "htmlUrl": "https://github.com/hlygrace",
+    "happenedAt": "2026-09-05T15:18:08.486Z"
+  },
+  {
+    "id": "follower_gained:robshs:2026-09-05T15:18:08.486Z",
+    "type": "follower_gained",
+    "login": "RobsHs",
+    "htmlUrl": "https://github.com/RobsHs",
+    "happenedAt": "2026-09-05T15:18:08.486Z"
+  },
+  {
     "id": "follower_gained:drixpoll:2026-09-05T10:41:00.224Z",
     "type": "follower_gained",
     "login": "drixpoll",
@@ -23181,96 +23195,6 @@
     "login": "KayanShah",
     "htmlUrl": "https://github.com/KayanShah",
     "happenedAt": "2026-06-07T18:45:25.499Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:aryazoormand:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "aryazoormand",
-    "htmlUrl": "https://github.com/aryazoormand",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:belenos:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "belenos",
-    "htmlUrl": "https://github.com/belenos",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:bodyphobic:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "bodyphobic",
-    "htmlUrl": "https://github.com/bodyphobic",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:bolola777:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "bolola777",
-    "htmlUrl": "https://github.com/bolola777",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:qudsiyashaikh:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "qudsiyashaikh",
-    "htmlUrl": "https://github.com/qudsiyashaikh",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:strawberryshirok:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "strawberryshirok",
-    "htmlUrl": "https://github.com/strawberryshirok",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:timlintw:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "TimLinTW",
-    "htmlUrl": "https://github.com/TimLinTW",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:ultra-viper-156:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "ULTRA-VIPER-156",
-    "htmlUrl": "https://github.com/ULTRA-VIPER-156",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:vincechen611:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "Vincechen611",
-    "htmlUrl": "https://github.com/Vincechen611",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:wuanunet:2026-06-07T12:50:50.113Z",
-    "type": "you_unfollowed",
-    "login": "wuanunet",
-    "htmlUrl": "https://github.com/wuanunet",
-    "happenedAt": "2026-06-07T12:50:50.113Z",
     "accountStatus": null,
     "isDeleted": false
   }
