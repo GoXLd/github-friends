@@ -22359,21 +22359,5 @@
     "happenedAt": "2026-06-09T01:17:56.317Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:mathisjs:2026-06-08T19:07:51.422Z",
-    "type": "follower_gained",
-    "login": "mathisjs",
-    "htmlUrl": "https://github.com/mathisjs",
-    "happenedAt": "2026-06-08T19:07:51.422Z"
-  },
-  {
-    "id": "follower_lost:aaavictor:2026-06-08T19:07:51.422Z",
-    "type": "follower_lost",
-    "login": "AAAvictor",
-    "htmlUrl": "https://github.com/AAAvictor",
-    "happenedAt": "2026-06-08T19:07:51.422Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
