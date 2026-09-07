@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:shekibhaidari:2026-09-07T21:33:49.533Z",
+    "type": "follower_lost",
+    "login": "ShekibHaidari",
+    "htmlUrl": "https://github.com/ShekibHaidari",
+    "happenedAt": "2026-09-07T21:33:49.533Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:hlygrace:2026-09-07T12:41:45.204Z",
     "type": "follower_lost",
     "login": "hlygrace",
@@ -21889,70 +21898,6 @@
     "login": "selfishclown",
     "htmlUrl": "https://github.com/selfishclown",
     "happenedAt": "2026-06-10T01:23:05.500Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_gained:adamasnegro:2026-06-09T19:03:09.934Z",
-    "type": "follower_gained",
-    "login": "adamasnegro",
-    "htmlUrl": "https://github.com/adamasnegro",
-    "happenedAt": "2026-06-09T19:03:09.934Z"
-  },
-  {
-    "id": "follower_gained:aobakwe25:2026-06-09T19:03:09.934Z",
-    "type": "follower_gained",
-    "login": "Aobakwe25",
-    "htmlUrl": "https://github.com/Aobakwe25",
-    "happenedAt": "2026-06-09T19:03:09.934Z"
-  },
-  {
-    "id": "follower_gained:selfishclown:2026-06-09T19:03:09.934Z",
-    "type": "follower_gained",
-    "login": "selfishclown",
-    "htmlUrl": "https://github.com/selfishclown",
-    "happenedAt": "2026-06-09T19:03:09.934Z"
-  },
-  {
-    "id": "follower_lost:angelfies:2026-06-09T19:03:09.934Z",
-    "type": "follower_lost",
-    "login": "angelfies",
-    "htmlUrl": "https://github.com/angelfies",
-    "happenedAt": "2026-06-09T19:03:09.934Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:selfishclown:2026-06-09T19:03:09.934Z",
-    "type": "you_followed",
-    "login": "selfishclown",
-    "htmlUrl": "https://github.com/selfishclown",
-    "happenedAt": "2026-06-09T19:03:09.934Z"
-  },
-  {
-    "id": "you_unfollowed:angelfies:2026-06-09T19:03:09.934Z",
-    "type": "you_unfollowed",
-    "login": "angelfies",
-    "htmlUrl": "https://github.com/angelfies",
-    "happenedAt": "2026-06-09T19:03:09.934Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_lost:q1anyuyang:2026-06-09T13:18:31.923Z",
-    "type": "follower_lost",
-    "login": "q1anyuyang",
-    "htmlUrl": "https://github.com/q1anyuyang",
-    "happenedAt": "2026-06-09T13:18:31.923Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:q1anyuyang:2026-06-09T13:18:31.923Z",
-    "type": "you_unfollowed",
-    "login": "q1anyuyang",
-    "htmlUrl": "https://github.com/q1anyuyang",
-    "happenedAt": "2026-06-09T13:18:31.923Z",
     "accountStatus": "deleted",
     "isDeleted": true
   }
