@@ -1,5 +1,23 @@
 [
   {
+    "id": "follower_lost:hlygrace:2026-09-07T12:41:45.204Z",
+    "type": "follower_lost",
+    "login": "hlygrace",
+    "htmlUrl": "https://github.com/hlygrace",
+    "happenedAt": "2026-09-07T12:41:45.204Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:taraknath341:2026-09-07T12:41:45.204Z",
+    "type": "follower_lost",
+    "login": "taraknath341",
+    "htmlUrl": "https://github.com/taraknath341",
+    "happenedAt": "2026-09-07T12:41:45.204Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:pizza-sim:2026-09-07T04:49:05.294Z",
     "type": "follower_gained",
     "login": "PIZZA-SIM",
@@ -21937,26 +21955,5 @@
     "happenedAt": "2026-06-09T13:18:31.923Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:b-user208:2026-06-09T07:33:17.007Z",
-    "type": "follower_gained",
-    "login": "b-user208",
-    "htmlUrl": "https://github.com/b-user208",
-    "happenedAt": "2026-06-09T07:33:17.007Z"
-  },
-  {
-    "id": "follower_gained:dollar25k:2026-06-09T07:33:17.007Z",
-    "type": "follower_gained",
-    "login": "dollar25k",
-    "htmlUrl": "https://github.com/dollar25k",
-    "happenedAt": "2026-06-09T07:33:17.007Z"
-  },
-  {
-    "id": "follower_gained:mikancat1045:2026-06-09T07:33:17.007Z",
-    "type": "follower_gained",
-    "login": "Mikancat1045",
-    "htmlUrl": "https://github.com/Mikancat1045",
-    "happenedAt": "2026-06-09T07:33:17.007Z"
   }
 ]
