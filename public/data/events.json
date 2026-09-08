@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:adeeljameel810-byte:2026-09-08T11:25:01.404Z",
+    "type": "follower_gained",
+    "login": "adeeljameel810-byte",
+    "htmlUrl": "https://github.com/adeeljameel810-byte",
+    "happenedAt": "2026-09-08T11:25:01.404Z"
+  },
+  {
+    "id": "follower_lost:mrabdulsamaddev:2026-09-08T11:25:01.404Z",
+    "type": "follower_lost",
+    "login": "MrAbdulSamadDEV",
+    "htmlUrl": "https://github.com/MrAbdulSamadDEV",
+    "happenedAt": "2026-09-08T11:25:01.404Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_unfollowed:abai569:2026-09-08T04:44:54.977Z",
     "type": "you_unfollowed",
     "login": "abai569",
@@ -21912,28 +21928,5 @@
     "login": "premkumarmookiah",
     "htmlUrl": "https://github.com/premkumarmookiah",
     "happenedAt": "2026-06-11T01:26:02.285Z"
-  },
-  {
-    "id": "follower_gained:gaplopez1991:2026-06-10T07:48:40.097Z",
-    "type": "follower_gained",
-    "login": "gaplopez1991",
-    "htmlUrl": "https://github.com/gaplopez1991",
-    "happenedAt": "2026-06-10T07:48:40.097Z"
-  },
-  {
-    "id": "follower_gained:ilovemybf-alot:2026-06-10T07:48:40.097Z",
-    "type": "follower_gained",
-    "login": "ilovemybf-alot",
-    "htmlUrl": "https://github.com/ilovemybf-alot",
-    "happenedAt": "2026-06-10T07:48:40.097Z"
-  },
-  {
-    "id": "follower_lost:theplagueman:2026-06-10T07:48:40.097Z",
-    "type": "follower_lost",
-    "login": "theplagueman",
-    "htmlUrl": "https://github.com/theplagueman",
-    "happenedAt": "2026-06-10T07:48:40.097Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
