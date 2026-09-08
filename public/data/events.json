@@ -1,5 +1,95 @@
 [
   {
+    "id": "you_unfollowed:abai569:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "abai569",
+    "htmlUrl": "https://github.com/abai569",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:anasahmed-1212:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "AnasAhmed-1212",
+    "htmlUrl": "https://github.com/AnasAhmed-1212",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:caiquedeoliveira-dev:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "caiqueDeOliveira-dev",
+    "htmlUrl": "https://github.com/caiqueDeOliveira-dev",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:cyvantacloud:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "CyvantaCloud",
+    "htmlUrl": "https://github.com/CyvantaCloud",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:klaute:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "klaute",
+    "htmlUrl": "https://github.com/klaute",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:maksimma-py:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "maksimma-py",
+    "htmlUrl": "https://github.com/maksimma-py",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:mibslee:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "Mibslee",
+    "htmlUrl": "https://github.com/Mibslee",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:nifazzz10:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "nifazzz10",
+    "htmlUrl": "https://github.com/nifazzz10",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:raypereda:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "raypereda",
+    "htmlUrl": "https://github.com/raypereda",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:techpeer-pk:2026-09-08T04:44:54.977Z",
+    "type": "you_unfollowed",
+    "login": "techpeer-pk",
+    "htmlUrl": "https://github.com/techpeer-pk",
+    "happenedAt": "2026-09-08T04:44:54.977Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:shekibhaidari:2026-09-07T21:33:49.533Z",
     "type": "follower_lost",
     "login": "ShekibHaidari",
@@ -21845,60 +21935,5 @@
     "happenedAt": "2026-06-10T07:48:40.097Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:darnellwashingtonjr94-art:2026-06-10T01:23:05.500Z",
-    "type": "follower_gained",
-    "login": "darnellwashingtonjr94-art",
-    "htmlUrl": "https://github.com/darnellwashingtonjr94-art",
-    "happenedAt": "2026-06-10T01:23:05.500Z"
-  },
-  {
-    "id": "follower_gained:derapangi:2026-06-10T01:23:05.500Z",
-    "type": "follower_gained",
-    "login": "derapangi",
-    "htmlUrl": "https://github.com/derapangi",
-    "happenedAt": "2026-06-10T01:23:05.500Z"
-  },
-  {
-    "id": "follower_gained:sweetfies:2026-06-10T01:23:05.500Z",
-    "type": "follower_gained",
-    "login": "sweetfies",
-    "htmlUrl": "https://github.com/sweetfies",
-    "happenedAt": "2026-06-10T01:23:05.500Z"
-  },
-  {
-    "id": "follower_lost:i3i33:2026-06-10T01:23:05.500Z",
-    "type": "follower_lost",
-    "login": "i3i33",
-    "htmlUrl": "https://github.com/i3i33",
-    "happenedAt": "2026-06-10T01:23:05.500Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:selfishclown:2026-06-10T01:23:05.500Z",
-    "type": "follower_lost",
-    "login": "selfishclown",
-    "htmlUrl": "https://github.com/selfishclown",
-    "happenedAt": "2026-06-10T01:23:05.500Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:derapangi:2026-06-10T01:23:05.500Z",
-    "type": "you_followed",
-    "login": "derapangi",
-    "htmlUrl": "https://github.com/derapangi",
-    "happenedAt": "2026-06-10T01:23:05.500Z"
-  },
-  {
-    "id": "you_unfollowed:selfishclown:2026-06-10T01:23:05.500Z",
-    "type": "you_unfollowed",
-    "login": "selfishclown",
-    "htmlUrl": "https://github.com/selfishclown",
-    "happenedAt": "2026-06-10T01:23:05.500Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
