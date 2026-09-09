@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:asavaricharati:2026-09-09T16:42:48.834Z",
+    "type": "follower_gained",
+    "login": "AsavariCharati",
+    "htmlUrl": "https://github.com/AsavariCharati",
+    "happenedAt": "2026-09-09T16:42:48.834Z"
+  },
+  {
+    "id": "follower_gained:haidinh215:2026-09-09T16:42:48.834Z",
+    "type": "follower_gained",
+    "login": "HaiDinh215",
+    "htmlUrl": "https://github.com/HaiDinh215",
+    "happenedAt": "2026-09-09T16:42:48.834Z"
+  },
+  {
+    "id": "follower_lost:stefanutc1:2026-09-09T16:42:48.834Z",
+    "type": "follower_lost",
+    "login": "stefanutc1",
+    "htmlUrl": "https://github.com/stefanutc1",
+    "happenedAt": "2026-09-09T16:42:48.834Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:futseyi:2026-09-09T11:30:18.006Z",
     "type": "follower_gained",
     "login": "FuTseYi",
@@ -21774,35 +21797,5 @@
     "login": "STARDEV06",
     "htmlUrl": "https://github.com/STARDEV06",
     "happenedAt": "2026-06-12T01:28:54.194Z"
-  },
-  {
-    "id": "follower_gained:ethereal-fate:2026-06-11T13:42:24.480Z",
-    "type": "follower_gained",
-    "login": "ethereal-fate",
-    "htmlUrl": "https://github.com/ethereal-fate",
-    "happenedAt": "2026-06-11T13:42:24.480Z"
-  },
-  {
-    "id": "follower_gained:realmafioso:2026-06-11T13:42:24.480Z",
-    "type": "follower_gained",
-    "login": "RealMafioso",
-    "htmlUrl": "https://github.com/RealMafioso",
-    "happenedAt": "2026-06-11T13:42:24.480Z"
-  },
-  {
-    "id": "you_followed:d3xx4-thedarklord:2026-06-11T13:42:24.480Z",
-    "type": "you_followed",
-    "login": "d3xx4-TheDarkLord",
-    "htmlUrl": "https://github.com/d3xx4-TheDarkLord",
-    "happenedAt": "2026-06-11T13:42:24.480Z"
-  },
-  {
-    "id": "you_unfollowed:thechosenone-err:2026-06-11T13:42:24.480Z",
-    "type": "you_unfollowed",
-    "login": "TheChosenOne-err",
-    "htmlUrl": "https://github.com/TheChosenOne-err",
-    "happenedAt": "2026-06-11T13:42:24.480Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
