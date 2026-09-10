@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:uihorsewolf-design:2026-09-10T04:49:48.577Z",
+    "type": "follower_gained",
+    "login": "uihorsewolf-design",
+    "htmlUrl": "https://github.com/uihorsewolf-design",
+    "happenedAt": "2026-09-10T04:49:48.577Z"
+  },
+  {
     "id": "follower_gained:botaandrei-public:2026-09-09T20:58:56.751Z",
     "type": "follower_gained",
     "login": "BotaAndrei-public",
@@ -21790,33 +21797,5 @@
     "login": "cloud0816",
     "htmlUrl": "https://github.com/cloud0816",
     "happenedAt": "2026-06-12T13:28:54.182Z"
-  },
-  {
-    "id": "you_followed:craine01:2026-06-12T01:28:54.194Z",
-    "type": "you_followed",
-    "login": "craine01",
-    "htmlUrl": "https://github.com/craine01",
-    "happenedAt": "2026-06-12T01:28:54.194Z"
-  },
-  {
-    "id": "you_followed:kittyaikoo:2026-06-12T01:28:54.194Z",
-    "type": "you_followed",
-    "login": "kittyaikoo",
-    "htmlUrl": "https://github.com/kittyaikoo",
-    "happenedAt": "2026-06-12T01:28:54.194Z"
-  },
-  {
-    "id": "you_followed:sabbir-noyon:2026-06-12T01:28:54.194Z",
-    "type": "you_followed",
-    "login": "sabbir-noyon",
-    "htmlUrl": "https://github.com/sabbir-noyon",
-    "happenedAt": "2026-06-12T01:28:54.194Z"
-  },
-  {
-    "id": "you_followed:stardev06:2026-06-12T01:28:54.194Z",
-    "type": "you_followed",
-    "login": "STARDEV06",
-    "htmlUrl": "https://github.com/STARDEV06",
-    "happenedAt": "2026-06-12T01:28:54.194Z"
   }
 ]
