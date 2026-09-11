@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:mahdikordian:2026-09-11T04:47:00.068Z",
+    "type": "follower_gained",
+    "login": "MahdiKordian",
+    "htmlUrl": "https://github.com/MahdiKordian",
+    "happenedAt": "2026-09-11T04:47:00.068Z"
+  },
+  {
+    "id": "follower_lost:asavaricharati:2026-09-11T04:47:00.068Z",
+    "type": "follower_lost",
+    "login": "AsavariCharati",
+    "htmlUrl": "https://github.com/AsavariCharati",
+    "happenedAt": "2026-09-11T04:47:00.068Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:farinattar:2026-09-10T11:26:56.120Z",
     "type": "follower_gained",
     "login": "FARINATTAR",
@@ -22661,15 +22677,6 @@
     "login": "Spokkisalive",
     "htmlUrl": "https://github.com/Spokkisalive",
     "happenedAt": "2026-06-13T07:35:49.568Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:kilicdev:2026-06-13T01:26:28.094Z",
-    "type": "follower_lost",
-    "login": "kilicdev",
-    "htmlUrl": "https://github.com/kilicdev",
-    "happenedAt": "2026-06-13T01:26:28.094Z",
     "accountStatus": null,
     "isDeleted": false
   }
