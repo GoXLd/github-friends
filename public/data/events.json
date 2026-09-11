@@ -1,5 +1,26 @@
 [
   {
+    "id": "you_followed:cristibtz:2026-09-11T16:32:56.433Z",
+    "type": "you_followed",
+    "login": "cristibtz",
+    "htmlUrl": "https://github.com/cristibtz",
+    "happenedAt": "2026-09-11T16:32:56.433Z"
+  },
+  {
+    "id": "you_followed:hiromiandsanemilover:2026-09-11T16:32:56.433Z",
+    "type": "you_followed",
+    "login": "HiromiAndSanemiLover",
+    "htmlUrl": "https://github.com/HiromiAndSanemiLover",
+    "happenedAt": "2026-09-11T16:32:56.433Z"
+  },
+  {
+    "id": "you_followed:t0rntodescent:2026-09-11T16:32:56.433Z",
+    "type": "you_followed",
+    "login": "t0rntodescent",
+    "htmlUrl": "https://github.com/t0rntodescent",
+    "happenedAt": "2026-09-11T16:32:56.433Z"
+  },
+  {
     "id": "follower_gained:mahdikordian:2026-09-11T04:47:00.068Z",
     "type": "follower_gained",
     "login": "MahdiKordian",
@@ -22619,12 +22640,5 @@
     "happenedAt": "2026-06-13T18:48:15.463Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:taraknath341:2026-06-13T12:55:24.719Z",
-    "type": "follower_gained",
-    "login": "taraknath341",
-    "htmlUrl": "https://github.com/taraknath341",
-    "happenedAt": "2026-06-13T12:55:24.719Z"
   }
 ]
