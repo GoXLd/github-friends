@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:dreamerol:2026-09-12T20:37:32.085Z",
+    "type": "follower_gained",
+    "login": "Dreamerol",
+    "htmlUrl": "https://github.com/Dreamerol",
+    "happenedAt": "2026-09-12T20:37:32.085Z"
+  },
+  {
+    "id": "follower_lost:invisibleuser321:2026-09-12T20:37:32.085Z",
+    "type": "follower_lost",
+    "login": "invisibleuser321",
+    "htmlUrl": "https://github.com/invisibleuser321",
+    "happenedAt": "2026-09-12T20:37:32.085Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:invisibleuser321:2026-09-12T20:37:32.085Z",
+    "type": "you_unfollowed",
+    "login": "invisibleuser321",
+    "htmlUrl": "https://github.com/invisibleuser321",
+    "happenedAt": "2026-09-12T20:37:32.085Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:djvelimir:2026-09-12T15:35:27.932Z",
     "type": "follower_gained",
     "login": "djvelimir",
@@ -23147,21 +23172,5 @@
     "login": "jkdevcode",
     "htmlUrl": "https://github.com/jkdevcode",
     "happenedAt": "2026-06-15T01:31:36.164Z"
-  },
-  {
-    "id": "follower_gained:threestories:2026-06-14T18:47:25.598Z",
-    "type": "follower_gained",
-    "login": "threestories",
-    "htmlUrl": "https://github.com/threestories",
-    "happenedAt": "2026-06-14T18:47:25.598Z"
-  },
-  {
-    "id": "follower_lost:dayofthedeparted:2026-06-14T18:47:25.598Z",
-    "type": "follower_lost",
-    "login": "dayofthedeparted",
-    "htmlUrl": "https://github.com/dayofthedeparted",
-    "happenedAt": "2026-06-14T18:47:25.598Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
