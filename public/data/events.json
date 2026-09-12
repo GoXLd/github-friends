@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:dineshsinghdhami:2026-09-12T04:41:18.428Z",
+    "type": "follower_gained",
+    "login": "dineshsinghdhami",
+    "htmlUrl": "https://github.com/dineshsinghdhami",
+    "happenedAt": "2026-09-12T04:41:18.428Z"
+  },
+  {
+    "id": "follower_gained:tokar96821:2026-09-12T04:41:18.428Z",
+    "type": "follower_gained",
+    "login": "tokar96821",
+    "htmlUrl": "https://github.com/tokar96821",
+    "happenedAt": "2026-09-12T04:41:18.428Z"
+  },
+  {
+    "id": "follower_lost:meta-success:2026-09-12T04:41:18.428Z",
+    "type": "follower_lost",
+    "login": "meta-success",
+    "htmlUrl": "https://github.com/meta-success",
+    "happenedAt": "2026-09-12T04:41:18.428Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:cristibtz:2026-09-11T16:32:56.433Z",
     "type": "you_followed",
     "login": "cristibtz",
@@ -22534,37 +22557,5 @@
     "happenedAt": "2026-06-14T07:54:21.018Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:selfishprince:2026-06-14T01:29:46.319Z",
-    "type": "follower_gained",
-    "login": "selfishprince",
-    "htmlUrl": "https://github.com/selfishprince",
-    "happenedAt": "2026-06-14T01:29:46.319Z"
-  },
-  {
-    "id": "follower_lost:duxorethey:2026-06-14T01:29:46.319Z",
-    "type": "follower_lost",
-    "login": "duxorethey",
-    "htmlUrl": "https://github.com/duxorethey",
-    "happenedAt": "2026-06-14T01:29:46.319Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:selfishprince:2026-06-14T01:29:46.319Z",
-    "type": "you_followed",
-    "login": "selfishprince",
-    "htmlUrl": "https://github.com/selfishprince",
-    "happenedAt": "2026-06-14T01:29:46.319Z"
-  },
-  {
-    "id": "you_unfollowed:duxorethey:2026-06-14T01:29:46.319Z",
-    "type": "you_unfollowed",
-    "login": "duxorethey",
-    "htmlUrl": "https://github.com/duxorethey",
-    "happenedAt": "2026-06-14T01:29:46.319Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
