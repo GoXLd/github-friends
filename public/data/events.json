@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:flam3reav3r:2026-09-13T16:23:45.370Z",
+    "type": "follower_gained",
+    "login": "FLAM3REAV3R",
+    "htmlUrl": "https://github.com/FLAM3REAV3R",
+    "happenedAt": "2026-09-13T16:23:45.370Z"
+  },
+  {
+    "id": "follower_gained:okaysleepy:2026-09-13T16:23:45.370Z",
+    "type": "follower_gained",
+    "login": "OkaySleepy",
+    "htmlUrl": "https://github.com/OkaySleepy",
+    "happenedAt": "2026-09-13T16:23:45.370Z"
+  },
+  {
     "id": "follower_gained:ardasheart:2026-09-13T11:58:43.550Z",
     "type": "follower_gained",
     "login": "ardasheart",
@@ -23370,12 +23384,5 @@
     "happenedAt": "2026-06-16T01:32:39.296Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:algorithmalchemy:2026-06-15T14:28:18.222Z",
-    "type": "follower_gained",
-    "login": "AlgorithmAlchemy",
-    "htmlUrl": "https://github.com/AlgorithmAlchemy",
-    "happenedAt": "2026-06-15T14:28:18.222Z"
   }
 ]
