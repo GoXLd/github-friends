@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:ardasheart:2026-09-13T11:58:43.550Z",
+    "type": "follower_gained",
+    "login": "ardasheart",
+    "htmlUrl": "https://github.com/ardasheart",
+    "happenedAt": "2026-09-13T11:58:43.550Z"
+  },
+  {
+    "id": "follower_gained:efeozanakay:2026-09-13T11:58:43.550Z",
+    "type": "follower_gained",
+    "login": "efeozanakay",
+    "htmlUrl": "https://github.com/efeozanakay",
+    "happenedAt": "2026-09-13T11:58:43.550Z"
+  },
+  {
+    "id": "follower_gained:marcuz-apl:2026-09-13T11:58:43.550Z",
+    "type": "follower_gained",
+    "login": "marcuz-apl",
+    "htmlUrl": "https://github.com/marcuz-apl",
+    "happenedAt": "2026-09-13T11:58:43.550Z"
+  },
+  {
+    "id": "follower_lost:dearda:2026-09-13T11:58:43.550Z",
+    "type": "follower_lost",
+    "login": "dearda",
+    "htmlUrl": "https://github.com/dearda",
+    "happenedAt": "2026-09-13T11:58:43.550Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:dearda:2026-09-13T04:54:30.612Z",
     "type": "follower_gained",
     "login": "dearda",
@@ -23347,21 +23377,5 @@
     "login": "AlgorithmAlchemy",
     "htmlUrl": "https://github.com/AlgorithmAlchemy",
     "happenedAt": "2026-06-15T14:28:18.222Z"
-  },
-  {
-    "id": "you_followed:dolcette:2026-06-15T08:30:04.736Z",
-    "type": "you_followed",
-    "login": "dolcette",
-    "htmlUrl": "https://github.com/dolcette",
-    "happenedAt": "2026-06-15T08:30:04.736Z"
-  },
-  {
-    "id": "you_unfollowed:timaeustestrifed:2026-06-15T08:30:04.736Z",
-    "type": "you_unfollowed",
-    "login": "timaeustestrifed",
-    "htmlUrl": "https://github.com/timaeustestrifed",
-    "happenedAt": "2026-06-15T08:30:04.736Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
