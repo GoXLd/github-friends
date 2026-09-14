@@ -23361,28 +23361,5 @@
     "happenedAt": "2026-06-16T14:08:08.786Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:2oio:2026-06-16T01:32:39.296Z",
-    "type": "follower_gained",
-    "login": "2OIO",
-    "htmlUrl": "https://github.com/2OIO",
-    "happenedAt": "2026-06-16T01:32:39.296Z"
-  },
-  {
-    "id": "follower_gained:dolcette:2026-06-16T01:32:39.296Z",
-    "type": "follower_gained",
-    "login": "dolcette",
-    "htmlUrl": "https://github.com/dolcette",
-    "happenedAt": "2026-06-16T01:32:39.296Z"
-  },
-  {
-    "id": "follower_lost:sweetfies:2026-06-16T01:32:39.296Z",
-    "type": "follower_lost",
-    "login": "sweetfies",
-    "htmlUrl": "https://github.com/sweetfies",
-    "happenedAt": "2026-06-16T01:32:39.296Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
