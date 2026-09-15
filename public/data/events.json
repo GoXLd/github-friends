@@ -1,5 +1,51 @@
 [
   {
+    "id": "follower_gained:archive-ofourown:2026-09-15T17:04:29.231Z",
+    "type": "follower_gained",
+    "login": "ARCHIvE-ofourown",
+    "htmlUrl": "https://github.com/ARCHIvE-ofourown",
+    "happenedAt": "2026-09-15T17:04:29.231Z"
+  },
+  {
+    "id": "follower_gained:dovvnloading:2026-09-15T17:04:29.231Z",
+    "type": "follower_gained",
+    "login": "dovvnloading",
+    "htmlUrl": "https://github.com/dovvnloading",
+    "happenedAt": "2026-09-15T17:04:29.231Z"
+  },
+  {
+    "id": "follower_gained:falcon0709:2026-09-15T17:04:29.231Z",
+    "type": "follower_gained",
+    "login": "falcon0709",
+    "htmlUrl": "https://github.com/falcon0709",
+    "happenedAt": "2026-09-15T17:04:29.231Z"
+  },
+  {
+    "id": "follower_gained:vasco-branco06:2026-09-15T17:04:29.231Z",
+    "type": "follower_gained",
+    "login": "vasco-branco06",
+    "htmlUrl": "https://github.com/vasco-branco06",
+    "happenedAt": "2026-09-15T17:04:29.231Z"
+  },
+  {
+    "id": "follower_lost:kuwakuwa53577:2026-09-15T17:04:29.231Z",
+    "type": "follower_lost",
+    "login": "kuwakuwa53577",
+    "htmlUrl": "https://github.com/kuwakuwa53577",
+    "happenedAt": "2026-09-15T17:04:29.231Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:s-a-m-y1:2026-09-15T17:04:29.231Z",
+    "type": "follower_lost",
+    "login": "s-a-m-y1",
+    "htmlUrl": "https://github.com/s-a-m-y1",
+    "happenedAt": "2026-09-15T17:04:29.231Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:carltonturusida:2026-09-15T11:50:52.400Z",
     "type": "follower_gained",
     "login": "carltonturusida",
@@ -23659,14 +23705,5 @@
     "login": "Michel66",
     "htmlUrl": "https://github.com/Michel66",
     "happenedAt": "2026-06-17T19:09:56.939Z"
-  },
-  {
-    "id": "follower_lost:bigmacman1129:2026-06-17T13:32:34.458Z",
-    "type": "follower_lost",
-    "login": "bigmacman1129",
-    "htmlUrl": "https://github.com/bigmacman1129",
-    "happenedAt": "2026-06-17T13:32:34.458Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
