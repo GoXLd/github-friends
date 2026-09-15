@@ -1,5 +1,58 @@
 [
   {
+    "id": "follower_gained:b-bcoder:2026-09-15T04:59:28.827Z",
+    "type": "follower_gained",
+    "login": "b-bcoder",
+    "htmlUrl": "https://github.com/b-bcoder",
+    "happenedAt": "2026-09-15T04:59:28.827Z"
+  },
+  {
+    "id": "follower_gained:c4k3lly-x:2026-09-15T04:59:28.827Z",
+    "type": "follower_gained",
+    "login": "c4k3lly-x",
+    "htmlUrl": "https://github.com/c4k3lly-x",
+    "happenedAt": "2026-09-15T04:59:28.827Z"
+  },
+  {
+    "id": "follower_gained:opefelipepr:2026-09-15T04:59:28.827Z",
+    "type": "follower_gained",
+    "login": "opefelipepr",
+    "htmlUrl": "https://github.com/opefelipepr",
+    "happenedAt": "2026-09-15T04:59:28.827Z"
+  },
+  {
+    "id": "follower_lost:uihorsewolf-design:2026-09-15T04:59:28.827Z",
+    "type": "follower_lost",
+    "login": "uihorsewolf-design",
+    "htmlUrl": "https://github.com/uihorsewolf-design",
+    "happenedAt": "2026-09-15T04:59:28.827Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:b-bcoder:2026-09-15T04:59:28.827Z",
+    "type": "you_followed",
+    "login": "b-bcoder",
+    "htmlUrl": "https://github.com/b-bcoder",
+    "happenedAt": "2026-09-15T04:59:28.827Z"
+  },
+  {
+    "id": "you_followed:lonsaria:2026-09-15T04:59:28.827Z",
+    "type": "you_followed",
+    "login": "lonsaria",
+    "htmlUrl": "https://github.com/lonsaria",
+    "happenedAt": "2026-09-15T04:59:28.827Z"
+  },
+  {
+    "id": "you_unfollowed:uihorsewolf-design:2026-09-15T04:59:28.827Z",
+    "type": "you_unfollowed",
+    "login": "uihorsewolf-design",
+    "htmlUrl": "https://github.com/uihorsewolf-design",
+    "happenedAt": "2026-09-15T04:59:28.827Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:arielshakaramiro:2026-09-14T21:52:49.776Z",
     "type": "follower_gained",
     "login": "arielshakaramiro",
@@ -23592,22 +23645,6 @@
     "login": "bigmacman1129",
     "htmlUrl": "https://github.com/bigmacman1129",
     "happenedAt": "2026-06-17T13:32:34.458Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:mayas-sun:2026-06-17T01:31:14.624Z",
-    "type": "follower_gained",
-    "login": "Mayas-Sun",
-    "htmlUrl": "https://github.com/Mayas-Sun",
-    "happenedAt": "2026-06-17T01:31:14.624Z"
-  },
-  {
-    "id": "follower_lost:k00l-ravi:2026-06-17T01:31:14.624Z",
-    "type": "follower_lost",
-    "login": "K00L-Ravi",
-    "htmlUrl": "https://github.com/K00L-Ravi",
-    "happenedAt": "2026-06-17T01:31:14.624Z",
     "accountStatus": null,
     "isDeleted": false
   }
