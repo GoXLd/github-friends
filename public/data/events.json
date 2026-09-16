@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:simontechempire:2026-09-16T21:22:31.124Z",
+    "type": "follower_gained",
+    "login": "Simontechempire",
+    "htmlUrl": "https://github.com/Simontechempire",
+    "happenedAt": "2026-09-16T21:22:31.124Z"
+  },
+  {
+    "id": "follower_gained:theantiz:2026-09-16T21:22:31.124Z",
+    "type": "follower_gained",
+    "login": "theantiz",
+    "htmlUrl": "https://github.com/theantiz",
+    "happenedAt": "2026-09-16T21:22:31.124Z"
+  },
+  {
     "id": "follower_gained:b1lliej0e:2026-09-16T17:04:29.860Z",
     "type": "follower_gained",
     "login": "B1LLIEJ0E",
@@ -23853,22 +23867,6 @@
     "login": "d3xx4-TheDarkLord",
     "htmlUrl": "https://github.com/d3xx4-TheDarkLord",
     "happenedAt": "2026-06-19T01:33:57.771Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:pbc3998:2026-06-18T19:07:34.172Z",
-    "type": "you_followed",
-    "login": "pbc3998",
-    "htmlUrl": "https://github.com/pbc3998",
-    "happenedAt": "2026-06-18T19:07:34.172Z"
-  },
-  {
-    "id": "you_unfollowed:pbc-dev:2026-06-18T19:07:34.172Z",
-    "type": "you_unfollowed",
-    "login": "pbc-dev",
-    "htmlUrl": "https://github.com/pbc-dev",
-    "happenedAt": "2026-06-18T19:07:34.172Z",
     "accountStatus": null,
     "isDeleted": false
   }
