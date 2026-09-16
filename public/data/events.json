@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:bittersweetloving:2026-09-16T11:43:41.228Z",
+    "type": "follower_gained",
+    "login": "bittersweetloving",
+    "htmlUrl": "https://github.com/bittersweetloving",
+    "happenedAt": "2026-09-16T11:43:41.228Z"
+  },
+  {
+    "id": "follower_lost:theroadofstars:2026-09-16T11:43:41.228Z",
+    "type": "follower_lost",
+    "login": "THEROADOFSTARS",
+    "htmlUrl": "https://github.com/THEROADOFSTARS",
+    "happenedAt": "2026-09-16T11:43:41.228Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:chaoshour:2026-09-16T04:54:56.052Z",
     "type": "follower_gained",
     "login": "ChaosHour",
@@ -23839,15 +23855,6 @@
     "login": "darasls",
     "htmlUrl": "https://github.com/darasls",
     "happenedAt": "2026-06-18T13:29:57.577Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:cloud0816:2026-06-18T08:02:08.147Z",
-    "type": "follower_lost",
-    "login": "cloud0816",
-    "htmlUrl": "https://github.com/cloud0816",
-    "happenedAt": "2026-06-18T08:02:08.147Z",
     "accountStatus": null,
     "isDeleted": false
   }
