@@ -1,5 +1,26 @@
 [
   {
+    "id": "follower_gained:chaoshour:2026-09-16T04:54:56.052Z",
+    "type": "follower_gained",
+    "login": "ChaosHour",
+    "htmlUrl": "https://github.com/ChaosHour",
+    "happenedAt": "2026-09-16T04:54:56.052Z"
+  },
+  {
+    "id": "follower_gained:ismailtopalan:2026-09-16T04:54:56.052Z",
+    "type": "follower_gained",
+    "login": "ismailtopalan",
+    "htmlUrl": "https://github.com/ismailtopalan",
+    "happenedAt": "2026-09-16T04:54:56.052Z"
+  },
+  {
+    "id": "follower_gained:mortolian:2026-09-16T04:54:56.052Z",
+    "type": "follower_gained",
+    "login": "mortolian",
+    "htmlUrl": "https://github.com/mortolian",
+    "happenedAt": "2026-09-16T04:54:56.052Z"
+  },
+  {
     "id": "you_followed:andrewkarpaty:2026-09-15T21:25:46.278Z",
     "type": "you_followed",
     "login": "AndrewKarpaty",
@@ -23827,29 +23848,6 @@
     "login": "cloud0816",
     "htmlUrl": "https://github.com/cloud0816",
     "happenedAt": "2026-06-18T08:02:08.147Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:f-guesswho:2026-06-18T01:28:07.504Z",
-    "type": "follower_gained",
-    "login": "F-guessWho",
-    "htmlUrl": "https://github.com/F-guessWho",
-    "happenedAt": "2026-06-18T01:28:07.504Z"
-  },
-  {
-    "id": "follower_gained:potagoddammnit:2026-06-18T01:28:07.504Z",
-    "type": "follower_gained",
-    "login": "PotaGODDAMMNIT",
-    "htmlUrl": "https://github.com/PotaGODDAMMNIT",
-    "happenedAt": "2026-06-18T01:28:07.504Z"
-  },
-  {
-    "id": "follower_lost:mayas-sun:2026-06-18T01:28:07.504Z",
-    "type": "follower_lost",
-    "login": "Mayas-Sun",
-    "htmlUrl": "https://github.com/Mayas-Sun",
-    "happenedAt": "2026-06-18T01:28:07.504Z",
     "accountStatus": null,
     "isDeleted": false
   }
