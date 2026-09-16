@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:b1lliej0e:2026-09-16T17:04:29.860Z",
+    "type": "follower_gained",
+    "login": "B1LLIEJ0E",
+    "htmlUrl": "https://github.com/B1LLIEJ0E",
+    "happenedAt": "2026-09-16T17:04:29.860Z"
+  },
+  {
+    "id": "follower_gained:meta-success-1:2026-09-16T17:04:29.860Z",
+    "type": "follower_gained",
+    "login": "meta-success-1",
+    "htmlUrl": "https://github.com/meta-success-1",
+    "happenedAt": "2026-09-16T17:04:29.860Z"
+  },
+  {
+    "id": "follower_lost:derb1f:2026-09-16T17:04:29.860Z",
+    "type": "follower_lost",
+    "login": "DERB1F",
+    "htmlUrl": "https://github.com/DERB1F",
+    "happenedAt": "2026-09-16T17:04:29.860Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:tokar96821:2026-09-16T17:04:29.860Z",
+    "type": "follower_lost",
+    "login": "tokar96821",
+    "htmlUrl": "https://github.com/tokar96821",
+    "happenedAt": "2026-09-16T17:04:29.860Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:bittersweetloving:2026-09-16T11:43:41.228Z",
     "type": "follower_gained",
     "login": "bittersweetloving",
@@ -23837,24 +23869,6 @@
     "login": "pbc-dev",
     "htmlUrl": "https://github.com/pbc-dev",
     "happenedAt": "2026-06-18T19:07:34.172Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:algorithmalchemy:2026-06-18T13:29:57.577Z",
-    "type": "follower_lost",
-    "login": "AlgorithmAlchemy",
-    "htmlUrl": "https://github.com/AlgorithmAlchemy",
-    "happenedAt": "2026-06-18T13:29:57.577Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:darasls:2026-06-18T13:29:57.577Z",
-    "type": "follower_lost",
-    "login": "darasls",
-    "htmlUrl": "https://github.com/darasls",
-    "happenedAt": "2026-06-18T13:29:57.577Z",
     "accountStatus": null,
     "isDeleted": false
   }
