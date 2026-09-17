@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:ridhorezkyanwar:2026-09-17T04:57:47.226Z",
+    "type": "follower_gained",
+    "login": "ridhorezkyanwar",
+    "htmlUrl": "https://github.com/ridhorezkyanwar",
+    "happenedAt": "2026-09-17T04:57:47.226Z"
+  },
+  {
+    "id": "follower_gained:shinobi-coder701:2026-09-17T04:57:47.226Z",
+    "type": "follower_gained",
+    "login": "shinobi-coder701",
+    "htmlUrl": "https://github.com/shinobi-coder701",
+    "happenedAt": "2026-09-17T04:57:47.226Z"
+  },
+  {
     "id": "follower_gained:simontechempire:2026-09-16T21:22:31.124Z",
     "type": "follower_gained",
     "login": "Simontechempire",
@@ -23835,38 +23849,6 @@
     "login": "kittyaikoo",
     "htmlUrl": "https://github.com/kittyaikoo",
     "happenedAt": "2026-06-19T08:14:31.376Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:fangysdream:2026-06-19T01:33:57.771Z",
-    "type": "follower_gained",
-    "login": "FangysDream",
-    "htmlUrl": "https://github.com/FangysDream",
-    "happenedAt": "2026-06-19T01:33:57.771Z"
-  },
-  {
-    "id": "follower_lost:f-guesswho:2026-06-19T01:33:57.771Z",
-    "type": "follower_lost",
-    "login": "F-guessWho",
-    "htmlUrl": "https://github.com/F-guessWho",
-    "happenedAt": "2026-06-19T01:33:57.771Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:mistydev20220:2026-06-19T01:33:57.771Z",
-    "type": "you_followed",
-    "login": "mistydev20220",
-    "htmlUrl": "https://github.com/mistydev20220",
-    "happenedAt": "2026-06-19T01:33:57.771Z"
-  },
-  {
-    "id": "you_unfollowed:d3xx4-thedarklord:2026-06-19T01:33:57.771Z",
-    "type": "you_unfollowed",
-    "login": "d3xx4-TheDarkLord",
-    "htmlUrl": "https://github.com/d3xx4-TheDarkLord",
-    "happenedAt": "2026-06-19T01:33:57.771Z",
     "accountStatus": null,
     "isDeleted": false
   }
