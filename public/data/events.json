@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:squiddx:2026-09-18T20:57:23.772Z",
+    "type": "follower_gained",
+    "login": "squiddx",
+    "htmlUrl": "https://github.com/squiddx",
+    "happenedAt": "2026-09-18T20:57:23.772Z"
+  },
+  {
+    "id": "follower_lost:nightmarespoke:2026-09-18T20:57:23.772Z",
+    "type": "follower_lost",
+    "login": "nightmarespoke",
+    "htmlUrl": "https://github.com/nightmarespoke",
+    "happenedAt": "2026-09-18T20:57:23.772Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:squiddx:2026-09-18T20:57:23.772Z",
+    "type": "you_followed",
+    "login": "squiddx",
+    "htmlUrl": "https://github.com/squiddx",
+    "happenedAt": "2026-09-18T20:57:23.772Z"
+  },
+  {
+    "id": "you_unfollowed:nightmarespoke:2026-09-18T20:57:23.772Z",
+    "type": "you_unfollowed",
+    "login": "nightmarespoke",
+    "htmlUrl": "https://github.com/nightmarespoke",
+    "happenedAt": "2026-09-18T20:57:23.772Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:shahidazam2020-oss:2026-09-18T16:29:17.378Z",
     "type": "follower_gained",
     "login": "shahidazam2020-oss",
@@ -24327,22 +24359,6 @@
     "login": "chahe-dridi",
     "htmlUrl": "https://github.com/chahe-dridi",
     "happenedAt": "2026-06-21T01:31:53.640Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:sahils0:2026-06-20T18:49:11.414Z",
-    "type": "follower_gained",
-    "login": "sahils0",
-    "htmlUrl": "https://github.com/sahils0",
-    "happenedAt": "2026-06-20T18:49:11.414Z"
-  },
-  {
-    "id": "follower_lost:white-night-eco-dev:2026-06-20T18:49:11.414Z",
-    "type": "follower_lost",
-    "login": "white-night-eco-dev",
-    "htmlUrl": "https://github.com/white-night-eco-dev",
-    "happenedAt": "2026-06-20T18:49:11.414Z",
     "accountStatus": null,
     "isDeleted": false
   }
