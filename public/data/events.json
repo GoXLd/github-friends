@@ -1,5 +1,33 @@
 [
   {
+    "id": "follower_gained:cozmobaut-hub:2026-09-19T04:42:36.992Z",
+    "type": "follower_gained",
+    "login": "cozmobaut-hub",
+    "htmlUrl": "https://github.com/cozmobaut-hub",
+    "happenedAt": "2026-09-19T04:42:36.992Z"
+  },
+  {
+    "id": "follower_gained:malaybhai11:2026-09-19T04:42:36.992Z",
+    "type": "follower_gained",
+    "login": "Malaybhai11",
+    "htmlUrl": "https://github.com/Malaybhai11",
+    "happenedAt": "2026-09-19T04:42:36.992Z"
+  },
+  {
+    "id": "follower_gained:ratwolfzero:2026-09-19T04:42:36.992Z",
+    "type": "follower_gained",
+    "login": "ratwolfzero",
+    "htmlUrl": "https://github.com/ratwolfzero",
+    "happenedAt": "2026-09-19T04:42:36.992Z"
+  },
+  {
+    "id": "follower_gained:tametak:2026-09-19T04:42:36.992Z",
+    "type": "follower_gained",
+    "login": "tameTAK",
+    "htmlUrl": "https://github.com/tameTAK",
+    "happenedAt": "2026-09-19T04:42:36.992Z"
+  },
+  {
     "id": "follower_gained:squiddx:2026-09-18T20:57:23.772Z",
     "type": "follower_gained",
     "login": "squiddx",
@@ -24322,43 +24350,6 @@
     "login": "yusranAbd",
     "htmlUrl": "https://github.com/yusranAbd",
     "happenedAt": "2026-06-21T13:00:37.016Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:frenwinter:2026-06-21T01:31:53.640Z",
-    "type": "follower_gained",
-    "login": "frenwinter",
-    "htmlUrl": "https://github.com/frenwinter",
-    "happenedAt": "2026-06-21T01:31:53.640Z"
-  },
-  {
-    "id": "follower_gained:furendyna:2026-06-21T01:31:53.640Z",
-    "type": "follower_gained",
-    "login": "furendyna",
-    "htmlUrl": "https://github.com/furendyna",
-    "happenedAt": "2026-06-21T01:31:53.640Z"
-  },
-  {
-    "id": "follower_gained:jokeyhter:2026-06-21T01:31:53.640Z",
-    "type": "follower_gained",
-    "login": "jokeyhter",
-    "htmlUrl": "https://github.com/jokeyhter",
-    "happenedAt": "2026-06-21T01:31:53.640Z"
-  },
-  {
-    "id": "follower_gained:lokiwyler:2026-06-21T01:31:53.640Z",
-    "type": "follower_gained",
-    "login": "lokiwyler",
-    "htmlUrl": "https://github.com/lokiwyler",
-    "happenedAt": "2026-06-21T01:31:53.640Z"
-  },
-  {
-    "id": "follower_lost:chahe-dridi:2026-06-21T01:31:53.640Z",
-    "type": "follower_lost",
-    "login": "chahe-dridi",
-    "htmlUrl": "https://github.com/chahe-dridi",
-    "happenedAt": "2026-06-21T01:31:53.640Z",
     "accountStatus": null,
     "isDeleted": false
   }
