@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:prayagupa23:2026-09-19T20:46:13.934Z",
+    "type": "follower_gained",
+    "login": "prayagupa23",
+    "htmlUrl": "https://github.com/prayagupa23",
+    "happenedAt": "2026-09-19T20:46:13.934Z"
+  },
+  {
+    "id": "follower_gained:ritverma6:2026-09-19T20:46:13.934Z",
+    "type": "follower_gained",
+    "login": "ritverma6",
+    "htmlUrl": "https://github.com/ritverma6",
+    "happenedAt": "2026-09-19T20:46:13.934Z"
+  },
+  {
+    "id": "follower_lost:dreamerol:2026-09-19T20:46:13.934Z",
+    "type": "follower_lost",
+    "login": "Dreamerol",
+    "htmlUrl": "https://github.com/Dreamerol",
+    "happenedAt": "2026-09-19T20:46:13.934Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:gaqx:2026-09-19T15:55:33.761Z",
     "type": "follower_gained",
     "login": "gaqx",
