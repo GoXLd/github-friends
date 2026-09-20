@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:banisah256-alt:2026-09-20T04:58:41.190Z",
+    "type": "follower_lost",
+    "login": "banisah256-alt",
+    "htmlUrl": "https://github.com/banisah256-alt",
+    "happenedAt": "2026-09-20T04:58:41.190Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:prayagupa23:2026-09-19T20:46:13.934Z",
     "type": "follower_gained",
     "login": "prayagupa23",
@@ -23885,28 +23894,5 @@
     "login": "webbrain-one",
     "htmlUrl": "https://github.com/webbrain-one",
     "happenedAt": "2026-06-22T14:13:12.494Z"
-  },
-  {
-    "id": "follower_gained:hidari69:2026-06-22T01:31:30.695Z",
-    "type": "follower_gained",
-    "login": "hidari69",
-    "htmlUrl": "https://github.com/hidari69",
-    "happenedAt": "2026-06-22T01:31:30.695Z"
-  },
-  {
-    "id": "you_followed:philipdev5:2026-06-22T01:31:30.695Z",
-    "type": "you_followed",
-    "login": "PhilipDev5",
-    "htmlUrl": "https://github.com/PhilipDev5",
-    "happenedAt": "2026-06-22T01:31:30.695Z"
-  },
-  {
-    "id": "you_unfollowed:stardev06:2026-06-22T01:31:30.695Z",
-    "type": "you_unfollowed",
-    "login": "STARDEV06",
-    "htmlUrl": "https://github.com/STARDEV06",
-    "happenedAt": "2026-06-22T01:31:30.695Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
