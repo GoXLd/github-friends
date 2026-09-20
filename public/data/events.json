@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:bariewakjira-coder:2026-09-20T20:53:24.064Z",
+    "type": "follower_gained",
+    "login": "bariewakjira-coder",
+    "htmlUrl": "https://github.com/bariewakjira-coder",
+    "happenedAt": "2026-09-20T20:53:24.064Z"
+  },
+  {
+    "id": "follower_gained:promodhvkumar:2026-09-20T20:53:24.064Z",
+    "type": "follower_gained",
+    "login": "promodhvkumar",
+    "htmlUrl": "https://github.com/promodhvkumar",
+    "happenedAt": "2026-09-20T20:53:24.064Z"
+  },
+  {
+    "id": "follower_gained:sparth292:2026-09-20T20:53:24.064Z",
+    "type": "follower_gained",
+    "login": "sparth292",
+    "htmlUrl": "https://github.com/sparth292",
+    "happenedAt": "2026-09-20T20:53:24.064Z"
+  },
+  {
+    "id": "follower_lost:mominyar:2026-09-20T20:53:24.064Z",
+    "type": "follower_lost",
+    "login": "Mominyar",
+    "htmlUrl": "https://github.com/Mominyar",
+    "happenedAt": "2026-09-20T20:53:24.064Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:rickcest:2026-09-20T16:12:17.280Z",
     "type": "follower_gained",
     "login": "rickcest",
@@ -23955,54 +23985,5 @@
     "happenedAt": "2026-06-23T01:16:55.624Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:filzehoka:2026-06-22T19:28:54.885Z",
-    "type": "follower_gained",
-    "login": "filzehoka",
-    "htmlUrl": "https://github.com/filzehoka",
-    "happenedAt": "2026-06-22T19:28:54.885Z"
-  },
-  {
-    "id": "follower_gained:kynaderd:2026-06-22T19:28:54.885Z",
-    "type": "follower_gained",
-    "login": "kynaderd",
-    "htmlUrl": "https://github.com/kynaderd",
-    "happenedAt": "2026-06-22T19:28:54.885Z"
-  },
-  {
-    "id": "follower_gained:lynechic:2026-06-22T19:28:54.885Z",
-    "type": "follower_gained",
-    "login": "lynechic",
-    "htmlUrl": "https://github.com/lynechic",
-    "happenedAt": "2026-06-22T19:28:54.885Z"
-  },
-  {
-    "id": "follower_gained:magicdevstar:2026-06-22T19:28:54.885Z",
-    "type": "follower_gained",
-    "login": "magicdevstar",
-    "htmlUrl": "https://github.com/magicdevstar",
-    "happenedAt": "2026-06-22T19:28:54.885Z"
-  },
-  {
-    "id": "follower_gained:mirainiki:2026-06-22T19:28:54.885Z",
-    "type": "follower_gained",
-    "login": "mirainiki",
-    "htmlUrl": "https://github.com/mirainiki",
-    "happenedAt": "2026-06-22T19:28:54.885Z"
-  },
-  {
-    "id": "follower_gained:otosmane:2026-06-22T19:28:54.885Z",
-    "type": "follower_gained",
-    "login": "otosmane",
-    "htmlUrl": "https://github.com/otosmane",
-    "happenedAt": "2026-06-22T19:28:54.885Z"
-  },
-  {
-    "id": "follower_gained:wenyveo:2026-06-22T19:28:54.885Z",
-    "type": "follower_gained",
-    "login": "Wenyveo",
-    "htmlUrl": "https://github.com/Wenyveo",
-    "happenedAt": "2026-06-22T19:28:54.885Z"
   }
 ]
