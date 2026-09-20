@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:rickcest:2026-09-20T16:12:17.280Z",
+    "type": "follower_gained",
+    "login": "rickcest",
+    "htmlUrl": "https://github.com/rickcest",
+    "happenedAt": "2026-09-20T16:12:17.280Z"
+  },
+  {
+    "id": "follower_lost:hizashiyamada:2026-09-20T16:12:17.280Z",
+    "type": "follower_lost",
+    "login": "HizashiYamada",
+    "htmlUrl": "https://github.com/HizashiYamada",
+    "happenedAt": "2026-09-20T16:12:17.280Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:peterruler:2026-09-20T11:31:30.551Z",
     "type": "follower_lost",
     "login": "peterruler",
@@ -23988,19 +24004,5 @@
     "login": "Wenyveo",
     "htmlUrl": "https://github.com/Wenyveo",
     "happenedAt": "2026-06-22T19:28:54.885Z"
-  },
-  {
-    "id": "follower_gained:shrp69:2026-06-22T14:13:12.494Z",
-    "type": "follower_gained",
-    "login": "ShRP69",
-    "htmlUrl": "https://github.com/ShRP69",
-    "happenedAt": "2026-06-22T14:13:12.494Z"
-  },
-  {
-    "id": "follower_gained:webbrain-one:2026-06-22T14:13:12.494Z",
-    "type": "follower_gained",
-    "login": "webbrain-one",
-    "htmlUrl": "https://github.com/webbrain-one",
-    "happenedAt": "2026-06-22T14:13:12.494Z"
   }
 ]
