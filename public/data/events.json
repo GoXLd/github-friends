@@ -23953,21 +23953,5 @@
     "happenedAt": "2026-06-23T13:17:56.582Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:raptr45:2026-06-23T07:33:51.293Z",
-    "type": "follower_gained",
-    "login": "raptr45",
-    "htmlUrl": "https://github.com/raptr45",
-    "happenedAt": "2026-06-23T07:33:51.293Z"
-  },
-  {
-    "id": "follower_lost:programmersd21:2026-06-23T07:33:51.293Z",
-    "type": "follower_lost",
-    "login": "programmersd21",
-    "htmlUrl": "https://github.com/programmersd21",
-    "happenedAt": "2026-06-23T07:33:51.293Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
