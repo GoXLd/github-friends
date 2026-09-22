@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:adriannoes:2026-09-22T17:00:38.314Z",
+    "type": "follower_gained",
+    "login": "adriannoes",
+    "htmlUrl": "https://github.com/adriannoes",
+    "happenedAt": "2026-09-22T17:00:38.314Z"
+  },
+  {
+    "id": "follower_lost:berserk-hub150:2026-09-22T17:00:38.314Z",
+    "type": "follower_lost",
+    "login": "Berserk-hub150",
+    "htmlUrl": "https://github.com/Berserk-hub150",
+    "happenedAt": "2026-09-22T17:00:38.314Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:tahaelfitouri:2026-09-22T05:05:03.172Z",
     "type": "follower_gained",
     "login": "tahaelfitouri",
