@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:tahaelfitouri:2026-09-22T05:05:03.172Z",
+    "type": "follower_gained",
+    "login": "tahaelfitouri",
+    "htmlUrl": "https://github.com/tahaelfitouri",
+    "happenedAt": "2026-09-22T05:05:03.172Z"
+  },
+  {
+    "id": "follower_lost:tahaelfit17:2026-09-22T05:05:03.172Z",
+    "type": "follower_lost",
+    "login": "tahaelfit17",
+    "htmlUrl": "https://github.com/tahaelfit17",
+    "happenedAt": "2026-09-22T05:05:03.172Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:tahaelfitouri:2026-09-22T05:05:03.172Z",
+    "type": "you_followed",
+    "login": "tahaelfitouri",
+    "htmlUrl": "https://github.com/tahaelfitouri",
+    "happenedAt": "2026-09-22T05:05:03.172Z"
+  },
+  {
+    "id": "you_unfollowed:tahaelfit17:2026-09-22T05:05:03.172Z",
+    "type": "you_unfollowed",
+    "login": "tahaelfit17",
+    "htmlUrl": "https://github.com/tahaelfit17",
+    "happenedAt": "2026-09-22T05:05:03.172Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:bariewakjira-coder:2026-09-20T20:53:24.064Z",
     "type": "follower_gained",
     "login": "bariewakjira-coder",
@@ -23025,37 +23057,5 @@
     "login": "armin-panahi",
     "htmlUrl": "https://github.com/armin-panahi",
     "happenedAt": "2026-06-24T07:30:43.684Z"
-  },
-  {
-    "id": "follower_gained:aleksei-khvostov:2026-06-24T01:15:08.071Z",
-    "type": "follower_gained",
-    "login": "aleksei-khvostov",
-    "htmlUrl": "https://github.com/aleksei-khvostov",
-    "happenedAt": "2026-06-24T01:15:08.071Z"
-  },
-  {
-    "id": "follower_lost:fsrxc2bvv9-ctrl:2026-06-24T01:15:08.071Z",
-    "type": "follower_lost",
-    "login": "fsrxc2bvv9-ctrl",
-    "htmlUrl": "https://github.com/fsrxc2bvv9-ctrl",
-    "happenedAt": "2026-06-24T01:15:08.071Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:aleksei-khvostov:2026-06-24T01:15:08.071Z",
-    "type": "you_followed",
-    "login": "aleksei-khvostov",
-    "htmlUrl": "https://github.com/aleksei-khvostov",
-    "happenedAt": "2026-06-24T01:15:08.071Z"
-  },
-  {
-    "id": "you_unfollowed:fsrxc2bvv9-ctrl:2026-06-24T01:15:08.071Z",
-    "type": "you_unfollowed",
-    "login": "fsrxc2bvv9-ctrl",
-    "htmlUrl": "https://github.com/fsrxc2bvv9-ctrl",
-    "happenedAt": "2026-06-24T01:15:08.071Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
