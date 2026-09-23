@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:danhouseman:2026-09-23T11:45:16.541Z",
+    "type": "follower_lost",
+    "login": "DanHouseman",
+    "htmlUrl": "https://github.com/DanHouseman",
+    "happenedAt": "2026-09-23T11:45:16.541Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:adriannoes:2026-09-22T17:00:38.314Z",
     "type": "follower_gained",
     "login": "adriannoes",
