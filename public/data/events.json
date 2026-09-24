@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:peterruler:2026-09-24T21:34:19.019Z",
+    "type": "follower_gained",
+    "login": "peterruler",
+    "htmlUrl": "https://github.com/peterruler",
+    "happenedAt": "2026-09-24T21:34:19.019Z"
+  },
+  {
     "id": "follower_gained:nawsintabassum:2026-09-24T17:16:17.690Z",
     "type": "follower_gained",
     "login": "nawsintabassum",
@@ -22844,32 +22851,5 @@
     "login": "Ultivra",
     "htmlUrl": "https://github.com/Ultivra",
     "happenedAt": "2026-06-27T01:17:50.920Z"
-  },
-  {
-    "id": "follower_lost:fieldofstrawberries:2026-06-26T18:57:08.875Z",
-    "type": "follower_lost",
-    "login": "FieldofStrawberries",
-    "htmlUrl": "https://github.com/FieldofStrawberries",
-    "happenedAt": "2026-06-26T18:57:08.875Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_lost:magicdevstar:2026-06-26T18:57:08.875Z",
-    "type": "follower_lost",
-    "login": "magicdevstar",
-    "htmlUrl": "https://github.com/magicdevstar",
-    "happenedAt": "2026-06-26T18:57:08.875Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:fieldofstrawberries:2026-06-26T18:57:08.875Z",
-    "type": "you_unfollowed",
-    "login": "FieldofStrawberries",
-    "htmlUrl": "https://github.com/FieldofStrawberries",
-    "happenedAt": "2026-06-26T18:57:08.875Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
