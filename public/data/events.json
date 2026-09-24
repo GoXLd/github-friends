@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:nawsintabassum:2026-09-24T17:16:17.690Z",
+    "type": "follower_gained",
+    "login": "nawsintabassum",
+    "htmlUrl": "https://github.com/nawsintabassum",
+    "happenedAt": "2026-09-24T17:16:17.690Z"
+  },
+  {
     "id": "follower_gained:bubhux:2026-09-24T11:53:45.386Z",
     "type": "follower_gained",
     "login": "Bubhux",
@@ -22864,21 +22871,5 @@
     "happenedAt": "2026-06-26T18:57:08.875Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:ohmygodduh:2026-06-26T13:03:58.910Z",
-    "type": "follower_gained",
-    "login": "ohmygodduh",
-    "htmlUrl": "https://github.com/ohmygodduh",
-    "happenedAt": "2026-06-26T13:03:58.910Z"
-  },
-  {
-    "id": "follower_lost:blessingkanengoni7:2026-06-26T13:03:58.910Z",
-    "type": "follower_lost",
-    "login": "BlessingKanengoni7",
-    "htmlUrl": "https://github.com/BlessingKanengoni7",
-    "happenedAt": "2026-06-26T13:03:58.910Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
