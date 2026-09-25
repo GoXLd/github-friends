@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:berserk-hub150:2026-09-25T17:16:35.656Z",
+    "type": "follower_gained",
+    "login": "Berserk-hub150",
+    "htmlUrl": "https://github.com/Berserk-hub150",
+    "happenedAt": "2026-09-25T17:16:35.656Z"
+  },
+  {
+    "id": "follower_lost:franciele-santos-silva:2026-09-25T17:16:35.656Z",
+    "type": "follower_lost",
+    "login": "Franciele-Santos-Silva",
+    "htmlUrl": "https://github.com/Franciele-Santos-Silva",
+    "happenedAt": "2026-09-25T17:16:35.656Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:claboran:2026-09-25T11:56:31.205Z",
     "type": "follower_gained",
     "login": "claboran",
@@ -22578,12 +22594,5 @@
     "happenedAt": "2026-06-27T18:43:56.251Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:c1felode:2026-06-27T12:47:19.826Z",
-    "type": "follower_gained",
-    "login": "c1felode",
-    "htmlUrl": "https://github.com/c1felode",
-    "happenedAt": "2026-06-27T12:47:19.826Z"
   }
 ]
