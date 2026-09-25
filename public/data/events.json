@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:claboran:2026-09-25T11:56:31.205Z",
+    "type": "follower_gained",
+    "login": "claboran",
+    "htmlUrl": "https://github.com/claboran",
+    "happenedAt": "2026-09-25T11:56:31.205Z"
+  },
+  {
+    "id": "follower_gained:riddlesrosehearts:2026-09-25T11:56:31.205Z",
+    "type": "follower_gained",
+    "login": "RIDDLESROSEHEARTS",
+    "htmlUrl": "https://github.com/RIDDLESROSEHEARTS",
+    "happenedAt": "2026-09-25T11:56:31.205Z"
+  },
+  {
+    "id": "follower_lost:roseheartss:2026-09-25T11:56:31.205Z",
+    "type": "follower_lost",
+    "login": "Roseheartss",
+    "htmlUrl": "https://github.com/Roseheartss",
+    "happenedAt": "2026-09-25T11:56:31.205Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:jomada88:2026-09-25T05:03:03.966Z",
     "type": "follower_gained",
     "login": "jomada88",
@@ -22562,21 +22585,5 @@
     "login": "c1felode",
     "htmlUrl": "https://github.com/c1felode",
     "happenedAt": "2026-06-27T12:47:19.826Z"
-  },
-  {
-    "id": "follower_gained:shivamdatainsight:2026-06-27T07:24:45.942Z",
-    "type": "follower_gained",
-    "login": "ShivamDatainSight",
-    "htmlUrl": "https://github.com/ShivamDatainSight",
-    "happenedAt": "2026-06-27T07:24:45.942Z"
-  },
-  {
-    "id": "follower_lost:shrp69:2026-06-27T07:24:45.942Z",
-    "type": "follower_lost",
-    "login": "ShRP69",
-    "htmlUrl": "https://github.com/ShRP69",
-    "happenedAt": "2026-06-27T07:24:45.942Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
