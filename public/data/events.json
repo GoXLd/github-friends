@@ -22571,28 +22571,5 @@
     "happenedAt": "2026-06-28T01:24:22.914Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:merribourne:2026-06-27T18:43:56.251Z",
-    "type": "follower_gained",
-    "login": "Merribourne",
-    "htmlUrl": "https://github.com/Merribourne",
-    "happenedAt": "2026-06-27T18:43:56.251Z"
-  },
-  {
-    "id": "follower_gained:raviwijerathna1:2026-06-27T18:43:56.251Z",
-    "type": "follower_gained",
-    "login": "raviwijerathna1",
-    "htmlUrl": "https://github.com/raviwijerathna1",
-    "happenedAt": "2026-06-27T18:43:56.251Z"
-  },
-  {
-    "id": "follower_lost:majorscythe:2026-06-27T18:43:56.251Z",
-    "type": "follower_lost",
-    "login": "Majorscythe",
-    "htmlUrl": "https://github.com/Majorscythe",
-    "happenedAt": "2026-06-27T18:43:56.251Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
