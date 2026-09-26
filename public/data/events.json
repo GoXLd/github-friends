@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:matheusrf96:2026-09-26T05:06:07.824Z",
+    "type": "follower_gained",
+    "login": "matheusrf96",
+    "htmlUrl": "https://github.com/matheusrf96",
+    "happenedAt": "2026-09-26T05:06:07.824Z"
+  },
+  {
+    "id": "follower_lost:ettisafxrup:2026-09-26T05:06:07.824Z",
+    "type": "follower_lost",
+    "login": "ettisafxrup",
+    "htmlUrl": "https://github.com/ettisafxrup",
+    "happenedAt": "2026-09-26T05:06:07.824Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:berserk-hub150:2026-09-25T17:16:35.656Z",
     "type": "follower_gained",
     "login": "Berserk-hub150",
@@ -22530,46 +22546,5 @@
     "happenedAt": "2026-06-28T12:47:30.701Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:kaomojl:2026-06-28T01:24:22.914Z",
-    "type": "follower_gained",
-    "login": "KAOMOJl",
-    "htmlUrl": "https://github.com/KAOMOJl",
-    "happenedAt": "2026-06-28T01:24:22.914Z"
-  },
-  {
-    "id": "follower_lost:puppycornz:2026-06-28T01:24:22.914Z",
-    "type": "follower_lost",
-    "login": "PUPPYCORNZ",
-    "htmlUrl": "https://github.com/PUPPYCORNZ",
-    "happenedAt": "2026-06-28T01:24:22.914Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:kaomojl:2026-06-28T01:24:22.914Z",
-    "type": "you_followed",
-    "login": "KAOMOJl",
-    "htmlUrl": "https://github.com/KAOMOJl",
-    "happenedAt": "2026-06-28T01:24:22.914Z"
-  },
-  {
-    "id": "you_unfollowed:puppycornz:2026-06-28T01:24:22.914Z",
-    "type": "you_unfollowed",
-    "login": "PUPPYCORNZ",
-    "htmlUrl": "https://github.com/PUPPYCORNZ",
-    "happenedAt": "2026-06-28T01:24:22.914Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:ridoandev:2026-06-28T01:24:22.914Z",
-    "type": "you_unfollowed",
-    "login": "RidoanDev",
-    "htmlUrl": "https://github.com/RidoanDev",
-    "happenedAt": "2026-06-28T01:24:22.914Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
