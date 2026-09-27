@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:softvision108:2026-09-27T21:24:30.535Z",
+    "type": "follower_gained",
+    "login": "softvision108",
+    "htmlUrl": "https://github.com/softvision108",
+    "happenedAt": "2026-09-27T21:24:30.535Z"
+  },
+  {
+    "id": "follower_lost:christianr108:2026-09-27T21:24:30.535Z",
+    "type": "follower_lost",
+    "login": "christianr108",
+    "htmlUrl": "https://github.com/christianr108",
+    "happenedAt": "2026-09-27T21:24:30.535Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:selengr:2026-09-26T21:14:44.916Z",
     "type": "follower_gained",
     "login": "selengr",
@@ -22396,21 +22412,5 @@
     "login": "xIanborges",
     "htmlUrl": "https://github.com/xIanborges",
     "happenedAt": "2026-06-30T01:19:33.285Z"
-  },
-  {
-    "id": "follower_gained:chrono-stasis:2026-06-29T18:59:58.583Z",
-    "type": "follower_gained",
-    "login": "Chrono-stasis",
-    "htmlUrl": "https://github.com/Chrono-stasis",
-    "happenedAt": "2026-06-29T18:59:58.583Z"
-  },
-  {
-    "id": "follower_lost:merribourne:2026-06-29T18:59:58.583Z",
-    "type": "follower_lost",
-    "login": "Merribourne",
-    "htmlUrl": "https://github.com/Merribourne",
-    "happenedAt": "2026-06-29T18:59:58.583Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
