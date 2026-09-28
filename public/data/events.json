@@ -1,5 +1,62 @@
 [
   {
+    "id": "follower_gained:med00amine:2026-09-28T23:20:00.901Z",
+    "type": "follower_gained",
+    "login": "Med00amine",
+    "htmlUrl": "https://github.com/Med00amine",
+    "happenedAt": "2026-09-28T23:20:00.901Z"
+  },
+  {
+    "id": "follower_gained:tiny771:2026-09-28T23:20:00.901Z",
+    "type": "follower_gained",
+    "login": "tiny771",
+    "htmlUrl": "https://github.com/tiny771",
+    "happenedAt": "2026-09-28T23:20:00.901Z"
+  },
+  {
+    "id": "follower_lost:oga35767-eng:2026-09-28T23:20:00.901Z",
+    "type": "follower_lost",
+    "login": "oga35767-eng",
+    "htmlUrl": "https://github.com/oga35767-eng",
+    "happenedAt": "2026-09-28T23:20:00.901Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:tiny-eng:2026-09-28T23:20:00.901Z",
+    "type": "follower_lost",
+    "login": "tiny-eng",
+    "htmlUrl": "https://github.com/tiny-eng",
+    "happenedAt": "2026-09-28T23:20:00.901Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:tiny771:2026-09-28T23:20:00.901Z",
+    "type": "you_followed",
+    "login": "tiny771",
+    "htmlUrl": "https://github.com/tiny771",
+    "happenedAt": "2026-09-28T23:20:00.901Z"
+  },
+  {
+    "id": "you_unfollowed:oga35767-eng:2026-09-28T23:20:00.901Z",
+    "type": "you_unfollowed",
+    "login": "oga35767-eng",
+    "htmlUrl": "https://github.com/oga35767-eng",
+    "happenedAt": "2026-09-28T23:20:00.901Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:tiny-eng:2026-09-28T23:20:00.901Z",
+    "type": "you_unfollowed",
+    "login": "tiny-eng",
+    "htmlUrl": "https://github.com/tiny-eng",
+    "happenedAt": "2026-09-28T23:20:00.901Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:softvision108:2026-09-27T21:24:30.535Z",
     "type": "follower_gained",
     "login": "softvision108",
@@ -22023,12 +22080,5 @@
     "happenedAt": "2026-07-01T01:25:28.234Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:mahimarawat0707:2026-06-30T18:58:07.632Z",
-    "type": "follower_gained",
-    "login": "mahimarawat0707",
-    "htmlUrl": "https://github.com/mahimarawat0707",
-    "happenedAt": "2026-06-30T18:58:07.632Z"
   }
 ]
