@@ -22046,39 +22046,5 @@
     "happenedAt": "2026-07-01T07:49:57.914Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:shamkuei:2026-07-01T01:25:28.234Z",
-    "type": "follower_gained",
-    "login": "shamkuei",
-    "htmlUrl": "https://github.com/shamkuei",
-    "happenedAt": "2026-07-01T01:25:28.234Z"
-  },
-  {
-    "id": "you_unfollowed:chanceduet:2026-07-01T01:25:28.234Z",
-    "type": "you_unfollowed",
-    "login": "chanceduet",
-    "htmlUrl": "https://github.com/chanceduet",
-    "happenedAt": "2026-07-01T01:25:28.234Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:mistydev20220:2026-07-01T01:25:28.234Z",
-    "type": "you_unfollowed",
-    "login": "mistydev20220",
-    "htmlUrl": "https://github.com/mistydev20220",
-    "happenedAt": "2026-07-01T01:25:28.234Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:pbc3998:2026-07-01T01:25:28.234Z",
-    "type": "you_unfollowed",
-    "login": "pbc3998",
-    "htmlUrl": "https://github.com/pbc3998",
-    "happenedAt": "2026-07-01T01:25:28.234Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
