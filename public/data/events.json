@@ -1,5 +1,104 @@
 [
   {
+    "id": "follower_lost:carltonturusida:2026-09-29T13:00:07.566Z",
+    "type": "follower_lost",
+    "login": "carltonturusida",
+    "htmlUrl": "https://github.com/carltonturusida",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:afarwind:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "afarwind",
+    "htmlUrl": "https://github.com/afarwind",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:cahcacah:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "cahcacah",
+    "htmlUrl": "https://github.com/cahcacah",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:emilybarru:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "emilybarru",
+    "htmlUrl": "https://github.com/emilybarru",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:erickbytes:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "erickbytes",
+    "htmlUrl": "https://github.com/erickbytes",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:kobeontheway:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "kobeontheway",
+    "htmlUrl": "https://github.com/kobeontheway",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:mak994:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "Mak994",
+    "htmlUrl": "https://github.com/Mak994",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:musma21:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "musma21",
+    "htmlUrl": "https://github.com/musma21",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:rinsophearun:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "rinsophearun",
+    "htmlUrl": "https://github.com/rinsophearun",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:t956175001:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "t956175001",
+    "htmlUrl": "https://github.com/t956175001",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:yzhang-master:2026-09-29T13:00:07.566Z",
+    "type": "you_unfollowed",
+    "login": "yzhang-master",
+    "htmlUrl": "https://github.com/yzhang-master",
+    "happenedAt": "2026-09-29T13:00:07.566Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:med00amine:2026-09-28T23:20:00.901Z",
     "type": "follower_gained",
     "login": "Med00amine",
@@ -22037,14 +22136,5 @@
     "login": "sikozonpc",
     "htmlUrl": "https://github.com/sikozonpc",
     "happenedAt": "2026-07-01T13:15:06.755Z"
-  },
-  {
-    "id": "follower_lost:mahimarawat0707:2026-07-01T07:49:57.914Z",
-    "type": "follower_lost",
-    "login": "mahimarawat0707",
-    "htmlUrl": "https://github.com/mahimarawat0707",
-    "happenedAt": "2026-07-01T07:49:57.914Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
