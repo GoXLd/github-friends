@@ -1,5 +1,53 @@
 [
   {
+    "id": "follower_gained:00200200:2026-09-30T22:20:41.659Z",
+    "type": "follower_gained",
+    "login": "00200200",
+    "htmlUrl": "https://github.com/00200200",
+    "happenedAt": "2026-09-30T22:20:41.659Z"
+  },
+  {
+    "id": "follower_gained:kgeminicdev:2026-09-30T22:20:41.659Z",
+    "type": "follower_gained",
+    "login": "kgeminicdev",
+    "htmlUrl": "https://github.com/kgeminicdev",
+    "happenedAt": "2026-09-30T22:20:41.659Z"
+  },
+  {
+    "id": "follower_gained:ys-sudo:2026-09-30T22:20:41.659Z",
+    "type": "follower_gained",
+    "login": "Ys-sudo",
+    "htmlUrl": "https://github.com/Ys-sudo",
+    "happenedAt": "2026-09-30T22:20:41.659Z"
+  },
+  {
+    "id": "follower_lost:aatifaaofficial:2026-09-30T22:20:41.659Z",
+    "type": "follower_lost",
+    "login": "aatifaaofficial",
+    "htmlUrl": "https://github.com/aatifaaofficial",
+    "happenedAt": "2026-09-30T22:20:41.659Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:darnellwashingtonjr94-art:2026-09-30T22:20:41.659Z",
+    "type": "follower_lost",
+    "login": "darnellwashingtonjr94-art",
+    "htmlUrl": "https://github.com/darnellwashingtonjr94-art",
+    "happenedAt": "2026-09-30T22:20:41.659Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:darnellwashingtonjr94-art:2026-09-30T22:20:41.659Z",
+    "type": "you_unfollowed",
+    "login": "darnellwashingtonjr94-art",
+    "htmlUrl": "https://github.com/darnellwashingtonjr94-art",
+    "happenedAt": "2026-09-30T22:20:41.659Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_lost:carltonturusida:2026-09-29T13:00:07.566Z",
     "type": "follower_lost",
     "login": "carltonturusida",
@@ -21985,82 +22033,5 @@
     "happenedAt": "2026-07-03T04:11:16.688Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "you_followed:a-i-c-lab:2026-07-02T19:54:28.178Z",
-    "type": "you_followed",
-    "login": "A-I-C-Lab",
-    "htmlUrl": "https://github.com/A-I-C-Lab",
-    "happenedAt": "2026-07-02T19:54:28.178Z"
-  },
-  {
-    "id": "you_followed:muhammad-zeeshan-chandia:2026-07-02T19:54:28.178Z",
-    "type": "you_followed",
-    "login": "Muhammad-Zeeshan-chandia",
-    "htmlUrl": "https://github.com/Muhammad-Zeeshan-chandia",
-    "happenedAt": "2026-07-02T19:54:28.178Z"
-  },
-  {
-    "id": "you_followed:sheikhaqibsaeed:2026-07-02T19:54:28.178Z",
-    "type": "you_followed",
-    "login": "SheikhAqibSaeed",
-    "htmlUrl": "https://github.com/SheikhAqibSaeed",
-    "happenedAt": "2026-07-02T19:54:28.178Z"
-  },
-  {
-    "id": "follower_gained:samiul796:2026-07-02T14:30:30.596Z",
-    "type": "follower_gained",
-    "login": "samiul796",
-    "htmlUrl": "https://github.com/samiul796",
-    "happenedAt": "2026-07-02T14:30:30.596Z"
-  },
-  {
-    "id": "you_followed:batool110313:2026-07-02T14:30:30.596Z",
-    "type": "you_followed",
-    "login": "Batool110313",
-    "htmlUrl": "https://github.com/Batool110313",
-    "happenedAt": "2026-07-02T14:30:30.596Z"
-  },
-  {
-    "id": "you_followed:cibelerusso:2026-07-02T14:30:30.596Z",
-    "type": "you_followed",
-    "login": "cibelerusso",
-    "htmlUrl": "https://github.com/cibelerusso",
-    "happenedAt": "2026-07-02T14:30:30.596Z"
-  },
-  {
-    "id": "you_followed:glo2323:2026-07-02T14:30:30.596Z",
-    "type": "you_followed",
-    "login": "Glo2323",
-    "htmlUrl": "https://github.com/Glo2323",
-    "happenedAt": "2026-07-02T14:30:30.596Z"
-  },
-  {
-    "id": "you_followed:kyal102:2026-07-02T14:30:30.596Z",
-    "type": "you_followed",
-    "login": "kyal102",
-    "htmlUrl": "https://github.com/kyal102",
-    "happenedAt": "2026-07-02T14:30:30.596Z"
-  },
-  {
-    "id": "you_followed:metageoai:2026-07-02T14:30:30.596Z",
-    "type": "you_followed",
-    "login": "MetaGeoAI",
-    "htmlUrl": "https://github.com/MetaGeoAI",
-    "happenedAt": "2026-07-02T14:30:30.596Z"
-  },
-  {
-    "id": "you_followed:phanbaohuy96:2026-07-02T14:30:30.596Z",
-    "type": "you_followed",
-    "login": "phanbaohuy96",
-    "htmlUrl": "https://github.com/phanbaohuy96",
-    "happenedAt": "2026-07-02T14:30:30.596Z"
-  },
-  {
-    "id": "you_followed:serena-peschiaroli:2026-07-02T14:30:30.596Z",
-    "type": "you_followed",
-    "login": "serena-peschiaroli",
-    "htmlUrl": "https://github.com/serena-peschiaroli",
-    "happenedAt": "2026-07-02T14:30:30.596Z"
   }
 ]
