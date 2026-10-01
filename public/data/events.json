@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:magicdevstar:2026-10-01T06:03:46.166Z",
+    "type": "follower_gained",
+    "login": "magicdevstar",
+    "htmlUrl": "https://github.com/magicdevstar",
+    "happenedAt": "2026-10-01T06:03:46.166Z"
+  },
+  {
+    "id": "follower_lost:rafidahmed870:2026-10-01T06:03:46.166Z",
+    "type": "follower_lost",
+    "login": "rafidahmed870",
+    "htmlUrl": "https://github.com/rafidahmed870",
+    "happenedAt": "2026-10-01T06:03:46.166Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:00200200:2026-09-30T22:20:41.659Z",
     "type": "follower_gained",
     "login": "00200200",
@@ -21992,46 +22008,5 @@
     "login": "Shubh2-0",
     "htmlUrl": "https://github.com/Shubh2-0",
     "happenedAt": "2026-07-03T09:37:04.610Z"
-  },
-  {
-    "id": "follower_gained:angelofdarknessm:2026-07-03T04:11:16.688Z",
-    "type": "follower_gained",
-    "login": "AngelofDarknessm",
-    "htmlUrl": "https://github.com/AngelofDarknessm",
-    "happenedAt": "2026-07-03T04:11:16.688Z"
-  },
-  {
-    "id": "follower_lost:angelofdarkn:2026-07-03T04:11:16.688Z",
-    "type": "follower_lost",
-    "login": "AngelofDarkn",
-    "htmlUrl": "https://github.com/AngelofDarkn",
-    "happenedAt": "2026-07-03T04:11:16.688Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:antldote:2026-07-03T04:11:16.688Z",
-    "type": "follower_lost",
-    "login": "ANTlDOTE",
-    "htmlUrl": "https://github.com/ANTlDOTE",
-    "happenedAt": "2026-07-03T04:11:16.688Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:magnowz:2026-07-03T04:11:16.688Z",
-    "type": "you_followed",
-    "login": "Magnowz",
-    "htmlUrl": "https://github.com/Magnowz",
-    "happenedAt": "2026-07-03T04:11:16.688Z"
-  },
-  {
-    "id": "you_unfollowed:siannkit:2026-07-03T04:11:16.688Z",
-    "type": "you_unfollowed",
-    "login": "siannkit",
-    "htmlUrl": "https://github.com/siannkit",
-    "happenedAt": "2026-07-03T04:11:16.688Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
