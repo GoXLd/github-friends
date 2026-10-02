@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:ehsanshahbazii:2026-10-02T22:18:27.430Z",
+    "type": "follower_gained",
+    "login": "EhsanShahbazii",
+    "htmlUrl": "https://github.com/EhsanShahbazii",
+    "happenedAt": "2026-10-02T22:18:27.430Z"
+  },
+  {
+    "id": "follower_lost:selengr:2026-10-02T22:18:27.430Z",
+    "type": "follower_lost",
+    "login": "selengr",
+    "htmlUrl": "https://github.com/selengr",
+    "happenedAt": "2026-10-02T22:18:27.430Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:bhaizy:2026-10-02T12:44:45.793Z",
     "type": "follower_gained",
     "login": "bhaizy",
@@ -21756,69 +21772,5 @@
     "happenedAt": "2026-07-05T04:32:21.798Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:cosmospice:2026-07-04T19:39:19.949Z",
-    "type": "follower_gained",
-    "login": "cosmospice",
-    "htmlUrl": "https://github.com/cosmospice",
-    "happenedAt": "2026-07-04T19:39:19.949Z"
-  },
-  {
-    "id": "follower_gained:egoping:2026-07-04T19:39:19.949Z",
-    "type": "follower_gained",
-    "login": "Egoping",
-    "htmlUrl": "https://github.com/Egoping",
-    "happenedAt": "2026-07-04T19:39:19.949Z"
-  },
-  {
-    "id": "follower_lost:eun-yung:2026-07-04T19:39:19.949Z",
-    "type": "follower_lost",
-    "login": "eun-yung",
-    "htmlUrl": "https://github.com/eun-yung",
-    "happenedAt": "2026-07-04T19:39:19.949Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:kittysaskia:2026-07-04T19:39:19.949Z",
-    "type": "you_followed",
-    "login": "kittysaskia",
-    "htmlUrl": "https://github.com/kittysaskia",
-    "happenedAt": "2026-07-04T19:39:19.949Z"
-  },
-  {
-    "id": "you_unfollowed:puppyauggie:2026-07-04T19:39:19.949Z",
-    "type": "you_unfollowed",
-    "login": "puppyauggie",
-    "htmlUrl": "https://github.com/puppyauggie",
-    "happenedAt": "2026-07-04T19:39:19.949Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:hereismuhammad:2026-07-04T14:01:09.049Z",
-    "type": "follower_gained",
-    "login": "HereIsMuhammad",
-    "htmlUrl": "https://github.com/HereIsMuhammad",
-    "happenedAt": "2026-07-04T14:01:09.049Z"
-  },
-  {
-    "id": "follower_lost:im-mohammad:2026-07-04T14:01:09.049Z",
-    "type": "follower_lost",
-    "login": "Im-Mohammad",
-    "htmlUrl": "https://github.com/Im-Mohammad",
-    "happenedAt": "2026-07-04T14:01:09.049Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:liliyahoa:2026-07-04T14:01:09.049Z",
-    "type": "follower_lost",
-    "login": "liliyahoa",
-    "htmlUrl": "https://github.com/liliyahoa",
-    "happenedAt": "2026-07-04T14:01:09.049Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
