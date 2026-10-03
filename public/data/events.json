@@ -1,5 +1,55 @@
 [
   {
+    "id": "follower_gained:pvrth:2026-10-03T16:26:53.251Z",
+    "type": "follower_gained",
+    "login": "pvrth",
+    "htmlUrl": "https://github.com/pvrth",
+    "happenedAt": "2026-10-03T16:26:53.251Z"
+  },
+  {
+    "id": "follower_lost:nai64:2026-10-03T16:26:53.251Z",
+    "type": "follower_lost",
+    "login": "Nai64",
+    "htmlUrl": "https://github.com/Nai64",
+    "happenedAt": "2026-10-03T16:26:53.251Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:sparth292:2026-10-03T16:26:53.251Z",
+    "type": "follower_lost",
+    "login": "sparth292",
+    "htmlUrl": "https://github.com/sparth292",
+    "happenedAt": "2026-10-03T16:26:53.251Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:pvrth:2026-10-03T16:26:53.251Z",
+    "type": "you_followed",
+    "login": "pvrth",
+    "htmlUrl": "https://github.com/pvrth",
+    "happenedAt": "2026-10-03T16:26:53.251Z"
+  },
+  {
+    "id": "you_unfollowed:nai64:2026-10-03T16:26:53.251Z",
+    "type": "you_unfollowed",
+    "login": "Nai64",
+    "htmlUrl": "https://github.com/Nai64",
+    "happenedAt": "2026-10-03T16:26:53.251Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_unfollowed:sparth292:2026-10-03T16:26:53.251Z",
+    "type": "you_unfollowed",
+    "login": "sparth292",
+    "htmlUrl": "https://github.com/sparth292",
+    "happenedAt": "2026-10-03T16:26:53.251Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:parrotxt2:2026-10-03T11:45:14.132Z",
     "type": "follower_gained",
     "login": "parrotxt2",
