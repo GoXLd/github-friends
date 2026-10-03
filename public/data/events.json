@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:parrotxt2:2026-10-03T11:45:14.132Z",
+    "type": "follower_gained",
+    "login": "parrotxt2",
+    "htmlUrl": "https://github.com/parrotxt2",
+    "happenedAt": "2026-10-03T11:45:14.132Z"
+  },
+  {
+    "id": "follower_lost:ifithrewarock:2026-10-03T11:45:14.132Z",
+    "type": "follower_lost",
+    "login": "IfIThrewARock",
+    "htmlUrl": "https://github.com/IfIThrewARock",
+    "happenedAt": "2026-10-03T11:45:14.132Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:parrotxt2:2026-10-03T11:45:14.132Z",
+    "type": "you_followed",
+    "login": "parrotxt2",
+    "htmlUrl": "https://github.com/parrotxt2",
+    "happenedAt": "2026-10-03T11:45:14.132Z"
+  },
+  {
+    "id": "you_unfollowed:ifithrewarock:2026-10-03T11:45:14.132Z",
+    "type": "you_unfollowed",
+    "login": "IfIThrewARock",
+    "htmlUrl": "https://github.com/IfIThrewARock",
+    "happenedAt": "2026-10-03T11:45:14.132Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_lost:guevarastian:2026-10-03T05:24:19.308Z",
     "type": "follower_lost",
     "login": "guevaraStian",
