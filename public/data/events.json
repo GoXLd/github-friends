@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:guevarastian:2026-10-03T05:24:19.308Z",
+    "type": "follower_lost",
+    "login": "guevaraStian",
+    "htmlUrl": "https://github.com/guevaraStian",
+    "happenedAt": "2026-10-03T05:24:19.308Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ehsanshahbazii:2026-10-02T22:18:27.430Z",
     "type": "follower_gained",
     "login": "EhsanShahbazii",
@@ -21733,44 +21742,5 @@
     "login": "RehanRehnova",
     "htmlUrl": "https://github.com/RehanRehnova",
     "happenedAt": "2026-07-06T04:42:48.513Z"
-  },
-  {
-    "id": "follower_gained:itslie:2026-07-05T04:32:21.798Z",
-    "type": "follower_gained",
-    "login": "itslie",
-    "htmlUrl": "https://github.com/itslie",
-    "happenedAt": "2026-07-05T04:32:21.798Z"
-  },
-  {
-    "id": "follower_gained:junaidahmeddev:2026-07-05T04:32:21.798Z",
-    "type": "follower_gained",
-    "login": "junaidahmeddev",
-    "htmlUrl": "https://github.com/junaidahmeddev",
-    "happenedAt": "2026-07-05T04:32:21.798Z"
-  },
-  {
-    "id": "follower_lost:thedaggerbetween:2026-07-05T04:32:21.798Z",
-    "type": "follower_lost",
-    "login": "thedaggerbetween",
-    "htmlUrl": "https://github.com/thedaggerbetween",
-    "happenedAt": "2026-07-05T04:32:21.798Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:itslie:2026-07-05T04:32:21.798Z",
-    "type": "you_followed",
-    "login": "itslie",
-    "htmlUrl": "https://github.com/itslie",
-    "happenedAt": "2026-07-05T04:32:21.798Z"
-  },
-  {
-    "id": "you_unfollowed:thedaggerbetween:2026-07-05T04:32:21.798Z",
-    "type": "you_unfollowed",
-    "login": "thedaggerbetween",
-    "htmlUrl": "https://github.com/thedaggerbetween",
-    "happenedAt": "2026-07-05T04:32:21.798Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
