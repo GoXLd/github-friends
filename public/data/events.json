@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:splve:2026-10-03T21:23:08.968Z",
+    "type": "follower_gained",
+    "login": "SPlVE",
+    "htmlUrl": "https://github.com/SPlVE",
+    "happenedAt": "2026-10-03T21:23:08.968Z"
+  },
+  {
+    "id": "follower_lost:toritilla:2026-10-03T21:23:08.968Z",
+    "type": "follower_lost",
+    "login": "toritilla",
+    "htmlUrl": "https://github.com/toritilla",
+    "happenedAt": "2026-10-03T21:23:08.968Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:pvrth:2026-10-03T16:26:53.251Z",
     "type": "follower_gained",
     "login": "pvrth",
