@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:pheonix14:2026-10-04T12:28:20.266Z",
+    "type": "follower_gained",
+    "login": "pheonix14",
+    "htmlUrl": "https://github.com/pheonix14",
+    "happenedAt": "2026-10-04T12:28:20.266Z"
+  },
+  {
+    "id": "follower_gained:std-deepanshu:2026-10-04T12:28:20.266Z",
+    "type": "follower_gained",
+    "login": "STD-DEEPANSHU",
+    "htmlUrl": "https://github.com/STD-DEEPANSHU",
+    "happenedAt": "2026-10-04T12:28:20.266Z"
+  },
+  {
     "id": "follower_gained:splve:2026-10-03T21:23:08.968Z",
     "type": "follower_gained",
     "login": "SPlVE",
@@ -21624,144 +21638,5 @@
     "login": "umer-2k1",
     "htmlUrl": "https://github.com/umer-2k1",
     "happenedAt": "2026-07-06T15:55:26.399Z"
-  },
-  {
-    "id": "follower_gained:n1teb0i:2026-07-06T11:06:16.416Z",
-    "type": "follower_gained",
-    "login": "N1TEB0I",
-    "htmlUrl": "https://github.com/N1TEB0I",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "follower_lost:ashiteshsingh:2026-07-06T11:06:16.416Z",
-    "type": "follower_lost",
-    "login": "AshiteshSingh",
-    "htmlUrl": "https://github.com/AshiteshSingh",
-    "happenedAt": "2026-07-06T11:06:16.416Z",
-    "accountStatus": "active",
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:hereismuhammad:2026-07-06T11:06:16.416Z",
-    "type": "follower_lost",
-    "login": "HereIsMuhammad",
-    "htmlUrl": "https://github.com/HereIsMuhammad",
-    "happenedAt": "2026-07-06T11:06:16.416Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:a-whitbeck:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "A-Whitbeck",
-    "htmlUrl": "https://github.com/A-Whitbeck",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:amir-hash19:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "Amir-hash19",
-    "htmlUrl": "https://github.com/Amir-hash19",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:billtsui:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "billtsui",
-    "htmlUrl": "https://github.com/billtsui",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:egoping:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "Egoping",
-    "htmlUrl": "https://github.com/Egoping",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:fishsiyu:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "fishsiyu",
-    "htmlUrl": "https://github.com/fishsiyu",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:gathddu:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "gathddu",
-    "htmlUrl": "https://github.com/gathddu",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:hadi-14:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "hadi-14",
-    "htmlUrl": "https://github.com/hadi-14",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:hjgggg:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "HJGGGG",
-    "htmlUrl": "https://github.com/HJGGGG",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:huanghe036:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "huanghe036",
-    "htmlUrl": "https://github.com/huanghe036",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:s4il21:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "S4IL21",
-    "htmlUrl": "https://github.com/S4IL21",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:sanjaynbr:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "sanjaynbr",
-    "htmlUrl": "https://github.com/sanjaynbr",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:vrezensky:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "vrezensky",
-    "htmlUrl": "https://github.com/vrezensky",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:yousefawwad99:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "YousefAwwad99",
-    "htmlUrl": "https://github.com/YousefAwwad99",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:zaidkx37:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "zaidkx37",
-    "htmlUrl": "https://github.com/zaidkx37",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_followed:zulaldogu:2026-07-06T11:06:16.416Z",
-    "type": "you_followed",
-    "login": "zulaldogu",
-    "htmlUrl": "https://github.com/zulaldogu",
-    "happenedAt": "2026-07-06T11:06:16.416Z"
-  },
-  {
-    "id": "you_unfollowed:ashiteshsingh:2026-07-06T11:06:16.416Z",
-    "type": "you_unfollowed",
-    "login": "AshiteshSingh",
-    "htmlUrl": "https://github.com/AshiteshSingh",
-    "happenedAt": "2026-07-06T11:06:16.416Z",
-    "accountStatus": "active",
-    "isDeleted": false
   }
 ]
