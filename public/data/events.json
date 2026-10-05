@@ -1,5 +1,113 @@
 [
   {
+    "id": "follower_lost:00200200:2026-10-05T14:50:26.929Z",
+    "type": "follower_lost",
+    "login": "00200200",
+    "htmlUrl": "https://github.com/00200200",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ehsanshahbazii:2026-10-05T14:50:26.929Z",
+    "type": "follower_lost",
+    "login": "EhsanShahbazii",
+    "htmlUrl": "https://github.com/EhsanShahbazii",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:alexramsey92:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "alexramsey92",
+    "htmlUrl": "https://github.com/alexramsey92",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:andrewkarpaty:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "AndrewKarpaty",
+    "htmlUrl": "https://github.com/AndrewKarpaty",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:cmldexter:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "cmldexter",
+    "htmlUrl": "https://github.com/cmldexter",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:juneabayabay:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "juneabayabay",
+    "htmlUrl": "https://github.com/juneabayabay",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:kazzbey:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "kazzbey",
+    "htmlUrl": "https://github.com/kazzbey",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:marcusjrlee:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "MarcusJRLee",
+    "htmlUrl": "https://github.com/MarcusJRLee",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:moyoussef11:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "moyoussef11",
+    "htmlUrl": "https://github.com/moyoussef11",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:rohandev19:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "rohandev19",
+    "htmlUrl": "https://github.com/rohandev19",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:tahadx:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "tahadx",
+    "htmlUrl": "https://github.com/tahadx",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:theqxmlkushal:2026-10-05T14:50:26.929Z",
+    "type": "you_unfollowed",
+    "login": "theqxmlkushal",
+    "htmlUrl": "https://github.com/theqxmlkushal",
+    "happenedAt": "2026-10-05T14:50:26.929Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:cchongming:2026-10-05T05:48:54.203Z",
     "type": "follower_gained",
     "login": "cchongming",
@@ -21110,33 +21218,5 @@
     "login": "thornebaker",
     "htmlUrl": "https://github.com/thornebaker",
     "happenedAt": "2026-07-07T15:17:39.367Z"
-  },
-  {
-    "id": "follower_gained:ashish7802:2026-07-07T10:01:51.749Z",
-    "type": "follower_gained",
-    "login": "ashish7802",
-    "htmlUrl": "https://github.com/ashish7802",
-    "happenedAt": "2026-07-07T10:01:51.749Z"
-  },
-  {
-    "id": "follower_gained:milad-hub:2026-07-07T10:01:51.749Z",
-    "type": "follower_gained",
-    "login": "milad-hub",
-    "htmlUrl": "https://github.com/milad-hub",
-    "happenedAt": "2026-07-07T10:01:51.749Z"
-  },
-  {
-    "id": "you_followed:shtirlits1972:2026-07-07T10:01:51.749Z",
-    "type": "you_followed",
-    "login": "Shtirlits1972",
-    "htmlUrl": "https://github.com/Shtirlits1972",
-    "happenedAt": "2026-07-07T10:01:51.749Z"
-  },
-  {
-    "id": "you_followed:speedpidi:2026-07-07T10:01:51.749Z",
-    "type": "you_followed",
-    "login": "speedpidi",
-    "htmlUrl": "https://github.com/speedpidi",
-    "happenedAt": "2026-07-07T10:01:51.749Z"
   }
 ]
