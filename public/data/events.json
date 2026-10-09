@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:condabeta:2026-10-09T06:16:15.878Z",
+    "type": "follower_gained",
+    "login": "condabeta",
+    "htmlUrl": "https://github.com/condabeta",
+    "happenedAt": "2026-10-09T06:16:15.878Z"
+  },
+  {
+    "id": "follower_gained:donfreddy:2026-10-09T06:16:15.878Z",
+    "type": "follower_gained",
+    "login": "donfreddy",
+    "htmlUrl": "https://github.com/donfreddy",
+    "happenedAt": "2026-10-09T06:16:15.878Z"
+  },
+  {
     "id": "follower_gained:sadra138456:2026-10-08T23:24:29.480Z",
     "type": "follower_gained",
     "login": "Sadra138456",
@@ -20137,49 +20151,5 @@
     "happenedAt": "2026-07-11T08:15:28.053Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:ghost-bakery:2026-07-11T03:45:08.290Z",
-    "type": "follower_gained",
-    "login": "Ghost-Bakery",
-    "htmlUrl": "https://github.com/Ghost-Bakery",
-    "happenedAt": "2026-07-11T03:45:08.290Z"
-  },
-  {
-    "id": "follower_gained:invisibleuser321:2026-07-11T03:45:08.290Z",
-    "type": "follower_gained",
-    "login": "invisibleuser321",
-    "htmlUrl": "https://github.com/invisibleuser321",
-    "happenedAt": "2026-07-11T03:45:08.290Z"
-  },
-  {
-    "id": "follower_gained:waelodeh98:2026-07-11T03:45:08.290Z",
-    "type": "follower_gained",
-    "login": "waelodeh98",
-    "htmlUrl": "https://github.com/waelodeh98",
-    "happenedAt": "2026-07-11T03:45:08.290Z"
-  },
-  {
-    "id": "follower_lost:alejaranda:2026-07-11T03:45:08.290Z",
-    "type": "follower_lost",
-    "login": "alejaranda",
-    "htmlUrl": "https://github.com/alejaranda",
-    "happenedAt": "2026-07-11T03:45:08.290Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:ali-hey-0:2026-07-11T03:45:08.290Z",
-    "type": "you_followed",
-    "login": "Ali-hey-0",
-    "htmlUrl": "https://github.com/Ali-hey-0",
-    "happenedAt": "2026-07-11T03:45:08.290Z"
-  },
-  {
-    "id": "you_followed:waelodeh98:2026-07-11T03:45:08.290Z",
-    "type": "you_followed",
-    "login": "waelodeh98",
-    "htmlUrl": "https://github.com/waelodeh98",
-    "happenedAt": "2026-07-11T03:45:08.290Z"
   }
 ]
