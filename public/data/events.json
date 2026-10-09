@@ -20128,28 +20128,5 @@
     "happenedAt": "2026-07-11T13:56:44.622Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:jaydumisuni:2026-07-11T08:15:28.053Z",
-    "type": "follower_gained",
-    "login": "jaydumisuni",
-    "htmlUrl": "https://github.com/jaydumisuni",
-    "happenedAt": "2026-07-11T08:15:28.053Z"
-  },
-  {
-    "id": "follower_gained:rikushimoida:2026-07-11T08:15:28.053Z",
-    "type": "follower_gained",
-    "login": "RikuShimoida",
-    "htmlUrl": "https://github.com/RikuShimoida",
-    "happenedAt": "2026-07-11T08:15:28.053Z"
-  },
-  {
-    "id": "follower_lost:milad-hub:2026-07-11T08:15:28.053Z",
-    "type": "follower_lost",
-    "login": "milad-hub",
-    "htmlUrl": "https://github.com/milad-hub",
-    "happenedAt": "2026-07-11T08:15:28.053Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
