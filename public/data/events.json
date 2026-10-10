@@ -19833,46 +19833,5 @@
     "happenedAt": "2026-07-13T04:03:12.009Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:gabrieliam42:2026-07-12T19:33:04.355Z",
-    "type": "follower_gained",
-    "login": "Gabrieliam42",
-    "htmlUrl": "https://github.com/Gabrieliam42",
-    "happenedAt": "2026-07-12T19:33:04.355Z"
-  },
-  {
-    "id": "follower_lost:giladfuchs:2026-07-12T19:33:04.355Z",
-    "type": "follower_lost",
-    "login": "giladfuchs",
-    "htmlUrl": "https://github.com/giladfuchs",
-    "happenedAt": "2026-07-12T19:33:04.355Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:alimovlex:2026-07-12T19:33:04.355Z",
-    "type": "you_unfollowed",
-    "login": "alimovlex",
-    "htmlUrl": "https://github.com/alimovlex",
-    "happenedAt": "2026-07-12T19:33:04.355Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:khemssharma:2026-07-12T13:57:54.897Z",
-    "type": "follower_gained",
-    "login": "khemssharma",
-    "htmlUrl": "https://github.com/khemssharma",
-    "happenedAt": "2026-07-12T13:57:54.897Z"
-  },
-  {
-    "id": "follower_lost:raptr45:2026-07-12T13:57:54.897Z",
-    "type": "follower_lost",
-    "login": "raptr45",
-    "htmlUrl": "https://github.com/raptr45",
-    "happenedAt": "2026-07-12T13:57:54.897Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
