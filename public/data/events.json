@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:ahnshy:2026-10-10T12:39:26.547Z",
+    "type": "follower_gained",
+    "login": "ahnshy",
+    "htmlUrl": "https://github.com/ahnshy",
+    "happenedAt": "2026-10-10T12:39:26.547Z"
+  },
+  {
+    "id": "follower_lost:gedelabulliraju:2026-10-10T12:39:26.547Z",
+    "type": "follower_lost",
+    "login": "gedelabulliraju",
+    "htmlUrl": "https://github.com/gedelabulliraju",
+    "happenedAt": "2026-10-10T12:39:26.547Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:ahnshy:2026-10-10T12:39:26.547Z",
+    "type": "you_followed",
+    "login": "ahnshy",
+    "htmlUrl": "https://github.com/ahnshy",
+    "happenedAt": "2026-10-10T12:39:26.547Z"
+  },
+  {
     "id": "follower_gained:kinahubofficial:2026-10-09T22:42:41.221Z",
     "type": "follower_gained",
     "login": "kinahubofficial",
@@ -19851,12 +19874,5 @@
     "happenedAt": "2026-07-12T13:57:54.897Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:buildcompanytogether:2026-07-12T08:32:08.829Z",
-    "type": "follower_gained",
-    "login": "buildcompanytogether",
-    "htmlUrl": "https://github.com/buildcompanytogether",
-    "happenedAt": "2026-07-12T08:32:08.829Z"
   }
 ]
