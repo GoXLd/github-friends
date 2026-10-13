@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:ahnshy6:2026-10-13T00:46:41.919Z",
+    "type": "follower_gained",
+    "login": "ahnshy6",
+    "htmlUrl": "https://github.com/ahnshy6",
+    "happenedAt": "2026-10-13T00:46:41.919Z"
+  },
+  {
     "id": "follower_gained:ignacioantoniocruzperez:2026-10-12T15:37:04.940Z",
     "type": "follower_gained",
     "login": "IgnacioAntonioCruzPerez",
@@ -19279,42 +19286,5 @@
     "login": "GravetoGeek",
     "htmlUrl": "https://github.com/GravetoGeek",
     "happenedAt": "2026-07-15T03:38:57.783Z"
-  },
-  {
-    "id": "follower_gained:enescxx:2026-07-14T19:45:41.617Z",
-    "type": "follower_gained",
-    "login": "enescxx",
-    "htmlUrl": "https://github.com/enescxx",
-    "happenedAt": "2026-07-14T19:45:41.617Z"
-  },
-  {
-    "id": "follower_gained:hwoats:2026-07-14T19:45:41.617Z",
-    "type": "follower_gained",
-    "login": "hwoats",
-    "htmlUrl": "https://github.com/hwoats",
-    "happenedAt": "2026-07-14T19:45:41.617Z"
-  },
-  {
-    "id": "follower_gained:josejairobaltazargallegos0-star:2026-07-14T19:45:41.617Z",
-    "type": "follower_gained",
-    "login": "josejairobaltazargallegos0-star",
-    "htmlUrl": "https://github.com/josejairobaltazargallegos0-star",
-    "happenedAt": "2026-07-14T19:45:41.617Z"
-  },
-  {
-    "id": "follower_gained:nahid-mahmud555:2026-07-14T19:45:41.617Z",
-    "type": "follower_gained",
-    "login": "Nahid-mahmud555",
-    "htmlUrl": "https://github.com/Nahid-mahmud555",
-    "happenedAt": "2026-07-14T19:45:41.617Z"
-  },
-  {
-    "id": "follower_lost:woattz:2026-07-14T19:45:41.617Z",
-    "type": "follower_lost",
-    "login": "woattz",
-    "htmlUrl": "https://github.com/woattz",
-    "happenedAt": "2026-07-14T19:45:41.617Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
