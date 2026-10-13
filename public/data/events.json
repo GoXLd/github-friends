@@ -1,5 +1,60 @@
 [
   {
+    "id": "follower_gained:bahattinyunus:2026-10-13T14:18:53.229Z",
+    "type": "follower_gained",
+    "login": "bahattinyunus",
+    "htmlUrl": "https://github.com/bahattinyunus",
+    "happenedAt": "2026-10-13T14:18:53.229Z"
+  },
+  {
+    "id": "follower_gained:golden217:2026-10-13T14:18:53.229Z",
+    "type": "follower_gained",
+    "login": "golden217",
+    "htmlUrl": "https://github.com/golden217",
+    "happenedAt": "2026-10-13T14:18:53.229Z"
+  },
+  {
+    "id": "follower_gained:sunil56224972:2026-10-13T14:18:53.229Z",
+    "type": "follower_gained",
+    "login": "Sunil56224972",
+    "htmlUrl": "https://github.com/Sunil56224972",
+    "happenedAt": "2026-10-13T14:18:53.229Z"
+  },
+  {
+    "id": "follower_lost:arch-yunus:2026-10-13T14:18:53.229Z",
+    "type": "follower_lost",
+    "login": "arch-yunus",
+    "htmlUrl": "https://github.com/arch-yunus",
+    "happenedAt": "2026-10-13T14:18:53.229Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "follower_lost:silver21217:2026-10-13T14:18:53.229Z",
+    "type": "follower_lost",
+    "login": "silver21217",
+    "htmlUrl": "https://github.com/silver21217",
+    "happenedAt": "2026-10-13T14:18:53.229Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:bahattinyunus:2026-10-13T14:18:53.229Z",
+    "type": "you_followed",
+    "login": "bahattinyunus",
+    "htmlUrl": "https://github.com/bahattinyunus",
+    "happenedAt": "2026-10-13T14:18:53.229Z"
+  },
+  {
+    "id": "you_unfollowed:arch-yunus:2026-10-13T14:18:53.229Z",
+    "type": "you_unfollowed",
+    "login": "arch-yunus",
+    "htmlUrl": "https://github.com/arch-yunus",
+    "happenedAt": "2026-10-13T14:18:53.229Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:ahnshy6:2026-10-13T00:46:41.919Z",
     "type": "follower_gained",
     "login": "ahnshy6",
@@ -19236,55 +19291,5 @@
     "happenedAt": "2026-07-16T03:41:17.756Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_lost:credkellar-boop:2026-07-15T14:13:05.205Z",
-    "type": "follower_lost",
-    "login": "credkellar-boop",
-    "htmlUrl": "https://github.com/credkellar-boop",
-    "happenedAt": "2026-07-15T14:13:05.205Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:fromtheriver2thesea:2026-07-15T14:13:05.205Z",
-    "type": "follower_lost",
-    "login": "FromTheRiver2TheSea",
-    "htmlUrl": "https://github.com/FromTheRiver2TheSea",
-    "happenedAt": "2026-07-15T14:13:05.205Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:kirankumark-sec:2026-07-15T14:13:05.205Z",
-    "type": "follower_lost",
-    "login": "kirankumark-sec",
-    "htmlUrl": "https://github.com/kirankumark-sec",
-    "happenedAt": "2026-07-15T14:13:05.205Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:amertoglu16:2026-07-15T14:13:05.205Z",
-    "type": "you_unfollowed",
-    "login": "amertoglu16",
-    "htmlUrl": "https://github.com/amertoglu16",
-    "happenedAt": "2026-07-15T14:13:05.205Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:charlescreativecontent:2026-07-15T03:38:57.783Z",
-    "type": "follower_gained",
-    "login": "CharlesCreativeContent",
-    "htmlUrl": "https://github.com/CharlesCreativeContent",
-    "happenedAt": "2026-07-15T03:38:57.783Z"
-  },
-  {
-    "id": "follower_gained:gravetogeek:2026-07-15T03:38:57.783Z",
-    "type": "follower_gained",
-    "login": "GravetoGeek",
-    "htmlUrl": "https://github.com/GravetoGeek",
-    "happenedAt": "2026-07-15T03:38:57.783Z"
   }
 ]
