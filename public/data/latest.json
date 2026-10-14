@@ -1,6 +1,6 @@
 {
-  "snapshotId": "2026-10-14T12-00-42-228Z",
-  "generatedAt": "2026-10-14T12:00:42.228Z",
+  "snapshotId": "2026-10-14T17-17-13-944Z",
+  "generatedAt": "2026-10-14T17:17:13.944Z",
   "username": "GoXLd",
   "followers": [
     {
@@ -787,6 +787,11 @@
       "id": 214916581,
       "login": "codwithyc",
       "htmlUrl": "https://github.com/codwithyc"
+    },
+    {
+      "id": 336862857,
+      "login": "coffsec",
+      "htmlUrl": "https://github.com/coffsec"
     },
     {
       "id": 61369488,
@@ -4887,7 +4892,7 @@
     }
   ],
   "counts": {
-    "followers": 662,
+    "followers": 663,
     "following": 314
   }
 }

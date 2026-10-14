@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:coffsec:2026-10-14T17:17:13.944Z",
+    "type": "follower_gained",
+    "login": "coffsec",
+    "htmlUrl": "https://github.com/coffsec",
+    "happenedAt": "2026-10-14T17:17:13.944Z"
+  },
+  {
     "id": "follower_gained:abhayr70:2026-10-14T12:00:42.228Z",
     "type": "follower_gained",
     "login": "abhayr70",
@@ -19220,21 +19227,5 @@
     "login": "serdbay",
     "htmlUrl": "https://github.com/serdbay",
     "happenedAt": "2026-07-16T19:35:19.207Z"
-  },
-  {
-    "id": "follower_gained:ooranq:2026-07-16T14:25:23.419Z",
-    "type": "follower_gained",
-    "login": "ooranq",
-    "htmlUrl": "https://github.com/ooranq",
-    "happenedAt": "2026-07-16T14:25:23.419Z"
-  },
-  {
-    "id": "follower_lost:hwoats:2026-07-16T14:25:23.419Z",
-    "type": "follower_lost",
-    "login": "hwoats",
-    "htmlUrl": "https://github.com/hwoats",
-    "happenedAt": "2026-07-16T14:25:23.419Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
