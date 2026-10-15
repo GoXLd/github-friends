@@ -1,6 +1,6 @@
 {
-  "snapshotId": "2026-10-15T04-48-18-120Z",
-  "generatedAt": "2026-10-15T04:48:18.120Z",
+  "snapshotId": "2026-10-15T11-37-37-362Z",
+  "generatedAt": "2026-10-15T11:37:37.362Z",
   "username": "GoXLd",
   "followers": [
     {
@@ -787,11 +787,6 @@
       "id": 214916581,
       "login": "codwithyc",
       "htmlUrl": "https://github.com/codwithyc"
-    },
-    {
-      "id": 336862857,
-      "login": "coffsec",
-      "htmlUrl": "https://github.com/coffsec"
     },
     {
       "id": 61369488,
@@ -1812,6 +1807,11 @@
       "id": 225808253,
       "login": "littledandelions",
       "htmlUrl": "https://github.com/littledandelions"
+    },
+    {
+      "id": 319839906,
+      "login": "littlefattychuddy",
+      "htmlUrl": "https://github.com/littlefattychuddy"
     },
     {
       "id": 181102772,
@@ -3309,6 +3309,11 @@
       "htmlUrl": "https://github.com/zerstorungswalze"
     },
     {
+      "id": 3541162,
+      "login": "zhensherlock",
+      "htmlUrl": "https://github.com/zhensherlock"
+    },
+    {
       "id": 233602085,
       "login": "Zuhriddin2010",
       "htmlUrl": "https://github.com/Zuhriddin2010"
@@ -3981,11 +3986,6 @@
       "htmlUrl": "https://github.com/Interchouette"
     },
     {
-      "id": 89859236,
-      "login": "irenascent",
-      "htmlUrl": "https://github.com/irenascent"
-    },
-    {
       "id": 12843726,
       "login": "ismailtopalan",
       "htmlUrl": "https://github.com/ismailtopalan"
@@ -4284,6 +4284,11 @@
       "id": 136532729,
       "login": "nidakayaduman",
       "htmlUrl": "https://github.com/nidakayaduman"
+    },
+    {
+      "id": 89859236,
+      "login": "nihilismapp",
+      "htmlUrl": "https://github.com/nihilismapp"
     },
     {
       "id": 5194193,
@@ -4897,7 +4902,7 @@
     }
   ],
   "counts": {
-    "followers": 664,
+    "followers": 665,
     "following": 314
   }
 }

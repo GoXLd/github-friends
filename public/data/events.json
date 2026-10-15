@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:littlefattychuddy:2026-10-15T11:37:37.362Z",
+    "type": "follower_gained",
+    "login": "littlefattychuddy",
+    "htmlUrl": "https://github.com/littlefattychuddy",
+    "happenedAt": "2026-10-15T11:37:37.362Z"
+  },
+  {
+    "id": "follower_gained:zhensherlock:2026-10-15T11:37:37.362Z",
+    "type": "follower_gained",
+    "login": "zhensherlock",
+    "htmlUrl": "https://github.com/zhensherlock",
+    "happenedAt": "2026-10-15T11:37:37.362Z"
+  },
+  {
+    "id": "follower_lost:coffsec:2026-10-15T11:37:37.362Z",
+    "type": "follower_lost",
+    "login": "coffsec",
+    "htmlUrl": "https://github.com/coffsec",
+    "happenedAt": "2026-10-15T11:37:37.362Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:nihilismapp:2026-10-15T11:37:37.362Z",
+    "type": "you_followed",
+    "login": "nihilismapp",
+    "htmlUrl": "https://github.com/nihilismapp",
+    "happenedAt": "2026-10-15T11:37:37.362Z"
+  },
+  {
+    "id": "you_unfollowed:irenascent:2026-10-15T11:37:37.362Z",
+    "type": "you_unfollowed",
+    "login": "irenascent",
+    "htmlUrl": "https://github.com/irenascent",
+    "happenedAt": "2026-10-15T11:37:37.362Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:elmancod110:2026-10-14T21:45:46.809Z",
     "type": "follower_gained",
     "login": "ElmanCod110",
@@ -19109,21 +19148,5 @@
     "login": "Y-nexus330",
     "htmlUrl": "https://github.com/Y-nexus330",
     "happenedAt": "2026-07-17T14:05:08.429Z"
-  },
-  {
-    "id": "you_followed:partypoob:2026-07-17T08:29:41.336Z",
-    "type": "you_followed",
-    "login": "PartyPoob",
-    "htmlUrl": "https://github.com/PartyPoob",
-    "happenedAt": "2026-07-17T08:29:41.336Z"
-  },
-  {
-    "id": "you_unfollowed:zomedd:2026-07-17T08:29:41.336Z",
-    "type": "you_unfollowed",
-    "login": "ZomEdd",
-    "htmlUrl": "https://github.com/ZomEdd",
-    "happenedAt": "2026-07-17T08:29:41.336Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
