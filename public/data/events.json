@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:abolfazlgoodam-art:2026-10-16T16:43:48.092Z",
+    "type": "follower_gained",
+    "login": "abolfazlgoodam-art",
+    "htmlUrl": "https://github.com/abolfazlgoodam-art",
+    "happenedAt": "2026-10-16T16:43:48.092Z"
+  },
+  {
     "id": "follower_lost:0vm:2026-10-16T11:31:28.741Z",
     "type": "follower_lost",
     "login": "0vm",
@@ -18976,51 +18983,5 @@
     "login": "AznanSeyam",
     "htmlUrl": "https://github.com/AznanSeyam",
     "happenedAt": "2026-07-18T19:34:23.966Z"
-  },
-  {
-    "id": "follower_gained:kaomoti:2026-07-18T13:52:12.193Z",
-    "type": "follower_gained",
-    "login": "kaomoti",
-    "htmlUrl": "https://github.com/kaomoti",
-    "happenedAt": "2026-07-18T13:52:12.193Z"
-  },
-  {
-    "id": "follower_lost:c0ldfl0wer:2026-07-18T13:52:12.193Z",
-    "type": "follower_lost",
-    "login": "C0LDFL0WER",
-    "htmlUrl": "https://github.com/C0LDFL0WER",
-    "happenedAt": "2026-07-18T13:52:12.193Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:christopherlandaverde:2026-07-18T13:52:12.193Z",
-    "type": "you_followed",
-    "login": "ChristopherLandaverde",
-    "htmlUrl": "https://github.com/ChristopherLandaverde",
-    "happenedAt": "2026-07-18T13:52:12.193Z"
-  },
-  {
-    "id": "you_followed:kaomoti:2026-07-18T13:52:12.193Z",
-    "type": "you_followed",
-    "login": "kaomoti",
-    "htmlUrl": "https://github.com/kaomoti",
-    "happenedAt": "2026-07-18T13:52:12.193Z"
-  },
-  {
-    "id": "you_followed:ryan-rhys:2026-07-18T13:52:12.193Z",
-    "type": "you_followed",
-    "login": "Ryan-Rhys",
-    "htmlUrl": "https://github.com/Ryan-Rhys",
-    "happenedAt": "2026-07-18T13:52:12.193Z"
-  },
-  {
-    "id": "you_unfollowed:c0ldfl0wer:2026-07-18T13:52:12.193Z",
-    "type": "you_unfollowed",
-    "login": "C0LDFL0WER",
-    "htmlUrl": "https://github.com/C0LDFL0WER",
-    "happenedAt": "2026-07-18T13:52:12.193Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
