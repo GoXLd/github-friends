@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:deveguru:2026-10-16T04:38:21.161Z",
+    "type": "follower_gained",
+    "login": "deveguru",
+    "htmlUrl": "https://github.com/deveguru",
+    "happenedAt": "2026-10-16T04:38:21.161Z"
+  },
+  {
     "id": "follower_gained:littlefattychuddy:2026-10-15T11:37:37.362Z",
     "type": "follower_gained",
     "login": "littlefattychuddy",
@@ -19020,21 +19027,5 @@
     "happenedAt": "2026-07-18T08:10:40.625Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:dogbriel:2026-07-18T03:36:12.264Z",
-    "type": "follower_gained",
-    "login": "dogbriel",
-    "htmlUrl": "https://github.com/dogbriel",
-    "happenedAt": "2026-07-18T03:36:12.264Z"
-  },
-  {
-    "id": "follower_lost:2ooi:2026-07-18T03:36:12.264Z",
-    "type": "follower_lost",
-    "login": "2OOI",
-    "htmlUrl": "https://github.com/2OOI",
-    "happenedAt": "2026-07-18T03:36:12.264Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
