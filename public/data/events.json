@@ -1,5 +1,111 @@
 [
   {
+    "id": "follower_gained:samdozer:2026-10-17T10:51:31.162Z",
+    "type": "follower_gained",
+    "login": "SamDozer",
+    "htmlUrl": "https://github.com/SamDozer",
+    "happenedAt": "2026-10-17T10:51:31.162Z"
+  },
+  {
+    "id": "follower_lost:s4ntrx:2026-10-17T10:51:31.162Z",
+    "type": "follower_lost",
+    "login": "s4ntrx",
+    "htmlUrl": "https://github.com/s4ntrx",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:bakhman:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "Bakhman",
+    "htmlUrl": "https://github.com/Bakhman",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:hyperionxiiv:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "hyperionxiiv",
+    "htmlUrl": "https://github.com/hyperionxiiv",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:lonsaria:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "lonsaria",
+    "htmlUrl": "https://github.com/lonsaria",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:mega1365:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "mega1365",
+    "htmlUrl": "https://github.com/mega1365",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:przemyslawswiderski:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "PrzemyslawSwiderski",
+    "htmlUrl": "https://github.com/PrzemyslawSwiderski",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:tawen:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "tawen",
+    "htmlUrl": "https://github.com/tawen",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:thymeseed:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "thymeseed",
+    "htmlUrl": "https://github.com/thymeseed",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:webflow:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "webflow",
+    "htmlUrl": "https://github.com/webflow",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:wushufen:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "wushufen",
+    "htmlUrl": "https://github.com/wushufen",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:yeminglong:2026-10-17T10:51:31.162Z",
+    "type": "you_unfollowed",
+    "login": "yeminglong",
+    "htmlUrl": "https://github.com/yeminglong",
+    "happenedAt": "2026-10-17T10:51:31.162Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ghost7802:2026-10-17T04:35:43.951Z",
     "type": "follower_gained",
     "login": "Ghost7802",
