@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:sega757:2026-10-17T20:40:28.503Z",
+    "type": "follower_gained",
+    "login": "Sega757",
+    "htmlUrl": "https://github.com/Sega757",
+    "happenedAt": "2026-10-17T20:40:28.503Z"
+  },
+  {
     "id": "follower_gained:andy-70b:2026-10-17T15:40:37.739Z",
     "type": "follower_gained",
     "login": "andy-70b",
@@ -18880,70 +18887,6 @@
     "htmlUrl": "https://github.com/waelodeh98",
     "happenedAt": "2026-07-20T04:07:06.034Z",
     "accountStatus": "active",
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:cansu5806:2026-07-19T19:34:59.459Z",
-    "type": "follower_gained",
-    "login": "CaNSu5806",
-    "htmlUrl": "https://github.com/CaNSu5806",
-    "happenedAt": "2026-07-19T19:34:59.459Z"
-  },
-  {
-    "id": "follower_gained:shylovjin:2026-07-19T19:34:59.459Z",
-    "type": "follower_gained",
-    "login": "shylovjin",
-    "htmlUrl": "https://github.com/shylovjin",
-    "happenedAt": "2026-07-19T19:34:59.459Z"
-  },
-  {
-    "id": "follower_lost:kaomoti:2026-07-19T19:34:59.459Z",
-    "type": "follower_lost",
-    "login": "kaomoti",
-    "htmlUrl": "https://github.com/kaomoti",
-    "happenedAt": "2026-07-19T19:34:59.459Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_lost:phil1px:2026-07-19T19:34:59.459Z",
-    "type": "follower_lost",
-    "login": "phil1px",
-    "htmlUrl": "https://github.com/phil1px",
-    "happenedAt": "2026-07-19T19:34:59.459Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:shylovjin:2026-07-19T19:34:59.459Z",
-    "type": "you_followed",
-    "login": "shylovjin",
-    "htmlUrl": "https://github.com/shylovjin",
-    "happenedAt": "2026-07-19T19:34:59.459Z"
-  },
-  {
-    "id": "you_followed:spokcishere:2026-07-19T19:34:59.459Z",
-    "type": "you_followed",
-    "login": "spokcishere",
-    "htmlUrl": "https://github.com/spokcishere",
-    "happenedAt": "2026-07-19T19:34:59.459Z"
-  },
-  {
-    "id": "you_unfollowed:kaomoti:2026-07-19T19:34:59.459Z",
-    "type": "you_unfollowed",
-    "login": "kaomoti",
-    "htmlUrl": "https://github.com/kaomoti",
-    "happenedAt": "2026-07-19T19:34:59.459Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:partypoob:2026-07-19T19:34:59.459Z",
-    "type": "you_unfollowed",
-    "login": "PartyPoob",
-    "htmlUrl": "https://github.com/PartyPoob",
-    "happenedAt": "2026-07-19T19:34:59.459Z",
-    "accountStatus": null,
     "isDeleted": false
   }
 ]
