@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:abhayr70:2026-10-18T15:56:06.040Z",
+    "type": "follower_lost",
+    "login": "abhayr70",
+    "htmlUrl": "https://github.com/abhayr70",
+    "happenedAt": "2026-10-18T15:56:06.040Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:sega757:2026-10-17T20:40:28.503Z",
     "type": "follower_gained",
     "login": "Sega757",
@@ -18447,48 +18456,5 @@
     "login": "jeallz",
     "htmlUrl": "https://github.com/jeallz",
     "happenedAt": "2026-07-20T19:58:08.051Z"
-  },
-  {
-    "id": "follower_gained:yonana-sahile:2026-07-20T14:34:21.269Z",
-    "type": "follower_gained",
-    "login": "yonana-sahile",
-    "htmlUrl": "https://github.com/yonana-sahile",
-    "happenedAt": "2026-07-20T14:34:21.269Z"
-  },
-  {
-    "id": "follower_lost:cansu5806:2026-07-20T14:34:21.269Z",
-    "type": "follower_lost",
-    "login": "CaNSu5806",
-    "htmlUrl": "https://github.com/CaNSu5806",
-    "happenedAt": "2026-07-20T14:34:21.269Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:g1r1shcodes:2026-07-20T14:34:21.269Z",
-    "type": "follower_lost",
-    "login": "G1r1shCodes",
-    "htmlUrl": "https://github.com/G1r1shCodes",
-    "happenedAt": "2026-07-20T14:34:21.269Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:ooranq:2026-07-20T14:34:21.269Z",
-    "type": "follower_lost",
-    "login": "ooranq",
-    "htmlUrl": "https://github.com/ooranq",
-    "happenedAt": "2026-07-20T14:34:21.269Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:shemysun-ane:2026-07-20T14:34:21.269Z",
-    "type": "follower_lost",
-    "login": "ShemySUN-ane",
-    "htmlUrl": "https://github.com/ShemySUN-ane",
-    "happenedAt": "2026-07-20T14:34:21.269Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
