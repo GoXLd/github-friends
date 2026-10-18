@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:fnnie:2026-10-18T20:50:46.494Z",
+    "type": "follower_gained",
+    "login": "fnnie",
+    "htmlUrl": "https://github.com/fnnie",
+    "happenedAt": "2026-10-18T20:50:46.494Z"
+  },
+  {
+    "id": "follower_lost:splve:2026-10-18T20:50:46.494Z",
+    "type": "follower_lost",
+    "login": "SPlVE",
+    "htmlUrl": "https://github.com/SPlVE",
+    "happenedAt": "2026-10-18T20:50:46.494Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:abhayr70:2026-10-18T15:56:06.040Z",
     "type": "follower_lost",
     "login": "abhayr70",
@@ -18449,12 +18465,5 @@
     "login": "martian56",
     "htmlUrl": "https://github.com/martian56",
     "happenedAt": "2026-07-21T03:49:26.981Z"
-  },
-  {
-    "id": "follower_gained:jeallz:2026-07-20T19:58:08.051Z",
-    "type": "follower_gained",
-    "login": "jeallz",
-    "htmlUrl": "https://github.com/jeallz",
-    "happenedAt": "2026-07-20T19:58:08.051Z"
   }
 ]
