@@ -1,5 +1,111 @@
 [
   {
+    "id": "follower_gained:taksquad:2026-10-20T11:46:21.956Z",
+    "type": "follower_gained",
+    "login": "taksquad",
+    "htmlUrl": "https://github.com/taksquad",
+    "happenedAt": "2026-10-20T11:46:21.956Z"
+  },
+  {
+    "id": "follower_lost:tametak:2026-10-20T11:46:21.956Z",
+    "type": "follower_lost",
+    "login": "tameTAK",
+    "htmlUrl": "https://github.com/tameTAK",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:ahmad-kashkoush:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "ahmad-kashkoush",
+    "htmlUrl": "https://github.com/ahmad-kashkoush",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:devmalaika180:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "devmalaika180",
+    "htmlUrl": "https://github.com/devmalaika180",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:eleazarsimba:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "Eleazarsimba",
+    "htmlUrl": "https://github.com/Eleazarsimba",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:finly:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "finly",
+    "htmlUrl": "https://github.com/finly",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:kidd1118:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "kidd1118",
+    "htmlUrl": "https://github.com/kidd1118",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:mrshoks:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "MrShoks",
+    "htmlUrl": "https://github.com/MrShoks",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:stefanutc1:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "stefanutc1",
+    "htmlUrl": "https://github.com/stefanutc1",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:stephenschoettler:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "stephenschoettler",
+    "htmlUrl": "https://github.com/stephenschoettler",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:tlawal:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "tlawal",
+    "htmlUrl": "https://github.com/tlawal",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:turboxing:2026-10-20T11:46:21.956Z",
+    "type": "you_unfollowed",
+    "login": "turboxing",
+    "htmlUrl": "https://github.com/turboxing",
+    "happenedAt": "2026-10-20T11:46:21.956Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:0vm:2026-10-19T22:25:03.816Z",
     "type": "follower_gained",
     "login": "0vm",
@@ -18070,15 +18176,6 @@
     "login": "s4vochka",
     "htmlUrl": "https://github.com/s4vochka",
     "happenedAt": "2026-07-22T14:26:12.133Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:aznanseyam:2026-07-22T08:46:20.979Z",
-    "type": "follower_lost",
-    "login": "AznanSeyam",
-    "htmlUrl": "https://github.com/AznanSeyam",
-    "happenedAt": "2026-07-22T08:46:20.979Z",
     "accountStatus": null,
     "isDeleted": false
   }
