@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:s-a-m-y1:2026-10-20T17:15:10.872Z",
+    "type": "follower_lost",
+    "login": "s-a-m-y1",
+    "htmlUrl": "https://github.com/s-a-m-y1",
+    "happenedAt": "2026-10-20T17:15:10.872Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:taksquad:2026-10-20T11:46:21.956Z",
     "type": "follower_gained",
     "login": "taksquad",
@@ -18162,21 +18171,5 @@
     "login": "zenrix-tech",
     "htmlUrl": "https://github.com/zenrix-tech",
     "happenedAt": "2026-07-22T19:46:26.944Z"
-  },
-  {
-    "id": "follower_gained:mmmmmmmmmmmppppppppppp:2026-07-22T14:26:12.133Z",
-    "type": "follower_gained",
-    "login": "MMMMMMMMMMMPPPPPPPPPPP",
-    "htmlUrl": "https://github.com/MMMMMMMMMMMPPPPPPPPPPP",
-    "happenedAt": "2026-07-22T14:26:12.133Z"
-  },
-  {
-    "id": "follower_lost:s4vochka:2026-07-22T14:26:12.133Z",
-    "type": "follower_lost",
-    "login": "s4vochka",
-    "htmlUrl": "https://github.com/s4vochka",
-    "happenedAt": "2026-07-22T14:26:12.133Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
