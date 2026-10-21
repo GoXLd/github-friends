@@ -17938,33 +17938,5 @@
     "happenedAt": "2026-07-23T19:48:09.199Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:m7taks:2026-07-23T14:35:07.987Z",
-    "type": "follower_gained",
-    "login": "M7TAKS",
-    "htmlUrl": "https://github.com/M7TAKS",
-    "happenedAt": "2026-07-23T14:35:07.987Z"
-  },
-  {
-    "id": "follower_gained:ntphuc149:2026-07-23T14:35:07.987Z",
-    "type": "follower_gained",
-    "login": "ntphuc149",
-    "htmlUrl": "https://github.com/ntphuc149",
-    "happenedAt": "2026-07-23T14:35:07.987Z"
-  },
-  {
-    "id": "you_followed:m7taks:2026-07-23T14:35:07.987Z",
-    "type": "you_followed",
-    "login": "M7TAKS",
-    "htmlUrl": "https://github.com/M7TAKS",
-    "happenedAt": "2026-07-23T14:35:07.987Z"
-  },
-  {
-    "id": "you_followed:patrick-zippenfenig:2026-07-23T14:35:07.987Z",
-    "type": "you_followed",
-    "login": "patrick-zippenfenig",
-    "htmlUrl": "https://github.com/patrick-zippenfenig",
-    "happenedAt": "2026-07-23T14:35:07.987Z"
   }
 ]
