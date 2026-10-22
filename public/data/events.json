@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:ashish7802:2026-10-22T04:57:12.344Z",
+    "type": "follower_gained",
+    "login": "ashish7802",
+    "htmlUrl": "https://github.com/ashish7802",
+    "happenedAt": "2026-10-22T04:57:12.344Z"
+  },
+  {
+    "id": "follower_lost:ghost7802:2026-10-22T04:57:12.344Z",
+    "type": "follower_lost",
+    "login": "Ghost7802",
+    "htmlUrl": "https://github.com/Ghost7802",
+    "happenedAt": "2026-10-22T04:57:12.344Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:s-a-m-y1:2026-10-20T17:15:10.872Z",
     "type": "follower_lost",
     "login": "s-a-m-y1",
@@ -17915,19 +17931,5 @@
     "login": "Ali-hey-0",
     "htmlUrl": "https://github.com/Ali-hey-0",
     "happenedAt": "2026-07-24T08:44:29.971Z"
-  },
-  {
-    "id": "follower_gained:ifithrewarock:2026-07-24T03:46:51.975Z",
-    "type": "follower_gained",
-    "login": "IfIThrewARock",
-    "htmlUrl": "https://github.com/IfIThrewARock",
-    "happenedAt": "2026-07-24T03:46:51.975Z"
-  },
-  {
-    "id": "follower_gained:joshuaalbertt:2026-07-24T03:46:51.975Z",
-    "type": "follower_gained",
-    "login": "joshuaalbertt",
-    "htmlUrl": "https://github.com/joshuaalbertt",
-    "happenedAt": "2026-07-24T03:46:51.975Z"
   }
 ]
