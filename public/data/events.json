@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:haalingham:2026-10-22T17:15:47.739Z",
+    "type": "follower_gained",
+    "login": "haalingham",
+    "htmlUrl": "https://github.com/haalingham",
+    "happenedAt": "2026-10-22T17:15:47.739Z"
+  },
+  {
+    "id": "follower_gained:taniyav982:2026-10-22T17:15:47.739Z",
+    "type": "follower_gained",
+    "login": "taniyav982",
+    "htmlUrl": "https://github.com/taniyav982",
+    "happenedAt": "2026-10-22T17:15:47.739Z"
+  },
+  {
+    "id": "follower_lost:haalinghams:2026-10-22T17:15:47.739Z",
+    "type": "follower_lost",
+    "login": "haalinghams",
+    "htmlUrl": "https://github.com/haalinghams",
+    "happenedAt": "2026-10-22T17:15:47.739Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:abolfazlgoodam-art:2026-10-22T12:00:32.055Z",
     "type": "you_followed",
     "login": "abolfazlgoodam-art",
@@ -17972,55 +17995,5 @@
     "login": "ARIJSAYEED",
     "htmlUrl": "https://github.com/ARIJSAYEED",
     "happenedAt": "2026-07-24T19:48:52.980Z"
-  },
-  {
-    "id": "follower_gained:laigit-dot:2026-07-24T14:15:23.737Z",
-    "type": "follower_gained",
-    "login": "laigit-dot",
-    "htmlUrl": "https://github.com/laigit-dot",
-    "happenedAt": "2026-07-24T14:15:23.737Z"
-  },
-  {
-    "id": "follower_lost:alan0x:2026-07-24T14:15:23.737Z",
-    "type": "follower_lost",
-    "login": "alan0x",
-    "htmlUrl": "https://github.com/alan0x",
-    "happenedAt": "2026-07-24T14:15:23.737Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:kohit-z:2026-07-24T14:15:23.737Z",
-    "type": "follower_lost",
-    "login": "kohit-z",
-    "htmlUrl": "https://github.com/kohit-z",
-    "happenedAt": "2026-07-24T14:15:23.737Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:m7taks:2026-07-24T14:15:23.737Z",
-    "type": "follower_lost",
-    "login": "M7TAKS",
-    "htmlUrl": "https://github.com/M7TAKS",
-    "happenedAt": "2026-07-24T14:15:23.737Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:deaftunez:2026-07-24T14:15:23.737Z",
-    "type": "you_followed",
-    "login": "deaftunez",
-    "htmlUrl": "https://github.com/deaftunez",
-    "happenedAt": "2026-07-24T14:15:23.737Z"
-  },
-  {
-    "id": "you_unfollowed:m7taks:2026-07-24T14:15:23.737Z",
-    "type": "you_unfollowed",
-    "login": "M7TAKS",
-    "htmlUrl": "https://github.com/M7TAKS",
-    "happenedAt": "2026-07-24T14:15:23.737Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
