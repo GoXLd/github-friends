@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:bqssie:2026-10-23T17:13:46.555Z",
+    "type": "follower_gained",
+    "login": "bqssie",
+    "htmlUrl": "https://github.com/bqssie",
+    "happenedAt": "2026-10-23T17:13:46.555Z"
+  },
+  {
+    "id": "follower_lost:fnnie:2026-10-23T17:13:46.555Z",
+    "type": "follower_lost",
+    "login": "fnnie",
+    "htmlUrl": "https://github.com/fnnie",
+    "happenedAt": "2026-10-23T17:13:46.555Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:snowleopard919:2026-10-23T11:46:06.219Z",
     "type": "follower_gained",
     "login": "SnowLeopard919",
