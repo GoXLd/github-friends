@@ -17256,30 +17256,5 @@
     "happenedAt": "2026-07-27T10:10:50.434Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:serdbay:2026-07-27T04:05:10.526Z",
-    "type": "follower_gained",
-    "login": "serdbay",
-    "htmlUrl": "https://github.com/serdbay",
-    "happenedAt": "2026-07-27T04:05:10.526Z"
-  },
-  {
-    "id": "follower_lost:jhoel777ar:2026-07-27T04:05:10.526Z",
-    "type": "follower_lost",
-    "login": "Jhoel777ar",
-    "htmlUrl": "https://github.com/Jhoel777ar",
-    "happenedAt": "2026-07-27T04:05:10.526Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_unfollowed:jhoel777ar:2026-07-27T04:05:10.526Z",
-    "type": "you_unfollowed",
-    "login": "Jhoel777ar",
-    "htmlUrl": "https://github.com/Jhoel777ar",
-    "happenedAt": "2026-07-27T04:05:10.526Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
