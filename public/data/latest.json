@@ -1,6 +1,6 @@
 {
-  "snapshotId": "2026-10-25T20-56-01-046Z",
-  "generatedAt": "2026-10-25T20:56:01.046Z",
+  "snapshotId": "2026-10-26T04-55-04-290Z",
+  "generatedAt": "2026-10-26T04:55:04.290Z",
   "username": "GoXLd",
   "followers": [
     {
@@ -1564,6 +1564,11 @@
       "htmlUrl": "https://github.com/jeallz"
     },
     {
+      "id": 347440372,
+      "login": "jeffzfan",
+      "htmlUrl": "https://github.com/jeffzfan"
+    },
+    {
       "id": 174388386,
       "login": "jkdevcode",
       "htmlUrl": "https://github.com/jkdevcode"
@@ -2307,6 +2312,11 @@
       "id": 249163596,
       "login": "percussive-battery",
       "htmlUrl": "https://github.com/percussive-battery"
+    },
+    {
+      "id": 559492,
+      "login": "peterruler",
+      "htmlUrl": "https://github.com/peterruler"
     },
     {
       "id": 263036958,
@@ -5242,7 +5252,7 @@
     }
   ],
   "counts": {
-    "followers": 673,
+    "followers": 675,
     "following": 374
   }
 }
