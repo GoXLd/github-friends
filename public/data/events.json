@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:larpishere:2026-10-27T12:20:42.282Z",
+    "type": "follower_gained",
+    "login": "larpishere",
+    "htmlUrl": "https://github.com/larpishere",
+    "happenedAt": "2026-10-27T12:20:42.282Z"
+  },
+  {
+    "id": "follower_gained:uhuhyogiyfitufyktyhvfukyku:2026-10-27T12:20:42.282Z",
+    "type": "follower_gained",
+    "login": "uhuhyogiyfitufyktyhvfukyku",
+    "htmlUrl": "https://github.com/uhuhyogiyfitufyktyhvfukyku",
+    "happenedAt": "2026-10-27T12:20:42.282Z"
+  },
+  {
+    "id": "follower_lost:vsrupeshkumar:2026-10-27T12:20:42.282Z",
+    "type": "follower_lost",
+    "login": "vsrupeshkumar",
+    "htmlUrl": "https://github.com/vsrupeshkumar",
+    "happenedAt": "2026-10-27T12:20:42.282Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:uhuhyogiyfitufyktyhvfukyku:2026-10-27T12:20:42.282Z",
+    "type": "you_followed",
+    "login": "uhuhyogiyfitufyktyhvfukyku",
+    "htmlUrl": "https://github.com/uhuhyogiyfitufyktyhvfukyku",
+    "happenedAt": "2026-10-27T12:20:42.282Z"
+  },
+  {
+    "id": "you_unfollowed:vsrupeshkumar:2026-10-27T12:20:42.282Z",
+    "type": "you_unfollowed",
+    "login": "vsrupeshkumar",
+    "htmlUrl": "https://github.com/vsrupeshkumar",
+    "happenedAt": "2026-10-27T12:20:42.282Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:researchforumonline:2026-10-26T22:43:24.916Z",
     "type": "follower_gained",
     "login": "ResearchForumOnline",
@@ -14344,35 +14383,5 @@
     "login": "ValveSoftware",
     "htmlUrl": "https://github.com/ValveSoftware",
     "happenedAt": "2026-07-29T14:32:50.860Z"
-  },
-  {
-    "id": "follower_gained:spokieshere:2026-07-29T09:12:10.759Z",
-    "type": "follower_gained",
-    "login": "spokieshere",
-    "htmlUrl": "https://github.com/spokieshere",
-    "happenedAt": "2026-07-29T09:12:10.759Z"
-  },
-  {
-    "id": "follower_gained:thakurdivyanshsingh-77:2026-07-29T09:12:10.759Z",
-    "type": "follower_gained",
-    "login": "ThakurDivyanshsingh-77",
-    "htmlUrl": "https://github.com/ThakurDivyanshsingh-77",
-    "happenedAt": "2026-07-29T09:12:10.759Z"
-  },
-  {
-    "id": "follower_gained:yumiaura:2026-07-29T09:12:10.759Z",
-    "type": "follower_gained",
-    "login": "yumiaura",
-    "htmlUrl": "https://github.com/yumiaura",
-    "happenedAt": "2026-07-29T09:12:10.759Z"
-  },
-  {
-    "id": "follower_lost:e8slover:2026-07-29T09:12:10.759Z",
-    "type": "follower_lost",
-    "login": "e8slover",
-    "htmlUrl": "https://github.com/e8slover",
-    "happenedAt": "2026-07-29T09:12:10.759Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
