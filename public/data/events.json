@@ -1,5 +1,21 @@
 [
   {
+    "id": "follower_gained:ayoola-tech2024:2026-10-28T05:50:41.742Z",
+    "type": "follower_gained",
+    "login": "Ayoola-tech2024",
+    "htmlUrl": "https://github.com/Ayoola-tech2024",
+    "happenedAt": "2026-10-28T05:50:41.742Z"
+  },
+  {
+    "id": "follower_lost:zhensherlock:2026-10-28T05:50:41.742Z",
+    "type": "follower_lost",
+    "login": "zhensherlock",
+    "htmlUrl": "https://github.com/zhensherlock",
+    "happenedAt": "2026-10-28T05:50:41.742Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ph3n0typ3:2026-10-27T22:20:01.792Z",
     "type": "follower_gained",
     "login": "ph3n0typ3",
@@ -13778,49 +13794,6 @@
     "login": "scottpeat",
     "htmlUrl": "https://github.com/scottpeat",
     "happenedAt": "2026-07-30T14:35:08.633Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:lewickiy:2026-07-30T03:32:47.917Z",
-    "type": "follower_gained",
-    "login": "Lewickiy",
-    "htmlUrl": "https://github.com/Lewickiy",
-    "happenedAt": "2026-07-30T03:32:47.917Z"
-  },
-  {
-    "id": "you_unfollowed:dnscontrol:2026-07-30T03:32:47.917Z",
-    "type": "you_unfollowed",
-    "login": "DNSControl",
-    "htmlUrl": "https://github.com/DNSControl",
-    "happenedAt": "2026-07-30T03:32:47.917Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:kenjinote:2026-07-30T03:32:47.917Z",
-    "type": "you_unfollowed",
-    "login": "kenjinote",
-    "htmlUrl": "https://github.com/kenjinote",
-    "happenedAt": "2026-07-30T03:32:47.917Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:ohana-web:2026-07-30T03:32:47.917Z",
-    "type": "you_unfollowed",
-    "login": "OHANA-WEB",
-    "htmlUrl": "https://github.com/OHANA-WEB",
-    "happenedAt": "2026-07-30T03:32:47.917Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:ovh:2026-07-30T03:32:47.917Z",
-    "type": "you_unfollowed",
-    "login": "ovh",
-    "htmlUrl": "https://github.com/ovh",
-    "happenedAt": "2026-07-30T03:32:47.917Z",
     "accountStatus": null,
     "isDeleted": false
   }
