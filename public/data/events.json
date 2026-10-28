@@ -1,5 +1,35 @@
 [
   {
+    "id": "follower_gained:himmetcanumutlu:2026-10-28T13:04:46.044Z",
+    "type": "follower_gained",
+    "login": "himmetcanumutlu",
+    "htmlUrl": "https://github.com/himmetcanumutlu",
+    "happenedAt": "2026-10-28T13:04:46.044Z"
+  },
+  {
+    "id": "follower_gained:sphereto:2026-10-28T13:04:46.044Z",
+    "type": "follower_gained",
+    "login": "sphereto",
+    "htmlUrl": "https://github.com/sphereto",
+    "happenedAt": "2026-10-28T13:04:46.044Z"
+  },
+  {
+    "id": "you_followed:pringlesmorty:2026-10-28T13:04:46.044Z",
+    "type": "you_followed",
+    "login": "PringlesMorty",
+    "htmlUrl": "https://github.com/PringlesMorty",
+    "happenedAt": "2026-10-28T13:04:46.044Z"
+  },
+  {
+    "id": "you_unfollowed:waxwellkin:2026-10-28T13:04:46.044Z",
+    "type": "you_unfollowed",
+    "login": "waxwellkin",
+    "htmlUrl": "https://github.com/waxwellkin",
+    "happenedAt": "2026-10-28T13:04:46.044Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:ayoola-tech2024:2026-10-28T05:50:41.742Z",
     "type": "follower_gained",
     "login": "Ayoola-tech2024",
