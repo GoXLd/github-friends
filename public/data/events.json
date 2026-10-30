@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:erturkeryavuz:2026-10-30T22:26:18.716Z",
+    "type": "follower_gained",
+    "login": "erturkeryavuz",
+    "htmlUrl": "https://github.com/erturkeryavuz",
+    "happenedAt": "2026-10-30T22:26:18.716Z"
+  },
+  {
+    "id": "follower_gained:systechelektro:2026-10-30T22:26:18.716Z",
+    "type": "follower_gained",
+    "login": "systechelektro",
+    "htmlUrl": "https://github.com/systechelektro",
+    "happenedAt": "2026-10-30T22:26:18.716Z"
+  },
+  {
+    "id": "follower_lost:magicdevstar:2026-10-30T22:26:18.716Z",
+    "type": "follower_lost",
+    "login": "magicdevstar",
+    "htmlUrl": "https://github.com/magicdevstar",
+    "happenedAt": "2026-10-30T22:26:18.716Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:glassesmorty:2026-10-30T22:26:18.716Z",
+    "type": "you_followed",
+    "login": "GlassesMorty",
+    "htmlUrl": "https://github.com/GlassesMorty",
+    "happenedAt": "2026-10-30T22:26:18.716Z"
+  },
+  {
+    "id": "you_unfollowed:pringlesmorty:2026-10-30T22:26:18.716Z",
+    "type": "you_unfollowed",
+    "login": "PringlesMorty",
+    "htmlUrl": "https://github.com/PringlesMorty",
+    "happenedAt": "2026-10-30T22:26:18.716Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:henry8k:2026-10-30T05:56:04.855Z",
     "type": "follower_gained",
     "login": "henry8k",
@@ -14034,30 +14073,5 @@
     "login": "HeryTal",
     "htmlUrl": "https://github.com/HeryTal",
     "happenedAt": "2026-08-02T03:56:14.043Z"
-  },
-  {
-    "id": "follower_gained:qtdokymi:2026-08-01T19:37:15.251Z",
-    "type": "follower_gained",
-    "login": "qtdokymi",
-    "htmlUrl": "https://github.com/qtdokymi",
-    "happenedAt": "2026-08-01T19:37:15.251Z"
-  },
-  {
-    "id": "follower_lost:3fss:2026-08-01T19:37:15.251Z",
-    "type": "follower_lost",
-    "login": "3fss",
-    "htmlUrl": "https://github.com/3fss",
-    "happenedAt": "2026-08-01T19:37:15.251Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:a-partovii:2026-08-01T19:37:15.251Z",
-    "type": "follower_lost",
-    "login": "a-partovii",
-    "htmlUrl": "https://github.com/a-partovii",
-    "happenedAt": "2026-08-01T19:37:15.251Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
