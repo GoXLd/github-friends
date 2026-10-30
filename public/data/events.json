@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:henry8k:2026-10-30T05:56:04.855Z",
+    "type": "follower_gained",
+    "login": "henry8k",
+    "htmlUrl": "https://github.com/henry8k",
+    "happenedAt": "2026-10-30T05:56:04.855Z"
+  },
+  {
+    "id": "follower_gained:sandeepai369:2026-10-30T05:56:04.855Z",
+    "type": "follower_gained",
+    "login": "SandeepAi369",
+    "htmlUrl": "https://github.com/SandeepAi369",
+    "happenedAt": "2026-10-30T05:56:04.855Z"
+  },
+  {
+    "id": "follower_lost:coffsec:2026-10-30T05:56:04.855Z",
+    "type": "follower_lost",
+    "login": "coffsec",
+    "htmlUrl": "https://github.com/coffsec",
+    "happenedAt": "2026-10-30T05:56:04.855Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:coffsec:2026-10-29T22:49:15.662Z",
     "type": "follower_gained",
     "login": "coffsec",
@@ -14050,22 +14073,6 @@
     "login": "Spokkkee",
     "htmlUrl": "https://github.com/Spokkkee",
     "happenedAt": "2026-08-01T08:35:02.636Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:haalinghams:2026-08-01T03:53:27.573Z",
-    "type": "follower_gained",
-    "login": "haalinghams",
-    "htmlUrl": "https://github.com/haalinghams",
-    "happenedAt": "2026-08-01T03:53:27.573Z"
-  },
-  {
-    "id": "follower_lost:harveyspecters:2026-08-01T03:53:27.573Z",
-    "type": "follower_lost",
-    "login": "harveyspecters",
-    "htmlUrl": "https://github.com/harveyspecters",
-    "happenedAt": "2026-08-01T03:53:27.573Z",
     "accountStatus": null,
     "isDeleted": false
   }
