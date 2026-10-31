@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:updatingmyhim:2026-10-31T05:52:20.807Z",
+    "type": "follower_gained",
+    "login": "updatingmyhim",
+    "htmlUrl": "https://github.com/updatingmyhim",
+    "happenedAt": "2026-10-31T05:52:20.807Z"
+  },
+  {
+    "id": "follower_lost:uhuhyogiyfitufyktyhvfukyku:2026-10-31T05:52:20.807Z",
+    "type": "follower_lost",
+    "login": "uhuhyogiyfitufyktyhvfukyku",
+    "htmlUrl": "https://github.com/uhuhyogiyfitufyktyhvfukyku",
+    "happenedAt": "2026-10-31T05:52:20.807Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:updatingmyhim:2026-10-31T05:52:20.807Z",
+    "type": "you_followed",
+    "login": "updatingmyhim",
+    "htmlUrl": "https://github.com/updatingmyhim",
+    "happenedAt": "2026-10-31T05:52:20.807Z"
+  },
+  {
+    "id": "you_unfollowed:uhuhyogiyfitufyktyhvfukyku:2026-10-31T05:52:20.807Z",
+    "type": "you_unfollowed",
+    "login": "uhuhyogiyfitufyktyhvfukyku",
+    "htmlUrl": "https://github.com/uhuhyogiyfitufyktyhvfukyku",
+    "happenedAt": "2026-10-31T05:52:20.807Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:erturkeryavuz:2026-10-30T22:26:18.716Z",
     "type": "follower_gained",
     "login": "erturkeryavuz",
@@ -14059,19 +14091,5 @@
     "login": "ancaferro",
     "htmlUrl": "https://github.com/ancaferro",
     "happenedAt": "2026-08-02T08:37:45.733Z"
-  },
-  {
-    "id": "follower_gained:ahmadjeddi:2026-08-02T03:56:14.043Z",
-    "type": "follower_gained",
-    "login": "AhmadJeddi",
-    "htmlUrl": "https://github.com/AhmadJeddi",
-    "happenedAt": "2026-08-02T03:56:14.043Z"
-  },
-  {
-    "id": "follower_gained:herytal:2026-08-02T03:56:14.043Z",
-    "type": "follower_gained",
-    "login": "HeryTal",
-    "htmlUrl": "https://github.com/HeryTal",
-    "happenedAt": "2026-08-02T03:56:14.043Z"
   }
 ]
