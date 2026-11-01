@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:relntx:2026-11-01T06:16:10.846Z",
+    "type": "follower_gained",
+    "login": "relntx",
+    "htmlUrl": "https://github.com/relntx",
+    "happenedAt": "2026-11-01T06:16:10.846Z"
+  },
+  {
+    "id": "follower_lost:thryvx:2026-11-01T06:16:10.846Z",
+    "type": "follower_lost",
+    "login": "thryvx",
+    "htmlUrl": "https://github.com/thryvx",
+    "happenedAt": "2026-11-01T06:16:10.846Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:relntx:2026-11-01T06:16:10.846Z",
+    "type": "you_followed",
+    "login": "relntx",
+    "htmlUrl": "https://github.com/relntx",
+    "happenedAt": "2026-11-01T06:16:10.846Z"
+  },
+  {
+    "id": "you_unfollowed:thryvx:2026-11-01T06:16:10.846Z",
+    "type": "you_unfollowed",
+    "login": "thryvx",
+    "htmlUrl": "https://github.com/thryvx",
+    "happenedAt": "2026-11-01T06:16:10.846Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:git-fed:2026-10-31T21:41:02.396Z",
     "type": "follower_gained",
     "login": "Git-FED",
@@ -14037,40 +14069,6 @@
     "login": "jeallz",
     "htmlUrl": "https://github.com/jeallz",
     "happenedAt": "2026-08-03T15:20:28.095Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:zack-fa1r:2026-08-03T03:57:47.486Z",
-    "type": "follower_gained",
-    "login": "ZACK-FA1R",
-    "htmlUrl": "https://github.com/ZACK-FA1R",
-    "happenedAt": "2026-08-03T03:57:47.486Z"
-  },
-  {
-    "id": "follower_lost:ddrayko:2026-08-03T03:57:47.486Z",
-    "type": "follower_lost",
-    "login": "ddrayko",
-    "htmlUrl": "https://github.com/ddrayko",
-    "happenedAt": "2026-08-03T03:57:47.486Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:goof-ex-soldier:2026-08-03T03:57:47.486Z",
-    "type": "follower_lost",
-    "login": "Goof-EX-SOLDIER",
-    "htmlUrl": "https://github.com/Goof-EX-SOLDIER",
-    "happenedAt": "2026-08-03T03:57:47.486Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:xiaoyouchr:2026-08-03T03:57:47.486Z",
-    "type": "you_unfollowed",
-    "login": "XiaoYouChR",
-    "htmlUrl": "https://github.com/XiaoYouChR",
-    "happenedAt": "2026-08-03T03:57:47.486Z",
     "accountStatus": null,
     "isDeleted": false
   }
