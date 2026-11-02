@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:relntlx:2026-11-02T06:17:38.042Z",
+    "type": "follower_gained",
+    "login": "relntlx",
+    "htmlUrl": "https://github.com/relntlx",
+    "happenedAt": "2026-11-02T06:17:38.042Z"
+  },
+  {
+    "id": "follower_lost:relntx:2026-11-02T06:17:38.042Z",
+    "type": "follower_lost",
+    "login": "relntx",
+    "htmlUrl": "https://github.com/relntx",
+    "happenedAt": "2026-11-02T06:17:38.042Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:relntlx:2026-11-02T06:17:38.042Z",
+    "type": "you_followed",
+    "login": "relntlx",
+    "htmlUrl": "https://github.com/relntlx",
+    "happenedAt": "2026-11-02T06:17:38.042Z"
+  },
+  {
+    "id": "you_unfollowed:relntx:2026-11-02T06:17:38.042Z",
+    "type": "you_unfollowed",
+    "login": "relntx",
+    "htmlUrl": "https://github.com/relntx",
+    "happenedAt": "2026-11-02T06:17:38.042Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:menabil:2026-11-01T22:07:01.956Z",
     "type": "follower_gained",
     "login": "menabil",
@@ -14095,12 +14127,5 @@
     "happenedAt": "2026-08-04T09:11:27.838Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:harukujo227:2026-08-04T03:41:17.044Z",
-    "type": "follower_gained",
-    "login": "harukujo227",
-    "htmlUrl": "https://github.com/harukujo227",
-    "happenedAt": "2026-08-04T03:41:17.044Z"
   }
 ]
