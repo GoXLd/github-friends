@@ -1,5 +1,37 @@
 [
   {
+    "id": "follower_gained:relntlx:2026-11-03T06:55:00.312Z",
+    "type": "follower_gained",
+    "login": "relntlx",
+    "htmlUrl": "https://github.com/relntlx",
+    "happenedAt": "2026-11-03T06:55:00.312Z"
+  },
+  {
+    "id": "follower_lost:relntlss:2026-11-03T06:55:00.312Z",
+    "type": "follower_lost",
+    "login": "relntlss",
+    "htmlUrl": "https://github.com/relntlss",
+    "happenedAt": "2026-11-03T06:55:00.312Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:relntlx:2026-11-03T06:55:00.312Z",
+    "type": "you_followed",
+    "login": "relntlx",
+    "htmlUrl": "https://github.com/relntlx",
+    "happenedAt": "2026-11-03T06:55:00.312Z"
+  },
+  {
+    "id": "you_unfollowed:relntlss:2026-11-03T06:55:00.312Z",
+    "type": "you_unfollowed",
+    "login": "relntlss",
+    "htmlUrl": "https://github.com/relntlss",
+    "happenedAt": "2026-11-03T06:55:00.312Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:relntlss:2026-11-02T21:44:39.120Z",
     "type": "follower_gained",
     "login": "relntlss",
@@ -14325,12 +14357,5 @@
     "happenedAt": "2026-08-05T14:35:37.141Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:peterruler:2026-08-05T03:36:44.368Z",
-    "type": "follower_gained",
-    "login": "peterruler",
-    "htmlUrl": "https://github.com/peterruler",
-    "happenedAt": "2026-08-05T03:36:44.368Z"
   }
 ]
