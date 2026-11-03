@@ -1,5 +1,60 @@
 [
   {
+    "id": "follower_gained:50ocigarettes:2026-11-03T19:31:51.794Z",
+    "type": "follower_gained",
+    "login": "50Ocigarettes",
+    "htmlUrl": "https://github.com/50Ocigarettes",
+    "happenedAt": "2026-11-03T19:31:51.794Z"
+  },
+  {
+    "id": "follower_gained:jhoel777ar:2026-11-03T19:31:51.794Z",
+    "type": "follower_gained",
+    "login": "Jhoel777ar",
+    "htmlUrl": "https://github.com/Jhoel777ar",
+    "happenedAt": "2026-11-03T19:31:51.794Z"
+  },
+  {
+    "id": "follower_gained:vitor1914:2026-11-03T19:31:51.794Z",
+    "type": "follower_gained",
+    "login": "vitor1914",
+    "htmlUrl": "https://github.com/vitor1914",
+    "happenedAt": "2026-11-03T19:31:51.794Z"
+  },
+  {
+    "id": "follower_lost:sadra138456:2026-11-03T19:31:51.794Z",
+    "type": "follower_lost",
+    "login": "Sadra138456",
+    "htmlUrl": "https://github.com/Sadra138456",
+    "happenedAt": "2026-11-03T19:31:51.794Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:thejesh23:2026-11-03T19:31:51.794Z",
+    "type": "follower_lost",
+    "login": "thejesh23",
+    "htmlUrl": "https://github.com/thejesh23",
+    "happenedAt": "2026-11-03T19:31:51.794Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:jhoel777ar:2026-11-03T19:31:51.794Z",
+    "type": "you_followed",
+    "login": "Jhoel777ar",
+    "htmlUrl": "https://github.com/Jhoel777ar",
+    "happenedAt": "2026-11-03T19:31:51.794Z"
+  },
+  {
+    "id": "you_unfollowed:v1tor8:2026-11-03T19:31:51.794Z",
+    "type": "you_unfollowed",
+    "login": "v1tor8",
+    "htmlUrl": "https://github.com/v1tor8",
+    "happenedAt": "2026-11-03T19:31:51.794Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:relntlx:2026-11-03T06:55:00.312Z",
     "type": "follower_gained",
     "login": "relntlx",
@@ -14318,44 +14373,5 @@
     "login": "GaIaxyisdum",
     "htmlUrl": "https://github.com/GaIaxyisdum",
     "happenedAt": "2026-08-05T19:57:07.409Z"
-  },
-  {
-    "id": "follower_gained:nightmarespoke:2026-08-05T14:35:37.141Z",
-    "type": "follower_gained",
-    "login": "nightmarespoke",
-    "htmlUrl": "https://github.com/nightmarespoke",
-    "happenedAt": "2026-08-05T14:35:37.141Z"
-  },
-  {
-    "id": "follower_gained:obraims:2026-08-05T14:35:37.141Z",
-    "type": "follower_gained",
-    "login": "Obraims",
-    "htmlUrl": "https://github.com/Obraims",
-    "happenedAt": "2026-08-05T14:35:37.141Z"
-  },
-  {
-    "id": "follower_lost:selfishprince:2026-08-05T14:35:37.141Z",
-    "type": "follower_lost",
-    "login": "selfishprince",
-    "htmlUrl": "https://github.com/selfishprince",
-    "happenedAt": "2026-08-05T14:35:37.141Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "you_followed:nightmarespoke:2026-08-05T14:35:37.141Z",
-    "type": "you_followed",
-    "login": "nightmarespoke",
-    "htmlUrl": "https://github.com/nightmarespoke",
-    "happenedAt": "2026-08-05T14:35:37.141Z"
-  },
-  {
-    "id": "you_unfollowed:selfishprince:2026-08-05T14:35:37.141Z",
-    "type": "you_unfollowed",
-    "login": "selfishprince",
-    "htmlUrl": "https://github.com/selfishprince",
-    "happenedAt": "2026-08-05T14:35:37.141Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
