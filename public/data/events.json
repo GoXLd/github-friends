@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:maxpicelli:2026-11-04T06:35:31.145Z",
+    "type": "follower_gained",
+    "login": "maxpicelli",
+    "htmlUrl": "https://github.com/maxpicelli",
+    "happenedAt": "2026-11-04T06:35:31.145Z"
+  },
+  {
+    "id": "follower_lost:adriannoes:2026-11-04T06:35:31.145Z",
+    "type": "follower_lost",
+    "login": "adriannoes",
+    "htmlUrl": "https://github.com/adriannoes",
+    "happenedAt": "2026-11-04T06:35:31.145Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:ayoola-tech2024:2026-11-04T06:35:31.145Z",
+    "type": "follower_lost",
+    "login": "Ayoola-tech2024",
+    "htmlUrl": "https://github.com/Ayoola-tech2024",
+    "happenedAt": "2026-11-04T06:35:31.145Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:50ocigarettes:2026-11-03T19:31:51.794Z",
     "type": "follower_gained",
     "login": "50Ocigarettes",
@@ -14330,48 +14355,5 @@
     "happenedAt": "2026-08-06T09:08:28.588Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_lost:xcontcom:2026-08-06T03:42:24.157Z",
-    "type": "follower_lost",
-    "login": "xcontcom",
-    "htmlUrl": "https://github.com/xcontcom",
-    "happenedAt": "2026-08-06T03:42:24.157Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:blacksyn24:2026-08-06T03:42:24.157Z",
-    "type": "you_unfollowed",
-    "login": "blacksyn24",
-    "htmlUrl": "https://github.com/blacksyn24",
-    "happenedAt": "2026-08-06T03:42:24.157Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:fastai:2026-08-06T03:42:24.157Z",
-    "type": "you_unfollowed",
-    "login": "fastai",
-    "htmlUrl": "https://github.com/fastai",
-    "happenedAt": "2026-08-06T03:42:24.157Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:kazarus4:2026-08-06T03:42:24.157Z",
-    "type": "you_unfollowed",
-    "login": "Kazarus4",
-    "htmlUrl": "https://github.com/Kazarus4",
-    "happenedAt": "2026-08-06T03:42:24.157Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:gaiaxyisdum:2026-08-05T19:57:07.409Z",
-    "type": "follower_gained",
-    "login": "GaIaxyisdum",
-    "htmlUrl": "https://github.com/GaIaxyisdum",
-    "happenedAt": "2026-08-05T19:57:07.409Z"
   }
 ]
