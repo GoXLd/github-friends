@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:aixisstudio:2026-11-05T06:56:02.440Z",
+    "type": "follower_gained",
+    "login": "aixisstudio",
+    "htmlUrl": "https://github.com/aixisstudio",
+    "happenedAt": "2026-11-05T06:56:02.440Z"
+  },
+  {
+    "id": "follower_gained:gabriel885656:2026-11-05T06:56:02.440Z",
+    "type": "follower_gained",
+    "login": "gabriel885656",
+    "htmlUrl": "https://github.com/gabriel885656",
+    "happenedAt": "2026-11-05T06:56:02.440Z"
+  },
+  {
+    "id": "follower_lost:vip885745:2026-11-05T06:56:02.440Z",
+    "type": "follower_lost",
+    "login": "vip885745",
+    "htmlUrl": "https://github.com/vip885745",
+    "happenedAt": "2026-11-05T06:56:02.440Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:joynokal:2026-11-04T19:50:18.475Z",
     "type": "you_followed",
     "login": "joynokal",
@@ -14409,14 +14432,5 @@
     "login": "DanHouseman",
     "htmlUrl": "https://github.com/DanHouseman",
     "happenedAt": "2026-08-07T07:44:30.352Z"
-  },
-  {
-    "id": "follower_lost:obraims:2026-08-07T00:17:12.816Z",
-    "type": "follower_lost",
-    "login": "Obraims",
-    "htmlUrl": "https://github.com/Obraims",
-    "happenedAt": "2026-08-07T00:17:12.816Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
