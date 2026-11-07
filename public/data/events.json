@@ -13899,21 +13899,5 @@
     "happenedAt": "2026-08-10T02:36:33.690Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:kuwakuwa53577:2026-08-09T19:03:45.962Z",
-    "type": "follower_gained",
-    "login": "kuwakuwa53577",
-    "htmlUrl": "https://github.com/kuwakuwa53577",
-    "happenedAt": "2026-08-09T19:03:45.962Z"
-  },
-  {
-    "id": "follower_lost:lewickiy:2026-08-09T13:17:45.449Z",
-    "type": "follower_lost",
-    "login": "Lewickiy",
-    "htmlUrl": "https://github.com/Lewickiy",
-    "happenedAt": "2026-08-09T13:17:45.449Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
