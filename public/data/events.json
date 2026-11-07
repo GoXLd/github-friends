@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_lost:ripan-baidya:2026-11-07T06:06:58.494Z",
+    "type": "follower_lost",
+    "login": "ripan-baidya",
+    "htmlUrl": "https://github.com/ripan-baidya",
+    "happenedAt": "2026-11-07T06:06:58.494Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
+    "id": "you_followed:ripanbaidya:2026-11-07T06:06:58.494Z",
+    "type": "you_followed",
+    "login": "ripanbaidya",
+    "htmlUrl": "https://github.com/ripanbaidya",
+    "happenedAt": "2026-11-07T06:06:58.494Z"
+  },
+  {
+    "id": "you_unfollowed:ripan-baidya:2026-11-07T06:06:58.494Z",
+    "type": "you_unfollowed",
+    "login": "ripan-baidya",
+    "htmlUrl": "https://github.com/ripan-baidya",
+    "happenedAt": "2026-11-07T06:06:58.494Z",
+    "accountStatus": "deleted",
+    "isDeleted": true
+  },
+  {
     "id": "follower_gained:ripan-baidya:2026-11-06T19:28:35.775Z",
     "type": "follower_gained",
     "login": "ripan-baidya",
@@ -13789,59 +13814,6 @@
     "login": "Lewickiy",
     "htmlUrl": "https://github.com/Lewickiy",
     "happenedAt": "2026-08-09T13:17:45.449Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:ahsan-khalid01:2026-08-09T02:31:09.836Z",
-    "type": "follower_gained",
-    "login": "Ahsan-Khalid01",
-    "htmlUrl": "https://github.com/Ahsan-Khalid01",
-    "happenedAt": "2026-08-09T02:31:09.836Z"
-  },
-  {
-    "id": "follower_gained:dineshsinghdhami:2026-08-09T02:31:09.836Z",
-    "type": "follower_gained",
-    "login": "dineshsinghdhami",
-    "htmlUrl": "https://github.com/dineshsinghdhami",
-    "happenedAt": "2026-08-09T02:31:09.836Z"
-  },
-  {
-    "id": "follower_gained:kyal102:2026-08-09T02:31:09.836Z",
-    "type": "follower_gained",
-    "login": "kyal102",
-    "htmlUrl": "https://github.com/kyal102",
-    "happenedAt": "2026-08-09T02:31:09.836Z"
-  },
-  {
-    "id": "follower_gained:miladjoodi:2026-08-09T02:31:09.836Z",
-    "type": "follower_gained",
-    "login": "MiladJoodi",
-    "htmlUrl": "https://github.com/MiladJoodi",
-    "happenedAt": "2026-08-09T02:31:09.836Z"
-  },
-  {
-    "id": "follower_gained:thecervidaeforest:2026-08-09T02:31:09.836Z",
-    "type": "follower_gained",
-    "login": "TheCervidaeForest",
-    "htmlUrl": "https://github.com/TheCervidaeForest",
-    "happenedAt": "2026-08-09T02:31:09.836Z"
-  },
-  {
-    "id": "follower_lost:vigilante-irl:2026-08-09T02:31:09.836Z",
-    "type": "follower_lost",
-    "login": "Vigilante-Irl",
-    "htmlUrl": "https://github.com/Vigilante-Irl",
-    "happenedAt": "2026-08-09T02:31:09.836Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_unfollowed:valvesoftware:2026-08-09T02:31:09.836Z",
-    "type": "you_unfollowed",
-    "login": "ValveSoftware",
-    "htmlUrl": "https://github.com/ValveSoftware",
-    "happenedAt": "2026-08-09T02:31:09.836Z",
     "accountStatus": null,
     "isDeleted": false
   }
