@@ -13496,21 +13496,5 @@
     "happenedAt": "2026-08-13T07:55:56.879Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:nour-yahyaoui:2026-08-13T03:01:16.989Z",
-    "type": "follower_gained",
-    "login": "Nour-yahyaoui",
-    "htmlUrl": "https://github.com/Nour-yahyaoui",
-    "happenedAt": "2026-08-13T03:01:16.989Z"
-  },
-  {
-    "id": "follower_lost:seehiong:2026-08-13T03:01:16.989Z",
-    "type": "follower_lost",
-    "login": "seehiong",
-    "htmlUrl": "https://github.com/seehiong",
-    "happenedAt": "2026-08-13T03:01:16.989Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
