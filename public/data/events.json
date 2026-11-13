@@ -1,5 +1,26 @@
 [
   {
+    "id": "follower_gained:ali-khan-025:2026-11-13T06:52:46.393Z",
+    "type": "follower_gained",
+    "login": "ali-khan-025",
+    "htmlUrl": "https://github.com/ali-khan-025",
+    "happenedAt": "2026-11-13T06:52:46.393Z"
+  },
+  {
+    "id": "follower_gained:applecat88:2026-11-13T06:52:46.393Z",
+    "type": "follower_gained",
+    "login": "applecat88",
+    "htmlUrl": "https://github.com/applecat88",
+    "happenedAt": "2026-11-13T06:52:46.393Z"
+  },
+  {
+    "id": "follower_gained:diegok29:2026-11-13T06:52:46.393Z",
+    "type": "follower_gained",
+    "login": "diegok29",
+    "htmlUrl": "https://github.com/diegok29",
+    "happenedAt": "2026-11-13T06:52:46.393Z"
+  },
+  {
     "id": "follower_gained:luckys-lnz:2026-11-12T20:00:55.592Z",
     "type": "follower_gained",
     "login": "luckys-lnz",
@@ -13318,38 +13339,6 @@
     "login": "saantdahal",
     "htmlUrl": "https://github.com/saantdahal",
     "happenedAt": "2026-08-15T06:59:52.482Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:gumpaws:2026-08-15T01:51:49.305Z",
-    "type": "follower_gained",
-    "login": "gumpaws",
-    "htmlUrl": "https://github.com/gumpaws",
-    "happenedAt": "2026-08-15T01:51:49.305Z"
-  },
-  {
-    "id": "follower_gained:mesbaulrafi:2026-08-15T01:51:49.305Z",
-    "type": "follower_gained",
-    "login": "mesbaulrafi",
-    "htmlUrl": "https://github.com/mesbaulrafi",
-    "happenedAt": "2026-08-15T01:51:49.305Z"
-  },
-  {
-    "id": "follower_lost:coolestsecurity:2026-08-15T01:51:49.305Z",
-    "type": "follower_lost",
-    "login": "CoolestSecurity",
-    "htmlUrl": "https://github.com/CoolestSecurity",
-    "happenedAt": "2026-08-15T01:51:49.305Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:maher-elmair:2026-08-15T01:51:49.305Z",
-    "type": "follower_lost",
-    "login": "Maher-Elmair",
-    "htmlUrl": "https://github.com/Maher-Elmair",
-    "happenedAt": "2026-08-15T01:51:49.305Z",
     "accountStatus": null,
     "isDeleted": false
   }
