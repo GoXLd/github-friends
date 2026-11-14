@@ -13714,30 +13714,5 @@
     "happenedAt": "2026-08-17T01:56:44.005Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:meghraj-6093:2026-08-16T18:48:40.638Z",
-    "type": "follower_gained",
-    "login": "Meghraj-6093",
-    "htmlUrl": "https://github.com/Meghraj-6093",
-    "happenedAt": "2026-08-16T18:48:40.638Z"
-  },
-  {
-    "id": "follower_lost:ancaferro:2026-08-16T18:48:40.638Z",
-    "type": "follower_lost",
-    "login": "ancaferro",
-    "htmlUrl": "https://github.com/ancaferro",
-    "happenedAt": "2026-08-16T18:48:40.638Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:boraaita:2026-08-16T18:48:40.638Z",
-    "type": "follower_lost",
-    "login": "BoraAITA",
-    "htmlUrl": "https://github.com/BoraAITA",
-    "happenedAt": "2026-08-16T18:48:40.638Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
