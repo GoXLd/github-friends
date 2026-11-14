@@ -13352,21 +13352,5 @@
     "happenedAt": "2026-08-16T18:48:40.638Z",
     "accountStatus": null,
     "isDeleted": false
-  },
-  {
-    "id": "follower_gained:tokyo-teddy:2026-08-16T01:58:43.468Z",
-    "type": "follower_gained",
-    "login": "tokyo-teddy",
-    "htmlUrl": "https://github.com/tokyo-teddy",
-    "happenedAt": "2026-08-16T01:58:43.468Z"
-  },
-  {
-    "id": "follower_lost:vodyanista:2026-08-16T01:58:43.468Z",
-    "type": "follower_lost",
-    "login": "vodyanista",
-    "htmlUrl": "https://github.com/vodyanista",
-    "happenedAt": "2026-08-16T01:58:43.468Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
