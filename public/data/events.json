@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:mohdshamii:2026-11-15T06:43:22.946Z",
+    "type": "follower_gained",
+    "login": "mohdshamii",
+    "htmlUrl": "https://github.com/mohdshamii",
+    "happenedAt": "2026-11-15T06:43:22.946Z"
+  },
+  {
+    "id": "follower_gained:peterruler:2026-11-15T06:43:22.946Z",
+    "type": "follower_gained",
+    "login": "peterruler",
+    "htmlUrl": "https://github.com/peterruler",
+    "happenedAt": "2026-11-15T06:43:22.946Z"
+  },
+  {
     "id": "follower_gained:ftn-imran:2026-11-14T18:12:31.007Z",
     "type": "follower_gained",
     "login": "ftn-imran",
@@ -13652,67 +13666,5 @@
     "login": "amazing-soft-dev",
     "htmlUrl": "https://github.com/amazing-soft-dev",
     "happenedAt": "2026-08-17T07:18:12.670Z"
-  },
-  {
-    "id": "follower_gained:faisal9010:2026-08-17T01:56:44.005Z",
-    "type": "follower_gained",
-    "login": "faisal9010",
-    "htmlUrl": "https://github.com/faisal9010",
-    "happenedAt": "2026-08-17T01:56:44.005Z"
-  },
-  {
-    "id": "follower_gained:ladiesman217onebay:2026-08-17T01:56:44.005Z",
-    "type": "follower_gained",
-    "login": "LadiesMan217onEbay",
-    "htmlUrl": "https://github.com/LadiesMan217onEbay",
-    "happenedAt": "2026-08-17T01:56:44.005Z"
-  },
-  {
-    "id": "follower_gained:mdjaberdev:2026-08-17T01:56:44.005Z",
-    "type": "follower_gained",
-    "login": "mdjaberdev",
-    "htmlUrl": "https://github.com/mdjaberdev",
-    "happenedAt": "2026-08-17T01:56:44.005Z"
-  },
-  {
-    "id": "follower_gained:oxcyland:2026-08-17T01:56:44.005Z",
-    "type": "follower_gained",
-    "login": "oxcyland",
-    "htmlUrl": "https://github.com/oxcyland",
-    "happenedAt": "2026-08-17T01:56:44.005Z"
-  },
-  {
-    "id": "follower_lost:fuelisblood:2026-08-17T01:56:44.005Z",
-    "type": "follower_lost",
-    "login": "Fuelisblood",
-    "htmlUrl": "https://github.com/Fuelisblood",
-    "happenedAt": "2026-08-17T01:56:44.005Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
-  },
-  {
-    "id": "follower_lost:yangilwoo:2026-08-17T01:56:44.005Z",
-    "type": "follower_lost",
-    "login": "yangilwoo",
-    "htmlUrl": "https://github.com/yangilwoo",
-    "happenedAt": "2026-08-17T01:56:44.005Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:ladiesman217onebay:2026-08-17T01:56:44.005Z",
-    "type": "you_followed",
-    "login": "LadiesMan217onEbay",
-    "htmlUrl": "https://github.com/LadiesMan217onEbay",
-    "happenedAt": "2026-08-17T01:56:44.005Z"
-  },
-  {
-    "id": "you_unfollowed:fuelisblood:2026-08-17T01:56:44.005Z",
-    "type": "you_unfollowed",
-    "login": "Fuelisblood",
-    "htmlUrl": "https://github.com/Fuelisblood",
-    "happenedAt": "2026-08-17T01:56:44.005Z",
-    "accountStatus": "deleted",
-    "isDeleted": true
   }
 ]
