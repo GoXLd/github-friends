@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:bittensorrider:2026-11-17T08:00:59.471Z",
+    "type": "follower_lost",
+    "login": "bittensorrider",
+    "htmlUrl": "https://github.com/bittensorrider",
+    "happenedAt": "2026-11-17T08:00:59.471Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:kozmikfon:2026-11-16T22:13:34.475Z",
     "type": "follower_gained",
     "login": "Kozmikfon",
@@ -13245,47 +13254,5 @@
     "login": "yebtimothy",
     "htmlUrl": "https://github.com/yebtimothy",
     "happenedAt": "2026-08-19T13:12:08.228Z"
-  },
-  {
-    "id": "follower_gained:khronos224:2026-08-19T07:07:38.560Z",
-    "type": "follower_gained",
-    "login": "khronos224",
-    "htmlUrl": "https://github.com/khronos224",
-    "happenedAt": "2026-08-19T07:07:38.560Z"
-  },
-  {
-    "id": "follower_gained:giorgi014:2026-08-19T01:54:34.248Z",
-    "type": "follower_gained",
-    "login": "Giorgi014",
-    "htmlUrl": "https://github.com/Giorgi014",
-    "happenedAt": "2026-08-19T01:54:34.248Z"
-  },
-  {
-    "id": "follower_gained:journaltraces:2026-08-19T01:54:34.248Z",
-    "type": "follower_gained",
-    "login": "journaltraces",
-    "htmlUrl": "https://github.com/journaltraces",
-    "happenedAt": "2026-08-19T01:54:34.248Z"
-  },
-  {
-    "id": "follower_gained:magic-abracadabra:2026-08-19T01:54:34.248Z",
-    "type": "follower_gained",
-    "login": "Magic-Abracadabra",
-    "htmlUrl": "https://github.com/Magic-Abracadabra",
-    "happenedAt": "2026-08-19T01:54:34.248Z"
-  },
-  {
-    "id": "follower_gained:supercodeartisan:2026-08-19T01:54:34.248Z",
-    "type": "follower_gained",
-    "login": "supercodeartisan",
-    "htmlUrl": "https://github.com/supercodeartisan",
-    "happenedAt": "2026-08-19T01:54:34.248Z"
-  },
-  {
-    "id": "follower_gained:superfamily-kents:2026-08-19T01:54:34.248Z",
-    "type": "follower_gained",
-    "login": "Superfamily-kents",
-    "htmlUrl": "https://github.com/Superfamily-kents",
-    "happenedAt": "2026-08-19T01:54:34.248Z"
   }
 ]
