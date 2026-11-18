@@ -1,5 +1,33 @@
 [
   {
+    "id": "you_followed:davepacheco:2026-11-18T07:37:56.361Z",
+    "type": "you_followed",
+    "login": "davepacheco",
+    "htmlUrl": "https://github.com/davepacheco",
+    "happenedAt": "2026-11-18T07:37:56.361Z"
+  },
+  {
+    "id": "you_followed:dekobon:2026-11-18T07:37:56.361Z",
+    "type": "you_followed",
+    "login": "dekobon",
+    "htmlUrl": "https://github.com/dekobon",
+    "happenedAt": "2026-11-18T07:37:56.361Z"
+  },
+  {
+    "id": "you_followed:glitchawakened:2026-11-18T07:37:56.361Z",
+    "type": "you_followed",
+    "login": "GlitchAwakened",
+    "htmlUrl": "https://github.com/GlitchAwakened",
+    "happenedAt": "2026-11-18T07:37:56.361Z"
+  },
+  {
+    "id": "you_followed:ulyssa:2026-11-18T07:37:56.361Z",
+    "type": "you_followed",
+    "login": "ulyssa",
+    "htmlUrl": "https://github.com/ulyssa",
+    "happenedAt": "2026-11-18T07:37:56.361Z"
+  },
+  {
     "id": "follower_lost:applecat88:2026-11-17T21:00:04.451Z",
     "type": "follower_lost",
     "login": "applecat88",
@@ -13033,28 +13061,5 @@
     "login": "zvoicu000",
     "htmlUrl": "https://github.com/zvoicu000",
     "happenedAt": "2026-08-20T13:13:16.673Z"
-  },
-  {
-    "id": "follower_gained:abc3dz:2026-08-20T07:08:33.072Z",
-    "type": "follower_gained",
-    "login": "abc3dz",
-    "htmlUrl": "https://github.com/abc3dz",
-    "happenedAt": "2026-08-20T07:08:33.072Z"
-  },
-  {
-    "id": "follower_lost:nour-yahyaoui:2026-08-20T07:08:33.072Z",
-    "type": "follower_lost",
-    "login": "Nour-yahyaoui",
-    "htmlUrl": "https://github.com/Nour-yahyaoui",
-    "happenedAt": "2026-08-20T07:08:33.072Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:meta-success:2026-08-20T01:53:35.041Z",
-    "type": "follower_gained",
-    "login": "meta-success",
-    "htmlUrl": "https://github.com/meta-success",
-    "happenedAt": "2026-08-20T01:53:35.041Z"
   }
 ]
