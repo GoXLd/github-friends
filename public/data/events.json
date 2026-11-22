@@ -1,5 +1,28 @@
 [
   {
+    "id": "follower_gained:notaflightrisk:2026-11-22T19:46:42.491Z",
+    "type": "follower_gained",
+    "login": "NotAFlightRisk",
+    "htmlUrl": "https://github.com/NotAFlightRisk",
+    "happenedAt": "2026-11-22T19:46:42.491Z"
+  },
+  {
+    "id": "follower_gained:white-le0pard:2026-11-22T19:46:42.491Z",
+    "type": "follower_gained",
+    "login": "White-Le0pard",
+    "htmlUrl": "https://github.com/White-Le0pard",
+    "happenedAt": "2026-11-22T19:46:42.491Z"
+  },
+  {
+    "id": "follower_lost:shemysun-ane:2026-11-22T19:46:42.491Z",
+    "type": "follower_lost",
+    "login": "ShemySUN-ane",
+    "htmlUrl": "https://github.com/ShemySUN-ane",
+    "happenedAt": "2026-11-22T19:46:42.491Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "you_followed:ahmedarif193:2026-11-21T19:23:23.778Z",
     "type": "you_followed",
     "login": "ahmedarif193",
@@ -12470,72 +12493,5 @@
     "happenedAt": "2026-08-25T01:54:30.158Z",
     "accountStatus": "deleted",
     "isDeleted": true
-  },
-  {
-    "id": "follower_gained:abdessamed-britah:2026-08-24T19:02:22.255Z",
-    "type": "follower_gained",
-    "login": "abdessamed-britah",
-    "htmlUrl": "https://github.com/abdessamed-britah",
-    "happenedAt": "2026-08-24T19:02:22.255Z"
-  },
-  {
-    "id": "follower_gained:christianr108:2026-08-24T19:02:22.255Z",
-    "type": "follower_gained",
-    "login": "christianr108",
-    "htmlUrl": "https://github.com/christianr108",
-    "happenedAt": "2026-08-24T19:02:22.255Z"
-  },
-  {
-    "id": "follower_gained:ettisafxrup:2026-08-24T19:02:22.255Z",
-    "type": "follower_gained",
-    "login": "ettisafxrup",
-    "htmlUrl": "https://github.com/ettisafxrup",
-    "happenedAt": "2026-08-24T19:02:22.255Z"
-  },
-  {
-    "id": "follower_gained:neon-x-hub:2026-08-24T19:02:22.255Z",
-    "type": "follower_gained",
-    "login": "neon-x-hub",
-    "htmlUrl": "https://github.com/neon-x-hub",
-    "happenedAt": "2026-08-24T19:02:22.255Z"
-  },
-  {
-    "id": "follower_gained:rahadbhuiya:2026-08-24T19:02:22.255Z",
-    "type": "follower_gained",
-    "login": "rahadbhuiya",
-    "htmlUrl": "https://github.com/rahadbhuiya",
-    "happenedAt": "2026-08-24T19:02:22.255Z"
-  },
-  {
-    "id": "follower_gained:wolfsunpink:2026-08-24T19:02:22.255Z",
-    "type": "follower_gained",
-    "login": "wolfsunpink",
-    "htmlUrl": "https://github.com/wolfsunpink",
-    "happenedAt": "2026-08-24T19:02:22.255Z"
-  },
-  {
-    "id": "follower_lost:rejwar:2026-08-24T19:02:22.255Z",
-    "type": "follower_lost",
-    "login": "rejwar",
-    "htmlUrl": "https://github.com/rejwar",
-    "happenedAt": "2026-08-24T19:02:22.255Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:codeyevsky:2026-08-24T13:16:00.098Z",
-    "type": "follower_gained",
-    "login": "codeyevsky",
-    "htmlUrl": "https://github.com/codeyevsky",
-    "happenedAt": "2026-08-24T13:16:00.098Z"
-  },
-  {
-    "id": "you_unfollowed:techcanvix:2026-08-24T13:16:00.098Z",
-    "type": "you_unfollowed",
-    "login": "TechCanvix",
-    "htmlUrl": "https://github.com/TechCanvix",
-    "happenedAt": "2026-08-24T13:16:00.098Z",
-    "accountStatus": null,
-    "isDeleted": false
   }
 ]
