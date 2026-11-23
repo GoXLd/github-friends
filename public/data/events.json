@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:jeallz:2026-11-23T23:58:53.455Z",
+    "type": "follower_lost",
+    "login": "jeallz",
+    "htmlUrl": "https://github.com/jeallz",
+    "happenedAt": "2026-11-23T23:58:53.455Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:notaflightrisk:2026-11-22T19:46:42.491Z",
     "type": "follower_gained",
     "login": "NotAFlightRisk",
@@ -12303,84 +12312,6 @@
     "login": "vvxlx",
     "htmlUrl": "https://github.com/vvxlx",
     "happenedAt": "2026-08-26T13:19:20.354Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:arpitrajjj:2026-08-25T18:59:48.873Z",
-    "type": "follower_gained",
-    "login": "arpitrajjj",
-    "htmlUrl": "https://github.com/arpitrajjj",
-    "happenedAt": "2026-08-25T18:59:48.873Z"
-  },
-  {
-    "id": "follower_gained:pattoodev:2026-08-25T18:59:48.873Z",
-    "type": "follower_gained",
-    "login": "PattooDev",
-    "htmlUrl": "https://github.com/PattooDev",
-    "happenedAt": "2026-08-25T18:59:48.873Z"
-  },
-  {
-    "id": "follower_lost:paren-thesis:2026-08-25T18:59:48.873Z",
-    "type": "follower_lost",
-    "login": "paren-thesis",
-    "htmlUrl": "https://github.com/paren-thesis",
-    "happenedAt": "2026-08-25T18:59:48.873Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:prowltactics:2026-08-25T18:59:48.873Z",
-    "type": "follower_lost",
-    "login": "ProwlTactics",
-    "htmlUrl": "https://github.com/ProwlTactics",
-    "happenedAt": "2026-08-25T18:59:48.873Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:anaxr:2026-08-25T13:13:34.225Z",
-    "type": "follower_gained",
-    "login": "anaxr",
-    "htmlUrl": "https://github.com/anaxr",
-    "happenedAt": "2026-08-25T13:13:34.225Z"
-  },
-  {
-    "id": "follower_gained:christianr108:2026-08-25T13:13:34.225Z",
-    "type": "follower_gained",
-    "login": "christianr108",
-    "htmlUrl": "https://github.com/christianr108",
-    "happenedAt": "2026-08-25T13:13:34.225Z"
-  },
-  {
-    "id": "follower_gained:knmlabs:2026-08-25T13:13:34.225Z",
-    "type": "follower_gained",
-    "login": "knmlabs",
-    "htmlUrl": "https://github.com/knmlabs",
-    "happenedAt": "2026-08-25T13:13:34.225Z"
-  },
-  {
-    "id": "follower_gained:lumnaire:2026-08-25T13:13:34.225Z",
-    "type": "follower_gained",
-    "login": "lumnaire",
-    "htmlUrl": "https://github.com/lumnaire",
-    "happenedAt": "2026-08-25T13:13:34.225Z"
-  },
-  {
-    "id": "follower_lost:kenjiwizard:2026-08-25T13:13:34.225Z",
-    "type": "follower_lost",
-    "login": "kenjiwizard",
-    "htmlUrl": "https://github.com/kenjiwizard",
-    "happenedAt": "2026-08-25T13:13:34.225Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:omar0219:2026-08-25T13:13:34.225Z",
-    "type": "follower_lost",
-    "login": "omar0219",
-    "htmlUrl": "https://github.com/omar0219",
-    "happenedAt": "2026-08-25T13:13:34.225Z",
     "accountStatus": null,
     "isDeleted": false
   }
