@@ -1,5 +1,14 @@
 [
   {
+    "id": "follower_lost:pwnedroot:2026-11-24T22:31:26.336Z",
+    "type": "follower_lost",
+    "login": "pwnedroot",
+    "htmlUrl": "https://github.com/pwnedroot",
+    "happenedAt": "2026-11-24T22:31:26.336Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_lost:jeallz:2026-11-23T23:58:53.455Z",
     "type": "follower_lost",
     "login": "jeallz",
@@ -12280,38 +12289,6 @@
     "login": "tiberiuichim",
     "htmlUrl": "https://github.com/tiberiuichim",
     "happenedAt": "2026-08-27T09:55:43.452Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:minatofullstack-ops:2026-08-26T20:06:45.304Z",
-    "type": "follower_gained",
-    "login": "minatofullstack-ops",
-    "htmlUrl": "https://github.com/minatofullstack-ops",
-    "happenedAt": "2026-08-26T20:06:45.304Z"
-  },
-  {
-    "id": "follower_gained:dantroline-sys:2026-08-26T13:19:20.354Z",
-    "type": "follower_gained",
-    "login": "dantroline-sys",
-    "htmlUrl": "https://github.com/dantroline-sys",
-    "happenedAt": "2026-08-26T13:19:20.354Z"
-  },
-  {
-    "id": "follower_lost:rahadbhuiya:2026-08-26T13:19:20.354Z",
-    "type": "follower_lost",
-    "login": "rahadbhuiya",
-    "htmlUrl": "https://github.com/rahadbhuiya",
-    "happenedAt": "2026-08-26T13:19:20.354Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:vvxlx:2026-08-26T13:19:20.354Z",
-    "type": "follower_lost",
-    "login": "vvxlx",
-    "htmlUrl": "https://github.com/vvxlx",
-    "happenedAt": "2026-08-26T13:19:20.354Z",
     "accountStatus": null,
     "isDeleted": false
   }
