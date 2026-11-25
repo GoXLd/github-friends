@@ -1,5 +1,19 @@
 [
   {
+    "id": "follower_gained:nai64:2026-11-25T08:44:35.687Z",
+    "type": "follower_gained",
+    "login": "Nai64",
+    "htmlUrl": "https://github.com/Nai64",
+    "happenedAt": "2026-11-25T08:44:35.687Z"
+  },
+  {
+    "id": "you_followed:nai64:2026-11-25T08:44:35.687Z",
+    "type": "you_followed",
+    "login": "Nai64",
+    "htmlUrl": "https://github.com/Nai64",
+    "happenedAt": "2026-11-25T08:44:35.687Z"
+  },
+  {
     "id": "follower_lost:pwnedroot:2026-11-24T22:31:26.336Z",
     "type": "follower_lost",
     "login": "pwnedroot",
