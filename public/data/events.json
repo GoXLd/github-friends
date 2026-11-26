@@ -1,5 +1,44 @@
 [
   {
+    "id": "follower_gained:danncode10:2026-11-26T08:29:56.486Z",
+    "type": "follower_gained",
+    "login": "Danncode10",
+    "htmlUrl": "https://github.com/Danncode10",
+    "happenedAt": "2026-11-26T08:29:56.486Z"
+  },
+  {
+    "id": "follower_gained:im-still-sorrow:2026-11-26T08:29:56.486Z",
+    "type": "follower_gained",
+    "login": "Im-still-sorrow",
+    "htmlUrl": "https://github.com/Im-still-sorrow",
+    "happenedAt": "2026-11-26T08:29:56.486Z"
+  },
+  {
+    "id": "follower_lost:saparatas:2026-11-26T08:29:56.486Z",
+    "type": "follower_lost",
+    "login": "saparatas",
+    "htmlUrl": "https://github.com/saparatas",
+    "happenedAt": "2026-11-26T08:29:56.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_followed:danncode10:2026-11-26T08:29:56.486Z",
+    "type": "you_followed",
+    "login": "Danncode10",
+    "htmlUrl": "https://github.com/Danncode10",
+    "happenedAt": "2026-11-26T08:29:56.486Z"
+  },
+  {
+    "id": "you_unfollowed:yhonaach:2026-11-26T08:29:56.486Z",
+    "type": "you_unfollowed",
+    "login": "yhonaach",
+    "htmlUrl": "https://github.com/yhonaach",
+    "happenedAt": "2026-11-26T08:29:56.486Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:farhanshn:2026-11-25T21:46:37.662Z",
     "type": "follower_gained",
     "login": "farhanshn",
@@ -12404,47 +12443,6 @@
     "login": "mrwhite4939",
     "htmlUrl": "https://github.com/mrwhite4939",
     "happenedAt": "2026-08-28T11:29:20.373Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:cummesp:2026-08-27T22:18:46.020Z",
-    "type": "follower_gained",
-    "login": "cummesp",
-    "htmlUrl": "https://github.com/cummesp",
-    "happenedAt": "2026-08-27T22:18:46.020Z"
-  },
-  {
-    "id": "follower_gained:haalingham:2026-08-27T22:18:46.020Z",
-    "type": "follower_gained",
-    "login": "Haalingham",
-    "htmlUrl": "https://github.com/Haalingham",
-    "happenedAt": "2026-08-27T22:18:46.020Z"
-  },
-  {
-    "id": "follower_lost:chrono-stasis:2026-08-27T22:18:46.020Z",
-    "type": "follower_lost",
-    "login": "Chrono-stasis",
-    "htmlUrl": "https://github.com/Chrono-stasis",
-    "happenedAt": "2026-08-27T22:18:46.020Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:codeyevsky:2026-08-27T22:18:46.020Z",
-    "type": "follower_lost",
-    "login": "codeyevsky",
-    "htmlUrl": "https://github.com/codeyevsky",
-    "happenedAt": "2026-08-27T22:18:46.020Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:ettisafxrup:2026-08-27T22:18:46.020Z",
-    "type": "follower_lost",
-    "login": "ettisafxrup",
-    "htmlUrl": "https://github.com/ettisafxrup",
-    "happenedAt": "2026-08-27T22:18:46.020Z",
     "accountStatus": null,
     "isDeleted": false
   }
