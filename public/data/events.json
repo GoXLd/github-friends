@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:galhoom22:2026-11-26T21:39:54.531Z",
+    "type": "follower_gained",
+    "login": "Galhoom22",
+    "htmlUrl": "https://github.com/Galhoom22",
+    "happenedAt": "2026-11-26T21:39:54.531Z"
+  },
+  {
+    "id": "follower_lost:shinobi-coder701:2026-11-26T21:39:54.531Z",
+    "type": "follower_lost",
+    "login": "shinobi-coder701",
+    "htmlUrl": "https://github.com/shinobi-coder701",
+    "happenedAt": "2026-11-26T21:39:54.531Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "you_unfollowed:raviwijerathna1:2026-11-26T21:39:54.531Z",
+    "type": "you_unfollowed",
+    "login": "raviwijerathna1",
+    "htmlUrl": "https://github.com/raviwijerathna1",
+    "happenedAt": "2026-11-26T21:39:54.531Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:danncode10:2026-11-26T08:29:56.486Z",
     "type": "follower_gained",
     "login": "Danncode10",
@@ -12427,22 +12452,6 @@
     "login": "dineshsinghdhami",
     "htmlUrl": "https://github.com/dineshsinghdhami",
     "happenedAt": "2026-08-28T22:25:11.599Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:berserk-hub150:2026-08-28T11:29:20.373Z",
-    "type": "follower_gained",
-    "login": "Berserk-hub150",
-    "htmlUrl": "https://github.com/Berserk-hub150",
-    "happenedAt": "2026-08-28T11:29:20.373Z"
-  },
-  {
-    "id": "follower_lost:mrwhite4939:2026-08-28T11:29:20.373Z",
-    "type": "follower_lost",
-    "login": "mrwhite4939",
-    "htmlUrl": "https://github.com/mrwhite4939",
-    "happenedAt": "2026-08-28T11:29:20.373Z",
     "accountStatus": null,
     "isDeleted": false
   }
