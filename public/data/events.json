@@ -1,5 +1,12 @@
 [
   {
+    "id": "follower_gained:git-fed:2026-11-27T21:24:19.207Z",
+    "type": "follower_gained",
+    "login": "Git-FED",
+    "htmlUrl": "https://github.com/Git-FED",
+    "happenedAt": "2026-11-27T21:24:19.207Z"
+  },
+  {
     "id": "follower_gained:paulkabyn:2026-11-27T08:43:52.707Z",
     "type": "follower_gained",
     "login": "PaulKabyn",
@@ -12397,40 +12404,6 @@
     "login": "TarmacDenter",
     "htmlUrl": "https://github.com/TarmacDenter",
     "happenedAt": "2026-08-30T05:29:34.031Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:ettisafxrup:2026-08-29T16:45:45.556Z",
-    "type": "follower_lost",
-    "login": "ettisafxrup",
-    "htmlUrl": "https://github.com/ettisafxrup",
-    "happenedAt": "2026-08-29T16:45:45.556Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_lost:mulandii:2026-08-29T16:45:45.556Z",
-    "type": "follower_lost",
-    "login": "Mulandii",
-    "htmlUrl": "https://github.com/Mulandii",
-    "happenedAt": "2026-08-29T16:45:45.556Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "you_followed:aka7880-721:2026-08-29T16:45:45.556Z",
-    "type": "you_followed",
-    "login": "aka7880-721",
-    "htmlUrl": "https://github.com/aka7880-721",
-    "happenedAt": "2026-08-29T16:45:45.556Z"
-  },
-  {
-    "id": "you_unfollowed:aka-riku-arman:2026-08-29T16:45:45.556Z",
-    "type": "you_unfollowed",
-    "login": "aka-riku-arman",
-    "htmlUrl": "https://github.com/aka-riku-arman",
-    "happenedAt": "2026-08-29T16:45:45.556Z",
     "accountStatus": null,
     "isDeleted": false
   }
