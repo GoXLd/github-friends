@@ -1,5 +1,30 @@
 [
   {
+    "id": "follower_gained:paulkabyn:2026-11-27T08:43:52.707Z",
+    "type": "follower_gained",
+    "login": "PaulKabyn",
+    "htmlUrl": "https://github.com/PaulKabyn",
+    "happenedAt": "2026-11-27T08:43:52.707Z"
+  },
+  {
+    "id": "follower_lost:farhanshn:2026-11-27T08:43:52.707Z",
+    "type": "follower_lost",
+    "login": "farhanshn",
+    "htmlUrl": "https://github.com/farhanshn",
+    "happenedAt": "2026-11-27T08:43:52.707Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
+    "id": "follower_lost:git-fed:2026-11-27T08:43:52.707Z",
+    "type": "follower_lost",
+    "login": "Git-FED",
+    "htmlUrl": "https://github.com/Git-FED",
+    "happenedAt": "2026-11-27T08:43:52.707Z",
+    "accountStatus": null,
+    "isDeleted": false
+  },
+  {
     "id": "follower_gained:galhoom22:2026-11-26T21:39:54.531Z",
     "type": "follower_gained",
     "login": "Galhoom22",
@@ -12406,52 +12431,6 @@
     "login": "aka-riku-arman",
     "htmlUrl": "https://github.com/aka-riku-arman",
     "happenedAt": "2026-08-29T16:45:45.556Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:schvmi:2026-08-29T07:08:30.833Z",
-    "type": "follower_gained",
-    "login": "schvmi",
-    "htmlUrl": "https://github.com/schvmi",
-    "happenedAt": "2026-08-29T07:08:30.833Z"
-  },
-  {
-    "id": "follower_gained:supercodeartisan:2026-08-29T07:08:30.833Z",
-    "type": "follower_gained",
-    "login": "supercodeartisan",
-    "htmlUrl": "https://github.com/supercodeartisan",
-    "happenedAt": "2026-08-29T07:08:30.833Z"
-  },
-  {
-    "id": "follower_lost:detectiveslashgenius:2026-08-29T07:08:30.833Z",
-    "type": "follower_lost",
-    "login": "detectiveslashgenius",
-    "htmlUrl": "https://github.com/detectiveslashgenius",
-    "happenedAt": "2026-08-29T07:08:30.833Z",
-    "accountStatus": null,
-    "isDeleted": false
-  },
-  {
-    "id": "follower_gained:danncode10:2026-08-28T22:25:11.599Z",
-    "type": "follower_gained",
-    "login": "Danncode10",
-    "htmlUrl": "https://github.com/Danncode10",
-    "happenedAt": "2026-08-28T22:25:11.599Z"
-  },
-  {
-    "id": "follower_gained:ettisafxrup:2026-08-28T22:25:11.599Z",
-    "type": "follower_gained",
-    "login": "ettisafxrup",
-    "htmlUrl": "https://github.com/ettisafxrup",
-    "happenedAt": "2026-08-28T22:25:11.599Z"
-  },
-  {
-    "id": "follower_lost:dineshsinghdhami:2026-08-28T22:25:11.599Z",
-    "type": "follower_lost",
-    "login": "dineshsinghdhami",
-    "htmlUrl": "https://github.com/dineshsinghdhami",
-    "happenedAt": "2026-08-28T22:25:11.599Z",
     "accountStatus": null,
     "isDeleted": false
   }
